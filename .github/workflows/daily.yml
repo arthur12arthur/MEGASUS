@@ -33,10 +33,16 @@ on:
         description: "Mode essai (rien n'est envoye)"
         required: false
         default: "true"
+      telegram_test:
+        description: "Envoyer un unique message de test Telegram réel"
+        required: false
+        default: "false"
 
 concurrency:
   group: hyperion-daily
   cancel-in-progress: false
+permissions:
+  contents: write
 
 jobs:
   analyse:
@@ -69,6 +75,17 @@ jobs:
           curl --fail --silent --show-error --get \
             --data-urlencode "chat_id=${HYPERION_TELEGRAM_CHAT_ID}" \
             "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/getChat" >/dev/null
+
+      - name: Test réel Telegram (sur demande)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.telegram_test == 'true'
+        env:
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+        run: |
+          curl --fail --silent --show-error --request POST \
+            --data-urlencode "chat_id=${HYPERION_TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=Hyperion : test réel Telegram réussi — aucune analyse envoyée." \
+            "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/sendMessage" >/dev/null
 
       - name: Analyse de la course du jour
         env:
