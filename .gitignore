@@ -1,0 +1,52 @@
+# ---- Systèmes d'exploitation ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ---- Éditeurs / IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ---- Secrets & config locale ----
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+
+# ---- Logs & temporaires ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ---- Dépendances (Python / Node) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# ---- Builds & artefacts ----
+build/
+dist/
+out/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
