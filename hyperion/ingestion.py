@@ -467,6 +467,16 @@ class LonabProvider:
     def fetch(self, date: dt.date | None = None) -> Race:
         target = date or dt.date.today()
         if not self.settings.lonab_url:
+            # Aucune URL fournie : récupération automatique du journal du jour.
+            try:
+                from hyperion.lonab_auto import LonabAutoProvider
+
+                return LonabAutoProvider(self.settings).fetch(target)
+            except Exception as exc:  # réseau, site modifié, journal absent
+                if self.fallback is None:
+                    raise IngestionError(
+                        f"récupération automatique du journal impossible : {exc}"
+                    ) from exc
             if self.fallback is not None:
                 return self.fallback.fetch(target)
             raise IngestionError(
