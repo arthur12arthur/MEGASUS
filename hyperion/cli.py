@@ -38,7 +38,11 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     run = subparsers.add_parser("run", help="analyser une course depuis un JSON")
-    run.add_argument("--input", required=True, help="chemin du journal structuré (JSON)")
+    run.add_argument("--input", help="chemin du journal structuré (JSON)")
+    run.add_argument(
+        "--auto", action="store_true",
+        help="récupérer automatiquement le journal LONAB du jour (sans --input)",
+    )
     run.add_argument("--panel", help="JSON des pronostics du panel externe")
     run.add_argument("--odds", help="JSON des cotes les plus récentes")
     run.add_argument("--store", action="store_true", help="stocker le rapport dans data/runs")
@@ -79,7 +83,15 @@ def cmd_run(args: argparse.Namespace) -> int:
     from hyperion.storage import JsonStore
 
     settings = Settings()
-    race = JsonFileProvider(args.input).fetch(_parse_date(args.date))
+    if args.input:
+        race = JsonFileProvider(args.input).fetch(_parse_date(args.date))
+    elif args.auto:
+        from hyperion.lonab_auto import LonabAutoProvider
+
+        race = LonabAutoProvider(settings).fetch(_parse_date(args.date))
+    else:
+        print("Erreur : fournissez --input <journal.json> ou --auto.", file=sys.stderr)
+        return 2
 
     latest_odds: dict[str, float] = {}
     if args.odds:

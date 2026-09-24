@@ -310,13 +310,13 @@ class Delivery:
 
     def deliver(self, subject: str, messages: Sequence[str]) -> list[DeliveryReport]:
         """Envoie sur tous les canaux configurés."""
+        if self.settings.dry_run:
+            return [
+                DeliveryReport("dry-run", True, f"{len(messages)} message(s) non envoyés")
+            ]
         reports: list[DeliveryReport] = []
         reports.extend(self.send_telegram(messages))
         reports.extend(self.send_email(subject, messages))
-        if self.settings.dry_run:
-            reports.append(
-                DeliveryReport("dry-run", True, f"{len(messages)} message(s) non envoyés")
-            )
         return reports
 
 

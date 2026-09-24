@@ -64,10 +64,31 @@ def test_partants_reels_sans_invention():
     assert any("SWEET CHOP" in u for u in unparsed)  # cote absente : rapportée, pas devinée
 
 
+def test_gains_groupes_du_pdf_reel_ne_sont_pas_tronques():
+    row = (
+        "01 KOHAKOU            H.BOUTIN          S.GAVILAN       "
+        "HA.FER. MARQUES H.3   7   60.KG 1.1.3.9.3 58 716 31/1 33/1"
+    )
+    horses, _ = la.parse_real_horses(row)
+    assert len(horses) == 1
+    assert horses[0].name == "KOHAKOU"
+    assert horses[0].gains == 58716
+    assert horses[0].odds_pdf == 31
+
+
 def test_fetch_de_bout_en_bout(monkeypatch):
     monkeypatch.setattr(la, "_pdf_text", lambda payload: TEXT)
     race = la.LonabAutoProvider(Settings(), session=Sess()).fetch(dt.date(2026, 9, 24))
     assert len(race.horses) == 2 and race.meta.source_url.endswith("j24.pdf")
+
+
+def test_entete_pdf_reel_est_tracee():
+    text = "COMPIEGNE - PRIX DE LA BASSE AUTOMNE\n16 CONCURRENTS - 1ère COURSE"
+    header = la._REAL_HEADER.search(text)
+    number = la._REAL_RACE_NUMBER.search(text)
+    assert header and header.group("place") == "COMPIEGNE"
+    assert header.group("name") == "PRIX DE LA BASSE AUTOMNE"
+    assert number and number.group("number") == "1"
 
 
 def test_provider_sans_url_utilise_automatique(monkeypatch):
@@ -75,3 +96,22 @@ def test_provider_sans_url_utilise_automatique(monkeypatch):
     monkeypatch.setattr(la.LonabAutoProvider, "fetch", lambda self, d=None: "AUTO")
     s = Settings(); s.lonab_url = None
     assert LonabProvider(s).fetch(dt.date(2026, 9, 24)) == "AUTO"
+
+
+def test_cli_auto_utilise_le_journal_reel(monkeypatch, capsys, tmp_path):
+    from hyperion import cli
+    from hyperion.models import Race, RaceMeta
+
+    monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path))
+    horses, _ = la.parse_real_horses(TEXT + " 4 ZEUS DU BOCAGE  P. MARTIN  9 000   7/1\n")
+    race = Race(meta=RaceMeta(operator="LONAB", country="Burkina Faso",
+                              date=dt.date(2026, 9, 24), source_url="x.pdf"),
+                horses=horses, race_id="reel-20260924")
+    monkeypatch.setattr(la.LonabAutoProvider, "fetch", lambda self, d=None: race)
+    code = cli.main(["run", "--auto", "--store"])
+    assert code == 0
+
+
+def test_cli_run_sans_input_ni_auto_refuse():
+    from hyperion import cli
+    assert cli.main(["run"]) == 2

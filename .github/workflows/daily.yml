@@ -55,6 +55,18 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e ".[dev]"
 
+      - name: Vérifier la configuration Telegram
+        env:
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+        run: |
+          test -n "$HYPERION_TELEGRAM_TOKEN" || (echo "Secret HYPERION_TELEGRAM_TOKEN absent"; exit 1)
+          test -n "$HYPERION_TELEGRAM_CHAT_ID" || (echo "Secret HYPERION_TELEGRAM_CHAT_ID absent"; exit 1)
+          curl --fail --silent --show-error "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/getMe" >/dev/null
+          curl --fail --silent --show-error --get \
+            --data-urlencode "chat_id=${HYPERION_TELEGRAM_CHAT_ID}" \
+            "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/getChat" >/dev/null
+
       - name: Analyse de la course du jour
         env:
           HYPERION_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
@@ -79,9 +91,14 @@ jobs:
               --panel "data/panel_$(date -u +%F).json" \
               --store --deliver
           else
-            echo "Aucun journal structure pour aujourd'hui."
-            echo "Deposez data/journal_<date>.json (et eventuellement data/panel_<date>.json)."
-            python -m hyperion.cli demo --json || true
+            # Recuperation automatique du journal LONAB du jour (course reelle).
+            # Pas de repli sur la demo synthetique : en cas d'echec, le job
+            # echoue et le probleme est visible.
+            if [ -n "$DATE" ]; then
+              python -m hyperion.cli run --auto --date "$DATE" --store --deliver
+            else
+              python -m hyperion.cli run --auto --store --deliver
+            fi
           fi
 
       - name: Evaluation du soir

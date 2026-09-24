@@ -158,6 +158,7 @@ class TestDelivery:
         settings = Settings(**{**Settings().__dict__, "dry_run": True})
         reports = Delivery(settings).deliver("sujet", ["a", "b"])
         assert any(report.channel == "dry-run" and report.ok for report in reports)
+        assert all(report.channel == "dry-run" for report in reports)
 
     def test_messages_courts(self, simple_race):
         result = run_pipeline(simple_race, Settings())

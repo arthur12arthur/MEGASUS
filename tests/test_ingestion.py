@@ -160,14 +160,26 @@ class TestProviders:
         with pytest.raises(IngestionError):
             JsonFileProvider(tmp_path / "absent.json").fetch()
 
-    def test_lonab_sans_url_bascule_sur_le_secours(self, simple_race, tmp_path):
+    def test_lonab_sans_url_bascule_sur_le_secours(self, simple_race, tmp_path, monkeypatch):
         path = tmp_path / "journal.json"
         path.write_text(json.dumps(simple_race.as_dict()), encoding="utf-8")
+        from hyperion import lonab_auto
+
+        def fail_auto(*args, **kwargs):
+            raise IngestionError("échec réseau simulé")
+
+        monkeypatch.setattr(lonab_auto.LonabAutoProvider, "fetch", fail_auto)
         provider = LonabProvider(settings=Settings(), fallback=JsonFileProvider(path))
         race = provider.fetch()
         assert race.race_id == simple_race.race_id
 
-    def test_lonab_sans_url_sans_secours(self):
+    def test_lonab_sans_url_sans_secours(self, monkeypatch):
+        from hyperion import lonab_auto
+
+        def fail_auto(*args, **kwargs):
+            raise IngestionError("échec réseau simulé")
+
+        monkeypatch.setattr(lonab_auto.LonabAutoProvider, "fetch", fail_auto)
         with pytest.raises(IngestionError):
             LonabProvider(settings=Settings()).fetch()
 

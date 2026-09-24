@@ -77,9 +77,19 @@ def find_journal_link(html: str, wanted: dt.date, base_url: str = PROGRAMME_URL)
 # Format observé sur un vrai journal : numéro, nom, colonnes, gains, cote « x/1 ».
 _LINE = re.compile(r"^\s*(?P<num>\d{1,2})\s+(?P<rest>[A-ZÀ-ÖØ-Ý0-9][^\n]+?)\s*$", re.M)
 _GAINS_ODDS = re.compile(
-    r"(?<![\d.])(?P<gains>\d{1,3}(?: \d{3})?)\s{2,}(?P<odds>\d+(?:[.,]\d+)?)/1"
+    r"(?<![\d.])(?P<gains>\d{1,3}(?: \d{3})?)\s+(?P<odds>\d+(?:[.,]\d+)?)/1"
 )
-_DRIVER = re.compile(r"[A-Z]{1,3}(?:\.[A-Z]{0,3})+")
+_DRIVER = re.compile(r"[A-Z]{1,3}(?:\.[A-Z]{1,10})+")
+_REAL_HEADER = re.compile(
+    r"(?<![A-ZÀ-ÖØ-Ý])(?P<place>[A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý' .-]{2,})\s+-\s+"
+    r"(?P<name>PRIX\s+[A-ZÀ-ÖØ-Ý0-9' .-]+?)(?=\s*$)",
+    re.MULTILINE,
+)
+_REAL_RACE_NUMBER = re.compile(
+    r"\b\d+\s+CONCURRENTS\s+-\s+(?P<number>\d+)"
+    r"(?:[ÈE]RE|[ÈE]ME|E)?\s+COURSE\b",
+    re.IGNORECASE | re.MULTILINE,
+)
 
 
 def parse_real_horses(text: str) -> tuple[list[Horse], list[str]]:
@@ -92,7 +102,13 @@ def parse_real_horses(text: str) -> tuple[list[Horse], list[str]]:
             continue
         num = int(m.group("num"))
         rest = m.group("rest")
-        p = _GAINS_ODDS.search(rest)
+        matches = list(_GAINS_ODDS.finditer(rest))
+        # Certains PDF séparent très largement une cote précédente, ce qui
+        # peut faire matcher un chiffre isolé avant la vraie colonne des
+        # gains. Une valeur de gains groupée (ex. « 58 716 ») est prioritaire.
+        p = next((match for match in matches if " " in match.group("gains")), None)
+        if p is None and matches:
+            p = matches[0]
         if not (1 <= num <= 99) or not p:
             if 1 <= num <= 99 and len(rest.split()) >= 2:
                 unparsed.append(raw.strip()[:100])
@@ -103,7 +119,7 @@ def parse_real_horses(text: str) -> tuple[list[Horse], list[str]]:
         tokens = before.split()
         cut = next((i for i, t in enumerate(tokens) if _DRIVER.fullmatch(t)), None)
         cols = [c.strip() for c in re.split(r"\s{2,}", before) if c.strip()]
-        if cut:
+        if cut is not None:
             name = " ".join(tokens[:cut])
         else:
             name = cols[0] if cols else (tokens[0] if tokens else f"Numéro {num}")
@@ -185,7 +201,17 @@ class LonabAutoProvider:
             parsed, _ = parse_journal_text(text)
             meta = parsed.meta
             meta.source_url = link.pdf_url
-            meta.date = meta.date or target
+            # La date imprimée ailleurs dans le PDF peut correspondre à une
+            # course précédente ou à un résultat repris dans le document. La
+            # date d'identité est celle du journal sélectionné par son titre.
+            meta.date = target
+            header = _REAL_HEADER.search(text)
+            if header:
+                meta.hippodrome = meta.hippodrome or header.group("place").strip()
+                meta.name = meta.name or header.group("name").strip()
+            race_number = _REAL_RACE_NUMBER.search(text)
+            if race_number:
+                meta.race_number = meta.race_number or int(race_number.group("number"))
         except IngestionError:
             pass
         return Race(meta=meta, horses=horses, race_id=_race_id(meta, target))
