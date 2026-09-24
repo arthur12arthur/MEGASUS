@@ -26,20 +26,38 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from hyperion.analysis.discipline import detect_discipline
 from hyperion.config import Settings
-from hyperion.models import Horse, Race, RaceMeta
+from hyperion.models import Discipline, Horse, Race, RaceMeta
+from hyperion import relay
 
 #: Motifs d'identification d'un en-tête de course dans le texte du journal.
 _MEETING_RE = re.compile(
-    r"(?:R(?:ÉUNION|EUNION)?\s*)?(?P<meeting>R\d+)\s*[-–—]\s*(?P<place>[^\n]{2,60})",
+    r"(?:R(?:ÉUNION|EUNION)?\s*)?(?P<meeting>R\d+)(?:\s*C\d{1,2})?\s*[-–—]\s*(?P<place>[^\n]{2,60})",
     re.IGNORECASE,
 )
 _DATE_RE = re.compile(
     r"(?P<day>\d{1,2})[/\-.]\s*(?P<month>\d{1,2})[/\-.]\s*(?P<year>\d{2,4})"
 )
 _TIME_RE = re.compile(r"(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})")
+#: Heure de départ explicite, ex. « Départ 14h15 » (heure de Ouagadougou dans le programme LONAB).
+_START_RE = re.compile(
+    r"d[ée]part[^\d\n]{0,20}(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})", re.IGNORECASE
+)
+#: Clôture des enjeux LONAB, ex. « Clôture des paris 14h05 ».
+_CLOSE_RE = re.compile(
+    r"cl[ôo]ture[^\d\n]{0,30}(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})", re.IGNORECASE
+)
+#: Nom de l'épreuve, ex. « Prix de Bretagne » ou « Grand Prix d'Amérique ».
+_NAME_RE = re.compile(
+    r"\b((?:Grand\s+)?Prix\s[^\n—–]{2,60}?)(?=\s*(?:[—–]|$))", re.IGNORECASE | re.MULTILINE
+)
+#: Numéro de course, ex. « R1C4 » ou « Course n° 4 ».
+_RACE_NUMBER_RE = re.compile(
+    r"\bR\d+\s*C(?P<n1>\d{1,2})\b|\bcourse\s*n[°o]?\s*(?P<n2>\d{1,2})\b", re.IGNORECASE
+)
 
 #: Motif par défaut d'une ligne de partant : « 3  NOM DU CHEVAL  ...  (H/DRIVER)  cote »
 DEFAULT_PARTANT_RE = re.compile(
@@ -55,7 +73,7 @@ _DRIVER_RE = re.compile(r"\(\s*(?P<sex>[HMF])\s*/\s*(?P<driver>[^)]{2,40})\s*\)"
 #: Musique : suite de chiffres séparés de lettres, ex. « 1a2a3a ».
 _MUSIC_RE = re.compile(r"\b(?P<music>(?:\d[a-zA-Z]){2,}\d?)\b")
 #: Gains en francs CFA, ex. « 1 250 000 FCFA ».
-_GAINS_RE = re.compile(r"(?P<gains>\d[\d\s.,]{3,})\s*(?:F\s?CFA|FCFA|XOF)")
+_GAINS_RE = re.compile(r"(?P<gains>\d[\d\s.,]{3,})\s*(?:F\s?CFA|FCFA|XOF|€|EUR\b|euros?\b)")
 
 
 @dataclass
@@ -115,7 +133,11 @@ def verify_identity(
     expected_date: dt.date | None = None,
     settings: Settings | None = None,
 ) -> IdentityCheck:
-    """Vérifie qu'on analyse bien la bonne course (opérateur, pays, date)."""
+    """Vérifie qu'on analyse bien la bonne course.
+
+    Opérateur et pays = ceux du MARCHÉ (LONAB, Burkina Faso) ; pays de la
+    course = France (la LONAB est un relais) ; date demandée.
+    """
     settings = settings or Settings()
     reasons: list[str] = []
 
@@ -141,6 +163,15 @@ def verify_identity(
     else:
         reasons.append("pays non identifié")
 
+    race_country = (meta.race_country or "").lower()
+    if race_country:
+        allowed_race = [c.lower() for c in settings.allowed_race_countries]
+        if not any(token in race_country for token in allowed_race):
+            reasons.append(
+                f"course courue en '{meta.race_country}' : la LONAB relaie les "
+                f"courses de {', '.join(settings.allowed_race_countries)}"
+            )
+
     if expected_date and meta.date and meta.date != expected_date:
         reasons.append(
             f"date du journal ({meta.date.isoformat()}) différente de la date "
@@ -160,8 +191,12 @@ def parse_journal_text(
     race_type: Any = None,
     free_text: str = "",
     partant_re: re.Pattern[str] | None = None,
+    programme_tz: str = relay.RELAY_TZ,
 ) -> tuple[Race, ParseReport]:
     """Analyse le texte d'un journal hippique en course structurée.
+
+    Les heures du programme LONAB sont lues dans ``programme_tz`` (heure de
+    Ouagadougou par défaut) ; la course se déroule en France.
 
     Le rendu exact d'un PDF LONAB/PMU'B doit être validé sur un document réel :
     les expressions sont surchargeables via ``partant_re``. Toute ligne non
@@ -185,7 +220,8 @@ def parse_journal_text(
     match = _MEETING_RE.search(text)
     if match:
         meeting = match.group("meeting").upper()
-        hippodrome = match.group("place").strip(" -–—")
+        # « PARIS-VINCENNES — Départ 14h15 » -> « PARIS-VINCENNES »
+        hippodrome = re.split(r"\s[-–—]\s", match.group("place"))[0].strip(" -–—")
 
     date_match = _DATE_RE.search(text)
     if date_match:
@@ -203,22 +239,51 @@ def parse_journal_text(
     if distance_match:
         distance_m = int(distance_match.group("m"))
 
-    time_match = _TIME_RE.search(text)
-    if time_match and race_date:
+    def _at(found: re.Match[str] | None) -> dt.datetime | None:
+        if not found or not race_date:
+            return None
         try:
-            start_time = dt.datetime(
-                race_date.year,
-                race_date.month,
-                race_date.day,
-                int(time_match.group("hour")),
-                int(time_match.group("minute")),
-                tzinfo=dt.timezone.utc,
+            return dt.datetime(
+                race_date.year, race_date.month, race_date.day,
+                int(found.group("hour")), int(found.group("minute")),
+                tzinfo=ZoneInfo(programme_tz),
             )
         except ValueError:
-            report.warnings.append("heure de départ illisible")
+            return None
+
+    # « Départ 14h15 » est prioritaire ; à défaut, première heure du texte
+    # qui n'est pas celle de la clôture.
+    close_match = _CLOSE_RE.search(text)
+    betting_close = _at(close_match)
+    start_match = _START_RE.search(text)
+    if start_match is None:
+        for candidate in _TIME_RE.finditer(text):
+            if close_match and close_match.start() <= candidate.start() < close_match.end():
+                continue
+            start_match = candidate
+            break
+    start_time = _at(start_match)
+    if start_match and start_time is None:
+        report.warnings.append("heure de départ illisible")
+
+    race_number = None
+    number_match = _RACE_NUMBER_RE.search(text)
+    if number_match:
+        race_number = int(number_match.group("n1") or number_match.group("n2"))
+
+    name_match = _NAME_RE.search(text)
+    race_name = name_match.group(1).strip() if name_match else None
+    bet_type = relay.normalise_game(text)
+    race_country, country_why = relay.race_country_for(hippodrome)
+    report.warnings.append(f"pays de la course : {country_why}")
 
     discipline, why = detect_discipline(race_type, free_text or text)
+    if discipline is Discipline.UNKNOWN:
+        hinted, hint_why = relay.discipline_hint(hippodrome)
+        if hinted is not None:
+            discipline, why = hinted, f"{why} ; repli hippodrome ({hint_why})"
     report.warnings.append(f"discipline : {why}")
+    report.warnings.extend(relay.consistency_warnings(hippodrome, discipline))
 
     # -- partants ----------------------------------------------------------
     pattern = partant_re or DEFAULT_PARTANT_RE
@@ -259,10 +324,15 @@ def parse_journal_text(
     meta = RaceMeta(
         operator=settings_allowed_operator(text),
         country=_guess_country(text),
+        race_country=race_country,
         meeting=meeting,
         hippodrome=hippodrome,
         date=race_date,
         start_time=start_time,
+        betting_close=betting_close,
+        bet_type=bet_type,
+        race_number=race_number,
+        name=race_name,
         distance_m=distance_m,
         discipline=discipline,
         race_type=str(race_type) if race_type is not None else None,
@@ -280,7 +350,10 @@ def settings_allowed_operator(text: str) -> str | None:
 
 
 def _guess_country(text: str) -> str | None:
+    """Pays du MARCHÉ de paris (l'opérateur relais), pas celui de la course."""
     upper = text.upper()
+    if "LONAB" in upper or "PMU'B" in upper or "PMUB" in upper:
+        return "Burkina Faso"
     for token, country in (
         ("BURKINA", "Burkina Faso"),
         ("OUAGADOUGOU", "Burkina Faso"),
@@ -329,7 +402,8 @@ def _race_id(meta: RaceMeta, date: dt.date | None) -> str:
     stamp = (date or dt.date.today()).strftime("%Y%m%d")
     where = _slug(meta.hippodrome or "inconnu")
     course = meta.race_number or 1
-    return f"{stamp}-{where}-c{course}"
+    meeting = (meta.meeting or "").lower()
+    return f"{stamp}-{where}-{meeting}c{course}" if meeting else f"{stamp}-{where}-c{course}"
 
 
 # --------------------------------------------------------------------------

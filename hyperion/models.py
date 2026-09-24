@@ -215,8 +215,11 @@ class Horse:
 class RaceMeta:
     """Métadonnées de la course — utilisées pour la vérification croisée."""
 
+    #: Opérateur relais (LONAB / PMU'B) et pays du MARCHÉ DE PARIS.
     operator: str | None = None
     country: str | None = None
+    #: Pays où la course se DÉROULE. La LONAB relaie des courses françaises.
+    race_country: str | None = "France"
     meeting: str | None = None  # R1, R2, ...
     hippodrome: str | None = None
     date: _dt.date | None = None
@@ -231,6 +234,10 @@ class RaceMeta:
     #: DisciplineDetector (module 1.3).
     race_type: str | None = None
     source_url: str | None = None
+    #: Clôture des enjeux LONAB si le programme l'imprime (sinon départ − N min).
+    betting_close: _dt.datetime | None = None
+    #: Pari PMU'B annoncé par le programme (Tiercé, Quarté, 4+1).
+    bet_type: str | None = None
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -248,6 +255,9 @@ class RaceMeta:
             "discipline": self.discipline.value,
             "race_type": self.race_type,
             "source_url": self.source_url,
+            "race_country": self.race_country,
+            "betting_close": self.betting_close.isoformat() if self.betting_close else None,
+            "bet_type": self.bet_type,
         }
 
 
@@ -294,12 +304,15 @@ class Race:
     def from_dict(cls, data: Mapping[str, Any]) -> Race:
         meta_raw = dict(data.get("meta") or {})
         meta_raw["discipline"] = Discipline(meta_raw.get("discipline", "unknown"))
-        start = meta_raw.get("start_time")
-        if isinstance(start, str) and start:
-            try:
-                meta_raw["start_time"] = _dt.datetime.fromisoformat(start)
-            except ValueError:
-                meta_raw["start_time"] = None
+        for key in ("start_time", "betting_close"):
+            value = meta_raw.get(key)
+            if isinstance(value, str) and value:
+                try:
+                    meta_raw[key] = _dt.datetime.fromisoformat(value)
+                except ValueError:
+                    meta_raw[key] = None
+        # Enregistrements antérieurs : pas de race_country -> France (relais LONAB).
+        meta_raw = {k: v for k, v in meta_raw.items() if k in RaceMeta.__dataclass_fields__}
         if isinstance(meta_raw.get("date"), str) and meta_raw["date"]:
             try:
                 meta_raw["date"] = _dt.date.fromisoformat(meta_raw["date"])

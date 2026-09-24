@@ -37,6 +37,7 @@ from hyperion.external import (
     SourcePick,
     summarise as external_summary,
 )
+from hyperion import relay
 from hyperion.models import Race
 
 
@@ -86,6 +87,11 @@ def run_pipeline(
 
     # -- 1.3 DisciplineDetector -------------------------------------------
     discipline, why = detect_discipline(race.meta.race_type, free_text=_free_text(race))
+    if discipline.value == "unknown":
+        # Dernier repli : hippodrome français mono-discipline (Auteuil, Chantilly…).
+        hinted, hint_why = relay.discipline_hint(race.meta.hippodrome)
+        if hinted is not None:
+            discipline, why = hinted, f"{why} ; repli hippodrome ({hint_why})"
     race.meta.discipline = discipline
 
     # -- 1.4 MarketWatch (AVANT le filtrage) ------------------------------
@@ -131,7 +137,10 @@ def run_pipeline(
     )
 
     # -- délai ------------------------------------------------------------
-    late = check_deadline(race, now=now, tz_name=settings.local_tz)
+    late = check_deadline(
+        race, now=now, tz_name=settings.local_tz,
+        closing_minutes=settings.lonab_closing_minutes,
+    )
 
     # -- assemblage de l'enregistrement -----------------------------------
     result = PipelineResult(
@@ -148,6 +157,22 @@ def run_pipeline(
     result.record = _build_record(result, why, divergences)
     result.blocks = _build_blocks(result, divergences)
     return result
+
+
+def _relay_context(race: Race) -> dict[str, Any]:
+    """Contexte relais explicite : course française, marché LONAB burkinabè."""
+    game = relay.lonab_game_for(race.meta.date, race.meta.bet_type)
+    return {
+        "operateur_relais": race.meta.operator or "LONAB",
+        "marche": race.meta.country or "Burkina Faso",
+        "pays_course": race.meta.race_country or relay.RACE_COUNTRY,
+        "fuseau_course": relay.RACE_TZ,
+        "fuseau_marche": relay.RELAY_TZ,
+        "pari_du_jour": game.as_dict() if game else None,
+        "coherence_hippodrome": relay.consistency_warnings(
+            race.meta.hippodrome, race.meta.discipline
+        ),
+    }
 
 
 def _build_record(
@@ -177,6 +202,7 @@ def _build_record(
         "divergences": {k: list(v) for k, v in divergences.items()},
         "confiance": result.confidence.as_dict(),
         "delai": result.out_of_deadline.as_dict(),
+        "relais": _relay_context(race),
         "classement": [
             {"rang": i, "cheval": names.get(h, h), "horse_id": h}
             for i, h in enumerate(result.consensus.ranking, start=1)

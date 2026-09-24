@@ -8,7 +8,7 @@ l'environnement (GitHub Actions secrets en automatisation).
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -17,7 +17,9 @@ DATA_DIR = ROOT / "data"
 RUNS_DIR = DATA_DIR / "runs"
 SAMPLES_DIR = DATA_DIR / "samples"
 
-#: Fuseau horaire de référence pour les courses du Burkina Faso.
+#: Fuseau du marché LONAB (Burkina Faso, UTC+0) : heures du programme et
+#: heure limite de jeu. Les courses, elles, se déroulent en France
+#: (Europe/Paris) — voir hyperion/relay.py.
 LOCAL_TZ = "Africa/Ouagadougou"
 
 #: Les 12 sources du panel de référence (ordre = ordre de consultation).
@@ -100,7 +102,9 @@ class Settings:
 
     # -- exécution ---------------------------------------------------------
     data_dir: Path = DATA_DIR
-    runs_dir: Path = RUNS_DIR
+    #: Surchargeable (HYPERION_RUNS_DIR), lu à chaque instanciation : les
+    #: tests isolent ainsi leurs écritures hors du dépôt.
+    runs_dir: Path = field(default_factory=lambda: Path(_env_str("RUNS_DIR") or RUNS_DIR))
     local_tz: str = _env_str("LOCAL_TZ", LOCAL_TZ) or LOCAL_TZ
 
     # -- module 1.1 DataIngestion ------------------------------------------
@@ -110,6 +114,11 @@ class Settings:
     #: Opérateurs/pays autorisés — évite de récupérer la course d'un autre marché.
     allowed_operators: tuple[str, ...] = _env_list("ALLOWED_OPERATORS", ("LONAB", "PMU'B", "PMUB"))
     allowed_countries: tuple[str, ...] = _env_list("ALLOWED_COUNTRIES", ("Burkina Faso", "BF"))
+    #: Pays où se déroulent les courses relayées (LONAB = relais de courses françaises).
+    allowed_race_countries: tuple[str, ...] = _env_list("ALLOWED_RACE_COUNTRIES", ("France",))
+    #: Minutes entre la clôture des enjeux LONAB et le départ en France,
+    #: utilisées quand le programme n'imprime pas l'heure de clôture.
+    lonab_closing_minutes: int = _env_int("LONAB_CLOSING_MINUTES", 10)
 
     # -- module 1.2 GeminiManager ------------------------------------------
     gemini_keys: tuple[str, ...] = _env_list("GEMINI_KEYS")

@@ -23,6 +23,7 @@ import datetime as dt
 import random
 from dataclasses import dataclass, field
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from typing import Mapping
 
 from hyperion.models import Discipline, Horse, Race, RaceMeta, Shoeing
@@ -33,12 +34,22 @@ _PREFIXES = (
     "Zéphyr", "Orage", "Sirocco", "Boréal", "Faucon", "Sagesse", "Victoire",
     "Audace", "Rapide", "Noble", "Brave", "Fidèle", "Vaillant",
 )
+#: Noms fictifs à consonance française : les courses relayées par la LONAB
+#: se déroulent en France. Longueurs inchangées = tirages aléatoires inchangés.
 _SUFFIXES = (
-    "de Mai", "du Sahel", "Noir", "d'Afrique", "de l'Ouest", "Royal",
-    "du Fleuve", "Étoilé", "de Kaya", "du Plateau", "Sans Pareil",
-    "de Ouaga", "du Yatenga", "Lumière", "de l'Avenir",
+    "de Mai", "du Vivier", "Noir", "de Bretagne", "de l'Ouest", "Royal",
+    "du Fleuve", "Étoilé", "de Normandie", "du Plateau", "Sans Pareil",
+    "du Bocage", "de la Loire", "Lumière", "de l'Avenir",
 )
-_DRIVERS = ("KEITA M.", "SAWADOGO A.", "OUEDRAOGO B.", "TRAORÉ I.", "KABORÉ S.", "ZOUNGRANA P.")
+#: Drivers/jockeys fictifs (aucun nom réel, pour ne rien laisser supposer).
+_DRIVERS = ("MARTIN P.", "LEROY J.", "DUBOIS A.", "MOREAU T.", "LAURENT C.", "GIRARD F.")
+#: Hippodromes français par discipline (3 chacun, tirage stable).
+_HIPPODROMES = {
+    Discipline.TROT_ATTELE: ("Paris-Vincennes", "Enghien-Soisy", "Cabourg"),
+    Discipline.TROT_MONTE: ("Paris-Vincennes", "Caen", "Laval"),
+    Discipline.PLAT: ("ParisLongchamp", "Chantilly", "Deauville"),
+    Discipline.OBSTACLE: ("Auteuil", "Compiègne", "Pau"),
+}
 _SURFACES = ("bon", "moyen", "mauvais")
 _DISTANCES = (1400, 1600, 2100, 2150, 2500, 2700, 2850, 3200)
 
@@ -165,20 +176,24 @@ class SyntheticProvider:
             )
             market_odds[horse_id] = horses[-1].odds_pdf or 10.0
 
+        # Course française (heure de Paris), relayée par la LONAB.
         meta = RaceMeta(
             operator="LONAB",
             country="Burkina Faso",
+            race_country="France",
             meeting=f"R{index}",
-            hippodrome=rng.choice(["Ouagadougou", "Bobo-Dioulasso", "Kaya"]),
+            hippodrome=rng.choice(
+                _HIPPODROMES.get(self.discipline, _HIPPODROMES[Discipline.TROT_ATTELE])
+            ),
             date=date,
             start_time=dt.datetime(
-                date.year, date.month, date.day, 15, 0, tzinfo=dt.timezone.utc
+                date.year, date.month, date.day, 15, 15, tzinfo=ZoneInfo("Europe/Paris")
             ),
             race_number=index,
-            name=f"Prix de l'Indépendance {index}",
+            name=f"Prix d'Automne {index}",
             distance_m=rng.choice(_DISTANCES),
             terrain=rng.choice(["bon", "souple", "lourd"]),
-            prize=round(rng.uniform(500_000, 2_000_000), -3),
+            prize=round(rng.uniform(40_000, 120_000), -3),  # euros (course française)
             discipline=self.discipline,
             race_type=self.discipline.label_fr,
         )

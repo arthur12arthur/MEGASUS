@@ -32,6 +32,7 @@ from typing import Any, Mapping, Sequence
 from zoneinfo import ZoneInfo
 
 from hyperion.config import Settings
+from hyperion import relay
 from hyperion.models import Race
 
 #: Les 9 étapes du pipeline, vérifiées par la checklist d'auto-validation.
@@ -50,19 +51,32 @@ PIPELINE_STEPS: tuple[str, ...] = (
 
 @dataclass
 class OutOfDeadline:
-    """Informations de dépassement de l'heure d'arrêt des jeux."""
+    """Position de l'exécution par rapport à la clôture des enjeux LONAB.
+
+    L'heure limite n'est pas le départ en France mais la clôture des jeux
+    au Burkina Faso (environ 10 min avant). ``is_late`` est vrai dès que
+    cette clôture est passée : un rapport produit après elle n'est plus jouable.
+    """
 
     is_late: bool
     race_start: dt.datetime | None
     now: dt.datetime
     minutes_late: float = 0.0
+    betting_close: dt.datetime | None = None
+    race_started: bool = False
+    minutes_to_close: float | None = None
+    schedule: relay.RaceSchedule | None = None
 
     def as_dict(self) -> dict[str, Any]:
         return {
             "is_late": self.is_late,
             "race_start": self.race_start.isoformat() if self.race_start else None,
+            "betting_close": self.betting_close.isoformat() if self.betting_close else None,
+            "race_started": self.race_started,
             "now": self.now.isoformat(),
             "minutes_late": round(self.minutes_late, 2),
+            "minutes_to_close": None if self.minutes_to_close is None else round(self.minutes_to_close, 2),
+            "schedule": self.schedule.as_dict() if self.schedule else None,
         }
 
 
@@ -103,19 +117,47 @@ class ChecklistResult:
         }
 
 
-def check_deadline(race: Race, now: dt.datetime | None = None, tz_name: str = "Africa/Ouagadougou") -> OutOfDeadline:
-    """Détermine si la course est déjà partie au moment de l'exécution."""
+def check_deadline(
+    race: Race,
+    now: dt.datetime | None = None,
+    tz_name: str = relay.RELAY_TZ,
+    closing_minutes: int = relay.DEFAULT_CLOSING_MINUTES,
+) -> OutOfDeadline:
+    """Situe l'exécution par rapport à la clôture LONAB et au départ en France.
+
+    Une heure naïve est lue dans ``tz_name`` (heure du programme LONAB).
+    """
     tz = ZoneInfo(tz_name)
     now = now or dt.datetime.now(tz)
-    start = race.meta.start_time
-    if start is None:
-        return OutOfDeadline(is_late=False, race_start=None, now=now)
-    if start.tzinfo is None:
-        start = start.replace(tzinfo=tz)
-    delta = (now - start).total_seconds() / 60.0
-    return OutOfDeadline(
-        is_late=delta >= 0, race_start=start, now=now, minutes_late=max(0.0, delta)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=tz)
+    schedule = relay.schedule_for(
+        race.meta.start_time, race.meta.betting_close, closing_minutes, assumed_tz=tz_name
     )
+    if schedule is None:
+        return OutOfDeadline(is_late=False, race_start=None, now=now)
+    to_close = (schedule.close - now).total_seconds() / 60.0
+    return OutOfDeadline(
+        is_late=to_close <= 0,
+        race_start=schedule.start,
+        now=now,
+        minutes_late=max(0.0, -to_close),
+        betting_close=schedule.close,
+        race_started=now >= schedule.start,
+        minutes_to_close=to_close,
+        schedule=schedule,
+    )
+
+
+def format_duration(minutes: float) -> str:
+    """« 5 minutes », « 3 h 10 », « 4 jours » — lisible dans un message."""
+    minutes = max(0.0, minutes)
+    if minutes < 120:
+        return f"{minutes:.0f} minutes"
+    if minutes < 48 * 60:
+        hours, rest = divmod(int(round(minutes)), 60)
+        return f"{hours} h {rest:02d}"
+    return f"{minutes / 1440:.0f} jours"
 
 
 class Delivery:
@@ -163,16 +205,39 @@ class Delivery:
 
     def render_header(self, race: Race, late: OutOfDeadline) -> str:
         meta = race.meta
-        where = meta.hippodrome or meta.meeting or "hippodrome non précisé"
-        when = meta.start_time.isoformat() if meta.start_time else "heure non précisée"
-        head = (
-            f"🏇 HYPERION — {meta.name or 'Course du jour'}\n"
-            f"{where} · {when} · {meta.discipline.label_fr}"
-        )
+        where = meta.hippodrome or "hippodrome non précisé"
+        code = f"{meta.meeting or ''}C{meta.race_number}" if meta.race_number else (meta.meeting or "")
+        country = meta.race_country or relay.RACE_COUNTRY
+        if late.schedule is not None:
+            when = late.schedule.describe()
+        else:
+            when = "heure de départ non précisée — clôture LONAB non calculable"
+        game = relay.lonab_game_for(meta.date, meta.bet_type)
+        lines = [
+            f"🏇 MEGASUS — {meta.name or 'Course du jour'}",
+            f"{where} ({country}){' · ' + code if code else ''} · {meta.discipline.label_fr}",
+            f"Course française relayée par {meta.operator or 'LONAB'} (PMU'B) pour le Burkina Faso",
+            when,
+        ]
+        if game is not None:
+            lines.append(f"Pari PMU'B : {game.describe()}")
+        if late.minutes_to_close is not None and not late.is_late:
+            lines.append(f"⏱ {format_duration(late.minutes_to_close)} avant la clôture LONAB")
+        head = "\n".join(lines)
         if late.is_late:
+            if late.race_started:
+                why = (
+                    f"La course a déjà débuté en France "
+                    f"(clôture LONAB dépassée de {format_duration(late.minutes_late)})."
+                )
+            else:
+                why = (
+                    f"Les enjeux LONAB sont clos depuis {format_duration(late.minutes_late)} "
+                    "(la course n'est pas encore partie en France)."
+                )
             head = (
                 "⛔ ANALYSE HORS DÉLAI\n"
-                f"La course a déjà débuté il y a {late.minutes_late:.0f} minutes.\n"
+                f"{why}\n"
                 "Ce rapport est fourni à titre d'analyse rétrospective, "
                 "pas comme pronostic jouable.\n\n" + head
             )

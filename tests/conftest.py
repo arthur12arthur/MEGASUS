@@ -16,6 +16,12 @@ from hyperion.models import Discipline, Horse, Race, RaceMeta, Shoeing  # noqa: 
 from hyperion.synthetic import SyntheticProvider  # noqa: E402
 
 
+@pytest.fixture(autouse=True)
+def _runs_hors_du_depot(tmp_path, monkeypatch):
+    """Aucun test n'écrit dans data/runs/ du dépôt (réservé aux vraies analyses)."""
+    monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs-isoles"))
+
+
 @pytest.fixture
 def race_date() -> dt.date:
     return dt.date(2026, 9, 20)
@@ -128,8 +134,9 @@ def simple_race(race_date: dt.date) -> Race:
         meta=RaceMeta(
             operator="LONAB",
             country="Burkina Faso",
+            race_country="France",
             meeting="R1",
-            hippodrome="Ouagadougou",
+            hippodrome="Paris-Vincennes",
             date=race_date,
             start_time=dt.datetime(
                 race_date.year, race_date.month, race_date.day, 15, 0, tzinfo=dt.timezone.utc
@@ -143,7 +150,7 @@ def simple_race(race_date: dt.date) -> Race:
             race_type="Trot attelé",
         ),
         horses=horses,
-        race_id="20260920-ouagadougou-c1",
+        race_id="20260920-paris-vincennes-r1c1",
     )
 
 

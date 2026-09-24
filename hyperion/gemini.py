@@ -43,6 +43,11 @@ RESPONSE_SCHEMA: dict[str, Any] = {
                 "race_type": {"type": "string"},
                 "distance_m": {"type": "integer"},
                 "start_time": {"type": "string"},
+                "race_country": {"type": "string"},
+                "betting_close": {"type": "string"},
+                "bet_type": {"type": "string"},
+                "race_number": {"type": "integer"},
+                "name": {"type": "string"},
             },
         },
         "horses": {
@@ -67,6 +72,14 @@ RESPONSE_SCHEMA: dict[str, Any] = {
 
 EXTRACTION_PROMPT = """Tu extrais les données d'un journal hippique officiel.
 Retourne UNIQUEMENT un objet JSON valide, sans texte autour, sans balise markdown.
+
+Contexte : le document est un programme LONAB / PMU'B (Burkina Faso). La LONAB
+est un relais : la course se déroule en FRANCE, sur un hippodrome français.
+- "operator" / "country" : l'opérateur relais et son pays (LONAB, Burkina Faso).
+- "race_country" : le pays de la course (France), "hippodrome" : son nom exact.
+- "start_time" et "betting_close" : heures telles qu'imprimées (heure de
+  Ouagadougou), au format HH:MM ; "betting_close" = clôture des paris.
+- "bet_type" : Tiercé, Quarté ou 4+1 si le document l'indique.
 
 Schéma attendu :
 {schema}

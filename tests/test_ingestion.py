@@ -21,9 +21,9 @@ from hyperion.orchestrator import Orchestrator, SystemReport
 from hyperion.synthetic import SyntheticProvider, save_synthetic
 
 
-JOURNAL = """LONAB — JOURNAL HIPPIQUE OFFICIEL
-BURKINA FASO — Réunion R1 - Ouagadougou
-20/09/2026 — Départ 15h30 — Trot attelé 2150m — Prix de la République
+JOURNAL = """LONAB — PMU'B — JOURNAL HIPPIQUE OFFICIEL — QUARTÉ
+Réunion R1C4 - PARIS-VINCENNES — Prix de la République
+20/09/2026 — Clôture des paris 15h20 — Départ 15h30 — Trot attelé 2150m
 
 1  TONNERRE DE MAI  (H/KEITA M.)  1a2a3a  1 250 000 FCFA  3.5
 2  ECLAIR DU SAHEL  (H/SAWADOGO A.)  2a4a1a  600 000 FCFA  5.0
@@ -58,6 +58,38 @@ class TestParsing:
         assert race.meta.start_time is not None
         assert race.meta.start_time.hour == 15
         assert race.meta.start_time.minute == 30
+        # Heures du programme LONAB = heure de Ouagadougou (UTC+0).
+        assert race.meta.start_time.utcoffset() == dt.timedelta(0)
+        assert race.meta.betting_close.hour == 15
+        assert race.meta.betting_close.minute == 20
+
+    def test_course_francaise_relayee(self):
+        race, report = parse_journal_text(JOURNAL)
+        assert race.meta.hippodrome == "PARIS-VINCENNES"
+        assert race.meta.race_country == "France"
+        assert race.meta.country == "Burkina Faso"  # marché de paris
+        assert race.meta.meeting == "R1"
+        assert race.meta.race_number == 4
+        assert race.meta.bet_type == "Quarté"
+        assert race.meta.name == "Prix de la République"
+        assert race.race_id == "20260920-paris-vincennes-r1c4"
+        assert any("Paris-Vincennes" in w for w in report.warnings)
+
+    def test_depart_prioritaire_sur_cloture(self):
+        text = JOURNAL.replace("Clôture des paris 15h20 — Départ 15h30", "Départ 15h30 — clôture 15h20")
+        race, _ = parse_journal_text(text)
+        assert (race.meta.start_time.hour, race.meta.start_time.minute) == (15, 30)
+
+    def test_discipline_par_hippodrome_mono_discipline(self):
+        text = JOURNAL.replace("PARIS-VINCENNES", "AUTEUIL").replace("Trot attelé 2150m", "3600m")
+        race, report = parse_journal_text(text)
+        assert race.meta.discipline is Discipline.OBSTACLE
+        assert "repli hippodrome" in " ".join(report.warnings)
+
+    def test_incoherence_hippodrome_signalee(self):
+        race, report = parse_journal_text(JOURNAL, race_type="Plat")
+        assert race.meta.discipline is Discipline.PLAT
+        assert any("incohérence" in w for w in report.warnings)
 
     def test_race_type_conserve(self):
         race, _ = parse_journal_text(JOURNAL, race_type="Trot attelé")

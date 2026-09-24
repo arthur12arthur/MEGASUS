@@ -1,8 +1,13 @@
-# 🏇 HYPERION — Système d'analyse et de prédiction hippique
+# 🏇 MEGASUS — analyse explicable de la course française relayée par la LONAB
 
-Analyse et prédiction automatiques des courses de trot du Burkina Faso
-(LONAB / PMU'B). **100 % gratuit**, entièrement automatisable sur GitHub
-Actions, sans aucun service payant.
+MEGASUS est un système **explicable** d'analyse de la course hippique
+**française** relayée par la LONAB / PMU'B pour le marché **burkinabè**. Il
+implémente l'architecture unique *Hyperion*. **100 % gratuit**, entièrement
+automatisable sur GitHub Actions, sans aucun service payant.
+
+> **La LONAB est une source relais.** Les courses analysées se déroulent en
+> France (Vincennes, ParisLongchamp, Chantilly, Auteuil, Cagnes-sur-Mer…) ;
+> la LONAB publie le programme et prend les paris au Burkina Faso.
 
 > L'architecture complète, module par module, est décrite dans
 > **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)** — c'est la source unique
@@ -22,6 +27,35 @@ Actions, sans aucun service payant.
 | 3/5 | **Classement** | ordre probable + probabilité par position + stabilité |
 | 4/5 | **Signaux annexes** | HADES (valeur masquée) + comparaison au panel de 12 sources |
 | 5/5 | **Confiance** | indice 0–10 calculé, justifié, avec les données manquantes |
+
+Chaque chiffre du rapport est accompagné de sa justification (poids, motif
+d'élimination, écart de score, données manquantes) : rien n'est une boîte noire.
+
+---
+
+## Périmètre : course française, marché burkinabè
+
+| Élément | Valeur | Où c'est géré |
+|---|---|---|
+| Lieu de la course | **France** (hippodromes PMU) | `RaceMeta.race_country` |
+| Marché de paris | **Burkina Faso** (LONAB, PMU'B) | `RaceMeta.country` — vérifié avant analyse |
+| Heure du départ | heure de **Paris** (UTC+1 l'hiver, UTC+2 l'été) | `hyperion/relay.py` |
+| Heures du programme LONAB | heure de **Ouagadougou** (UTC+0) | lecture du PDF |
+| Heure limite pour jouer | **clôture LONAB** ≈ départ − 10 min | `HYPERION_LONAB_CLOSING_MINUTES` |
+| Pari du jour | Tiercé mer./sam. · Quarté lun./mar./jeu. · 4+1 ven./dim. et dernier mardi du mois | `relay.lonab_game_for()` |
+
+Le premier message du rapport affiche explicitement :
+`Paris-Vincennes (France) · R1C4 · Trot attelé`, puis
+`départ 14h15 à Ouagadougou (16h15 heure de Paris, écart 2 h) · clôture LONAB 14h05`,
+le pari PMU'B du jour et les minutes restantes avant la clôture. Si la clôture
+LONAB est passée — même si la course n'est pas encore partie en France — le
+rapport s'ouvre sur **« ANALYSE HORS DÉLAI »**.
+
+Sources du calendrier et des horaires : page PMU'B de la LONAB
+(<https://lonab.bf/fr/pmub>) ; exemples de programmes relayés (départ 14h15 /
+clôture 14h05 à Vincennes). Le délai de 10 minutes est une valeur observée,
+paramétrable, et remplacée par l'heure de clôture imprimée quand le programme
+la donne.
 
 ---
 
@@ -110,8 +144,9 @@ Python 3.11, 3.12 et 3.13 à chaque push.
 ## Automatisation quotidienne
 
 Le workflow `.github/workflows/daily.yml` analyse la course du jour à 09h30 UTC
-(09h30 à Ouagadougou, avant l'heure d'arrêt des jeux) et évalue le résultat
-officiel à 22h00 UTC. Aucun serveur à maintenir.
+(09h30 à Ouagadougou, 10h30 ou 11h30 à Paris selon la saison), bien avant la
+clôture LONAB des courses françaises de l'après-midi, et évalue le résultat
+officiel PMU à 22h00 UTC. Aucun serveur à maintenir.
 
 **Secrets à renseigner** (Settings → Secrets and variables → Actions) :
 

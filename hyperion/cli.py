@@ -104,7 +104,8 @@ def cmd_run(args: argparse.Namespace) -> int:
 
     if args.store:
         path = JsonStore(settings=settings).save(result.record)
-        print(f"Rapport stocké : {path.relative_to(ROOT)}", file=sys.stderr)
+        shown = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
+        print(f"Rapport stocké : {shown}", file=sys.stderr)
 
     if args.deliver:
         from hyperion.delivery import Delivery

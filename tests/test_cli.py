@@ -58,13 +58,15 @@ class TestRun:
         assert main(["run", "--input", str(journal), "--panel", str(panel), "--odds", str(odds)]) == 0
         assert "panel" in capsys.readouterr().out
 
-    def test_run_stocke_le_rapport(self, tmp_path, capsys):
+    def test_run_stocke_le_rapport(self, tmp_path, capsys, monkeypatch):
+        monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs"))
         provider = SyntheticProvider(seed=7)
         synthetic = provider.race(dt.date.today(), 1)
         journal = tmp_path / "journal.json"
         journal.write_text(json.dumps(synthetic.race.as_dict()), encoding="utf-8")
         assert main(["run", "--input", str(journal), "--store"]) == 0
         assert "stocké" in capsys.readouterr().err
+        assert list((tmp_path / "runs").rglob("*.json")), "le rapport doit aller dans HYPERION_RUNS_DIR"
 
     def test_date_invalide(self):
         from hyperion.cli import _parse_date

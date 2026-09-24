@@ -1,4 +1,4 @@
-# Hyperion — Architecture Unique
+# MEGASUS / Hyperion — Architecture Unique
 
 > **Ce fichier est la source unique de vérité.** Le code et les prompts de
 > chaque plateforme en sont des implémentations, jamais l'inverse. Toute
@@ -6,6 +6,31 @@
 
 Dépôt : <https://github.com/arthur12arthur/MEGASUS>
 Implémentation de référence : package Python `hyperion/` (V1).
+
+---
+
+## Périmètre — course française relayée par la LONAB
+
+MEGASUS est un système **explicable** d'analyse de la course **française**
+relayée par la LONAB / PMU'B pour le marché **burkinabè**. La LONAB est une
+**source relais** : elle publie le programme et prend les paris au Burkina
+Faso ; les courses se déroulent sur les hippodromes français du PMU.
+Implémentation : `hyperion/relay.py`.
+
+| Notion | Règle | Champ / fonction |
+|---|---|---|
+| Pays du marché | Burkina Faso (opérateur LONAB / PMU'B), vérifié par 1.1 | `RaceMeta.country` |
+| Pays de la course | France ; toute autre valeur est refusée par 1.1 | `RaceMeta.race_country` |
+| Fuseau de la course | `Europe/Paris` (UTC+1 hiver, UTC+2 été) | `relay.RACE_TZ` |
+| Fuseau du programme LONAB | `Africa/Ouagadougou` (UTC+0) ; une heure naïve y est lue | `relay.RELAY_TZ` |
+| Heure limite | clôture des enjeux LONAB : heure imprimée si présente, sinon départ − 10 min | `relay.schedule_for()` |
+| Pari du jour | Tiercé mer./sam. ; Quarté lun./mar./jeu. ; 4+1 ven./dim. + dernier mardi du mois ; programme prioritaire | `relay.lonab_game_for()` |
+| Hippodrome | référentiel français ; déduction de discipline **uniquement** pour les hippodromes mono-discipline (Auteuil ⇒ obstacle ; ParisLongchamp, Chantilly, Saint-Cloud, Deauville ⇒ plat) ; incohérence signalée (ex. plat à Vincennes) | `relay.discipline_hint()`, `relay.consistency_warnings()` |
+
+Sources : calendrier PMU'B publié par la LONAB (<https://lonab.bf/fr/pmub>) ;
+programmes relayés observés (Vincennes : départ 14h15, clôture 14h05, heure de
+Ouagadougou ⇒ 15h15 à Paris en hiver). Le délai de 10 min est paramétrable
+(`HYPERION_LONAB_CLOSING_MINUTES`) et doit être confirmé localement.
 
 ---
 
@@ -48,13 +73,17 @@ produire une synthèse pondérée par la fiabilité historique de chaque source.
 ### 1.1 DataIngestion
 
 **Rôle.** Récupérer le journal hippique officiel LONAB/PMU'B du jour et
-identifier sans ambiguïté la course principale du Burkina Faso.
+identifier sans ambiguïté la course principale **française** relayée ce
+jour-là par la LONAB pour le Burkina Faso.
 
 **Entrées.** URL/scraper LONAB, date du jour.
-**Sorties.** Course structurée + métadonnées (opérateur, réunion, hippodrome,
-date/heure) + `ParseReport` de traçabilité.
+**Sorties.** Course structurée + métadonnées (opérateur relais, pays du
+marché, pays de la course, réunion R/C, hippodrome français, date, départ et
+clôture LONAB conscients du fuseau, pari du jour) + `ParseReport` de
+traçabilité (dont la justification du pays et de la discipline).
 
-**Méthode.** Scraping + vérification croisée opérateur/pays pour éviter de
+**Méthode.** Scraping + vérification croisée opérateur / pays du marché /
+pays de la course (France) pour éviter de
 récupérer la course d'un autre marché de la zone (Côte d'Ivoire, Mali, Togo) ou
 d'un autre jour. Trois providers, du plus fiable au plus automatisé :
 
@@ -112,8 +141,11 @@ obstacle) dès l'ingestion, pour activer la bonne grille de pondération.
 
 **Méthode.** Lecture directe du champ officiel (`FIELD_MAP`), avec
 correspondance partielle ; règle de repli par mots-clés (`DISCIPLINE_KEYWORDS`)
-si le champ est absent, vide ou non reconnu. Normalisation insensible aux
-accents et à la casse.
+si le champ est absent, vide ou non reconnu ; dernier repli sur l'hippodrome
+français **seulement s'il est mono-discipline** (Vincennes, attelé ou monté,
+ne permet aucune déduction). Une discipline incompatible avec l'hippodrome est
+signalée, jamais corrigée en silence. Normalisation insensible aux accents et
+à la casse.
 
 **Statut.** Nouveau module — premier pas léger vers des sous-modèles complets
 par discipline, sans attendre un échantillon de backtest suffisant pour
@@ -386,10 +418,12 @@ par une **checklist d'auto-validation** portant sur les 9 étapes du pipeline,
 la séparation des deux scores et la justification de l'indice de confiance.
 Jamais un envoi sans aucune vérification.
 
-**Délai.** L'exécution doit être complétée avant l'heure d'arrêt des jeux de la
-course (fuseau `Africa/Ouagadougou`). Si la course est déjà partie ou terminée
-au moment de l'exécution, le rapport s'ouvre sur **« ANALYSE HORS DÉLAI »**
-plutôt que de se présenter comme un rapport pré-course normal.
+**Délai.** L'exécution doit être complétée avant la **clôture des enjeux
+LONAB** (fuseau `Africa/Ouagadougou`), qui précède le départ en France.
+L'en-tête affiche le départ dans les deux fuseaux, la clôture LONAB et sa
+provenance, le pari PMU'B du jour et les minutes restantes. Si la clôture est
+passée, le rapport s'ouvre sur **« ANALYSE HORS DÉLAI »** en précisant si la
+course est déjà partie en France ou seulement close aux enjeux au Burkina.
 
 **Statut.** Canaux hétérogènes selon la plateforme (Telegram direct pour
 V6/V7/V10 ; Gmail automatisé pour les super agents) — un dashboard unique
@@ -568,7 +602,7 @@ python -m hyperion.cli evaluate                 # évaluation du soir
 
 | Fichier | Rôle |
 |---|---|
-| `data/samples/journal_2026-09-20.json` | course structurée (trot attelé, Ouagadougou) |
+| `data/samples/journal_2026-09-20.json` | course structurée synthétique (trot attelé, hippodrome français, départ 15h15 heure de Paris) |
 | `data/samples/panel_2026-09-20.json` | pronostics de 5 sources externes |
 | `data/samples/cotes_fraiches_2026-09-20.json` | cotes récentes (dérive depuis le PDF) |
 | `data/samples/resultats_2026-09-20.json` | arrivée officielle, pour l'évaluation J+1 |
@@ -598,4 +632,9 @@ autres plateformes doivent reproduire la même logique, module par module, et
 | 2026-09-24 | 1.9 | source non exploitable sous 60 % de partants retrouvés | mieux vaut aucune donnée qu'une donnée inventée |
 | 2026-09-24 | 1.10 | liste des données manquantes obligatoire | un indice élevé sur données incomplètes est trompeur |
 | 2026-09-24 | 1.12 | signature + horodatage + « ANALYSE HORS DÉLAI » | test comparatif du 20/09/2026 |
+| 2026-09-24 | périmètre | course française relayée par la LONAB : `race_country`, double fuseau, clôture LONAB, pari du jour | la LONAB est une source relais, les courses se déroulent en France |
+| 2026-09-24 | 1.1 | hippodromes, heure de départ/clôture, R/C, pari et nom de l'épreuve lus dans le programme | les heures étaient lues en UTC et les hippodromes supposés burkinabè |
+| 2026-09-24 | 1.3 | repli hippodrome mono-discipline + signalement d'incohérence | explicabilité, aucune devinette sur Vincennes |
+| 2026-09-24 | 1.12 | heure limite = clôture LONAB (≈ départ − 10 min), plus le départ | un rapport après la clôture n'est plus jouable |
+| 2026-09-24 | tests | écritures isolées hors de `data/runs/` (`HYPERION_RUNS_DIR`) | un test polluait le dépôt |
 | 2026-09-24 | 2.1 | pondération par fiabilité² avec plancher de 10 % | effet confédération sans réduire une source au silence |

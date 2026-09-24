@@ -15,6 +15,8 @@ dependencies = [
     "requests>=2.31",
     "beautifulsoup4>=4.12",
     "lxml>=4.9",
+    # Fuseaux Europe/Paris et Africa/Ouagadougou sous Windows (Linux/macOS : base système).
+    "tzdata>=2024.1; sys_platform == 'win32'",
 ]
 
 [project.optional-dependencies]

@@ -177,8 +177,50 @@ class TestDelivery:
             simple_race,
             now=dt.datetime(2026, 9, 20, 18, 0, tzinfo=dt.timezone.utc),
         )
+        # L'heure limite est la clôture LONAB (départ − 10 min), pas le départ.
         assert late.is_late
-        assert late.minutes_late == 180.0
+        assert late.race_started
+        assert late.minutes_late == 190.0
+
+    def test_cloture_lonab_passee_course_pas_partie(self, simple_race):
+        simple_race.meta.start_time = dt.datetime(2026, 9, 20, 14, 15, tzinfo=dt.timezone.utc)
+        late = check_deadline(
+            simple_race, now=dt.datetime(2026, 9, 20, 14, 10, tzinfo=dt.timezone.utc)
+        )
+        assert late.is_late and not late.race_started
+        assert late.minutes_late == 5.0
+        header = Delivery().render_header(simple_race, late)
+        assert "HORS DÉLAI" in header and "enjeux LONAB sont clos" in header
+
+    def test_heure_de_cloture_du_programme_prioritaire(self, simple_race):
+        simple_race.meta.start_time = dt.datetime(2026, 9, 20, 14, 15, tzinfo=dt.timezone.utc)
+        simple_race.meta.betting_close = dt.datetime(2026, 9, 20, 14, 0, tzinfo=dt.timezone.utc)
+        late = check_deadline(
+            simple_race, now=dt.datetime(2026, 9, 20, 14, 2, tzinfo=dt.timezone.utc)
+        )
+        assert late.is_late
+        assert late.schedule.close_source == "programme"
+
+    def test_entete_affiche_les_deux_fuseaux(self, simple_race):
+        simple_race.meta.start_time = dt.datetime(2026, 9, 20, 14, 15, tzinfo=dt.timezone.utc)
+        late = check_deadline(
+            simple_race, now=dt.datetime(2026, 9, 20, 9, 30, tzinfo=dt.timezone.utc)
+        )
+        header = Delivery().render_header(simple_race, late)
+        assert "14h15 à Ouagadougou" in header
+        assert "16h15 heure de Paris" in header  # heure d'été : +2 h
+        assert "clôture LONAB 14h05" in header
+        assert "Paris-Vincennes (France)" in header
+        assert "relayée par LONAB" in header
+        assert "4+1" in header  # dimanche 20/09/2026
+        assert "4 h 35 avant la clôture LONAB" in header
+
+    def test_format_des_durees(self):
+        from hyperion.delivery import format_duration
+
+        assert format_duration(5) == "5 minutes"
+        assert format_duration(190) == "3 h 10"
+        assert format_duration(6243) == "4 jours"
 
 
 class TestEveningEvaluation:

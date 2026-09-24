@@ -17,9 +17,11 @@ name: Analyse quotidienne
 
 on:
   schedule:
-    # 09h30 UTC = 09h30 a Ouagadougou (UTC+0), avant l'heure d'arret des jeux.
+    # 09h30 UTC = 09h30 a Ouagadougou (UTC+0) = 10h30/11h30 a Paris.
+    # Les courses sont francaises ; la limite est la cloture des enjeux LONAB
+    # (environ 10 min avant le depart), affichee dans le rapport.
     - cron: "30 9 * * *"
-    # 22h00 UTC : evaluation du soir sur le resultat officiel.
+    # 22h00 UTC : evaluation du soir sur l'arrivee officielle PMU (France).
     - cron: "0 22 * * *"
   workflow_dispatch:
     inputs:
