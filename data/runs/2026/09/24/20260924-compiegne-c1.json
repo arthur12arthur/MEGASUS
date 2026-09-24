@@ -1,0 +1,1753 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260924-compiegne-c1",
+  "date": "2026-09-24",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "COMPIEGNE",
+    "date": "2026-09-24",
+    "start_time": "2026-09-20T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE LA BASSE AUTOMNE",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMUB_DU_24-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-24T23:56:18.400136+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "kohakou",
+        "name": "KOHAKOU",
+        "odds_pdf": 31.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "persis",
+        "name": "PERSIS",
+        "odds_pdf": 37.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "victoria-colonia",
+        "name": "VICTORIA COLONIA",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "persian-grace",
+        "name": "PERSIAN GRACE",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mackaya",
+        "name": "MACKAYA",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "estivale",
+        "name": "ESTIVALE",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "vanvitelli",
+        "name": "VANVITELLI",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kianda",
+        "name": "KIANDA",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mutant-king",
+        "name": "MUTANT KING",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "city-solace",
+        "name": "CITY SOLACE",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ikotofetsy",
+        "name": "IKOTOFETSY",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "KOHAKOU (kohakou) : aucune cote récente disponible",
+      "PERSIS (persis) : aucune cote récente disponible",
+      "VICTORIA COLONIA (victoria-colonia) : aucune cote récente disponible",
+      "PERSIAN GRACE (persian-grace) : aucune cote récente disponible",
+      "MACKAYA (mackaya) : aucune cote récente disponible",
+      "ESTIVALE (estivale) : aucune cote récente disponible",
+      "VANVITELLI (vanvitelli) : aucune cote récente disponible",
+      "VICTORY PACE (victory-pace) : aucune cote récente disponible",
+      "KIANDA (kianda) : aucune cote récente disponible",
+      "MUTANT KING (mutant-king) : aucune cote récente disponible",
+      "IL MAGISTERO (il-magistero) : aucune cote récente disponible",
+      "CITY SOLACE (city-solace) : aucune cote récente disponible",
+      "BLANC CARAT (blanc-carat) : aucune cote récente disponible",
+      "IKOTOFETSY (ikotofetsy) : aucune cote récente disponible",
+      "FAOLIO (faolio) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "kohakou",
+      "persis",
+      "victoria-colonia",
+      "persian-grace",
+      "mackaya",
+      "estivale",
+      "vanvitelli",
+      "victory-pace",
+      "kianda",
+      "mutant-king",
+      "il-magistero",
+      "city-solace",
+      "blanc-carat",
+      "ikotofetsy",
+      "faolio"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kohakou",
+        "name": "KOHAKOU",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ikotofetsy",
+        "name": "IKOTOFETSY",
+        "dimensions": {
+          "historique": 9.886573356317713,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8866,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "persis",
+        "name": "PERSIS",
+        "dimensions": {
+          "historique": 9.773977891486872,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.774,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "dimensions": {
+          "historique": 9.542556076757045,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5426,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "dimensions": {
+          "historique": 9.388795651963497,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3888,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "vanvitelli",
+        "name": "VANVITELLI",
+        "dimensions": {
+          "historique": 9.38599964732722,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.386,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "persian-grace",
+        "name": "PERSIAN GRACE",
+        "dimensions": {
+          "historique": 9.373402888547723,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3734,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "city-solace",
+        "name": "CITY SOLACE",
+        "dimensions": {
+          "historique": 9.332436273222823,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3324,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "victoria-colonia",
+        "name": "VICTORIA COLONIA",
+        "dimensions": {
+          "historique": 9.311339644367795,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3113,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "dimensions": {
+          "historique": 9.283564478403969,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2836,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "dimensions": {
+          "historique": 9.202800982090055,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2028,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kianda",
+        "name": "KIANDA",
+        "dimensions": {
+          "historique": 9.081597075360934,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0816,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mackaya",
+        "name": "MACKAYA",
+        "dimensions": {
+          "historique": 9.016709450282352,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0167,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "estivale",
+        "name": "ESTIVALE",
+        "dimensions": {
+          "historique": 8.834155151797436,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8342,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mutant-king",
+        "name": "MUTANT KING",
+        "dimensions": {
+          "historique": 8.530279392277883,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.5303,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "kohakou",
+      "ikotofetsy",
+      "persis",
+      "faolio",
+      "il-magistero",
+      "vanvitelli",
+      "persian-grace",
+      "city-solace",
+      "victoria-colonia",
+      "victory-pace",
+      "blanc-carat",
+      "kianda",
+      "mackaya",
+      "estivale",
+      "mutant-king"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "kohakou": {
+          "horse_id": "kohakou",
+          "name": "KOHAKOU",
+          "p_win": 0.09166,
+          "p_top3": 0.26968,
+          "p_top5": 0.43306,
+          "expected_position": 6.7417,
+          "position_distribution": {
+            "1": 0.09166,
+            "2": 0.08972,
+            "3": 0.0883,
+            "4": 0.08326,
+            "5": 0.08012,
+            "6": 0.0789,
+            "7": 0.07578,
+            "8": 0.07114,
+            "9": 0.06894,
+            "10": 0.06086,
+            "11": 0.05652,
+            "12": 0.04912,
+            "13": 0.04476,
+            "14": 0.03686,
+            "15": 0.02406
+          }
+        },
+        "persis": {
+          "horse_id": "persis",
+          "name": "PERSIS",
+          "p_win": 0.08166,
+          "p_top3": 0.24336,
+          "p_top5": 0.39814,
+          "expected_position": 7.1549,
+          "position_distribution": {
+            "1": 0.08166,
+            "2": 0.08224,
+            "3": 0.07946,
+            "4": 0.07934,
+            "5": 0.07544,
+            "6": 0.07408,
+            "7": 0.0731,
+            "8": 0.07094,
+            "9": 0.06852,
+            "10": 0.06356,
+            "11": 0.06222,
+            "12": 0.05852,
+            "13": 0.0529,
+            "14": 0.0448,
+            "15": 0.03322
+          }
+        },
+        "victoria-colonia": {
+          "horse_id": "victoria-colonia",
+          "name": "VICTORIA COLONIA",
+          "p_win": 0.06568,
+          "p_top3": 0.19698,
+          "p_top5": 0.32934,
+          "expected_position": 8.0227,
+          "position_distribution": {
+            "1": 0.06568,
+            "2": 0.0647,
+            "3": 0.0666,
+            "4": 0.06594,
+            "5": 0.06642,
+            "6": 0.0653,
+            "7": 0.06714,
+            "8": 0.06804,
+            "9": 0.06654,
+            "10": 0.06842,
+            "11": 0.0686,
+            "12": 0.06936,
+            "13": 0.06774,
+            "14": 0.06752,
+            "15": 0.062
+          }
+        },
+        "persian-grace": {
+          "horse_id": "persian-grace",
+          "name": "PERSIAN GRACE",
+          "p_win": 0.06706,
+          "p_top3": 0.20004,
+          "p_top5": 0.33408,
+          "expected_position": 7.9411,
+          "position_distribution": {
+            "1": 0.06706,
+            "2": 0.06742,
+            "3": 0.06556,
+            "4": 0.0677,
+            "5": 0.06634,
+            "6": 0.07048,
+            "7": 0.06584,
+            "8": 0.06772,
+            "9": 0.06616,
+            "10": 0.06864,
+            "11": 0.06702,
+            "12": 0.0681,
+            "13": 0.06782,
+            "14": 0.06552,
+            "15": 0.05862
+          }
+        },
+        "mackaya": {
+          "horse_id": "mackaya",
+          "name": "MACKAYA",
+          "p_win": 0.05698,
+          "p_top3": 0.16934,
+          "p_top5": 0.2883,
+          "expected_position": 8.5898,
+          "position_distribution": {
+            "1": 0.05698,
+            "2": 0.05538,
+            "3": 0.05698,
+            "4": 0.05916,
+            "5": 0.0598,
+            "6": 0.06152,
+            "7": 0.06344,
+            "8": 0.0631,
+            "9": 0.06508,
+            "10": 0.066,
+            "11": 0.07058,
+            "12": 0.0734,
+            "13": 0.07576,
+            "14": 0.08258,
+            "15": 0.09024
+          }
+        },
+        "estivale": {
+          "horse_id": "estivale",
+          "name": "ESTIVALE",
+          "p_win": 0.05128,
+          "p_top3": 0.1565,
+          "p_top5": 0.26554,
+          "expected_position": 8.9491,
+          "position_distribution": {
+            "1": 0.05128,
+            "2": 0.05222,
+            "3": 0.053,
+            "4": 0.05444,
+            "5": 0.0546,
+            "6": 0.0556,
+            "7": 0.06112,
+            "8": 0.06012,
+            "9": 0.06226,
+            "10": 0.06502,
+            "11": 0.07092,
+            "12": 0.07526,
+            "13": 0.08266,
+            "14": 0.08964,
+            "15": 0.11186
+          }
+        },
+        "vanvitelli": {
+          "horse_id": "vanvitelli",
+          "name": "VANVITELLI",
+          "p_win": 0.06858,
+          "p_top3": 0.20306,
+          "p_top5": 0.3391,
+          "expected_position": 7.8891,
+          "position_distribution": {
+            "1": 0.06858,
+            "2": 0.06686,
+            "3": 0.06762,
+            "4": 0.06886,
+            "5": 0.06718,
+            "6": 0.06888,
+            "7": 0.06654,
+            "8": 0.06732,
+            "9": 0.0682,
+            "10": 0.06824,
+            "11": 0.06758,
+            "12": 0.06626,
+            "13": 0.06636,
+            "14": 0.06516,
+            "15": 0.05636
+          }
+        },
+        "victory-pace": {
+          "horse_id": "victory-pace",
+          "name": "VICTORY PACE",
+          "p_win": 0.06316,
+          "p_top3": 0.18968,
+          "p_top5": 0.32212,
+          "expected_position": 8.0965,
+          "position_distribution": {
+            "1": 0.06316,
+            "2": 0.06362,
+            "3": 0.0629,
+            "4": 0.0656,
+            "5": 0.06684,
+            "6": 0.06632,
+            "7": 0.0667,
+            "8": 0.06954,
+            "9": 0.06736,
+            "10": 0.06886,
+            "11": 0.06834,
+            "12": 0.06836,
+            "13": 0.06754,
+            "14": 0.0682,
+            "15": 0.06666
+          }
+        },
+        "kianda": {
+          "horse_id": "kianda",
+          "name": "KIANDA",
+          "p_win": 0.05834,
+          "p_top3": 0.17716,
+          "p_top5": 0.30016,
+          "expected_position": 8.4377,
+          "position_distribution": {
+            "1": 0.05834,
+            "2": 0.06064,
+            "3": 0.05818,
+            "4": 0.06084,
+            "5": 0.06216,
+            "6": 0.0609,
+            "7": 0.06492,
+            "8": 0.06338,
+            "9": 0.06552,
+            "10": 0.06868,
+            "11": 0.0701,
+            "12": 0.07244,
+            "13": 0.0725,
+            "14": 0.07784,
+            "15": 0.08356
+          }
+        },
+        "mutant-king": {
+          "horse_id": "mutant-king",
+          "name": "MUTANT KING",
+          "p_win": 0.04306,
+          "p_top3": 0.13472,
+          "p_top5": 0.23018,
+          "expected_position": 9.4949,
+          "position_distribution": {
+            "1": 0.04306,
+            "2": 0.04554,
+            "3": 0.04612,
+            "4": 0.04816,
+            "5": 0.0473,
+            "6": 0.0514,
+            "7": 0.05372,
+            "8": 0.05766,
+            "9": 0.06062,
+            "10": 0.06358,
+            "11": 0.0683,
+            "12": 0.07624,
+            "13": 0.0859,
+            "14": 0.10276,
+            "15": 0.14964
+          }
+        },
+        "il-magistero": {
+          "horse_id": "il-magistero",
+          "name": "IL MAGISTERO",
+          "p_win": 0.06688,
+          "p_top3": 0.20246,
+          "p_top5": 0.33864,
+          "expected_position": 7.8963,
+          "position_distribution": {
+            "1": 0.06688,
+            "2": 0.06658,
+            "3": 0.069,
+            "4": 0.06708,
+            "5": 0.0691,
+            "6": 0.06684,
+            "7": 0.06776,
+            "8": 0.06754,
+            "9": 0.07122,
+            "10": 0.06714,
+            "11": 0.06832,
+            "12": 0.06588,
+            "13": 0.06554,
+            "14": 0.06348,
+            "15": 0.05764
+          }
+        },
+        "city-solace": {
+          "horse_id": "city-solace",
+          "name": "CITY SOLACE",
+          "p_win": 0.06538,
+          "p_top3": 0.19618,
+          "p_top5": 0.33004,
+          "expected_position": 7.9938,
+          "position_distribution": {
+            "1": 0.06538,
+            "2": 0.06536,
+            "3": 0.06544,
+            "4": 0.06552,
+            "5": 0.06834,
+            "6": 0.06692,
+            "7": 0.06704,
+            "8": 0.06928,
+            "9": 0.0679,
+            "10": 0.06854,
+            "11": 0.06724,
+            "12": 0.06834,
+            "13": 0.06906,
+            "14": 0.06608,
+            "15": 0.05956
+          }
+        },
+        "blanc-carat": {
+          "horse_id": "blanc-carat",
+          "name": "BLANC CARAT",
+          "p_win": 0.06114,
+          "p_top3": 0.18468,
+          "p_top5": 0.31286,
+          "expected_position": 8.2391,
+          "position_distribution": {
+            "1": 0.06114,
+            "2": 0.06236,
+            "3": 0.06118,
+            "4": 0.06344,
+            "5": 0.06474,
+            "6": 0.06538,
+            "7": 0.0643,
+            "8": 0.06698,
+            "9": 0.06662,
+            "10": 0.06866,
+            "11": 0.06784,
+            "12": 0.07084,
+            "13": 0.07134,
+            "14": 0.07364,
+            "15": 0.07154
+          }
+        },
+        "ikotofetsy": {
+          "horse_id": "ikotofetsy",
+          "name": "IKOTOFETSY",
+          "p_win": 0.08496,
+          "p_top3": 0.25738,
+          "p_top5": 0.4156,
+          "expected_position": 6.97,
+          "position_distribution": {
+            "1": 0.08496,
+            "2": 0.0858,
+            "3": 0.08662,
+            "4": 0.07824,
+            "5": 0.07998,
+            "6": 0.07496,
+            "7": 0.0727,
+            "8": 0.06984,
+            "9": 0.06794,
+            "10": 0.06516,
+            "11": 0.0602,
+            "12": 0.05612,
+            "13": 0.04946,
+            "14": 0.0386,
+            "15": 0.02942
+          }
+        },
+        "faolio": {
+          "horse_id": "faolio",
+          "name": "FAOLIO",
+          "p_win": 0.07418,
+          "p_top3": 0.21878,
+          "p_top5": 0.36284,
+          "expected_position": 7.5833,
+          "position_distribution": {
+            "1": 0.07418,
+            "2": 0.07156,
+            "3": 0.07304,
+            "4": 0.07242,
+            "5": 0.07164,
+            "6": 0.07252,
+            "7": 0.0699,
+            "8": 0.0674,
+            "9": 0.06712,
+            "10": 0.06864,
+            "11": 0.06622,
+            "12": 0.06176,
+            "13": 0.06066,
+            "14": 0.05732,
+            "15": 0.04562
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "kohakou",
+          "ikotofetsy",
+          "persis"
+        ],
+        "23": [
+          "kohakou",
+          "ikotofetsy",
+          "persis"
+        ],
+        "37": [
+          "kohakou",
+          "ikotofetsy",
+          "persis"
+        ],
+        "51": [
+          "kohakou",
+          "ikotofetsy",
+          "persis"
+        ],
+        "73": [
+          "kohakou",
+          "ikotofetsy",
+          "persis"
+        ]
+      },
+      "reference_top": [
+        "ikotofetsy",
+        "kohakou",
+        "persis"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "kohakou": 10.0,
+        "ikotofetsy": 5.0,
+        "persis": 0.0
+      },
+      "order": [
+        "kohakou",
+        "ikotofetsy",
+        "persis"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kohakou": 14.0,
+        "ikotofetsy": 13.0,
+        "persis": 12.0,
+        "faolio": 11.0,
+        "il-magistero": 10.0,
+        "vanvitelli": 9.0,
+        "persian-grace": 8.0,
+        "city-solace": 7.0,
+        "victoria-colonia": 6.0,
+        "victory-pace": 5.0,
+        "blanc-carat": 4.0,
+        "kianda": 3.0,
+        "mackaya": 2.0,
+        "estivale": 1.0,
+        "mutant-king": 0.0
+      },
+      "order": [
+        "kohakou",
+        "ikotofetsy",
+        "persis",
+        "faolio",
+        "il-magistero",
+        "vanvitelli",
+        "persian-grace",
+        "city-solace",
+        "victoria-colonia",
+        "victory-pace",
+        "blanc-carat",
+        "kianda",
+        "mackaya",
+        "estivale",
+        "mutant-king"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "kohakou",
+        "ikotofetsy",
+        "persis",
+        "faolio",
+        "il-magistero",
+        "vanvitelli",
+        "persian-grace",
+        "city-solace",
+        "victoria-colonia",
+        "victory-pace",
+        "blanc-carat",
+        "kianda",
+        "mackaya",
+        "estivale",
+        "mutant-king"
+      ],
+      "copeland": {
+        "kohakou": 14.0,
+        "ikotofetsy": 12.0,
+        "persis": 10.0,
+        "faolio": 8.0,
+        "vanvitelli": 5.5,
+        "il-magistero": 5.5,
+        "persian-grace": 2.0,
+        "city-solace": 0.0,
+        "victoria-colonia": -2.0,
+        "victory-pace": -4.0,
+        "blanc-carat": -6.0,
+        "kianda": -8.0,
+        "mackaya": -10.0,
+        "estivale": -12.0,
+        "mutant-king": -14.0
+      },
+      "normalized": {
+        "kohakou": 1.0,
+        "ikotofetsy": 0.9286,
+        "persis": 0.8571,
+        "faolio": 0.7857,
+        "vanvitelli": 0.6964,
+        "il-magistero": 0.6964,
+        "persian-grace": 0.5714,
+        "city-solace": 0.5,
+        "victoria-colonia": 0.4286,
+        "victory-pace": 0.3571,
+        "blanc-carat": 0.2857,
+        "kianda": 0.2143,
+        "mackaya": 0.1429,
+        "estivale": 0.0714,
+        "mutant-king": 0.0
+      },
+      "mean_rank": {
+        "kohakou": 0.0,
+        "ikotofetsy": 1.0,
+        "persis": 2.0,
+        "faolio": 3.0,
+        "vanvitelli": 4.5,
+        "il-magistero": 4.5,
+        "persian-grace": 6.0,
+        "city-solace": 7.0,
+        "victoria-colonia": 8.0,
+        "victory-pace": 9.0,
+        "blanc-carat": 10.0,
+        "kianda": 11.0,
+        "mackaya": 12.0,
+        "estivale": 13.0,
+        "mutant-king": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "kohakou",
+        "name": "KOHAKOU",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 1 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "persis",
+        "name": "PERSIS",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "victoria-colonia",
+        "name": "VICTORIA COLONIA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "persian-grace",
+        "name": "PERSIAN GRACE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mackaya",
+        "name": "MACKAYA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "estivale",
+        "name": "ESTIVALE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "vanvitelli",
+        "name": "VANVITELLI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kianda",
+        "name": "KIANDA",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 12 vs marché 15)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mutant-king",
+        "name": "MUTANT KING",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "city-solace",
+        "name": "CITY SOLACE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ikotofetsy",
+        "name": "IKOTOFETSY",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "kohakou",
+      "persis",
+      "kianda",
+      "il-magistero",
+      "ikotofetsy"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "kohakou": 0.032339,
+      "persis": 0.027095,
+      "victoria-colonia": 0.055695,
+      "persian-grace": 0.066834,
+      "mackaya": 0.031329,
+      "estivale": 0.100251,
+      "vanvitelli": 0.058971,
+      "victory-pace": 0.143216,
+      "kianda": 0.026382,
+      "mutant-king": 0.111391,
+      "il-magistero": 0.077117,
+      "city-solace": 0.066834,
+      "blanc-carat": 0.03713,
+      "ikotofetsy": 0.040101,
+      "faolio": 0.125314
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "kohakou",
+      "ikotofetsy",
+      "persis",
+      "faolio",
+      "il-magistero"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.67,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.5671,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "KOHAKOU : recent_places",
+      "KOHAKOU : driver",
+      "KOHAKOU : aptitude",
+      "PERSIS : recent_places",
+      "PERSIS : driver",
+      "PERSIS : aptitude",
+      "VICTORIA COLONIA : recent_places",
+      "VICTORIA COLONIA : driver",
+      "VICTORIA COLONIA : aptitude",
+      "PERSIAN GRACE : recent_places",
+      "PERSIAN GRACE : driver",
+      "PERSIAN GRACE : aptitude",
+      "MACKAYA : recent_places",
+      "MACKAYA : driver",
+      "MACKAYA : aptitude",
+      "ESTIVALE : recent_places",
+      "ESTIVALE : driver",
+      "ESTIVALE : aptitude",
+      "VANVITELLI : recent_places",
+      "VANVITELLI : driver",
+      "VANVITELLI : aptitude",
+      "VICTORY PACE : recent_places",
+      "VICTORY PACE : driver",
+      "VICTORY PACE : aptitude",
+      "KIANDA : recent_places",
+      "KIANDA : driver",
+      "KIANDA : aptitude",
+      "MUTANT KING : recent_places",
+      "MUTANT KING : driver",
+      "MUTANT KING : aptitude",
+      "IL MAGISTERO : recent_places",
+      "IL MAGISTERO : driver",
+      "IL MAGISTERO : aptitude",
+      "CITY SOLACE : recent_places",
+      "CITY SOLACE : driver",
+      "CITY SOLACE : aptitude",
+      "BLANC CARAT : recent_places",
+      "BLANC CARAT : driver",
+      "BLANC CARAT : aptitude",
+      "IKOTOFETSY : recent_places",
+      "IKOTOFETSY : driver",
+      "IKOTOFETSY : aptitude",
+      "FAOLIO : recent_places",
+      "FAOLIO : driver",
+      "FAOLIO : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.6/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-20T11:55:00+00:00",
+    "betting_close": "2026-09-20T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-09-24T23:56:18.436724+00:00",
+    "minutes_late": 6491.31,
+    "minutes_to_close": -6491.31,
+    "schedule": {
+      "start_ouagadougou": "2026-09-20T11:55:00+00:00",
+      "start_paris": "2026-09-20T13:55:00+02:00",
+      "close_lonab": "2026-09-20T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "KOHAKOU",
+      "horse_id": "kohakou"
+    },
+    {
+      "rang": 2,
+      "cheval": "IKOTOFETSY",
+      "horse_id": "ikotofetsy"
+    },
+    {
+      "rang": 3,
+      "cheval": "PERSIS",
+      "horse_id": "persis"
+    },
+    {
+      "rang": 4,
+      "cheval": "FAOLIO",
+      "horse_id": "faolio"
+    },
+    {
+      "rang": 5,
+      "cheval": "IL MAGISTERO",
+      "horse_id": "il-magistero"
+    },
+    {
+      "rang": 6,
+      "cheval": "VANVITELLI",
+      "horse_id": "vanvitelli"
+    },
+    {
+      "rang": 7,
+      "cheval": "PERSIAN GRACE",
+      "horse_id": "persian-grace"
+    },
+    {
+      "rang": 8,
+      "cheval": "CITY SOLACE",
+      "horse_id": "city-solace"
+    },
+    {
+      "rang": 9,
+      "cheval": "VICTORIA COLONIA",
+      "horse_id": "victoria-colonia"
+    },
+    {
+      "rang": 10,
+      "cheval": "VICTORY PACE",
+      "horse_id": "victory-pace"
+    },
+    {
+      "rang": 11,
+      "cheval": "BLANC CARAT",
+      "horse_id": "blanc-carat"
+    },
+    {
+      "rang": 12,
+      "cheval": "KIANDA",
+      "horse_id": "kianda"
+    },
+    {
+      "rang": 13,
+      "cheval": "MACKAYA",
+      "horse_id": "mackaya"
+    },
+    {
+      "rang": 14,
+      "cheval": "ESTIVALE",
+      "horse_id": "estivale"
+    },
+    {
+      "rang": 15,
+      "cheval": "MUTANT KING",
+      "horse_id": "mutant-king"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "KOHAKOU",
+      "score": 10.0
+    },
+    {
+      "cheval": "IKOTOFETSY",
+      "score": 9.8866
+    },
+    {
+      "cheval": "PERSIS",
+      "score": 9.774
+    },
+    {
+      "cheval": "FAOLIO",
+      "score": 9.5426
+    },
+    {
+      "cheval": "IL MAGISTERO",
+      "score": 9.3888
+    },
+    {
+      "cheval": "VANVITELLI",
+      "score": 9.386
+    },
+    {
+      "cheval": "PERSIAN GRACE",
+      "score": 9.3734
+    },
+    {
+      "cheval": "CITY SOLACE",
+      "score": 9.3324
+    },
+    {
+      "cheval": "VICTORIA COLONIA",
+      "score": 9.3113
+    },
+    {
+      "cheval": "VICTORY PACE",
+      "score": 9.2836
+    },
+    {
+      "cheval": "BLANC CARAT",
+      "score": 9.2028
+    },
+    {
+      "cheval": "KIANDA",
+      "score": 9.0816
+    },
+    {
+      "cheval": "MACKAYA",
+      "score": 9.0167
+    },
+    {
+      "cheval": "ESTIVALE",
+      "score": 8.8342
+    },
+    {
+      "cheval": "MUTANT KING",
+      "score": 8.5303
+    }
+  ],
+  "stored_at": "2026-09-24T23:56:18.437969+00:00"
+}
