@@ -1,0 +1,19 @@
+[
+  {
+    "race_id": "20260920-synthetique-c1",
+    "date": "2026-09-20",
+    "order": [
+      "cheval-03",
+      "cheval-06",
+      "cheval-04",
+      "cheval-02",
+      "cheval-07",
+      "cheval-09",
+      "cheval-10",
+      "cheval-08",
+      "cheval-05",
+      "cheval-01"
+    ],
+    "source": "saisie manuelle (exemple)"
+  }
+]

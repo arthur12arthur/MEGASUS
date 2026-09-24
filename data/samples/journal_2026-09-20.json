@@ -1,0 +1,511 @@
+{
+  "race_id": "20260920-synthetique-c1",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": "R1",
+    "hippodrome": "Bobo-Dioulasso",
+    "date": "2026-09-20",
+    "start_time": "2026-09-20T15:00:00+00:00",
+    "race_number": 1,
+    "name": "Prix de l'Indépendance 1",
+    "distance_m": 1400,
+    "terrain": "lourd",
+    "prize": 910000.0,
+    "discipline": "trot_attele",
+    "race_type": "Trot attelé",
+    "source_url": null
+  },
+  "horses": [
+    {
+      "horse_id": "cheval-01",
+      "name": "Mistral Royal",
+      "number": 1,
+      "driver": "SAWADOGO A.",
+      "trainer": null,
+      "age": 6,
+      "sex": null,
+      "odds_pdf": 24.0,
+      "odds_latest": null,
+      "gains": 0.0,
+      "wins": 0,
+      "places": 0,
+      "runs": 30,
+      "recent_places": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "music": "0a0a0a0a0a",
+      "surface": {
+        "bon": 0.0,
+        "moyen": 0.0,
+        "mauvais": 0.0
+      },
+      "distance": {
+        "2100": 0.0
+      },
+      "shoeing": {
+        "label": "DP",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.0
+      },
+      "driver_stats": {
+        "win_rate": 0.0,
+        "runs": 47
+      },
+      "history_stats": {
+        "win_rate": 0.0,
+        "runs": 27,
+        "weeks_since_last_run": 5
+      },
+      "weight_kg": 59.4,
+      "non_runner": false,
+      "comment": "vient de s'imposer nettement"
+    },
+    {
+      "horse_id": "cheval-02",
+      "name": "Vaillant d'Afrique",
+      "number": 2,
+      "driver": "ZOUNGRANA P.",
+      "trainer": null,
+      "age": 8,
+      "sex": null,
+      "odds_pdf": 1.8,
+      "odds_latest": null,
+      "gains": 2938000.0,
+      "wins": 2,
+      "places": 8,
+      "runs": 29,
+      "recent_places": [
+        3,
+        0,
+        0,
+        3,
+        1
+      ],
+      "music": "1a2a3a2a0a",
+      "surface": {
+        "bon": 0.822,
+        "moyen": 0.694,
+        "mauvais": 0.633
+      },
+      "distance": {
+        "3200": 0.767
+      },
+      "shoeing": {
+        "label": "D4",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.7177866884664124
+      },
+      "driver_stats": {
+        "win_rate": 0.16187229449570711,
+        "runs": 15
+      },
+      "history_stats": {
+        "win_rate": 0.16396278769501246,
+        "runs": 6,
+        "weeks_since_last_run": 9
+      },
+      "weight_kg": 59.9,
+      "non_runner": false,
+      "comment": null
+    },
+    {
+      "horse_id": "cheval-03",
+      "name": "Éclair du Yatenga",
+      "number": 3,
+      "driver": "KABORÉ S.",
+      "trainer": null,
+      "age": 5,
+      "sex": null,
+      "odds_pdf": 2.2,
+      "odds_latest": null,
+      "gains": 2177000.0,
+      "wins": 4,
+      "places": 10,
+      "runs": 30,
+      "recent_places": [
+        2,
+        1,
+        1,
+        2,
+        3
+      ],
+      "music": "0a2a3a0a3a",
+      "surface": {
+        "bon": 0.634,
+        "moyen": 0.55,
+        "mauvais": 0.61
+      },
+      "distance": {
+        "1400": 0.582
+      },
+      "shoeing": {
+        "label": "D4 F",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.7460712825393425
+      },
+      "driver_stats": {
+        "win_rate": 0.19967745224597933,
+        "runs": 60
+      },
+      "history_stats": {
+        "win_rate": 0.1983777564546329,
+        "runs": 18,
+        "weeks_since_last_run": 6
+      },
+      "weight_kg": 55.7,
+      "non_runner": false,
+      "comment": null
+    },
+    {
+      "horse_id": "cheval-04",
+      "name": "Vent du Sahel",
+      "number": 4,
+      "driver": "OUEDRAOGO B.",
+      "trainer": null,
+      "age": 4,
+      "sex": null,
+      "odds_pdf": 3.8,
+      "odds_latest": null,
+      "gains": 3205000.0,
+      "wins": 3,
+      "places": 11,
+      "runs": 36,
+      "recent_places": [
+        2,
+        2,
+        1,
+        3,
+        1
+      ],
+      "music": "1a1a2a0a3a",
+      "surface": {
+        "bon": 0.831,
+        "moyen": 0.893,
+        "mauvais": 0.801
+      },
+      "distance": {
+        "2500": 0.831
+      },
+      "shoeing": {
+        "label": "DP",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.830577576264414
+      },
+      "driver_stats": {
+        "win_rate": 0.2313543181475713,
+        "runs": 22
+      },
+      "history_stats": {
+        "win_rate": 0.2386376960956823,
+        "runs": 3,
+        "weeks_since_last_run": 9
+      },
+      "weight_kg": 60.6,
+      "non_runner": false,
+      "comment": null
+    },
+    {
+      "horse_id": "cheval-05",
+      "name": "Tonnerre Lumière",
+      "number": 5,
+      "driver": "KABORÉ S.",
+      "trainer": null,
+      "age": 6,
+      "sex": null,
+      "odds_pdf": 7.5,
+      "odds_latest": null,
+      "gains": 22000.0,
+      "wins": 1,
+      "places": 4,
+      "runs": 9,
+      "recent_places": [
+        0,
+        0,
+        6,
+        0,
+        3
+      ],
+      "music": "0a0a3a0a0a",
+      "surface": {
+        "bon": 0.314,
+        "moyen": 0.171,
+        "mauvais": 0.324
+      },
+      "distance": {
+        "1400": 0.361
+      },
+      "shoeing": {
+        "label": "F",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.17930715400852965
+      },
+      "driver_stats": {
+        "win_rate": 0.04962291416467248,
+        "runs": 29
+      },
+      "history_stats": {
+        "win_rate": 0.0778570145233496,
+        "runs": 13,
+        "weeks_since_last_run": 20
+      },
+      "weight_kg": 60.9,
+      "non_runner": false,
+      "comment": "confirmant sa belle forme"
+    },
+    {
+      "horse_id": "cheval-06",
+      "name": "Vent Sans Pareil",
+      "number": 6,
+      "driver": "TRAORÉ I.",
+      "trainer": null,
+      "age": 9,
+      "sex": null,
+      "odds_pdf": 1.9,
+      "odds_latest": null,
+      "gains": 3608000.0,
+      "wins": 4,
+      "places": 11,
+      "runs": 27,
+      "recent_places": [
+        1,
+        1,
+        3,
+        1,
+        5
+      ],
+      "music": "4a1a0a2a3a",
+      "surface": {
+        "bon": 0.762,
+        "moyen": 0.714,
+        "mauvais": 0.852
+      },
+      "distance": {
+        "2500": 0.811
+      },
+      "shoeing": {
+        "label": "DP",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.8638367174190972
+      },
+      "driver_stats": {
+        "win_rate": 0.24042303840948406,
+        "runs": 42
+      },
+      "history_stats": {
+        "win_rate": 0.2814949364756335,
+        "runs": 12,
+        "weeks_since_last_run": 6
+      },
+      "weight_kg": 61.6,
+      "non_runner": false,
+      "comment": null
+    },
+    {
+      "horse_id": "cheval-07",
+      "name": "Fidèle du Fleuve",
+      "number": 7,
+      "driver": "ZOUNGRANA P.",
+      "trainer": null,
+      "age": 9,
+      "sex": null,
+      "odds_pdf": 2.0,
+      "odds_latest": null,
+      "gains": 2829000.0,
+      "wins": 4,
+      "places": 7,
+      "runs": 38,
+      "recent_places": [
+        0,
+        2,
+        0,
+        0,
+        3
+      ],
+      "music": "1a1a3a4a3a",
+      "surface": {
+        "bon": 0.737,
+        "moyen": 0.55,
+        "mauvais": 0.583
+      },
+      "distance": {
+        "3200": 0.712
+      },
+      "shoeing": {
+        "label": "D4",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.7535022222304915
+      },
+      "driver_stats": {
+        "win_rate": 0.14988769396918436,
+        "runs": 37
+      },
+      "history_stats": {
+        "win_rate": 0.1835862739134082,
+        "runs": 36,
+        "weeks_since_last_run": 17
+      },
+      "weight_kg": 61.7,
+      "non_runner": false,
+      "comment": "vient d'affronter les meilleurs"
+    },
+    {
+      "horse_id": "cheval-08",
+      "name": "Comète de Mai",
+      "number": 8,
+      "driver": "KABORÉ S.",
+      "trainer": null,
+      "age": 9,
+      "sex": null,
+      "odds_pdf": 3.1,
+      "odds_latest": null,
+      "gains": 2342000.0,
+      "wins": 6,
+      "places": 8,
+      "runs": 28,
+      "recent_places": [
+        1,
+        2,
+        2,
+        0,
+        0
+      ],
+      "music": "0a2a1a3a0a",
+      "surface": {
+        "bon": 0.617,
+        "moyen": 0.475,
+        "mauvais": 0.485
+      },
+      "distance": {
+        "2850": 0.675
+      },
+      "shoeing": {
+        "label": "DP",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.6585462679305343
+      },
+      "driver_stats": {
+        "win_rate": 0.1473115226550102,
+        "runs": 12
+      },
+      "history_stats": {
+        "win_rate": 0.19668485476164194,
+        "runs": 31,
+        "weeks_since_last_run": 1
+      },
+      "weight_kg": 56.4,
+      "non_runner": false,
+      "comment": "décevant en dernier lieu"
+    },
+    {
+      "horse_id": "cheval-09",
+      "name": "Vaillant Lumière",
+      "number": 9,
+      "driver": "ZOUNGRANA P.",
+      "trainer": null,
+      "age": 4,
+      "sex": null,
+      "odds_pdf": 3.8,
+      "odds_latest": null,
+      "gains": 978000.0,
+      "wins": 2,
+      "places": 6,
+      "runs": 11,
+      "recent_places": [
+        5,
+        2,
+        4,
+        3,
+        3
+      ],
+      "music": "3a0a0a3a1a",
+      "surface": {
+        "bon": 0.461,
+        "moyen": 0.636,
+        "mauvais": 0.531
+      },
+      "distance": {
+        "1600": 0.584
+      },
+      "shoeing": {
+        "label": "F",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.5606715658514136
+      },
+      "driver_stats": {
+        "win_rate": 0.1405319285884987,
+        "runs": 35
+      },
+      "history_stats": {
+        "win_rate": 0.11155490909665663,
+        "runs": 36,
+        "weeks_since_last_run": 8
+      },
+      "weight_kg": 57.8,
+      "non_runner": false,
+      "comment": null
+    },
+    {
+      "horse_id": "cheval-10",
+      "name": "Boréal de Mai",
+      "number": 10,
+      "driver": "OUEDRAOGO B.",
+      "trainer": null,
+      "age": 7,
+      "sex": null,
+      "odds_pdf": 6.1,
+      "odds_latest": null,
+      "gains": 0.0,
+      "wins": 0,
+      "places": 3,
+      "runs": 24,
+      "recent_places": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "music": "4a0a0a5a0a",
+      "surface": {
+        "bon": 0.238,
+        "moyen": 0.229,
+        "mauvais": 0.322
+      },
+      "distance": {
+        "1600": 0.178
+      },
+      "shoeing": {
+        "label": "DP",
+        "date": null,
+        "weeks_since": null,
+        "adequacy": 0.18026178451111657
+      },
+      "driver_stats": {
+        "win_rate": 0.0692659820574248,
+        "runs": 58
+      },
+      "history_stats": {
+        "win_rate": 0.0902135786815597,
+        "runs": 20,
+        "weeks_since_last_run": 16
+      },
+      "weight_kg": 56.5,
+      "non_runner": false,
+      "comment": "confirmant sa belle forme"
+    }
+  ]
+}

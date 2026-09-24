@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperion"
+version = "1.0.0"
+description = "Hyperion — système d'analyse et de prédiction hippique (architecture unique, modules 0 a 2.1)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "arthur12arthur" }]
+dependencies = [
+    "numpy>=1.24",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=4.9",
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.0"]
+dev = ["pytest>=7.4", "pypdf>=4.0"]
+
+[project.scripts]
+hyperion = "hyperion.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hyperion*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error::DeprecationWarning:hyperion.*"]
