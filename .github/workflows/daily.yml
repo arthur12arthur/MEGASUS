@@ -13,7 +13,7 @@ name: Analyse quotidienne
 #   HYPERION_MAIL_TO          adresse(s) destinataire(s), separees par des virgules
 #   HYPERION_LONAB_URL        URL du journal officiel du jour
 #   HYPERION_GEMINI_KEYS      cle(s) API Gemini, separees par des virgules
-#   HYPERION_DRY_RUN          "true" pour tester sans rien envoyer
+#   HYPERION_DRY_RUN          "true" uniquement pour simuler sans envoyer
 
 on:
   schedule:
@@ -30,9 +30,9 @@ on:
         required: false
         default: ""
       dry_run:
-        description: "Mode essai (rien n'est envoye)"
+        description: "Simulation sans Telegram (false = envoi réel par défaut)"
         required: false
-        default: "true"
+        default: "false"
       telegram_test:
         description: "Envoyer un unique message de test Telegram réel"
         required: false

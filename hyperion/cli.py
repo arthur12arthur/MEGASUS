@@ -128,6 +128,11 @@ def cmd_run(args: argparse.Namespace) -> int:
         )
         for report in reports:
             print(f"[{report.channel}] {report.ok} — {report.detail}", file=sys.stderr)
+        if not settings.dry_run and any(
+            report.channel == "telegram" and not report.ok for report in reports
+        ):
+            print("Erreur : l'envoi Telegram a échoué.", file=sys.stderr)
+            return 1
     return 0
 
 
