@@ -29,10 +29,14 @@ on:
         description: "Date a analyser (AAAA-MM-JJ, vide = aujourd'hui)"
         required: false
         default: ""
-      dry_run:
-        description: "Simulation sans Telegram (false = envoi réel par défaut)"
+      mode:
+        description: "Mode d'exécution : Réel envoie Telegram, Simulation n'envoie rien"
+        type: choice
         required: false
-        default: "false"
+        options:
+          - réel
+          - simulation
+        default: "réel"
       telegram_test:
         description: "Envoyer un unique message de test Telegram réel"
         required: false
@@ -89,7 +93,7 @@ jobs:
 
       - name: Analyse de la course du jour
         env:
-          HYPERION_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}
           HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
           HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
           HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}

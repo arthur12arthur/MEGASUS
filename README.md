@@ -149,10 +149,11 @@ clôture LONAB des courses françaises de l'après-midi, et évalue le résultat
 officiel PMU à 22h00 UTC. Aucun serveur à maintenir.
 
 L’envoi des rapports Telegram est **actif par défaut** pour les lancements
-manuels et planifiés. Pour effectuer une simulation sans envoyer de message,
-choisir explicitement `dry_run = true` dans le lancement manuel ; la valeur par
-défaut est `false`. Si Telegram refuse l’envoi, le workflow est marqué en échec
-au lieu de présenter l’analyse comme correctement livrée.
+manuels et planifiés. Dans le formulaire manuel, choisir `Réel` pour analyser
+une course réelle et recevoir le rapport ; c’est la valeur par défaut. Le choix
+`Simulation` est réservé aux essais sans envoi Telegram. Si Telegram refuse
+l’envoi, le workflow est marqué en échec au lieu de présenter l’analyse comme
+correctement livrée.
 
 **Secrets à renseigner** (Settings → Secrets and variables → Actions) :
 
