@@ -1,0 +1,2113 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260925-paris-vincennes-nocturne-c4",
+  "date": "2026-09-25",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-09-25",
+    "start_time": "2026-09-21T18:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX AUSTRIA",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMUB_DU_25-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-25T00:06:16.946451+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+        "name": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+        "odds_pdf": 129.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hercule-de-bea",
+        "name": "HERCULE DE BEA",
+        "odds_pdf": 26.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hanack-de-vivoin",
+        "name": "HANACK DE VIVOIN",
+        "odds_pdf": 52.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "helali-de-montceau-g.a.-pou-pou",
+        "name": "HELALI DE MONTCEAU G.A. POU POU",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "high-tech-roc",
+        "name": "HIGH TECH ROC",
+        "odds_pdf": 77.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "heros-dhelpa",
+        "name": "HEROS DHELPA",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "happy-atout",
+        "name": "HAPPY ATOUT",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hello-de-loiron",
+        "name": "HELLO DE LOIRON",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "herduno",
+        "name": "HERDUNO",
+        "odds_pdf": 73.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horace-d-arthenay",
+        "name": "HORACE D'ARTHENAY",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "general-de-connee-f.-lagadeuc",
+        "name": "GENERAL DE CONNEE F. LAGADEUC",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "guili-guili",
+        "name": "GUILI GUILI",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hirius-de-guez",
+        "name": "HIRIUS DE GUEZ",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "forever-de-pame",
+        "name": "FOREVER DE PAME",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hurlevent",
+        "name": "HURLEVENT",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gisaro",
+        "name": "GISARO",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE (hisco-de-parniere-f.-desmigneux-j.m.-marie) : aucune cote récente disponible",
+      "HERCULE DE BEA (hercule-de-bea) : aucune cote récente disponible",
+      "HANACK DE VIVOIN (hanack-de-vivoin) : aucune cote récente disponible",
+      "HELALI DE MONTCEAU G.A. POU POU (helali-de-montceau-g.a.-pou-pou) : aucune cote récente disponible",
+      "HIGH TECH ROC (high-tech-roc) : aucune cote récente disponible",
+      "HEROS DHELPA (heros-dhelpa) : aucune cote récente disponible",
+      "HAPPY ATOUT (happy-atout) : aucune cote récente disponible",
+      "GITANO JACK (gitano-jack) : aucune cote récente disponible",
+      "HELLO DE LOIRON (hello-de-loiron) : aucune cote récente disponible",
+      "HERDUNO (herduno) : aucune cote récente disponible",
+      "HORACE D'ARTHENAY (horace-d-arthenay) : aucune cote récente disponible",
+      "GENERAL DE CONNEE F. LAGADEUC (general-de-connee-f.-lagadeuc) : aucune cote récente disponible",
+      "HALFAN SPEED (halfan-speed) : aucune cote récente disponible",
+      "GUILI GUILI (guili-guili) : aucune cote récente disponible",
+      "HIRIUS DE GUEZ (hirius-de-guez) : aucune cote récente disponible",
+      "FOREVER DE PAME (forever-de-pame) : aucune cote récente disponible",
+      "HURLEVENT (hurlevent) : aucune cote récente disponible",
+      "GISARO (gisaro) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+      "hercule-de-bea",
+      "hanack-de-vivoin",
+      "helali-de-montceau-g.a.-pou-pou",
+      "high-tech-roc",
+      "heros-dhelpa",
+      "happy-atout",
+      "gitano-jack",
+      "hello-de-loiron",
+      "herduno",
+      "horace-d-arthenay",
+      "general-de-connee-f.-lagadeuc",
+      "halfan-speed",
+      "guili-guili",
+      "hirius-de-guez",
+      "forever-de-pame",
+      "hurlevent",
+      "gisaro"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "gisaro",
+        "name": "GISARO",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hurlevent",
+        "name": "HURLEVENT",
+        "dimensions": {
+          "historique": 9.99639218164706,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9964,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "forever-de-pame",
+        "name": "FOREVER DE PAME",
+        "dimensions": {
+          "historique": 9.986575226631329,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9866,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hirius-de-guez",
+        "name": "HIRIUS DE GUEZ",
+        "dimensions": {
+          "historique": 9.979053945862908,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9791,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "guili-guili",
+        "name": "GUILI GUILI",
+        "dimensions": {
+          "historique": 9.964289707760107,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9643,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "dimensions": {
+          "historique": 9.95382881821651,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9538,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "general-de-connee-f.-lagadeuc",
+        "name": "GENERAL DE CONNEE F. LAGADEUC",
+        "dimensions": {
+          "historique": 9.945623845423619,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9456,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horace-d-arthenay",
+        "name": "HORACE D'ARTHENAY",
+        "dimensions": {
+          "historique": 9.932834807844928,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9328,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "herduno",
+        "name": "HERDUNO",
+        "dimensions": {
+          "historique": 9.92993295370738,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9299,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hello-de-loiron",
+        "name": "HELLO DE LOIRON",
+        "dimensions": {
+          "historique": 9.923780448064484,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9238,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "dimensions": {
+          "historique": 9.923530659551837,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9235,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "happy-atout",
+        "name": "HAPPY ATOUT",
+        "dimensions": {
+          "historique": 9.912491560936754,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9125,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "heros-dhelpa",
+        "name": "HEROS DHELPA",
+        "dimensions": {
+          "historique": 9.9061784273363,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9062,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "high-tech-roc",
+        "name": "HIGH TECH ROC",
+        "dimensions": {
+          "historique": 9.89402621753089,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.894,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hanack-de-vivoin",
+        "name": "HANACK DE VIVOIN",
+        "dimensions": {
+          "historique": 9.842103422877997,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8421,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hercule-de-bea",
+        "name": "HERCULE DE BEA",
+        "dimensions": {
+          "historique": 9.671270604372573,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6713,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+        "name": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+        "dimensions": {
+          "historique": 9.577504906383732,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5775,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "helali-de-montceau-g.a.-pou-pou",
+        "name": "HELALI DE MONTCEAU G.A. POU POU",
+        "dimensions": {
+          "historique": 0.5683043808306442,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 0.5683,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "hurlevent",
+      "gisaro",
+      "forever-de-pame",
+      "hirius-de-guez",
+      "guili-guili",
+      "halfan-speed",
+      "herduno",
+      "general-de-connee-f.-lagadeuc",
+      "horace-d-arthenay",
+      "hello-de-loiron",
+      "gitano-jack",
+      "happy-atout",
+      "heros-dhelpa",
+      "high-tech-roc",
+      "hanack-de-vivoin",
+      "hercule-de-bea",
+      "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+      "helali-de-montceau-g.a.-pou-pou"
+    ],
+    "stability": 0.4,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie": {
+          "horse_id": "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+          "name": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+          "p_win": 0.04966,
+          "p_top3": 0.14964,
+          "p_top5": 0.25344,
+          "expected_position": 9.7313,
+          "position_distribution": {
+            "1": 0.04966,
+            "2": 0.04794,
+            "3": 0.05204,
+            "4": 0.05086,
+            "5": 0.05294,
+            "6": 0.05288,
+            "7": 0.05386,
+            "8": 0.05326,
+            "9": 0.05466,
+            "10": 0.0573,
+            "11": 0.058,
+            "12": 0.05852,
+            "13": 0.0631,
+            "14": 0.0638,
+            "15": 0.06918,
+            "16": 0.0722,
+            "17": 0.08682,
+            "18": 0.00298
+          }
+        },
+        "hercule-de-bea": {
+          "horse_id": "hercule-de-bea",
+          "name": "HERCULE DE BEA",
+          "p_win": 0.05224,
+          "p_top3": 0.15698,
+          "p_top5": 0.26354,
+          "expected_position": 9.5236,
+          "position_distribution": {
+            "1": 0.05224,
+            "2": 0.05142,
+            "3": 0.05332,
+            "4": 0.05334,
+            "5": 0.05322,
+            "6": 0.05704,
+            "7": 0.05468,
+            "8": 0.054,
+            "9": 0.05704,
+            "10": 0.05676,
+            "11": 0.05712,
+            "12": 0.06072,
+            "13": 0.06212,
+            "14": 0.0613,
+            "15": 0.06534,
+            "16": 0.06994,
+            "17": 0.07794,
+            "18": 0.00246
+          }
+        },
+        "hanack-de-vivoin": {
+          "horse_id": "hanack-de-vivoin",
+          "name": "HANACK DE VIVOIN",
+          "p_win": 0.05676,
+          "p_top3": 0.17204,
+          "p_top5": 0.28512,
+          "expected_position": 9.1362,
+          "position_distribution": {
+            "1": 0.05676,
+            "2": 0.0578,
+            "3": 0.05748,
+            "4": 0.05626,
+            "5": 0.05682,
+            "6": 0.05696,
+            "7": 0.05874,
+            "8": 0.05812,
+            "9": 0.05952,
+            "10": 0.0594,
+            "11": 0.05804,
+            "12": 0.06006,
+            "13": 0.05886,
+            "14": 0.05926,
+            "15": 0.05962,
+            "16": 0.06286,
+            "17": 0.06132,
+            "18": 0.00212
+          }
+        },
+        "helali-de-montceau-g.a.-pou-pou": {
+          "horse_id": "helali-de-montceau-g.a.-pou-pou",
+          "name": "HELALI DE MONTCEAU G.A. POU POU",
+          "p_win": 0.00064,
+          "p_top3": 0.00174,
+          "p_top5": 0.00316,
+          "expected_position": 17.8478,
+          "position_distribution": {
+            "1": 0.00064,
+            "2": 0.0006,
+            "3": 0.0005,
+            "4": 0.00068,
+            "5": 0.00074,
+            "6": 0.0005,
+            "7": 0.00074,
+            "8": 0.00112,
+            "9": 0.0008,
+            "10": 0.00108,
+            "11": 0.00142,
+            "12": 0.00138,
+            "13": 0.00194,
+            "14": 0.00224,
+            "15": 0.00298,
+            "16": 0.00436,
+            "17": 0.0094,
+            "18": 0.96888
+          }
+        },
+        "high-tech-roc": {
+          "horse_id": "high-tech-roc",
+          "name": "HIGH TECH ROC",
+          "p_win": 0.05762,
+          "p_top3": 0.1763,
+          "p_top5": 0.29194,
+          "expected_position": 9.0235,
+          "position_distribution": {
+            "1": 0.05762,
+            "2": 0.05936,
+            "3": 0.05932,
+            "4": 0.05734,
+            "5": 0.0583,
+            "6": 0.0577,
+            "7": 0.05952,
+            "8": 0.06044,
+            "9": 0.05758,
+            "10": 0.05822,
+            "11": 0.06136,
+            "12": 0.05982,
+            "13": 0.0573,
+            "14": 0.05886,
+            "15": 0.05862,
+            "16": 0.05826,
+            "17": 0.0585,
+            "18": 0.00188
+          }
+        },
+        "heros-dhelpa": {
+          "horse_id": "heros-dhelpa",
+          "name": "HEROS DHELPA",
+          "p_win": 0.06018,
+          "p_top3": 0.17936,
+          "p_top5": 0.29816,
+          "expected_position": 8.9602,
+          "position_distribution": {
+            "1": 0.06018,
+            "2": 0.05948,
+            "3": 0.0597,
+            "4": 0.05988,
+            "5": 0.05892,
+            "6": 0.05818,
+            "7": 0.05794,
+            "8": 0.0607,
+            "9": 0.05878,
+            "10": 0.05864,
+            "11": 0.0586,
+            "12": 0.05738,
+            "13": 0.0583,
+            "14": 0.05764,
+            "15": 0.05728,
+            "16": 0.06002,
+            "17": 0.05618,
+            "18": 0.0022
+          }
+        },
+        "happy-atout": {
+          "horse_id": "happy-atout",
+          "name": "HAPPY ATOUT",
+          "p_win": 0.05868,
+          "p_top3": 0.17756,
+          "p_top5": 0.29462,
+          "expected_position": 9.0127,
+          "position_distribution": {
+            "1": 0.05868,
+            "2": 0.06094,
+            "3": 0.05794,
+            "4": 0.05864,
+            "5": 0.05842,
+            "6": 0.05848,
+            "7": 0.0569,
+            "8": 0.05992,
+            "9": 0.05776,
+            "10": 0.0586,
+            "11": 0.0585,
+            "12": 0.06006,
+            "13": 0.05868,
+            "14": 0.05814,
+            "15": 0.05896,
+            "16": 0.05946,
+            "17": 0.0581,
+            "18": 0.00182
+          }
+        },
+        "gitano-jack": {
+          "horse_id": "gitano-jack",
+          "name": "GITANO JACK",
+          "p_win": 0.0599,
+          "p_top3": 0.1802,
+          "p_top5": 0.30064,
+          "expected_position": 8.9356,
+          "position_distribution": {
+            "1": 0.0599,
+            "2": 0.06074,
+            "3": 0.05956,
+            "4": 0.0599,
+            "5": 0.06054,
+            "6": 0.06068,
+            "7": 0.0584,
+            "8": 0.05836,
+            "9": 0.05822,
+            "10": 0.05736,
+            "11": 0.0585,
+            "12": 0.05576,
+            "13": 0.0583,
+            "14": 0.0591,
+            "15": 0.05742,
+            "16": 0.0587,
+            "17": 0.05664,
+            "18": 0.00192
+          }
+        },
+        "hello-de-loiron": {
+          "horse_id": "hello-de-loiron",
+          "name": "HELLO DE LOIRON",
+          "p_win": 0.05898,
+          "p_top3": 0.1795,
+          "p_top5": 0.2978,
+          "expected_position": 8.9268,
+          "position_distribution": {
+            "1": 0.05898,
+            "2": 0.06048,
+            "3": 0.06004,
+            "4": 0.05896,
+            "5": 0.05934,
+            "6": 0.0592,
+            "7": 0.06066,
+            "8": 0.05844,
+            "9": 0.06042,
+            "10": 0.0587,
+            "11": 0.05934,
+            "12": 0.05844,
+            "13": 0.05826,
+            "14": 0.05822,
+            "15": 0.05714,
+            "16": 0.05626,
+            "17": 0.05582,
+            "18": 0.0013
+          }
+        },
+        "herduno": {
+          "horse_id": "herduno",
+          "name": "HERDUNO",
+          "p_win": 0.06096,
+          "p_top3": 0.17876,
+          "p_top5": 0.29746,
+          "expected_position": 8.9203,
+          "position_distribution": {
+            "1": 0.06096,
+            "2": 0.05936,
+            "3": 0.05844,
+            "4": 0.05978,
+            "5": 0.05892,
+            "6": 0.05908,
+            "7": 0.06138,
+            "8": 0.0607,
+            "9": 0.05912,
+            "10": 0.058,
+            "11": 0.0592,
+            "12": 0.0584,
+            "13": 0.05886,
+            "14": 0.05782,
+            "15": 0.0563,
+            "16": 0.0554,
+            "17": 0.0568,
+            "18": 0.00148
+          }
+        },
+        "horace-d-arthenay": {
+          "horse_id": "horace-d-arthenay",
+          "name": "HORACE D'ARTHENAY",
+          "p_win": 0.05892,
+          "p_top3": 0.17758,
+          "p_top5": 0.29892,
+          "expected_position": 8.9418,
+          "position_distribution": {
+            "1": 0.05892,
+            "2": 0.06006,
+            "3": 0.0586,
+            "4": 0.06086,
+            "5": 0.06048,
+            "6": 0.05816,
+            "7": 0.05762,
+            "8": 0.0587,
+            "9": 0.05962,
+            "10": 0.0607,
+            "11": 0.05976,
+            "12": 0.05928,
+            "13": 0.05782,
+            "14": 0.05812,
+            "15": 0.05808,
+            "16": 0.0562,
+            "17": 0.05522,
+            "18": 0.0018
+          }
+        },
+        "general-de-connee-f.-lagadeuc": {
+          "horse_id": "general-de-connee-f.-lagadeuc",
+          "name": "GENERAL DE CONNEE F. LAGADEUC",
+          "p_win": 0.05968,
+          "p_top3": 0.1773,
+          "p_top5": 0.29764,
+          "expected_position": 8.9542,
+          "position_distribution": {
+            "1": 0.05968,
+            "2": 0.06022,
+            "3": 0.0574,
+            "4": 0.05918,
+            "5": 0.06116,
+            "6": 0.0601,
+            "7": 0.05836,
+            "8": 0.0585,
+            "9": 0.05844,
+            "10": 0.0576,
+            "11": 0.05956,
+            "12": 0.06022,
+            "13": 0.05812,
+            "14": 0.05824,
+            "15": 0.05932,
+            "16": 0.0564,
+            "17": 0.05566,
+            "18": 0.00184
+          }
+        },
+        "halfan-speed": {
+          "horse_id": "halfan-speed",
+          "name": "HALFAN SPEED",
+          "p_win": 0.05946,
+          "p_top3": 0.18166,
+          "p_top5": 0.30198,
+          "expected_position": 8.9029,
+          "position_distribution": {
+            "1": 0.05946,
+            "2": 0.06032,
+            "3": 0.06188,
+            "4": 0.06036,
+            "5": 0.05996,
+            "6": 0.05868,
+            "7": 0.05868,
+            "8": 0.05694,
+            "9": 0.06018,
+            "10": 0.05996,
+            "11": 0.05868,
+            "12": 0.05812,
+            "13": 0.0594,
+            "14": 0.05784,
+            "15": 0.05832,
+            "16": 0.05592,
+            "17": 0.0535,
+            "18": 0.0018
+          }
+        },
+        "guili-guili": {
+          "horse_id": "guili-guili",
+          "name": "GUILI GUILI",
+          "p_win": 0.06114,
+          "p_top3": 0.17952,
+          "p_top5": 0.30152,
+          "expected_position": 8.872,
+          "position_distribution": {
+            "1": 0.06114,
+            "2": 0.05998,
+            "3": 0.0584,
+            "4": 0.06104,
+            "5": 0.06096,
+            "6": 0.05902,
+            "7": 0.06122,
+            "8": 0.06034,
+            "9": 0.0594,
+            "10": 0.05974,
+            "11": 0.0585,
+            "12": 0.05728,
+            "13": 0.05694,
+            "14": 0.05904,
+            "15": 0.05666,
+            "16": 0.05546,
+            "17": 0.05342,
+            "18": 0.00146
+          }
+        },
+        "hirius-de-guez": {
+          "horse_id": "hirius-de-guez",
+          "name": "HIRIUS DE GUEZ",
+          "p_win": 0.06104,
+          "p_top3": 0.18182,
+          "p_top5": 0.30208,
+          "expected_position": 8.8416,
+          "position_distribution": {
+            "1": 0.06104,
+            "2": 0.05966,
+            "3": 0.06112,
+            "4": 0.06182,
+            "5": 0.05844,
+            "6": 0.06076,
+            "7": 0.06104,
+            "8": 0.06048,
+            "9": 0.06038,
+            "10": 0.05842,
+            "11": 0.05778,
+            "12": 0.0584,
+            "13": 0.05952,
+            "14": 0.05688,
+            "15": 0.05494,
+            "16": 0.05542,
+            "17": 0.05242,
+            "18": 0.00148
+          }
+        },
+        "forever-de-pame": {
+          "horse_id": "forever-de-pame",
+          "name": "FOREVER DE PAME",
+          "p_win": 0.06132,
+          "p_top3": 0.18438,
+          "p_top5": 0.30322,
+          "expected_position": 8.843,
+          "position_distribution": {
+            "1": 0.06132,
+            "2": 0.06144,
+            "3": 0.06162,
+            "4": 0.06012,
+            "5": 0.05872,
+            "6": 0.06112,
+            "7": 0.0594,
+            "8": 0.0592,
+            "9": 0.05958,
+            "10": 0.05962,
+            "11": 0.05716,
+            "12": 0.05912,
+            "13": 0.05796,
+            "14": 0.05704,
+            "15": 0.0579,
+            "16": 0.0564,
+            "17": 0.05082,
+            "18": 0.00146
+          }
+        },
+        "hurlevent": {
+          "horse_id": "hurlevent",
+          "name": "HURLEVENT",
+          "p_win": 0.06214,
+          "p_top3": 0.18204,
+          "p_top5": 0.3048,
+          "expected_position": 8.8038,
+          "position_distribution": {
+            "1": 0.06214,
+            "2": 0.05866,
+            "3": 0.06124,
+            "4": 0.0605,
+            "5": 0.06226,
+            "6": 0.06032,
+            "7": 0.0615,
+            "8": 0.06048,
+            "9": 0.05888,
+            "10": 0.06038,
+            "11": 0.06012,
+            "12": 0.05904,
+            "13": 0.05618,
+            "14": 0.05742,
+            "15": 0.05498,
+            "16": 0.05304,
+            "17": 0.05152,
+            "18": 0.00134
+          }
+        },
+        "gisaro": {
+          "horse_id": "gisaro",
+          "name": "GISARO",
+          "p_win": 0.06068,
+          "p_top3": 0.18362,
+          "p_top5": 0.30396,
+          "expected_position": 8.8229,
+          "position_distribution": {
+            "1": 0.06068,
+            "2": 0.06154,
+            "3": 0.0614,
+            "4": 0.06048,
+            "5": 0.05986,
+            "6": 0.06114,
+            "7": 0.05936,
+            "8": 0.0603,
+            "9": 0.05962,
+            "10": 0.05952,
+            "11": 0.05836,
+            "12": 0.058,
+            "13": 0.05834,
+            "14": 0.05904,
+            "15": 0.05696,
+            "16": 0.0537,
+            "17": 0.04992,
+            "18": 0.00178
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "guili-guili",
+          "forever-de-pame",
+          "hurlevent"
+        ],
+        "23": [
+          "hurlevent",
+          "gisaro",
+          "guili-guili"
+        ],
+        "37": [
+          "hirius-de-guez",
+          "hurlevent",
+          "gisaro"
+        ],
+        "51": [
+          "forever-de-pame",
+          "gisaro",
+          "hurlevent"
+        ],
+        "73": [
+          "hurlevent",
+          "gisaro",
+          "forever-de-pame"
+        ]
+      },
+      "reference_top": [
+        "forever-de-pame",
+        "gisaro",
+        "hurlevent"
+      ],
+      "stable_seeds": 2,
+      "stability": 0.4,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "guili-guili": 2.0,
+        "forever-de-pame": 3.0,
+        "hurlevent": 5.0,
+        "gisaro": 3.0,
+        "hirius-de-guez": 2.0
+      },
+      "order": [
+        "hurlevent",
+        "forever-de-pame",
+        "gisaro",
+        "hirius-de-guez",
+        "guili-guili"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "gisaro": 17.0,
+        "hurlevent": 16.0,
+        "forever-de-pame": 15.0,
+        "hirius-de-guez": 14.0,
+        "guili-guili": 13.0,
+        "halfan-speed": 12.0,
+        "general-de-connee-f.-lagadeuc": 11.0,
+        "horace-d-arthenay": 10.0,
+        "herduno": 9.0,
+        "hello-de-loiron": 8.0,
+        "gitano-jack": 7.0,
+        "happy-atout": 6.0,
+        "heros-dhelpa": 5.0,
+        "high-tech-roc": 4.0,
+        "hanack-de-vivoin": 3.0,
+        "hercule-de-bea": 2.0,
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie": 1.0,
+        "helali-de-montceau-g.a.-pou-pou": 0.0
+      },
+      "order": [
+        "gisaro",
+        "hurlevent",
+        "forever-de-pame",
+        "hirius-de-guez",
+        "guili-guili",
+        "halfan-speed",
+        "general-de-connee-f.-lagadeuc",
+        "horace-d-arthenay",
+        "herduno",
+        "hello-de-loiron",
+        "gitano-jack",
+        "happy-atout",
+        "heros-dhelpa",
+        "high-tech-roc",
+        "hanack-de-vivoin",
+        "hercule-de-bea",
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+        "helali-de-montceau-g.a.-pou-pou"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "hurlevent",
+        "gisaro",
+        "forever-de-pame",
+        "hirius-de-guez",
+        "guili-guili",
+        "halfan-speed",
+        "herduno",
+        "general-de-connee-f.-lagadeuc",
+        "horace-d-arthenay",
+        "hello-de-loiron",
+        "gitano-jack",
+        "happy-atout",
+        "heros-dhelpa",
+        "high-tech-roc",
+        "hanack-de-vivoin",
+        "hercule-de-bea",
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+        "helali-de-montceau-g.a.-pou-pou"
+      ],
+      "copeland": {
+        "hurlevent": 17.0,
+        "gisaro": 15.0,
+        "hirius-de-guez": 11.0,
+        "forever-de-pame": 13.0,
+        "guili-guili": 9.0,
+        "halfan-speed": 7.0,
+        "herduno": 4.0,
+        "hello-de-loiron": 2.0,
+        "gitano-jack": 0.0,
+        "horace-d-arthenay": 3.0,
+        "general-de-connee-f.-lagadeuc": 3.0,
+        "heros-dhelpa": -5.5,
+        "happy-atout": -5.5,
+        "high-tech-roc": -9.0,
+        "hanack-de-vivoin": -11.0,
+        "hercule-de-bea": -13.0,
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie": -15.0,
+        "helali-de-montceau-g.a.-pou-pou": -17.0
+      },
+      "normalized": {
+        "hurlevent": 1.0,
+        "gisaro": 0.9412,
+        "hirius-de-guez": 0.8235,
+        "forever-de-pame": 0.8824,
+        "guili-guili": 0.7647,
+        "halfan-speed": 0.7059,
+        "herduno": 0.6176,
+        "hello-de-loiron": 0.5588,
+        "gitano-jack": 0.5,
+        "horace-d-arthenay": 0.5882,
+        "general-de-connee-f.-lagadeuc": 0.5882,
+        "heros-dhelpa": 0.3382,
+        "happy-atout": 0.3382,
+        "high-tech-roc": 0.2353,
+        "hanack-de-vivoin": 0.1765,
+        "hercule-de-bea": 0.1176,
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie": 0.0588,
+        "helali-de-montceau-g.a.-pou-pou": 0.0
+      },
+      "mean_rank": {
+        "hurlevent": 0.3333,
+        "gisaro": 1.0,
+        "hirius-de-guez": 2.6667,
+        "forever-de-pame": 2.0,
+        "guili-guili": 4.0,
+        "halfan-speed": 5.0,
+        "herduno": 7.0,
+        "hello-de-loiron": 8.0,
+        "gitano-jack": 9.0,
+        "horace-d-arthenay": 8.0,
+        "general-de-connee-f.-lagadeuc": 8.0,
+        "heros-dhelpa": 11.5,
+        "happy-atout": 11.5,
+        "high-tech-roc": 13.0,
+        "hanack-de-vivoin": 14.0,
+        "hercule-de-bea": 15.0,
+        "hisco-de-parniere-f.-desmigneux-j.m.-marie": 16.0,
+        "helali-de-montceau-g.a.-pou-pou": 17.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 2/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "hisco-de-parniere-f.-desmigneux-j.m.-marie",
+        "name": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hercule-de-bea",
+        "name": "HERCULE DE BEA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hanack-de-vivoin",
+        "name": "HANACK DE VIVOIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "helali-de-montceau-g.a.-pou-pou",
+        "name": "HELALI DE MONTCEAU G.A. POU POU",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "high-tech-roc",
+        "name": "HIGH TECH ROC",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 14 vs marché 17)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "heros-dhelpa",
+        "name": "HEROS DHELPA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "happy-atout",
+        "name": "HAPPY ATOUT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hello-de-loiron",
+        "name": "HELLO DE LOIRON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "herduno",
+        "name": "HERDUNO",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 7 vs marché 16)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "horace-d-arthenay",
+        "name": "HORACE D'ARTHENAY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "general-de-connee-f.-lagadeuc",
+        "name": "GENERAL DE CONNEE F. LAGADEUC",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "guili-guili",
+        "name": "GUILI GUILI",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 5 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "hirius-de-guez",
+        "name": "HIRIUS DE GUEZ",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "forever-de-pame",
+        "name": "FOREVER DE PAME",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "hurlevent",
+        "name": "HURLEVENT",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 1 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "gisaro",
+        "name": "GISARO",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "high-tech-roc",
+      "herduno",
+      "guili-guili",
+      "forever-de-pame",
+      "hurlevent"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "hisco-de-parniere-f.-desmigneux-j.m.-marie": 0.006954,
+      "hercule-de-bea": 0.034501,
+      "hanack-de-vivoin": 0.017251,
+      "helali-de-montceau-g.a.-pou-pou": 0.039002,
+      "high-tech-roc": 0.01165,
+      "heros-dhelpa": 0.042716,
+      "happy-atout": 0.059802,
+      "gitano-jack": 0.026383,
+      "hello-de-loiron": 0.064074,
+      "herduno": 0.012288,
+      "horace-d-arthenay": 0.059802,
+      "general-de-connee-f.-lagadeuc": 0.099671,
+      "halfan-speed": 0.11213,
+      "guili-guili": 0.033224,
+      "hirius-de-guez": 0.149506,
+      "forever-de-pame": 0.023606,
+      "hurlevent": 0.028032,
+      "gisaro": 0.179407
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "hurlevent",
+      "gisaro",
+      "forever-de-pame",
+      "hirius-de-guez",
+      "guili-guili"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.005,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 0.018,
+      "stabilite_seeds": 4.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE : recent_places",
+      "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE : driver",
+      "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE : aptitude",
+      "HERCULE DE BEA : recent_places",
+      "HERCULE DE BEA : driver",
+      "HERCULE DE BEA : aptitude",
+      "HANACK DE VIVOIN : recent_places",
+      "HANACK DE VIVOIN : driver",
+      "HANACK DE VIVOIN : aptitude",
+      "HELALI DE MONTCEAU G.A. POU POU : recent_places",
+      "HELALI DE MONTCEAU G.A. POU POU : driver",
+      "HELALI DE MONTCEAU G.A. POU POU : aptitude",
+      "HIGH TECH ROC : recent_places",
+      "HIGH TECH ROC : driver",
+      "HIGH TECH ROC : aptitude",
+      "HEROS DHELPA : recent_places",
+      "HEROS DHELPA : driver",
+      "HEROS DHELPA : aptitude",
+      "HAPPY ATOUT : recent_places",
+      "HAPPY ATOUT : driver",
+      "HAPPY ATOUT : aptitude",
+      "GITANO JACK : recent_places",
+      "GITANO JACK : driver",
+      "GITANO JACK : aptitude",
+      "HELLO DE LOIRON : recent_places",
+      "HELLO DE LOIRON : driver",
+      "HELLO DE LOIRON : aptitude",
+      "HERDUNO : recent_places",
+      "HERDUNO : driver",
+      "HERDUNO : aptitude",
+      "HORACE D'ARTHENAY : recent_places",
+      "HORACE D'ARTHENAY : driver",
+      "HORACE D'ARTHENAY : aptitude",
+      "GENERAL DE CONNEE F. LAGADEUC : recent_places",
+      "GENERAL DE CONNEE F. LAGADEUC : driver",
+      "GENERAL DE CONNEE F. LAGADEUC : aptitude",
+      "HALFAN SPEED : recent_places",
+      "HALFAN SPEED : driver",
+      "HALFAN SPEED : aptitude",
+      "GUILI GUILI : recent_places",
+      "GUILI GUILI : driver",
+      "GUILI GUILI : aptitude",
+      "HIRIUS DE GUEZ : recent_places",
+      "HIRIUS DE GUEZ : driver",
+      "HIRIUS DE GUEZ : aptitude",
+      "FOREVER DE PAME : recent_places",
+      "FOREVER DE PAME : driver",
+      "FOREVER DE PAME : aptitude",
+      "HURLEVENT : recent_places",
+      "HURLEVENT : driver",
+      "HURLEVENT : aptitude",
+      "GISARO : recent_places",
+      "GISARO : driver",
+      "GISARO : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.00 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 40% → 4.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (54 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-21T18:15:00+00:00",
+    "betting_close": "2026-09-21T18:05:00+00:00",
+    "race_started": true,
+    "now": "2026-09-25T00:06:16.989586+00:00",
+    "minutes_late": 4681.28,
+    "minutes_to_close": -4681.28,
+    "schedule": {
+      "start_ouagadougou": "2026-09-21T18:15:00+00:00",
+      "start_paris": "2026-09-21T20:15:00+02:00",
+      "close_lonab": "2026-09-21T18:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "HURLEVENT",
+      "horse_id": "hurlevent"
+    },
+    {
+      "rang": 2,
+      "cheval": "GISARO",
+      "horse_id": "gisaro"
+    },
+    {
+      "rang": 3,
+      "cheval": "FOREVER DE PAME",
+      "horse_id": "forever-de-pame"
+    },
+    {
+      "rang": 4,
+      "cheval": "HIRIUS DE GUEZ",
+      "horse_id": "hirius-de-guez"
+    },
+    {
+      "rang": 5,
+      "cheval": "GUILI GUILI",
+      "horse_id": "guili-guili"
+    },
+    {
+      "rang": 6,
+      "cheval": "HALFAN SPEED",
+      "horse_id": "halfan-speed"
+    },
+    {
+      "rang": 7,
+      "cheval": "HERDUNO",
+      "horse_id": "herduno"
+    },
+    {
+      "rang": 8,
+      "cheval": "GENERAL DE CONNEE F. LAGADEUC",
+      "horse_id": "general-de-connee-f.-lagadeuc"
+    },
+    {
+      "rang": 9,
+      "cheval": "HORACE D'ARTHENAY",
+      "horse_id": "horace-d-arthenay"
+    },
+    {
+      "rang": 10,
+      "cheval": "HELLO DE LOIRON",
+      "horse_id": "hello-de-loiron"
+    },
+    {
+      "rang": 11,
+      "cheval": "GITANO JACK",
+      "horse_id": "gitano-jack"
+    },
+    {
+      "rang": 12,
+      "cheval": "HAPPY ATOUT",
+      "horse_id": "happy-atout"
+    },
+    {
+      "rang": 13,
+      "cheval": "HEROS DHELPA",
+      "horse_id": "heros-dhelpa"
+    },
+    {
+      "rang": 14,
+      "cheval": "HIGH TECH ROC",
+      "horse_id": "high-tech-roc"
+    },
+    {
+      "rang": 15,
+      "cheval": "HANACK DE VIVOIN",
+      "horse_id": "hanack-de-vivoin"
+    },
+    {
+      "rang": 16,
+      "cheval": "HERCULE DE BEA",
+      "horse_id": "hercule-de-bea"
+    },
+    {
+      "rang": 17,
+      "cheval": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+      "horse_id": "hisco-de-parniere-f.-desmigneux-j.m.-marie"
+    },
+    {
+      "rang": 18,
+      "cheval": "HELALI DE MONTCEAU G.A. POU POU",
+      "horse_id": "helali-de-montceau-g.a.-pou-pou"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "GISARO",
+      "score": 10.0
+    },
+    {
+      "cheval": "HURLEVENT",
+      "score": 9.9964
+    },
+    {
+      "cheval": "FOREVER DE PAME",
+      "score": 9.9866
+    },
+    {
+      "cheval": "HIRIUS DE GUEZ",
+      "score": 9.9791
+    },
+    {
+      "cheval": "GUILI GUILI",
+      "score": 9.9643
+    },
+    {
+      "cheval": "HALFAN SPEED",
+      "score": 9.9538
+    },
+    {
+      "cheval": "GENERAL DE CONNEE F. LAGADEUC",
+      "score": 9.9456
+    },
+    {
+      "cheval": "HORACE D'ARTHENAY",
+      "score": 9.9328
+    },
+    {
+      "cheval": "HERDUNO",
+      "score": 9.9299
+    },
+    {
+      "cheval": "HELLO DE LOIRON",
+      "score": 9.9238
+    },
+    {
+      "cheval": "GITANO JACK",
+      "score": 9.9235
+    },
+    {
+      "cheval": "HAPPY ATOUT",
+      "score": 9.9125
+    },
+    {
+      "cheval": "HEROS DHELPA",
+      "score": 9.9062
+    },
+    {
+      "cheval": "HIGH TECH ROC",
+      "score": 9.894
+    },
+    {
+      "cheval": "HANACK DE VIVOIN",
+      "score": 9.8421
+    },
+    {
+      "cheval": "HERCULE DE BEA",
+      "score": 9.6713
+    },
+    {
+      "cheval": "HISCO DE PARNIERE F. DESMIGNEUX J.M. MARIE",
+      "score": 9.5775
+    },
+    {
+      "cheval": "HELALI DE MONTCEAU G.A. POU POU",
+      "score": 0.5683
+    }
+  ],
+  "stored_at": "2026-09-25T00:06:16.990750+00:00"
+}
