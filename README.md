@@ -143,8 +143,8 @@ Python 3.11, 3.12 et 3.13 à chaque push.
 
 ## Automatisation quotidienne
 
-Le workflow `.github/workflows/daily.yml` analyse la course du jour à 09h30 UTC
-(09h30 à Ouagadougou, 10h30 ou 11h30 à Paris selon la saison), bien avant la
+Le workflow `.github/workflows/daily.yml` analyse la course du jour à 09h00 UTC
+(09h00 à Ouagadougou, 10h00 ou 11h00 à Paris selon la saison), bien avant la
 clôture LONAB des courses françaises de l'après-midi, et évalue le résultat
 officiel PMU à 22h00 UTC. Aucun serveur à maintenir.
 
