@@ -1,0 +1,1868 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260926-auteuil-c3",
+  "date": "2026-09-26",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "AUTEUIL",
+    "date": "2026-09-26",
+    "start_time": "2026-09-22T13:15:00+00:00",
+    "race_number": 3,
+    "name": "PRIX GRANDLIEU - HAIES",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "obstacle",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMUB_DU_26-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "obstacle",
+    "label": "Obstacle",
+    "raison": "repli par mots-clés (mot-clé 'haie' trouvé dans le texte)",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-26T00:27:55.177657+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "rock-and-roll",
+        "name": "ROCK AND ROLL",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "blue-borana",
+        "name": "BLUE BORANA",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "magic-flight",
+        "name": "MAGIC FLIGHT",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "robin-hill",
+        "name": "ROBIN HILL",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "interdit-de-jeu-m.chailloleau",
+        "name": "INTERDIT DE JEU M.CHAILLOLEAU",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kel-story-l.philipperon",
+        "name": "KEL STORY L.PHILIPPERON",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lou-fast",
+        "name": "LOU FAST",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "shazam",
+        "name": "SHAZAM",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "naruto",
+        "name": "NARUTO",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "galant-chaba",
+        "name": "GALANT CHABA",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "the-must",
+        "name": "THE MUST",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "chant-de-garde",
+        "name": "CHANT DE GARDE",
+        "odds_pdf": 29.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jumper-baie",
+        "name": "JUMPER BAIE",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "darlida",
+        "name": "DARLIDA",
+        "odds_pdf": 42.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mossy-walsh",
+        "name": "MOSSY WALSH",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "prezienne-du-large",
+        "name": "PREZIENNE DU LARGE",
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "ROCK AND ROLL (rock-and-roll) : aucune cote récente disponible",
+      "BLUE BORANA (blue-borana) : aucune cote récente disponible",
+      "MAGIC FLIGHT (magic-flight) : aucune cote récente disponible",
+      "ROBIN HILL (robin-hill) : aucune cote récente disponible",
+      "INTERDIT DE JEU M.CHAILLOLEAU (interdit-de-jeu-m.chailloleau) : aucune cote récente disponible",
+      "KEL STORY L.PHILIPPERON (kel-story-l.philipperon) : aucune cote récente disponible",
+      "LOU FAST (lou-fast) : aucune cote récente disponible",
+      "SHAZAM (shazam) : aucune cote récente disponible",
+      "NARUTO (naruto) : aucune cote récente disponible",
+      "GALANT CHABA (galant-chaba) : aucune cote récente disponible",
+      "THE MUST (the-must) : aucune cote récente disponible",
+      "CHANT DE GARDE (chant-de-garde) : aucune cote récente disponible",
+      "JUMPER BAIE (jumper-baie) : aucune cote récente disponible",
+      "DARLIDA (darlida) : aucune cote récente disponible",
+      "MOSSY WALSH (mossy-walsh) : aucune cote récente disponible",
+      "PREZIENNE DU LARGE (prezienne-du-large) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "rock-and-roll",
+      "blue-borana",
+      "magic-flight",
+      "robin-hill",
+      "interdit-de-jeu-m.chailloleau",
+      "kel-story-l.philipperon",
+      "lou-fast",
+      "shazam",
+      "naruto",
+      "galant-chaba",
+      "the-must",
+      "chant-de-garde",
+      "jumper-baie",
+      "darlida",
+      "mossy-walsh",
+      "prezienne-du-large"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "obstacle",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "lou-fast",
+        "name": "LOU FAST",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "rock-and-roll",
+        "name": "ROCK AND ROLL",
+        "dimensions": {
+          "historique": 9.741570596018166,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7416,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kel-story-l.philipperon",
+        "name": "KEL STORY L.PHILIPPERON",
+        "dimensions": {
+          "historique": 9.46969968403923,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4697,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "interdit-de-jeu-m.chailloleau",
+        "name": "INTERDIT DE JEU M.CHAILLOLEAU",
+        "dimensions": {
+          "historique": 9.422928217440564,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4229,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jumper-baie",
+        "name": "JUMPER BAIE",
+        "dimensions": {
+          "historique": 9.38619448327764,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3862,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "magic-flight",
+        "name": "MAGIC FLIGHT",
+        "dimensions": {
+          "historique": 9.146821925748855,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1468,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "blue-borana",
+        "name": "BLUE BORANA",
+        "dimensions": {
+          "historique": 9.104863855240106,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1049,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "shazam",
+        "name": "SHAZAM",
+        "dimensions": {
+          "historique": 9.031470206545482,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0315,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "galant-chaba",
+        "name": "GALANT CHABA",
+        "dimensions": {
+          "historique": 8.9740000929178,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.974,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "naruto",
+        "name": "NARUTO",
+        "dimensions": {
+          "historique": 8.93220864627602,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9322,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "the-must",
+        "name": "THE MUST",
+        "dimensions": {
+          "historique": 8.757236329098117,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7572,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "robin-hill",
+        "name": "ROBIN HILL",
+        "dimensions": {
+          "historique": 8.69784332503276,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6978,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "prezienne-du-large",
+        "name": "PREZIENNE DU LARGE",
+        "dimensions": {
+          "historique": 8.211058905875552,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.2111,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mossy-walsh",
+        "name": "MOSSY WALSH",
+        "dimensions": {
+          "historique": 8.032983543819563,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.033,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "darlida",
+        "name": "DARLIDA",
+        "dimensions": {
+          "historique": 7.942068259258434,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.9421,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "chant-de-garde",
+        "name": "CHANT DE GARDE",
+        "dimensions": {
+          "historique": 7.768599536312564,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.7686,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "lou-fast",
+      "rock-and-roll",
+      "kel-story-l.philipperon",
+      "interdit-de-jeu-m.chailloleau",
+      "jumper-baie",
+      "magic-flight",
+      "blue-borana",
+      "shazam",
+      "galant-chaba",
+      "naruto",
+      "the-must",
+      "robin-hill",
+      "prezienne-du-large",
+      "mossy-walsh",
+      "darlida",
+      "chant-de-garde"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "rock-and-roll": {
+          "horse_id": "rock-and-roll",
+          "name": "ROCK AND ROLL",
+          "p_win": 0.09038,
+          "p_top3": 0.26634,
+          "p_top5": 0.42628,
+          "expected_position": 6.8982,
+          "position_distribution": {
+            "1": 0.09038,
+            "2": 0.09122,
+            "3": 0.08474,
+            "4": 0.07944,
+            "5": 0.0805,
+            "6": 0.0769,
+            "7": 0.07364,
+            "8": 0.06986,
+            "9": 0.06584,
+            "10": 0.06134,
+            "11": 0.0557,
+            "12": 0.04998,
+            "13": 0.04322,
+            "14": 0.03764,
+            "15": 0.02572,
+            "16": 0.01388
+          }
+        },
+        "blue-borana": {
+          "horse_id": "blue-borana",
+          "name": "BLUE BORANA",
+          "p_win": 0.06422,
+          "p_top3": 0.1963,
+          "p_top5": 0.32734,
+          "expected_position": 8.1813,
+          "position_distribution": {
+            "1": 0.06422,
+            "2": 0.06586,
+            "3": 0.06622,
+            "4": 0.06552,
+            "5": 0.06552,
+            "6": 0.0656,
+            "7": 0.06454,
+            "8": 0.06492,
+            "9": 0.06622,
+            "10": 0.06586,
+            "11": 0.06598,
+            "12": 0.06336,
+            "13": 0.06454,
+            "14": 0.06034,
+            "15": 0.05294,
+            "16": 0.03836
+          }
+        },
+        "magic-flight": {
+          "horse_id": "magic-flight",
+          "name": "MAGIC FLIGHT",
+          "p_win": 0.06668,
+          "p_top3": 0.19804,
+          "p_top5": 0.33364,
+          "expected_position": 8.0602,
+          "position_distribution": {
+            "1": 0.06668,
+            "2": 0.06712,
+            "3": 0.06424,
+            "4": 0.06718,
+            "5": 0.06842,
+            "6": 0.06738,
+            "7": 0.06766,
+            "8": 0.06554,
+            "9": 0.06652,
+            "10": 0.06818,
+            "11": 0.06474,
+            "12": 0.0644,
+            "13": 0.05944,
+            "14": 0.05792,
+            "15": 0.04882,
+            "16": 0.03576
+          }
+        },
+        "robin-hill": {
+          "horse_id": "robin-hill",
+          "name": "ROBIN HILL",
+          "p_win": 0.05322,
+          "p_top3": 0.16268,
+          "p_top5": 0.27764,
+          "expected_position": 8.9223,
+          "position_distribution": {
+            "1": 0.05322,
+            "2": 0.05496,
+            "3": 0.0545,
+            "4": 0.05628,
+            "5": 0.05868,
+            "6": 0.05962,
+            "7": 0.06058,
+            "8": 0.0602,
+            "9": 0.06256,
+            "10": 0.0645,
+            "11": 0.06676,
+            "12": 0.06826,
+            "13": 0.06912,
+            "14": 0.07218,
+            "15": 0.07412,
+            "16": 0.06446
+          }
+        },
+        "interdit-de-jeu-m.chailloleau": {
+          "horse_id": "interdit-de-jeu-m.chailloleau",
+          "name": "INTERDIT DE JEU M.CHAILLOLEAU",
+          "p_win": 0.07544,
+          "p_top3": 0.227,
+          "p_top5": 0.37386,
+          "expected_position": 7.5214,
+          "position_distribution": {
+            "1": 0.07544,
+            "2": 0.0753,
+            "3": 0.07626,
+            "4": 0.0751,
+            "5": 0.07176,
+            "6": 0.07054,
+            "7": 0.07144,
+            "8": 0.06994,
+            "9": 0.0662,
+            "10": 0.06656,
+            "11": 0.06344,
+            "12": 0.0577,
+            "13": 0.05448,
+            "14": 0.04628,
+            "15": 0.03618,
+            "16": 0.02338
+          }
+        },
+        "kel-story-l.philipperon": {
+          "horse_id": "kel-story-l.philipperon",
+          "name": "KEL STORY L.PHILIPPERON",
+          "p_win": 0.07622,
+          "p_top3": 0.22912,
+          "p_top5": 0.379,
+          "expected_position": 7.4529,
+          "position_distribution": {
+            "1": 0.07622,
+            "2": 0.07732,
+            "3": 0.07558,
+            "4": 0.07594,
+            "5": 0.07394,
+            "6": 0.07178,
+            "7": 0.07462,
+            "8": 0.07084,
+            "9": 0.0649,
+            "10": 0.06496,
+            "11": 0.06104,
+            "12": 0.05664,
+            "13": 0.05144,
+            "14": 0.04588,
+            "15": 0.0362,
+            "16": 0.0227
+          }
+        },
+        "lou-fast": {
+          "horse_id": "lou-fast",
+          "name": "LOU FAST",
+          "p_win": 0.1016,
+          "p_top3": 0.29552,
+          "p_top5": 0.47036,
+          "expected_position": 6.4262,
+          "position_distribution": {
+            "1": 0.1016,
+            "2": 0.0977,
+            "3": 0.09622,
+            "4": 0.08996,
+            "5": 0.08488,
+            "6": 0.08028,
+            "7": 0.07396,
+            "8": 0.06902,
+            "9": 0.06266,
+            "10": 0.05768,
+            "11": 0.05066,
+            "12": 0.0447,
+            "13": 0.03596,
+            "14": 0.0269,
+            "15": 0.01884,
+            "16": 0.00898
+          }
+        },
+        "shazam": {
+          "horse_id": "shazam",
+          "name": "SHAZAM",
+          "p_win": 0.06472,
+          "p_top3": 0.19148,
+          "p_top5": 0.31948,
+          "expected_position": 8.2771,
+          "position_distribution": {
+            "1": 0.06472,
+            "2": 0.06372,
+            "3": 0.06304,
+            "4": 0.06346,
+            "5": 0.06454,
+            "6": 0.06504,
+            "7": 0.06614,
+            "8": 0.0643,
+            "9": 0.06654,
+            "10": 0.06356,
+            "11": 0.06448,
+            "12": 0.06558,
+            "13": 0.0648,
+            "14": 0.0634,
+            "15": 0.05588,
+            "16": 0.0408
+          }
+        },
+        "naruto": {
+          "horse_id": "naruto",
+          "name": "NARUTO",
+          "p_win": 0.06018,
+          "p_top3": 0.1809,
+          "p_top5": 0.30486,
+          "expected_position": 8.4847,
+          "position_distribution": {
+            "1": 0.06018,
+            "2": 0.05808,
+            "3": 0.06264,
+            "4": 0.06236,
+            "5": 0.0616,
+            "6": 0.0619,
+            "7": 0.0628,
+            "8": 0.0652,
+            "9": 0.0677,
+            "10": 0.06714,
+            "11": 0.06742,
+            "12": 0.06406,
+            "13": 0.06498,
+            "14": 0.06338,
+            "15": 0.06164,
+            "16": 0.04892
+          }
+        },
+        "galant-chaba": {
+          "horse_id": "galant-chaba",
+          "name": "GALANT CHABA",
+          "p_win": 0.0617,
+          "p_top3": 0.18604,
+          "p_top5": 0.31502,
+          "expected_position": 8.3564,
+          "position_distribution": {
+            "1": 0.0617,
+            "2": 0.06188,
+            "3": 0.06246,
+            "4": 0.06416,
+            "5": 0.06482,
+            "6": 0.06548,
+            "7": 0.06372,
+            "8": 0.06616,
+            "9": 0.0633,
+            "10": 0.06586,
+            "11": 0.06448,
+            "12": 0.06588,
+            "13": 0.06494,
+            "14": 0.06012,
+            "15": 0.06006,
+            "16": 0.04498
+          }
+        },
+        "the-must": {
+          "horse_id": "the-must",
+          "name": "THE MUST",
+          "p_win": 0.05452,
+          "p_top3": 0.16804,
+          "p_top5": 0.28412,
+          "expected_position": 8.8163,
+          "position_distribution": {
+            "1": 0.05452,
+            "2": 0.05622,
+            "3": 0.0573,
+            "4": 0.05896,
+            "5": 0.05712,
+            "6": 0.06126,
+            "7": 0.06024,
+            "8": 0.06174,
+            "9": 0.0627,
+            "10": 0.064,
+            "11": 0.06656,
+            "12": 0.0683,
+            "13": 0.07008,
+            "14": 0.07094,
+            "15": 0.06834,
+            "16": 0.06172
+          }
+        },
+        "chant-de-garde": {
+          "horse_id": "chant-de-garde",
+          "name": "CHANT DE GARDE",
+          "p_win": 0.0343,
+          "p_top3": 0.10566,
+          "p_top5": 0.18618,
+          "expected_position": 10.6609,
+          "position_distribution": {
+            "1": 0.0343,
+            "2": 0.03438,
+            "3": 0.03698,
+            "4": 0.03874,
+            "5": 0.04178,
+            "6": 0.04182,
+            "7": 0.04256,
+            "8": 0.04786,
+            "9": 0.04992,
+            "10": 0.05292,
+            "11": 0.05922,
+            "12": 0.06732,
+            "13": 0.07656,
+            "14": 0.0889,
+            "15": 0.1141,
+            "16": 0.17264
+          }
+        },
+        "jumper-baie": {
+          "horse_id": "jumper-baie",
+          "name": "JUMPER BAIE",
+          "p_win": 0.07682,
+          "p_top3": 0.22556,
+          "p_top5": 0.37002,
+          "expected_position": 7.5766,
+          "position_distribution": {
+            "1": 0.07682,
+            "2": 0.0744,
+            "3": 0.07434,
+            "4": 0.0728,
+            "5": 0.07166,
+            "6": 0.07066,
+            "7": 0.07112,
+            "8": 0.06796,
+            "9": 0.06816,
+            "10": 0.06586,
+            "11": 0.06226,
+            "12": 0.05848,
+            "13": 0.05342,
+            "14": 0.0473,
+            "15": 0.0385,
+            "16": 0.02626
+          }
+        },
+        "darlida": {
+          "horse_id": "darlida",
+          "name": "DARLIDA",
+          "p_win": 0.0377,
+          "p_top3": 0.11544,
+          "p_top5": 0.19886,
+          "expected_position": 10.3381,
+          "position_distribution": {
+            "1": 0.0377,
+            "2": 0.03802,
+            "3": 0.03972,
+            "4": 0.04054,
+            "5": 0.04288,
+            "6": 0.04544,
+            "7": 0.04706,
+            "8": 0.05056,
+            "9": 0.0549,
+            "10": 0.05582,
+            "11": 0.06226,
+            "12": 0.06724,
+            "13": 0.0754,
+            "14": 0.08706,
+            "15": 0.10736,
+            "16": 0.14804
+          }
+        },
+        "mossy-walsh": {
+          "horse_id": "mossy-walsh",
+          "name": "MOSSY WALSH",
+          "p_win": 0.03832,
+          "p_top3": 0.11938,
+          "p_top5": 0.20718,
+          "expected_position": 10.1804,
+          "position_distribution": {
+            "1": 0.03832,
+            "2": 0.0394,
+            "3": 0.04166,
+            "4": 0.04216,
+            "5": 0.04564,
+            "6": 0.04834,
+            "7": 0.04794,
+            "8": 0.05086,
+            "9": 0.05582,
+            "10": 0.05752,
+            "11": 0.06054,
+            "12": 0.06874,
+            "13": 0.07648,
+            "14": 0.08754,
+            "15": 0.10386,
+            "16": 0.13518
+          }
+        },
+        "prezienne-du-large": {
+          "horse_id": "prezienne-du-large",
+          "name": "PREZIENNE DU LARGE",
+          "p_win": 0.04398,
+          "p_top3": 0.1325,
+          "p_top5": 0.22616,
+          "expected_position": 9.8468,
+          "position_distribution": {
+            "1": 0.04398,
+            "2": 0.04442,
+            "3": 0.0441,
+            "4": 0.0474,
+            "5": 0.04626,
+            "6": 0.04796,
+            "7": 0.05198,
+            "8": 0.05504,
+            "9": 0.05606,
+            "10": 0.05824,
+            "11": 0.06446,
+            "12": 0.06936,
+            "13": 0.07514,
+            "14": 0.08422,
+            "15": 0.09744,
+            "16": 0.11394
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "lou-fast",
+          "rock-and-roll",
+          "kel-story-l.philipperon"
+        ],
+        "23": [
+          "lou-fast",
+          "rock-and-roll",
+          "kel-story-l.philipperon"
+        ],
+        "37": [
+          "lou-fast",
+          "rock-and-roll",
+          "kel-story-l.philipperon"
+        ],
+        "51": [
+          "lou-fast",
+          "rock-and-roll",
+          "kel-story-l.philipperon"
+        ],
+        "73": [
+          "lou-fast",
+          "rock-and-roll",
+          "kel-story-l.philipperon"
+        ]
+      },
+      "reference_top": [
+        "kel-story-l.philipperon",
+        "lou-fast",
+        "rock-and-roll"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "lou-fast": 10.0,
+        "rock-and-roll": 5.0,
+        "kel-story-l.philipperon": 0.0
+      },
+      "order": [
+        "lou-fast",
+        "rock-and-roll",
+        "kel-story-l.philipperon"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "lou-fast": 15.0,
+        "rock-and-roll": 14.0,
+        "kel-story-l.philipperon": 13.0,
+        "interdit-de-jeu-m.chailloleau": 12.0,
+        "jumper-baie": 11.0,
+        "magic-flight": 10.0,
+        "blue-borana": 9.0,
+        "shazam": 8.0,
+        "galant-chaba": 7.0,
+        "naruto": 6.0,
+        "the-must": 5.0,
+        "robin-hill": 4.0,
+        "prezienne-du-large": 3.0,
+        "mossy-walsh": 2.0,
+        "darlida": 1.0,
+        "chant-de-garde": 0.0
+      },
+      "order": [
+        "lou-fast",
+        "rock-and-roll",
+        "kel-story-l.philipperon",
+        "interdit-de-jeu-m.chailloleau",
+        "jumper-baie",
+        "magic-flight",
+        "blue-borana",
+        "shazam",
+        "galant-chaba",
+        "naruto",
+        "the-must",
+        "robin-hill",
+        "prezienne-du-large",
+        "mossy-walsh",
+        "darlida",
+        "chant-de-garde"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "lou-fast",
+        "rock-and-roll",
+        "kel-story-l.philipperon",
+        "interdit-de-jeu-m.chailloleau",
+        "jumper-baie",
+        "magic-flight",
+        "blue-borana",
+        "shazam",
+        "galant-chaba",
+        "naruto",
+        "the-must",
+        "robin-hill",
+        "prezienne-du-large",
+        "mossy-walsh",
+        "darlida",
+        "chant-de-garde"
+      ],
+      "copeland": {
+        "lou-fast": 15.0,
+        "rock-and-roll": 13.0,
+        "kel-story-l.philipperon": 11.0,
+        "interdit-de-jeu-m.chailloleau": 9.0,
+        "jumper-baie": 7.0,
+        "magic-flight": 5.0,
+        "blue-borana": 3.0,
+        "shazam": 1.0,
+        "galant-chaba": -1.0,
+        "naruto": -3.0,
+        "the-must": -5.0,
+        "robin-hill": -7.0,
+        "prezienne-du-large": -9.0,
+        "mossy-walsh": -11.0,
+        "darlida": -13.0,
+        "chant-de-garde": -15.0
+      },
+      "normalized": {
+        "lou-fast": 1.0,
+        "rock-and-roll": 0.9333,
+        "kel-story-l.philipperon": 0.8667,
+        "interdit-de-jeu-m.chailloleau": 0.8,
+        "jumper-baie": 0.7333,
+        "magic-flight": 0.6667,
+        "blue-borana": 0.6,
+        "shazam": 0.5333,
+        "galant-chaba": 0.4667,
+        "naruto": 0.4,
+        "the-must": 0.3333,
+        "robin-hill": 0.2667,
+        "prezienne-du-large": 0.2,
+        "mossy-walsh": 0.1333,
+        "darlida": 0.0667,
+        "chant-de-garde": 0.0
+      },
+      "mean_rank": {
+        "lou-fast": 0.0,
+        "rock-and-roll": 1.0,
+        "kel-story-l.philipperon": 2.0,
+        "interdit-de-jeu-m.chailloleau": 3.0,
+        "jumper-baie": 4.0,
+        "magic-flight": 5.0,
+        "blue-borana": 6.0,
+        "shazam": 7.0,
+        "galant-chaba": 8.0,
+        "naruto": 9.0,
+        "the-must": 10.0,
+        "robin-hill": 11.0,
+        "prezienne-du-large": 12.0,
+        "mossy-walsh": 13.0,
+        "darlida": 14.0,
+        "chant-de-garde": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "rock-and-roll",
+        "name": "ROCK AND ROLL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "blue-borana",
+        "name": "BLUE BORANA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "magic-flight",
+        "name": "MAGIC FLIGHT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "robin-hill",
+        "name": "ROBIN HILL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "interdit-de-jeu-m.chailloleau",
+        "name": "INTERDIT DE JEU M.CHAILLOLEAU",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kel-story-l.philipperon",
+        "name": "KEL STORY L.PHILIPPERON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lou-fast",
+        "name": "LOU FAST",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "shazam",
+        "name": "SHAZAM",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "naruto",
+        "name": "NARUTO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "galant-chaba",
+        "name": "GALANT CHABA",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 9 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "the-must",
+        "name": "THE MUST",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "chant-de-garde",
+        "name": "CHANT DE GARDE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jumper-baie",
+        "name": "JUMPER BAIE",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 5 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "darlida",
+        "name": "DARLIDA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mossy-walsh",
+        "name": "MOSSY WALSH",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "prezienne-du-large",
+        "name": "PREZIENNE DU LARGE",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 13 vs marché 16)"
+        ],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "interdit-de-jeu-m.chailloleau",
+      "lou-fast",
+      "galant-chaba",
+      "jumper-baie",
+      "prezienne-du-large"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "rock-and-roll": 0.125454,
+      "blue-borana": 0.143376,
+      "magic-flight": 0.066909,
+      "robin-hill": 0.100363,
+      "interdit-de-jeu-m.chailloleau": 0.071688,
+      "kel-story-l.philipperon": 0.083636,
+      "lou-fast": 0.055757,
+      "shazam": 0.062727,
+      "naruto": 0.041818,
+      "galant-chaba": 0.031364,
+      "the-must": 0.047792,
+      "chant-de-garde": 0.034608,
+      "jumper-baie": 0.04562,
+      "darlida": 0.023896,
+      "mossy-walsh": 0.043636,
+      "prezienne-du-large": 0.021354
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "lou-fast",
+      "rock-and-roll",
+      "kel-story-l.philipperon",
+      "interdit-de-jeu-m.chailloleau",
+      "jumper-baie"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.888,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 1.2921,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "ROCK AND ROLL : recent_places",
+      "ROCK AND ROLL : driver",
+      "ROCK AND ROLL : aptitude",
+      "BLUE BORANA : recent_places",
+      "BLUE BORANA : driver",
+      "BLUE BORANA : aptitude",
+      "MAGIC FLIGHT : recent_places",
+      "MAGIC FLIGHT : driver",
+      "MAGIC FLIGHT : aptitude",
+      "ROBIN HILL : recent_places",
+      "ROBIN HILL : driver",
+      "ROBIN HILL : aptitude",
+      "INTERDIT DE JEU M.CHAILLOLEAU : recent_places",
+      "INTERDIT DE JEU M.CHAILLOLEAU : driver",
+      "INTERDIT DE JEU M.CHAILLOLEAU : aptitude",
+      "KEL STORY L.PHILIPPERON : recent_places",
+      "KEL STORY L.PHILIPPERON : driver",
+      "KEL STORY L.PHILIPPERON : aptitude",
+      "LOU FAST : recent_places",
+      "LOU FAST : driver",
+      "LOU FAST : aptitude",
+      "SHAZAM : recent_places",
+      "SHAZAM : driver",
+      "SHAZAM : aptitude",
+      "NARUTO : recent_places",
+      "NARUTO : driver",
+      "NARUTO : aptitude",
+      "GALANT CHABA : recent_places",
+      "GALANT CHABA : driver",
+      "GALANT CHABA : aptitude",
+      "THE MUST : recent_places",
+      "THE MUST : driver",
+      "THE MUST : aptitude",
+      "CHANT DE GARDE : recent_places",
+      "CHANT DE GARDE : driver",
+      "CHANT DE GARDE : aptitude",
+      "JUMPER BAIE : recent_places",
+      "JUMPER BAIE : driver",
+      "JUMPER BAIE : aptitude",
+      "DARLIDA : recent_places",
+      "DARLIDA : driver",
+      "DARLIDA : aptitude",
+      "MOSSY WALSH : recent_places",
+      "MOSSY WALSH : driver",
+      "MOSSY WALSH : aptitude",
+      "PREZIENNE DU LARGE : recent_places",
+      "PREZIENNE DU LARGE : driver",
+      "PREZIENNE DU LARGE : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.26 (saturé à 2.0) → 1.3/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-22T13:15:00+00:00",
+    "betting_close": "2026-09-22T13:05:00+00:00",
+    "race_started": true,
+    "now": "2026-09-26T00:27:55.231370+00:00",
+    "minutes_late": 5002.92,
+    "minutes_to_close": -5002.92,
+    "schedule": {
+      "start_ouagadougou": "2026-09-22T13:15:00+00:00",
+      "start_paris": "2026-09-22T15:15:00+02:00",
+      "close_lonab": "2026-09-22T13:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "LOU FAST",
+      "horse_id": "lou-fast"
+    },
+    {
+      "rang": 2,
+      "cheval": "ROCK AND ROLL",
+      "horse_id": "rock-and-roll"
+    },
+    {
+      "rang": 3,
+      "cheval": "KEL STORY L.PHILIPPERON",
+      "horse_id": "kel-story-l.philipperon"
+    },
+    {
+      "rang": 4,
+      "cheval": "INTERDIT DE JEU M.CHAILLOLEAU",
+      "horse_id": "interdit-de-jeu-m.chailloleau"
+    },
+    {
+      "rang": 5,
+      "cheval": "JUMPER BAIE",
+      "horse_id": "jumper-baie"
+    },
+    {
+      "rang": 6,
+      "cheval": "MAGIC FLIGHT",
+      "horse_id": "magic-flight"
+    },
+    {
+      "rang": 7,
+      "cheval": "BLUE BORANA",
+      "horse_id": "blue-borana"
+    },
+    {
+      "rang": 8,
+      "cheval": "SHAZAM",
+      "horse_id": "shazam"
+    },
+    {
+      "rang": 9,
+      "cheval": "GALANT CHABA",
+      "horse_id": "galant-chaba"
+    },
+    {
+      "rang": 10,
+      "cheval": "NARUTO",
+      "horse_id": "naruto"
+    },
+    {
+      "rang": 11,
+      "cheval": "THE MUST",
+      "horse_id": "the-must"
+    },
+    {
+      "rang": 12,
+      "cheval": "ROBIN HILL",
+      "horse_id": "robin-hill"
+    },
+    {
+      "rang": 13,
+      "cheval": "PREZIENNE DU LARGE",
+      "horse_id": "prezienne-du-large"
+    },
+    {
+      "rang": 14,
+      "cheval": "MOSSY WALSH",
+      "horse_id": "mossy-walsh"
+    },
+    {
+      "rang": 15,
+      "cheval": "DARLIDA",
+      "horse_id": "darlida"
+    },
+    {
+      "rang": 16,
+      "cheval": "CHANT DE GARDE",
+      "horse_id": "chant-de-garde"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "LOU FAST",
+      "score": 10.0
+    },
+    {
+      "cheval": "ROCK AND ROLL",
+      "score": 9.7416
+    },
+    {
+      "cheval": "KEL STORY L.PHILIPPERON",
+      "score": 9.4697
+    },
+    {
+      "cheval": "INTERDIT DE JEU M.CHAILLOLEAU",
+      "score": 9.4229
+    },
+    {
+      "cheval": "JUMPER BAIE",
+      "score": 9.3862
+    },
+    {
+      "cheval": "MAGIC FLIGHT",
+      "score": 9.1468
+    },
+    {
+      "cheval": "BLUE BORANA",
+      "score": 9.1049
+    },
+    {
+      "cheval": "SHAZAM",
+      "score": 9.0315
+    },
+    {
+      "cheval": "GALANT CHABA",
+      "score": 8.974
+    },
+    {
+      "cheval": "NARUTO",
+      "score": 8.9322
+    },
+    {
+      "cheval": "THE MUST",
+      "score": 8.7572
+    },
+    {
+      "cheval": "ROBIN HILL",
+      "score": 8.6978
+    },
+    {
+      "cheval": "PREZIENNE DU LARGE",
+      "score": 8.2111
+    },
+    {
+      "cheval": "MOSSY WALSH",
+      "score": 8.033
+    },
+    {
+      "cheval": "DARLIDA",
+      "score": 7.9421
+    },
+    {
+      "cheval": "CHANT DE GARDE",
+      "score": 7.7686
+    }
+  ],
+  "stored_at": "2026-09-26T00:27:55.233237+00:00"
+}
