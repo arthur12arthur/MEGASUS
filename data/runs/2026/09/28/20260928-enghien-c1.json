@@ -1,0 +1,1693 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260928-enghien-c1",
+  "date": "2026-09-28",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "ENGHIEN",
+    "date": "2026-09-28",
+    "start_time": "2026-09-24T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE SAINT-CHAMOND - ATTELE",
+    "distance_m": 875,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMUB_DU_28-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "repli par mots-clés (mot-clé 'attel' trouvé dans le texte)",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-28T00:27:31.310395+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "idylle-du-persil",
+        "name": "IDYLLE DU PERSIL",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jos-maza",
+        "name": "JOS MAZA",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "happy-pacha",
+        "name": "HAPPY PACHA",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "name": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+        "odds_pdf": 33.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jaguar-du-fan",
+        "name": "JAGUAR DU FAN",
+        "odds_pdf": 49.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "galopin-de-bianca-d.-thomain",
+        "name": "GALOPIN DE BIANCA D. THOMAIN",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jewel-touch",
+        "name": "JEWEL TOUCH",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "indigo-du-perche",
+        "name": "INDIGO DU PERCHE",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "joyce-des-granges",
+        "name": "JOYCE DES GRANGES",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "intello-de-chenu",
+        "name": "INTELLO DE CHENU",
+        "odds_pdf": 73.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "intrepide-des-bois",
+        "name": "INTREPIDE DES BOIS",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "IDYLLE DU PERSIL (idylle-du-persil) : aucune cote récente disponible",
+      "JIBI DU FRUITIER (jibi-du-fruitier) : aucune cote récente disponible",
+      "IOUPY TOLLEVILLE (ioupy-tolleville) : aucune cote récente disponible",
+      "JOS MAZA (jos-maza) : aucune cote récente disponible",
+      "HAPPY PACHA (happy-pacha) : aucune cote récente disponible",
+      "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS (in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis) : aucune cote récente disponible",
+      "JAGUAR DU FAN (jaguar-du-fan) : aucune cote récente disponible",
+      "GALOPIN DE BIANCA D. THOMAIN (galopin-de-bianca-d.-thomain) : aucune cote récente disponible",
+      "JEWEL TOUCH (jewel-touch) : aucune cote récente disponible",
+      "INDIGO DU PERCHE (indigo-du-perche) : aucune cote récente disponible",
+      "JOYCE DES GRANGES (joyce-des-granges) : aucune cote récente disponible",
+      "INTELLO DE CHENU (intello-de-chenu) : aucune cote récente disponible",
+      "JAZZ DE PADD (jazz-de-padd) : aucune cote récente disponible",
+      "INTREPIDE DES BOIS (intrepide-des-bois) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "idylle-du-persil",
+      "jibi-du-fruitier",
+      "ioupy-tolleville",
+      "jos-maza",
+      "happy-pacha",
+      "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+      "jaguar-du-fan",
+      "galopin-de-bianca-d.-thomain",
+      "jewel-touch",
+      "indigo-du-perche",
+      "joyce-des-granges",
+      "intello-de-chenu",
+      "jazz-de-padd",
+      "intrepide-des-bois"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "dimensions": {
+          "historique": 9.99967901268141,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9997,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "happy-pacha",
+        "name": "HAPPY PACHA",
+        "dimensions": {
+          "historique": 9.993430173290436,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9934,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "name": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+        "dimensions": {
+          "historique": 9.984756341226515,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9848,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jos-maza",
+        "name": "JOS MAZA",
+        "dimensions": {
+          "historique": 9.973406148233291,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9734,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "idylle-du-persil",
+        "name": "IDYLLE DU PERSIL",
+        "dimensions": {
+          "historique": 9.972196656952942,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9722,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jaguar-du-fan",
+        "name": "JAGUAR DU FAN",
+        "dimensions": {
+          "historique": 9.965545494714252,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9655,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "intello-de-chenu",
+        "name": "INTELLO DE CHENU",
+        "dimensions": {
+          "historique": 9.958689241369195,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9587,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "galopin-de-bianca-d.-thomain",
+        "name": "GALOPIN DE BIANCA D. THOMAIN",
+        "dimensions": {
+          "historique": 9.950164561222984,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9502,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "dimensions": {
+          "historique": 9.947905246020309,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9479,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jewel-touch",
+        "name": "JEWEL TOUCH",
+        "dimensions": {
+          "historique": 9.943730819428097,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9437,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "indigo-du-perche",
+        "name": "INDIGO DU PERCHE",
+        "dimensions": {
+          "historique": 9.93847756941697,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9385,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "intrepide-des-bois",
+        "name": "INTREPIDE DES BOIS",
+        "dimensions": {
+          "historique": 9.931736715754626,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9317,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "joyce-des-granges",
+        "name": "JOYCE DES GRANGES",
+        "dimensions": {
+          "historique": 9.906702760750568,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9067,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ioupy-tolleville",
+      "jibi-du-fruitier",
+      "happy-pacha",
+      "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+      "jos-maza",
+      "jaguar-du-fan",
+      "intello-de-chenu",
+      "idylle-du-persil",
+      "indigo-du-perche",
+      "galopin-de-bianca-d.-thomain",
+      "jazz-de-padd",
+      "jewel-touch",
+      "intrepide-des-bois",
+      "joyce-des-granges"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "idylle-du-persil": {
+          "horse_id": "idylle-du-persil",
+          "name": "IDYLLE DU PERSIL",
+          "p_win": 0.0701,
+          "p_top3": 0.21322,
+          "p_top5": 0.354,
+          "expected_position": 7.5353,
+          "position_distribution": {
+            "1": 0.0701,
+            "2": 0.07042,
+            "3": 0.0727,
+            "4": 0.06904,
+            "5": 0.07174,
+            "6": 0.06988,
+            "7": 0.07078,
+            "8": 0.07262,
+            "9": 0.07244,
+            "10": 0.0708,
+            "11": 0.07412,
+            "12": 0.0713,
+            "13": 0.07202,
+            "14": 0.07204
+          }
+        },
+        "jibi-du-fruitier": {
+          "horse_id": "jibi-du-fruitier",
+          "name": "JIBI DU FRUITIER",
+          "p_win": 0.07164,
+          "p_top3": 0.21628,
+          "p_top5": 0.3603,
+          "expected_position": 7.4491,
+          "position_distribution": {
+            "1": 0.07164,
+            "2": 0.072,
+            "3": 0.07264,
+            "4": 0.07234,
+            "5": 0.07168,
+            "6": 0.07274,
+            "7": 0.07218,
+            "8": 0.0727,
+            "9": 0.07118,
+            "10": 0.07152,
+            "11": 0.07046,
+            "12": 0.07108,
+            "13": 0.06914,
+            "14": 0.0687
+          }
+        },
+        "ioupy-tolleville": {
+          "horse_id": "ioupy-tolleville",
+          "name": "IOUPY TOLLEVILLE",
+          "p_win": 0.07282,
+          "p_top3": 0.21984,
+          "p_top5": 0.36746,
+          "expected_position": 7.4038,
+          "position_distribution": {
+            "1": 0.07282,
+            "2": 0.07386,
+            "3": 0.07316,
+            "4": 0.07292,
+            "5": 0.0747,
+            "6": 0.0714,
+            "7": 0.0708,
+            "8": 0.0717,
+            "9": 0.07134,
+            "10": 0.06976,
+            "11": 0.07122,
+            "12": 0.07002,
+            "13": 0.0705,
+            "14": 0.0658
+          }
+        },
+        "jos-maza": {
+          "horse_id": "jos-maza",
+          "name": "JOS MAZA",
+          "p_win": 0.072,
+          "p_top3": 0.21586,
+          "p_top5": 0.3585,
+          "expected_position": 7.4798,
+          "position_distribution": {
+            "1": 0.072,
+            "2": 0.07346,
+            "3": 0.0704,
+            "4": 0.07148,
+            "5": 0.07116,
+            "6": 0.07252,
+            "7": 0.07082,
+            "8": 0.07098,
+            "9": 0.07106,
+            "10": 0.07152,
+            "11": 0.07138,
+            "12": 0.07198,
+            "13": 0.0718,
+            "14": 0.06944
+          }
+        },
+        "happy-pacha": {
+          "horse_id": "happy-pacha",
+          "name": "HAPPY PACHA",
+          "p_win": 0.07174,
+          "p_top3": 0.21644,
+          "p_top5": 0.36052,
+          "expected_position": 7.4514,
+          "position_distribution": {
+            "1": 0.07174,
+            "2": 0.07302,
+            "3": 0.07168,
+            "4": 0.07188,
+            "5": 0.0722,
+            "6": 0.0729,
+            "7": 0.07166,
+            "8": 0.07162,
+            "9": 0.07196,
+            "10": 0.07204,
+            "11": 0.07056,
+            "12": 0.06958,
+            "13": 0.06936,
+            "14": 0.0698
+          }
+        },
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": {
+          "horse_id": "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+          "name": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+          "p_win": 0.07334,
+          "p_top3": 0.217,
+          "p_top5": 0.3597,
+          "expected_position": 7.4589,
+          "position_distribution": {
+            "1": 0.07334,
+            "2": 0.07128,
+            "3": 0.07238,
+            "4": 0.0716,
+            "5": 0.0711,
+            "6": 0.0723,
+            "7": 0.07256,
+            "8": 0.07246,
+            "9": 0.06926,
+            "10": 0.07312,
+            "11": 0.06972,
+            "12": 0.07018,
+            "13": 0.07084,
+            "14": 0.06986
+          }
+        },
+        "jaguar-du-fan": {
+          "horse_id": "jaguar-du-fan",
+          "name": "JAGUAR DU FAN",
+          "p_win": 0.07154,
+          "p_top3": 0.21428,
+          "p_top5": 0.35642,
+          "expected_position": 7.5068,
+          "position_distribution": {
+            "1": 0.07154,
+            "2": 0.06974,
+            "3": 0.073,
+            "4": 0.07216,
+            "5": 0.06998,
+            "6": 0.0713,
+            "7": 0.07164,
+            "8": 0.07098,
+            "9": 0.07174,
+            "10": 0.07162,
+            "11": 0.07158,
+            "12": 0.07124,
+            "13": 0.07168,
+            "14": 0.0718
+          }
+        },
+        "galopin-de-bianca-d.-thomain": {
+          "horse_id": "galopin-de-bianca-d.-thomain",
+          "name": "GALOPIN DE BIANCA D. THOMAIN",
+          "p_win": 0.07106,
+          "p_top3": 0.21338,
+          "p_top5": 0.35706,
+          "expected_position": 7.5139,
+          "position_distribution": {
+            "1": 0.07106,
+            "2": 0.07272,
+            "3": 0.0696,
+            "4": 0.07214,
+            "5": 0.07154,
+            "6": 0.07074,
+            "7": 0.07222,
+            "8": 0.07066,
+            "9": 0.07096,
+            "10": 0.07098,
+            "11": 0.07054,
+            "12": 0.0706,
+            "13": 0.07184,
+            "14": 0.0744
+          }
+        },
+        "jewel-touch": {
+          "horse_id": "jewel-touch",
+          "name": "JEWEL TOUCH",
+          "p_win": 0.0704,
+          "p_top3": 0.21208,
+          "p_top5": 0.35598,
+          "expected_position": 7.516,
+          "position_distribution": {
+            "1": 0.0704,
+            "2": 0.07072,
+            "3": 0.07096,
+            "4": 0.07342,
+            "5": 0.07048,
+            "6": 0.07066,
+            "7": 0.07186,
+            "8": 0.0703,
+            "9": 0.07166,
+            "10": 0.07198,
+            "11": 0.07276,
+            "12": 0.07256,
+            "13": 0.07132,
+            "14": 0.07092
+          }
+        },
+        "indigo-du-perche": {
+          "horse_id": "indigo-du-perche",
+          "name": "INDIGO DU PERCHE",
+          "p_win": 0.07274,
+          "p_top3": 0.21332,
+          "p_top5": 0.35634,
+          "expected_position": 7.5057,
+          "position_distribution": {
+            "1": 0.07274,
+            "2": 0.07048,
+            "3": 0.0701,
+            "4": 0.0725,
+            "5": 0.07052,
+            "6": 0.07084,
+            "7": 0.07226,
+            "8": 0.07152,
+            "9": 0.07186,
+            "10": 0.07144,
+            "11": 0.06994,
+            "12": 0.07196,
+            "13": 0.07172,
+            "14": 0.07212
+          }
+        },
+        "joyce-des-granges": {
+          "horse_id": "joyce-des-granges",
+          "name": "JOYCE DES GRANGES",
+          "p_win": 0.06884,
+          "p_top3": 0.20854,
+          "p_top5": 0.34704,
+          "expected_position": 7.6023,
+          "position_distribution": {
+            "1": 0.06884,
+            "2": 0.06982,
+            "3": 0.06988,
+            "4": 0.06948,
+            "5": 0.06902,
+            "6": 0.07008,
+            "7": 0.07092,
+            "8": 0.0745,
+            "9": 0.07158,
+            "10": 0.0713,
+            "11": 0.07142,
+            "12": 0.07246,
+            "13": 0.07388,
+            "14": 0.07682
+          }
+        },
+        "intello-de-chenu": {
+          "horse_id": "intello-de-chenu",
+          "name": "INTELLO DE CHENU",
+          "p_win": 0.07078,
+          "p_top3": 0.21306,
+          "p_top5": 0.35808,
+          "expected_position": 7.513,
+          "position_distribution": {
+            "1": 0.07078,
+            "2": 0.07108,
+            "3": 0.0712,
+            "4": 0.07302,
+            "5": 0.072,
+            "6": 0.07146,
+            "7": 0.07018,
+            "8": 0.06904,
+            "9": 0.07226,
+            "10": 0.06994,
+            "11": 0.0719,
+            "12": 0.07318,
+            "13": 0.07222,
+            "14": 0.07174
+          }
+        },
+        "jazz-de-padd": {
+          "horse_id": "jazz-de-padd",
+          "name": "JAZZ DE PADD",
+          "p_win": 0.07068,
+          "p_top3": 0.21346,
+          "p_top5": 0.3566,
+          "expected_position": 7.517,
+          "position_distribution": {
+            "1": 0.07068,
+            "2": 0.07202,
+            "3": 0.07076,
+            "4": 0.06986,
+            "5": 0.07328,
+            "6": 0.07238,
+            "7": 0.06896,
+            "8": 0.0713,
+            "9": 0.06974,
+            "10": 0.07382,
+            "11": 0.07096,
+            "12": 0.07258,
+            "13": 0.07182,
+            "14": 0.07184
+          }
+        },
+        "intrepide-des-bois": {
+          "horse_id": "intrepide-des-bois",
+          "name": "INTREPIDE DES BOIS",
+          "p_win": 0.07232,
+          "p_top3": 0.21324,
+          "p_top5": 0.352,
+          "expected_position": 7.5469,
+          "position_distribution": {
+            "1": 0.07232,
+            "2": 0.06938,
+            "3": 0.07154,
+            "4": 0.06816,
+            "5": 0.0706,
+            "6": 0.0708,
+            "7": 0.07316,
+            "8": 0.06962,
+            "9": 0.07296,
+            "10": 0.07016,
+            "11": 0.07344,
+            "12": 0.07128,
+            "13": 0.07186,
+            "14": 0.07472
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "jos-maza",
+          "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+          "ioupy-tolleville"
+        ],
+        "23": [
+          "ioupy-tolleville",
+          "happy-pacha",
+          "jibi-du-fruitier"
+        ],
+        "37": [
+          "jibi-du-fruitier",
+          "happy-pacha",
+          "ioupy-tolleville"
+        ],
+        "51": [
+          "ioupy-tolleville",
+          "jibi-du-fruitier",
+          "intello-de-chenu"
+        ],
+        "73": [
+          "ioupy-tolleville",
+          "happy-pacha",
+          "jibi-du-fruitier"
+        ]
+      },
+      "reference_top": [
+        "happy-pacha",
+        "ioupy-tolleville",
+        "jibi-du-fruitier"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "jos-maza": 2.0,
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 1.0,
+        "ioupy-tolleville": 6.0,
+        "happy-pacha": 3.0,
+        "jibi-du-fruitier": 3.0,
+        "intello-de-chenu": 0.0
+      },
+      "order": [
+        "ioupy-tolleville",
+        "happy-pacha",
+        "jibi-du-fruitier",
+        "jos-maza",
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "intello-de-chenu"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "ioupy-tolleville": 13.0,
+        "jibi-du-fruitier": 12.0,
+        "happy-pacha": 11.0,
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 10.0,
+        "jos-maza": 9.0,
+        "idylle-du-persil": 8.0,
+        "jaguar-du-fan": 7.0,
+        "intello-de-chenu": 6.0,
+        "galopin-de-bianca-d.-thomain": 5.0,
+        "jazz-de-padd": 4.0,
+        "jewel-touch": 3.0,
+        "indigo-du-perche": 2.0,
+        "intrepide-des-bois": 1.0,
+        "joyce-des-granges": 0.0
+      },
+      "order": [
+        "ioupy-tolleville",
+        "jibi-du-fruitier",
+        "happy-pacha",
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "jos-maza",
+        "idylle-du-persil",
+        "jaguar-du-fan",
+        "intello-de-chenu",
+        "galopin-de-bianca-d.-thomain",
+        "jazz-de-padd",
+        "jewel-touch",
+        "indigo-du-perche",
+        "intrepide-des-bois",
+        "joyce-des-granges"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ioupy-tolleville",
+        "jibi-du-fruitier",
+        "happy-pacha",
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "jos-maza",
+        "jaguar-du-fan",
+        "intello-de-chenu",
+        "idylle-du-persil",
+        "indigo-du-perche",
+        "galopin-de-bianca-d.-thomain",
+        "jazz-de-padd",
+        "jewel-touch",
+        "intrepide-des-bois",
+        "joyce-des-granges"
+      ],
+      "copeland": {
+        "ioupy-tolleville": 13.0,
+        "jibi-du-fruitier": 11.0,
+        "happy-pacha": 9.0,
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 7.0,
+        "jos-maza": 5.0,
+        "indigo-du-perche": 0.0,
+        "jaguar-du-fan": 2.0,
+        "intello-de-chenu": 0.0,
+        "galopin-de-bianca-d.-thomain": -2.0,
+        "jewel-touch": -4.5,
+        "jazz-de-padd": -4.5,
+        "idylle-du-persil": 0.0,
+        "intrepide-des-bois": -11.0,
+        "joyce-des-granges": -13.0
+      },
+      "normalized": {
+        "ioupy-tolleville": 1.0,
+        "jibi-du-fruitier": 0.9231,
+        "happy-pacha": 0.8462,
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 0.7692,
+        "jos-maza": 0.6923,
+        "indigo-du-perche": 0.5,
+        "jaguar-du-fan": 0.5769,
+        "intello-de-chenu": 0.5,
+        "galopin-de-bianca-d.-thomain": 0.4231,
+        "jewel-touch": 0.3269,
+        "jazz-de-padd": 0.3269,
+        "idylle-du-persil": 0.5,
+        "intrepide-des-bois": 0.0769,
+        "joyce-des-granges": 0.0
+      },
+      "mean_rank": {
+        "ioupy-tolleville": 0.0,
+        "jibi-du-fruitier": 1.3333,
+        "happy-pacha": 1.6667,
+        "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 3.3333,
+        "jos-maza": 3.6667,
+        "indigo-du-perche": 8.0,
+        "jaguar-du-fan": 6.0,
+        "intello-de-chenu": 6.3333,
+        "galopin-de-bianca-d.-thomain": 8.0,
+        "jewel-touch": 9.5,
+        "jazz-de-padd": 9.5,
+        "idylle-du-persil": 8.0,
+        "intrepide-des-bois": 12.0,
+        "joyce-des-granges": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "idylle-du-persil",
+        "name": "IDYLLE DU PERSIL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 1 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "jos-maza",
+        "name": "JOS MAZA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "happy-pacha",
+        "name": "HAPPY PACHA",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 3 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+        "name": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 4 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "jaguar-du-fan",
+        "name": "JAGUAR DU FAN",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 6 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "galopin-de-bianca-d.-thomain",
+        "name": "GALOPIN DE BIANCA D. THOMAIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jewel-touch",
+        "name": "JEWEL TOUCH",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "indigo-du-perche",
+        "name": "INDIGO DU PERCHE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "joyce-des-granges",
+        "name": "JOYCE DES GRANGES",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "intello-de-chenu",
+        "name": "INTELLO DE CHENU",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 7 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "intrepide-des-bois",
+        "name": "INTREPIDE DES BOIS",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "jibi-du-fruitier",
+      "ioupy-tolleville",
+      "happy-pacha",
+      "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+      "jaguar-du-fan",
+      "intello-de-chenu"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "idylle-du-persil": 0.064992,
+      "jibi-du-fruitier": 0.088626,
+      "ioupy-tolleville": 0.034817,
+      "jos-maza": 0.13927,
+      "happy-pacha": 0.042386,
+      "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis": 0.029542,
+      "jaguar-du-fan": 0.019896,
+      "galopin-de-bianca-d.-thomain": 0.025655,
+      "jewel-touch": 0.097489,
+      "indigo-du-perche": 0.108321,
+      "joyce-des-granges": 0.05131,
+      "intello-de-chenu": 0.013355,
+      "jazz-de-padd": 0.162481,
+      "intrepide-des-bois": 0.121861
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "ioupy-tolleville",
+      "jibi-du-fruitier",
+      "happy-pacha",
+      "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis",
+      "jos-maza"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.334,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 0.0016,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 3.3333
+    },
+    "missing_data": [
+      "IDYLLE DU PERSIL : recent_places",
+      "IDYLLE DU PERSIL : driver",
+      "IDYLLE DU PERSIL : aptitude",
+      "IDYLLE DU PERSIL : shoeing",
+      "JIBI DU FRUITIER : recent_places",
+      "JIBI DU FRUITIER : driver",
+      "JIBI DU FRUITIER : aptitude",
+      "JIBI DU FRUITIER : shoeing",
+      "IOUPY TOLLEVILLE : recent_places",
+      "IOUPY TOLLEVILLE : driver",
+      "IOUPY TOLLEVILLE : aptitude",
+      "IOUPY TOLLEVILLE : shoeing",
+      "JOS MAZA : recent_places",
+      "JOS MAZA : driver",
+      "JOS MAZA : aptitude",
+      "JOS MAZA : shoeing",
+      "HAPPY PACHA : recent_places",
+      "HAPPY PACHA : driver",
+      "HAPPY PACHA : aptitude",
+      "HAPPY PACHA : shoeing",
+      "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS : recent_places",
+      "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS : driver",
+      "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS : aptitude",
+      "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS : shoeing",
+      "JAGUAR DU FAN : recent_places",
+      "JAGUAR DU FAN : driver",
+      "JAGUAR DU FAN : aptitude",
+      "JAGUAR DU FAN : shoeing",
+      "GALOPIN DE BIANCA D. THOMAIN : recent_places",
+      "GALOPIN DE BIANCA D. THOMAIN : driver",
+      "GALOPIN DE BIANCA D. THOMAIN : aptitude",
+      "GALOPIN DE BIANCA D. THOMAIN : shoeing",
+      "JEWEL TOUCH : recent_places",
+      "JEWEL TOUCH : driver",
+      "JEWEL TOUCH : aptitude",
+      "JEWEL TOUCH : shoeing",
+      "INDIGO DU PERCHE : recent_places",
+      "INDIGO DU PERCHE : driver",
+      "INDIGO DU PERCHE : aptitude",
+      "INDIGO DU PERCHE : shoeing",
+      "JOYCE DES GRANGES : recent_places",
+      "JOYCE DES GRANGES : driver",
+      "JOYCE DES GRANGES : aptitude",
+      "JOYCE DES GRANGES : shoeing",
+      "INTELLO DE CHENU : recent_places",
+      "INTELLO DE CHENU : driver",
+      "INTELLO DE CHENU : aptitude",
+      "INTELLO DE CHENU : shoeing",
+      "JAZZ DE PADD : recent_places",
+      "JAZZ DE PADD : driver",
+      "JAZZ DE PADD : aptitude",
+      "JAZZ DE PADD : shoeing",
+      "INTREPIDE DES BOIS : recent_places",
+      "INTREPIDE DES BOIS : driver",
+      "INTREPIDE DES BOIS : aptitude",
+      "INTREPIDE DES BOIS : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.00 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 33% (56 champ(s) manquant(s)) → 3.3/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-24T11:55:00+00:00",
+    "betting_close": "2026-09-24T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-09-28T00:27:31.356200+00:00",
+    "minutes_late": 5082.52,
+    "minutes_to_close": -5082.52,
+    "schedule": {
+      "start_ouagadougou": "2026-09-24T11:55:00+00:00",
+      "start_paris": "2026-09-24T13:55:00+02:00",
+      "close_lonab": "2026-09-24T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "IOUPY TOLLEVILLE",
+      "horse_id": "ioupy-tolleville"
+    },
+    {
+      "rang": 2,
+      "cheval": "JIBI DU FRUITIER",
+      "horse_id": "jibi-du-fruitier"
+    },
+    {
+      "rang": 3,
+      "cheval": "HAPPY PACHA",
+      "horse_id": "happy-pacha"
+    },
+    {
+      "rang": 4,
+      "cheval": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+      "horse_id": "in-love-reglisse-d.-de-jesus-reis-d.-de-jesus-reis"
+    },
+    {
+      "rang": 5,
+      "cheval": "JOS MAZA",
+      "horse_id": "jos-maza"
+    },
+    {
+      "rang": 6,
+      "cheval": "JAGUAR DU FAN",
+      "horse_id": "jaguar-du-fan"
+    },
+    {
+      "rang": 7,
+      "cheval": "INTELLO DE CHENU",
+      "horse_id": "intello-de-chenu"
+    },
+    {
+      "rang": 8,
+      "cheval": "IDYLLE DU PERSIL",
+      "horse_id": "idylle-du-persil"
+    },
+    {
+      "rang": 9,
+      "cheval": "INDIGO DU PERCHE",
+      "horse_id": "indigo-du-perche"
+    },
+    {
+      "rang": 10,
+      "cheval": "GALOPIN DE BIANCA D. THOMAIN",
+      "horse_id": "galopin-de-bianca-d.-thomain"
+    },
+    {
+      "rang": 11,
+      "cheval": "JAZZ DE PADD",
+      "horse_id": "jazz-de-padd"
+    },
+    {
+      "rang": 12,
+      "cheval": "JEWEL TOUCH",
+      "horse_id": "jewel-touch"
+    },
+    {
+      "rang": 13,
+      "cheval": "INTREPIDE DES BOIS",
+      "horse_id": "intrepide-des-bois"
+    },
+    {
+      "rang": 14,
+      "cheval": "JOYCE DES GRANGES",
+      "horse_id": "joyce-des-granges"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "IOUPY TOLLEVILLE",
+      "score": 10.0
+    },
+    {
+      "cheval": "JIBI DU FRUITIER",
+      "score": 9.9997
+    },
+    {
+      "cheval": "HAPPY PACHA",
+      "score": 9.9934
+    },
+    {
+      "cheval": "IN LOVE REGLISSE D. DE JESUS REIS D. DE JESUS REIS",
+      "score": 9.9848
+    },
+    {
+      "cheval": "JOS MAZA",
+      "score": 9.9734
+    },
+    {
+      "cheval": "IDYLLE DU PERSIL",
+      "score": 9.9722
+    },
+    {
+      "cheval": "JAGUAR DU FAN",
+      "score": 9.9655
+    },
+    {
+      "cheval": "INTELLO DE CHENU",
+      "score": 9.9587
+    },
+    {
+      "cheval": "GALOPIN DE BIANCA D. THOMAIN",
+      "score": 9.9502
+    },
+    {
+      "cheval": "JAZZ DE PADD",
+      "score": 9.9479
+    },
+    {
+      "cheval": "JEWEL TOUCH",
+      "score": 9.9437
+    },
+    {
+      "cheval": "INDIGO DU PERCHE",
+      "score": 9.9385
+    },
+    {
+      "cheval": "INTREPIDE DES BOIS",
+      "score": 9.9317
+    },
+    {
+      "cheval": "JOYCE DES GRANGES",
+      "score": 9.9067
+    }
+  ],
+  "stored_at": "2026-09-28T00:27:31.357596+00:00"
+}
