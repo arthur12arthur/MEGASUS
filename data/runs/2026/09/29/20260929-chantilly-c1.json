@@ -1,0 +1,1869 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260929-chantilly-c1",
+  "date": "2026-09-29",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "CHANTILLY",
+    "date": "2026-09-29",
+    "start_time": "2026-09-25T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE LA CHAMBRE DU DUC",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMUB_DU_29-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé ; repli hippodrome (Chantilly : plat uniquement)",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-29T01:41:25.387656+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "anssio",
+        "name": "ANSSIO",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "rock-blanc",
+        "name": "ROCK BLANC",
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "central-park-west",
+        "name": "CENTRAL PARK WEST",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "odds_pdf": 59.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "boticelli",
+        "name": "BOTICELLI",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "douriann",
+        "name": "DOURIANN",
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "presa-diretta-a.-lemaitre",
+        "name": "PRESA DIRETTA A. LEMAITRE",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "feve",
+        "name": "FEVE",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "fearless-cheetah-s.-pasquier",
+        "name": "FEARLESS CHEETAH S. PASQUIER",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "true-tedesco",
+        "name": "TRUE TEDESCO",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "star-rock",
+        "name": "STAR ROCK",
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "almaromy-e.-hardouin",
+        "name": "ALMAROMY E. HARDOUIN",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "odds_pdf": 48.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jenilat-bright-s.-mokrosova",
+        "name": "JENILAT BRIGHT S. MOKROSOVA",
+        "odds_pdf": 68.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "ANSSIO (anssio) : aucune cote récente disponible",
+      "ZELORO (zeloro) : aucune cote récente disponible",
+      "ROCK BLANC (rock-blanc) : aucune cote récente disponible",
+      "CENTRAL PARK WEST (central-park-west) : aucune cote récente disponible",
+      "OPALUS ROAD (opalus-road) : aucune cote récente disponible",
+      "AL MAX (al-max) : aucune cote récente disponible",
+      "BOTICELLI (boticelli) : aucune cote récente disponible",
+      "DOURIANN (douriann) : aucune cote récente disponible",
+      "PRESA DIRETTA A. LEMAITRE (presa-diretta-a.-lemaitre) : aucune cote récente disponible",
+      "FEVE (feve) : aucune cote récente disponible",
+      "FEARLESS CHEETAH S. PASQUIER (fearless-cheetah-s.-pasquier) : aucune cote récente disponible",
+      "TRUE TEDESCO (true-tedesco) : aucune cote récente disponible",
+      "STAR ROCK (star-rock) : aucune cote récente disponible",
+      "ALMAROMY E. HARDOUIN (almaromy-e.-hardouin) : aucune cote récente disponible",
+      "SPEEDY GREEN (speedy-green) : aucune cote récente disponible",
+      "JENILAT BRIGHT S. MOKROSOVA (jenilat-bright-s.-mokrosova) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "anssio",
+      "zeloro",
+      "rock-blanc",
+      "central-park-west",
+      "opalus-road",
+      "al-max",
+      "boticelli",
+      "douriann",
+      "presa-diretta-a.-lemaitre",
+      "feve",
+      "fearless-cheetah-s.-pasquier",
+      "true-tedesco",
+      "star-rock",
+      "almaromy-e.-hardouin",
+      "speedy-green",
+      "jenilat-bright-s.-mokrosova"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "central-park-west",
+        "name": "CENTRAL PARK WEST",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "rock-blanc",
+        "name": "ROCK BLANC",
+        "dimensions": {
+          "historique": 9.933039390423362,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.933,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "douriann",
+        "name": "DOURIANN",
+        "dimensions": {
+          "historique": 9.368711725924399,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3687,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "true-tedesco",
+        "name": "TRUE TEDESCO",
+        "dimensions": {
+          "historique": 9.247032866150423,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.247,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "presa-diretta-a.-lemaitre",
+        "name": "PRESA DIRETTA A. LEMAITRE",
+        "dimensions": {
+          "historique": 9.244279986897478,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2443,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "star-rock",
+        "name": "STAR ROCK",
+        "dimensions": {
+          "historique": 9.176928987384184,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1769,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "dimensions": {
+          "historique": 9.023623575287568,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0236,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fearless-cheetah-s.-pasquier",
+        "name": "FEARLESS CHEETAH S. PASQUIER",
+        "dimensions": {
+          "historique": 8.945286762547621,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9453,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "dimensions": {
+          "historique": 8.88594980710683,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8859,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "feve",
+        "name": "FEVE",
+        "dimensions": {
+          "historique": 8.844663187631133,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8447,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "anssio",
+        "name": "ANSSIO",
+        "dimensions": {
+          "historique": 8.767123903473621,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7671,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "boticelli",
+        "name": "BOTICELLI",
+        "dimensions": {
+          "historique": 8.703453310261395,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7035,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "almaromy-e.-hardouin",
+        "name": "ALMAROMY E. HARDOUIN",
+        "dimensions": {
+          "historique": 8.697657145336237,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6977,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "dimensions": {
+          "historique": 8.44491441479901,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.4449,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "dimensions": {
+          "historique": 8.196690340563222,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.1967,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jenilat-bright-s.-mokrosova",
+        "name": "JENILAT BRIGHT S. MOKROSOVA",
+        "dimensions": {
+          "historique": 7.753944524538431,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.7539,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "central-park-west",
+      "rock-blanc",
+      "douriann",
+      "true-tedesco",
+      "presa-diretta-a.-lemaitre",
+      "star-rock",
+      "opalus-road",
+      "fearless-cheetah-s.-pasquier",
+      "feve",
+      "zeloro",
+      "anssio",
+      "almaromy-e.-hardouin",
+      "boticelli",
+      "al-max",
+      "speedy-green",
+      "jenilat-bright-s.-mokrosova"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "anssio": {
+          "horse_id": "anssio",
+          "name": "ANSSIO",
+          "p_win": 0.05442,
+          "p_top3": 0.1703,
+          "p_top5": 0.28418,
+          "expected_position": 8.8441,
+          "position_distribution": {
+            "1": 0.05442,
+            "2": 0.05608,
+            "3": 0.0598,
+            "4": 0.05526,
+            "5": 0.05862,
+            "6": 0.05904,
+            "7": 0.06048,
+            "8": 0.06282,
+            "9": 0.06286,
+            "10": 0.0633,
+            "11": 0.06524,
+            "12": 0.0678,
+            "13": 0.06826,
+            "14": 0.07044,
+            "15": 0.06898,
+            "16": 0.0666
+          }
+        },
+        "zeloro": {
+          "horse_id": "zeloro",
+          "name": "ZELORO",
+          "p_win": 0.05752,
+          "p_top3": 0.1748,
+          "p_top5": 0.29588,
+          "expected_position": 8.6831,
+          "position_distribution": {
+            "1": 0.05752,
+            "2": 0.0585,
+            "3": 0.05878,
+            "4": 0.06088,
+            "5": 0.0602,
+            "6": 0.06084,
+            "7": 0.062,
+            "8": 0.0614,
+            "9": 0.06288,
+            "10": 0.06414,
+            "11": 0.06512,
+            "12": 0.06528,
+            "13": 0.0684,
+            "14": 0.06836,
+            "15": 0.06698,
+            "16": 0.05872
+          }
+        },
+        "rock-blanc": {
+          "horse_id": "rock-blanc",
+          "name": "ROCK BLANC",
+          "p_win": 0.09872,
+          "p_top3": 0.28306,
+          "p_top5": 0.45126,
+          "expected_position": 6.6119,
+          "position_distribution": {
+            "1": 0.09872,
+            "2": 0.09178,
+            "3": 0.09256,
+            "4": 0.08514,
+            "5": 0.08306,
+            "6": 0.0792,
+            "7": 0.0751,
+            "8": 0.07036,
+            "9": 0.0644,
+            "10": 0.05956,
+            "11": 0.05244,
+            "12": 0.0452,
+            "13": 0.0386,
+            "14": 0.0321,
+            "15": 0.0218,
+            "16": 0.00998
+          }
+        },
+        "central-park-west": {
+          "horse_id": "central-park-west",
+          "name": "CENTRAL PARK WEST",
+          "p_win": 0.10124,
+          "p_top3": 0.29304,
+          "p_top5": 0.46542,
+          "expected_position": 6.4776,
+          "position_distribution": {
+            "1": 0.10124,
+            "2": 0.10026,
+            "3": 0.09154,
+            "4": 0.0884,
+            "5": 0.08398,
+            "6": 0.07958,
+            "7": 0.0739,
+            "8": 0.06882,
+            "9": 0.06464,
+            "10": 0.05656,
+            "11": 0.05188,
+            "12": 0.044,
+            "13": 0.03668,
+            "14": 0.02864,
+            "15": 0.01954,
+            "16": 0.01034
+          }
+        },
+        "opalus-road": {
+          "horse_id": "opalus-road",
+          "name": "OPALUS ROAD",
+          "p_win": 0.06,
+          "p_top3": 0.18654,
+          "p_top5": 0.31268,
+          "expected_position": 8.3737,
+          "position_distribution": {
+            "1": 0.06,
+            "2": 0.0638,
+            "3": 0.06274,
+            "4": 0.06324,
+            "5": 0.0629,
+            "6": 0.06504,
+            "7": 0.0647,
+            "8": 0.06534,
+            "9": 0.063,
+            "10": 0.06614,
+            "11": 0.06726,
+            "12": 0.06544,
+            "13": 0.06414,
+            "14": 0.06226,
+            "15": 0.05842,
+            "16": 0.04558
+          }
+        },
+        "al-max": {
+          "horse_id": "al-max",
+          "name": "AL MAX",
+          "p_win": 0.04454,
+          "p_top3": 0.13962,
+          "p_top5": 0.2418,
+          "expected_position": 9.5305,
+          "position_distribution": {
+            "1": 0.04454,
+            "2": 0.04688,
+            "3": 0.0482,
+            "4": 0.05002,
+            "5": 0.05216,
+            "6": 0.0525,
+            "7": 0.05454,
+            "8": 0.05754,
+            "9": 0.0606,
+            "10": 0.06286,
+            "11": 0.06498,
+            "12": 0.06968,
+            "13": 0.0736,
+            "14": 0.07716,
+            "15": 0.0882,
+            "16": 0.09654
+          }
+        },
+        "boticelli": {
+          "horse_id": "boticelli",
+          "name": "BOTICELLI",
+          "p_win": 0.05248,
+          "p_top3": 0.15972,
+          "p_top5": 0.27368,
+          "expected_position": 8.9972,
+          "position_distribution": {
+            "1": 0.05248,
+            "2": 0.0519,
+            "3": 0.05534,
+            "4": 0.05552,
+            "5": 0.05844,
+            "6": 0.05956,
+            "7": 0.05864,
+            "8": 0.06154,
+            "9": 0.06214,
+            "10": 0.06418,
+            "11": 0.06614,
+            "12": 0.06704,
+            "13": 0.06836,
+            "14": 0.07214,
+            "15": 0.07656,
+            "16": 0.07002
+          }
+        },
+        "douriann": {
+          "horse_id": "douriann",
+          "name": "DOURIANN",
+          "p_win": 0.07634,
+          "p_top3": 0.22008,
+          "p_top5": 0.3645,
+          "expected_position": 7.6928,
+          "position_distribution": {
+            "1": 0.07634,
+            "2": 0.07174,
+            "3": 0.072,
+            "4": 0.07316,
+            "5": 0.07126,
+            "6": 0.0708,
+            "7": 0.06786,
+            "8": 0.0656,
+            "9": 0.06642,
+            "10": 0.06466,
+            "11": 0.06142,
+            "12": 0.06094,
+            "13": 0.05576,
+            "14": 0.05136,
+            "15": 0.0427,
+            "16": 0.02798
+          }
+        },
+        "presa-diretta-a.-lemaitre": {
+          "horse_id": "presa-diretta-a.-lemaitre",
+          "name": "PRESA DIRETTA A. LEMAITRE",
+          "p_win": 0.06992,
+          "p_top3": 0.20626,
+          "p_top5": 0.34438,
+          "expected_position": 7.9473,
+          "position_distribution": {
+            "1": 0.06992,
+            "2": 0.06806,
+            "3": 0.06828,
+            "4": 0.07046,
+            "5": 0.06766,
+            "6": 0.06796,
+            "7": 0.06786,
+            "8": 0.06574,
+            "9": 0.06758,
+            "10": 0.06494,
+            "11": 0.06432,
+            "12": 0.06048,
+            "13": 0.05794,
+            "14": 0.0545,
+            "15": 0.0483,
+            "16": 0.036
+          }
+        },
+        "feve": {
+          "horse_id": "feve",
+          "name": "FEVE",
+          "p_win": 0.05802,
+          "p_top3": 0.17374,
+          "p_top5": 0.29404,
+          "expected_position": 8.6819,
+          "position_distribution": {
+            "1": 0.05802,
+            "2": 0.05694,
+            "3": 0.05878,
+            "4": 0.06032,
+            "5": 0.05998,
+            "6": 0.06186,
+            "7": 0.0636,
+            "8": 0.06192,
+            "9": 0.06384,
+            "10": 0.0639,
+            "11": 0.0642,
+            "12": 0.06588,
+            "13": 0.06794,
+            "14": 0.06644,
+            "15": 0.06502,
+            "16": 0.06136
+          }
+        },
+        "fearless-cheetah-s.-pasquier": {
+          "horse_id": "fearless-cheetah-s.-pasquier",
+          "name": "FEARLESS CHEETAH S. PASQUIER",
+          "p_win": 0.05906,
+          "p_top3": 0.1818,
+          "p_top5": 0.30682,
+          "expected_position": 8.5186,
+          "position_distribution": {
+            "1": 0.05906,
+            "2": 0.06216,
+            "3": 0.06058,
+            "4": 0.0621,
+            "5": 0.06292,
+            "6": 0.062,
+            "7": 0.06262,
+            "8": 0.064,
+            "9": 0.06282,
+            "10": 0.06586,
+            "11": 0.06498,
+            "12": 0.06352,
+            "13": 0.06634,
+            "14": 0.06456,
+            "15": 0.06276,
+            "16": 0.05372
+          }
+        },
+        "true-tedesco": {
+          "horse_id": "true-tedesco",
+          "name": "TRUE TEDESCO",
+          "p_win": 0.07126,
+          "p_top3": 0.2115,
+          "p_top5": 0.3494,
+          "expected_position": 7.9053,
+          "position_distribution": {
+            "1": 0.07126,
+            "2": 0.06996,
+            "3": 0.07028,
+            "4": 0.06812,
+            "5": 0.06978,
+            "6": 0.0661,
+            "7": 0.0684,
+            "8": 0.06688,
+            "9": 0.06648,
+            "10": 0.06384,
+            "11": 0.06342,
+            "12": 0.06128,
+            "13": 0.05584,
+            "14": 0.05488,
+            "15": 0.04814,
+            "16": 0.03534
+          }
+        },
+        "star-rock": {
+          "horse_id": "star-rock",
+          "name": "STAR ROCK",
+          "p_win": 0.06746,
+          "p_top3": 0.20302,
+          "p_top5": 0.33626,
+          "expected_position": 8.0479,
+          "position_distribution": {
+            "1": 0.06746,
+            "2": 0.06804,
+            "3": 0.06752,
+            "4": 0.06768,
+            "5": 0.06556,
+            "6": 0.06628,
+            "7": 0.06674,
+            "8": 0.06744,
+            "9": 0.06736,
+            "10": 0.06552,
+            "11": 0.06316,
+            "12": 0.06336,
+            "13": 0.05826,
+            "14": 0.05784,
+            "15": 0.04924,
+            "16": 0.03854
+          }
+        },
+        "almaromy-e.-hardouin": {
+          "horse_id": "almaromy-e.-hardouin",
+          "name": "ALMAROMY E. HARDOUIN",
+          "p_win": 0.05372,
+          "p_top3": 0.163,
+          "p_top5": 0.2752,
+          "expected_position": 8.9678,
+          "position_distribution": {
+            "1": 0.05372,
+            "2": 0.0545,
+            "3": 0.05478,
+            "4": 0.05624,
+            "5": 0.05596,
+            "6": 0.06038,
+            "7": 0.06026,
+            "8": 0.0611,
+            "9": 0.06136,
+            "10": 0.06166,
+            "11": 0.06594,
+            "12": 0.06872,
+            "13": 0.06922,
+            "14": 0.0696,
+            "15": 0.07498,
+            "16": 0.07158
+          }
+        },
+        "speedy-green": {
+          "horse_id": "speedy-green",
+          "name": "SPEEDY GREEN",
+          "p_win": 0.04112,
+          "p_top3": 0.12742,
+          "p_top5": 0.22156,
+          "expected_position": 9.9481,
+          "position_distribution": {
+            "1": 0.04112,
+            "2": 0.0426,
+            "3": 0.0437,
+            "4": 0.04634,
+            "5": 0.0478,
+            "6": 0.04862,
+            "7": 0.05102,
+            "8": 0.05306,
+            "9": 0.0568,
+            "10": 0.05818,
+            "11": 0.06146,
+            "12": 0.06792,
+            "13": 0.07648,
+            "14": 0.08396,
+            "15": 0.09584,
+            "16": 0.1251
+          }
+        },
+        "jenilat-bright-s.-mokrosova": {
+          "horse_id": "jenilat-bright-s.-mokrosova",
+          "name": "JENILAT BRIGHT S. MOKROSOVA",
+          "p_win": 0.03418,
+          "p_top3": 0.1061,
+          "p_top5": 0.18294,
+          "expected_position": 10.7722,
+          "position_distribution": {
+            "1": 0.03418,
+            "2": 0.0368,
+            "3": 0.03512,
+            "4": 0.03712,
+            "5": 0.03972,
+            "6": 0.04024,
+            "7": 0.04228,
+            "8": 0.04644,
+            "9": 0.04682,
+            "10": 0.0547,
+            "11": 0.05804,
+            "12": 0.06346,
+            "13": 0.07418,
+            "14": 0.08576,
+            "15": 0.11254,
+            "16": 0.1926
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "central-park-west",
+          "rock-blanc",
+          "douriann"
+        ],
+        "23": [
+          "central-park-west",
+          "rock-blanc",
+          "douriann"
+        ],
+        "37": [
+          "central-park-west",
+          "rock-blanc",
+          "douriann"
+        ],
+        "51": [
+          "central-park-west",
+          "rock-blanc",
+          "douriann"
+        ],
+        "73": [
+          "central-park-west",
+          "rock-blanc",
+          "douriann"
+        ]
+      },
+      "reference_top": [
+        "central-park-west",
+        "douriann",
+        "rock-blanc"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "central-park-west": 10.0,
+        "rock-blanc": 5.0,
+        "douriann": 0.0
+      },
+      "order": [
+        "central-park-west",
+        "rock-blanc",
+        "douriann"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "central-park-west": 15.0,
+        "rock-blanc": 14.0,
+        "douriann": 13.0,
+        "true-tedesco": 12.0,
+        "presa-diretta-a.-lemaitre": 11.0,
+        "star-rock": 10.0,
+        "opalus-road": 9.0,
+        "fearless-cheetah-s.-pasquier": 8.0,
+        "zeloro": 7.0,
+        "feve": 6.0,
+        "anssio": 5.0,
+        "boticelli": 4.0,
+        "almaromy-e.-hardouin": 3.0,
+        "al-max": 2.0,
+        "speedy-green": 1.0,
+        "jenilat-bright-s.-mokrosova": 0.0
+      },
+      "order": [
+        "central-park-west",
+        "rock-blanc",
+        "douriann",
+        "true-tedesco",
+        "presa-diretta-a.-lemaitre",
+        "star-rock",
+        "opalus-road",
+        "fearless-cheetah-s.-pasquier",
+        "zeloro",
+        "feve",
+        "anssio",
+        "boticelli",
+        "almaromy-e.-hardouin",
+        "al-max",
+        "speedy-green",
+        "jenilat-bright-s.-mokrosova"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "central-park-west",
+        "rock-blanc",
+        "douriann",
+        "true-tedesco",
+        "presa-diretta-a.-lemaitre",
+        "star-rock",
+        "opalus-road",
+        "fearless-cheetah-s.-pasquier",
+        "feve",
+        "zeloro",
+        "anssio",
+        "almaromy-e.-hardouin",
+        "boticelli",
+        "al-max",
+        "speedy-green",
+        "jenilat-bright-s.-mokrosova"
+      ],
+      "copeland": {
+        "central-park-west": 15.0,
+        "rock-blanc": 13.0,
+        "douriann": 11.0,
+        "true-tedesco": 9.0,
+        "presa-diretta-a.-lemaitre": 7.0,
+        "star-rock": 5.0,
+        "opalus-road": 3.0,
+        "fearless-cheetah-s.-pasquier": 1.0,
+        "feve": -1.5,
+        "zeloro": -1.5,
+        "anssio": -5.0,
+        "almaromy-e.-hardouin": -7.5,
+        "boticelli": -7.5,
+        "al-max": -11.0,
+        "speedy-green": -13.0,
+        "jenilat-bright-s.-mokrosova": -15.0
+      },
+      "normalized": {
+        "central-park-west": 1.0,
+        "rock-blanc": 0.9333,
+        "douriann": 0.8667,
+        "true-tedesco": 0.8,
+        "presa-diretta-a.-lemaitre": 0.7333,
+        "star-rock": 0.6667,
+        "opalus-road": 0.6,
+        "fearless-cheetah-s.-pasquier": 0.5333,
+        "feve": 0.45,
+        "zeloro": 0.45,
+        "anssio": 0.3333,
+        "almaromy-e.-hardouin": 0.25,
+        "boticelli": 0.25,
+        "al-max": 0.1333,
+        "speedy-green": 0.0667,
+        "jenilat-bright-s.-mokrosova": 0.0
+      },
+      "mean_rank": {
+        "central-park-west": 0.0,
+        "rock-blanc": 1.0,
+        "douriann": 2.0,
+        "true-tedesco": 3.0,
+        "presa-diretta-a.-lemaitre": 4.0,
+        "star-rock": 5.0,
+        "opalus-road": 6.0,
+        "fearless-cheetah-s.-pasquier": 7.0,
+        "feve": 8.5,
+        "zeloro": 8.5,
+        "anssio": 10.0,
+        "almaromy-e.-hardouin": 11.5,
+        "boticelli": 11.5,
+        "al-max": 13.0,
+        "speedy-green": 14.0,
+        "jenilat-bright-s.-mokrosova": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "anssio",
+        "name": "ANSSIO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "rock-blanc",
+        "name": "ROCK BLANC",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 2 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "central-park-west",
+        "name": "CENTRAL PARK WEST",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 7 vs marché 15)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "boticelli",
+        "name": "BOTICELLI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "douriann",
+        "name": "DOURIANN",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 3 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "presa-diretta-a.-lemaitre",
+        "name": "PRESA DIRETTA A. LEMAITRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "feve",
+        "name": "FEVE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "fearless-cheetah-s.-pasquier",
+        "name": "FEARLESS CHEETAH S. PASQUIER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "true-tedesco",
+        "name": "TRUE TEDESCO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "star-rock",
+        "name": "STAR ROCK",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 6 vs marché 11)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "almaromy-e.-hardouin",
+        "name": "ALMAROMY E. HARDOUIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jenilat-bright-s.-mokrosova",
+        "name": "JENILAT BRIGHT S. MOKROSOVA",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "rock-blanc",
+      "central-park-west",
+      "opalus-road",
+      "douriann",
+      "star-rock"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "anssio": 0.086558,
+      "zeloro": 0.190427,
+      "rock-blanc": 0.047607,
+      "central-park-west": 0.052897,
+      "opalus-road": 0.016138,
+      "al-max": 0.063476,
+      "boticelli": 0.079345,
+      "douriann": 0.031738,
+      "presa-diretta-a.-lemaitre": 0.119017,
+      "feve": 0.06801,
+      "fearless-cheetah-s.-pasquier": 0.041397,
+      "true-tedesco": 0.105793,
+      "star-rock": 0.034005,
+      "almaromy-e.-hardouin": 0.029754,
+      "speedy-green": 0.019836,
+      "jenilat-bright-s.-mokrosova": 0.014002
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "central-park-west",
+      "rock-blanc",
+      "douriann",
+      "true-tedesco",
+      "presa-diretta-a.-lemaitre"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.6,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.3348,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "ANSSIO : recent_places",
+      "ANSSIO : driver",
+      "ANSSIO : aptitude",
+      "ZELORO : recent_places",
+      "ZELORO : driver",
+      "ZELORO : aptitude",
+      "ROCK BLANC : recent_places",
+      "ROCK BLANC : driver",
+      "ROCK BLANC : aptitude",
+      "CENTRAL PARK WEST : recent_places",
+      "CENTRAL PARK WEST : driver",
+      "CENTRAL PARK WEST : aptitude",
+      "OPALUS ROAD : recent_places",
+      "OPALUS ROAD : driver",
+      "OPALUS ROAD : aptitude",
+      "AL MAX : recent_places",
+      "AL MAX : driver",
+      "AL MAX : aptitude",
+      "BOTICELLI : recent_places",
+      "BOTICELLI : driver",
+      "BOTICELLI : aptitude",
+      "DOURIANN : recent_places",
+      "DOURIANN : driver",
+      "DOURIANN : aptitude",
+      "PRESA DIRETTA A. LEMAITRE : recent_places",
+      "PRESA DIRETTA A. LEMAITRE : driver",
+      "PRESA DIRETTA A. LEMAITRE : aptitude",
+      "FEVE : recent_places",
+      "FEVE : driver",
+      "FEVE : aptitude",
+      "FEARLESS CHEETAH S. PASQUIER : recent_places",
+      "FEARLESS CHEETAH S. PASQUIER : driver",
+      "FEARLESS CHEETAH S. PASQUIER : aptitude",
+      "TRUE TEDESCO : recent_places",
+      "TRUE TEDESCO : driver",
+      "TRUE TEDESCO : aptitude",
+      "STAR ROCK : recent_places",
+      "STAR ROCK : driver",
+      "STAR ROCK : aptitude",
+      "ALMAROMY E. HARDOUIN : recent_places",
+      "ALMAROMY E. HARDOUIN : driver",
+      "ALMAROMY E. HARDOUIN : aptitude",
+      "SPEEDY GREEN : recent_places",
+      "SPEEDY GREEN : driver",
+      "SPEEDY GREEN : aptitude",
+      "JENILAT BRIGHT S. MOKROSOVA : recent_places",
+      "JENILAT BRIGHT S. MOKROSOVA : driver",
+      "JENILAT BRIGHT S. MOKROSOVA : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.07 (saturé à 2.0) → 0.3/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-25T11:55:00+00:00",
+    "betting_close": "2026-09-25T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-09-29T01:41:25.441478+00:00",
+    "minutes_late": 5156.42,
+    "minutes_to_close": -5156.42,
+    "schedule": {
+      "start_ouagadougou": "2026-09-25T11:55:00+00:00",
+      "start_paris": "2026-09-25T13:55:00+02:00",
+      "close_lonab": "2026-09-25T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "CENTRAL PARK WEST",
+      "horse_id": "central-park-west"
+    },
+    {
+      "rang": 2,
+      "cheval": "ROCK BLANC",
+      "horse_id": "rock-blanc"
+    },
+    {
+      "rang": 3,
+      "cheval": "DOURIANN",
+      "horse_id": "douriann"
+    },
+    {
+      "rang": 4,
+      "cheval": "TRUE TEDESCO",
+      "horse_id": "true-tedesco"
+    },
+    {
+      "rang": 5,
+      "cheval": "PRESA DIRETTA A. LEMAITRE",
+      "horse_id": "presa-diretta-a.-lemaitre"
+    },
+    {
+      "rang": 6,
+      "cheval": "STAR ROCK",
+      "horse_id": "star-rock"
+    },
+    {
+      "rang": 7,
+      "cheval": "OPALUS ROAD",
+      "horse_id": "opalus-road"
+    },
+    {
+      "rang": 8,
+      "cheval": "FEARLESS CHEETAH S. PASQUIER",
+      "horse_id": "fearless-cheetah-s.-pasquier"
+    },
+    {
+      "rang": 9,
+      "cheval": "FEVE",
+      "horse_id": "feve"
+    },
+    {
+      "rang": 10,
+      "cheval": "ZELORO",
+      "horse_id": "zeloro"
+    },
+    {
+      "rang": 11,
+      "cheval": "ANSSIO",
+      "horse_id": "anssio"
+    },
+    {
+      "rang": 12,
+      "cheval": "ALMAROMY E. HARDOUIN",
+      "horse_id": "almaromy-e.-hardouin"
+    },
+    {
+      "rang": 13,
+      "cheval": "BOTICELLI",
+      "horse_id": "boticelli"
+    },
+    {
+      "rang": 14,
+      "cheval": "AL MAX",
+      "horse_id": "al-max"
+    },
+    {
+      "rang": 15,
+      "cheval": "SPEEDY GREEN",
+      "horse_id": "speedy-green"
+    },
+    {
+      "rang": 16,
+      "cheval": "JENILAT BRIGHT S. MOKROSOVA",
+      "horse_id": "jenilat-bright-s.-mokrosova"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "CENTRAL PARK WEST",
+      "score": 10.0
+    },
+    {
+      "cheval": "ROCK BLANC",
+      "score": 9.933
+    },
+    {
+      "cheval": "DOURIANN",
+      "score": 9.3687
+    },
+    {
+      "cheval": "TRUE TEDESCO",
+      "score": 9.247
+    },
+    {
+      "cheval": "PRESA DIRETTA A. LEMAITRE",
+      "score": 9.2443
+    },
+    {
+      "cheval": "STAR ROCK",
+      "score": 9.1769
+    },
+    {
+      "cheval": "OPALUS ROAD",
+      "score": 9.0236
+    },
+    {
+      "cheval": "FEARLESS CHEETAH S. PASQUIER",
+      "score": 8.9453
+    },
+    {
+      "cheval": "ZELORO",
+      "score": 8.8859
+    },
+    {
+      "cheval": "FEVE",
+      "score": 8.8447
+    },
+    {
+      "cheval": "ANSSIO",
+      "score": 8.7671
+    },
+    {
+      "cheval": "BOTICELLI",
+      "score": 8.7035
+    },
+    {
+      "cheval": "ALMAROMY E. HARDOUIN",
+      "score": 8.6977
+    },
+    {
+      "cheval": "AL MAX",
+      "score": 8.4449
+    },
+    {
+      "cheval": "SPEEDY GREEN",
+      "score": 8.1967
+    },
+    {
+      "cheval": "JENILAT BRIGHT S. MOKROSOVA",
+      "score": 7.7539
+    }
+  ],
+  "stored_at": "2026-09-29T01:41:25.443027+00:00"
+}
