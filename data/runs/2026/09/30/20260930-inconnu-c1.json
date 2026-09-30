@@ -1,0 +1,1756 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20260930-inconnu-c1",
+  "date": "2026-09-30",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-09-30",
+    "start_time": "2026-09-26T11:55:00+00:00",
+    "race_number": 1,
+    "name": "Prix du Quercy.",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMU_DU_30-09-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-09-30T01:11:16.635542+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "light-my-fire",
+        "name": "LIGHT MY FIRE",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "rikita-jp",
+        "name": "RIKITA JP",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hurricane-carter-y.-lebourgeois-s.-raimond",
+        "name": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+        "odds_pdf": 50.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jilord-viva",
+        "name": "JILORD VIVA",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "invictus-madiba",
+        "name": "INVICTUS MADIBA",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "l-as-desbois",
+        "name": "L'AS DESBOIS",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gendreen",
+        "name": "GENDREEN",
+        "odds_pdf": 67.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hannibal-tuilerie",
+        "name": "HANNIBAL TUILERIE",
+        "odds_pdf": 44.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jabalpur",
+        "name": "JABALPUR",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "harley-gema",
+        "name": "HARLEY GEMA",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ideal-ligneries",
+        "name": "IDEAL LIGNERIES",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "inmarosa",
+        "name": "INMAROSA",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "LIGHT MY FIRE (light-my-fire) : aucune cote récente disponible",
+      "KAMEHAMEHA (kamehameha) : aucune cote récente disponible",
+      "RIKITA JP (rikita-jp) : aucune cote récente disponible",
+      "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND (hurricane-carter-y.-lebourgeois-s.-raimond) : aucune cote récente disponible",
+      "JILORD VIVA (jilord-viva) : aucune cote récente disponible",
+      "INVICTUS MADIBA (invictus-madiba) : aucune cote récente disponible",
+      "L'AS DESBOIS (l-as-desbois) : aucune cote récente disponible",
+      "HORATIUS D'ELA (horatius-d-ela) : aucune cote récente disponible",
+      "IBISCUS MAN (ibiscus-man) : aucune cote récente disponible",
+      "GENDREEN (gendreen) : aucune cote récente disponible",
+      "HANNIBAL TUILERIE (hannibal-tuilerie) : aucune cote récente disponible",
+      "JABALPUR (jabalpur) : aucune cote récente disponible",
+      "HARLEY GEMA (harley-gema) : aucune cote récente disponible",
+      "IDEAL LIGNERIES (ideal-ligneries) : aucune cote récente disponible",
+      "INMAROSA (inmarosa) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "light-my-fire",
+      "kamehameha",
+      "rikita-jp",
+      "hurricane-carter-y.-lebourgeois-s.-raimond",
+      "jilord-viva",
+      "invictus-madiba",
+      "l-as-desbois",
+      "horatius-d-ela",
+      "ibiscus-man",
+      "gendreen",
+      "hannibal-tuilerie",
+      "jabalpur",
+      "harley-gema",
+      "ideal-ligneries",
+      "inmarosa"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "ideal-ligneries",
+        "name": "IDEAL LIGNERIES",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "harley-gema",
+        "name": "HARLEY GEMA",
+        "dimensions": {
+          "historique": 9.860595537995904,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8606,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jabalpur",
+        "name": "JABALPUR",
+        "dimensions": {
+          "historique": 9.81119421324101,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8112,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hannibal-tuilerie",
+        "name": "HANNIBAL TUILERIE",
+        "dimensions": {
+          "historique": 9.799638296530041,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7996,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gendreen",
+        "name": "GENDREEN",
+        "dimensions": {
+          "historique": 9.762724833793486,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7627,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "dimensions": {
+          "historique": 9.597966810358749,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.598,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "dimensions": {
+          "historique": 9.587338940611373,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5873,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "l-as-desbois",
+        "name": "L'AS DESBOIS",
+        "dimensions": {
+          "historique": 9.582385883769438,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5824,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "invictus-madiba",
+        "name": "INVICTUS MADIBA",
+        "dimensions": {
+          "historique": 9.5780254338608,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.578,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jilord-viva",
+        "name": "JILORD VIVA",
+        "dimensions": {
+          "historique": 9.543269469906178,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5433,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hurricane-carter-y.-lebourgeois-s.-raimond",
+        "name": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+        "dimensions": {
+          "historique": 9.521877722592727,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5219,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "rikita-jp",
+        "name": "RIKITA JP",
+        "dimensions": {
+          "historique": 9.452400099399199,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4524,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "dimensions": {
+          "historique": 9.372967942162857,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.373,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "light-my-fire",
+        "name": "LIGHT MY FIRE",
+        "dimensions": {
+          "historique": 9.273972025734338,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.274,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "inmarosa",
+        "name": "INMAROSA",
+        "dimensions": {
+          "historique": 8.90390043608567,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9039,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ideal-ligneries",
+      "harley-gema",
+      "jabalpur",
+      "hannibal-tuilerie",
+      "gendreen",
+      "ibiscus-man",
+      "horatius-d-ela",
+      "l-as-desbois",
+      "invictus-madiba",
+      "jilord-viva",
+      "hurricane-carter-y.-lebourgeois-s.-raimond",
+      "rikita-jp",
+      "kamehameha",
+      "light-my-fire",
+      "inmarosa"
+    ],
+    "stability": 0.8,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "light-my-fire": {
+          "horse_id": "light-my-fire",
+          "name": "LIGHT MY FIRE",
+          "p_win": 0.05762,
+          "p_top3": 0.17274,
+          "p_top5": 0.2945,
+          "expected_position": 8.5433,
+          "position_distribution": {
+            "1": 0.05762,
+            "2": 0.05592,
+            "3": 0.0592,
+            "4": 0.06162,
+            "5": 0.06014,
+            "6": 0.06004,
+            "7": 0.0617,
+            "8": 0.06374,
+            "9": 0.0667,
+            "10": 0.06752,
+            "11": 0.06864,
+            "12": 0.07116,
+            "13": 0.07334,
+            "14": 0.08082,
+            "15": 0.09184
+          }
+        },
+        "kamehameha": {
+          "horse_id": "kamehameha",
+          "name": "KAMEHAMEHA",
+          "p_win": 0.05974,
+          "p_top3": 0.18352,
+          "p_top5": 0.30838,
+          "expected_position": 8.352,
+          "position_distribution": {
+            "1": 0.05974,
+            "2": 0.06164,
+            "3": 0.06214,
+            "4": 0.06136,
+            "5": 0.0635,
+            "6": 0.0632,
+            "7": 0.06186,
+            "8": 0.06604,
+            "9": 0.06624,
+            "10": 0.06476,
+            "11": 0.06818,
+            "12": 0.06934,
+            "13": 0.07482,
+            "14": 0.07712,
+            "15": 0.08006
+          }
+        },
+        "rikita-jp": {
+          "horse_id": "rikita-jp",
+          "name": "RIKITA JP",
+          "p_win": 0.0625,
+          "p_top3": 0.1879,
+          "p_top5": 0.31684,
+          "expected_position": 8.2229,
+          "position_distribution": {
+            "1": 0.0625,
+            "2": 0.06252,
+            "3": 0.06288,
+            "4": 0.06486,
+            "5": 0.06408,
+            "6": 0.06226,
+            "7": 0.06532,
+            "8": 0.06692,
+            "9": 0.06612,
+            "10": 0.06734,
+            "11": 0.06876,
+            "12": 0.06878,
+            "13": 0.07188,
+            "14": 0.07066,
+            "15": 0.07512
+          }
+        },
+        "hurricane-carter-y.-lebourgeois-s.-raimond": {
+          "horse_id": "hurricane-carter-y.-lebourgeois-s.-raimond",
+          "name": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+          "p_win": 0.06464,
+          "p_top3": 0.19384,
+          "p_top5": 0.32316,
+          "expected_position": 8.1235,
+          "position_distribution": {
+            "1": 0.06464,
+            "2": 0.06508,
+            "3": 0.06412,
+            "4": 0.0639,
+            "5": 0.06542,
+            "6": 0.06538,
+            "7": 0.06676,
+            "8": 0.06572,
+            "9": 0.06434,
+            "10": 0.06826,
+            "11": 0.06812,
+            "12": 0.06906,
+            "13": 0.06974,
+            "14": 0.06994,
+            "15": 0.06952
+          }
+        },
+        "jilord-viva": {
+          "horse_id": "jilord-viva",
+          "name": "JILORD VIVA",
+          "p_win": 0.06636,
+          "p_top3": 0.19576,
+          "p_top5": 0.326,
+          "expected_position": 8.0676,
+          "position_distribution": {
+            "1": 0.06636,
+            "2": 0.06452,
+            "3": 0.06488,
+            "4": 0.06404,
+            "5": 0.0662,
+            "6": 0.06708,
+            "7": 0.06744,
+            "8": 0.06642,
+            "9": 0.06624,
+            "10": 0.06682,
+            "11": 0.06668,
+            "12": 0.06918,
+            "13": 0.06856,
+            "14": 0.06854,
+            "15": 0.06704
+          }
+        },
+        "invictus-madiba": {
+          "horse_id": "invictus-madiba",
+          "name": "INVICTUS MADIBA",
+          "p_win": 0.06644,
+          "p_top3": 0.1988,
+          "p_top5": 0.32884,
+          "expected_position": 8.0311,
+          "position_distribution": {
+            "1": 0.06644,
+            "2": 0.06626,
+            "3": 0.0661,
+            "4": 0.06428,
+            "5": 0.06576,
+            "6": 0.067,
+            "7": 0.06624,
+            "8": 0.06524,
+            "9": 0.0685,
+            "10": 0.06656,
+            "11": 0.06854,
+            "12": 0.06988,
+            "13": 0.06788,
+            "14": 0.06652,
+            "15": 0.0648
+          }
+        },
+        "l-as-desbois": {
+          "horse_id": "l-as-desbois",
+          "name": "L'AS DESBOIS",
+          "p_win": 0.0675,
+          "p_top3": 0.20048,
+          "p_top5": 0.33298,
+          "expected_position": 7.981,
+          "position_distribution": {
+            "1": 0.0675,
+            "2": 0.06536,
+            "3": 0.06762,
+            "4": 0.06664,
+            "5": 0.06586,
+            "6": 0.06918,
+            "7": 0.06602,
+            "8": 0.06658,
+            "9": 0.06532,
+            "10": 0.06798,
+            "11": 0.0671,
+            "12": 0.067,
+            "13": 0.0687,
+            "14": 0.06576,
+            "15": 0.06338
+          }
+        },
+        "horatius-d-ela": {
+          "horse_id": "horatius-d-ela",
+          "name": "HORATIUS D'ELA",
+          "p_win": 0.06566,
+          "p_top3": 0.1956,
+          "p_top5": 0.33088,
+          "expected_position": 7.9923,
+          "position_distribution": {
+            "1": 0.06566,
+            "2": 0.06558,
+            "3": 0.06436,
+            "4": 0.0674,
+            "5": 0.06788,
+            "6": 0.06808,
+            "7": 0.0682,
+            "8": 0.0676,
+            "9": 0.06858,
+            "10": 0.06716,
+            "11": 0.06728,
+            "12": 0.06648,
+            "13": 0.06478,
+            "14": 0.06652,
+            "15": 0.06444
+          }
+        },
+        "ibiscus-man": {
+          "horse_id": "ibiscus-man",
+          "name": "IBISCUS MAN",
+          "p_win": 0.068,
+          "p_top3": 0.2025,
+          "p_top5": 0.3369,
+          "expected_position": 7.9387,
+          "position_distribution": {
+            "1": 0.068,
+            "2": 0.06778,
+            "3": 0.06672,
+            "4": 0.06722,
+            "5": 0.06718,
+            "6": 0.06758,
+            "7": 0.06826,
+            "8": 0.06462,
+            "9": 0.06698,
+            "10": 0.06808,
+            "11": 0.06864,
+            "12": 0.0655,
+            "13": 0.06518,
+            "14": 0.06592,
+            "15": 0.06234
+          }
+        },
+        "gendreen": {
+          "horse_id": "gendreen",
+          "name": "GENDREEN",
+          "p_win": 0.07138,
+          "p_top3": 0.21386,
+          "p_top5": 0.3541,
+          "expected_position": 7.6837,
+          "position_distribution": {
+            "1": 0.07138,
+            "2": 0.07296,
+            "3": 0.06952,
+            "4": 0.06938,
+            "5": 0.07086,
+            "6": 0.06924,
+            "7": 0.07072,
+            "8": 0.06984,
+            "9": 0.06842,
+            "10": 0.06762,
+            "11": 0.06642,
+            "12": 0.06244,
+            "13": 0.06178,
+            "14": 0.05948,
+            "15": 0.04994
+          }
+        },
+        "hannibal-tuilerie": {
+          "horse_id": "hannibal-tuilerie",
+          "name": "HANNIBAL TUILERIE",
+          "p_win": 0.07328,
+          "p_top3": 0.21966,
+          "p_top5": 0.36324,
+          "expected_position": 7.5909,
+          "position_distribution": {
+            "1": 0.07328,
+            "2": 0.07352,
+            "3": 0.07286,
+            "4": 0.07234,
+            "5": 0.07124,
+            "6": 0.07088,
+            "7": 0.06942,
+            "8": 0.06972,
+            "9": 0.06784,
+            "10": 0.06584,
+            "11": 0.06576,
+            "12": 0.06306,
+            "13": 0.05926,
+            "14": 0.05668,
+            "15": 0.0483
+          }
+        },
+        "jabalpur": {
+          "horse_id": "jabalpur",
+          "name": "JABALPUR",
+          "p_win": 0.07388,
+          "p_top3": 0.22072,
+          "p_top5": 0.365,
+          "expected_position": 7.5628,
+          "position_distribution": {
+            "1": 0.07388,
+            "2": 0.07202,
+            "3": 0.07482,
+            "4": 0.07182,
+            "5": 0.07246,
+            "6": 0.07096,
+            "7": 0.06994,
+            "8": 0.07012,
+            "9": 0.06904,
+            "10": 0.06648,
+            "11": 0.06468,
+            "12": 0.06186,
+            "13": 0.05968,
+            "14": 0.05488,
+            "15": 0.04736
+          }
+        },
+        "harley-gema": {
+          "horse_id": "harley-gema",
+          "name": "HARLEY GEMA",
+          "p_win": 0.07532,
+          "p_top3": 0.22634,
+          "p_top5": 0.37368,
+          "expected_position": 7.4711,
+          "position_distribution": {
+            "1": 0.07532,
+            "2": 0.07614,
+            "3": 0.07488,
+            "4": 0.07468,
+            "5": 0.07266,
+            "6": 0.07202,
+            "7": 0.06958,
+            "8": 0.06908,
+            "9": 0.06766,
+            "10": 0.06752,
+            "11": 0.06182,
+            "12": 0.06324,
+            "13": 0.05686,
+            "14": 0.05528,
+            "15": 0.04326
+          }
+        },
+        "ideal-ligneries": {
+          "horse_id": "ideal-ligneries",
+          "name": "IDEAL LIGNERIES",
+          "p_win": 0.08004,
+          "p_top3": 0.24134,
+          "p_top5": 0.39606,
+          "expected_position": 7.2096,
+          "position_distribution": {
+            "1": 0.08004,
+            "2": 0.08168,
+            "3": 0.07962,
+            "4": 0.07892,
+            "5": 0.0758,
+            "6": 0.07354,
+            "7": 0.07106,
+            "8": 0.06938,
+            "9": 0.0678,
+            "10": 0.06492,
+            "11": 0.06216,
+            "12": 0.0591,
+            "13": 0.0536,
+            "14": 0.04592,
+            "15": 0.03646
+          }
+        },
+        "inmarosa": {
+          "horse_id": "inmarosa",
+          "name": "INMAROSA",
+          "p_win": 0.04764,
+          "p_top3": 0.14694,
+          "p_top5": 0.24944,
+          "expected_position": 9.2296,
+          "position_distribution": {
+            "1": 0.04764,
+            "2": 0.04902,
+            "3": 0.05028,
+            "4": 0.05154,
+            "5": 0.05096,
+            "6": 0.05356,
+            "7": 0.05748,
+            "8": 0.05898,
+            "9": 0.06022,
+            "10": 0.06314,
+            "11": 0.06722,
+            "12": 0.07392,
+            "13": 0.08394,
+            "14": 0.09596,
+            "15": 0.13614
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "ideal-ligneries",
+          "harley-gema",
+          "jabalpur"
+        ],
+        "23": [
+          "ideal-ligneries",
+          "harley-gema",
+          "jabalpur"
+        ],
+        "37": [
+          "ideal-ligneries",
+          "harley-gema",
+          "jabalpur"
+        ],
+        "51": [
+          "ideal-ligneries",
+          "harley-gema",
+          "jabalpur"
+        ],
+        "73": [
+          "ideal-ligneries",
+          "harley-gema",
+          "hannibal-tuilerie"
+        ]
+      },
+      "reference_top": [
+        "harley-gema",
+        "ideal-ligneries",
+        "jabalpur"
+      ],
+      "stable_seeds": 4,
+      "stability": 0.8,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "ideal-ligneries": 10.0,
+        "harley-gema": 5.0,
+        "jabalpur": 0.0,
+        "hannibal-tuilerie": 0.0
+      },
+      "order": [
+        "ideal-ligneries",
+        "harley-gema",
+        "hannibal-tuilerie",
+        "jabalpur"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "ideal-ligneries": 14.0,
+        "harley-gema": 13.0,
+        "jabalpur": 12.0,
+        "hannibal-tuilerie": 11.0,
+        "gendreen": 10.0,
+        "ibiscus-man": 9.0,
+        "horatius-d-ela": 8.0,
+        "l-as-desbois": 7.0,
+        "invictus-madiba": 6.0,
+        "jilord-viva": 5.0,
+        "hurricane-carter-y.-lebourgeois-s.-raimond": 4.0,
+        "rikita-jp": 3.0,
+        "kamehameha": 2.0,
+        "light-my-fire": 1.0,
+        "inmarosa": 0.0
+      },
+      "order": [
+        "ideal-ligneries",
+        "harley-gema",
+        "jabalpur",
+        "hannibal-tuilerie",
+        "gendreen",
+        "ibiscus-man",
+        "horatius-d-ela",
+        "l-as-desbois",
+        "invictus-madiba",
+        "jilord-viva",
+        "hurricane-carter-y.-lebourgeois-s.-raimond",
+        "rikita-jp",
+        "kamehameha",
+        "light-my-fire",
+        "inmarosa"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ideal-ligneries",
+        "harley-gema",
+        "jabalpur",
+        "hannibal-tuilerie",
+        "gendreen",
+        "ibiscus-man",
+        "horatius-d-ela",
+        "l-as-desbois",
+        "invictus-madiba",
+        "jilord-viva",
+        "hurricane-carter-y.-lebourgeois-s.-raimond",
+        "rikita-jp",
+        "kamehameha",
+        "light-my-fire",
+        "inmarosa"
+      ],
+      "copeland": {
+        "ideal-ligneries": 14.0,
+        "harley-gema": 12.0,
+        "jabalpur": 10.0,
+        "hannibal-tuilerie": 8.0,
+        "gendreen": 6.0,
+        "ibiscus-man": 4.0,
+        "l-as-desbois": 1.5,
+        "horatius-d-ela": 1.5,
+        "invictus-madiba": -2.0,
+        "jilord-viva": -4.0,
+        "hurricane-carter-y.-lebourgeois-s.-raimond": -6.0,
+        "rikita-jp": -8.0,
+        "kamehameha": -10.0,
+        "light-my-fire": -12.0,
+        "inmarosa": -14.0
+      },
+      "normalized": {
+        "ideal-ligneries": 1.0,
+        "harley-gema": 0.9286,
+        "jabalpur": 0.8571,
+        "hannibal-tuilerie": 0.7857,
+        "gendreen": 0.7143,
+        "ibiscus-man": 0.6429,
+        "l-as-desbois": 0.5536,
+        "horatius-d-ela": 0.5536,
+        "invictus-madiba": 0.4286,
+        "jilord-viva": 0.3571,
+        "hurricane-carter-y.-lebourgeois-s.-raimond": 0.2857,
+        "rikita-jp": 0.2143,
+        "kamehameha": 0.1429,
+        "light-my-fire": 0.0714,
+        "inmarosa": 0.0
+      },
+      "mean_rank": {
+        "ideal-ligneries": 0.0,
+        "harley-gema": 1.0,
+        "jabalpur": 2.3333,
+        "hannibal-tuilerie": 2.6667,
+        "gendreen": 4.0,
+        "ibiscus-man": 5.0,
+        "l-as-desbois": 6.5,
+        "horatius-d-ela": 6.5,
+        "invictus-madiba": 8.0,
+        "jilord-viva": 9.0,
+        "hurricane-carter-y.-lebourgeois-s.-raimond": 10.0,
+        "rikita-jp": 11.0,
+        "kamehameha": 12.0,
+        "light-my-fire": 13.0,
+        "inmarosa": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "light-my-fire",
+        "name": "LIGHT MY FIRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "rikita-jp",
+        "name": "RIKITA JP",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hurricane-carter-y.-lebourgeois-s.-raimond",
+        "name": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 11 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jilord-viva",
+        "name": "JILORD VIVA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "invictus-madiba",
+        "name": "INVICTUS MADIBA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "l-as-desbois",
+        "name": "L'AS DESBOIS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gendreen",
+        "name": "GENDREEN",
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 5 vs marché 15)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "hannibal-tuilerie",
+        "name": "HANNIBAL TUILERIE",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 4 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "jabalpur",
+        "name": "JABALPUR",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 3 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "harley-gema",
+        "name": "HARLEY GEMA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ideal-ligneries",
+        "name": "IDEAL LIGNERIES",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "inmarosa",
+        "name": "INMAROSA",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "hurricane-carter-y.-lebourgeois-s.-raimond",
+      "gendreen",
+      "hannibal-tuilerie",
+      "jabalpur",
+      "ideal-ligneries"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "light-my-fire": 0.03223,
+      "kamehameha": 0.038198,
+      "rikita-jp": 0.103136,
+      "hurricane-carter-y.-lebourgeois-s.-raimond": 0.020627,
+      "jilord-viva": 0.147337,
+      "invictus-madiba": 0.04688,
+      "l-as-desbois": 0.206272,
+      "horatius-d-ela": 0.057298,
+      "ibiscus-man": 0.079335,
+      "gendreen": 0.015393,
+      "hannibal-tuilerie": 0.02344,
+      "jabalpur": 0.030334,
+      "harley-gema": 0.085947,
+      "ideal-ligneries": 0.049112,
+      "inmarosa": 0.06446
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "ideal-ligneries",
+      "harley-gema",
+      "jabalpur",
+      "hannibal-tuilerie",
+      "gendreen"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.209,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.697,
+      "stabilite_seeds": 8.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "LIGHT MY FIRE : recent_places",
+      "LIGHT MY FIRE : driver",
+      "LIGHT MY FIRE : aptitude",
+      "KAMEHAMEHA : recent_places",
+      "KAMEHAMEHA : driver",
+      "KAMEHAMEHA : aptitude",
+      "RIKITA JP : recent_places",
+      "RIKITA JP : driver",
+      "RIKITA JP : aptitude",
+      "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND : recent_places",
+      "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND : driver",
+      "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND : aptitude",
+      "JILORD VIVA : recent_places",
+      "JILORD VIVA : driver",
+      "JILORD VIVA : aptitude",
+      "INVICTUS MADIBA : recent_places",
+      "INVICTUS MADIBA : driver",
+      "INVICTUS MADIBA : aptitude",
+      "L'AS DESBOIS : recent_places",
+      "L'AS DESBOIS : driver",
+      "L'AS DESBOIS : aptitude",
+      "HORATIUS D'ELA : recent_places",
+      "HORATIUS D'ELA : driver",
+      "HORATIUS D'ELA : aptitude",
+      "IBISCUS MAN : recent_places",
+      "IBISCUS MAN : driver",
+      "IBISCUS MAN : aptitude",
+      "GENDREEN : recent_places",
+      "GENDREEN : driver",
+      "GENDREEN : aptitude",
+      "HANNIBAL TUILERIE : recent_places",
+      "HANNIBAL TUILERIE : driver",
+      "HANNIBAL TUILERIE : aptitude",
+      "JABALPUR : recent_places",
+      "JABALPUR : driver",
+      "JABALPUR : aptitude",
+      "HARLEY GEMA : recent_places",
+      "HARLEY GEMA : driver",
+      "HARLEY GEMA : aptitude",
+      "IDEAL LIGNERIES : recent_places",
+      "IDEAL LIGNERIES : driver",
+      "IDEAL LIGNERIES : aptitude",
+      "INMAROSA : recent_places",
+      "INMAROSA : driver",
+      "INMAROSA : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.14 (saturé à 2.0) → 0.7/10",
+      "stabilité inter-seeds = 80% → 8.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-26T11:55:00+00:00",
+    "betting_close": "2026-09-26T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-09-30T01:11:16.689328+00:00",
+    "minutes_late": 5126.28,
+    "minutes_to_close": -5126.28,
+    "schedule": {
+      "start_ouagadougou": "2026-09-26T11:55:00+00:00",
+      "start_paris": "2026-09-26T13:55:00+02:00",
+      "close_lonab": "2026-09-26T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "IDEAL LIGNERIES",
+      "horse_id": "ideal-ligneries"
+    },
+    {
+      "rang": 2,
+      "cheval": "HARLEY GEMA",
+      "horse_id": "harley-gema"
+    },
+    {
+      "rang": 3,
+      "cheval": "JABALPUR",
+      "horse_id": "jabalpur"
+    },
+    {
+      "rang": 4,
+      "cheval": "HANNIBAL TUILERIE",
+      "horse_id": "hannibal-tuilerie"
+    },
+    {
+      "rang": 5,
+      "cheval": "GENDREEN",
+      "horse_id": "gendreen"
+    },
+    {
+      "rang": 6,
+      "cheval": "IBISCUS MAN",
+      "horse_id": "ibiscus-man"
+    },
+    {
+      "rang": 7,
+      "cheval": "HORATIUS D'ELA",
+      "horse_id": "horatius-d-ela"
+    },
+    {
+      "rang": 8,
+      "cheval": "L'AS DESBOIS",
+      "horse_id": "l-as-desbois"
+    },
+    {
+      "rang": 9,
+      "cheval": "INVICTUS MADIBA",
+      "horse_id": "invictus-madiba"
+    },
+    {
+      "rang": 10,
+      "cheval": "JILORD VIVA",
+      "horse_id": "jilord-viva"
+    },
+    {
+      "rang": 11,
+      "cheval": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+      "horse_id": "hurricane-carter-y.-lebourgeois-s.-raimond"
+    },
+    {
+      "rang": 12,
+      "cheval": "RIKITA JP",
+      "horse_id": "rikita-jp"
+    },
+    {
+      "rang": 13,
+      "cheval": "KAMEHAMEHA",
+      "horse_id": "kamehameha"
+    },
+    {
+      "rang": 14,
+      "cheval": "LIGHT MY FIRE",
+      "horse_id": "light-my-fire"
+    },
+    {
+      "rang": 15,
+      "cheval": "INMAROSA",
+      "horse_id": "inmarosa"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "IDEAL LIGNERIES",
+      "score": 10.0
+    },
+    {
+      "cheval": "HARLEY GEMA",
+      "score": 9.8606
+    },
+    {
+      "cheval": "JABALPUR",
+      "score": 9.8112
+    },
+    {
+      "cheval": "HANNIBAL TUILERIE",
+      "score": 9.7996
+    },
+    {
+      "cheval": "GENDREEN",
+      "score": 9.7627
+    },
+    {
+      "cheval": "IBISCUS MAN",
+      "score": 9.598
+    },
+    {
+      "cheval": "HORATIUS D'ELA",
+      "score": 9.5873
+    },
+    {
+      "cheval": "L'AS DESBOIS",
+      "score": 9.5824
+    },
+    {
+      "cheval": "INVICTUS MADIBA",
+      "score": 9.578
+    },
+    {
+      "cheval": "JILORD VIVA",
+      "score": 9.5433
+    },
+    {
+      "cheval": "HURRICANE CARTER Y. LEBOURGEOIS S. RAIMOND",
+      "score": 9.5219
+    },
+    {
+      "cheval": "RIKITA JP",
+      "score": 9.4524
+    },
+    {
+      "cheval": "KAMEHAMEHA",
+      "score": 9.373
+    },
+    {
+      "cheval": "LIGHT MY FIRE",
+      "score": 9.274
+    },
+    {
+      "cheval": "INMAROSA",
+      "score": 8.9039
+    }
+  ],
+  "stored_at": "2026-09-30T01:11:16.690777+00:00"
+}
