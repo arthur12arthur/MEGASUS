@@ -1,0 +1,1635 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261001-auteuil-c1",
+  "date": "2026-10-01",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "AUTEUIL",
+    "date": "2026-10-01",
+    "start_time": "2026-09-27T11:55:00+00:00",
+    "race_number": 1,
+    "name": "Prix Jean Bart, remporté par WEBCAM (1). Même s'il voit",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "obstacle",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMU_DU_01-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "obstacle",
+    "label": "Obstacle",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé ; repli hippodrome (Auteuil : obstacle uniquement)",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-01T01:10:24.502819+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "webcam",
+        "name": "WEBCAM",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "specials-one",
+        "name": "SPECIALS ONE",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "grey-fighter",
+        "name": "GREY FIGHTER",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mr-diafoirus",
+        "name": "MR DIAFOIRUS",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "exciting-hunt",
+        "name": "EXCITING HUNT",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "titi-de-paris",
+        "name": "TITI DE PARIS",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lacryma-christi",
+        "name": "LACRYMA CHRISTI",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kadover-tho-.journiac",
+        "name": "KADOVER THO .JOURNIAC",
+        "odds_pdf": 31.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lucky-nonantais",
+        "name": "LUCKY NONANTAIS",
+        "odds_pdf": 40.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lilette",
+        "name": "LILETTE",
+        "odds_pdf": 26.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lutece-allen",
+        "name": "LUTECE ALLEN",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "liprika-d-anjou",
+        "name": "LIPRIKA D'ANJOU",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "WEBCAM (webcam) : aucune cote récente disponible",
+      "SPECIALS ONE (specials-one) : aucune cote récente disponible",
+      "GREY FIGHTER (grey-fighter) : aucune cote récente disponible",
+      "MR DIAFOIRUS (mr-diafoirus) : aucune cote récente disponible",
+      "KUCHARSKY (kucharsky) : aucune cote récente disponible",
+      "EXCITING HUNT (exciting-hunt) : aucune cote récente disponible",
+      "TITI DE PARIS (titi-de-paris) : aucune cote récente disponible",
+      "LACRYMA CHRISTI (lacryma-christi) : aucune cote récente disponible",
+      "KADOVER THO .JOURNIAC (kadover-tho-.journiac) : aucune cote récente disponible",
+      "LUCKY NONANTAIS (lucky-nonantais) : aucune cote récente disponible",
+      "LE COLOMBAR (le-colombar) : aucune cote récente disponible",
+      "LILETTE (lilette) : aucune cote récente disponible",
+      "LUTECE ALLEN (lutece-allen) : aucune cote récente disponible",
+      "LIPRIKA D'ANJOU (liprika-d-anjou) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "webcam",
+      "specials-one",
+      "grey-fighter",
+      "mr-diafoirus",
+      "kucharsky",
+      "exciting-hunt",
+      "titi-de-paris",
+      "lacryma-christi",
+      "kadover-tho-.journiac",
+      "lucky-nonantais",
+      "le-colombar",
+      "lilette",
+      "lutece-allen",
+      "liprika-d-anjou"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "obstacle",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "titi-de-paris",
+        "name": "TITI DE PARIS",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "webcam",
+        "name": "WEBCAM",
+        "dimensions": {
+          "historique": 9.90030181765795,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9003,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "dimensions": {
+          "historique": 9.79392408784115,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7939,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "dimensions": {
+          "historique": 9.724628858917294,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7246,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "specials-one",
+        "name": "SPECIALS ONE",
+        "dimensions": {
+          "historique": 9.642952527598833,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.643,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lucky-nonantais",
+        "name": "LUCKY NONANTAIS",
+        "dimensions": {
+          "historique": 9.615385824823061,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6154,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "liprika-d-anjou",
+        "name": "LIPRIKA D'ANJOU",
+        "dimensions": {
+          "historique": 9.51828331546629,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5183,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "grey-fighter",
+        "name": "GREY FIGHTER",
+        "dimensions": {
+          "historique": 9.4471095551759,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4471,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lacryma-christi",
+        "name": "LACRYMA CHRISTI",
+        "dimensions": {
+          "historique": 9.381653026396393,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3817,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kadover-tho-.journiac",
+        "name": "KADOVER THO .JOURNIAC",
+        "dimensions": {
+          "historique": 9.35849223945135,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3585,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mr-diafoirus",
+        "name": "MR DIAFOIRUS",
+        "dimensions": {
+          "historique": 9.244743667708521,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2447,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "exciting-hunt",
+        "name": "EXCITING HUNT",
+        "dimensions": {
+          "historique": 9.196521329966085,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1965,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lilette",
+        "name": "LILETTE",
+        "dimensions": {
+          "historique": 9.173093305797405,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1731,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lutece-allen",
+        "name": "LUTECE ALLEN",
+        "dimensions": {
+          "historique": 9.09850116710458,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0985,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "titi-de-paris",
+      "webcam",
+      "kucharsky",
+      "le-colombar",
+      "lucky-nonantais",
+      "specials-one",
+      "liprika-d-anjou",
+      "grey-fighter",
+      "lacryma-christi",
+      "kadover-tho-.journiac",
+      "mr-diafoirus",
+      "exciting-hunt",
+      "lilette",
+      "lutece-allen"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "webcam": {
+          "horse_id": "webcam",
+          "name": "WEBCAM",
+          "p_win": 0.08468,
+          "p_top3": 0.25096,
+          "p_top5": 0.41022,
+          "expected_position": 6.8653,
+          "position_distribution": {
+            "1": 0.08468,
+            "2": 0.08412,
+            "3": 0.08216,
+            "4": 0.08048,
+            "5": 0.07878,
+            "6": 0.07688,
+            "7": 0.07648,
+            "8": 0.07636,
+            "9": 0.07032,
+            "10": 0.06874,
+            "11": 0.06598,
+            "12": 0.06036,
+            "13": 0.05302,
+            "14": 0.04164
+          }
+        },
+        "specials-one": {
+          "horse_id": "specials-one",
+          "name": "SPECIALS ONE",
+          "p_win": 0.07426,
+          "p_top3": 0.225,
+          "p_top5": 0.37374,
+          "expected_position": 7.277,
+          "position_distribution": {
+            "1": 0.07426,
+            "2": 0.07476,
+            "3": 0.07598,
+            "4": 0.07522,
+            "5": 0.07352,
+            "6": 0.07468,
+            "7": 0.07308,
+            "8": 0.0745,
+            "9": 0.07152,
+            "10": 0.0711,
+            "11": 0.07074,
+            "12": 0.06824,
+            "13": 0.06414,
+            "14": 0.05826
+          }
+        },
+        "grey-fighter": {
+          "horse_id": "grey-fighter",
+          "name": "GREY FIGHTER",
+          "p_win": 0.06904,
+          "p_top3": 0.20678,
+          "p_top5": 0.35098,
+          "expected_position": 7.5812,
+          "position_distribution": {
+            "1": 0.06904,
+            "2": 0.06974,
+            "3": 0.068,
+            "4": 0.07324,
+            "5": 0.07096,
+            "6": 0.0702,
+            "7": 0.07032,
+            "8": 0.06972,
+            "9": 0.07182,
+            "10": 0.07272,
+            "11": 0.074,
+            "12": 0.07264,
+            "13": 0.0759,
+            "14": 0.0717
+          }
+        },
+        "mr-diafoirus": {
+          "horse_id": "mr-diafoirus",
+          "name": "MR DIAFOIRUS",
+          "p_win": 0.0624,
+          "p_top3": 0.1892,
+          "p_top5": 0.3191,
+          "expected_position": 7.9572,
+          "position_distribution": {
+            "1": 0.0624,
+            "2": 0.06436,
+            "3": 0.06244,
+            "4": 0.06422,
+            "5": 0.06568,
+            "6": 0.06558,
+            "7": 0.06894,
+            "8": 0.06884,
+            "9": 0.07046,
+            "10": 0.07266,
+            "11": 0.07702,
+            "12": 0.07958,
+            "13": 0.08572,
+            "14": 0.0921
+          }
+        },
+        "kucharsky": {
+          "horse_id": "kucharsky",
+          "name": "KUCHARSKY",
+          "p_win": 0.0802,
+          "p_top3": 0.24232,
+          "p_top5": 0.39756,
+          "expected_position": 7.0112,
+          "position_distribution": {
+            "1": 0.0802,
+            "2": 0.08178,
+            "3": 0.08034,
+            "4": 0.07712,
+            "5": 0.07812,
+            "6": 0.0765,
+            "7": 0.07502,
+            "8": 0.07418,
+            "9": 0.07268,
+            "10": 0.06974,
+            "11": 0.06652,
+            "12": 0.06286,
+            "13": 0.05696,
+            "14": 0.04798
+          }
+        },
+        "exciting-hunt": {
+          "horse_id": "exciting-hunt",
+          "name": "EXCITING HUNT",
+          "p_win": 0.06226,
+          "p_top3": 0.18568,
+          "p_top5": 0.31244,
+          "expected_position": 8.0358,
+          "position_distribution": {
+            "1": 0.06226,
+            "2": 0.05976,
+            "3": 0.06366,
+            "4": 0.06252,
+            "5": 0.06424,
+            "6": 0.0662,
+            "7": 0.06608,
+            "8": 0.07072,
+            "9": 0.06982,
+            "10": 0.07356,
+            "11": 0.0769,
+            "12": 0.0787,
+            "13": 0.0862,
+            "14": 0.09938
+          }
+        },
+        "titi-de-paris": {
+          "horse_id": "titi-de-paris",
+          "name": "TITI DE PARIS",
+          "p_win": 0.09062,
+          "p_top3": 0.2672,
+          "p_top5": 0.4314,
+          "expected_position": 6.6525,
+          "position_distribution": {
+            "1": 0.09062,
+            "2": 0.08766,
+            "3": 0.08892,
+            "4": 0.08416,
+            "5": 0.08004,
+            "6": 0.0798,
+            "7": 0.075,
+            "8": 0.07596,
+            "9": 0.0694,
+            "10": 0.06698,
+            "11": 0.06068,
+            "12": 0.05694,
+            "13": 0.04742,
+            "14": 0.03642
+          }
+        },
+        "lacryma-christi": {
+          "horse_id": "lacryma-christi",
+          "name": "LACRYMA CHRISTI",
+          "p_win": 0.06654,
+          "p_top3": 0.20094,
+          "p_top5": 0.34046,
+          "expected_position": 7.7106,
+          "position_distribution": {
+            "1": 0.06654,
+            "2": 0.06832,
+            "3": 0.06608,
+            "4": 0.0696,
+            "5": 0.06992,
+            "6": 0.0675,
+            "7": 0.07132,
+            "8": 0.0693,
+            "9": 0.0732,
+            "10": 0.07162,
+            "11": 0.07252,
+            "12": 0.07472,
+            "13": 0.07782,
+            "14": 0.08154
+          }
+        },
+        "kadover-tho-.journiac": {
+          "horse_id": "kadover-tho-.journiac",
+          "name": "KADOVER THO .JOURNIAC",
+          "p_win": 0.06486,
+          "p_top3": 0.19784,
+          "p_top5": 0.33716,
+          "expected_position": 7.7459,
+          "position_distribution": {
+            "1": 0.06486,
+            "2": 0.06618,
+            "3": 0.0668,
+            "4": 0.06932,
+            "5": 0.07,
+            "6": 0.06742,
+            "7": 0.06982,
+            "8": 0.06952,
+            "9": 0.07376,
+            "10": 0.07274,
+            "11": 0.07324,
+            "12": 0.0776,
+            "13": 0.07882,
+            "14": 0.07992
+          }
+        },
+        "lucky-nonantais": {
+          "horse_id": "lucky-nonantais",
+          "name": "LUCKY NONANTAIS",
+          "p_win": 0.07692,
+          "p_top3": 0.22534,
+          "p_top5": 0.37526,
+          "expected_position": 7.272,
+          "position_distribution": {
+            "1": 0.07692,
+            "2": 0.07552,
+            "3": 0.0729,
+            "4": 0.07524,
+            "5": 0.07468,
+            "6": 0.0733,
+            "7": 0.0738,
+            "8": 0.07414,
+            "9": 0.07076,
+            "10": 0.07054,
+            "11": 0.07056,
+            "12": 0.06738,
+            "13": 0.0651,
+            "14": 0.05916
+          }
+        },
+        "le-colombar": {
+          "horse_id": "le-colombar",
+          "name": "LE COLOMBAR",
+          "p_win": 0.0775,
+          "p_top3": 0.23484,
+          "p_top5": 0.38556,
+          "expected_position": 7.1233,
+          "position_distribution": {
+            "1": 0.0775,
+            "2": 0.07906,
+            "3": 0.07828,
+            "4": 0.0759,
+            "5": 0.07482,
+            "6": 0.07652,
+            "7": 0.0764,
+            "8": 0.0738,
+            "9": 0.07338,
+            "10": 0.0706,
+            "11": 0.06608,
+            "12": 0.06552,
+            "13": 0.0587,
+            "14": 0.05344
+          }
+        },
+        "lilette": {
+          "horse_id": "lilette",
+          "name": "LILETTE",
+          "p_win": 0.05906,
+          "p_top3": 0.18112,
+          "p_top5": 0.31084,
+          "expected_position": 8.0852,
+          "position_distribution": {
+            "1": 0.05906,
+            "2": 0.05954,
+            "3": 0.06252,
+            "4": 0.06398,
+            "5": 0.06574,
+            "6": 0.0656,
+            "7": 0.06678,
+            "8": 0.06688,
+            "9": 0.07002,
+            "10": 0.07316,
+            "11": 0.0755,
+            "12": 0.0801,
+            "13": 0.09034,
+            "14": 0.10078
+          }
+        },
+        "lutece-allen": {
+          "horse_id": "lutece-allen",
+          "name": "LUTECE ALLEN",
+          "p_win": 0.05842,
+          "p_top3": 0.17702,
+          "p_top5": 0.29964,
+          "expected_position": 8.205,
+          "position_distribution": {
+            "1": 0.05842,
+            "2": 0.0584,
+            "3": 0.0602,
+            "4": 0.05982,
+            "5": 0.0628,
+            "6": 0.06632,
+            "7": 0.06506,
+            "8": 0.06528,
+            "9": 0.07048,
+            "10": 0.07256,
+            "11": 0.07716,
+            "12": 0.08438,
+            "13": 0.08858,
+            "14": 0.11054
+          }
+        },
+        "liprika-d-anjou": {
+          "horse_id": "liprika-d-anjou",
+          "name": "LIPRIKA D'ANJOU",
+          "p_win": 0.07324,
+          "p_top3": 0.21576,
+          "p_top5": 0.35564,
+          "expected_position": 7.4776,
+          "position_distribution": {
+            "1": 0.07324,
+            "2": 0.0708,
+            "3": 0.07172,
+            "4": 0.06918,
+            "5": 0.0707,
+            "6": 0.0735,
+            "7": 0.0719,
+            "8": 0.0708,
+            "9": 0.07238,
+            "10": 0.07328,
+            "11": 0.0731,
+            "12": 0.07098,
+            "13": 0.07128,
+            "14": 0.06714
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "titi-de-paris",
+          "webcam",
+          "kucharsky"
+        ],
+        "23": [
+          "titi-de-paris",
+          "webcam",
+          "kucharsky"
+        ],
+        "37": [
+          "titi-de-paris",
+          "webcam",
+          "kucharsky"
+        ],
+        "51": [
+          "titi-de-paris",
+          "webcam",
+          "kucharsky"
+        ],
+        "73": [
+          "titi-de-paris",
+          "webcam",
+          "kucharsky"
+        ]
+      },
+      "reference_top": [
+        "kucharsky",
+        "titi-de-paris",
+        "webcam"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "titi-de-paris": 10.0,
+        "webcam": 5.0,
+        "kucharsky": 0.0
+      },
+      "order": [
+        "titi-de-paris",
+        "webcam",
+        "kucharsky"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "titi-de-paris": 13.0,
+        "webcam": 12.0,
+        "kucharsky": 11.0,
+        "le-colombar": 10.0,
+        "specials-one": 9.0,
+        "lucky-nonantais": 8.0,
+        "liprika-d-anjou": 7.0,
+        "grey-fighter": 6.0,
+        "lacryma-christi": 5.0,
+        "kadover-tho-.journiac": 4.0,
+        "mr-diafoirus": 3.0,
+        "exciting-hunt": 2.0,
+        "lilette": 1.0,
+        "lutece-allen": 0.0
+      },
+      "order": [
+        "titi-de-paris",
+        "webcam",
+        "kucharsky",
+        "le-colombar",
+        "specials-one",
+        "lucky-nonantais",
+        "liprika-d-anjou",
+        "grey-fighter",
+        "lacryma-christi",
+        "kadover-tho-.journiac",
+        "mr-diafoirus",
+        "exciting-hunt",
+        "lilette",
+        "lutece-allen"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "titi-de-paris",
+        "webcam",
+        "kucharsky",
+        "le-colombar",
+        "lucky-nonantais",
+        "specials-one",
+        "liprika-d-anjou",
+        "grey-fighter",
+        "lacryma-christi",
+        "kadover-tho-.journiac",
+        "mr-diafoirus",
+        "exciting-hunt",
+        "lilette",
+        "lutece-allen"
+      ],
+      "copeland": {
+        "titi-de-paris": 13.0,
+        "webcam": 11.0,
+        "kucharsky": 9.0,
+        "le-colombar": 7.0,
+        "lucky-nonantais": 4.5,
+        "specials-one": 4.5,
+        "liprika-d-anjou": 1.0,
+        "grey-fighter": -1.0,
+        "lacryma-christi": -3.0,
+        "kadover-tho-.journiac": -5.0,
+        "mr-diafoirus": -7.0,
+        "exciting-hunt": -9.0,
+        "lilette": -11.0,
+        "lutece-allen": -13.0
+      },
+      "normalized": {
+        "titi-de-paris": 1.0,
+        "webcam": 0.9231,
+        "kucharsky": 0.8462,
+        "le-colombar": 0.7692,
+        "lucky-nonantais": 0.6731,
+        "specials-one": 0.6731,
+        "liprika-d-anjou": 0.5385,
+        "grey-fighter": 0.4615,
+        "lacryma-christi": 0.3846,
+        "kadover-tho-.journiac": 0.3077,
+        "mr-diafoirus": 0.2308,
+        "exciting-hunt": 0.1538,
+        "lilette": 0.0769,
+        "lutece-allen": 0.0
+      },
+      "mean_rank": {
+        "titi-de-paris": 0.0,
+        "webcam": 1.0,
+        "kucharsky": 2.0,
+        "le-colombar": 3.0,
+        "lucky-nonantais": 4.5,
+        "specials-one": 4.5,
+        "liprika-d-anjou": 6.0,
+        "grey-fighter": 7.0,
+        "lacryma-christi": 8.0,
+        "kadover-tho-.journiac": 9.0,
+        "mr-diafoirus": 10.0,
+        "exciting-hunt": 11.0,
+        "lilette": 12.0,
+        "lutece-allen": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "webcam",
+        "name": "WEBCAM",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "specials-one",
+        "name": "SPECIALS ONE",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 6 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "grey-fighter",
+        "name": "GREY FIGHTER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mr-diafoirus",
+        "name": "MR DIAFOIRUS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 3 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "exciting-hunt",
+        "name": "EXCITING HUNT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "titi-de-paris",
+        "name": "TITI DE PARIS",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 1 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "lacryma-christi",
+        "name": "LACRYMA CHRISTI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kadover-tho-.journiac",
+        "name": "KADOVER THO .JOURNIAC",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lucky-nonantais",
+        "name": "LUCKY NONANTAIS",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 5 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lilette",
+        "name": "LILETTE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lutece-allen",
+        "name": "LUTECE ALLEN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "liprika-d-anjou",
+        "name": "LIPRIKA D'ANJOU",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "specials-one",
+      "kucharsky",
+      "titi-de-paris",
+      "lucky-nonantais"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "webcam": 0.158697,
+      "specials-one": 0.029234,
+      "grey-fighter": 0.185147,
+      "mr-diafoirus": 0.111088,
+      "kucharsky": 0.044435,
+      "exciting-hunt": 0.046287,
+      "titi-de-paris": 0.034715,
+      "lacryma-christi": 0.065346,
+      "kadover-tho-.journiac": 0.035835,
+      "lucky-nonantais": 0.027772,
+      "le-colombar": 0.100989,
+      "lilette": 0.042726,
+      "lutece-allen": 0.06943,
+      "liprika-d-anjou": 0.048299
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "titi-de-paris",
+      "webcam",
+      "kucharsky",
+      "le-colombar",
+      "lucky-nonantais"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.65,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.4985,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "WEBCAM : recent_places",
+      "WEBCAM : driver",
+      "WEBCAM : aptitude",
+      "SPECIALS ONE : recent_places",
+      "SPECIALS ONE : driver",
+      "SPECIALS ONE : aptitude",
+      "GREY FIGHTER : recent_places",
+      "GREY FIGHTER : driver",
+      "GREY FIGHTER : aptitude",
+      "MR DIAFOIRUS : recent_places",
+      "MR DIAFOIRUS : driver",
+      "MR DIAFOIRUS : aptitude",
+      "KUCHARSKY : recent_places",
+      "KUCHARSKY : driver",
+      "KUCHARSKY : aptitude",
+      "EXCITING HUNT : recent_places",
+      "EXCITING HUNT : driver",
+      "EXCITING HUNT : aptitude",
+      "TITI DE PARIS : recent_places",
+      "TITI DE PARIS : driver",
+      "TITI DE PARIS : aptitude",
+      "LACRYMA CHRISTI : recent_places",
+      "LACRYMA CHRISTI : driver",
+      "LACRYMA CHRISTI : aptitude",
+      "KADOVER THO .JOURNIAC : recent_places",
+      "KADOVER THO .JOURNIAC : driver",
+      "KADOVER THO .JOURNIAC : aptitude",
+      "LUCKY NONANTAIS : recent_places",
+      "LUCKY NONANTAIS : driver",
+      "LUCKY NONANTAIS : aptitude",
+      "LE COLOMBAR : recent_places",
+      "LE COLOMBAR : driver",
+      "LE COLOMBAR : aptitude",
+      "LILETTE : recent_places",
+      "LILETTE : driver",
+      "LILETTE : aptitude",
+      "LUTECE ALLEN : recent_places",
+      "LUTECE ALLEN : driver",
+      "LUTECE ALLEN : aptitude",
+      "LIPRIKA D'ANJOU : recent_places",
+      "LIPRIKA D'ANJOU : driver",
+      "LIPRIKA D'ANJOU : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.10 (saturé à 2.0) → 0.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (42 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-27T11:55:00+00:00",
+    "betting_close": "2026-09-27T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-01T01:10:24.551819+00:00",
+    "minutes_late": 5125.41,
+    "minutes_to_close": -5125.41,
+    "schedule": {
+      "start_ouagadougou": "2026-09-27T11:55:00+00:00",
+      "start_paris": "2026-09-27T13:55:00+02:00",
+      "close_lonab": "2026-09-27T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "TITI DE PARIS",
+      "horse_id": "titi-de-paris"
+    },
+    {
+      "rang": 2,
+      "cheval": "WEBCAM",
+      "horse_id": "webcam"
+    },
+    {
+      "rang": 3,
+      "cheval": "KUCHARSKY",
+      "horse_id": "kucharsky"
+    },
+    {
+      "rang": 4,
+      "cheval": "LE COLOMBAR",
+      "horse_id": "le-colombar"
+    },
+    {
+      "rang": 5,
+      "cheval": "LUCKY NONANTAIS",
+      "horse_id": "lucky-nonantais"
+    },
+    {
+      "rang": 6,
+      "cheval": "SPECIALS ONE",
+      "horse_id": "specials-one"
+    },
+    {
+      "rang": 7,
+      "cheval": "LIPRIKA D'ANJOU",
+      "horse_id": "liprika-d-anjou"
+    },
+    {
+      "rang": 8,
+      "cheval": "GREY FIGHTER",
+      "horse_id": "grey-fighter"
+    },
+    {
+      "rang": 9,
+      "cheval": "LACRYMA CHRISTI",
+      "horse_id": "lacryma-christi"
+    },
+    {
+      "rang": 10,
+      "cheval": "KADOVER THO .JOURNIAC",
+      "horse_id": "kadover-tho-.journiac"
+    },
+    {
+      "rang": 11,
+      "cheval": "MR DIAFOIRUS",
+      "horse_id": "mr-diafoirus"
+    },
+    {
+      "rang": 12,
+      "cheval": "EXCITING HUNT",
+      "horse_id": "exciting-hunt"
+    },
+    {
+      "rang": 13,
+      "cheval": "LILETTE",
+      "horse_id": "lilette"
+    },
+    {
+      "rang": 14,
+      "cheval": "LUTECE ALLEN",
+      "horse_id": "lutece-allen"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "TITI DE PARIS",
+      "score": 10.0
+    },
+    {
+      "cheval": "WEBCAM",
+      "score": 9.9003
+    },
+    {
+      "cheval": "KUCHARSKY",
+      "score": 9.7939
+    },
+    {
+      "cheval": "LE COLOMBAR",
+      "score": 9.7246
+    },
+    {
+      "cheval": "SPECIALS ONE",
+      "score": 9.643
+    },
+    {
+      "cheval": "LUCKY NONANTAIS",
+      "score": 9.6154
+    },
+    {
+      "cheval": "LIPRIKA D'ANJOU",
+      "score": 9.5183
+    },
+    {
+      "cheval": "GREY FIGHTER",
+      "score": 9.4471
+    },
+    {
+      "cheval": "LACRYMA CHRISTI",
+      "score": 9.3817
+    },
+    {
+      "cheval": "KADOVER THO .JOURNIAC",
+      "score": 9.3585
+    },
+    {
+      "cheval": "MR DIAFOIRUS",
+      "score": 9.2447
+    },
+    {
+      "cheval": "EXCITING HUNT",
+      "score": 9.1965
+    },
+    {
+      "cheval": "LILETTE",
+      "score": 9.1731
+    },
+    {
+      "cheval": "LUTECE ALLEN",
+      "score": 9.0985
+    }
+  ],
+  "stored_at": "2026-10-01T01:10:24.553275+00:00"
+}
