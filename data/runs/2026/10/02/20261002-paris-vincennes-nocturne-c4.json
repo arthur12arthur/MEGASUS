@@ -1,0 +1,1649 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261002-paris-vincennes-nocturne-c4",
+  "date": "2026-10-02",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-10-02",
+    "start_time": "2026-09-28T18:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX LUDOVICA",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-09/JH_PMU_DU_02-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-02T01:29:19.036552+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "odds_pdf": 82.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "junior-steed",
+        "name": "JUNIOR STEED",
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jytrace-de-houelle-a.-collette",
+        "name": "JYTRACE DE HOUELLE A. COLLETTE",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "johore",
+        "name": "JOHORE",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jazz-d-ourville",
+        "name": "JAZZ D'OURVILLE",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "job-des-louanges",
+        "name": "JOB DES LOUANGES",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jackson-d-arc",
+        "name": "JACKSON D'ARC",
+        "odds_pdf": 67.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jog-jeloca",
+        "name": "JOG JELOCA",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "judopock",
+        "name": "JUDOPOCK",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jewel-de-banville",
+        "name": "JEWEL DE BANVILLE",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "joey-du-noyer",
+        "name": "JOEY DU NOYER",
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "johnny-mix",
+        "name": "JOHNNY MIX",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jericho",
+        "name": "JERICHO",
+        "odds_pdf": 29.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "JADE DE NAVARY (jade-de-navary) : aucune cote récente disponible",
+      "JUNIOR STEED (junior-steed) : aucune cote récente disponible",
+      "JYTRACE DE HOUELLE A. COLLETTE (jytrace-de-houelle-a.-collette) : aucune cote récente disponible",
+      "JAIFA DE L'ITON (jaifa-de-l-iton) : aucune cote récente disponible",
+      "JOHORE (johore) : aucune cote récente disponible",
+      "JAZZ D'OURVILLE (jazz-d-ourville) : aucune cote récente disponible",
+      "JOB DES LOUANGES (job-des-louanges) : aucune cote récente disponible",
+      "JACKSON D'ARC (jackson-d-arc) : aucune cote récente disponible",
+      "JOG JELOCA (jog-jeloca) : aucune cote récente disponible",
+      "JUDOPOCK (judopock) : aucune cote récente disponible",
+      "JEWEL DE BANVILLE (jewel-de-banville) : aucune cote récente disponible",
+      "JOEY DU NOYER (joey-du-noyer) : aucune cote récente disponible",
+      "JOHNNY MIX (johnny-mix) : aucune cote récente disponible",
+      "JERICHO (jericho) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "jade-de-navary",
+      "junior-steed",
+      "jytrace-de-houelle-a.-collette",
+      "jaifa-de-l-iton",
+      "johore",
+      "jazz-d-ourville",
+      "job-des-louanges",
+      "jackson-d-arc",
+      "jog-jeloca",
+      "judopock",
+      "jewel-de-banville",
+      "joey-du-noyer",
+      "johnny-mix",
+      "jericho"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "jericho",
+        "name": "JERICHO",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "johnny-mix",
+        "name": "JOHNNY MIX",
+        "dimensions": {
+          "historique": 9.998755156514193,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9988,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "joey-du-noyer",
+        "name": "JOEY DU NOYER",
+        "dimensions": {
+          "historique": 9.9985739318794,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9986,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jewel-de-banville",
+        "name": "JEWEL DE BANVILLE",
+        "dimensions": {
+          "historique": 9.996373411476862,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9964,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "judopock",
+        "name": "JUDOPOCK",
+        "dimensions": {
+          "historique": 9.984683123503725,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9847,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jog-jeloca",
+        "name": "JOG JELOCA",
+        "dimensions": {
+          "historique": 9.97504238763705,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.975,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jackson-d-arc",
+        "name": "JACKSON D'ARC",
+        "dimensions": {
+          "historique": 9.973852684687609,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9739,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "job-des-louanges",
+        "name": "JOB DES LOUANGES",
+        "dimensions": {
+          "historique": 9.967619619723848,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9676,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jazz-d-ourville",
+        "name": "JAZZ D'OURVILLE",
+        "dimensions": {
+          "historique": 9.964296440582796,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9643,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "johore",
+        "name": "JOHORE",
+        "dimensions": {
+          "historique": 9.956394561197609,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9564,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "dimensions": {
+          "historique": 9.94184182931868,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9418,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jytrace-de-houelle-a.-collette",
+        "name": "JYTRACE DE HOUELLE A. COLLETTE",
+        "dimensions": {
+          "historique": 9.906566215523826,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9066,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "junior-steed",
+        "name": "JUNIOR STEED",
+        "dimensions": {
+          "historique": 9.873388538024523,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8734,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "dimensions": {
+          "historique": 9.847300486821423,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8473,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "judopock",
+      "jericho",
+      "johnny-mix",
+      "joey-du-noyer",
+      "jewel-de-banville",
+      "jog-jeloca",
+      "jackson-d-arc",
+      "jazz-d-ourville",
+      "job-des-louanges",
+      "johore",
+      "jaifa-de-l-iton",
+      "jytrace-de-houelle-a.-collette",
+      "junior-steed",
+      "jade-de-navary"
+    ],
+    "stability": 0.4,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "jade-de-navary": {
+          "horse_id": "jade-de-navary",
+          "name": "JADE DE NAVARY",
+          "p_win": 0.06554,
+          "p_top3": 0.20084,
+          "p_top5": 0.33616,
+          "expected_position": 7.7482,
+          "position_distribution": {
+            "1": 0.06554,
+            "2": 0.06716,
+            "3": 0.06814,
+            "4": 0.06686,
+            "5": 0.06846,
+            "6": 0.0678,
+            "7": 0.07002,
+            "8": 0.07032,
+            "9": 0.07286,
+            "10": 0.0722,
+            "11": 0.07476,
+            "12": 0.07576,
+            "13": 0.07618,
+            "14": 0.08394
+          }
+        },
+        "junior-steed": {
+          "horse_id": "junior-steed",
+          "name": "JUNIOR STEED",
+          "p_win": 0.06748,
+          "p_top3": 0.2051,
+          "p_top5": 0.34234,
+          "expected_position": 7.6615,
+          "position_distribution": {
+            "1": 0.06748,
+            "2": 0.06792,
+            "3": 0.0697,
+            "4": 0.06852,
+            "5": 0.06872,
+            "6": 0.07038,
+            "7": 0.07104,
+            "8": 0.071,
+            "9": 0.07196,
+            "10": 0.07238,
+            "11": 0.07156,
+            "12": 0.07536,
+            "13": 0.07484,
+            "14": 0.07914
+          }
+        },
+        "jytrace-de-houelle-a.-collette": {
+          "horse_id": "jytrace-de-houelle-a.-collette",
+          "name": "JYTRACE DE HOUELLE A. COLLETTE",
+          "p_win": 0.06966,
+          "p_top3": 0.21108,
+          "p_top5": 0.35378,
+          "expected_position": 7.5603,
+          "position_distribution": {
+            "1": 0.06966,
+            "2": 0.07092,
+            "3": 0.0705,
+            "4": 0.07002,
+            "5": 0.07268,
+            "6": 0.07064,
+            "7": 0.06958,
+            "8": 0.07128,
+            "9": 0.07118,
+            "10": 0.0702,
+            "11": 0.07242,
+            "12": 0.07256,
+            "13": 0.07432,
+            "14": 0.07404
+          }
+        },
+        "jaifa-de-l-iton": {
+          "horse_id": "jaifa-de-l-iton",
+          "name": "JAIFA DE L'ITON",
+          "p_win": 0.07134,
+          "p_top3": 0.21358,
+          "p_top5": 0.3547,
+          "expected_position": 7.5252,
+          "position_distribution": {
+            "1": 0.07134,
+            "2": 0.07268,
+            "3": 0.06956,
+            "4": 0.07032,
+            "5": 0.0708,
+            "6": 0.0718,
+            "7": 0.07144,
+            "8": 0.07006,
+            "9": 0.07112,
+            "10": 0.07174,
+            "11": 0.07118,
+            "12": 0.07288,
+            "13": 0.07294,
+            "14": 0.07214
+          }
+        },
+        "johore": {
+          "horse_id": "johore",
+          "name": "JOHORE",
+          "p_win": 0.07046,
+          "p_top3": 0.21366,
+          "p_top5": 0.35594,
+          "expected_position": 7.5061,
+          "position_distribution": {
+            "1": 0.07046,
+            "2": 0.07248,
+            "3": 0.07072,
+            "4": 0.0711,
+            "5": 0.07118,
+            "6": 0.0722,
+            "7": 0.07104,
+            "8": 0.07214,
+            "9": 0.07128,
+            "10": 0.0724,
+            "11": 0.07096,
+            "12": 0.07062,
+            "13": 0.07082,
+            "14": 0.0726
+          }
+        },
+        "jazz-d-ourville": {
+          "horse_id": "jazz-d-ourville",
+          "name": "JAZZ D'OURVILLE",
+          "p_win": 0.07292,
+          "p_top3": 0.216,
+          "p_top5": 0.35774,
+          "expected_position": 7.4842,
+          "position_distribution": {
+            "1": 0.07292,
+            "2": 0.07034,
+            "3": 0.07274,
+            "4": 0.07112,
+            "5": 0.07062,
+            "6": 0.07202,
+            "7": 0.0719,
+            "8": 0.0728,
+            "9": 0.07018,
+            "10": 0.07108,
+            "11": 0.07094,
+            "12": 0.0701,
+            "13": 0.07232,
+            "14": 0.07092
+          }
+        },
+        "job-des-louanges": {
+          "horse_id": "job-des-louanges",
+          "name": "JOB DES LOUANGES",
+          "p_win": 0.07158,
+          "p_top3": 0.21494,
+          "p_top5": 0.35728,
+          "expected_position": 7.4924,
+          "position_distribution": {
+            "1": 0.07158,
+            "2": 0.0705,
+            "3": 0.07286,
+            "4": 0.07228,
+            "5": 0.07006,
+            "6": 0.07182,
+            "7": 0.07184,
+            "8": 0.07082,
+            "9": 0.0724,
+            "10": 0.07084,
+            "11": 0.07142,
+            "12": 0.07146,
+            "13": 0.07138,
+            "14": 0.07074
+          }
+        },
+        "jackson-d-arc": {
+          "horse_id": "jackson-d-arc",
+          "name": "JACKSON D'ARC",
+          "p_win": 0.07234,
+          "p_top3": 0.21632,
+          "p_top5": 0.36162,
+          "expected_position": 7.4603,
+          "position_distribution": {
+            "1": 0.07234,
+            "2": 0.07338,
+            "3": 0.0706,
+            "4": 0.07332,
+            "5": 0.07198,
+            "6": 0.07138,
+            "7": 0.07178,
+            "8": 0.07188,
+            "9": 0.07054,
+            "10": 0.07112,
+            "11": 0.06966,
+            "12": 0.07014,
+            "13": 0.06984,
+            "14": 0.07204
+          }
+        },
+        "jog-jeloca": {
+          "horse_id": "jog-jeloca",
+          "name": "JOG JELOCA",
+          "p_win": 0.0714,
+          "p_top3": 0.21608,
+          "p_top5": 0.36128,
+          "expected_position": 7.4509,
+          "position_distribution": {
+            "1": 0.0714,
+            "2": 0.0726,
+            "3": 0.07208,
+            "4": 0.07406,
+            "5": 0.07114,
+            "6": 0.07176,
+            "7": 0.0713,
+            "8": 0.07136,
+            "9": 0.0714,
+            "10": 0.07146,
+            "11": 0.07314,
+            "12": 0.07124,
+            "13": 0.06984,
+            "14": 0.06722
+          }
+        },
+        "judopock": {
+          "horse_id": "judopock",
+          "name": "JUDOPOCK",
+          "p_win": 0.07458,
+          "p_top3": 0.21838,
+          "p_top5": 0.36432,
+          "expected_position": 7.412,
+          "position_distribution": {
+            "1": 0.07458,
+            "2": 0.07276,
+            "3": 0.07104,
+            "4": 0.07392,
+            "5": 0.07202,
+            "6": 0.07172,
+            "7": 0.07242,
+            "8": 0.0728,
+            "9": 0.0718,
+            "10": 0.07012,
+            "11": 0.07032,
+            "12": 0.0695,
+            "13": 0.06956,
+            "14": 0.06744
+          }
+        },
+        "jewel-de-banville": {
+          "horse_id": "jewel-de-banville",
+          "name": "JEWEL DE BANVILLE",
+          "p_win": 0.07228,
+          "p_top3": 0.21814,
+          "p_top5": 0.36044,
+          "expected_position": 7.4331,
+          "position_distribution": {
+            "1": 0.07228,
+            "2": 0.07218,
+            "3": 0.07368,
+            "4": 0.072,
+            "5": 0.0703,
+            "6": 0.07254,
+            "7": 0.07344,
+            "8": 0.07384,
+            "9": 0.07008,
+            "10": 0.07382,
+            "11": 0.0691,
+            "12": 0.06882,
+            "13": 0.06982,
+            "14": 0.0681
+          }
+        },
+        "joey-du-noyer": {
+          "horse_id": "joey-du-noyer",
+          "name": "JOEY DU NOYER",
+          "p_win": 0.07238,
+          "p_top3": 0.21712,
+          "p_top5": 0.36546,
+          "expected_position": 7.4326,
+          "position_distribution": {
+            "1": 0.07238,
+            "2": 0.0726,
+            "3": 0.07214,
+            "4": 0.07412,
+            "5": 0.07422,
+            "6": 0.07156,
+            "7": 0.07102,
+            "8": 0.06936,
+            "9": 0.07218,
+            "10": 0.06966,
+            "11": 0.0706,
+            "12": 0.07258,
+            "13": 0.07026,
+            "14": 0.06732
+          }
+        },
+        "johnny-mix": {
+          "horse_id": "johnny-mix",
+          "name": "JOHNNY MIX",
+          "p_win": 0.0727,
+          "p_top3": 0.21866,
+          "p_top5": 0.36612,
+          "expected_position": 7.4167,
+          "position_distribution": {
+            "1": 0.0727,
+            "2": 0.07374,
+            "3": 0.07222,
+            "4": 0.07258,
+            "5": 0.07488,
+            "6": 0.07164,
+            "7": 0.06976,
+            "8": 0.07182,
+            "9": 0.07058,
+            "10": 0.07244,
+            "11": 0.07144,
+            "12": 0.07046,
+            "13": 0.06892,
+            "14": 0.06682
+          }
+        },
+        "jericho": {
+          "horse_id": "jericho",
+          "name": "JERICHO",
+          "p_win": 0.07534,
+          "p_top3": 0.2201,
+          "p_top5": 0.36282,
+          "expected_position": 7.4164,
+          "position_distribution": {
+            "1": 0.07534,
+            "2": 0.07074,
+            "3": 0.07402,
+            "4": 0.06978,
+            "5": 0.07294,
+            "6": 0.07274,
+            "7": 0.07342,
+            "8": 0.07052,
+            "9": 0.07244,
+            "10": 0.07054,
+            "11": 0.0725,
+            "12": 0.06852,
+            "13": 0.06896,
+            "14": 0.06754
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "judopock",
+          "joey-du-noyer",
+          "johnny-mix"
+        ],
+        "23": [
+          "judopock",
+          "jewel-de-banville",
+          "jericho"
+        ],
+        "37": [
+          "johnny-mix",
+          "jewel-de-banville",
+          "jericho"
+        ],
+        "51": [
+          "jericho",
+          "joey-du-noyer",
+          "jog-jeloca"
+        ],
+        "73": [
+          "jewel-de-banville",
+          "jericho",
+          "johnny-mix"
+        ]
+      },
+      "reference_top": [
+        "jericho",
+        "jewel-de-banville",
+        "johnny-mix"
+      ],
+      "stable_seeds": 2,
+      "stability": 0.4,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "judopock": 4.0,
+        "joey-du-noyer": 2.0,
+        "johnny-mix": 2.0,
+        "jewel-de-banville": 4.0,
+        "jericho": 3.0,
+        "jog-jeloca": 0.0
+      },
+      "order": [
+        "judopock",
+        "jewel-de-banville",
+        "jericho",
+        "joey-du-noyer",
+        "johnny-mix",
+        "jog-jeloca"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "jericho": 13.0,
+        "johnny-mix": 12.0,
+        "joey-du-noyer": 11.0,
+        "jewel-de-banville": 10.0,
+        "judopock": 9.0,
+        "jog-jeloca": 8.0,
+        "jackson-d-arc": 7.0,
+        "job-des-louanges": 6.0,
+        "jazz-d-ourville": 5.0,
+        "johore": 4.0,
+        "jaifa-de-l-iton": 3.0,
+        "jytrace-de-houelle-a.-collette": 2.0,
+        "junior-steed": 1.0,
+        "jade-de-navary": 0.0
+      },
+      "order": [
+        "jericho",
+        "johnny-mix",
+        "joey-du-noyer",
+        "jewel-de-banville",
+        "judopock",
+        "jog-jeloca",
+        "jackson-d-arc",
+        "job-des-louanges",
+        "jazz-d-ourville",
+        "johore",
+        "jaifa-de-l-iton",
+        "jytrace-de-houelle-a.-collette",
+        "junior-steed",
+        "jade-de-navary"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "judopock",
+        "jericho",
+        "johnny-mix",
+        "joey-du-noyer",
+        "jewel-de-banville",
+        "jog-jeloca",
+        "jackson-d-arc",
+        "jazz-d-ourville",
+        "job-des-louanges",
+        "johore",
+        "jaifa-de-l-iton",
+        "jytrace-de-houelle-a.-collette",
+        "junior-steed",
+        "jade-de-navary"
+      ],
+      "copeland": {
+        "judopock": 13.0,
+        "jericho": 11.0,
+        "johnny-mix": 9.0,
+        "joey-du-noyer": 7.0,
+        "jewel-de-banville": 5.0,
+        "jog-jeloca": 3.0,
+        "jackson-d-arc": 1.0,
+        "jazz-d-ourville": -1.5,
+        "job-des-louanges": -1.5,
+        "johore": -5.0,
+        "jaifa-de-l-iton": -7.0,
+        "jytrace-de-houelle-a.-collette": -9.0,
+        "junior-steed": -11.0,
+        "jade-de-navary": -13.0
+      },
+      "normalized": {
+        "judopock": 1.0,
+        "jericho": 0.9231,
+        "johnny-mix": 0.8462,
+        "joey-du-noyer": 0.7692,
+        "jewel-de-banville": 0.6923,
+        "jog-jeloca": 0.6154,
+        "jackson-d-arc": 0.5385,
+        "jazz-d-ourville": 0.4423,
+        "job-des-louanges": 0.4423,
+        "johore": 0.3077,
+        "jaifa-de-l-iton": 0.2308,
+        "jytrace-de-houelle-a.-collette": 0.1538,
+        "junior-steed": 0.0769,
+        "jade-de-navary": 0.0
+      },
+      "mean_rank": {
+        "judopock": 1.3333,
+        "jericho": 1.0,
+        "johnny-mix": 2.3333,
+        "joey-du-noyer": 2.6667,
+        "jewel-de-banville": 2.6667,
+        "jog-jeloca": 5.0,
+        "jackson-d-arc": 6.0,
+        "jazz-d-ourville": 7.5,
+        "job-des-louanges": 7.5,
+        "johore": 9.0,
+        "jaifa-de-l-iton": 10.0,
+        "jytrace-de-houelle-a.-collette": 11.0,
+        "junior-steed": 12.0,
+        "jade-de-navary": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 2/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "junior-steed",
+        "name": "JUNIOR STEED",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jytrace-de-houelle-a.-collette",
+        "name": "JYTRACE DE HOUELLE A. COLLETTE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "johore",
+        "name": "JOHORE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jazz-d-ourville",
+        "name": "JAZZ D'OURVILLE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "job-des-louanges",
+        "name": "JOB DES LOUANGES",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 9 vs marché 12)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jackson-d-arc",
+        "name": "JACKSON D'ARC",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 7 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jog-jeloca",
+        "name": "JOG JELOCA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "judopock",
+        "name": "JUDOPOCK",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 1 vs marché 5)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jewel-de-banville",
+        "name": "JEWEL DE BANVILLE",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "joey-du-noyer",
+        "name": "JOEY DU NOYER",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 4 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "johnny-mix",
+        "name": "JOHNNY MIX",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jericho",
+        "name": "JERICHO",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "job-des-louanges",
+      "jackson-d-arc",
+      "judopock",
+      "jewel-de-banville",
+      "joey-du-noyer",
+      "jericho"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "jade-de-navary": 0.012963,
+      "junior-steed": 0.053149,
+      "jytrace-de-houelle-a.-collette": 0.044291,
+      "jaifa-de-l-iton": 0.151854,
+      "johore": 0.062528,
+      "jazz-d-ourville": 0.132872,
+      "job-des-louanges": 0.033218,
+      "jackson-d-arc": 0.015865,
+      "jog-jeloca": 0.106298,
+      "judopock": 0.081767,
+      "jewel-de-banville": 0.055946,
+      "joey-du-noyer": 0.035433,
+      "johnny-mix": 0.177163,
+      "jericho": 0.036654
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "judopock",
+      "jericho",
+      "johnny-mix",
+      "joey-du-noyer",
+      "jewel-de-banville"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.002,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 0.0062,
+      "stabilite_seeds": 4.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "JADE DE NAVARY : recent_places",
+      "JADE DE NAVARY : driver",
+      "JADE DE NAVARY : aptitude",
+      "JUNIOR STEED : recent_places",
+      "JUNIOR STEED : driver",
+      "JUNIOR STEED : aptitude",
+      "JYTRACE DE HOUELLE A. COLLETTE : recent_places",
+      "JYTRACE DE HOUELLE A. COLLETTE : driver",
+      "JYTRACE DE HOUELLE A. COLLETTE : aptitude",
+      "JAIFA DE L'ITON : recent_places",
+      "JAIFA DE L'ITON : driver",
+      "JAIFA DE L'ITON : aptitude",
+      "JOHORE : recent_places",
+      "JOHORE : driver",
+      "JOHORE : aptitude",
+      "JAZZ D'OURVILLE : recent_places",
+      "JAZZ D'OURVILLE : driver",
+      "JAZZ D'OURVILLE : aptitude",
+      "JOB DES LOUANGES : recent_places",
+      "JOB DES LOUANGES : driver",
+      "JOB DES LOUANGES : aptitude",
+      "JACKSON D'ARC : recent_places",
+      "JACKSON D'ARC : driver",
+      "JACKSON D'ARC : aptitude",
+      "JOG JELOCA : recent_places",
+      "JOG JELOCA : driver",
+      "JOG JELOCA : aptitude",
+      "JUDOPOCK : recent_places",
+      "JUDOPOCK : driver",
+      "JUDOPOCK : aptitude",
+      "JEWEL DE BANVILLE : recent_places",
+      "JEWEL DE BANVILLE : driver",
+      "JEWEL DE BANVILLE : aptitude",
+      "JOEY DU NOYER : recent_places",
+      "JOEY DU NOYER : driver",
+      "JOEY DU NOYER : aptitude",
+      "JOHNNY MIX : recent_places",
+      "JOHNNY MIX : driver",
+      "JOHNNY MIX : aptitude",
+      "JERICHO : recent_places",
+      "JERICHO : driver",
+      "JERICHO : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.00 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 40% → 4.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (42 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-28T18:15:00+00:00",
+    "betting_close": "2026-09-28T18:05:00+00:00",
+    "race_started": true,
+    "now": "2026-10-02T01:29:19.085305+00:00",
+    "minutes_late": 4764.32,
+    "minutes_to_close": -4764.32,
+    "schedule": {
+      "start_ouagadougou": "2026-09-28T18:15:00+00:00",
+      "start_paris": "2026-09-28T20:15:00+02:00",
+      "close_lonab": "2026-09-28T18:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "JUDOPOCK",
+      "horse_id": "judopock"
+    },
+    {
+      "rang": 2,
+      "cheval": "JERICHO",
+      "horse_id": "jericho"
+    },
+    {
+      "rang": 3,
+      "cheval": "JOHNNY MIX",
+      "horse_id": "johnny-mix"
+    },
+    {
+      "rang": 4,
+      "cheval": "JOEY DU NOYER",
+      "horse_id": "joey-du-noyer"
+    },
+    {
+      "rang": 5,
+      "cheval": "JEWEL DE BANVILLE",
+      "horse_id": "jewel-de-banville"
+    },
+    {
+      "rang": 6,
+      "cheval": "JOG JELOCA",
+      "horse_id": "jog-jeloca"
+    },
+    {
+      "rang": 7,
+      "cheval": "JACKSON D'ARC",
+      "horse_id": "jackson-d-arc"
+    },
+    {
+      "rang": 8,
+      "cheval": "JAZZ D'OURVILLE",
+      "horse_id": "jazz-d-ourville"
+    },
+    {
+      "rang": 9,
+      "cheval": "JOB DES LOUANGES",
+      "horse_id": "job-des-louanges"
+    },
+    {
+      "rang": 10,
+      "cheval": "JOHORE",
+      "horse_id": "johore"
+    },
+    {
+      "rang": 11,
+      "cheval": "JAIFA DE L'ITON",
+      "horse_id": "jaifa-de-l-iton"
+    },
+    {
+      "rang": 12,
+      "cheval": "JYTRACE DE HOUELLE A. COLLETTE",
+      "horse_id": "jytrace-de-houelle-a.-collette"
+    },
+    {
+      "rang": 13,
+      "cheval": "JUNIOR STEED",
+      "horse_id": "junior-steed"
+    },
+    {
+      "rang": 14,
+      "cheval": "JADE DE NAVARY",
+      "horse_id": "jade-de-navary"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "JERICHO",
+      "score": 10.0
+    },
+    {
+      "cheval": "JOHNNY MIX",
+      "score": 9.9988
+    },
+    {
+      "cheval": "JOEY DU NOYER",
+      "score": 9.9986
+    },
+    {
+      "cheval": "JEWEL DE BANVILLE",
+      "score": 9.9964
+    },
+    {
+      "cheval": "JUDOPOCK",
+      "score": 9.9847
+    },
+    {
+      "cheval": "JOG JELOCA",
+      "score": 9.975
+    },
+    {
+      "cheval": "JACKSON D'ARC",
+      "score": 9.9739
+    },
+    {
+      "cheval": "JOB DES LOUANGES",
+      "score": 9.9676
+    },
+    {
+      "cheval": "JAZZ D'OURVILLE",
+      "score": 9.9643
+    },
+    {
+      "cheval": "JOHORE",
+      "score": 9.9564
+    },
+    {
+      "cheval": "JAIFA DE L'ITON",
+      "score": 9.9418
+    },
+    {
+      "cheval": "JYTRACE DE HOUELLE A. COLLETTE",
+      "score": 9.9066
+    },
+    {
+      "cheval": "JUNIOR STEED",
+      "score": 9.8734
+    },
+    {
+      "cheval": "JADE DE NAVARY",
+      "score": 9.8473
+    }
+  ],
+  "stored_at": "2026-10-02T01:29:19.086749+00:00"
+}
