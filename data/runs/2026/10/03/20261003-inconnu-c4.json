@@ -1,0 +1,2128 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261003-inconnu-c4",
+  "date": "2026-10-03",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-10-03",
+    "start_time": "2026-09-29T13:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX DE LA PLACE DES VOSGES",
+    "distance_m": 0,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_03-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-03T01:01:17.718274+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "le-lavandou",
+        "name": "LE LAVANDOU",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "annabel-s-ghost",
+        "name": "ANNABEL'S GHOST",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "golden-weaver",
+        "name": "GOLDEN WEAVER",
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "rembrand-to-go",
+        "name": "REMBRAND TO GO",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "odds_pdf": 26.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "arnay-le-duc",
+        "name": "ARNAY LE DUC",
+        "odds_pdf": 43.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sharpshoot",
+        "name": "SHARPSHOOT",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "odds_pdf": 53.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ebiyar",
+        "name": "EBIYAR",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "i-got-rhythm",
+        "name": "I GOT RHYTHM",
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "pink-monday",
+        "name": "PINK MONDAY",
+        "odds_pdf": 73.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "zelker",
+        "name": "ZELKER",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "odds_pdf": 29.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "LE LAVANDOU (le-lavandou) : aucune cote récente disponible",
+      "ANNABEL'S GHOST (annabel-s-ghost) : aucune cote récente disponible",
+      "GOLDEN WEAVER (golden-weaver) : aucune cote récente disponible",
+      "REMBRAND TO GO (rembrand-to-go) : aucune cote récente disponible",
+      "SHRIHARA (shrihara) : aucune cote récente disponible",
+      "MISTER GATZ (mister-gatz) : aucune cote récente disponible",
+      "MON RICIN (mon-ricin) : aucune cote récente disponible",
+      "COLGAN SENORA (colgan-senora) : aucune cote récente disponible",
+      "NITY GALESTE (nity-galeste) : aucune cote récente disponible",
+      "ARNAY LE DUC (arnay-le-duc) : aucune cote récente disponible",
+      "SHARPSHOOT (sharpshoot) : aucune cote récente disponible",
+      "PAOLINO (paolino) : aucune cote récente disponible",
+      "EBIYAR (ebiyar) : aucune cote récente disponible",
+      "I GOT RHYTHM (i-got-rhythm) : aucune cote récente disponible",
+      "PINK MONDAY (pink-monday) : aucune cote récente disponible",
+      "ZELKER (zelker) : aucune cote récente disponible",
+      "KING TREZY (king-trezy) : aucune cote récente disponible",
+      "DEMPY (dempy) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "le-lavandou",
+      "annabel-s-ghost",
+      "golden-weaver",
+      "rembrand-to-go",
+      "shrihara",
+      "mister-gatz",
+      "mon-ricin",
+      "colgan-senora",
+      "nity-galeste",
+      "arnay-le-duc",
+      "sharpshoot",
+      "paolino",
+      "ebiyar",
+      "i-got-rhythm",
+      "pink-monday",
+      "zelker",
+      "king-trezy",
+      "dempy"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "dimensions": {
+          "historique": 9.794220659081255,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7942,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "dimensions": {
+          "historique": 9.728258878571829,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7283,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "dimensions": {
+          "historique": 9.670005632987289,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.67,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "annabel-s-ghost",
+        "name": "ANNABEL'S GHOST",
+        "dimensions": {
+          "historique": 9.538151647538227,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5382,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "dimensions": {
+          "historique": 9.419941545072362,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4199,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-lavandou",
+        "name": "LE LAVANDOU",
+        "dimensions": {
+          "historique": 9.317841646657197,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3178,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "dimensions": {
+          "historique": 9.29698403780189,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.297,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "dimensions": {
+          "historique": 9.080163911184076,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0802,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "i-got-rhythm",
+        "name": "I GOT RHYTHM",
+        "dimensions": {
+          "historique": 9.0668464384614,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0668,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pink-monday",
+        "name": "PINK MONDAY",
+        "dimensions": {
+          "historique": 9.049264574243725,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0493,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "arnay-le-duc",
+        "name": "ARNAY LE DUC",
+        "dimensions": {
+          "historique": 8.984322036571038,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9843,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "dimensions": {
+          "historique": 8.841396692332342,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8414,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ebiyar",
+        "name": "EBIYAR",
+        "dimensions": {
+          "historique": 8.83082156801972,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8308,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zelker",
+        "name": "ZELKER",
+        "dimensions": {
+          "historique": 8.798696737711388,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7987,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "golden-weaver",
+        "name": "GOLDEN WEAVER",
+        "dimensions": {
+          "historique": 8.740678668766526,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7407,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sharpshoot",
+        "name": "SHARPSHOOT",
+        "dimensions": {
+          "historique": 8.520844303271684,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.5208,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "rembrand-to-go",
+        "name": "REMBRAND TO GO",
+        "dimensions": {
+          "historique": 0.584360135877366,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 0.5844,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "mon-ricin",
+      "dempy",
+      "mister-gatz",
+      "king-trezy",
+      "annabel-s-ghost",
+      "colgan-senora",
+      "le-lavandou",
+      "shrihara",
+      "nity-galeste",
+      "i-got-rhythm",
+      "pink-monday",
+      "arnay-le-duc",
+      "ebiyar",
+      "paolino",
+      "zelker",
+      "golden-weaver",
+      "sharpshoot",
+      "rembrand-to-go"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "le-lavandou": {
+          "horse_id": "le-lavandou",
+          "name": "LE LAVANDOU",
+          "p_win": 0.0594,
+          "p_top3": 0.17978,
+          "p_top5": 0.3021,
+          "expected_position": 8.8263,
+          "position_distribution": {
+            "1": 0.0594,
+            "2": 0.05964,
+            "3": 0.06074,
+            "4": 0.06186,
+            "5": 0.06046,
+            "6": 0.05928,
+            "7": 0.0601,
+            "8": 0.05972,
+            "9": 0.06296,
+            "10": 0.06026,
+            "11": 0.05926,
+            "12": 0.05942,
+            "13": 0.0602,
+            "14": 0.05792,
+            "15": 0.0575,
+            "16": 0.05252,
+            "17": 0.04664,
+            "18": 0.00212
+          }
+        },
+        "annabel-s-ghost": {
+          "horse_id": "annabel-s-ghost",
+          "name": "ANNABEL'S GHOST",
+          "p_win": 0.06752,
+          "p_top3": 0.20062,
+          "p_top5": 0.33244,
+          "expected_position": 8.3507,
+          "position_distribution": {
+            "1": 0.06752,
+            "2": 0.06592,
+            "3": 0.06718,
+            "4": 0.0664,
+            "5": 0.06542,
+            "6": 0.06532,
+            "7": 0.06184,
+            "8": 0.0607,
+            "9": 0.06404,
+            "10": 0.06128,
+            "11": 0.0593,
+            "12": 0.05806,
+            "13": 0.05496,
+            "14": 0.0526,
+            "15": 0.04998,
+            "16": 0.04458,
+            "17": 0.03354,
+            "18": 0.00136
+          }
+        },
+        "golden-weaver": {
+          "horse_id": "golden-weaver",
+          "name": "GOLDEN WEAVER",
+          "p_win": 0.04444,
+          "p_top3": 0.13902,
+          "p_top5": 0.23482,
+          "expected_position": 10.0093,
+          "position_distribution": {
+            "1": 0.04444,
+            "2": 0.04828,
+            "3": 0.0463,
+            "4": 0.04742,
+            "5": 0.04838,
+            "6": 0.0513,
+            "7": 0.04976,
+            "8": 0.05436,
+            "9": 0.0541,
+            "10": 0.05702,
+            "11": 0.05674,
+            "12": 0.0617,
+            "13": 0.06368,
+            "14": 0.06896,
+            "15": 0.07136,
+            "16": 0.07846,
+            "17": 0.09314,
+            "18": 0.0046
+          }
+        },
+        "rembrand-to-go": {
+          "horse_id": "rembrand-to-go",
+          "name": "REMBRAND TO GO",
+          "p_win": 0.00094,
+          "p_top3": 0.00232,
+          "p_top5": 0.004,
+          "expected_position": 17.7786,
+          "position_distribution": {
+            "1": 0.00094,
+            "2": 0.00064,
+            "3": 0.00074,
+            "4": 0.00096,
+            "5": 0.00072,
+            "6": 0.00128,
+            "7": 0.00104,
+            "8": 0.00142,
+            "9": 0.00138,
+            "10": 0.00158,
+            "11": 0.00192,
+            "12": 0.00244,
+            "13": 0.00242,
+            "14": 0.00334,
+            "15": 0.00442,
+            "16": 0.00746,
+            "17": 0.01348,
+            "18": 0.95382
+          }
+        },
+        "shrihara": {
+          "horse_id": "shrihara",
+          "name": "SHRIHARA",
+          "p_win": 0.05974,
+          "p_top3": 0.18018,
+          "p_top5": 0.2987,
+          "expected_position": 8.8383,
+          "position_distribution": {
+            "1": 0.05974,
+            "2": 0.0612,
+            "3": 0.05924,
+            "4": 0.05958,
+            "5": 0.05894,
+            "6": 0.06058,
+            "7": 0.05976,
+            "8": 0.0621,
+            "9": 0.06056,
+            "10": 0.06012,
+            "11": 0.06316,
+            "12": 0.05906,
+            "13": 0.05984,
+            "14": 0.05742,
+            "15": 0.05598,
+            "16": 0.05328,
+            "17": 0.04684,
+            "18": 0.0026
+          }
+        },
+        "mister-gatz": {
+          "horse_id": "mister-gatz",
+          "name": "MISTER GATZ",
+          "p_win": 0.0755,
+          "p_top3": 0.22402,
+          "p_top5": 0.36384,
+          "expected_position": 7.9014,
+          "position_distribution": {
+            "1": 0.0755,
+            "2": 0.07364,
+            "3": 0.07488,
+            "4": 0.0701,
+            "5": 0.06972,
+            "6": 0.067,
+            "7": 0.06656,
+            "8": 0.06538,
+            "9": 0.06216,
+            "10": 0.06,
+            "11": 0.05614,
+            "12": 0.0558,
+            "13": 0.0509,
+            "14": 0.04746,
+            "15": 0.04214,
+            "16": 0.03662,
+            "17": 0.02472,
+            "18": 0.00128
+          }
+        },
+        "mon-ricin": {
+          "horse_id": "mon-ricin",
+          "name": "MON RICIN",
+          "p_win": 0.08554,
+          "p_top3": 0.24768,
+          "p_top5": 0.40014,
+          "expected_position": 7.4012,
+          "position_distribution": {
+            "1": 0.08554,
+            "2": 0.08306,
+            "3": 0.07908,
+            "4": 0.07826,
+            "5": 0.0742,
+            "6": 0.07054,
+            "7": 0.07042,
+            "8": 0.06398,
+            "9": 0.0635,
+            "10": 0.05944,
+            "11": 0.05502,
+            "12": 0.0518,
+            "13": 0.04594,
+            "14": 0.04014,
+            "15": 0.0348,
+            "16": 0.02706,
+            "17": 0.0166,
+            "18": 0.00062
+          }
+        },
+        "colgan-senora": {
+          "horse_id": "colgan-senora",
+          "name": "COLGAN SENORA",
+          "p_win": 0.06356,
+          "p_top3": 0.19228,
+          "p_top5": 0.32074,
+          "expected_position": 8.557,
+          "position_distribution": {
+            "1": 0.06356,
+            "2": 0.06568,
+            "3": 0.06304,
+            "4": 0.06482,
+            "5": 0.06364,
+            "6": 0.06326,
+            "7": 0.06236,
+            "8": 0.06106,
+            "9": 0.06068,
+            "10": 0.05806,
+            "11": 0.05916,
+            "12": 0.05674,
+            "13": 0.058,
+            "14": 0.0547,
+            "15": 0.05428,
+            "16": 0.04956,
+            "17": 0.03958,
+            "18": 0.00182
+          }
+        },
+        "nity-galeste": {
+          "horse_id": "nity-galeste",
+          "name": "NITY GALESTE",
+          "p_win": 0.05436,
+          "p_top3": 0.16412,
+          "p_top5": 0.27446,
+          "expected_position": 9.2673,
+          "position_distribution": {
+            "1": 0.05436,
+            "2": 0.05412,
+            "3": 0.05564,
+            "4": 0.05454,
+            "5": 0.0558,
+            "6": 0.05656,
+            "7": 0.05892,
+            "8": 0.05772,
+            "9": 0.05826,
+            "10": 0.05854,
+            "11": 0.06132,
+            "12": 0.06006,
+            "13": 0.06148,
+            "14": 0.06244,
+            "15": 0.06238,
+            "16": 0.063,
+            "17": 0.06248,
+            "18": 0.00238
+          }
+        },
+        "arnay-le-duc": {
+          "horse_id": "arnay-le-duc",
+          "name": "ARNAY LE DUC",
+          "p_win": 0.05266,
+          "p_top3": 0.1563,
+          "p_top5": 0.26242,
+          "expected_position": 9.4712,
+          "position_distribution": {
+            "1": 0.05266,
+            "2": 0.05188,
+            "3": 0.05176,
+            "4": 0.05216,
+            "5": 0.05396,
+            "6": 0.05468,
+            "7": 0.05776,
+            "8": 0.0561,
+            "9": 0.05764,
+            "10": 0.05826,
+            "11": 0.06038,
+            "12": 0.06196,
+            "13": 0.06158,
+            "14": 0.06464,
+            "15": 0.06388,
+            "16": 0.06784,
+            "17": 0.06984,
+            "18": 0.00302
+          }
+        },
+        "sharpshoot": {
+          "horse_id": "sharpshoot",
+          "name": "SHARPSHOOT",
+          "p_win": 0.04056,
+          "p_top3": 0.12406,
+          "p_top5": 0.21358,
+          "expected_position": 10.4644,
+          "position_distribution": {
+            "1": 0.04056,
+            "2": 0.0409,
+            "3": 0.0426,
+            "4": 0.04336,
+            "5": 0.04616,
+            "6": 0.04646,
+            "7": 0.04856,
+            "8": 0.05038,
+            "9": 0.04938,
+            "10": 0.05354,
+            "11": 0.05644,
+            "12": 0.05996,
+            "13": 0.06454,
+            "14": 0.06828,
+            "15": 0.07738,
+            "16": 0.08888,
+            "17": 0.11674,
+            "18": 0.00588
+          }
+        },
+        "paolino": {
+          "horse_id": "paolino",
+          "name": "PAOLINO",
+          "p_win": 0.04748,
+          "p_top3": 0.14356,
+          "p_top5": 0.24334,
+          "expected_position": 9.8437,
+          "position_distribution": {
+            "1": 0.04748,
+            "2": 0.04718,
+            "3": 0.0489,
+            "4": 0.04994,
+            "5": 0.04984,
+            "6": 0.05334,
+            "7": 0.05288,
+            "8": 0.05522,
+            "9": 0.05438,
+            "10": 0.0554,
+            "11": 0.0573,
+            "12": 0.06152,
+            "13": 0.06376,
+            "14": 0.06736,
+            "15": 0.0708,
+            "16": 0.07596,
+            "17": 0.08434,
+            "18": 0.0044
+          }
+        },
+        "ebiyar": {
+          "horse_id": "ebiyar",
+          "name": "EBIYAR",
+          "p_win": 0.04628,
+          "p_top3": 0.14496,
+          "p_top5": 0.24636,
+          "expected_position": 9.8367,
+          "position_distribution": {
+            "1": 0.04628,
+            "2": 0.04854,
+            "3": 0.05014,
+            "4": 0.05022,
+            "5": 0.05118,
+            "6": 0.05156,
+            "7": 0.05272,
+            "8": 0.05322,
+            "9": 0.0546,
+            "10": 0.05654,
+            "11": 0.0588,
+            "12": 0.05894,
+            "13": 0.06466,
+            "14": 0.06622,
+            "15": 0.07142,
+            "16": 0.0763,
+            "17": 0.08454,
+            "18": 0.00412
+          }
+        },
+        "i-got-rhythm": {
+          "horse_id": "i-got-rhythm",
+          "name": "I GOT RHYTHM",
+          "p_win": 0.05382,
+          "p_top3": 0.16064,
+          "p_top5": 0.2723,
+          "expected_position": 9.3238,
+          "position_distribution": {
+            "1": 0.05382,
+            "2": 0.05372,
+            "3": 0.0531,
+            "4": 0.05512,
+            "5": 0.05654,
+            "6": 0.05564,
+            "7": 0.05582,
+            "8": 0.05868,
+            "9": 0.05846,
+            "10": 0.06038,
+            "11": 0.0599,
+            "12": 0.06022,
+            "13": 0.06052,
+            "14": 0.06358,
+            "15": 0.06428,
+            "16": 0.06318,
+            "17": 0.0641,
+            "18": 0.00294
+          }
+        },
+        "pink-monday": {
+          "horse_id": "pink-monday",
+          "name": "PINK MONDAY",
+          "p_win": 0.05294,
+          "p_top3": 0.15896,
+          "p_top5": 0.2698,
+          "expected_position": 9.3643,
+          "position_distribution": {
+            "1": 0.05294,
+            "2": 0.05226,
+            "3": 0.05376,
+            "4": 0.05524,
+            "5": 0.0556,
+            "6": 0.05446,
+            "7": 0.0567,
+            "8": 0.0589,
+            "9": 0.0585,
+            "10": 0.05904,
+            "11": 0.06004,
+            "12": 0.0605,
+            "13": 0.06198,
+            "14": 0.06334,
+            "15": 0.0634,
+            "16": 0.06498,
+            "17": 0.06528,
+            "18": 0.00308
+          }
+        },
+        "zelker": {
+          "horse_id": "zelker",
+          "name": "ZELKER",
+          "p_win": 0.04674,
+          "p_top3": 0.14344,
+          "p_top5": 0.2419,
+          "expected_position": 9.9021,
+          "position_distribution": {
+            "1": 0.04674,
+            "2": 0.0477,
+            "3": 0.049,
+            "4": 0.04922,
+            "5": 0.04924,
+            "6": 0.05206,
+            "7": 0.05062,
+            "8": 0.05414,
+            "9": 0.05326,
+            "10": 0.0572,
+            "11": 0.05772,
+            "12": 0.06232,
+            "13": 0.06142,
+            "14": 0.06686,
+            "15": 0.0727,
+            "16": 0.0796,
+            "17": 0.08624,
+            "18": 0.00396
+          }
+        },
+        "king-trezy": {
+          "horse_id": "king-trezy",
+          "name": "KING TREZY",
+          "p_win": 0.07186,
+          "p_top3": 0.21204,
+          "p_top5": 0.35052,
+          "expected_position": 8.0486,
+          "position_distribution": {
+            "1": 0.07186,
+            "2": 0.0701,
+            "3": 0.07008,
+            "4": 0.06872,
+            "5": 0.06976,
+            "6": 0.06894,
+            "7": 0.06672,
+            "8": 0.06242,
+            "9": 0.06296,
+            "10": 0.06202,
+            "11": 0.05976,
+            "12": 0.05472,
+            "13": 0.05378,
+            "14": 0.0477,
+            "15": 0.04294,
+            "16": 0.038,
+            "17": 0.02866,
+            "18": 0.00086
+          }
+        },
+        "dempy": {
+          "horse_id": "dempy",
+          "name": "DEMPY",
+          "p_win": 0.07666,
+          "p_top3": 0.22602,
+          "p_top5": 0.36854,
+          "expected_position": 7.8151,
+          "position_distribution": {
+            "1": 0.07666,
+            "2": 0.07554,
+            "3": 0.07382,
+            "4": 0.07208,
+            "5": 0.07044,
+            "6": 0.06774,
+            "7": 0.06746,
+            "8": 0.0645,
+            "9": 0.06318,
+            "10": 0.06132,
+            "11": 0.05764,
+            "12": 0.05478,
+            "13": 0.05034,
+            "14": 0.04704,
+            "15": 0.04036,
+            "16": 0.03272,
+            "17": 0.02324,
+            "18": 0.00114
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "mon-ricin",
+          "dempy",
+          "mister-gatz"
+        ],
+        "23": [
+          "mon-ricin",
+          "dempy",
+          "mister-gatz"
+        ],
+        "37": [
+          "mon-ricin",
+          "dempy",
+          "mister-gatz"
+        ],
+        "51": [
+          "mon-ricin",
+          "dempy",
+          "mister-gatz"
+        ],
+        "73": [
+          "mon-ricin",
+          "dempy",
+          "mister-gatz"
+        ]
+      },
+      "reference_top": [
+        "dempy",
+        "mister-gatz",
+        "mon-ricin"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "mon-ricin": 10.0,
+        "dempy": 5.0,
+        "mister-gatz": 0.0
+      },
+      "order": [
+        "mon-ricin",
+        "dempy",
+        "mister-gatz"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "mon-ricin": 17.0,
+        "dempy": 16.0,
+        "mister-gatz": 15.0,
+        "king-trezy": 14.0,
+        "annabel-s-ghost": 13.0,
+        "colgan-senora": 12.0,
+        "le-lavandou": 11.0,
+        "shrihara": 10.0,
+        "nity-galeste": 9.0,
+        "i-got-rhythm": 8.0,
+        "pink-monday": 7.0,
+        "arnay-le-duc": 6.0,
+        "paolino": 5.0,
+        "ebiyar": 4.0,
+        "zelker": 3.0,
+        "golden-weaver": 2.0,
+        "sharpshoot": 1.0,
+        "rembrand-to-go": 0.0
+      },
+      "order": [
+        "mon-ricin",
+        "dempy",
+        "mister-gatz",
+        "king-trezy",
+        "annabel-s-ghost",
+        "colgan-senora",
+        "le-lavandou",
+        "shrihara",
+        "nity-galeste",
+        "i-got-rhythm",
+        "pink-monday",
+        "arnay-le-duc",
+        "paolino",
+        "ebiyar",
+        "zelker",
+        "golden-weaver",
+        "sharpshoot",
+        "rembrand-to-go"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "mon-ricin",
+        "dempy",
+        "mister-gatz",
+        "king-trezy",
+        "annabel-s-ghost",
+        "colgan-senora",
+        "le-lavandou",
+        "shrihara",
+        "nity-galeste",
+        "i-got-rhythm",
+        "pink-monday",
+        "arnay-le-duc",
+        "ebiyar",
+        "paolino",
+        "zelker",
+        "golden-weaver",
+        "sharpshoot",
+        "rembrand-to-go"
+      ],
+      "copeland": {
+        "mon-ricin": 17.0,
+        "dempy": 15.0,
+        "mister-gatz": 13.0,
+        "king-trezy": 11.0,
+        "annabel-s-ghost": 9.0,
+        "colgan-senora": 7.0,
+        "le-lavandou": 5.0,
+        "shrihara": 3.0,
+        "nity-galeste": 1.0,
+        "i-got-rhythm": -1.0,
+        "pink-monday": -3.0,
+        "arnay-le-duc": -5.0,
+        "ebiyar": -7.5,
+        "paolino": -7.5,
+        "zelker": -11.0,
+        "golden-weaver": -13.0,
+        "sharpshoot": -15.0,
+        "rembrand-to-go": -17.0
+      },
+      "normalized": {
+        "mon-ricin": 1.0,
+        "dempy": 0.9412,
+        "mister-gatz": 0.8824,
+        "king-trezy": 0.8235,
+        "annabel-s-ghost": 0.7647,
+        "colgan-senora": 0.7059,
+        "le-lavandou": 0.6471,
+        "shrihara": 0.5882,
+        "nity-galeste": 0.5294,
+        "i-got-rhythm": 0.4706,
+        "pink-monday": 0.4118,
+        "arnay-le-duc": 0.3529,
+        "ebiyar": 0.2794,
+        "paolino": 0.2794,
+        "zelker": 0.1765,
+        "golden-weaver": 0.1176,
+        "sharpshoot": 0.0588,
+        "rembrand-to-go": 0.0
+      },
+      "mean_rank": {
+        "mon-ricin": 0.0,
+        "dempy": 1.0,
+        "mister-gatz": 2.0,
+        "king-trezy": 3.0,
+        "annabel-s-ghost": 4.0,
+        "colgan-senora": 5.0,
+        "le-lavandou": 6.0,
+        "shrihara": 7.0,
+        "nity-galeste": 8.0,
+        "i-got-rhythm": 9.0,
+        "pink-monday": 10.0,
+        "arnay-le-duc": 11.0,
+        "ebiyar": 12.5,
+        "paolino": 12.5,
+        "zelker": 14.0,
+        "golden-weaver": 15.0,
+        "sharpshoot": 16.0,
+        "rembrand-to-go": 17.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "le-lavandou",
+        "name": "LE LAVANDOU",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 7 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "annabel-s-ghost",
+        "name": "ANNABEL'S GHOST",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 5 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "golden-weaver",
+        "name": "GOLDEN WEAVER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "rembrand-to-go",
+        "name": "REMBRAND TO GO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 3 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "signals": [
+          "l'analyse interne le place 13 rangs plus haut que le marché (interne 1 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 6 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "arnay-le-duc",
+        "name": "ARNAY LE DUC",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 12 vs marché 15)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sharpshoot",
+        "name": "SHARPSHOOT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 14 vs marché 17)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ebiyar",
+        "name": "EBIYAR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "i-got-rhythm",
+        "name": "I GOT RHYTHM",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 10 vs marché 16)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pink-monday",
+        "name": "PINK MONDAY",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 11 vs marché 18)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zelker",
+        "name": "ZELKER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 4 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 2 vs marché 5)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "le-lavandou",
+      "annabel-s-ghost",
+      "mister-gatz",
+      "mon-ricin",
+      "colgan-senora",
+      "arnay-le-duc",
+      "paolino",
+      "i-got-rhythm",
+      "pink-monday",
+      "king-trezy",
+      "dempy"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "le-lavandou": 0.037567,
+      "annabel-s-ghost": 0.057245,
+      "golden-weaver": 0.060107,
+      "rembrand-to-go": 0.050089,
+      "shrihara": 0.080143,
+      "mister-gatz": 0.052267,
+      "mon-ricin": 0.035357,
+      "colgan-senora": 0.046236,
+      "nity-galeste": 0.092473,
+      "arnay-le-duc": 0.027957,
+      "sharpshoot": 0.120214,
+      "paolino": 0.022682,
+      "ebiyar": 0.100179,
+      "i-got-rhythm": 0.025578,
+      "pink-monday": 0.016468,
+      "zelker": 0.063271,
+      "king-trezy": 0.041453,
+      "dempy": 0.070714
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "mon-ricin",
+      "dempy",
+      "mister-gatz",
+      "king-trezy",
+      "annabel-s-ghost"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.809,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 1.0289,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "LE LAVANDOU : recent_places",
+      "LE LAVANDOU : driver",
+      "LE LAVANDOU : aptitude",
+      "ANNABEL'S GHOST : recent_places",
+      "ANNABEL'S GHOST : driver",
+      "ANNABEL'S GHOST : aptitude",
+      "GOLDEN WEAVER : recent_places",
+      "GOLDEN WEAVER : driver",
+      "GOLDEN WEAVER : aptitude",
+      "REMBRAND TO GO : recent_places",
+      "REMBRAND TO GO : driver",
+      "REMBRAND TO GO : aptitude",
+      "SHRIHARA : recent_places",
+      "SHRIHARA : driver",
+      "SHRIHARA : aptitude",
+      "MISTER GATZ : recent_places",
+      "MISTER GATZ : driver",
+      "MISTER GATZ : aptitude",
+      "MON RICIN : recent_places",
+      "MON RICIN : driver",
+      "MON RICIN : aptitude",
+      "COLGAN SENORA : recent_places",
+      "COLGAN SENORA : driver",
+      "COLGAN SENORA : aptitude",
+      "NITY GALESTE : recent_places",
+      "NITY GALESTE : driver",
+      "NITY GALESTE : aptitude",
+      "ARNAY LE DUC : recent_places",
+      "ARNAY LE DUC : driver",
+      "ARNAY LE DUC : aptitude",
+      "SHARPSHOOT : recent_places",
+      "SHARPSHOOT : driver",
+      "SHARPSHOOT : aptitude",
+      "PAOLINO : recent_places",
+      "PAOLINO : driver",
+      "PAOLINO : aptitude",
+      "EBIYAR : recent_places",
+      "EBIYAR : driver",
+      "EBIYAR : aptitude",
+      "I GOT RHYTHM : recent_places",
+      "I GOT RHYTHM : driver",
+      "I GOT RHYTHM : aptitude",
+      "PINK MONDAY : recent_places",
+      "PINK MONDAY : driver",
+      "PINK MONDAY : aptitude",
+      "ZELKER : recent_places",
+      "ZELKER : driver",
+      "ZELKER : aptitude",
+      "KING TREZY : recent_places",
+      "KING TREZY : driver",
+      "KING TREZY : aptitude",
+      "DEMPY : recent_places",
+      "DEMPY : driver",
+      "DEMPY : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.21 (saturé à 2.0) → 1.0/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (54 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-29T13:15:00+00:00",
+    "betting_close": "2026-09-29T13:05:00+00:00",
+    "race_started": true,
+    "now": "2026-10-03T01:01:17.753131+00:00",
+    "minutes_late": 5036.3,
+    "minutes_to_close": -5036.3,
+    "schedule": {
+      "start_ouagadougou": "2026-09-29T13:15:00+00:00",
+      "start_paris": "2026-09-29T15:15:00+02:00",
+      "close_lonab": "2026-09-29T13:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "MON RICIN",
+      "horse_id": "mon-ricin"
+    },
+    {
+      "rang": 2,
+      "cheval": "DEMPY",
+      "horse_id": "dempy"
+    },
+    {
+      "rang": 3,
+      "cheval": "MISTER GATZ",
+      "horse_id": "mister-gatz"
+    },
+    {
+      "rang": 4,
+      "cheval": "KING TREZY",
+      "horse_id": "king-trezy"
+    },
+    {
+      "rang": 5,
+      "cheval": "ANNABEL'S GHOST",
+      "horse_id": "annabel-s-ghost"
+    },
+    {
+      "rang": 6,
+      "cheval": "COLGAN SENORA",
+      "horse_id": "colgan-senora"
+    },
+    {
+      "rang": 7,
+      "cheval": "LE LAVANDOU",
+      "horse_id": "le-lavandou"
+    },
+    {
+      "rang": 8,
+      "cheval": "SHRIHARA",
+      "horse_id": "shrihara"
+    },
+    {
+      "rang": 9,
+      "cheval": "NITY GALESTE",
+      "horse_id": "nity-galeste"
+    },
+    {
+      "rang": 10,
+      "cheval": "I GOT RHYTHM",
+      "horse_id": "i-got-rhythm"
+    },
+    {
+      "rang": 11,
+      "cheval": "PINK MONDAY",
+      "horse_id": "pink-monday"
+    },
+    {
+      "rang": 12,
+      "cheval": "ARNAY LE DUC",
+      "horse_id": "arnay-le-duc"
+    },
+    {
+      "rang": 13,
+      "cheval": "EBIYAR",
+      "horse_id": "ebiyar"
+    },
+    {
+      "rang": 14,
+      "cheval": "PAOLINO",
+      "horse_id": "paolino"
+    },
+    {
+      "rang": 15,
+      "cheval": "ZELKER",
+      "horse_id": "zelker"
+    },
+    {
+      "rang": 16,
+      "cheval": "GOLDEN WEAVER",
+      "horse_id": "golden-weaver"
+    },
+    {
+      "rang": 17,
+      "cheval": "SHARPSHOOT",
+      "horse_id": "sharpshoot"
+    },
+    {
+      "rang": 18,
+      "cheval": "REMBRAND TO GO",
+      "horse_id": "rembrand-to-go"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "MON RICIN",
+      "score": 10.0
+    },
+    {
+      "cheval": "DEMPY",
+      "score": 9.7942
+    },
+    {
+      "cheval": "MISTER GATZ",
+      "score": 9.7283
+    },
+    {
+      "cheval": "KING TREZY",
+      "score": 9.67
+    },
+    {
+      "cheval": "ANNABEL'S GHOST",
+      "score": 9.5382
+    },
+    {
+      "cheval": "COLGAN SENORA",
+      "score": 9.4199
+    },
+    {
+      "cheval": "LE LAVANDOU",
+      "score": 9.3178
+    },
+    {
+      "cheval": "SHRIHARA",
+      "score": 9.297
+    },
+    {
+      "cheval": "NITY GALESTE",
+      "score": 9.0802
+    },
+    {
+      "cheval": "I GOT RHYTHM",
+      "score": 9.0668
+    },
+    {
+      "cheval": "PINK MONDAY",
+      "score": 9.0493
+    },
+    {
+      "cheval": "ARNAY LE DUC",
+      "score": 8.9843
+    },
+    {
+      "cheval": "PAOLINO",
+      "score": 8.8414
+    },
+    {
+      "cheval": "EBIYAR",
+      "score": 8.8308
+    },
+    {
+      "cheval": "ZELKER",
+      "score": 8.7987
+    },
+    {
+      "cheval": "GOLDEN WEAVER",
+      "score": 8.7407
+    },
+    {
+      "cheval": "SHARPSHOOT",
+      "score": 8.5208
+    },
+    {
+      "cheval": "REMBRAND TO GO",
+      "score": 0.5844
+    }
+  ],
+  "stored_at": "2026-10-03T01:01:17.754391+00:00"
+}
