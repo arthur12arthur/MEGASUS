@@ -1,0 +1,1876 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261004-inconnu-c5",
+  "date": "2026-10-04",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-10-04",
+    "start_time": "2026-09-30T14:05:00+00:00",
+    "race_number": 5,
+    "name": "Grand Prix de Paris, ce fils de Zarak",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_04-10-2026_0.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-04T00:25:51.100687+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "daryz",
+        "name": "DARYZ",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "saddadd",
+        "name": "SADDADD",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "chestnut-rocket",
+        "name": "CHESTNUT ROCKET",
+        "odds_pdf": 198.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "admire-terra",
+        "name": "ADMIRE TERRA",
+        "odds_pdf": 58.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "meisho-tabaru",
+        "name": "MEISHO TABARU",
+        "odds_pdf": 31.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "arrow-eagle",
+        "name": "ARROW EAGLE",
+        "odds_pdf": 97.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "bay-city-roller",
+        "name": "BAY CITY ROLLER",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "minnie-hauk",
+        "name": "MINNIE HAUK",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kalpana",
+        "name": "KALPANA",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "friendly-soul",
+        "name": "FRIENDLY SOUL",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "varandir",
+        "name": "VARANDIR",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "benvenuto-cellini",
+        "name": "BENVENUTO CELLINI",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "bright-light",
+        "name": "BRIGHT LIGHT",
+        "odds_pdf": 197.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "maltese-cross",
+        "name": "MALTESE CROSS",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "thundering-on",
+        "name": "THUNDERING ON",
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "diamond-necklace",
+        "name": "DIAMOND NECKLACE",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "DARYZ (daryz) : aucune cote récente disponible",
+      "SADDADD (saddadd) : aucune cote récente disponible",
+      "CHESTNUT ROCKET (chestnut-rocket) : aucune cote récente disponible",
+      "ADMIRE TERRA (admire-terra) : aucune cote récente disponible",
+      "MEISHO TABARU (meisho-tabaru) : aucune cote récente disponible",
+      "ARROW EAGLE (arrow-eagle) : aucune cote récente disponible",
+      "BAY CITY ROLLER (bay-city-roller) : aucune cote récente disponible",
+      "MINNIE HAUK (minnie-hauk) : aucune cote récente disponible",
+      "KALPANA (kalpana) : aucune cote récente disponible",
+      "FRIENDLY SOUL (friendly-soul) : aucune cote récente disponible",
+      "VARANDIR (varandir) : aucune cote récente disponible",
+      "BENVENUTO CELLINI (benvenuto-cellini) : aucune cote récente disponible",
+      "BRIGHT LIGHT (bright-light) : aucune cote récente disponible",
+      "MALTESE CROSS (maltese-cross) : aucune cote récente disponible",
+      "THUNDERING ON (thundering-on) : aucune cote récente disponible",
+      "DIAMOND NECKLACE (diamond-necklace) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "daryz",
+      "saddadd",
+      "chestnut-rocket",
+      "admire-terra",
+      "meisho-tabaru",
+      "arrow-eagle",
+      "bay-city-roller",
+      "minnie-hauk",
+      "kalpana",
+      "friendly-soul",
+      "varandir",
+      "benvenuto-cellini",
+      "bright-light",
+      "maltese-cross",
+      "thundering-on",
+      "diamond-necklace"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "friendly-soul",
+        "name": "FRIENDLY SOUL",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "minnie-hauk",
+        "name": "MINNIE HAUK",
+        "dimensions": {
+          "historique": 9.87880220014985,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8788,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "diamond-necklace",
+        "name": "DIAMOND NECKLACE",
+        "dimensions": {
+          "historique": 9.728410239,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7284,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "thundering-on",
+        "name": "THUNDERING ON",
+        "dimensions": {
+          "historique": 9.639742672657473,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6397,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "daryz",
+        "name": "DARYZ",
+        "dimensions": {
+          "historique": 9.551140973621647,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5511,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "saddadd",
+        "name": "SADDADD",
+        "dimensions": {
+          "historique": 9.443088158232129,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4431,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "arrow-eagle",
+        "name": "ARROW EAGLE",
+        "dimensions": {
+          "historique": 9.43928926171282,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4393,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "benvenuto-cellini",
+        "name": "BENVENUTO CELLINI",
+        "dimensions": {
+          "historique": 8.796877437523541,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7969,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalpana",
+        "name": "KALPANA",
+        "dimensions": {
+          "historique": 8.781966477499978,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.782,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "chestnut-rocket",
+        "name": "CHESTNUT ROCKET",
+        "dimensions": {
+          "historique": 8.717934072975137,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7179,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "varandir",
+        "name": "VARANDIR",
+        "dimensions": {
+          "historique": 8.691122181084834,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6911,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bay-city-roller",
+        "name": "BAY CITY ROLLER",
+        "dimensions": {
+          "historique": 8.570799791336585,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.5708,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bright-light",
+        "name": "BRIGHT LIGHT",
+        "dimensions": {
+          "historique": 8.436289725780808,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.4363,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "meisho-tabaru",
+        "name": "MEISHO TABARU",
+        "dimensions": {
+          "historique": 7.837783165693015,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.8378,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "maltese-cross",
+        "name": "MALTESE CROSS",
+        "dimensions": {
+          "historique": 7.704411588699153,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.7044,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "admire-terra",
+        "name": "ADMIRE TERRA",
+        "dimensions": {
+          "historique": 6.319281029078873,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 6.3193,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "friendly-soul",
+      "minnie-hauk",
+      "diamond-necklace",
+      "thundering-on",
+      "daryz",
+      "arrow-eagle",
+      "saddadd",
+      "benvenuto-cellini",
+      "kalpana",
+      "chestnut-rocket",
+      "varandir",
+      "bay-city-roller",
+      "bright-light",
+      "meisho-tabaru",
+      "maltese-cross",
+      "admire-terra"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "daryz": {
+          "horse_id": "daryz",
+          "name": "DARYZ",
+          "p_win": 0.08094,
+          "p_top3": 0.24292,
+          "p_top5": 0.3961,
+          "expected_position": 7.1756,
+          "position_distribution": {
+            "1": 0.08094,
+            "2": 0.08394,
+            "3": 0.07804,
+            "4": 0.0752,
+            "5": 0.07798,
+            "6": 0.07542,
+            "7": 0.0746,
+            "8": 0.071,
+            "9": 0.06946,
+            "10": 0.06706,
+            "11": 0.05874,
+            "12": 0.05536,
+            "13": 0.05004,
+            "14": 0.04258,
+            "15": 0.02782,
+            "16": 0.01182
+          }
+        },
+        "saddadd": {
+          "horse_id": "saddadd",
+          "name": "SADDADD",
+          "p_win": 0.0756,
+          "p_top3": 0.22752,
+          "p_top5": 0.37472,
+          "expected_position": 7.4484,
+          "position_distribution": {
+            "1": 0.0756,
+            "2": 0.07638,
+            "3": 0.07554,
+            "4": 0.07496,
+            "5": 0.07224,
+            "6": 0.07162,
+            "7": 0.07252,
+            "8": 0.07088,
+            "9": 0.06846,
+            "10": 0.0677,
+            "11": 0.06322,
+            "12": 0.06088,
+            "13": 0.05528,
+            "14": 0.046,
+            "15": 0.03328,
+            "16": 0.01544
+          }
+        },
+        "chestnut-rocket": {
+          "horse_id": "chestnut-rocket",
+          "name": "CHESTNUT ROCKET",
+          "p_win": 0.05302,
+          "p_top3": 0.16288,
+          "p_top5": 0.27682,
+          "expected_position": 8.7845,
+          "position_distribution": {
+            "1": 0.05302,
+            "2": 0.0552,
+            "3": 0.05466,
+            "4": 0.05626,
+            "5": 0.05768,
+            "6": 0.06042,
+            "7": 0.06264,
+            "8": 0.06458,
+            "9": 0.06478,
+            "10": 0.06648,
+            "11": 0.07092,
+            "12": 0.07464,
+            "13": 0.0738,
+            "14": 0.0732,
+            "15": 0.06928,
+            "16": 0.04244
+          }
+        },
+        "admire-terra": {
+          "horse_id": "admire-terra",
+          "name": "ADMIRE TERRA",
+          "p_win": 0.0162,
+          "p_top3": 0.0504,
+          "p_top5": 0.09146,
+          "expected_position": 12.8274,
+          "position_distribution": {
+            "1": 0.0162,
+            "2": 0.01666,
+            "3": 0.01754,
+            "4": 0.0202,
+            "5": 0.02086,
+            "6": 0.02246,
+            "7": 0.02516,
+            "8": 0.02684,
+            "9": 0.03104,
+            "10": 0.03498,
+            "11": 0.04176,
+            "12": 0.04972,
+            "13": 0.06192,
+            "14": 0.08724,
+            "15": 0.1356,
+            "16": 0.39182
+          }
+        },
+        "meisho-tabaru": {
+          "horse_id": "meisho-tabaru",
+          "name": "MEISHO TABARU",
+          "p_win": 0.03304,
+          "p_top3": 0.10568,
+          "p_top5": 0.18766,
+          "expected_position": 10.4384,
+          "position_distribution": {
+            "1": 0.03304,
+            "2": 0.0348,
+            "3": 0.03784,
+            "4": 0.0399,
+            "5": 0.04208,
+            "6": 0.04296,
+            "7": 0.04372,
+            "8": 0.0501,
+            "9": 0.05426,
+            "10": 0.0587,
+            "11": 0.06414,
+            "12": 0.07312,
+            "13": 0.08396,
+            "14": 0.0992,
+            "15": 0.12586,
+            "16": 0.11632
+          }
+        },
+        "arrow-eagle": {
+          "horse_id": "arrow-eagle",
+          "name": "ARROW EAGLE",
+          "p_win": 0.07454,
+          "p_top3": 0.22352,
+          "p_top5": 0.37456,
+          "expected_position": 7.4293,
+          "position_distribution": {
+            "1": 0.07454,
+            "2": 0.07522,
+            "3": 0.07376,
+            "4": 0.07566,
+            "5": 0.07538,
+            "6": 0.07624,
+            "7": 0.07268,
+            "8": 0.07136,
+            "9": 0.06814,
+            "10": 0.06646,
+            "11": 0.06438,
+            "12": 0.0591,
+            "13": 0.05342,
+            "14": 0.04394,
+            "15": 0.03396,
+            "16": 0.01576
+          }
+        },
+        "bay-city-roller": {
+          "horse_id": "bay-city-roller",
+          "name": "BAY CITY ROLLER",
+          "p_win": 0.0502,
+          "p_top3": 0.15084,
+          "p_top5": 0.26152,
+          "expected_position": 9.0563,
+          "position_distribution": {
+            "1": 0.0502,
+            "2": 0.04868,
+            "3": 0.05196,
+            "4": 0.05352,
+            "5": 0.05716,
+            "6": 0.057,
+            "7": 0.0604,
+            "8": 0.06108,
+            "9": 0.06434,
+            "10": 0.06594,
+            "11": 0.07098,
+            "12": 0.07314,
+            "13": 0.07598,
+            "14": 0.08058,
+            "15": 0.07792,
+            "16": 0.05112
+          }
+        },
+        "minnie-hauk": {
+          "horse_id": "minnie-hauk",
+          "name": "MINNIE HAUK",
+          "p_win": 0.09684,
+          "p_top3": 0.27996,
+          "p_top5": 0.44768,
+          "expected_position": 6.5939,
+          "position_distribution": {
+            "1": 0.09684,
+            "2": 0.09332,
+            "3": 0.0898,
+            "4": 0.08624,
+            "5": 0.08148,
+            "6": 0.07976,
+            "7": 0.07598,
+            "8": 0.07042,
+            "9": 0.0666,
+            "10": 0.06178,
+            "11": 0.05572,
+            "12": 0.04836,
+            "13": 0.03926,
+            "14": 0.02962,
+            "15": 0.0177,
+            "16": 0.00712
+          }
+        },
+        "kalpana": {
+          "horse_id": "kalpana",
+          "name": "KALPANA",
+          "p_win": 0.05512,
+          "p_top3": 0.16604,
+          "p_top5": 0.28584,
+          "expected_position": 8.6724,
+          "position_distribution": {
+            "1": 0.05512,
+            "2": 0.05428,
+            "3": 0.05664,
+            "4": 0.06076,
+            "5": 0.05904,
+            "6": 0.06036,
+            "7": 0.06206,
+            "8": 0.06554,
+            "9": 0.06546,
+            "10": 0.07006,
+            "11": 0.07014,
+            "12": 0.07068,
+            "13": 0.07292,
+            "14": 0.07152,
+            "15": 0.06576,
+            "16": 0.03966
+          }
+        },
+        "friendly-soul": {
+          "horse_id": "friendly-soul",
+          "name": "FRIENDLY SOUL",
+          "p_win": 0.10132,
+          "p_top3": 0.29676,
+          "p_top5": 0.47292,
+          "expected_position": 6.351,
+          "position_distribution": {
+            "1": 0.10132,
+            "2": 0.0989,
+            "3": 0.09654,
+            "4": 0.08844,
+            "5": 0.08772,
+            "6": 0.0828,
+            "7": 0.07606,
+            "8": 0.07,
+            "9": 0.06336,
+            "10": 0.05798,
+            "11": 0.0506,
+            "12": 0.04242,
+            "13": 0.03634,
+            "14": 0.02588,
+            "15": 0.01596,
+            "16": 0.00568
+          }
+        },
+        "varandir": {
+          "horse_id": "varandir",
+          "name": "VARANDIR",
+          "p_win": 0.05208,
+          "p_top3": 0.16202,
+          "p_top5": 0.27528,
+          "expected_position": 8.831,
+          "position_distribution": {
+            "1": 0.05208,
+            "2": 0.05354,
+            "3": 0.0564,
+            "4": 0.0556,
+            "5": 0.05766,
+            "6": 0.06182,
+            "7": 0.06072,
+            "8": 0.06166,
+            "9": 0.06616,
+            "10": 0.06744,
+            "11": 0.0704,
+            "12": 0.07086,
+            "13": 0.07374,
+            "14": 0.0758,
+            "15": 0.06956,
+            "16": 0.04656
+          }
+        },
+        "benvenuto-cellini": {
+          "horse_id": "benvenuto-cellini",
+          "name": "BENVENUTO CELLINI",
+          "p_win": 0.05504,
+          "p_top3": 0.17304,
+          "p_top5": 0.29178,
+          "expected_position": 8.599,
+          "position_distribution": {
+            "1": 0.05504,
+            "2": 0.05884,
+            "3": 0.05916,
+            "4": 0.05802,
+            "5": 0.06072,
+            "6": 0.0611,
+            "7": 0.06376,
+            "8": 0.064,
+            "9": 0.06628,
+            "10": 0.06756,
+            "11": 0.07058,
+            "12": 0.07014,
+            "13": 0.07212,
+            "14": 0.06972,
+            "15": 0.06302,
+            "16": 0.03994
+          }
+        },
+        "bright-light": {
+          "horse_id": "bright-light",
+          "name": "BRIGHT LIGHT",
+          "p_win": 0.04812,
+          "p_top3": 0.14364,
+          "p_top5": 0.24798,
+          "expected_position": 9.2985,
+          "position_distribution": {
+            "1": 0.04812,
+            "2": 0.0466,
+            "3": 0.04892,
+            "4": 0.05146,
+            "5": 0.05288,
+            "6": 0.0537,
+            "7": 0.05708,
+            "8": 0.06034,
+            "9": 0.06106,
+            "10": 0.06674,
+            "11": 0.06934,
+            "12": 0.07394,
+            "13": 0.07818,
+            "14": 0.0839,
+            "15": 0.08606,
+            "16": 0.06168
+          }
+        },
+        "maltese-cross": {
+          "horse_id": "maltese-cross",
+          "name": "MALTESE CROSS",
+          "p_win": 0.03338,
+          "p_top3": 0.10166,
+          "p_top5": 0.17808,
+          "expected_position": 10.6181,
+          "position_distribution": {
+            "1": 0.03338,
+            "2": 0.03384,
+            "3": 0.03444,
+            "4": 0.03738,
+            "5": 0.03904,
+            "6": 0.04146,
+            "7": 0.04508,
+            "8": 0.0482,
+            "9": 0.05226,
+            "10": 0.05574,
+            "11": 0.06196,
+            "12": 0.07228,
+            "13": 0.08408,
+            "14": 0.09702,
+            "15": 0.13032,
+            "16": 0.13352
+          }
+        },
+        "thundering-on": {
+          "horse_id": "thundering-on",
+          "name": "THUNDERING ON",
+          "p_win": 0.08404,
+          "p_top3": 0.25156,
+          "p_top5": 0.41224,
+          "expected_position": 7.0142,
+          "position_distribution": {
+            "1": 0.08404,
+            "2": 0.08262,
+            "3": 0.0849,
+            "4": 0.08272,
+            "5": 0.07796,
+            "6": 0.0756,
+            "7": 0.07346,
+            "8": 0.07174,
+            "9": 0.06964,
+            "10": 0.06406,
+            "11": 0.05996,
+            "12": 0.05332,
+            "13": 0.0453,
+            "14": 0.03902,
+            "15": 0.02472,
+            "16": 0.01094
+          }
+        },
+        "diamond-necklace": {
+          "horse_id": "diamond-necklace",
+          "name": "DIAMOND NECKLACE",
+          "p_win": 0.09052,
+          "p_top3": 0.26156,
+          "p_top5": 0.42536,
+          "expected_position": 6.8619,
+          "position_distribution": {
+            "1": 0.09052,
+            "2": 0.08718,
+            "3": 0.08386,
+            "4": 0.08368,
+            "5": 0.08012,
+            "6": 0.07728,
+            "7": 0.07408,
+            "8": 0.07226,
+            "9": 0.0687,
+            "10": 0.06132,
+            "11": 0.05716,
+            "12": 0.05204,
+            "13": 0.04366,
+            "14": 0.03478,
+            "15": 0.02318,
+            "16": 0.01018
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "friendly-soul",
+          "minnie-hauk",
+          "diamond-necklace"
+        ],
+        "23": [
+          "friendly-soul",
+          "minnie-hauk",
+          "diamond-necklace"
+        ],
+        "37": [
+          "friendly-soul",
+          "minnie-hauk",
+          "diamond-necklace"
+        ],
+        "51": [
+          "friendly-soul",
+          "minnie-hauk",
+          "diamond-necklace"
+        ],
+        "73": [
+          "friendly-soul",
+          "minnie-hauk",
+          "diamond-necklace"
+        ]
+      },
+      "reference_top": [
+        "diamond-necklace",
+        "friendly-soul",
+        "minnie-hauk"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "friendly-soul": 10.0,
+        "minnie-hauk": 5.0,
+        "diamond-necklace": 0.0
+      },
+      "order": [
+        "friendly-soul",
+        "minnie-hauk",
+        "diamond-necklace"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "friendly-soul": 15.0,
+        "minnie-hauk": 14.0,
+        "diamond-necklace": 13.0,
+        "thundering-on": 12.0,
+        "daryz": 11.0,
+        "saddadd": 10.0,
+        "arrow-eagle": 9.0,
+        "benvenuto-cellini": 8.0,
+        "kalpana": 7.0,
+        "chestnut-rocket": 6.0,
+        "varandir": 5.0,
+        "bay-city-roller": 4.0,
+        "bright-light": 3.0,
+        "meisho-tabaru": 2.0,
+        "maltese-cross": 1.0,
+        "admire-terra": 0.0
+      },
+      "order": [
+        "friendly-soul",
+        "minnie-hauk",
+        "diamond-necklace",
+        "thundering-on",
+        "daryz",
+        "saddadd",
+        "arrow-eagle",
+        "benvenuto-cellini",
+        "kalpana",
+        "chestnut-rocket",
+        "varandir",
+        "bay-city-roller",
+        "bright-light",
+        "meisho-tabaru",
+        "maltese-cross",
+        "admire-terra"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "friendly-soul",
+        "minnie-hauk",
+        "diamond-necklace",
+        "thundering-on",
+        "daryz",
+        "arrow-eagle",
+        "saddadd",
+        "benvenuto-cellini",
+        "kalpana",
+        "chestnut-rocket",
+        "varandir",
+        "bay-city-roller",
+        "bright-light",
+        "meisho-tabaru",
+        "maltese-cross",
+        "admire-terra"
+      ],
+      "copeland": {
+        "friendly-soul": 15.0,
+        "minnie-hauk": 13.0,
+        "diamond-necklace": 11.0,
+        "thundering-on": 9.0,
+        "daryz": 7.0,
+        "arrow-eagle": 4.5,
+        "saddadd": 4.5,
+        "benvenuto-cellini": 1.0,
+        "kalpana": -1.0,
+        "chestnut-rocket": -3.0,
+        "varandir": -5.0,
+        "bay-city-roller": -7.0,
+        "bright-light": -9.0,
+        "meisho-tabaru": -11.0,
+        "maltese-cross": -13.0,
+        "admire-terra": -15.0
+      },
+      "normalized": {
+        "friendly-soul": 1.0,
+        "minnie-hauk": 0.9333,
+        "diamond-necklace": 0.8667,
+        "thundering-on": 0.8,
+        "daryz": 0.7333,
+        "arrow-eagle": 0.65,
+        "saddadd": 0.65,
+        "benvenuto-cellini": 0.5333,
+        "kalpana": 0.4667,
+        "chestnut-rocket": 0.4,
+        "varandir": 0.3333,
+        "bay-city-roller": 0.2667,
+        "bright-light": 0.2,
+        "meisho-tabaru": 0.1333,
+        "maltese-cross": 0.0667,
+        "admire-terra": 0.0
+      },
+      "mean_rank": {
+        "friendly-soul": 0.0,
+        "minnie-hauk": 1.0,
+        "diamond-necklace": 2.0,
+        "thundering-on": 3.0,
+        "daryz": 4.0,
+        "arrow-eagle": 5.5,
+        "saddadd": 5.5,
+        "benvenuto-cellini": 7.0,
+        "kalpana": 8.0,
+        "chestnut-rocket": 9.0,
+        "varandir": 10.0,
+        "bay-city-roller": 11.0,
+        "bright-light": 12.0,
+        "meisho-tabaru": 13.0,
+        "maltese-cross": 14.0,
+        "admire-terra": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "daryz",
+        "name": "DARYZ",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "saddadd",
+        "name": "SADDADD",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 7 vs marché 12)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "chestnut-rocket",
+        "name": "CHESTNUT ROCKET",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 10 vs marché 16)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "admire-terra",
+        "name": "ADMIRE TERRA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "meisho-tabaru",
+        "name": "MEISHO TABARU",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "arrow-eagle",
+        "name": "ARROW EAGLE",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 6 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "bay-city-roller",
+        "name": "BAY CITY ROLLER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "minnie-hauk",
+        "name": "MINNIE HAUK",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 2 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "kalpana",
+        "name": "KALPANA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "friendly-soul",
+        "name": "FRIENDLY SOUL",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 1 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "varandir",
+        "name": "VARANDIR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "benvenuto-cellini",
+        "name": "BENVENUTO CELLINI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "bright-light",
+        "name": "BRIGHT LIGHT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "maltese-cross",
+        "name": "MALTESE CROSS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "thundering-on",
+        "name": "THUNDERING ON",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 4 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "diamond-necklace",
+        "name": "DIAMOND NECKLACE",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 3 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "saddadd",
+      "chestnut-rocket",
+      "arrow-eagle",
+      "minnie-hauk",
+      "friendly-soul",
+      "thundering-on",
+      "diamond-necklace"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "daryz": 0.219949,
+      "saddadd": 0.028941,
+      "chestnut-rocket": 0.005554,
+      "admire-terra": 0.018961,
+      "meisho-tabaru": 0.035476,
+      "arrow-eagle": 0.011338,
+      "bay-city-roller": 0.084596,
+      "minnie-hauk": 0.052369,
+      "kalpana": 0.109974,
+      "friendly-soul": 0.049988,
+      "varandir": 0.073316,
+      "benvenuto-cellini": 0.068734,
+      "bright-light": 0.005582,
+      "maltese-cross": 0.137468,
+      "thundering-on": 0.036658,
+      "diamond-necklace": 0.061097
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "friendly-soul",
+      "minnie-hauk",
+      "diamond-necklace",
+      "thundering-on",
+      "daryz"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.682,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.606,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "DARYZ : recent_places",
+      "DARYZ : driver",
+      "DARYZ : aptitude",
+      "SADDADD : recent_places",
+      "SADDADD : driver",
+      "SADDADD : aptitude",
+      "CHESTNUT ROCKET : recent_places",
+      "CHESTNUT ROCKET : driver",
+      "CHESTNUT ROCKET : aptitude",
+      "ADMIRE TERRA : recent_places",
+      "ADMIRE TERRA : driver",
+      "ADMIRE TERRA : aptitude",
+      "MEISHO TABARU : recent_places",
+      "MEISHO TABARU : driver",
+      "MEISHO TABARU : aptitude",
+      "ARROW EAGLE : recent_places",
+      "ARROW EAGLE : driver",
+      "ARROW EAGLE : aptitude",
+      "BAY CITY ROLLER : recent_places",
+      "BAY CITY ROLLER : driver",
+      "BAY CITY ROLLER : aptitude",
+      "MINNIE HAUK : recent_places",
+      "MINNIE HAUK : driver",
+      "MINNIE HAUK : aptitude",
+      "KALPANA : recent_places",
+      "KALPANA : driver",
+      "KALPANA : aptitude",
+      "FRIENDLY SOUL : recent_places",
+      "FRIENDLY SOUL : driver",
+      "FRIENDLY SOUL : aptitude",
+      "VARANDIR : recent_places",
+      "VARANDIR : driver",
+      "VARANDIR : aptitude",
+      "BENVENUTO CELLINI : recent_places",
+      "BENVENUTO CELLINI : driver",
+      "BENVENUTO CELLINI : aptitude",
+      "BRIGHT LIGHT : recent_places",
+      "BRIGHT LIGHT : driver",
+      "BRIGHT LIGHT : aptitude",
+      "MALTESE CROSS : recent_places",
+      "MALTESE CROSS : driver",
+      "MALTESE CROSS : aptitude",
+      "THUNDERING ON : recent_places",
+      "THUNDERING ON : driver",
+      "THUNDERING ON : aptitude",
+      "DIAMOND NECKLACE : recent_places",
+      "DIAMOND NECKLACE : driver",
+      "DIAMOND NECKLACE : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.12 (saturé à 2.0) → 0.6/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-09-30T14:05:00+00:00",
+    "betting_close": "2026-09-30T13:55:00+00:00",
+    "race_started": true,
+    "now": "2026-10-04T00:25:51.151873+00:00",
+    "minutes_late": 4950.85,
+    "minutes_to_close": -4950.85,
+    "schedule": {
+      "start_ouagadougou": "2026-09-30T14:05:00+00:00",
+      "start_paris": "2026-09-30T16:05:00+02:00",
+      "close_lonab": "2026-09-30T13:55:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "FRIENDLY SOUL",
+      "horse_id": "friendly-soul"
+    },
+    {
+      "rang": 2,
+      "cheval": "MINNIE HAUK",
+      "horse_id": "minnie-hauk"
+    },
+    {
+      "rang": 3,
+      "cheval": "DIAMOND NECKLACE",
+      "horse_id": "diamond-necklace"
+    },
+    {
+      "rang": 4,
+      "cheval": "THUNDERING ON",
+      "horse_id": "thundering-on"
+    },
+    {
+      "rang": 5,
+      "cheval": "DARYZ",
+      "horse_id": "daryz"
+    },
+    {
+      "rang": 6,
+      "cheval": "ARROW EAGLE",
+      "horse_id": "arrow-eagle"
+    },
+    {
+      "rang": 7,
+      "cheval": "SADDADD",
+      "horse_id": "saddadd"
+    },
+    {
+      "rang": 8,
+      "cheval": "BENVENUTO CELLINI",
+      "horse_id": "benvenuto-cellini"
+    },
+    {
+      "rang": 9,
+      "cheval": "KALPANA",
+      "horse_id": "kalpana"
+    },
+    {
+      "rang": 10,
+      "cheval": "CHESTNUT ROCKET",
+      "horse_id": "chestnut-rocket"
+    },
+    {
+      "rang": 11,
+      "cheval": "VARANDIR",
+      "horse_id": "varandir"
+    },
+    {
+      "rang": 12,
+      "cheval": "BAY CITY ROLLER",
+      "horse_id": "bay-city-roller"
+    },
+    {
+      "rang": 13,
+      "cheval": "BRIGHT LIGHT",
+      "horse_id": "bright-light"
+    },
+    {
+      "rang": 14,
+      "cheval": "MEISHO TABARU",
+      "horse_id": "meisho-tabaru"
+    },
+    {
+      "rang": 15,
+      "cheval": "MALTESE CROSS",
+      "horse_id": "maltese-cross"
+    },
+    {
+      "rang": 16,
+      "cheval": "ADMIRE TERRA",
+      "horse_id": "admire-terra"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "FRIENDLY SOUL",
+      "score": 10.0
+    },
+    {
+      "cheval": "MINNIE HAUK",
+      "score": 9.8788
+    },
+    {
+      "cheval": "DIAMOND NECKLACE",
+      "score": 9.7284
+    },
+    {
+      "cheval": "THUNDERING ON",
+      "score": 9.6397
+    },
+    {
+      "cheval": "DARYZ",
+      "score": 9.5511
+    },
+    {
+      "cheval": "SADDADD",
+      "score": 9.4431
+    },
+    {
+      "cheval": "ARROW EAGLE",
+      "score": 9.4393
+    },
+    {
+      "cheval": "BENVENUTO CELLINI",
+      "score": 8.7969
+    },
+    {
+      "cheval": "KALPANA",
+      "score": 8.782
+    },
+    {
+      "cheval": "CHESTNUT ROCKET",
+      "score": 8.7179
+    },
+    {
+      "cheval": "VARANDIR",
+      "score": 8.6911
+    },
+    {
+      "cheval": "BAY CITY ROLLER",
+      "score": 8.5708
+    },
+    {
+      "cheval": "BRIGHT LIGHT",
+      "score": 8.4363
+    },
+    {
+      "cheval": "MEISHO TABARU",
+      "score": 7.8378
+    },
+    {
+      "cheval": "MALTESE CROSS",
+      "score": 7.7044
+    },
+    {
+      "cheval": "ADMIRE TERRA",
+      "score": 6.3193
+    }
+  ],
+  "stored_at": "2026-10-04T00:25:51.153089+00:00"
+}
