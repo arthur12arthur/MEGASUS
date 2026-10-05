@@ -1,0 +1,1649 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261005-enghien-c1",
+  "date": "2026-10-05",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "ENGHIEN",
+    "date": "2026-10-05",
+    "start_time": "2026-10-01T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DES BUTTES CHAUMONT",
+    "distance_m": 150,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_05-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-05T00:38:13.561846+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "fabius-ors",
+        "name": "FABIUS ORS",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "frisee-kb-font",
+        "name": "FRISEE KB FONT",
+        "odds_pdf": 37.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "oliver-schermer",
+        "name": "OLIVER SCHERMER",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "look-de-valailles",
+        "name": "LOOK DE VALAILLES",
+        "odds_pdf": 68.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sokrates",
+        "name": "SOKRATES",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lead-me-on",
+        "name": "LEAD ME ON",
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lucius-de-puch",
+        "name": "LUCIUS DE PUCH",
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lord-on-way",
+        "name": "LORD ON WAY",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "black-heuvelland-b.-rochard",
+        "name": "BLACK HEUVELLAND B. ROCHARD",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lord-sun-draliam",
+        "name": "LORD SUN DRALIAM",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "longwood-d-heripre-r.-derieux",
+        "name": "LONGWOOD D'HERIPRE R. DERIEUX",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "taurus-crown",
+        "name": "TAURUS CROWN",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "l-as-des-isles",
+        "name": "L'AS DES ISLES",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "l-intouchable",
+        "name": "L'INTOUCHABLE",
+        "odds_pdf": 42.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "FABIUS ORS (fabius-ors) : aucune cote récente disponible",
+      "FRISEE KB FONT (frisee-kb-font) : aucune cote récente disponible",
+      "OLIVER SCHERMER (oliver-schermer) : aucune cote récente disponible",
+      "LOOK DE VALAILLES (look-de-valailles) : aucune cote récente disponible",
+      "SOKRATES (sokrates) : aucune cote récente disponible",
+      "LEAD ME ON (lead-me-on) : aucune cote récente disponible",
+      "LUCIUS DE PUCH (lucius-de-puch) : aucune cote récente disponible",
+      "LORD ON WAY (lord-on-way) : aucune cote récente disponible",
+      "BLACK HEUVELLAND B. ROCHARD (black-heuvelland-b.-rochard) : aucune cote récente disponible",
+      "LORD SUN DRALIAM (lord-sun-draliam) : aucune cote récente disponible",
+      "LONGWOOD D'HERIPRE R. DERIEUX (longwood-d-heripre-r.-derieux) : aucune cote récente disponible",
+      "TAURUS CROWN (taurus-crown) : aucune cote récente disponible",
+      "L'AS DES ISLES (l-as-des-isles) : aucune cote récente disponible",
+      "L'INTOUCHABLE (l-intouchable) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "fabius-ors",
+      "frisee-kb-font",
+      "oliver-schermer",
+      "look-de-valailles",
+      "sokrates",
+      "lead-me-on",
+      "lucius-de-puch",
+      "lord-on-way",
+      "black-heuvelland-b.-rochard",
+      "lord-sun-draliam",
+      "longwood-d-heripre-r.-derieux",
+      "taurus-crown",
+      "l-as-des-isles",
+      "l-intouchable"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "l-intouchable",
+        "name": "L'INTOUCHABLE",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "l-as-des-isles",
+        "name": "L'AS DES ISLES",
+        "dimensions": {
+          "historique": 9.999625430762396,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9996,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "taurus-crown",
+        "name": "TAURUS CROWN",
+        "dimensions": {
+          "historique": 9.991622226600999,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9916,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "longwood-d-heripre-r.-derieux",
+        "name": "LONGWOOD D'HERIPRE R. DERIEUX",
+        "dimensions": {
+          "historique": 9.974614698304551,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9746,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lord-sun-draliam",
+        "name": "LORD SUN DRALIAM",
+        "dimensions": {
+          "historique": 9.95514068901338,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9551,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "black-heuvelland-b.-rochard",
+        "name": "BLACK HEUVELLAND B. ROCHARD",
+        "dimensions": {
+          "historique": 9.94778677608252,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9478,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lord-on-way",
+        "name": "LORD ON WAY",
+        "dimensions": {
+          "historique": 9.94517599392905,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9452,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lucius-de-puch",
+        "name": "LUCIUS DE PUCH",
+        "dimensions": {
+          "historique": 9.93032134109531,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9303,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lead-me-on",
+        "name": "LEAD ME ON",
+        "dimensions": {
+          "historique": 9.92673818181958,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9267,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sokrates",
+        "name": "SOKRATES",
+        "dimensions": {
+          "historique": 9.756988259804924,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.757,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "look-de-valailles",
+        "name": "LOOK DE VALAILLES",
+        "dimensions": {
+          "historique": 9.721639264099318,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7216,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "oliver-schermer",
+        "name": "OLIVER SCHERMER",
+        "dimensions": {
+          "historique": 9.61150882419276,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6115,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "frisee-kb-font",
+        "name": "FRISEE KB FONT",
+        "dimensions": {
+          "historique": 9.271030559547386,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.271,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fabius-ors",
+        "name": "FABIUS ORS",
+        "dimensions": {
+          "historique": 9.238816704087856,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2388,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "l-as-des-isles",
+      "l-intouchable",
+      "taurus-crown",
+      "lord-sun-draliam",
+      "longwood-d-heripre-r.-derieux",
+      "black-heuvelland-b.-rochard",
+      "lord-on-way",
+      "lead-me-on",
+      "lucius-de-puch",
+      "sokrates",
+      "look-de-valailles",
+      "oliver-schermer",
+      "frisee-kb-font",
+      "fabius-ors"
+    ],
+    "stability": 0.4,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "fabius-ors": {
+          "horse_id": "fabius-ors",
+          "name": "FABIUS ORS",
+          "p_win": 0.05146,
+          "p_top3": 0.16178,
+          "p_top5": 0.2747,
+          "expected_position": 8.5388,
+          "position_distribution": {
+            "1": 0.05146,
+            "2": 0.05468,
+            "3": 0.05564,
+            "4": 0.0558,
+            "5": 0.05712,
+            "6": 0.05998,
+            "7": 0.06218,
+            "8": 0.06558,
+            "9": 0.06856,
+            "10": 0.0725,
+            "11": 0.07924,
+            "12": 0.08664,
+            "13": 0.09958,
+            "14": 0.13104
+          }
+        },
+        "frisee-kb-font": {
+          "horse_id": "frisee-kb-font",
+          "name": "FRISEE KB FONT",
+          "p_win": 0.05342,
+          "p_top3": 0.16488,
+          "p_top5": 0.2811,
+          "expected_position": 8.4465,
+          "position_distribution": {
+            "1": 0.05342,
+            "2": 0.0545,
+            "3": 0.05696,
+            "4": 0.05848,
+            "5": 0.05774,
+            "6": 0.06208,
+            "7": 0.06388,
+            "8": 0.06506,
+            "9": 0.06842,
+            "10": 0.0745,
+            "11": 0.07708,
+            "12": 0.0863,
+            "13": 0.09596,
+            "14": 0.12562
+          }
+        },
+        "oliver-schermer": {
+          "horse_id": "oliver-schermer",
+          "name": "OLIVER SCHERMER",
+          "p_win": 0.06468,
+          "p_top3": 0.19528,
+          "p_top5": 0.3304,
+          "expected_position": 7.8123,
+          "position_distribution": {
+            "1": 0.06468,
+            "2": 0.06626,
+            "3": 0.06434,
+            "4": 0.06648,
+            "5": 0.06864,
+            "6": 0.06928,
+            "7": 0.06966,
+            "8": 0.06854,
+            "9": 0.07194,
+            "10": 0.07234,
+            "11": 0.07416,
+            "12": 0.0777,
+            "13": 0.08142,
+            "14": 0.08456
+          }
+        },
+        "look-de-valailles": {
+          "horse_id": "look-de-valailles",
+          "name": "LOOK DE VALAILLES",
+          "p_win": 0.06868,
+          "p_top3": 0.2053,
+          "p_top5": 0.34294,
+          "expected_position": 7.6447,
+          "position_distribution": {
+            "1": 0.06868,
+            "2": 0.06924,
+            "3": 0.06738,
+            "4": 0.07002,
+            "5": 0.06762,
+            "6": 0.07082,
+            "7": 0.07004,
+            "8": 0.07178,
+            "9": 0.07102,
+            "10": 0.07248,
+            "11": 0.07428,
+            "12": 0.07572,
+            "13": 0.07482,
+            "14": 0.0761
+          }
+        },
+        "sokrates": {
+          "horse_id": "sokrates",
+          "name": "SOKRATES",
+          "p_win": 0.06854,
+          "p_top3": 0.20822,
+          "p_top5": 0.34756,
+          "expected_position": 7.5924,
+          "position_distribution": {
+            "1": 0.06854,
+            "2": 0.07004,
+            "3": 0.06964,
+            "4": 0.06986,
+            "5": 0.06948,
+            "6": 0.07132,
+            "7": 0.07164,
+            "8": 0.07084,
+            "9": 0.07208,
+            "10": 0.07276,
+            "11": 0.07152,
+            "12": 0.0741,
+            "13": 0.0749,
+            "14": 0.07328
+          }
+        },
+        "lead-me-on": {
+          "horse_id": "lead-me-on",
+          "name": "LEAD ME ON",
+          "p_win": 0.0761,
+          "p_top3": 0.2268,
+          "p_top5": 0.37368,
+          "expected_position": 7.2884,
+          "position_distribution": {
+            "1": 0.0761,
+            "2": 0.0746,
+            "3": 0.0761,
+            "4": 0.07224,
+            "5": 0.07464,
+            "6": 0.07394,
+            "7": 0.07392,
+            "8": 0.07238,
+            "9": 0.07232,
+            "10": 0.07078,
+            "11": 0.0673,
+            "12": 0.06964,
+            "13": 0.06666,
+            "14": 0.05938
+          }
+        },
+        "lucius-de-puch": {
+          "horse_id": "lucius-de-puch",
+          "name": "LUCIUS DE PUCH",
+          "p_win": 0.07568,
+          "p_top3": 0.22536,
+          "p_top5": 0.3737,
+          "expected_position": 7.2894,
+          "position_distribution": {
+            "1": 0.07568,
+            "2": 0.07362,
+            "3": 0.07606,
+            "4": 0.0743,
+            "5": 0.07404,
+            "6": 0.074,
+            "7": 0.07424,
+            "8": 0.07068,
+            "9": 0.0732,
+            "10": 0.07096,
+            "11": 0.07036,
+            "12": 0.0675,
+            "13": 0.06564,
+            "14": 0.05972
+          }
+        },
+        "lord-on-way": {
+          "horse_id": "lord-on-way",
+          "name": "LORD ON WAY",
+          "p_win": 0.07654,
+          "p_top3": 0.22748,
+          "p_top5": 0.37878,
+          "expected_position": 7.2491,
+          "position_distribution": {
+            "1": 0.07654,
+            "2": 0.0762,
+            "3": 0.07474,
+            "4": 0.07598,
+            "5": 0.07532,
+            "6": 0.07402,
+            "7": 0.0731,
+            "8": 0.07338,
+            "9": 0.0703,
+            "10": 0.07106,
+            "11": 0.06794,
+            "12": 0.06718,
+            "13": 0.06356,
+            "14": 0.06068
+          }
+        },
+        "black-heuvelland-b.-rochard": {
+          "horse_id": "black-heuvelland-b.-rochard",
+          "name": "BLACK HEUVELLAND B. ROCHARD",
+          "p_win": 0.07588,
+          "p_top3": 0.2273,
+          "p_top5": 0.3788,
+          "expected_position": 7.2361,
+          "position_distribution": {
+            "1": 0.07588,
+            "2": 0.07594,
+            "3": 0.07548,
+            "4": 0.07702,
+            "5": 0.07448,
+            "6": 0.07278,
+            "7": 0.07354,
+            "8": 0.07426,
+            "9": 0.07004,
+            "10": 0.07288,
+            "11": 0.07118,
+            "12": 0.06746,
+            "13": 0.06262,
+            "14": 0.05644
+          }
+        },
+        "lord-sun-draliam": {
+          "horse_id": "lord-sun-draliam",
+          "name": "LORD SUN DRALIAM",
+          "p_win": 0.07808,
+          "p_top3": 0.22972,
+          "p_top5": 0.38202,
+          "expected_position": 7.2018,
+          "position_distribution": {
+            "1": 0.07808,
+            "2": 0.07708,
+            "3": 0.07456,
+            "4": 0.07716,
+            "5": 0.07514,
+            "6": 0.07316,
+            "7": 0.07428,
+            "8": 0.07392,
+            "9": 0.07298,
+            "10": 0.069,
+            "11": 0.06808,
+            "12": 0.06618,
+            "13": 0.06394,
+            "14": 0.05644
+          }
+        },
+        "longwood-d-heripre-r.-derieux": {
+          "horse_id": "longwood-d-heripre-r.-derieux",
+          "name": "LONGWOOD D'HERIPRE R. DERIEUX",
+          "p_win": 0.07652,
+          "p_top3": 0.2294,
+          "p_top5": 0.37814,
+          "expected_position": 7.2105,
+          "position_distribution": {
+            "1": 0.07652,
+            "2": 0.076,
+            "3": 0.07688,
+            "4": 0.07498,
+            "5": 0.07376,
+            "6": 0.07458,
+            "7": 0.07716,
+            "8": 0.07362,
+            "9": 0.07212,
+            "10": 0.07166,
+            "11": 0.06812,
+            "12": 0.06496,
+            "13": 0.06346,
+            "14": 0.05618
+          }
+        },
+        "taurus-crown": {
+          "horse_id": "taurus-crown",
+          "name": "TAURUS CROWN",
+          "p_win": 0.0768,
+          "p_top3": 0.23132,
+          "p_top5": 0.38588,
+          "expected_position": 7.1815,
+          "position_distribution": {
+            "1": 0.0768,
+            "2": 0.07708,
+            "3": 0.07744,
+            "4": 0.0776,
+            "5": 0.07696,
+            "6": 0.07404,
+            "7": 0.07174,
+            "8": 0.07282,
+            "9": 0.0712,
+            "10": 0.06916,
+            "11": 0.07108,
+            "12": 0.06712,
+            "13": 0.06308,
+            "14": 0.05388
+          }
+        },
+        "l-as-des-isles": {
+          "horse_id": "l-as-des-isles",
+          "name": "L'AS DES ISLES",
+          "p_win": 0.07752,
+          "p_top3": 0.233,
+          "p_top5": 0.3879,
+          "expected_position": 7.1532,
+          "position_distribution": {
+            "1": 0.07752,
+            "2": 0.0789,
+            "3": 0.07658,
+            "4": 0.07658,
+            "5": 0.07832,
+            "6": 0.07394,
+            "7": 0.07108,
+            "8": 0.0743,
+            "9": 0.07196,
+            "10": 0.07038,
+            "11": 0.0696,
+            "12": 0.06634,
+            "13": 0.06148,
+            "14": 0.05302
+          }
+        },
+        "l-intouchable": {
+          "horse_id": "l-intouchable",
+          "name": "L'INTOUCHABLE",
+          "p_win": 0.0801,
+          "p_top3": 0.23416,
+          "p_top5": 0.3844,
+          "expected_position": 7.1554,
+          "position_distribution": {
+            "1": 0.0801,
+            "2": 0.07586,
+            "3": 0.0782,
+            "4": 0.0735,
+            "5": 0.07674,
+            "6": 0.07606,
+            "7": 0.07354,
+            "8": 0.07284,
+            "9": 0.07386,
+            "10": 0.06954,
+            "11": 0.07006,
+            "12": 0.06316,
+            "13": 0.06288,
+            "14": 0.05366
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "taurus-crown",
+          "l-as-des-isles",
+          "lord-sun-draliam"
+        ],
+        "23": [
+          "lord-sun-draliam",
+          "l-as-des-isles",
+          "l-intouchable"
+        ],
+        "37": [
+          "l-as-des-isles",
+          "l-intouchable",
+          "longwood-d-heripre-r.-derieux"
+        ],
+        "51": [
+          "l-intouchable",
+          "taurus-crown",
+          "black-heuvelland-b.-rochard"
+        ],
+        "73": [
+          "l-intouchable",
+          "l-as-des-isles",
+          "longwood-d-heripre-r.-derieux"
+        ]
+      },
+      "reference_top": [
+        "l-as-des-isles",
+        "l-intouchable",
+        "longwood-d-heripre-r.-derieux"
+      ],
+      "stable_seeds": 2,
+      "stability": 0.4,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "taurus-crown": 3.0,
+        "l-as-des-isles": 5.0,
+        "lord-sun-draliam": 2.0,
+        "l-intouchable": 5.0,
+        "longwood-d-heripre-r.-derieux": 0.0,
+        "black-heuvelland-b.-rochard": 0.0
+      },
+      "order": [
+        "l-as-des-isles",
+        "l-intouchable",
+        "taurus-crown",
+        "lord-sun-draliam",
+        "black-heuvelland-b.-rochard",
+        "longwood-d-heripre-r.-derieux"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "l-intouchable": 13.0,
+        "l-as-des-isles": 12.0,
+        "taurus-crown": 11.0,
+        "longwood-d-heripre-r.-derieux": 10.0,
+        "lord-sun-draliam": 9.0,
+        "black-heuvelland-b.-rochard": 8.0,
+        "lord-on-way": 7.0,
+        "lucius-de-puch": 6.0,
+        "lead-me-on": 5.0,
+        "sokrates": 4.0,
+        "look-de-valailles": 3.0,
+        "oliver-schermer": 2.0,
+        "frisee-kb-font": 1.0,
+        "fabius-ors": 0.0
+      },
+      "order": [
+        "l-intouchable",
+        "l-as-des-isles",
+        "taurus-crown",
+        "longwood-d-heripre-r.-derieux",
+        "lord-sun-draliam",
+        "black-heuvelland-b.-rochard",
+        "lord-on-way",
+        "lucius-de-puch",
+        "lead-me-on",
+        "sokrates",
+        "look-de-valailles",
+        "oliver-schermer",
+        "frisee-kb-font",
+        "fabius-ors"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "l-as-des-isles",
+        "l-intouchable",
+        "taurus-crown",
+        "lord-sun-draliam",
+        "longwood-d-heripre-r.-derieux",
+        "black-heuvelland-b.-rochard",
+        "lord-on-way",
+        "lead-me-on",
+        "lucius-de-puch",
+        "sokrates",
+        "look-de-valailles",
+        "oliver-schermer",
+        "frisee-kb-font",
+        "fabius-ors"
+      ],
+      "copeland": {
+        "l-as-des-isles": 13.0,
+        "l-intouchable": 11.0,
+        "taurus-crown": 9.0,
+        "lord-sun-draliam": 7.0,
+        "longwood-d-heripre-r.-derieux": 5.0,
+        "black-heuvelland-b.-rochard": 3.0,
+        "lord-on-way": 1.0,
+        "lead-me-on": -1.5,
+        "lucius-de-puch": -1.5,
+        "sokrates": -5.0,
+        "look-de-valailles": -7.0,
+        "oliver-schermer": -9.0,
+        "frisee-kb-font": -11.0,
+        "fabius-ors": -13.0
+      },
+      "normalized": {
+        "l-as-des-isles": 1.0,
+        "l-intouchable": 0.9231,
+        "taurus-crown": 0.8462,
+        "lord-sun-draliam": 0.7692,
+        "longwood-d-heripre-r.-derieux": 0.6923,
+        "black-heuvelland-b.-rochard": 0.6154,
+        "lord-on-way": 0.5385,
+        "lead-me-on": 0.4423,
+        "lucius-de-puch": 0.4423,
+        "sokrates": 0.3077,
+        "look-de-valailles": 0.2308,
+        "oliver-schermer": 0.1538,
+        "frisee-kb-font": 0.0769,
+        "fabius-ors": 0.0
+      },
+      "mean_rank": {
+        "l-as-des-isles": 0.3333,
+        "l-intouchable": 0.6667,
+        "taurus-crown": 2.0,
+        "lord-sun-draliam": 3.3333,
+        "longwood-d-heripre-r.-derieux": 4.0,
+        "black-heuvelland-b.-rochard": 4.6667,
+        "lord-on-way": 6.0,
+        "lead-me-on": 7.5,
+        "lucius-de-puch": 7.5,
+        "sokrates": 9.0,
+        "look-de-valailles": 10.0,
+        "oliver-schermer": 11.0,
+        "frisee-kb-font": 12.0,
+        "fabius-ors": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 2/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "fabius-ors",
+        "name": "FABIUS ORS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "frisee-kb-font",
+        "name": "FRISEE KB FONT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "oliver-schermer",
+        "name": "OLIVER SCHERMER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "look-de-valailles",
+        "name": "LOOK DE VALAILLES",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 11 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sokrates",
+        "name": "SOKRATES",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lead-me-on",
+        "name": "LEAD ME ON",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 8 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lucius-de-puch",
+        "name": "LUCIUS DE PUCH",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lord-on-way",
+        "name": "LORD ON WAY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "black-heuvelland-b.-rochard",
+        "name": "BLACK HEUVELLAND B. ROCHARD",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lord-sun-draliam",
+        "name": "LORD SUN DRALIAM",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 4 vs marché 7)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "longwood-d-heripre-r.-derieux",
+        "name": "LONGWOOD D'HERIPRE R. DERIEUX",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "taurus-crown",
+        "name": "TAURUS CROWN",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "l-as-des-isles",
+        "name": "L'AS DES ISLES",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 1 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "l-intouchable",
+        "name": "L'INTOUCHABLE",
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 2 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "look-de-valailles",
+      "lead-me-on",
+      "lord-sun-draliam",
+      "taurus-crown",
+      "l-as-des-isles",
+      "l-intouchable"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "fabius-ors": 0.033243,
+      "frisee-kb-font": 0.02875,
+      "oliver-schermer": 0.048353,
+      "look-de-valailles": 0.015644,
+      "sokrates": 0.118196,
+      "lead-me-on": 0.022633,
+      "lucius-de-puch": 0.035459,
+      "lord-on-way": 0.151966,
+      "black-heuvelland-b.-rochard": 0.177294,
+      "lord-sun-draliam": 0.055988,
+      "longwood-d-heripre-r.-derieux": 0.118196,
+      "taurus-crown": 0.106376,
+      "l-as-des-isles": 0.062574,
+      "l-intouchable": 0.025328
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "l-as-des-isles",
+      "l-intouchable",
+      "taurus-crown",
+      "lord-sun-draliam",
+      "longwood-d-heripre-r.-derieux"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.001,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 0.0019,
+      "stabilite_seeds": 4.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "FABIUS ORS : recent_places",
+      "FABIUS ORS : driver",
+      "FABIUS ORS : aptitude",
+      "FRISEE KB FONT : recent_places",
+      "FRISEE KB FONT : driver",
+      "FRISEE KB FONT : aptitude",
+      "OLIVER SCHERMER : recent_places",
+      "OLIVER SCHERMER : driver",
+      "OLIVER SCHERMER : aptitude",
+      "LOOK DE VALAILLES : recent_places",
+      "LOOK DE VALAILLES : driver",
+      "LOOK DE VALAILLES : aptitude",
+      "SOKRATES : recent_places",
+      "SOKRATES : driver",
+      "SOKRATES : aptitude",
+      "LEAD ME ON : recent_places",
+      "LEAD ME ON : driver",
+      "LEAD ME ON : aptitude",
+      "LUCIUS DE PUCH : recent_places",
+      "LUCIUS DE PUCH : driver",
+      "LUCIUS DE PUCH : aptitude",
+      "LORD ON WAY : recent_places",
+      "LORD ON WAY : driver",
+      "LORD ON WAY : aptitude",
+      "BLACK HEUVELLAND B. ROCHARD : recent_places",
+      "BLACK HEUVELLAND B. ROCHARD : driver",
+      "BLACK HEUVELLAND B. ROCHARD : aptitude",
+      "LORD SUN DRALIAM : recent_places",
+      "LORD SUN DRALIAM : driver",
+      "LORD SUN DRALIAM : aptitude",
+      "LONGWOOD D'HERIPRE R. DERIEUX : recent_places",
+      "LONGWOOD D'HERIPRE R. DERIEUX : driver",
+      "LONGWOOD D'HERIPRE R. DERIEUX : aptitude",
+      "TAURUS CROWN : recent_places",
+      "TAURUS CROWN : driver",
+      "TAURUS CROWN : aptitude",
+      "L'AS DES ISLES : recent_places",
+      "L'AS DES ISLES : driver",
+      "L'AS DES ISLES : aptitude",
+      "L'INTOUCHABLE : recent_places",
+      "L'INTOUCHABLE : driver",
+      "L'INTOUCHABLE : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.00 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 40% → 4.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (42 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-01T11:55:00+00:00",
+    "betting_close": "2026-10-01T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-05T00:38:13.613007+00:00",
+    "minutes_late": 5093.23,
+    "minutes_to_close": -5093.23,
+    "schedule": {
+      "start_ouagadougou": "2026-10-01T11:55:00+00:00",
+      "start_paris": "2026-10-01T13:55:00+02:00",
+      "close_lonab": "2026-10-01T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "L'AS DES ISLES",
+      "horse_id": "l-as-des-isles"
+    },
+    {
+      "rang": 2,
+      "cheval": "L'INTOUCHABLE",
+      "horse_id": "l-intouchable"
+    },
+    {
+      "rang": 3,
+      "cheval": "TAURUS CROWN",
+      "horse_id": "taurus-crown"
+    },
+    {
+      "rang": 4,
+      "cheval": "LORD SUN DRALIAM",
+      "horse_id": "lord-sun-draliam"
+    },
+    {
+      "rang": 5,
+      "cheval": "LONGWOOD D'HERIPRE R. DERIEUX",
+      "horse_id": "longwood-d-heripre-r.-derieux"
+    },
+    {
+      "rang": 6,
+      "cheval": "BLACK HEUVELLAND B. ROCHARD",
+      "horse_id": "black-heuvelland-b.-rochard"
+    },
+    {
+      "rang": 7,
+      "cheval": "LORD ON WAY",
+      "horse_id": "lord-on-way"
+    },
+    {
+      "rang": 8,
+      "cheval": "LEAD ME ON",
+      "horse_id": "lead-me-on"
+    },
+    {
+      "rang": 9,
+      "cheval": "LUCIUS DE PUCH",
+      "horse_id": "lucius-de-puch"
+    },
+    {
+      "rang": 10,
+      "cheval": "SOKRATES",
+      "horse_id": "sokrates"
+    },
+    {
+      "rang": 11,
+      "cheval": "LOOK DE VALAILLES",
+      "horse_id": "look-de-valailles"
+    },
+    {
+      "rang": 12,
+      "cheval": "OLIVER SCHERMER",
+      "horse_id": "oliver-schermer"
+    },
+    {
+      "rang": 13,
+      "cheval": "FRISEE KB FONT",
+      "horse_id": "frisee-kb-font"
+    },
+    {
+      "rang": 14,
+      "cheval": "FABIUS ORS",
+      "horse_id": "fabius-ors"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "L'INTOUCHABLE",
+      "score": 10.0
+    },
+    {
+      "cheval": "L'AS DES ISLES",
+      "score": 9.9996
+    },
+    {
+      "cheval": "TAURUS CROWN",
+      "score": 9.9916
+    },
+    {
+      "cheval": "LONGWOOD D'HERIPRE R. DERIEUX",
+      "score": 9.9746
+    },
+    {
+      "cheval": "LORD SUN DRALIAM",
+      "score": 9.9551
+    },
+    {
+      "cheval": "BLACK HEUVELLAND B. ROCHARD",
+      "score": 9.9478
+    },
+    {
+      "cheval": "LORD ON WAY",
+      "score": 9.9452
+    },
+    {
+      "cheval": "LUCIUS DE PUCH",
+      "score": 9.9303
+    },
+    {
+      "cheval": "LEAD ME ON",
+      "score": 9.9267
+    },
+    {
+      "cheval": "SOKRATES",
+      "score": 9.757
+    },
+    {
+      "cheval": "LOOK DE VALAILLES",
+      "score": 9.7216
+    },
+    {
+      "cheval": "OLIVER SCHERMER",
+      "score": 9.6115
+    },
+    {
+      "cheval": "FRISEE KB FONT",
+      "score": 9.271
+    },
+    {
+      "cheval": "FABIUS ORS",
+      "score": 9.2388
+    }
+  ],
+  "stored_at": "2026-10-05T00:38:13.614813+00:00"
+}
