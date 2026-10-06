@@ -1,0 +1,1750 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261006-auteuil-c1",
+  "date": "2026-10-06",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "AUTEUIL",
+    "date": "2026-10-06",
+    "start_time": "2026-10-02T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX GUILLAUME DE PRACOMTAL",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "obstacle",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_06-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "obstacle",
+    "label": "Obstacle",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé ; repli hippodrome (Auteuil : obstacle uniquement)",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-06T02:08:57.009543+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "louminos",
+        "name": "LOUMINOS",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "dinadame",
+        "name": "DINADAME",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "maskina",
+        "name": "MASKINA",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gabison-l.philipperon",
+        "name": "GABISON L.PHILIPPERON",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "raffles-princess",
+        "name": "RAFFLES PRINCESS",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "memerhon",
+        "name": "MEMERHON",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "roman-skies",
+        "name": "ROMAN SKIES",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "falcon-jet",
+        "name": "FALCON JET",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "pascialella",
+        "name": "PASCIALELLA",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "le-professionnel",
+        "name": "LE PROFESSIONNEL",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "chateau-esquiule",
+        "name": "CHATEAU ESQUIULE",
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "emsilord",
+        "name": "EMSILORD",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "optimus",
+        "name": "OPTIMUS",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ovalie",
+        "name": "OVALIE",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "le-trezy",
+        "name": "LE TREZY",
+        "odds_pdf": 67.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "LOUMINOS (louminos) : aucune cote récente disponible",
+      "DINADAME (dinadame) : aucune cote récente disponible",
+      "MASKINA (maskina) : aucune cote récente disponible",
+      "GABISON L.PHILIPPERON (gabison-l.philipperon) : aucune cote récente disponible",
+      "RAFFLES PRINCESS (raffles-princess) : aucune cote récente disponible",
+      "MEMERHON (memerhon) : aucune cote récente disponible",
+      "ROMAN SKIES (roman-skies) : aucune cote récente disponible",
+      "FALCON JET (falcon-jet) : aucune cote récente disponible",
+      "PASCIALELLA (pascialella) : aucune cote récente disponible",
+      "LE PROFESSIONNEL (le-professionnel) : aucune cote récente disponible",
+      "CHATEAU ESQUIULE (chateau-esquiule) : aucune cote récente disponible",
+      "EMSILORD (emsilord) : aucune cote récente disponible",
+      "OPTIMUS (optimus) : aucune cote récente disponible",
+      "OVALIE (ovalie) : aucune cote récente disponible",
+      "LE TREZY (le-trezy) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "louminos",
+      "dinadame",
+      "maskina",
+      "gabison-l.philipperon",
+      "raffles-princess",
+      "memerhon",
+      "roman-skies",
+      "falcon-jet",
+      "pascialella",
+      "le-professionnel",
+      "chateau-esquiule",
+      "emsilord",
+      "optimus",
+      "ovalie",
+      "le-trezy"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "obstacle",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "louminos",
+        "name": "LOUMINOS",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "roman-skies",
+        "name": "ROMAN SKIES",
+        "dimensions": {
+          "historique": 9.698044643762916,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.698,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gabison-l.philipperon",
+        "name": "GABISON L.PHILIPPERON",
+        "dimensions": {
+          "historique": 9.63712734272013,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6371,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "dinadame",
+        "name": "DINADAME",
+        "dimensions": {
+          "historique": 9.472477003063247,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4725,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pascialella",
+        "name": "PASCIALELLA",
+        "dimensions": {
+          "historique": 9.222745858192274,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2227,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "maskina",
+        "name": "MASKINA",
+        "dimensions": {
+          "historique": 9.145231058262349,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1452,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "raffles-princess",
+        "name": "RAFFLES PRINCESS",
+        "dimensions": {
+          "historique": 9.111709810902765,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1117,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "emsilord",
+        "name": "EMSILORD",
+        "dimensions": {
+          "historique": 9.077274017364076,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0773,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "falcon-jet",
+        "name": "FALCON JET",
+        "dimensions": {
+          "historique": 9.019647082919208,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0196,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "optimus",
+        "name": "OPTIMUS",
+        "dimensions": {
+          "historique": 8.957594373290984,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9576,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ovalie",
+        "name": "OVALIE",
+        "dimensions": {
+          "historique": 8.913621701373273,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9136,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "memerhon",
+        "name": "MEMERHON",
+        "dimensions": {
+          "historique": 8.520346098171528,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.5203,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-professionnel",
+        "name": "LE PROFESSIONNEL",
+        "dimensions": {
+          "historique": 7.844540337257277,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.8445,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "chateau-esquiule",
+        "name": "CHATEAU ESQUIULE",
+        "dimensions": {
+          "historique": 7.840522237340729,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.8405,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-trezy",
+        "name": "LE TREZY",
+        "dimensions": {
+          "historique": 7.5918538979973444,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 7.5919,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "louminos",
+      "roman-skies",
+      "gabison-l.philipperon",
+      "dinadame",
+      "pascialella",
+      "maskina",
+      "raffles-princess",
+      "emsilord",
+      "falcon-jet",
+      "optimus",
+      "ovalie",
+      "memerhon",
+      "chateau-esquiule",
+      "le-professionnel",
+      "le-trezy"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "louminos": {
+          "horse_id": "louminos",
+          "name": "LOUMINOS",
+          "p_win": 0.10706,
+          "p_top3": 0.3104,
+          "p_top5": 0.49276,
+          "expected_position": 6.0895,
+          "position_distribution": {
+            "1": 0.10706,
+            "2": 0.105,
+            "3": 0.09834,
+            "4": 0.092,
+            "5": 0.09036,
+            "6": 0.08334,
+            "7": 0.07906,
+            "8": 0.07182,
+            "9": 0.0636,
+            "10": 0.05698,
+            "11": 0.04758,
+            "12": 0.0406,
+            "13": 0.03264,
+            "14": 0.0218,
+            "15": 0.00982
+          }
+        },
+        "dinadame": {
+          "horse_id": "dinadame",
+          "name": "DINADAME",
+          "p_win": 0.08242,
+          "p_top3": 0.24632,
+          "p_top5": 0.40438,
+          "expected_position": 7.0113,
+          "position_distribution": {
+            "1": 0.08242,
+            "2": 0.08188,
+            "3": 0.08202,
+            "4": 0.08172,
+            "5": 0.07634,
+            "6": 0.07676,
+            "7": 0.07438,
+            "8": 0.07446,
+            "9": 0.07088,
+            "10": 0.06512,
+            "11": 0.06362,
+            "12": 0.05724,
+            "13": 0.05028,
+            "14": 0.03906,
+            "15": 0.02382
+          }
+        },
+        "maskina": {
+          "horse_id": "maskina",
+          "name": "MASKINA",
+          "p_win": 0.06998,
+          "p_top3": 0.21162,
+          "p_top5": 0.35456,
+          "expected_position": 7.6133,
+          "position_distribution": {
+            "1": 0.06998,
+            "2": 0.06978,
+            "3": 0.07186,
+            "4": 0.0707,
+            "5": 0.07224,
+            "6": 0.07074,
+            "7": 0.07092,
+            "8": 0.07142,
+            "9": 0.07208,
+            "10": 0.06934,
+            "11": 0.06888,
+            "12": 0.06648,
+            "13": 0.06236,
+            "14": 0.0546,
+            "15": 0.03862
+          }
+        },
+        "gabison-l.philipperon": {
+          "horse_id": "gabison-l.philipperon",
+          "name": "GABISON L.PHILIPPERON",
+          "p_win": 0.08966,
+          "p_top3": 0.26226,
+          "p_top5": 0.42714,
+          "expected_position": 6.7686,
+          "position_distribution": {
+            "1": 0.08966,
+            "2": 0.08772,
+            "3": 0.08488,
+            "4": 0.0837,
+            "5": 0.08118,
+            "6": 0.0787,
+            "7": 0.07418,
+            "8": 0.0725,
+            "9": 0.07054,
+            "10": 0.06464,
+            "11": 0.06092,
+            "12": 0.05402,
+            "13": 0.0446,
+            "14": 0.03414,
+            "15": 0.01862
+          }
+        },
+        "raffles-princess": {
+          "horse_id": "raffles-princess",
+          "name": "RAFFLES PRINCESS",
+          "p_win": 0.06998,
+          "p_top3": 0.20712,
+          "p_top5": 0.34738,
+          "expected_position": 7.6906,
+          "position_distribution": {
+            "1": 0.06998,
+            "2": 0.0682,
+            "3": 0.06894,
+            "4": 0.07056,
+            "5": 0.0697,
+            "6": 0.0722,
+            "7": 0.07098,
+            "8": 0.07,
+            "9": 0.06894,
+            "10": 0.07166,
+            "11": 0.06904,
+            "12": 0.06684,
+            "13": 0.06426,
+            "14": 0.05782,
+            "15": 0.04088
+          }
+        },
+        "memerhon": {
+          "horse_id": "memerhon",
+          "name": "MEMERHON",
+          "p_win": 0.0514,
+          "p_top3": 0.15896,
+          "p_top5": 0.26908,
+          "expected_position": 8.7957,
+          "position_distribution": {
+            "1": 0.0514,
+            "2": 0.05308,
+            "3": 0.05448,
+            "4": 0.05432,
+            "5": 0.0558,
+            "6": 0.0564,
+            "7": 0.06242,
+            "8": 0.0632,
+            "9": 0.06538,
+            "10": 0.07012,
+            "11": 0.07552,
+            "12": 0.0774,
+            "13": 0.08486,
+            "14": 0.0891,
+            "15": 0.08652
+          }
+        },
+        "roman-skies": {
+          "horse_id": "roman-skies",
+          "name": "ROMAN SKIES",
+          "p_win": 0.09382,
+          "p_top3": 0.2718,
+          "p_top5": 0.4393,
+          "expected_position": 6.6252,
+          "position_distribution": {
+            "1": 0.09382,
+            "2": 0.08904,
+            "3": 0.08894,
+            "4": 0.08658,
+            "5": 0.08092,
+            "6": 0.08022,
+            "7": 0.07634,
+            "8": 0.07342,
+            "9": 0.06924,
+            "10": 0.06244,
+            "11": 0.0565,
+            "12": 0.05272,
+            "13": 0.0429,
+            "14": 0.0307,
+            "15": 0.01622
+          }
+        },
+        "falcon-jet": {
+          "horse_id": "falcon-jet",
+          "name": "FALCON JET",
+          "p_win": 0.0649,
+          "p_top3": 0.19518,
+          "p_top5": 0.33228,
+          "expected_position": 7.8708,
+          "position_distribution": {
+            "1": 0.0649,
+            "2": 0.06548,
+            "3": 0.0648,
+            "4": 0.0671,
+            "5": 0.07,
+            "6": 0.06946,
+            "7": 0.06986,
+            "8": 0.07152,
+            "9": 0.07136,
+            "10": 0.07056,
+            "11": 0.0712,
+            "12": 0.06926,
+            "13": 0.06676,
+            "14": 0.06196,
+            "15": 0.04578
+          }
+        },
+        "pascialella": {
+          "horse_id": "pascialella",
+          "name": "PASCIALELLA",
+          "p_win": 0.07358,
+          "p_top3": 0.22032,
+          "p_top5": 0.36604,
+          "expected_position": 7.4677,
+          "position_distribution": {
+            "1": 0.07358,
+            "2": 0.0742,
+            "3": 0.07254,
+            "4": 0.0722,
+            "5": 0.07352,
+            "6": 0.07292,
+            "7": 0.07184,
+            "8": 0.072,
+            "9": 0.07098,
+            "10": 0.06968,
+            "11": 0.06722,
+            "12": 0.06328,
+            "13": 0.05936,
+            "14": 0.05102,
+            "15": 0.03566
+          }
+        },
+        "le-professionnel": {
+          "horse_id": "le-professionnel",
+          "name": "LE PROFESSIONNEL",
+          "p_win": 0.03502,
+          "p_top3": 0.11316,
+          "p_top5": 0.19856,
+          "expected_position": 9.9795,
+          "position_distribution": {
+            "1": 0.03502,
+            "2": 0.0395,
+            "3": 0.03864,
+            "4": 0.04188,
+            "5": 0.04352,
+            "6": 0.04544,
+            "7": 0.04864,
+            "8": 0.05256,
+            "9": 0.0566,
+            "10": 0.06314,
+            "11": 0.06998,
+            "12": 0.0817,
+            "13": 0.09532,
+            "14": 0.12018,
+            "15": 0.16788
+          }
+        },
+        "chateau-esquiule": {
+          "horse_id": "chateau-esquiule",
+          "name": "CHATEAU ESQUIULE",
+          "p_win": 0.03644,
+          "p_top3": 0.11272,
+          "p_top5": 0.20012,
+          "expected_position": 9.9663,
+          "position_distribution": {
+            "1": 0.03644,
+            "2": 0.03748,
+            "3": 0.0388,
+            "4": 0.04328,
+            "5": 0.04412,
+            "6": 0.0461,
+            "7": 0.0494,
+            "8": 0.05096,
+            "9": 0.05628,
+            "10": 0.06412,
+            "11": 0.06946,
+            "12": 0.07988,
+            "13": 0.0941,
+            "14": 0.12268,
+            "15": 0.1669
+          }
+        },
+        "emsilord": {
+          "horse_id": "emsilord",
+          "name": "EMSILORD",
+          "p_win": 0.06772,
+          "p_top3": 0.2031,
+          "p_top5": 0.34268,
+          "expected_position": 7.7503,
+          "position_distribution": {
+            "1": 0.06772,
+            "2": 0.06724,
+            "3": 0.06814,
+            "4": 0.06988,
+            "5": 0.0697,
+            "6": 0.06888,
+            "7": 0.07088,
+            "8": 0.07116,
+            "9": 0.07048,
+            "10": 0.07264,
+            "11": 0.06946,
+            "12": 0.06866,
+            "13": 0.06574,
+            "14": 0.05766,
+            "15": 0.04176
+          }
+        },
+        "optimus": {
+          "horse_id": "optimus",
+          "name": "OPTIMUS",
+          "p_win": 0.06408,
+          "p_top3": 0.19394,
+          "p_top5": 0.32582,
+          "expected_position": 7.966,
+          "position_distribution": {
+            "1": 0.06408,
+            "2": 0.06432,
+            "3": 0.06554,
+            "4": 0.06536,
+            "5": 0.06652,
+            "6": 0.06906,
+            "7": 0.06782,
+            "8": 0.06944,
+            "9": 0.0699,
+            "10": 0.07038,
+            "11": 0.0727,
+            "12": 0.07076,
+            "13": 0.06996,
+            "14": 0.0656,
+            "15": 0.04856
+          }
+        },
+        "ovalie": {
+          "horse_id": "ovalie",
+          "name": "OVALIE",
+          "p_win": 0.06186,
+          "p_top3": 0.19052,
+          "p_top5": 0.32106,
+          "expected_position": 8.0414,
+          "position_distribution": {
+            "1": 0.06186,
+            "2": 0.06246,
+            "3": 0.0662,
+            "4": 0.06444,
+            "5": 0.0661,
+            "6": 0.06844,
+            "7": 0.06768,
+            "8": 0.06648,
+            "9": 0.07032,
+            "10": 0.071,
+            "11": 0.07172,
+            "12": 0.07276,
+            "13": 0.07192,
+            "14": 0.06764,
+            "15": 0.05098
+          }
+        },
+        "le-trezy": {
+          "horse_id": "le-trezy",
+          "name": "LE TREZY",
+          "p_win": 0.03208,
+          "p_top3": 0.10258,
+          "p_top5": 0.17884,
+          "expected_position": 10.3638,
+          "position_distribution": {
+            "1": 0.03208,
+            "2": 0.03462,
+            "3": 0.03588,
+            "4": 0.03628,
+            "5": 0.03998,
+            "6": 0.04134,
+            "7": 0.0456,
+            "8": 0.04906,
+            "9": 0.05342,
+            "10": 0.05818,
+            "11": 0.0662,
+            "12": 0.0784,
+            "13": 0.09494,
+            "14": 0.12604,
+            "15": 0.20798
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "louminos",
+          "roman-skies",
+          "gabison-l.philipperon"
+        ],
+        "23": [
+          "louminos",
+          "roman-skies",
+          "gabison-l.philipperon"
+        ],
+        "37": [
+          "louminos",
+          "roman-skies",
+          "gabison-l.philipperon"
+        ],
+        "51": [
+          "louminos",
+          "roman-skies",
+          "gabison-l.philipperon"
+        ],
+        "73": [
+          "louminos",
+          "roman-skies",
+          "gabison-l.philipperon"
+        ]
+      },
+      "reference_top": [
+        "gabison-l.philipperon",
+        "louminos",
+        "roman-skies"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "louminos": 10.0,
+        "roman-skies": 5.0,
+        "gabison-l.philipperon": 0.0
+      },
+      "order": [
+        "louminos",
+        "roman-skies",
+        "gabison-l.philipperon"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "louminos": 14.0,
+        "roman-skies": 13.0,
+        "gabison-l.philipperon": 12.0,
+        "dinadame": 11.0,
+        "pascialella": 10.0,
+        "maskina": 9.0,
+        "raffles-princess": 8.0,
+        "emsilord": 7.0,
+        "falcon-jet": 6.0,
+        "optimus": 5.0,
+        "ovalie": 4.0,
+        "memerhon": 3.0,
+        "le-professionnel": 2.0,
+        "chateau-esquiule": 1.0,
+        "le-trezy": 0.0
+      },
+      "order": [
+        "louminos",
+        "roman-skies",
+        "gabison-l.philipperon",
+        "dinadame",
+        "pascialella",
+        "maskina",
+        "raffles-princess",
+        "emsilord",
+        "falcon-jet",
+        "optimus",
+        "ovalie",
+        "memerhon",
+        "le-professionnel",
+        "chateau-esquiule",
+        "le-trezy"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "louminos",
+        "roman-skies",
+        "gabison-l.philipperon",
+        "dinadame",
+        "pascialella",
+        "maskina",
+        "raffles-princess",
+        "emsilord",
+        "falcon-jet",
+        "optimus",
+        "ovalie",
+        "memerhon",
+        "chateau-esquiule",
+        "le-professionnel",
+        "le-trezy"
+      ],
+      "copeland": {
+        "louminos": 14.0,
+        "roman-skies": 12.0,
+        "gabison-l.philipperon": 10.0,
+        "dinadame": 8.0,
+        "pascialella": 6.0,
+        "maskina": 4.0,
+        "raffles-princess": 2.0,
+        "emsilord": 0.0,
+        "falcon-jet": -2.0,
+        "optimus": -4.0,
+        "ovalie": -6.0,
+        "memerhon": -8.0,
+        "chateau-esquiule": -10.5,
+        "le-professionnel": -10.5,
+        "le-trezy": -14.0
+      },
+      "normalized": {
+        "louminos": 1.0,
+        "roman-skies": 0.9286,
+        "gabison-l.philipperon": 0.8571,
+        "dinadame": 0.7857,
+        "pascialella": 0.7143,
+        "maskina": 0.6429,
+        "raffles-princess": 0.5714,
+        "emsilord": 0.5,
+        "falcon-jet": 0.4286,
+        "optimus": 0.3571,
+        "ovalie": 0.2857,
+        "memerhon": 0.2143,
+        "chateau-esquiule": 0.125,
+        "le-professionnel": 0.125,
+        "le-trezy": 0.0
+      },
+      "mean_rank": {
+        "louminos": 0.0,
+        "roman-skies": 1.0,
+        "gabison-l.philipperon": 2.0,
+        "dinadame": 3.0,
+        "pascialella": 4.0,
+        "maskina": 5.0,
+        "raffles-princess": 6.0,
+        "emsilord": 7.0,
+        "falcon-jet": 8.0,
+        "optimus": 9.0,
+        "ovalie": 10.0,
+        "memerhon": 11.0,
+        "chateau-esquiule": 12.5,
+        "le-professionnel": 12.5,
+        "le-trezy": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "louminos",
+        "name": "LOUMINOS",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "dinadame",
+        "name": "DINADAME",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "maskina",
+        "name": "MASKINA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gabison-l.philipperon",
+        "name": "GABISON L.PHILIPPERON",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 3 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "raffles-princess",
+        "name": "RAFFLES PRINCESS",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 7 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "memerhon",
+        "name": "MEMERHON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "roman-skies",
+        "name": "ROMAN SKIES",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 2 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "falcon-jet",
+        "name": "FALCON JET",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pascialella",
+        "name": "PASCIALELLA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-professionnel",
+        "name": "LE PROFESSIONNEL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "chateau-esquiule",
+        "name": "CHATEAU ESQUIULE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "emsilord",
+        "name": "EMSILORD",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "optimus",
+        "name": "OPTIMUS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ovalie",
+        "name": "OVALIE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-trezy",
+        "name": "LE TREZY",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "louminos",
+      "gabison-l.philipperon",
+      "raffles-princess",
+      "roman-skies"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "louminos": 0.055863,
+      "dinadame": 0.091412,
+      "maskina": 0.167589,
+      "gabison-l.philipperon": 0.052923,
+      "raffles-princess": 0.026461,
+      "memerhon": 0.052923,
+      "roman-skies": 0.045706,
+      "falcon-jet": 0.067036,
+      "pascialella": 0.125692,
+      "le-professionnel": 0.037242,
+      "chateau-esquiule": 0.021394,
+      "emsilord": 0.077349,
+      "optimus": 0.062846,
+      "ovalie": 0.100554,
+      "le-trezy": 0.015008
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "louminos",
+      "roman-skies",
+      "gabison-l.philipperon",
+      "dinadame",
+      "pascialella"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.953,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 1.5098,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "LOUMINOS : recent_places",
+      "LOUMINOS : driver",
+      "LOUMINOS : aptitude",
+      "DINADAME : recent_places",
+      "DINADAME : driver",
+      "DINADAME : aptitude",
+      "MASKINA : recent_places",
+      "MASKINA : driver",
+      "MASKINA : aptitude",
+      "GABISON L.PHILIPPERON : recent_places",
+      "GABISON L.PHILIPPERON : driver",
+      "GABISON L.PHILIPPERON : aptitude",
+      "RAFFLES PRINCESS : recent_places",
+      "RAFFLES PRINCESS : driver",
+      "RAFFLES PRINCESS : aptitude",
+      "MEMERHON : recent_places",
+      "MEMERHON : driver",
+      "MEMERHON : aptitude",
+      "ROMAN SKIES : recent_places",
+      "ROMAN SKIES : driver",
+      "ROMAN SKIES : aptitude",
+      "FALCON JET : recent_places",
+      "FALCON JET : driver",
+      "FALCON JET : aptitude",
+      "PASCIALELLA : recent_places",
+      "PASCIALELLA : driver",
+      "PASCIALELLA : aptitude",
+      "LE PROFESSIONNEL : recent_places",
+      "LE PROFESSIONNEL : driver",
+      "LE PROFESSIONNEL : aptitude",
+      "CHATEAU ESQUIULE : recent_places",
+      "CHATEAU ESQUIULE : driver",
+      "CHATEAU ESQUIULE : aptitude",
+      "EMSILORD : recent_places",
+      "EMSILORD : driver",
+      "EMSILORD : aptitude",
+      "OPTIMUS : recent_places",
+      "OPTIMUS : driver",
+      "OPTIMUS : aptitude",
+      "OVALIE : recent_places",
+      "OVALIE : driver",
+      "OVALIE : aptitude",
+      "LE TREZY : recent_places",
+      "LE TREZY : driver",
+      "LE TREZY : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.30 (saturé à 2.0) → 1.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-02T11:55:00+00:00",
+    "betting_close": "2026-10-02T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-06T02:08:57.058420+00:00",
+    "minutes_late": 5183.95,
+    "minutes_to_close": -5183.95,
+    "schedule": {
+      "start_ouagadougou": "2026-10-02T11:55:00+00:00",
+      "start_paris": "2026-10-02T13:55:00+02:00",
+      "close_lonab": "2026-10-02T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "LOUMINOS",
+      "horse_id": "louminos"
+    },
+    {
+      "rang": 2,
+      "cheval": "ROMAN SKIES",
+      "horse_id": "roman-skies"
+    },
+    {
+      "rang": 3,
+      "cheval": "GABISON L.PHILIPPERON",
+      "horse_id": "gabison-l.philipperon"
+    },
+    {
+      "rang": 4,
+      "cheval": "DINADAME",
+      "horse_id": "dinadame"
+    },
+    {
+      "rang": 5,
+      "cheval": "PASCIALELLA",
+      "horse_id": "pascialella"
+    },
+    {
+      "rang": 6,
+      "cheval": "MASKINA",
+      "horse_id": "maskina"
+    },
+    {
+      "rang": 7,
+      "cheval": "RAFFLES PRINCESS",
+      "horse_id": "raffles-princess"
+    },
+    {
+      "rang": 8,
+      "cheval": "EMSILORD",
+      "horse_id": "emsilord"
+    },
+    {
+      "rang": 9,
+      "cheval": "FALCON JET",
+      "horse_id": "falcon-jet"
+    },
+    {
+      "rang": 10,
+      "cheval": "OPTIMUS",
+      "horse_id": "optimus"
+    },
+    {
+      "rang": 11,
+      "cheval": "OVALIE",
+      "horse_id": "ovalie"
+    },
+    {
+      "rang": 12,
+      "cheval": "MEMERHON",
+      "horse_id": "memerhon"
+    },
+    {
+      "rang": 13,
+      "cheval": "CHATEAU ESQUIULE",
+      "horse_id": "chateau-esquiule"
+    },
+    {
+      "rang": 14,
+      "cheval": "LE PROFESSIONNEL",
+      "horse_id": "le-professionnel"
+    },
+    {
+      "rang": 15,
+      "cheval": "LE TREZY",
+      "horse_id": "le-trezy"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "LOUMINOS",
+      "score": 10.0
+    },
+    {
+      "cheval": "ROMAN SKIES",
+      "score": 9.698
+    },
+    {
+      "cheval": "GABISON L.PHILIPPERON",
+      "score": 9.6371
+    },
+    {
+      "cheval": "DINADAME",
+      "score": 9.4725
+    },
+    {
+      "cheval": "PASCIALELLA",
+      "score": 9.2227
+    },
+    {
+      "cheval": "MASKINA",
+      "score": 9.1452
+    },
+    {
+      "cheval": "RAFFLES PRINCESS",
+      "score": 9.1117
+    },
+    {
+      "cheval": "EMSILORD",
+      "score": 9.0773
+    },
+    {
+      "cheval": "FALCON JET",
+      "score": 9.0196
+    },
+    {
+      "cheval": "OPTIMUS",
+      "score": 8.9576
+    },
+    {
+      "cheval": "OVALIE",
+      "score": 8.9136
+    },
+    {
+      "cheval": "MEMERHON",
+      "score": 8.5203
+    },
+    {
+      "cheval": "LE PROFESSIONNEL",
+      "score": 7.8445
+    },
+    {
+      "cheval": "CHATEAU ESQUIULE",
+      "score": 7.8405
+    },
+    {
+      "cheval": "LE TREZY",
+      "score": 7.5919
+    }
+  ],
+  "stored_at": "2026-10-06T02:08:57.059914+00:00"
+}
