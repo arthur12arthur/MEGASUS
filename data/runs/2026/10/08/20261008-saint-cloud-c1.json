@@ -1,0 +1,1642 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261008-saint-cloud-c1",
+  "date": "2026-10-08",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "SAINT-CLOUD",
+    "date": "2026-10-08",
+    "start_time": "2026-10-04T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE VERSAILLES",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_08-10_2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé ; repli hippodrome (Saint-Cloud : plat uniquement)",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-08T01:41:02.930948+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "darzakir",
+        "name": "DARZAKIR",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "chill-y-flama",
+        "name": "CHILL Y FLAMA",
+        "odds_pdf": 33.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lapenty",
+        "name": "LAPENTY",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "french-colorado",
+        "name": "FRENCH COLORADO",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sagarmatha",
+        "name": "SAGARMATHA",
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "odds_pdf": 33.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "derawar",
+        "name": "DERAWAR",
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "stargator",
+        "name": "STARGATOR",
+        "odds_pdf": 48.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "entlebuch-t.-trullier",
+        "name": "ENTLEBUCH T. TRULLIER",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "stan-le-grand",
+        "name": "STAN LE GRAND",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "DARZAKIR (darzakir) : aucune cote récente disponible",
+      "CHILL Y FLAMA (chill-y-flama) : aucune cote récente disponible",
+      "LAPENTY (lapenty) : aucune cote récente disponible",
+      "FRENCH COLORADO (french-colorado) : aucune cote récente disponible",
+      "VICTORY PACE (victory-pace) : aucune cote récente disponible",
+      "SAGARMATHA (sagarmatha) : aucune cote récente disponible",
+      "MISTER BLACK (mister-black) : aucune cote récente disponible",
+      "FAOLIO (faolio) : aucune cote récente disponible",
+      "MY HABITUDE C.COLLET-VIDAL (my-habitude-c.collet-vidal) : aucune cote récente disponible",
+      "ARANYANI (aranyani) : aucune cote récente disponible",
+      "DERAWAR (derawar) : aucune cote récente disponible",
+      "STARGATOR (stargator) : aucune cote récente disponible",
+      "ENTLEBUCH T. TRULLIER (entlebuch-t.-trullier) : aucune cote récente disponible",
+      "STAN LE GRAND (stan-le-grand) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "darzakir",
+      "chill-y-flama",
+      "lapenty",
+      "french-colorado",
+      "victory-pace",
+      "sagarmatha",
+      "mister-black",
+      "faolio",
+      "my-habitude-c.collet-vidal",
+      "aranyani",
+      "derawar",
+      "stargator",
+      "entlebuch-t.-trullier",
+      "stan-le-grand"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "chill-y-flama",
+        "name": "CHILL Y FLAMA",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "dimensions": {
+          "historique": 9.98867428771261,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9887,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "french-colorado",
+        "name": "FRENCH COLORADO",
+        "dimensions": {
+          "historique": 9.768983823426602,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.769,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "dimensions": {
+          "historique": 9.766622834922478,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7666,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "dimensions": {
+          "historique": 9.744821612814356,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7448,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sagarmatha",
+        "name": "SAGARMATHA",
+        "dimensions": {
+          "historique": 9.6975774297826,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6976,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "dimensions": {
+          "historique": 9.596874878471072,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5969,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "entlebuch-t.-trullier",
+        "name": "ENTLEBUCH T. TRULLIER",
+        "dimensions": {
+          "historique": 9.38170688925293,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3817,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "dimensions": {
+          "historique": 9.28570410007113,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2857,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "stan-le-grand",
+        "name": "STAN LE GRAND",
+        "dimensions": {
+          "historique": 9.01053572625864,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0105,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "derawar",
+        "name": "DERAWAR",
+        "dimensions": {
+          "historique": 8.936754943751192,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9368,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lapenty",
+        "name": "LAPENTY",
+        "dimensions": {
+          "historique": 8.856589977507598,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8566,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "darzakir",
+        "name": "DARZAKIR",
+        "dimensions": {
+          "historique": 8.76846910651232,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7685,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "stargator",
+        "name": "STARGATOR",
+        "dimensions": {
+          "historique": 8.630548013671495,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6305,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "chill-y-flama",
+      "mister-black",
+      "faolio",
+      "french-colorado",
+      "victory-pace",
+      "sagarmatha",
+      "my-habitude-c.collet-vidal",
+      "entlebuch-t.-trullier",
+      "aranyani",
+      "stan-le-grand",
+      "derawar",
+      "lapenty",
+      "darzakir",
+      "stargator"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "darzakir": {
+          "horse_id": "darzakir",
+          "name": "DARZAKIR",
+          "p_win": 0.04946,
+          "p_top3": 0.1555,
+          "p_top5": 0.26736,
+          "expected_position": 8.6215,
+          "position_distribution": {
+            "1": 0.04946,
+            "2": 0.052,
+            "3": 0.05404,
+            "4": 0.05508,
+            "5": 0.05678,
+            "6": 0.05658,
+            "7": 0.06272,
+            "8": 0.065,
+            "9": 0.06892,
+            "10": 0.07436,
+            "11": 0.08284,
+            "12": 0.08934,
+            "13": 0.10438,
+            "14": 0.1285
+          }
+        },
+        "chill-y-flama": {
+          "horse_id": "chill-y-flama",
+          "name": "CHILL Y FLAMA",
+          "p_win": 0.09312,
+          "p_top3": 0.2757,
+          "p_top5": 0.446,
+          "expected_position": 6.4699,
+          "position_distribution": {
+            "1": 0.09312,
+            "2": 0.0917,
+            "3": 0.09088,
+            "4": 0.0885,
+            "5": 0.0818,
+            "6": 0.08288,
+            "7": 0.07822,
+            "8": 0.07492,
+            "9": 0.07068,
+            "10": 0.066,
+            "11": 0.05894,
+            "12": 0.05002,
+            "13": 0.04392,
+            "14": 0.02842
+          }
+        },
+        "lapenty": {
+          "horse_id": "lapenty",
+          "name": "LAPENTY",
+          "p_win": 0.05298,
+          "p_top3": 0.16556,
+          "p_top5": 0.28402,
+          "expected_position": 8.3892,
+          "position_distribution": {
+            "1": 0.05298,
+            "2": 0.05638,
+            "3": 0.0562,
+            "4": 0.0575,
+            "5": 0.06096,
+            "6": 0.06066,
+            "7": 0.06642,
+            "8": 0.0654,
+            "9": 0.07066,
+            "10": 0.07436,
+            "11": 0.08046,
+            "12": 0.08552,
+            "13": 0.09792,
+            "14": 0.11458
+          }
+        },
+        "french-colorado": {
+          "horse_id": "french-colorado",
+          "name": "FRENCH COLORADO",
+          "p_win": 0.0851,
+          "p_top3": 0.25038,
+          "p_top5": 0.4116,
+          "expected_position": 6.8461,
+          "position_distribution": {
+            "1": 0.0851,
+            "2": 0.08286,
+            "3": 0.08242,
+            "4": 0.07966,
+            "5": 0.08156,
+            "6": 0.07768,
+            "7": 0.07596,
+            "8": 0.0742,
+            "9": 0.07358,
+            "10": 0.06932,
+            "11": 0.0662,
+            "12": 0.06084,
+            "13": 0.0522,
+            "14": 0.03842
+          }
+        },
+        "victory-pace": {
+          "horse_id": "victory-pace",
+          "name": "VICTORY PACE",
+          "p_win": 0.0827,
+          "p_top3": 0.24496,
+          "p_top5": 0.40554,
+          "expected_position": 6.8925,
+          "position_distribution": {
+            "1": 0.0827,
+            "2": 0.08242,
+            "3": 0.07984,
+            "4": 0.0809,
+            "5": 0.07968,
+            "6": 0.08026,
+            "7": 0.07582,
+            "8": 0.07544,
+            "9": 0.07276,
+            "10": 0.06916,
+            "11": 0.06524,
+            "12": 0.06218,
+            "13": 0.05306,
+            "14": 0.04054
+          }
+        },
+        "sagarmatha": {
+          "horse_id": "sagarmatha",
+          "name": "SAGARMATHA",
+          "p_win": 0.08186,
+          "p_top3": 0.2439,
+          "p_top5": 0.40014,
+          "expected_position": 6.9627,
+          "position_distribution": {
+            "1": 0.08186,
+            "2": 0.0812,
+            "3": 0.08084,
+            "4": 0.07784,
+            "5": 0.0784,
+            "6": 0.07702,
+            "7": 0.07632,
+            "8": 0.075,
+            "9": 0.07292,
+            "10": 0.07052,
+            "11": 0.06614,
+            "12": 0.0614,
+            "13": 0.05714,
+            "14": 0.0434
+          }
+        },
+        "mister-black": {
+          "horse_id": "mister-black",
+          "name": "MISTER BLACK",
+          "p_win": 0.09382,
+          "p_top3": 0.27628,
+          "p_top5": 0.44584,
+          "expected_position": 6.4818,
+          "position_distribution": {
+            "1": 0.09382,
+            "2": 0.09168,
+            "3": 0.09078,
+            "4": 0.08732,
+            "5": 0.08224,
+            "6": 0.08,
+            "7": 0.07924,
+            "8": 0.07596,
+            "9": 0.06988,
+            "10": 0.06478,
+            "11": 0.05966,
+            "12": 0.05306,
+            "13": 0.0424,
+            "14": 0.02918
+          }
+        },
+        "faolio": {
+          "horse_id": "faolio",
+          "name": "FAOLIO",
+          "p_win": 0.0848,
+          "p_top3": 0.25052,
+          "p_top5": 0.4128,
+          "expected_position": 6.8405,
+          "position_distribution": {
+            "1": 0.0848,
+            "2": 0.08322,
+            "3": 0.0825,
+            "4": 0.08202,
+            "5": 0.08026,
+            "6": 0.07824,
+            "7": 0.07632,
+            "8": 0.07424,
+            "9": 0.07274,
+            "10": 0.06822,
+            "11": 0.06426,
+            "12": 0.06058,
+            "13": 0.0523,
+            "14": 0.0403
+          }
+        },
+        "my-habitude-c.collet-vidal": {
+          "horse_id": "my-habitude-c.collet-vidal",
+          "name": "MY HABITUDE C.COLLET-VIDAL",
+          "p_win": 0.07646,
+          "p_top3": 0.2304,
+          "p_top5": 0.387,
+          "expected_position": 7.1219,
+          "position_distribution": {
+            "1": 0.07646,
+            "2": 0.0784,
+            "3": 0.07554,
+            "4": 0.07914,
+            "5": 0.07746,
+            "6": 0.07512,
+            "7": 0.07482,
+            "8": 0.07388,
+            "9": 0.07264,
+            "10": 0.07102,
+            "11": 0.07176,
+            "12": 0.06696,
+            "13": 0.05938,
+            "14": 0.04742
+          }
+        },
+        "aranyani": {
+          "horse_id": "aranyani",
+          "name": "ARANYANI",
+          "p_win": 0.0681,
+          "p_top3": 0.20276,
+          "p_top5": 0.33984,
+          "expected_position": 7.6459,
+          "position_distribution": {
+            "1": 0.0681,
+            "2": 0.06684,
+            "3": 0.06782,
+            "4": 0.0674,
+            "5": 0.06968,
+            "6": 0.07126,
+            "7": 0.071,
+            "8": 0.07212,
+            "9": 0.07592,
+            "10": 0.07224,
+            "11": 0.07572,
+            "12": 0.07424,
+            "13": 0.07558,
+            "14": 0.07208
+          }
+        },
+        "derawar": {
+          "horse_id": "derawar",
+          "name": "DERAWAR",
+          "p_win": 0.05556,
+          "p_top3": 0.17016,
+          "p_top5": 0.29048,
+          "expected_position": 8.2785,
+          "position_distribution": {
+            "1": 0.05556,
+            "2": 0.0561,
+            "3": 0.0585,
+            "4": 0.0599,
+            "5": 0.06042,
+            "6": 0.0639,
+            "7": 0.06546,
+            "8": 0.06844,
+            "9": 0.07112,
+            "10": 0.07588,
+            "11": 0.07876,
+            "12": 0.0854,
+            "13": 0.09346,
+            "14": 0.1071
+          }
+        },
+        "stargator": {
+          "horse_id": "stargator",
+          "name": "STARGATOR",
+          "p_win": 0.047,
+          "p_top3": 0.14636,
+          "p_top5": 0.25478,
+          "expected_position": 8.8006,
+          "position_distribution": {
+            "1": 0.047,
+            "2": 0.0484,
+            "3": 0.05096,
+            "4": 0.05268,
+            "5": 0.05574,
+            "6": 0.05866,
+            "7": 0.0611,
+            "8": 0.06298,
+            "9": 0.06532,
+            "10": 0.07266,
+            "11": 0.0785,
+            "12": 0.09252,
+            "13": 0.10592,
+            "14": 0.14756
+          }
+        },
+        "entlebuch-t.-trullier": {
+          "horse_id": "entlebuch-t.-trullier",
+          "name": "ENTLEBUCH T. TRULLIER",
+          "p_win": 0.06968,
+          "p_top3": 0.2094,
+          "p_top5": 0.354,
+          "expected_position": 7.5028,
+          "position_distribution": {
+            "1": 0.06968,
+            "2": 0.07004,
+            "3": 0.06968,
+            "4": 0.07144,
+            "5": 0.07316,
+            "6": 0.07278,
+            "7": 0.07074,
+            "8": 0.0726,
+            "9": 0.07132,
+            "10": 0.07516,
+            "11": 0.07332,
+            "12": 0.07478,
+            "13": 0.07178,
+            "14": 0.06352
+          }
+        },
+        "stan-le-grand": {
+          "horse_id": "stan-le-grand",
+          "name": "STAN LE GRAND",
+          "p_win": 0.05936,
+          "p_top3": 0.17812,
+          "p_top5": 0.3006,
+          "expected_position": 8.1462,
+          "position_distribution": {
+            "1": 0.05936,
+            "2": 0.05876,
+            "3": 0.06,
+            "4": 0.06062,
+            "5": 0.06186,
+            "6": 0.06496,
+            "7": 0.06586,
+            "8": 0.06982,
+            "9": 0.07154,
+            "10": 0.07632,
+            "11": 0.0782,
+            "12": 0.08316,
+            "13": 0.09056,
+            "14": 0.09898
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "mister-black",
+          "chill-y-flama",
+          "french-colorado"
+        ],
+        "23": [
+          "chill-y-flama",
+          "mister-black",
+          "french-colorado"
+        ],
+        "37": [
+          "chill-y-flama",
+          "mister-black",
+          "faolio"
+        ],
+        "51": [
+          "chill-y-flama",
+          "mister-black",
+          "faolio"
+        ],
+        "73": [
+          "chill-y-flama",
+          "mister-black",
+          "faolio"
+        ]
+      },
+      "reference_top": [
+        "chill-y-flama",
+        "faolio",
+        "mister-black"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "mister-black": 6.0,
+        "chill-y-flama": 9.0,
+        "french-colorado": 0.0,
+        "faolio": 0.0
+      },
+      "order": [
+        "chill-y-flama",
+        "mister-black",
+        "faolio",
+        "french-colorado"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "chill-y-flama": 13.0,
+        "mister-black": 12.0,
+        "french-colorado": 11.0,
+        "faolio": 10.0,
+        "victory-pace": 9.0,
+        "sagarmatha": 8.0,
+        "my-habitude-c.collet-vidal": 7.0,
+        "entlebuch-t.-trullier": 6.0,
+        "aranyani": 5.0,
+        "stan-le-grand": 4.0,
+        "derawar": 3.0,
+        "lapenty": 2.0,
+        "darzakir": 1.0,
+        "stargator": 0.0
+      },
+      "order": [
+        "chill-y-flama",
+        "mister-black",
+        "french-colorado",
+        "faolio",
+        "victory-pace",
+        "sagarmatha",
+        "my-habitude-c.collet-vidal",
+        "entlebuch-t.-trullier",
+        "aranyani",
+        "stan-le-grand",
+        "derawar",
+        "lapenty",
+        "darzakir",
+        "stargator"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "chill-y-flama",
+        "mister-black",
+        "faolio",
+        "french-colorado",
+        "victory-pace",
+        "sagarmatha",
+        "my-habitude-c.collet-vidal",
+        "entlebuch-t.-trullier",
+        "aranyani",
+        "stan-le-grand",
+        "derawar",
+        "lapenty",
+        "darzakir",
+        "stargator"
+      ],
+      "copeland": {
+        "chill-y-flama": 13.0,
+        "mister-black": 11.0,
+        "faolio": 9.0,
+        "french-colorado": 7.0,
+        "victory-pace": 5.0,
+        "sagarmatha": 3.0,
+        "my-habitude-c.collet-vidal": 1.0,
+        "entlebuch-t.-trullier": -1.0,
+        "aranyani": -3.0,
+        "stan-le-grand": -5.0,
+        "derawar": -7.0,
+        "lapenty": -9.0,
+        "darzakir": -11.0,
+        "stargator": -13.0
+      },
+      "normalized": {
+        "chill-y-flama": 1.0,
+        "mister-black": 0.9231,
+        "faolio": 0.8462,
+        "french-colorado": 0.7692,
+        "victory-pace": 0.6923,
+        "sagarmatha": 0.6154,
+        "my-habitude-c.collet-vidal": 0.5385,
+        "entlebuch-t.-trullier": 0.4615,
+        "aranyani": 0.3846,
+        "stan-le-grand": 0.3077,
+        "derawar": 0.2308,
+        "lapenty": 0.1538,
+        "darzakir": 0.0769,
+        "stargator": 0.0
+      },
+      "mean_rank": {
+        "chill-y-flama": 0.0,
+        "mister-black": 1.0,
+        "faolio": 2.3333,
+        "french-colorado": 2.6667,
+        "victory-pace": 4.0,
+        "sagarmatha": 5.0,
+        "my-habitude-c.collet-vidal": 6.0,
+        "entlebuch-t.-trullier": 7.0,
+        "aranyani": 8.0,
+        "stan-le-grand": 9.0,
+        "derawar": 10.0,
+        "lapenty": 11.0,
+        "darzakir": 12.0,
+        "stargator": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "darzakir",
+        "name": "DARZAKIR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "chill-y-flama",
+        "name": "CHILL Y FLAMA",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 1 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "lapenty",
+        "name": "LAPENTY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "french-colorado",
+        "name": "FRENCH COLORADO",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 4 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sagarmatha",
+        "name": "SAGARMATHA",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 6 vs marché 9)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "faolio",
+        "name": "FAOLIO",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 7 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "derawar",
+        "name": "DERAWAR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "stargator",
+        "name": "STARGATOR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "entlebuch-t.-trullier",
+        "name": "ENTLEBUCH T. TRULLIER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "stan-le-grand",
+        "name": "STAN LE GRAND",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "chill-y-flama",
+      "french-colorado",
+      "sagarmatha",
+      "faolio",
+      "my-habitude-c.collet-vidal"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "darzakir": 0.139207,
+      "chill-y-flama": 0.033747,
+      "lapenty": 0.12374,
+      "french-colorado": 0.053031,
+      "victory-pace": 0.074244,
+      "sagarmatha": 0.055683,
+      "mister-black": 0.111366,
+      "faolio": 0.079547,
+      "my-habitude-c.collet-vidal": 0.033747,
+      "aranyani": 0.06187,
+      "derawar": 0.039773,
+      "stargator": 0.023201,
+      "entlebuch-t.-trullier": 0.101241,
+      "stan-le-grand": 0.069603
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "chill-y-flama",
+      "mister-black",
+      "faolio",
+      "french-colorado",
+      "victory-pace"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.517,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.0566,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "DARZAKIR : recent_places",
+      "DARZAKIR : driver",
+      "DARZAKIR : aptitude",
+      "CHILL Y FLAMA : recent_places",
+      "CHILL Y FLAMA : driver",
+      "CHILL Y FLAMA : aptitude",
+      "LAPENTY : recent_places",
+      "LAPENTY : driver",
+      "LAPENTY : aptitude",
+      "FRENCH COLORADO : recent_places",
+      "FRENCH COLORADO : driver",
+      "FRENCH COLORADO : aptitude",
+      "VICTORY PACE : recent_places",
+      "VICTORY PACE : driver",
+      "VICTORY PACE : aptitude",
+      "SAGARMATHA : recent_places",
+      "SAGARMATHA : driver",
+      "SAGARMATHA : aptitude",
+      "MISTER BLACK : recent_places",
+      "MISTER BLACK : driver",
+      "MISTER BLACK : aptitude",
+      "FAOLIO : recent_places",
+      "FAOLIO : driver",
+      "FAOLIO : aptitude",
+      "MY HABITUDE C.COLLET-VIDAL : recent_places",
+      "MY HABITUDE C.COLLET-VIDAL : driver",
+      "MY HABITUDE C.COLLET-VIDAL : aptitude",
+      "ARANYANI : recent_places",
+      "ARANYANI : driver",
+      "ARANYANI : aptitude",
+      "DERAWAR : recent_places",
+      "DERAWAR : driver",
+      "DERAWAR : aptitude",
+      "STARGATOR : recent_places",
+      "STARGATOR : driver",
+      "STARGATOR : aptitude",
+      "ENTLEBUCH T. TRULLIER : recent_places",
+      "ENTLEBUCH T. TRULLIER : driver",
+      "ENTLEBUCH T. TRULLIER : aptitude",
+      "STAN LE GRAND : recent_places",
+      "STAN LE GRAND : driver",
+      "STAN LE GRAND : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.01 (saturé à 2.0) → 0.1/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (42 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-04T11:55:00+00:00",
+    "betting_close": "2026-10-04T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-08T01:41:02.979802+00:00",
+    "minutes_late": 5156.05,
+    "minutes_to_close": -5156.05,
+    "schedule": {
+      "start_ouagadougou": "2026-10-04T11:55:00+00:00",
+      "start_paris": "2026-10-04T13:55:00+02:00",
+      "close_lonab": "2026-10-04T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "CHILL Y FLAMA",
+      "horse_id": "chill-y-flama"
+    },
+    {
+      "rang": 2,
+      "cheval": "MISTER BLACK",
+      "horse_id": "mister-black"
+    },
+    {
+      "rang": 3,
+      "cheval": "FAOLIO",
+      "horse_id": "faolio"
+    },
+    {
+      "rang": 4,
+      "cheval": "FRENCH COLORADO",
+      "horse_id": "french-colorado"
+    },
+    {
+      "rang": 5,
+      "cheval": "VICTORY PACE",
+      "horse_id": "victory-pace"
+    },
+    {
+      "rang": 6,
+      "cheval": "SAGARMATHA",
+      "horse_id": "sagarmatha"
+    },
+    {
+      "rang": 7,
+      "cheval": "MY HABITUDE C.COLLET-VIDAL",
+      "horse_id": "my-habitude-c.collet-vidal"
+    },
+    {
+      "rang": 8,
+      "cheval": "ENTLEBUCH T. TRULLIER",
+      "horse_id": "entlebuch-t.-trullier"
+    },
+    {
+      "rang": 9,
+      "cheval": "ARANYANI",
+      "horse_id": "aranyani"
+    },
+    {
+      "rang": 10,
+      "cheval": "STAN LE GRAND",
+      "horse_id": "stan-le-grand"
+    },
+    {
+      "rang": 11,
+      "cheval": "DERAWAR",
+      "horse_id": "derawar"
+    },
+    {
+      "rang": 12,
+      "cheval": "LAPENTY",
+      "horse_id": "lapenty"
+    },
+    {
+      "rang": 13,
+      "cheval": "DARZAKIR",
+      "horse_id": "darzakir"
+    },
+    {
+      "rang": 14,
+      "cheval": "STARGATOR",
+      "horse_id": "stargator"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "CHILL Y FLAMA",
+      "score": 10.0
+    },
+    {
+      "cheval": "MISTER BLACK",
+      "score": 9.9887
+    },
+    {
+      "cheval": "FRENCH COLORADO",
+      "score": 9.769
+    },
+    {
+      "cheval": "FAOLIO",
+      "score": 9.7666
+    },
+    {
+      "cheval": "VICTORY PACE",
+      "score": 9.7448
+    },
+    {
+      "cheval": "SAGARMATHA",
+      "score": 9.6976
+    },
+    {
+      "cheval": "MY HABITUDE C.COLLET-VIDAL",
+      "score": 9.5969
+    },
+    {
+      "cheval": "ENTLEBUCH T. TRULLIER",
+      "score": 9.3817
+    },
+    {
+      "cheval": "ARANYANI",
+      "score": 9.2857
+    },
+    {
+      "cheval": "STAN LE GRAND",
+      "score": 9.0105
+    },
+    {
+      "cheval": "DERAWAR",
+      "score": 8.9368
+    },
+    {
+      "cheval": "LAPENTY",
+      "score": 8.8566
+    },
+    {
+      "cheval": "DARZAKIR",
+      "score": 8.7685
+    },
+    {
+      "cheval": "STARGATOR",
+      "score": 8.6305
+    }
+  ],
+  "stored_at": "2026-10-08T01:41:02.981266+00:00"
+}
