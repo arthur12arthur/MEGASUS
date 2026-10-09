@@ -1,0 +1,1756 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261009-paris-vincennes-nocturne-c4",
+  "date": "2026-10-09",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-10-09",
+    "start_time": "2026-10-05T18:15:00+00:00",
+    "race_number": 4,
+    "name": "Prix Bernard",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_09-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-09T01:54:13.026577+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "igloo-de-beaulieu-j.-condette",
+        "name": "IGLOO DE BEAULIEU J. CONDETTE",
+        "odds_pdf": 137.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "heaven-d-ecajeul-g.-gelormini",
+        "name": "HEAVEN D'ECAJEUL G. GELORMINI",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horacio-de-cerisy-a.-gendrot",
+        "name": "HORACIO DE CERISY A. GENDROT",
+        "odds_pdf": 37.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "history-majyc",
+        "name": "HISTORY MAJYC",
+        "odds_pdf": 48.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jytrace-de-houelle-m.-mottier",
+        "name": "JYTRACE DE HOUELLE M. MOTTIER",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jannig-d-erevan-d.-bonne",
+        "name": "JANNIG D'EREVAN D. BONNE",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "izijal",
+        "name": "IZIJAL",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horizon-du-thay-n.r.-brossard-a.-barre",
+        "name": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+        "odds_pdf": 26.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "inedit-du-pavillon-f.-lagadeuc",
+        "name": "INEDIT DU PAVILLON F. LAGADEUC",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hove-pont-vautier-a.-meriel",
+        "name": "HOVE PONT VAUTIER A. MERIEL",
+        "odds_pdf": 83.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "inherit",
+        "name": "INHERIT",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "i-still-loving-you-a.-abrivard",
+        "name": "I STILL LOVING YOU A. ABRIVARD",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "indien-de-fontaine-e.-raffin",
+        "name": "INDIEN DE FONTAINE E. RAFFIN",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ileo-pierji",
+        "name": "ILEO PIERJI",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "IGLOO DE BEAULIEU J. CONDETTE (igloo-de-beaulieu-j.-condette) : aucune cote récente disponible",
+      "HEAVEN D'ECAJEUL G. GELORMINI (heaven-d-ecajeul-g.-gelormini) : aucune cote récente disponible",
+      "HORACIO DE CERISY A. GENDROT (horacio-de-cerisy-a.-gendrot) : aucune cote récente disponible",
+      "HISTORY MAJYC (history-majyc) : aucune cote récente disponible",
+      "JYTRACE DE HOUELLE M. MOTTIER (jytrace-de-houelle-m.-mottier) : aucune cote récente disponible",
+      "JANNIG D'EREVAN D. BONNE (jannig-d-erevan-d.-bonne) : aucune cote récente disponible",
+      "IZIJAL (izijal) : aucune cote récente disponible",
+      "HORIZON DU THAY N.R. BROSSARD A. BARRE (horizon-du-thay-n.r.-brossard-a.-barre) : aucune cote récente disponible",
+      "INEDIT DU PAVILLON F. LAGADEUC (inedit-du-pavillon-f.-lagadeuc) : aucune cote récente disponible",
+      "IRISH NICE ELGE (irish-nice-elge) : aucune cote récente disponible",
+      "HOVE PONT VAUTIER A. MERIEL (hove-pont-vautier-a.-meriel) : aucune cote récente disponible",
+      "INHERIT (inherit) : aucune cote récente disponible",
+      "I STILL LOVING YOU A. ABRIVARD (i-still-loving-you-a.-abrivard) : aucune cote récente disponible",
+      "INDIEN DE FONTAINE E. RAFFIN (indien-de-fontaine-e.-raffin) : aucune cote récente disponible",
+      "ILEO PIERJI (ileo-pierji) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "igloo-de-beaulieu-j.-condette",
+      "heaven-d-ecajeul-g.-gelormini",
+      "horacio-de-cerisy-a.-gendrot",
+      "history-majyc",
+      "jytrace-de-houelle-m.-mottier",
+      "jannig-d-erevan-d.-bonne",
+      "izijal",
+      "horizon-du-thay-n.r.-brossard-a.-barre",
+      "inedit-du-pavillon-f.-lagadeuc",
+      "irish-nice-elge",
+      "hove-pont-vautier-a.-meriel",
+      "inherit",
+      "i-still-loving-you-a.-abrivard",
+      "indien-de-fontaine-e.-raffin",
+      "ileo-pierji"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "ileo-pierji",
+        "name": "ILEO PIERJI",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "indien-de-fontaine-e.-raffin",
+        "name": "INDIEN DE FONTAINE E. RAFFIN",
+        "dimensions": {
+          "historique": 9.993952855987212,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.994,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "i-still-loving-you-a.-abrivard",
+        "name": "I STILL LOVING YOU A. ABRIVARD",
+        "dimensions": {
+          "historique": 9.989518447951337,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9895,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "inherit",
+        "name": "INHERIT",
+        "dimensions": {
+          "historique": 9.967590414521505,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9676,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hove-pont-vautier-a.-meriel",
+        "name": "HOVE PONT VAUTIER A. MERIEL",
+        "dimensions": {
+          "historique": 9.959136818706115,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9591,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "dimensions": {
+          "historique": 9.942955396609399,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.943,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horizon-du-thay-n.r.-brossard-a.-barre",
+        "name": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+        "dimensions": {
+          "historique": 9.547491040491726,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5475,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "inedit-du-pavillon-f.-lagadeuc",
+        "name": "INEDIT DU PAVILLON F. LAGADEUC",
+        "dimensions": {
+          "historique": 9.547491040491726,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5475,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "izijal",
+        "name": "IZIJAL",
+        "dimensions": {
+          "historique": 9.537548517215207,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5375,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jannig-d-erevan-d.-bonne",
+        "name": "JANNIG D'EREVAN D. BONNE",
+        "dimensions": {
+          "historique": 9.523100942651624,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5231,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jytrace-de-houelle-m.-mottier",
+        "name": "JYTRACE DE HOUELLE M. MOTTIER",
+        "dimensions": {
+          "historique": 9.52047658430917,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5205,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "history-majyc",
+        "name": "HISTORY MAJYC",
+        "dimensions": {
+          "historique": 9.490692220876905,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4907,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horacio-de-cerisy-a.-gendrot",
+        "name": "HORACIO DE CERISY A. GENDROT",
+        "dimensions": {
+          "historique": 9.48274267621616,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4827,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "heaven-d-ecajeul-g.-gelormini",
+        "name": "HEAVEN D'ECAJEUL G. GELORMINI",
+        "dimensions": {
+          "historique": 9.481720995044768,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4817,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "igloo-de-beaulieu-j.-condette",
+        "name": "IGLOO DE BEAULIEU J. CONDETTE",
+        "dimensions": {
+          "historique": 9.110968215244862,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.111,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ileo-pierji",
+      "indien-de-fontaine-e.-raffin",
+      "i-still-loving-you-a.-abrivard",
+      "inherit",
+      "hove-pont-vautier-a.-meriel",
+      "irish-nice-elge",
+      "inedit-du-pavillon-f.-lagadeuc",
+      "horizon-du-thay-n.r.-brossard-a.-barre",
+      "izijal",
+      "jannig-d-erevan-d.-bonne",
+      "jytrace-de-houelle-m.-mottier",
+      "heaven-d-ecajeul-g.-gelormini",
+      "history-majyc",
+      "horacio-de-cerisy-a.-gendrot",
+      "igloo-de-beaulieu-j.-condette"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "igloo-de-beaulieu-j.-condette": {
+          "horse_id": "igloo-de-beaulieu-j.-condette",
+          "name": "IGLOO DE BEAULIEU J. CONDETTE",
+          "p_win": 0.05084,
+          "p_top3": 0.15174,
+          "p_top5": 0.2624,
+          "expected_position": 9.0219,
+          "position_distribution": {
+            "1": 0.05084,
+            "2": 0.04964,
+            "3": 0.05126,
+            "4": 0.05532,
+            "5": 0.05534,
+            "6": 0.05554,
+            "7": 0.05882,
+            "8": 0.0605,
+            "9": 0.06146,
+            "10": 0.06682,
+            "11": 0.06866,
+            "12": 0.07386,
+            "13": 0.08036,
+            "14": 0.09028,
+            "15": 0.1213
+          }
+        },
+        "heaven-d-ecajeul-g.-gelormini": {
+          "horse_id": "heaven-d-ecajeul-g.-gelormini",
+          "name": "HEAVEN D'ECAJEUL G. GELORMINI",
+          "p_win": 0.06014,
+          "p_top3": 0.1844,
+          "p_top5": 0.3097,
+          "expected_position": 8.3276,
+          "position_distribution": {
+            "1": 0.06014,
+            "2": 0.0616,
+            "3": 0.06266,
+            "4": 0.06144,
+            "5": 0.06386,
+            "6": 0.06322,
+            "7": 0.06268,
+            "8": 0.06544,
+            "9": 0.0675,
+            "10": 0.06444,
+            "11": 0.06934,
+            "12": 0.06814,
+            "13": 0.07504,
+            "14": 0.07574,
+            "15": 0.07876
+          }
+        },
+        "horacio-de-cerisy-a.-gendrot": {
+          "horse_id": "horacio-de-cerisy-a.-gendrot",
+          "name": "HORACIO DE CERISY A. GENDROT",
+          "p_win": 0.0606,
+          "p_top3": 0.1828,
+          "p_top5": 0.30764,
+          "expected_position": 8.3463,
+          "position_distribution": {
+            "1": 0.0606,
+            "2": 0.06024,
+            "3": 0.06196,
+            "4": 0.06272,
+            "5": 0.06212,
+            "6": 0.06166,
+            "7": 0.06318,
+            "8": 0.0669,
+            "9": 0.06646,
+            "10": 0.0668,
+            "11": 0.06858,
+            "12": 0.07118,
+            "13": 0.0719,
+            "14": 0.07442,
+            "15": 0.08128
+          }
+        },
+        "history-majyc": {
+          "horse_id": "history-majyc",
+          "name": "HISTORY MAJYC",
+          "p_win": 0.06056,
+          "p_top3": 0.18268,
+          "p_top5": 0.30654,
+          "expected_position": 8.3623,
+          "position_distribution": {
+            "1": 0.06056,
+            "2": 0.06104,
+            "3": 0.06108,
+            "4": 0.06168,
+            "5": 0.06218,
+            "6": 0.06282,
+            "7": 0.06418,
+            "8": 0.06532,
+            "9": 0.06386,
+            "10": 0.06692,
+            "11": 0.06858,
+            "12": 0.0716,
+            "13": 0.07188,
+            "14": 0.07644,
+            "15": 0.08186
+          }
+        },
+        "jytrace-de-houelle-m.-mottier": {
+          "horse_id": "jytrace-de-houelle-m.-mottier",
+          "name": "JYTRACE DE HOUELLE M. MOTTIER",
+          "p_win": 0.06242,
+          "p_top3": 0.18516,
+          "p_top5": 0.31054,
+          "expected_position": 8.2897,
+          "position_distribution": {
+            "1": 0.06242,
+            "2": 0.06094,
+            "3": 0.0618,
+            "4": 0.0608,
+            "5": 0.06458,
+            "6": 0.06414,
+            "7": 0.06588,
+            "8": 0.06526,
+            "9": 0.06506,
+            "10": 0.06758,
+            "11": 0.06768,
+            "12": 0.07008,
+            "13": 0.07168,
+            "14": 0.07426,
+            "15": 0.07784
+          }
+        },
+        "jannig-d-erevan-d.-bonne": {
+          "horse_id": "jannig-d-erevan-d.-bonne",
+          "name": "JANNIG D'EREVAN D. BONNE",
+          "p_win": 0.06132,
+          "p_top3": 0.18542,
+          "p_top5": 0.30802,
+          "expected_position": 8.3118,
+          "position_distribution": {
+            "1": 0.06132,
+            "2": 0.06174,
+            "3": 0.06236,
+            "4": 0.06094,
+            "5": 0.06166,
+            "6": 0.06432,
+            "7": 0.0647,
+            "8": 0.06468,
+            "9": 0.06522,
+            "10": 0.0684,
+            "11": 0.06878,
+            "12": 0.07114,
+            "13": 0.0732,
+            "14": 0.07432,
+            "15": 0.07722
+          }
+        },
+        "izijal": {
+          "horse_id": "izijal",
+          "name": "IZIJAL",
+          "p_win": 0.06272,
+          "p_top3": 0.18754,
+          "p_top5": 0.31332,
+          "expected_position": 8.2432,
+          "position_distribution": {
+            "1": 0.06272,
+            "2": 0.06142,
+            "3": 0.0634,
+            "4": 0.06368,
+            "5": 0.0621,
+            "6": 0.06642,
+            "7": 0.06456,
+            "8": 0.0648,
+            "9": 0.06596,
+            "10": 0.06586,
+            "11": 0.06992,
+            "12": 0.0699,
+            "13": 0.07104,
+            "14": 0.0736,
+            "15": 0.07462
+          }
+        },
+        "horizon-du-thay-n.r.-brossard-a.-barre": {
+          "horse_id": "horizon-du-thay-n.r.-brossard-a.-barre",
+          "name": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+          "p_win": 0.06134,
+          "p_top3": 0.1839,
+          "p_top5": 0.3126,
+          "expected_position": 8.2467,
+          "position_distribution": {
+            "1": 0.06134,
+            "2": 0.06192,
+            "3": 0.06064,
+            "4": 0.06344,
+            "5": 0.06526,
+            "6": 0.06476,
+            "7": 0.06496,
+            "8": 0.06742,
+            "9": 0.06818,
+            "10": 0.06712,
+            "11": 0.06846,
+            "12": 0.0697,
+            "13": 0.06858,
+            "14": 0.07226,
+            "15": 0.07596
+          }
+        },
+        "inedit-du-pavillon-f.-lagadeuc": {
+          "horse_id": "inedit-du-pavillon-f.-lagadeuc",
+          "name": "INEDIT DU PAVILLON F. LAGADEUC",
+          "p_win": 0.06332,
+          "p_top3": 0.18872,
+          "p_top5": 0.3163,
+          "expected_position": 8.2157,
+          "position_distribution": {
+            "1": 0.06332,
+            "2": 0.06346,
+            "3": 0.06194,
+            "4": 0.06382,
+            "5": 0.06376,
+            "6": 0.06488,
+            "7": 0.0641,
+            "8": 0.06606,
+            "9": 0.06714,
+            "10": 0.06622,
+            "11": 0.06942,
+            "12": 0.06996,
+            "13": 0.06848,
+            "14": 0.0723,
+            "15": 0.07514
+          }
+        },
+        "irish-nice-elge": {
+          "horse_id": "irish-nice-elge",
+          "name": "IRISH NICE ELGE",
+          "p_win": 0.07414,
+          "p_top3": 0.2222,
+          "p_top5": 0.36604,
+          "expected_position": 7.5283,
+          "position_distribution": {
+            "1": 0.07414,
+            "2": 0.07584,
+            "3": 0.07222,
+            "4": 0.07158,
+            "5": 0.07226,
+            "6": 0.07128,
+            "7": 0.07246,
+            "8": 0.06966,
+            "9": 0.06894,
+            "10": 0.06698,
+            "11": 0.06488,
+            "12": 0.05986,
+            "13": 0.06016,
+            "14": 0.05446,
+            "15": 0.04528
+          }
+        },
+        "hove-pont-vautier-a.-meriel": {
+          "horse_id": "hove-pont-vautier-a.-meriel",
+          "name": "HOVE PONT VAUTIER A. MERIEL",
+          "p_win": 0.0754,
+          "p_top3": 0.22652,
+          "p_top5": 0.37208,
+          "expected_position": 7.4737,
+          "position_distribution": {
+            "1": 0.0754,
+            "2": 0.07518,
+            "3": 0.07594,
+            "4": 0.07396,
+            "5": 0.0716,
+            "6": 0.0726,
+            "7": 0.07058,
+            "8": 0.06898,
+            "9": 0.06874,
+            "10": 0.06612,
+            "11": 0.0645,
+            "12": 0.0603,
+            "13": 0.05782,
+            "14": 0.05406,
+            "15": 0.04422
+          }
+        },
+        "inherit": {
+          "horse_id": "inherit",
+          "name": "INHERIT",
+          "p_win": 0.07592,
+          "p_top3": 0.2264,
+          "p_top5": 0.37376,
+          "expected_position": 7.4535,
+          "position_distribution": {
+            "1": 0.07592,
+            "2": 0.07464,
+            "3": 0.07584,
+            "4": 0.07458,
+            "5": 0.07278,
+            "6": 0.0722,
+            "7": 0.07002,
+            "8": 0.06996,
+            "9": 0.07032,
+            "10": 0.06564,
+            "11": 0.06302,
+            "12": 0.06124,
+            "13": 0.05864,
+            "14": 0.05218,
+            "15": 0.04302
+          }
+        },
+        "i-still-loving-you-a.-abrivard": {
+          "horse_id": "i-still-loving-you-a.-abrivard",
+          "name": "I STILL LOVING YOU A. ABRIVARD",
+          "p_win": 0.07612,
+          "p_top3": 0.22946,
+          "p_top5": 0.37816,
+          "expected_position": 7.4093,
+          "position_distribution": {
+            "1": 0.07612,
+            "2": 0.07782,
+            "3": 0.07552,
+            "4": 0.07556,
+            "5": 0.07314,
+            "6": 0.07264,
+            "7": 0.07024,
+            "8": 0.06908,
+            "9": 0.06828,
+            "10": 0.06728,
+            "11": 0.06188,
+            "12": 0.06174,
+            "13": 0.05706,
+            "14": 0.05242,
+            "15": 0.04122
+          }
+        },
+        "indien-de-fontaine-e.-raffin": {
+          "horse_id": "indien-de-fontaine-e.-raffin",
+          "name": "INDIEN DE FONTAINE E. RAFFIN",
+          "p_win": 0.07588,
+          "p_top3": 0.2306,
+          "p_top5": 0.38132,
+          "expected_position": 7.3983,
+          "position_distribution": {
+            "1": 0.07588,
+            "2": 0.0774,
+            "3": 0.07732,
+            "4": 0.07566,
+            "5": 0.07506,
+            "6": 0.07162,
+            "7": 0.0707,
+            "8": 0.06692,
+            "9": 0.06776,
+            "10": 0.06648,
+            "11": 0.0632,
+            "12": 0.06236,
+            "13": 0.05702,
+            "14": 0.05098,
+            "15": 0.04164
+          }
+        },
+        "ileo-pierji": {
+          "horse_id": "ileo-pierji",
+          "name": "ILEO PIERJI",
+          "p_win": 0.07928,
+          "p_top3": 0.23246,
+          "p_top5": 0.38158,
+          "expected_position": 7.3718,
+          "position_distribution": {
+            "1": 0.07928,
+            "2": 0.07712,
+            "3": 0.07606,
+            "4": 0.07482,
+            "5": 0.0743,
+            "6": 0.0719,
+            "7": 0.07294,
+            "8": 0.06902,
+            "9": 0.06512,
+            "10": 0.06734,
+            "11": 0.0631,
+            "12": 0.05894,
+            "13": 0.05714,
+            "14": 0.05228,
+            "15": 0.04064
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "indien-de-fontaine-e.-raffin",
+          "ileo-pierji",
+          "i-still-loving-you-a.-abrivard"
+        ],
+        "23": [
+          "ileo-pierji",
+          "inherit",
+          "i-still-loving-you-a.-abrivard"
+        ],
+        "37": [
+          "i-still-loving-you-a.-abrivard",
+          "ileo-pierji",
+          "indien-de-fontaine-e.-raffin"
+        ],
+        "51": [
+          "ileo-pierji",
+          "inherit",
+          "indien-de-fontaine-e.-raffin"
+        ],
+        "73": [
+          "ileo-pierji",
+          "indien-de-fontaine-e.-raffin",
+          "i-still-loving-you-a.-abrivard"
+        ]
+      },
+      "reference_top": [
+        "i-still-loving-you-a.-abrivard",
+        "ileo-pierji",
+        "indien-de-fontaine-e.-raffin"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "indien-de-fontaine-e.-raffin": 3.0,
+        "ileo-pierji": 8.0,
+        "i-still-loving-you-a.-abrivard": 2.0,
+        "inherit": 2.0
+      },
+      "order": [
+        "ileo-pierji",
+        "indien-de-fontaine-e.-raffin",
+        "inherit",
+        "i-still-loving-you-a.-abrivard"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "ileo-pierji": 14.0,
+        "indien-de-fontaine-e.-raffin": 13.0,
+        "i-still-loving-you-a.-abrivard": 12.0,
+        "inherit": 11.0,
+        "hove-pont-vautier-a.-meriel": 10.0,
+        "irish-nice-elge": 9.0,
+        "horizon-du-thay-n.r.-brossard-a.-barre": 8.0,
+        "inedit-du-pavillon-f.-lagadeuc": 7.0,
+        "izijal": 6.0,
+        "jannig-d-erevan-d.-bonne": 5.0,
+        "jytrace-de-houelle-m.-mottier": 4.0,
+        "history-majyc": 3.0,
+        "horacio-de-cerisy-a.-gendrot": 2.0,
+        "heaven-d-ecajeul-g.-gelormini": 1.0,
+        "igloo-de-beaulieu-j.-condette": 0.0
+      },
+      "order": [
+        "ileo-pierji",
+        "indien-de-fontaine-e.-raffin",
+        "i-still-loving-you-a.-abrivard",
+        "inherit",
+        "hove-pont-vautier-a.-meriel",
+        "irish-nice-elge",
+        "horizon-du-thay-n.r.-brossard-a.-barre",
+        "inedit-du-pavillon-f.-lagadeuc",
+        "izijal",
+        "jannig-d-erevan-d.-bonne",
+        "jytrace-de-houelle-m.-mottier",
+        "history-majyc",
+        "horacio-de-cerisy-a.-gendrot",
+        "heaven-d-ecajeul-g.-gelormini",
+        "igloo-de-beaulieu-j.-condette"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ileo-pierji",
+        "indien-de-fontaine-e.-raffin",
+        "i-still-loving-you-a.-abrivard",
+        "inherit",
+        "hove-pont-vautier-a.-meriel",
+        "irish-nice-elge",
+        "inedit-du-pavillon-f.-lagadeuc",
+        "horizon-du-thay-n.r.-brossard-a.-barre",
+        "izijal",
+        "jannig-d-erevan-d.-bonne",
+        "jytrace-de-houelle-m.-mottier",
+        "heaven-d-ecajeul-g.-gelormini",
+        "history-majyc",
+        "horacio-de-cerisy-a.-gendrot",
+        "igloo-de-beaulieu-j.-condette"
+      ],
+      "copeland": {
+        "ileo-pierji": 14.0,
+        "indien-de-fontaine-e.-raffin": 12.0,
+        "i-still-loving-you-a.-abrivard": 10.0,
+        "inherit": 8.0,
+        "hove-pont-vautier-a.-meriel": 6.0,
+        "irish-nice-elge": 4.0,
+        "inedit-du-pavillon-f.-lagadeuc": 1.5,
+        "izijal": -0.5,
+        "horizon-du-thay-n.r.-brossard-a.-barre": 1.0,
+        "jytrace-de-houelle-m.-mottier": -4.5,
+        "jannig-d-erevan-d.-bonne": -4.5,
+        "heaven-d-ecajeul-g.-gelormini": -9.0,
+        "horacio-de-cerisy-a.-gendrot": -9.0,
+        "history-majyc": -9.0,
+        "igloo-de-beaulieu-j.-condette": -14.0
+      },
+      "normalized": {
+        "ileo-pierji": 1.0,
+        "indien-de-fontaine-e.-raffin": 0.9286,
+        "i-still-loving-you-a.-abrivard": 0.8571,
+        "inherit": 0.7857,
+        "hove-pont-vautier-a.-meriel": 0.7143,
+        "irish-nice-elge": 0.6429,
+        "inedit-du-pavillon-f.-lagadeuc": 0.5536,
+        "izijal": 0.4821,
+        "horizon-du-thay-n.r.-brossard-a.-barre": 0.5357,
+        "jytrace-de-houelle-m.-mottier": 0.3393,
+        "jannig-d-erevan-d.-bonne": 0.3393,
+        "heaven-d-ecajeul-g.-gelormini": 0.1786,
+        "horacio-de-cerisy-a.-gendrot": 0.1786,
+        "history-majyc": 0.1786,
+        "igloo-de-beaulieu-j.-condette": 0.0
+      },
+      "mean_rank": {
+        "ileo-pierji": 0.0,
+        "indien-de-fontaine-e.-raffin": 1.0,
+        "i-still-loving-you-a.-abrivard": 2.3333,
+        "inherit": 2.6667,
+        "hove-pont-vautier-a.-meriel": 4.0,
+        "irish-nice-elge": 5.0,
+        "inedit-du-pavillon-f.-lagadeuc": 6.5,
+        "izijal": 7.5,
+        "horizon-du-thay-n.r.-brossard-a.-barre": 7.0,
+        "jytrace-de-houelle-m.-mottier": 9.5,
+        "jannig-d-erevan-d.-bonne": 9.5,
+        "heaven-d-ecajeul-g.-gelormini": 12.0,
+        "horacio-de-cerisy-a.-gendrot": 12.0,
+        "history-majyc": 12.0,
+        "igloo-de-beaulieu-j.-condette": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "igloo-de-beaulieu-j.-condette",
+        "name": "IGLOO DE BEAULIEU J. CONDETTE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "heaven-d-ecajeul-g.-gelormini",
+        "name": "HEAVEN D'ECAJEUL G. GELORMINI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "horacio-de-cerisy-a.-gendrot",
+        "name": "HORACIO DE CERISY A. GENDROT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "history-majyc",
+        "name": "HISTORY MAJYC",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jytrace-de-houelle-m.-mottier",
+        "name": "JYTRACE DE HOUELLE M. MOTTIER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jannig-d-erevan-d.-bonne",
+        "name": "JANNIG D'EREVAN D. BONNE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "izijal",
+        "name": "IZIJAL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "horizon-du-thay-n.r.-brossard-a.-barre",
+        "name": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "inedit-du-pavillon-f.-lagadeuc",
+        "name": "INEDIT DU PAVILLON F. LAGADEUC",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 7 vs marché 12)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hove-pont-vautier-a.-meriel",
+        "name": "HOVE PONT VAUTIER A. MERIEL",
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 5 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "inherit",
+        "name": "INHERIT",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "i-still-loving-you-a.-abrivard",
+        "name": "I STILL LOVING YOU A. ABRIVARD",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "indien-de-fontaine-e.-raffin",
+        "name": "INDIEN DE FONTAINE E. RAFFIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ileo-pierji",
+        "name": "ILEO PIERJI",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 1 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "inedit-du-pavillon-f.-lagadeuc",
+      "hove-pont-vautier-a.-meriel",
+      "inherit",
+      "i-still-loving-you-a.-abrivard",
+      "ileo-pierji"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "igloo-de-beaulieu-j.-condette": 0.008025,
+      "heaven-d-ecajeul-g.-gelormini": 0.049974,
+      "horacio-de-cerisy-a.-gendrot": 0.029714,
+      "history-majyc": 0.022905,
+      "jytrace-de-houelle-m.-mottier": 0.157062,
+      "jannig-d-erevan-d.-bonne": 0.137429,
+      "izijal": 0.04581,
+      "horizon-du-thay-n.r.-brossard-a.-barre": 0.042286,
+      "inedit-du-pavillon-f.-lagadeuc": 0.028933,
+      "irish-nice-elge": 0.109944,
+      "hove-pont-vautier-a.-meriel": 0.013246,
+      "inherit": 0.084572,
+      "i-still-loving-you-a.-abrivard": 0.09162,
+      "indien-de-fontaine-e.-raffin": 0.099949,
+      "ileo-pierji": 0.078531
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "ileo-pierji",
+      "indien-de-fontaine-e.-raffin",
+      "i-still-loving-you-a.-abrivard",
+      "inherit",
+      "hove-pont-vautier-a.-meriel"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.509,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.0302,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "IGLOO DE BEAULIEU J. CONDETTE : recent_places",
+      "IGLOO DE BEAULIEU J. CONDETTE : driver",
+      "IGLOO DE BEAULIEU J. CONDETTE : aptitude",
+      "HEAVEN D'ECAJEUL G. GELORMINI : recent_places",
+      "HEAVEN D'ECAJEUL G. GELORMINI : driver",
+      "HEAVEN D'ECAJEUL G. GELORMINI : aptitude",
+      "HORACIO DE CERISY A. GENDROT : recent_places",
+      "HORACIO DE CERISY A. GENDROT : driver",
+      "HORACIO DE CERISY A. GENDROT : aptitude",
+      "HISTORY MAJYC : recent_places",
+      "HISTORY MAJYC : driver",
+      "HISTORY MAJYC : aptitude",
+      "JYTRACE DE HOUELLE M. MOTTIER : recent_places",
+      "JYTRACE DE HOUELLE M. MOTTIER : driver",
+      "JYTRACE DE HOUELLE M. MOTTIER : aptitude",
+      "JANNIG D'EREVAN D. BONNE : recent_places",
+      "JANNIG D'EREVAN D. BONNE : driver",
+      "JANNIG D'EREVAN D. BONNE : aptitude",
+      "IZIJAL : recent_places",
+      "IZIJAL : driver",
+      "IZIJAL : aptitude",
+      "HORIZON DU THAY N.R. BROSSARD A. BARRE : recent_places",
+      "HORIZON DU THAY N.R. BROSSARD A. BARRE : driver",
+      "HORIZON DU THAY N.R. BROSSARD A. BARRE : aptitude",
+      "INEDIT DU PAVILLON F. LAGADEUC : recent_places",
+      "INEDIT DU PAVILLON F. LAGADEUC : driver",
+      "INEDIT DU PAVILLON F. LAGADEUC : aptitude",
+      "IRISH NICE ELGE : recent_places",
+      "IRISH NICE ELGE : driver",
+      "IRISH NICE ELGE : aptitude",
+      "HOVE PONT VAUTIER A. MERIEL : recent_places",
+      "HOVE PONT VAUTIER A. MERIEL : driver",
+      "HOVE PONT VAUTIER A. MERIEL : aptitude",
+      "INHERIT : recent_places",
+      "INHERIT : driver",
+      "INHERIT : aptitude",
+      "I STILL LOVING YOU A. ABRIVARD : recent_places",
+      "I STILL LOVING YOU A. ABRIVARD : driver",
+      "I STILL LOVING YOU A. ABRIVARD : aptitude",
+      "INDIEN DE FONTAINE E. RAFFIN : recent_places",
+      "INDIEN DE FONTAINE E. RAFFIN : driver",
+      "INDIEN DE FONTAINE E. RAFFIN : aptitude",
+      "ILEO PIERJI : recent_places",
+      "ILEO PIERJI : driver",
+      "ILEO PIERJI : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.01 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-05T18:15:00+00:00",
+    "betting_close": "2026-10-05T18:05:00+00:00",
+    "race_started": true,
+    "now": "2026-10-09T01:54:13.078419+00:00",
+    "minutes_late": 4789.22,
+    "minutes_to_close": -4789.22,
+    "schedule": {
+      "start_ouagadougou": "2026-10-05T18:15:00+00:00",
+      "start_paris": "2026-10-05T20:15:00+02:00",
+      "close_lonab": "2026-10-05T18:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "ILEO PIERJI",
+      "horse_id": "ileo-pierji"
+    },
+    {
+      "rang": 2,
+      "cheval": "INDIEN DE FONTAINE E. RAFFIN",
+      "horse_id": "indien-de-fontaine-e.-raffin"
+    },
+    {
+      "rang": 3,
+      "cheval": "I STILL LOVING YOU A. ABRIVARD",
+      "horse_id": "i-still-loving-you-a.-abrivard"
+    },
+    {
+      "rang": 4,
+      "cheval": "INHERIT",
+      "horse_id": "inherit"
+    },
+    {
+      "rang": 5,
+      "cheval": "HOVE PONT VAUTIER A. MERIEL",
+      "horse_id": "hove-pont-vautier-a.-meriel"
+    },
+    {
+      "rang": 6,
+      "cheval": "IRISH NICE ELGE",
+      "horse_id": "irish-nice-elge"
+    },
+    {
+      "rang": 7,
+      "cheval": "INEDIT DU PAVILLON F. LAGADEUC",
+      "horse_id": "inedit-du-pavillon-f.-lagadeuc"
+    },
+    {
+      "rang": 8,
+      "cheval": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+      "horse_id": "horizon-du-thay-n.r.-brossard-a.-barre"
+    },
+    {
+      "rang": 9,
+      "cheval": "IZIJAL",
+      "horse_id": "izijal"
+    },
+    {
+      "rang": 10,
+      "cheval": "JANNIG D'EREVAN D. BONNE",
+      "horse_id": "jannig-d-erevan-d.-bonne"
+    },
+    {
+      "rang": 11,
+      "cheval": "JYTRACE DE HOUELLE M. MOTTIER",
+      "horse_id": "jytrace-de-houelle-m.-mottier"
+    },
+    {
+      "rang": 12,
+      "cheval": "HEAVEN D'ECAJEUL G. GELORMINI",
+      "horse_id": "heaven-d-ecajeul-g.-gelormini"
+    },
+    {
+      "rang": 13,
+      "cheval": "HISTORY MAJYC",
+      "horse_id": "history-majyc"
+    },
+    {
+      "rang": 14,
+      "cheval": "HORACIO DE CERISY A. GENDROT",
+      "horse_id": "horacio-de-cerisy-a.-gendrot"
+    },
+    {
+      "rang": 15,
+      "cheval": "IGLOO DE BEAULIEU J. CONDETTE",
+      "horse_id": "igloo-de-beaulieu-j.-condette"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "ILEO PIERJI",
+      "score": 10.0
+    },
+    {
+      "cheval": "INDIEN DE FONTAINE E. RAFFIN",
+      "score": 9.994
+    },
+    {
+      "cheval": "I STILL LOVING YOU A. ABRIVARD",
+      "score": 9.9895
+    },
+    {
+      "cheval": "INHERIT",
+      "score": 9.9676
+    },
+    {
+      "cheval": "HOVE PONT VAUTIER A. MERIEL",
+      "score": 9.9591
+    },
+    {
+      "cheval": "IRISH NICE ELGE",
+      "score": 9.943
+    },
+    {
+      "cheval": "HORIZON DU THAY N.R. BROSSARD A. BARRE",
+      "score": 9.5475
+    },
+    {
+      "cheval": "INEDIT DU PAVILLON F. LAGADEUC",
+      "score": 9.5475
+    },
+    {
+      "cheval": "IZIJAL",
+      "score": 9.5375
+    },
+    {
+      "cheval": "JANNIG D'EREVAN D. BONNE",
+      "score": 9.5231
+    },
+    {
+      "cheval": "JYTRACE DE HOUELLE M. MOTTIER",
+      "score": 9.5205
+    },
+    {
+      "cheval": "HISTORY MAJYC",
+      "score": 9.4907
+    },
+    {
+      "cheval": "HORACIO DE CERISY A. GENDROT",
+      "score": 9.4827
+    },
+    {
+      "cheval": "HEAVEN D'ECAJEUL G. GELORMINI",
+      "score": 9.4817
+    },
+    {
+      "cheval": "IGLOO DE BEAULIEU J. CONDETTE",
+      "score": 9.111
+    }
+  ],
+  "stored_at": "2026-10-09T01:54:13.080007+00:00"
+}
