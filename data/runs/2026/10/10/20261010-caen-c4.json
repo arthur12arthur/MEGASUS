@@ -1,0 +1,2119 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261010-caen-c4",
+  "date": "2026-10-10",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "CAEN",
+    "date": "2026-10-10",
+    "start_time": "2026-10-06T13:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX DE LA VILLE DE CAEN",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_10-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-10T01:36:08.266759+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "horus-de-val",
+        "name": "HORUS DE VAL",
+        "odds_pdf": 3.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "korona-deladou-g.-martin",
+        "name": "KORONA DELADOU G. MARTIN",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR D. BROHIER",
+        "odds_pdf": 4.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+        "name": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+        "odds_pdf": 97.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "il-pleut-bergere-m.-verva",
+        "name": "IL PLEUT BERGERE M. VERVA",
+        "odds_pdf": 43.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "iaselma",
+        "name": "IASELMA",
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "isia-du-chene",
+        "name": "ISIA DU CHENE",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kash-des-caillons-a.-favris",
+        "name": "KASH DES CAILLONS A. FAVRIS",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jamais",
+        "name": "JAMAIS",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "judy-matidy",
+        "name": "JUDY MATIDY",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "odds_pdf": 218.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "indice-deladou",
+        "name": "INDICE DELADOU",
+        "odds_pdf": 225.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "iguane-de-caponet-a.-abrivard",
+        "name": "IGUANE DE CAPONET A. ABRIVARD",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "habit-de-soiree",
+        "name": "HABIT DE SOIREE",
+        "odds_pdf": 45.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gino-viva",
+        "name": "GINO VIVA",
+        "odds_pdf": 58.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaptain-du-liamone-b.-rochard",
+        "name": "KAPTAIN DU LIAMONE B. ROCHARD",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "HORUS DE VAL (horus-de-val) : aucune cote récente disponible",
+      "KASSYA (kassya) : aucune cote récente disponible",
+      "KORONA DELADOU G. MARTIN (korona-deladou-g.-martin) : aucune cote récente disponible",
+      "KALINE DU LOCHEUR D. BROHIER (kaline-du-locheur-d.-brohier) : aucune cote récente disponible",
+      "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL (kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul) : aucune cote récente disponible",
+      "IL PLEUT BERGERE M. VERVA (il-pleut-bergere-m.-verva) : aucune cote récente disponible",
+      "IASELMA (iaselma) : aucune cote récente disponible",
+      "ISIA DU CHENE (isia-du-chene) : aucune cote récente disponible",
+      "KNOCKONWOOD (knockonwood) : aucune cote récente disponible",
+      "KASH DES CAILLONS A. FAVRIS (kash-des-caillons-a.-favris) : aucune cote récente disponible",
+      "JAMAIS (jamais) : aucune cote récente disponible",
+      "JUDY MATIDY (judy-matidy) : aucune cote récente disponible",
+      "JANE AIMEE (jane-aimee) : aucune cote récente disponible",
+      "INDICE DELADOU (indice-deladou) : aucune cote récente disponible",
+      "IGUANE DE CAPONET A. ABRIVARD (iguane-de-caponet-a.-abrivard) : aucune cote récente disponible",
+      "HABIT DE SOIREE (habit-de-soiree) : aucune cote récente disponible",
+      "GINO VIVA (gino-viva) : aucune cote récente disponible",
+      "KAPTAIN DU LIAMONE B. ROCHARD (kaptain-du-liamone-b.-rochard) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "horus-de-val",
+      "kassya",
+      "korona-deladou-g.-martin",
+      "kaline-du-locheur-d.-brohier",
+      "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+      "il-pleut-bergere-m.-verva",
+      "iaselma",
+      "isia-du-chene",
+      "knockonwood",
+      "kash-des-caillons-a.-favris",
+      "jamais",
+      "judy-matidy",
+      "jane-aimee",
+      "indice-deladou",
+      "iguane-de-caponet-a.-abrivard",
+      "habit-de-soiree",
+      "gino-viva",
+      "kaptain-du-liamone-b.-rochard"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kaptain-du-liamone-b.-rochard",
+        "name": "KAPTAIN DU LIAMONE B. ROCHARD",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gino-viva",
+        "name": "GINO VIVA",
+        "dimensions": {
+          "historique": 9.939404448720152,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9394,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "habit-de-soiree",
+        "name": "HABIT DE SOIREE",
+        "dimensions": {
+          "historique": 9.883367096580397,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8834,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "iguane-de-caponet-a.-abrivard",
+        "name": "IGUANE DE CAPONET A. ABRIVARD",
+        "dimensions": {
+          "historique": 9.86403144795683,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.864,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "indice-deladou",
+        "name": "INDICE DELADOU",
+        "dimensions": {
+          "historique": 9.700674488797926,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7007,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "judy-matidy",
+        "name": "JUDY MATIDY",
+        "dimensions": {
+          "historique": 9.455475626271248,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4555,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jamais",
+        "name": "JAMAIS",
+        "dimensions": {
+          "historique": 9.44362925085937,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4436,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kash-des-caillons-a.-favris",
+        "name": "KASH DES CAILLONS A. FAVRIS",
+        "dimensions": {
+          "historique": 9.443609584351663,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4436,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "dimensions": {
+          "historique": 9.44067368108595,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4407,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "isia-du-chene",
+        "name": "ISIA DU CHENE",
+        "dimensions": {
+          "historique": 9.439013623140685,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.439,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "iaselma",
+        "name": "IASELMA",
+        "dimensions": {
+          "historique": 9.431798613706139,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4318,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "il-pleut-bergere-m.-verva",
+        "name": "IL PLEUT BERGERE M. VERVA",
+        "dimensions": {
+          "historique": 9.431399132561811,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4314,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+        "name": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+        "dimensions": {
+          "historique": 9.419845332963977,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4198,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "korona-deladou-g.-martin",
+        "name": "KORONA DELADOU G. MARTIN",
+        "dimensions": {
+          "historique": 9.404339655846774,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4043,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "dimensions": {
+          "historique": 9.397565367107578,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3976,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horus-de-val",
+        "name": "HORUS DE VAL",
+        "dimensions": {
+          "historique": 9.395023268581713,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.395,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR D. BROHIER",
+        "dimensions": {
+          "historique": 0.53695189677178,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 0.537,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "dimensions": {
+          "historique": 0.53695189677178,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 0.537,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "kaptain-du-liamone-b.-rochard",
+      "gino-viva",
+      "habit-de-soiree",
+      "iguane-de-caponet-a.-abrivard",
+      "indice-deladou",
+      "kash-des-caillons-a.-favris",
+      "knockonwood",
+      "jamais",
+      "judy-matidy",
+      "isia-du-chene",
+      "il-pleut-bergere-m.-verva",
+      "iaselma",
+      "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+      "korona-deladou-g.-martin",
+      "kassya",
+      "horus-de-val",
+      "jane-aimee",
+      "kaline-du-locheur-d.-brohier"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "horus-de-val": {
+          "horse_id": "horus-de-val",
+          "name": "HORUS DE VAL",
+          "p_win": 0.05608,
+          "p_top3": 0.16978,
+          "p_top5": 0.28748,
+          "expected_position": 8.8985,
+          "position_distribution": {
+            "1": 0.05608,
+            "2": 0.05542,
+            "3": 0.05828,
+            "4": 0.0589,
+            "5": 0.0588,
+            "6": 0.05886,
+            "7": 0.05986,
+            "8": 0.05926,
+            "9": 0.06014,
+            "10": 0.06364,
+            "11": 0.06226,
+            "12": 0.06586,
+            "13": 0.0655,
+            "14": 0.06696,
+            "15": 0.06988,
+            "16": 0.0744,
+            "17": 0.00566,
+            "18": 0.00024
+          }
+        },
+        "kassya": {
+          "horse_id": "kassya",
+          "name": "KASSYA",
+          "p_win": 0.05682,
+          "p_top3": 0.1716,
+          "p_top5": 0.28758,
+          "expected_position": 8.8847,
+          "position_distribution": {
+            "1": 0.05682,
+            "2": 0.05606,
+            "3": 0.05872,
+            "4": 0.05806,
+            "5": 0.05792,
+            "6": 0.06092,
+            "7": 0.05784,
+            "8": 0.06164,
+            "9": 0.05966,
+            "10": 0.06168,
+            "11": 0.0635,
+            "12": 0.0651,
+            "13": 0.06438,
+            "14": 0.06736,
+            "15": 0.07036,
+            "16": 0.07434,
+            "17": 0.00552,
+            "18": 0.00012
+          }
+        },
+        "korona-deladou-g.-martin": {
+          "horse_id": "korona-deladou-g.-martin",
+          "name": "KORONA DELADOU G. MARTIN",
+          "p_win": 0.05722,
+          "p_top3": 0.17356,
+          "p_top5": 0.28912,
+          "expected_position": 8.8483,
+          "position_distribution": {
+            "1": 0.05722,
+            "2": 0.05864,
+            "3": 0.0577,
+            "4": 0.05786,
+            "5": 0.0577,
+            "6": 0.05878,
+            "7": 0.06052,
+            "8": 0.06068,
+            "9": 0.06314,
+            "10": 0.06108,
+            "11": 0.06362,
+            "12": 0.06458,
+            "13": 0.06432,
+            "14": 0.06754,
+            "15": 0.06882,
+            "16": 0.07158,
+            "17": 0.00612,
+            "18": 0.0001
+          }
+        },
+        "kaline-du-locheur-d.-brohier": {
+          "horse_id": "kaline-du-locheur-d.-brohier",
+          "name": "KALINE DU LOCHEUR D. BROHIER",
+          "p_win": 0.00088,
+          "p_top3": 0.00226,
+          "p_top5": 0.00374,
+          "expected_position": 17.3315,
+          "position_distribution": {
+            "1": 0.00088,
+            "2": 0.00056,
+            "3": 0.00082,
+            "4": 0.00078,
+            "5": 0.0007,
+            "6": 0.00082,
+            "7": 0.00104,
+            "8": 0.00108,
+            "9": 0.00144,
+            "10": 0.00148,
+            "11": 0.00186,
+            "12": 0.00206,
+            "13": 0.00246,
+            "14": 0.00336,
+            "15": 0.0055,
+            "16": 0.01094,
+            "17": 0.46586,
+            "18": 0.49836
+          }
+        },
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": {
+          "horse_id": "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+          "name": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+          "p_win": 0.05686,
+          "p_top3": 0.1745,
+          "p_top5": 0.29112,
+          "expected_position": 8.8161,
+          "position_distribution": {
+            "1": 0.05686,
+            "2": 0.05888,
+            "3": 0.05876,
+            "4": 0.0577,
+            "5": 0.05892,
+            "6": 0.05868,
+            "7": 0.06086,
+            "8": 0.06254,
+            "9": 0.06044,
+            "10": 0.06236,
+            "11": 0.06526,
+            "12": 0.06408,
+            "13": 0.06516,
+            "14": 0.06492,
+            "15": 0.0681,
+            "16": 0.07074,
+            "17": 0.0056,
+            "18": 0.00014
+          }
+        },
+        "il-pleut-bergere-m.-verva": {
+          "horse_id": "il-pleut-bergere-m.-verva",
+          "name": "IL PLEUT BERGERE M. VERVA",
+          "p_win": 0.05878,
+          "p_top3": 0.17726,
+          "p_top5": 0.2979,
+          "expected_position": 8.7557,
+          "position_distribution": {
+            "1": 0.05878,
+            "2": 0.05834,
+            "3": 0.06014,
+            "4": 0.06042,
+            "5": 0.06022,
+            "6": 0.05774,
+            "7": 0.06086,
+            "8": 0.06048,
+            "9": 0.06274,
+            "10": 0.06348,
+            "11": 0.0616,
+            "12": 0.06378,
+            "13": 0.0632,
+            "14": 0.0661,
+            "15": 0.0679,
+            "16": 0.069,
+            "17": 0.00516,
+            "18": 6e-05
+          }
+        },
+        "iaselma": {
+          "horse_id": "iaselma",
+          "name": "IASELMA",
+          "p_win": 0.05802,
+          "p_top3": 0.17524,
+          "p_top5": 0.29418,
+          "expected_position": 8.8175,
+          "position_distribution": {
+            "1": 0.05802,
+            "2": 0.05982,
+            "3": 0.0574,
+            "4": 0.05926,
+            "5": 0.05968,
+            "6": 0.0594,
+            "7": 0.0591,
+            "8": 0.05932,
+            "9": 0.06112,
+            "10": 0.0606,
+            "11": 0.06438,
+            "12": 0.06382,
+            "13": 0.06532,
+            "14": 0.06608,
+            "15": 0.069,
+            "16": 0.0725,
+            "17": 0.00504,
+            "18": 0.00014
+          }
+        },
+        "isia-du-chene": {
+          "horse_id": "isia-du-chene",
+          "name": "ISIA DU CHENE",
+          "p_win": 0.05854,
+          "p_top3": 0.17736,
+          "p_top5": 0.29846,
+          "expected_position": 8.7545,
+          "position_distribution": {
+            "1": 0.05854,
+            "2": 0.06002,
+            "3": 0.0588,
+            "4": 0.06024,
+            "5": 0.06086,
+            "6": 0.06124,
+            "7": 0.05962,
+            "8": 0.06006,
+            "9": 0.06106,
+            "10": 0.06222,
+            "11": 0.06014,
+            "12": 0.06288,
+            "13": 0.0654,
+            "14": 0.06412,
+            "15": 0.06922,
+            "16": 0.07002,
+            "17": 0.00544,
+            "18": 0.00012
+          }
+        },
+        "knockonwood": {
+          "horse_id": "knockonwood",
+          "name": "KNOCKONWOOD",
+          "p_win": 0.05792,
+          "p_top3": 0.17716,
+          "p_top5": 0.29532,
+          "expected_position": 8.7463,
+          "position_distribution": {
+            "1": 0.05792,
+            "2": 0.05968,
+            "3": 0.05956,
+            "4": 0.05844,
+            "5": 0.05972,
+            "6": 0.06108,
+            "7": 0.0616,
+            "8": 0.05992,
+            "9": 0.06306,
+            "10": 0.06342,
+            "11": 0.06138,
+            "12": 0.06384,
+            "13": 0.06618,
+            "14": 0.06348,
+            "15": 0.06718,
+            "16": 0.069,
+            "17": 0.0045,
+            "18": 4e-05
+          }
+        },
+        "kash-des-caillons-a.-favris": {
+          "horse_id": "kash-des-caillons-a.-favris",
+          "name": "KASH DES CAILLONS A. FAVRIS",
+          "p_win": 0.05994,
+          "p_top3": 0.17638,
+          "p_top5": 0.29442,
+          "expected_position": 8.7467,
+          "position_distribution": {
+            "1": 0.05994,
+            "2": 0.05784,
+            "3": 0.0586,
+            "4": 0.05996,
+            "5": 0.05808,
+            "6": 0.06064,
+            "7": 0.0634,
+            "8": 0.06188,
+            "9": 0.06164,
+            "10": 0.06026,
+            "11": 0.06282,
+            "12": 0.06432,
+            "13": 0.06528,
+            "14": 0.06566,
+            "15": 0.0655,
+            "16": 0.06928,
+            "17": 0.00488,
+            "18": 2e-05
+          }
+        },
+        "jamais": {
+          "horse_id": "jamais",
+          "name": "JAMAIS",
+          "p_win": 0.05716,
+          "p_top3": 0.175,
+          "p_top5": 0.29554,
+          "expected_position": 8.7673,
+          "position_distribution": {
+            "1": 0.05716,
+            "2": 0.05962,
+            "3": 0.05822,
+            "4": 0.06024,
+            "5": 0.0603,
+            "6": 0.06052,
+            "7": 0.05804,
+            "8": 0.06222,
+            "9": 0.06146,
+            "10": 0.06374,
+            "11": 0.06354,
+            "12": 0.06338,
+            "13": 0.06416,
+            "14": 0.0677,
+            "15": 0.06598,
+            "16": 0.06828,
+            "17": 0.00538,
+            "18": 6e-05
+          }
+        },
+        "judy-matidy": {
+          "horse_id": "judy-matidy",
+          "name": "JUDY MATIDY",
+          "p_win": 0.05846,
+          "p_top3": 0.17544,
+          "p_top5": 0.29514,
+          "expected_position": 8.7835,
+          "position_distribution": {
+            "1": 0.05846,
+            "2": 0.0581,
+            "3": 0.05888,
+            "4": 0.05868,
+            "5": 0.06102,
+            "6": 0.06062,
+            "7": 0.06,
+            "8": 0.06116,
+            "9": 0.05958,
+            "10": 0.06138,
+            "11": 0.06394,
+            "12": 0.06302,
+            "13": 0.06444,
+            "14": 0.0683,
+            "15": 0.06802,
+            "16": 0.0694,
+            "17": 0.00486,
+            "18": 0.00014
+          }
+        },
+        "jane-aimee": {
+          "horse_id": "jane-aimee",
+          "name": "JANE AIMEE",
+          "p_win": 0.0009,
+          "p_top3": 0.00226,
+          "p_top5": 0.004,
+          "expected_position": 17.3191,
+          "position_distribution": {
+            "1": 0.0009,
+            "2": 0.0007,
+            "3": 0.00066,
+            "4": 0.00078,
+            "5": 0.00096,
+            "6": 0.00128,
+            "7": 0.00128,
+            "8": 0.001,
+            "9": 0.00158,
+            "10": 0.00166,
+            "11": 0.00178,
+            "12": 0.00246,
+            "13": 0.00262,
+            "14": 0.00384,
+            "15": 0.00482,
+            "16": 0.0106,
+            "17": 0.46282,
+            "18": 0.50026
+          }
+        },
+        "indice-deladou": {
+          "horse_id": "indice-deladou",
+          "name": "INDICE DELADOU",
+          "p_win": 0.06668,
+          "p_top3": 0.19722,
+          "p_top5": 0.32878,
+          "expected_position": 8.2478,
+          "position_distribution": {
+            "1": 0.06668,
+            "2": 0.0649,
+            "3": 0.06564,
+            "4": 0.06632,
+            "5": 0.06524,
+            "6": 0.06512,
+            "7": 0.06488,
+            "8": 0.06534,
+            "9": 0.06456,
+            "10": 0.0607,
+            "11": 0.06184,
+            "12": 0.06174,
+            "13": 0.05902,
+            "14": 0.05874,
+            "15": 0.05546,
+            "16": 0.05034,
+            "17": 0.00344,
+            "18": 4e-05
+          }
+        },
+        "iguane-de-caponet-a.-abrivard": {
+          "horse_id": "iguane-de-caponet-a.-abrivard",
+          "name": "IGUANE DE CAPONET A. ABRIVARD",
+          "p_win": 0.0722,
+          "p_top3": 0.21384,
+          "p_top5": 0.35126,
+          "expected_position": 7.9257,
+          "position_distribution": {
+            "1": 0.0722,
+            "2": 0.06966,
+            "3": 0.07198,
+            "4": 0.06924,
+            "5": 0.06818,
+            "6": 0.06836,
+            "7": 0.0666,
+            "8": 0.06642,
+            "9": 0.0637,
+            "10": 0.0625,
+            "11": 0.0616,
+            "12": 0.05894,
+            "13": 0.05648,
+            "14": 0.05224,
+            "15": 0.0491,
+            "16": 0.04024,
+            "17": 0.00252,
+            "18": 4e-05
+          }
+        },
+        "habit-de-soiree": {
+          "horse_id": "habit-de-soiree",
+          "name": "HABIT DE SOIREE",
+          "p_win": 0.07234,
+          "p_top3": 0.21596,
+          "p_top5": 0.35408,
+          "expected_position": 7.9084,
+          "position_distribution": {
+            "1": 0.07234,
+            "2": 0.07208,
+            "3": 0.07154,
+            "4": 0.06932,
+            "5": 0.0688,
+            "6": 0.06644,
+            "7": 0.0685,
+            "8": 0.0636,
+            "9": 0.06458,
+            "10": 0.06246,
+            "11": 0.06128,
+            "12": 0.05866,
+            "13": 0.05616,
+            "14": 0.0534,
+            "15": 0.0487,
+            "16": 0.03944,
+            "17": 0.00262,
+            "18": 8e-05
+          }
+        },
+        "gino-viva": {
+          "horse_id": "gino-viva",
+          "name": "GINO VIVA",
+          "p_win": 0.07426,
+          "p_top3": 0.21874,
+          "p_top5": 0.36196,
+          "expected_position": 7.7726,
+          "position_distribution": {
+            "1": 0.07426,
+            "2": 0.07272,
+            "3": 0.07176,
+            "4": 0.07172,
+            "5": 0.0715,
+            "6": 0.07034,
+            "7": 0.06742,
+            "8": 0.06716,
+            "9": 0.06582,
+            "10": 0.06374,
+            "11": 0.05814,
+            "12": 0.05598,
+            "13": 0.05574,
+            "14": 0.05016,
+            "15": 0.04496,
+            "16": 0.0362,
+            "17": 0.00236,
+            "18": 2e-05
+          }
+        },
+        "kaptain-du-liamone-b.-rochard": {
+          "horse_id": "kaptain-du-liamone-b.-rochard",
+          "name": "KAPTAIN DU LIAMONE B. ROCHARD",
+          "p_win": 0.07694,
+          "p_top3": 0.22644,
+          "p_top5": 0.36992,
+          "expected_position": 7.6756,
+          "position_distribution": {
+            "1": 0.07694,
+            "2": 0.07696,
+            "3": 0.07254,
+            "4": 0.07208,
+            "5": 0.0714,
+            "6": 0.06916,
+            "7": 0.06858,
+            "8": 0.06624,
+            "9": 0.06428,
+            "10": 0.0636,
+            "11": 0.06106,
+            "12": 0.0555,
+            "13": 0.05418,
+            "14": 0.05004,
+            "15": 0.0415,
+            "16": 0.0337,
+            "17": 0.00222,
+            "18": 2e-05
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "kaptain-du-liamone-b.-rochard",
+          "gino-viva",
+          "habit-de-soiree"
+        ],
+        "23": [
+          "kaptain-du-liamone-b.-rochard",
+          "gino-viva",
+          "iguane-de-caponet-a.-abrivard"
+        ],
+        "37": [
+          "kaptain-du-liamone-b.-rochard",
+          "gino-viva",
+          "iguane-de-caponet-a.-abrivard"
+        ],
+        "51": [
+          "kaptain-du-liamone-b.-rochard",
+          "gino-viva",
+          "habit-de-soiree"
+        ],
+        "73": [
+          "kaptain-du-liamone-b.-rochard",
+          "gino-viva",
+          "habit-de-soiree"
+        ]
+      },
+      "reference_top": [
+        "gino-viva",
+        "habit-de-soiree",
+        "kaptain-du-liamone-b.-rochard"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "kaptain-du-liamone-b.-rochard": 10.0,
+        "gino-viva": 5.0,
+        "habit-de-soiree": 0.0,
+        "iguane-de-caponet-a.-abrivard": 0.0
+      },
+      "order": [
+        "kaptain-du-liamone-b.-rochard",
+        "gino-viva",
+        "habit-de-soiree",
+        "iguane-de-caponet-a.-abrivard"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kaptain-du-liamone-b.-rochard": 17.0,
+        "gino-viva": 16.0,
+        "habit-de-soiree": 15.0,
+        "iguane-de-caponet-a.-abrivard": 14.0,
+        "indice-deladou": 13.0,
+        "judy-matidy": 12.0,
+        "jamais": 11.0,
+        "kash-des-caillons-a.-favris": 10.0,
+        "knockonwood": 9.0,
+        "isia-du-chene": 8.0,
+        "iaselma": 7.0,
+        "il-pleut-bergere-m.-verva": 6.0,
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": 5.0,
+        "korona-deladou-g.-martin": 4.0,
+        "kassya": 3.0,
+        "horus-de-val": 2.0,
+        "kaline-du-locheur-d.-brohier": 1.0,
+        "jane-aimee": 0.0
+      },
+      "order": [
+        "kaptain-du-liamone-b.-rochard",
+        "gino-viva",
+        "habit-de-soiree",
+        "iguane-de-caponet-a.-abrivard",
+        "indice-deladou",
+        "judy-matidy",
+        "jamais",
+        "kash-des-caillons-a.-favris",
+        "knockonwood",
+        "isia-du-chene",
+        "iaselma",
+        "il-pleut-bergere-m.-verva",
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+        "korona-deladou-g.-martin",
+        "kassya",
+        "horus-de-val",
+        "kaline-du-locheur-d.-brohier",
+        "jane-aimee"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "kaptain-du-liamone-b.-rochard",
+        "gino-viva",
+        "habit-de-soiree",
+        "iguane-de-caponet-a.-abrivard",
+        "indice-deladou",
+        "kash-des-caillons-a.-favris",
+        "knockonwood",
+        "jamais",
+        "judy-matidy",
+        "isia-du-chene",
+        "il-pleut-bergere-m.-verva",
+        "iaselma",
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+        "korona-deladou-g.-martin",
+        "kassya",
+        "horus-de-val",
+        "jane-aimee",
+        "kaline-du-locheur-d.-brohier"
+      ],
+      "copeland": {
+        "kaptain-du-liamone-b.-rochard": 17.0,
+        "gino-viva": 15.0,
+        "habit-de-soiree": 13.0,
+        "iguane-de-caponet-a.-abrivard": 11.0,
+        "indice-deladou": 9.0,
+        "knockonwood": 5.5,
+        "kash-des-caillons-a.-favris": 5.5,
+        "isia-du-chene": 2.0,
+        "il-pleut-bergere-m.-verva": -0.5,
+        "jamais": 4.5,
+        "judy-matidy": 4.5,
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": -5.5,
+        "iaselma": -4.0,
+        "korona-deladou-g.-martin": -9.0,
+        "kassya": -11.0,
+        "horus-de-val": -13.0,
+        "jane-aimee": -15.5,
+        "kaline-du-locheur-d.-brohier": -15.5
+      },
+      "normalized": {
+        "kaptain-du-liamone-b.-rochard": 1.0,
+        "gino-viva": 0.9412,
+        "habit-de-soiree": 0.8824,
+        "iguane-de-caponet-a.-abrivard": 0.8235,
+        "indice-deladou": 0.7647,
+        "knockonwood": 0.6618,
+        "kash-des-caillons-a.-favris": 0.6618,
+        "isia-du-chene": 0.5588,
+        "il-pleut-bergere-m.-verva": 0.4853,
+        "jamais": 0.6324,
+        "judy-matidy": 0.6324,
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": 0.3382,
+        "iaselma": 0.3824,
+        "korona-deladou-g.-martin": 0.2353,
+        "kassya": 0.1765,
+        "horus-de-val": 0.1176,
+        "jane-aimee": 0.0441,
+        "kaline-du-locheur-d.-brohier": 0.0441
+      },
+      "mean_rank": {
+        "kaptain-du-liamone-b.-rochard": 0.0,
+        "gino-viva": 1.0,
+        "habit-de-soiree": 2.0,
+        "iguane-de-caponet-a.-abrivard": 3.0,
+        "indice-deladou": 4.0,
+        "knockonwood": 6.5,
+        "kash-des-caillons-a.-favris": 6.5,
+        "isia-du-chene": 8.0,
+        "il-pleut-bergere-m.-verva": 9.5,
+        "jamais": 7.5,
+        "judy-matidy": 7.5,
+        "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": 11.5,
+        "iaselma": 11.0,
+        "korona-deladou-g.-martin": 13.0,
+        "kassya": 14.0,
+        "horus-de-val": 15.0,
+        "jane-aimee": 16.5,
+        "kaline-du-locheur-d.-brohier": 16.5
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "horus-de-val",
+        "name": "HORUS DE VAL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "korona-deladou-g.-martin",
+        "name": "KORONA DELADOU G. MARTIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR D. BROHIER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+        "name": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 13 vs marché 16)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "il-pleut-bergere-m.-verva",
+        "name": "IL PLEUT BERGERE M. VERVA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "iaselma",
+        "name": "IASELMA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "isia-du-chene",
+        "name": "ISIA DU CHENE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kash-des-caillons-a.-favris",
+        "name": "KASH DES CAILLONS A. FAVRIS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jamais",
+        "name": "JAMAIS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "judy-matidy",
+        "name": "JUDY MATIDY",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "indice-deladou",
+        "name": "INDICE DELADOU",
+        "signals": [
+          "l'analyse interne le place 13 rangs plus haut que le marché (interne 5 vs marché 18)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "iguane-de-caponet-a.-abrivard",
+        "name": "IGUANE DE CAPONET A. ABRIVARD",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 4 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "habit-de-soiree",
+        "name": "HABIT DE SOIREE",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "gino-viva",
+        "name": "GINO VIVA",
+        "signals": [
+          "l'analyse interne le place 13 rangs plus haut que le marché (interne 2 vs marché 15)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "kaptain-du-liamone-b.-rochard",
+        "name": "KAPTAIN DU LIAMONE B. ROCHARD",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul",
+      "judy-matidy",
+      "indice-deladou",
+      "iguane-de-caponet-a.-abrivard",
+      "habit-de-soiree",
+      "gino-viva",
+      "kaptain-du-liamone-b.-rochard"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "horus-de-val": 0.249153,
+      "kassya": 0.10678,
+      "korona-deladou-g.-martin": 0.043968,
+      "kaline-du-locheur-d.-brohier": 0.186864,
+      "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul": 0.007706,
+      "il-pleut-bergere-m.-verva": 0.017383,
+      "iaselma": 0.037373,
+      "isia-du-chene": 0.027684,
+      "knockonwood": 0.067951,
+      "kash-des-caillons-a.-favris": 0.062288,
+      "jamais": 0.05339,
+      "judy-matidy": 0.029898,
+      "jane-aimee": 0.003429,
+      "indice-deladou": 0.003322,
+      "iguane-de-caponet-a.-abrivard": 0.033975,
+      "habit-de-soiree": 0.01661,
+      "gino-viva": 0.012887,
+      "kaptain-du-liamone-b.-rochard": 0.03934
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "kaptain-du-liamone-b.-rochard",
+      "gino-viva",
+      "habit-de-soiree",
+      "iguane-de-caponet-a.-abrivard",
+      "indice-deladou"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.591,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.303,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "HORUS DE VAL : recent_places",
+      "HORUS DE VAL : driver",
+      "HORUS DE VAL : aptitude",
+      "KASSYA : recent_places",
+      "KASSYA : driver",
+      "KASSYA : aptitude",
+      "KORONA DELADOU G. MARTIN : recent_places",
+      "KORONA DELADOU G. MARTIN : driver",
+      "KORONA DELADOU G. MARTIN : aptitude",
+      "KALINE DU LOCHEUR D. BROHIER : recent_places",
+      "KALINE DU LOCHEUR D. BROHIER : driver",
+      "KALINE DU LOCHEUR D. BROHIER : aptitude",
+      "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL : recent_places",
+      "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL : driver",
+      "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL : aptitude",
+      "IL PLEUT BERGERE M. VERVA : recent_places",
+      "IL PLEUT BERGERE M. VERVA : driver",
+      "IL PLEUT BERGERE M. VERVA : aptitude",
+      "IASELMA : recent_places",
+      "IASELMA : driver",
+      "IASELMA : aptitude",
+      "ISIA DU CHENE : recent_places",
+      "ISIA DU CHENE : driver",
+      "ISIA DU CHENE : aptitude",
+      "KNOCKONWOOD : recent_places",
+      "KNOCKONWOOD : driver",
+      "KNOCKONWOOD : aptitude",
+      "KASH DES CAILLONS A. FAVRIS : recent_places",
+      "KASH DES CAILLONS A. FAVRIS : driver",
+      "KASH DES CAILLONS A. FAVRIS : aptitude",
+      "JAMAIS : recent_places",
+      "JAMAIS : driver",
+      "JAMAIS : aptitude",
+      "JUDY MATIDY : recent_places",
+      "JUDY MATIDY : driver",
+      "JUDY MATIDY : aptitude",
+      "JANE AIMEE : recent_places",
+      "JANE AIMEE : driver",
+      "JANE AIMEE : aptitude",
+      "INDICE DELADOU : recent_places",
+      "INDICE DELADOU : driver",
+      "INDICE DELADOU : aptitude",
+      "IGUANE DE CAPONET A. ABRIVARD : recent_places",
+      "IGUANE DE CAPONET A. ABRIVARD : driver",
+      "IGUANE DE CAPONET A. ABRIVARD : aptitude",
+      "HABIT DE SOIREE : recent_places",
+      "HABIT DE SOIREE : driver",
+      "HABIT DE SOIREE : aptitude",
+      "GINO VIVA : recent_places",
+      "GINO VIVA : driver",
+      "GINO VIVA : aptitude",
+      "KAPTAIN DU LIAMONE B. ROCHARD : recent_places",
+      "KAPTAIN DU LIAMONE B. ROCHARD : driver",
+      "KAPTAIN DU LIAMONE B. ROCHARD : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.06 (saturé à 2.0) → 0.3/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (54 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-06T13:15:00+00:00",
+    "betting_close": "2026-10-06T13:05:00+00:00",
+    "race_started": true,
+    "now": "2026-10-10T01:36:08.330095+00:00",
+    "minutes_late": 5071.14,
+    "minutes_to_close": -5071.14,
+    "schedule": {
+      "start_ouagadougou": "2026-10-06T13:15:00+00:00",
+      "start_paris": "2026-10-06T15:15:00+02:00",
+      "close_lonab": "2026-10-06T13:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "KAPTAIN DU LIAMONE B. ROCHARD",
+      "horse_id": "kaptain-du-liamone-b.-rochard"
+    },
+    {
+      "rang": 2,
+      "cheval": "GINO VIVA",
+      "horse_id": "gino-viva"
+    },
+    {
+      "rang": 3,
+      "cheval": "HABIT DE SOIREE",
+      "horse_id": "habit-de-soiree"
+    },
+    {
+      "rang": 4,
+      "cheval": "IGUANE DE CAPONET A. ABRIVARD",
+      "horse_id": "iguane-de-caponet-a.-abrivard"
+    },
+    {
+      "rang": 5,
+      "cheval": "INDICE DELADOU",
+      "horse_id": "indice-deladou"
+    },
+    {
+      "rang": 6,
+      "cheval": "KASH DES CAILLONS A. FAVRIS",
+      "horse_id": "kash-des-caillons-a.-favris"
+    },
+    {
+      "rang": 7,
+      "cheval": "KNOCKONWOOD",
+      "horse_id": "knockonwood"
+    },
+    {
+      "rang": 8,
+      "cheval": "JAMAIS",
+      "horse_id": "jamais"
+    },
+    {
+      "rang": 9,
+      "cheval": "JUDY MATIDY",
+      "horse_id": "judy-matidy"
+    },
+    {
+      "rang": 10,
+      "cheval": "ISIA DU CHENE",
+      "horse_id": "isia-du-chene"
+    },
+    {
+      "rang": 11,
+      "cheval": "IL PLEUT BERGERE M. VERVA",
+      "horse_id": "il-pleut-bergere-m.-verva"
+    },
+    {
+      "rang": 12,
+      "cheval": "IASELMA",
+      "horse_id": "iaselma"
+    },
+    {
+      "rang": 13,
+      "cheval": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+      "horse_id": "kalita-d-heninel-j.g.-van-eeckhaute-j.g.-van-eeckhaute-ec.-du-cojeul"
+    },
+    {
+      "rang": 14,
+      "cheval": "KORONA DELADOU G. MARTIN",
+      "horse_id": "korona-deladou-g.-martin"
+    },
+    {
+      "rang": 15,
+      "cheval": "KASSYA",
+      "horse_id": "kassya"
+    },
+    {
+      "rang": 16,
+      "cheval": "HORUS DE VAL",
+      "horse_id": "horus-de-val"
+    },
+    {
+      "rang": 17,
+      "cheval": "JANE AIMEE",
+      "horse_id": "jane-aimee"
+    },
+    {
+      "rang": 18,
+      "cheval": "KALINE DU LOCHEUR D. BROHIER",
+      "horse_id": "kaline-du-locheur-d.-brohier"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "KAPTAIN DU LIAMONE B. ROCHARD",
+      "score": 10.0
+    },
+    {
+      "cheval": "GINO VIVA",
+      "score": 9.9394
+    },
+    {
+      "cheval": "HABIT DE SOIREE",
+      "score": 9.8834
+    },
+    {
+      "cheval": "IGUANE DE CAPONET A. ABRIVARD",
+      "score": 9.864
+    },
+    {
+      "cheval": "INDICE DELADOU",
+      "score": 9.7007
+    },
+    {
+      "cheval": "JUDY MATIDY",
+      "score": 9.4555
+    },
+    {
+      "cheval": "JAMAIS",
+      "score": 9.4436
+    },
+    {
+      "cheval": "KASH DES CAILLONS A. FAVRIS",
+      "score": 9.4436
+    },
+    {
+      "cheval": "KNOCKONWOOD",
+      "score": 9.4407
+    },
+    {
+      "cheval": "ISIA DU CHENE",
+      "score": 9.439
+    },
+    {
+      "cheval": "IASELMA",
+      "score": 9.4318
+    },
+    {
+      "cheval": "IL PLEUT BERGERE M. VERVA",
+      "score": 9.4314
+    },
+    {
+      "cheval": "KALITA D'HENINEL J.G. VAN EECKHAUTE J.G. VAN EECKHAUTE EC. du COJEUL",
+      "score": 9.4198
+    },
+    {
+      "cheval": "KORONA DELADOU G. MARTIN",
+      "score": 9.4043
+    },
+    {
+      "cheval": "KASSYA",
+      "score": 9.3976
+    },
+    {
+      "cheval": "HORUS DE VAL",
+      "score": 9.395
+    },
+    {
+      "cheval": "KALINE DU LOCHEUR D. BROHIER",
+      "score": 0.537
+    },
+    {
+      "cheval": "JANE AIMEE",
+      "score": 0.537
+    }
+  ],
+  "stored_at": "2026-10-10T01:36:08.331666+00:00"
+}
