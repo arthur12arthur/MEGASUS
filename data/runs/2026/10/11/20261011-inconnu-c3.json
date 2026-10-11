@@ -1,0 +1,1874 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261011-inconnu-c3",
+  "date": "2026-10-11",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-10-11",
+    "start_time": "2026-10-07T13:15:00+00:00",
+    "race_number": 3,
+    "name": "Prix Violon II, une préparatoire",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_11-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-11T00:45:47.459860+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "pascard-de-beausse",
+        "name": "PASCARD DE BEAUSSE",
+        "odds_pdf": 3.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "quel-patron-tho-.journiac",
+        "name": "QUEL PATRON THO .JOURNIAC",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "pickland",
+        "name": "PICKLAND",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "caligramme",
+        "name": "CALIGRAMME",
+        "odds_pdf": 36.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "illaho",
+        "name": "ILLAHO",
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lebrio-des-mottes",
+        "name": "LEBRIO DES MOTTES",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lumino-bello",
+        "name": "LUMINO BELLO",
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "benou",
+        "name": "BENOU",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "odds_pdf": 43.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "tante-zena-l.philipperon",
+        "name": "TANTE ZENA L.PHILIPPERON",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "master-nonantais",
+        "name": "MASTER NONANTAIS",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "LE PETIT CHEVAL (le-petit-cheval) : aucune cote récente disponible",
+      "PASCARD DE BEAUSSE (pascard-de-beausse) : aucune cote récente disponible",
+      "AMY DU KIFF (amy-du-kiff) : aucune cote récente disponible",
+      "QUEL PATRON THO .JOURNIAC (quel-patron-tho-.journiac) : aucune cote récente disponible",
+      "PICKLAND (pickland) : aucune cote récente disponible",
+      "JOHNNY ROQUE (johnny-roque) : aucune cote récente disponible",
+      "CALIGRAMME (caligramme) : aucune cote récente disponible",
+      "ILLAHO (illaho) : aucune cote récente disponible",
+      "GINJA DES TAILLONS (ginja-des-taillons) : aucune cote récente disponible",
+      "LEBRIO DES MOTTES (lebrio-des-mottes) : aucune cote récente disponible",
+      "LUMINO BELLO (lumino-bello) : aucune cote récente disponible",
+      "BENOU (benou) : aucune cote récente disponible",
+      "KUCHARSKY (kucharsky) : aucune cote récente disponible",
+      "TANTE ZENA L.PHILIPPERON (tante-zena-l.philipperon) : aucune cote récente disponible",
+      "KALIBRE (kalibre) : aucune cote récente disponible",
+      "MASTER NONANTAIS (master-nonantais) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "le-petit-cheval",
+      "pascard-de-beausse",
+      "amy-du-kiff",
+      "quel-patron-tho-.journiac",
+      "pickland",
+      "johnny-roque",
+      "caligramme",
+      "illaho",
+      "ginja-des-taillons",
+      "lebrio-des-mottes",
+      "lumino-bello",
+      "benou",
+      "kucharsky",
+      "tante-zena-l.philipperon",
+      "kalibre",
+      "master-nonantais"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "dimensions": {
+          "historique": 9.57617773572644,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5762,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "master-nonantais",
+        "name": "MASTER NONANTAIS",
+        "dimensions": {
+          "historique": 9.456526627945648,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4565,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "benou",
+        "name": "BENOU",
+        "dimensions": {
+          "historique": 9.408955639687633,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.409,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "dimensions": {
+          "historique": 9.374298242099325,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3743,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "dimensions": {
+          "historique": 9.273448506480356,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2734,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "illaho",
+        "name": "ILLAHO",
+        "dimensions": {
+          "historique": 9.236540226642788,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2365,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "caligramme",
+        "name": "CALIGRAMME",
+        "dimensions": {
+          "historique": 9.216881093730947,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2169,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "dimensions": {
+          "historique": 9.201159727075254,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2012,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "quel-patron-tho-.journiac",
+        "name": "QUEL PATRON THO .JOURNIAC",
+        "dimensions": {
+          "historique": 9.141762480195865,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1418,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lebrio-des-mottes",
+        "name": "LEBRIO DES MOTTES",
+        "dimensions": {
+          "historique": 9.062858641505633,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0629,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lumino-bello",
+        "name": "LUMINO BELLO",
+        "dimensions": {
+          "historique": 8.99390892646252,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9939,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "tante-zena-l.philipperon",
+        "name": "TANTE ZENA L.PHILIPPERON",
+        "dimensions": {
+          "historique": 8.945239360080333,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9452,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pickland",
+        "name": "PICKLAND",
+        "dimensions": {
+          "historique": 8.938501171558173,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9385,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pascard-de-beausse",
+        "name": "PASCARD DE BEAUSSE",
+        "dimensions": {
+          "historique": 8.901387297021987,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.9014,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "dimensions": {
+          "historique": 8.88490172216901,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8849,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "amy-du-kiff",
+      "le-petit-cheval",
+      "master-nonantais",
+      "benou",
+      "johnny-roque",
+      "kalibre",
+      "illaho",
+      "caligramme",
+      "ginja-des-taillons",
+      "quel-patron-tho-.journiac",
+      "lebrio-des-mottes",
+      "lumino-bello",
+      "tante-zena-l.philipperon",
+      "pickland",
+      "kucharsky",
+      "pascard-de-beausse"
+    ],
+    "stability": 0.8,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "le-petit-cheval": {
+          "horse_id": "le-petit-cheval",
+          "name": "LE PETIT CHEVAL",
+          "p_win": 0.074,
+          "p_top3": 0.22136,
+          "p_top5": 0.3606,
+          "expected_position": 7.7893,
+          "position_distribution": {
+            "1": 0.074,
+            "2": 0.07494,
+            "3": 0.07242,
+            "4": 0.06934,
+            "5": 0.0699,
+            "6": 0.06824,
+            "7": 0.06724,
+            "8": 0.0677,
+            "9": 0.06466,
+            "10": 0.0643,
+            "11": 0.0593,
+            "12": 0.05738,
+            "13": 0.05454,
+            "14": 0.05192,
+            "15": 0.048,
+            "16": 0.03612
+          }
+        },
+        "pascard-de-beausse": {
+          "horse_id": "pascard-de-beausse",
+          "name": "PASCARD DE BEAUSSE",
+          "p_win": 0.052,
+          "p_top3": 0.15786,
+          "p_top5": 0.26866,
+          "expected_position": 9.1941,
+          "position_distribution": {
+            "1": 0.052,
+            "2": 0.05238,
+            "3": 0.05348,
+            "4": 0.0559,
+            "5": 0.0549,
+            "6": 0.05604,
+            "7": 0.05666,
+            "8": 0.05692,
+            "9": 0.05972,
+            "10": 0.06098,
+            "11": 0.06436,
+            "12": 0.06408,
+            "13": 0.06978,
+            "14": 0.0733,
+            "15": 0.07898,
+            "16": 0.09052
+          }
+        },
+        "amy-du-kiff": {
+          "horse_id": "amy-du-kiff",
+          "name": "AMY DU KIFF",
+          "p_win": 0.0912,
+          "p_top3": 0.2632,
+          "p_top5": 0.42158,
+          "expected_position": 6.9781,
+          "position_distribution": {
+            "1": 0.0912,
+            "2": 0.08708,
+            "3": 0.08492,
+            "4": 0.08152,
+            "5": 0.07686,
+            "6": 0.07708,
+            "7": 0.07298,
+            "8": 0.06706,
+            "9": 0.06612,
+            "10": 0.06234,
+            "11": 0.05426,
+            "12": 0.04958,
+            "13": 0.0436,
+            "14": 0.03834,
+            "15": 0.02908,
+            "16": 0.01798
+          }
+        },
+        "quel-patron-tho-.journiac": {
+          "horse_id": "quel-patron-tho-.journiac",
+          "name": "QUEL PATRON THO .JOURNIAC",
+          "p_win": 0.05926,
+          "p_top3": 0.17984,
+          "p_top5": 0.29964,
+          "expected_position": 8.6617,
+          "position_distribution": {
+            "1": 0.05926,
+            "2": 0.05974,
+            "3": 0.06084,
+            "4": 0.05958,
+            "5": 0.06022,
+            "6": 0.06098,
+            "7": 0.0608,
+            "8": 0.0633,
+            "9": 0.06338,
+            "10": 0.06264,
+            "11": 0.06304,
+            "12": 0.0645,
+            "13": 0.06476,
+            "14": 0.06326,
+            "15": 0.06788,
+            "16": 0.06582
+          }
+        },
+        "pickland": {
+          "horse_id": "pickland",
+          "name": "PICKLAND",
+          "p_win": 0.05158,
+          "p_top3": 0.16162,
+          "p_top5": 0.27386,
+          "expected_position": 9.0858,
+          "position_distribution": {
+            "1": 0.05158,
+            "2": 0.05474,
+            "3": 0.0553,
+            "4": 0.05558,
+            "5": 0.05666,
+            "6": 0.0555,
+            "7": 0.06032,
+            "8": 0.05714,
+            "9": 0.06078,
+            "10": 0.06182,
+            "11": 0.06394,
+            "12": 0.06734,
+            "13": 0.06948,
+            "14": 0.07058,
+            "15": 0.07498,
+            "16": 0.08426
+          }
+        },
+        "johnny-roque": {
+          "horse_id": "johnny-roque",
+          "name": "JOHNNY ROQUE",
+          "p_win": 0.06402,
+          "p_top3": 0.19532,
+          "p_top5": 0.32744,
+          "expected_position": 8.2327,
+          "position_distribution": {
+            "1": 0.06402,
+            "2": 0.0651,
+            "3": 0.0662,
+            "4": 0.06552,
+            "5": 0.0666,
+            "6": 0.06554,
+            "7": 0.06536,
+            "8": 0.06604,
+            "9": 0.06404,
+            "10": 0.06278,
+            "11": 0.06334,
+            "12": 0.06246,
+            "13": 0.06058,
+            "14": 0.05746,
+            "15": 0.05602,
+            "16": 0.04894
+          }
+        },
+        "caligramme": {
+          "horse_id": "caligramme",
+          "name": "CALIGRAMME",
+          "p_win": 0.06092,
+          "p_top3": 0.18184,
+          "p_top5": 0.3085,
+          "expected_position": 8.5214,
+          "position_distribution": {
+            "1": 0.06092,
+            "2": 0.0594,
+            "3": 0.06152,
+            "4": 0.06202,
+            "5": 0.06464,
+            "6": 0.06406,
+            "7": 0.06326,
+            "8": 0.06286,
+            "9": 0.06292,
+            "10": 0.06262,
+            "11": 0.06294,
+            "12": 0.06322,
+            "13": 0.0637,
+            "14": 0.06296,
+            "15": 0.0646,
+            "16": 0.05836
+          }
+        },
+        "illaho": {
+          "horse_id": "illaho",
+          "name": "ILLAHO",
+          "p_win": 0.06344,
+          "p_top3": 0.18694,
+          "p_top5": 0.31234,
+          "expected_position": 8.4819,
+          "position_distribution": {
+            "1": 0.06344,
+            "2": 0.06302,
+            "3": 0.06048,
+            "4": 0.0627,
+            "5": 0.0627,
+            "6": 0.06296,
+            "7": 0.0632,
+            "8": 0.0621,
+            "9": 0.06302,
+            "10": 0.06104,
+            "11": 0.06356,
+            "12": 0.06428,
+            "13": 0.06138,
+            "14": 0.06578,
+            "15": 0.0627,
+            "16": 0.05764
+          }
+        },
+        "ginja-des-taillons": {
+          "horse_id": "ginja-des-taillons",
+          "name": "GINJA DES TAILLONS",
+          "p_win": 0.06114,
+          "p_top3": 0.18154,
+          "p_top5": 0.3054,
+          "expected_position": 8.566,
+          "position_distribution": {
+            "1": 0.06114,
+            "2": 0.05984,
+            "3": 0.06056,
+            "4": 0.06242,
+            "5": 0.06144,
+            "6": 0.06204,
+            "7": 0.06228,
+            "8": 0.06194,
+            "9": 0.06488,
+            "10": 0.06312,
+            "11": 0.06466,
+            "12": 0.0637,
+            "13": 0.0638,
+            "14": 0.0627,
+            "15": 0.06274,
+            "16": 0.06274
+          }
+        },
+        "lebrio-des-mottes": {
+          "horse_id": "lebrio-des-mottes",
+          "name": "LEBRIO DES MOTTES",
+          "p_win": 0.05706,
+          "p_top3": 0.17282,
+          "p_top5": 0.29218,
+          "expected_position": 8.7956,
+          "position_distribution": {
+            "1": 0.05706,
+            "2": 0.05722,
+            "3": 0.05854,
+            "4": 0.0593,
+            "5": 0.06006,
+            "6": 0.06042,
+            "7": 0.06006,
+            "8": 0.06208,
+            "9": 0.06078,
+            "10": 0.06238,
+            "11": 0.06312,
+            "12": 0.06354,
+            "13": 0.06678,
+            "14": 0.06756,
+            "15": 0.06782,
+            "16": 0.07328
+          }
+        },
+        "lumino-bello": {
+          "horse_id": "lumino-bello",
+          "name": "LUMINO BELLO",
+          "p_win": 0.0541,
+          "p_top3": 0.16718,
+          "p_top5": 0.28282,
+          "expected_position": 8.969,
+          "position_distribution": {
+            "1": 0.0541,
+            "2": 0.05612,
+            "3": 0.05696,
+            "4": 0.05694,
+            "5": 0.0587,
+            "6": 0.05696,
+            "7": 0.05886,
+            "8": 0.06016,
+            "9": 0.05906,
+            "10": 0.06312,
+            "11": 0.06424,
+            "12": 0.06442,
+            "13": 0.06736,
+            "14": 0.0698,
+            "15": 0.071,
+            "16": 0.0822
+          }
+        },
+        "benou": {
+          "horse_id": "benou",
+          "name": "BENOU",
+          "p_win": 0.06844,
+          "p_top3": 0.20582,
+          "p_top5": 0.33862,
+          "expected_position": 8.1136,
+          "position_distribution": {
+            "1": 0.06844,
+            "2": 0.0697,
+            "3": 0.06768,
+            "4": 0.06636,
+            "5": 0.06644,
+            "6": 0.0657,
+            "7": 0.06378,
+            "8": 0.06578,
+            "9": 0.06402,
+            "10": 0.0627,
+            "11": 0.062,
+            "12": 0.05952,
+            "13": 0.0599,
+            "14": 0.05784,
+            "15": 0.05192,
+            "16": 0.04822
+          }
+        },
+        "kucharsky": {
+          "horse_id": "kucharsky",
+          "name": "KUCHARSKY",
+          "p_win": 0.05322,
+          "p_top3": 0.16004,
+          "p_top5": 0.26968,
+          "expected_position": 9.1671,
+          "position_distribution": {
+            "1": 0.05322,
+            "2": 0.05248,
+            "3": 0.05434,
+            "4": 0.05452,
+            "5": 0.05512,
+            "6": 0.05586,
+            "7": 0.05656,
+            "8": 0.05748,
+            "9": 0.06032,
+            "10": 0.06276,
+            "11": 0.06294,
+            "12": 0.06542,
+            "13": 0.06828,
+            "14": 0.07326,
+            "15": 0.07892,
+            "16": 0.08852
+          }
+        },
+        "tante-zena-l.philipperon": {
+          "horse_id": "tante-zena-l.philipperon",
+          "name": "TANTE ZENA L.PHILIPPERON",
+          "p_win": 0.05478,
+          "p_top3": 0.16354,
+          "p_top5": 0.27616,
+          "expected_position": 9.0264,
+          "position_distribution": {
+            "1": 0.05478,
+            "2": 0.05482,
+            "3": 0.05394,
+            "4": 0.05628,
+            "5": 0.05634,
+            "6": 0.05868,
+            "7": 0.05926,
+            "8": 0.06186,
+            "9": 0.0587,
+            "10": 0.06192,
+            "11": 0.06294,
+            "12": 0.06502,
+            "13": 0.06774,
+            "14": 0.06886,
+            "15": 0.07494,
+            "16": 0.08392
+          }
+        },
+        "kalibre": {
+          "horse_id": "kalibre",
+          "name": "KALIBRE",
+          "p_win": 0.0627,
+          "p_top3": 0.19084,
+          "p_top5": 0.3195,
+          "expected_position": 8.3896,
+          "position_distribution": {
+            "1": 0.0627,
+            "2": 0.06338,
+            "3": 0.06476,
+            "4": 0.065,
+            "5": 0.06366,
+            "6": 0.06236,
+            "7": 0.06424,
+            "8": 0.06276,
+            "9": 0.06342,
+            "10": 0.0621,
+            "11": 0.06338,
+            "12": 0.06454,
+            "13": 0.06144,
+            "14": 0.06084,
+            "15": 0.05902,
+            "16": 0.0564
+          }
+        },
+        "master-nonantais": {
+          "horse_id": "master-nonantais",
+          "name": "MASTER NONANTAIS",
+          "p_win": 0.07214,
+          "p_top3": 0.21024,
+          "p_top5": 0.34302,
+          "expected_position": 8.0278,
+          "position_distribution": {
+            "1": 0.07214,
+            "2": 0.07004,
+            "3": 0.06806,
+            "4": 0.06702,
+            "5": 0.06576,
+            "6": 0.06758,
+            "7": 0.06514,
+            "8": 0.06482,
+            "9": 0.06418,
+            "10": 0.06338,
+            "11": 0.06198,
+            "12": 0.061,
+            "13": 0.05688,
+            "14": 0.05554,
+            "15": 0.0514,
+            "16": 0.04508
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "amy-du-kiff",
+          "le-petit-cheval",
+          "master-nonantais"
+        ],
+        "23": [
+          "amy-du-kiff",
+          "le-petit-cheval",
+          "benou"
+        ],
+        "37": [
+          "amy-du-kiff",
+          "le-petit-cheval",
+          "master-nonantais"
+        ],
+        "51": [
+          "amy-du-kiff",
+          "le-petit-cheval",
+          "master-nonantais"
+        ],
+        "73": [
+          "amy-du-kiff",
+          "le-petit-cheval",
+          "master-nonantais"
+        ]
+      },
+      "reference_top": [
+        "amy-du-kiff",
+        "le-petit-cheval",
+        "master-nonantais"
+      ],
+      "stable_seeds": 4,
+      "stability": 0.8,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "amy-du-kiff": 10.0,
+        "le-petit-cheval": 5.0,
+        "master-nonantais": 0.0,
+        "benou": 0.0
+      },
+      "order": [
+        "amy-du-kiff",
+        "le-petit-cheval",
+        "benou",
+        "master-nonantais"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "amy-du-kiff": 15.0,
+        "le-petit-cheval": 14.0,
+        "master-nonantais": 13.0,
+        "benou": 12.0,
+        "johnny-roque": 11.0,
+        "kalibre": 10.0,
+        "illaho": 9.0,
+        "caligramme": 8.0,
+        "ginja-des-taillons": 7.0,
+        "quel-patron-tho-.journiac": 6.0,
+        "lebrio-des-mottes": 5.0,
+        "lumino-bello": 4.0,
+        "tante-zena-l.philipperon": 3.0,
+        "pickland": 2.0,
+        "pascard-de-beausse": 1.0,
+        "kucharsky": 0.0
+      },
+      "order": [
+        "amy-du-kiff",
+        "le-petit-cheval",
+        "master-nonantais",
+        "benou",
+        "johnny-roque",
+        "kalibre",
+        "illaho",
+        "caligramme",
+        "ginja-des-taillons",
+        "quel-patron-tho-.journiac",
+        "lebrio-des-mottes",
+        "lumino-bello",
+        "tante-zena-l.philipperon",
+        "pickland",
+        "pascard-de-beausse",
+        "kucharsky"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "amy-du-kiff",
+        "le-petit-cheval",
+        "master-nonantais",
+        "benou",
+        "johnny-roque",
+        "kalibre",
+        "illaho",
+        "caligramme",
+        "ginja-des-taillons",
+        "quel-patron-tho-.journiac",
+        "lebrio-des-mottes",
+        "lumino-bello",
+        "tante-zena-l.philipperon",
+        "pickland",
+        "kucharsky",
+        "pascard-de-beausse"
+      ],
+      "copeland": {
+        "amy-du-kiff": 15.0,
+        "le-petit-cheval": 13.0,
+        "master-nonantais": 11.0,
+        "benou": 9.0,
+        "johnny-roque": 7.0,
+        "kalibre": 5.0,
+        "illaho": 3.0,
+        "caligramme": 1.0,
+        "ginja-des-taillons": -1.0,
+        "quel-patron-tho-.journiac": -3.0,
+        "lebrio-des-mottes": -5.0,
+        "lumino-bello": -7.0,
+        "tante-zena-l.philipperon": -9.0,
+        "pickland": -11.0,
+        "kucharsky": -13.5,
+        "pascard-de-beausse": -13.5
+      },
+      "normalized": {
+        "amy-du-kiff": 1.0,
+        "le-petit-cheval": 0.9333,
+        "master-nonantais": 0.8667,
+        "benou": 0.8,
+        "johnny-roque": 0.7333,
+        "kalibre": 0.6667,
+        "illaho": 0.6,
+        "caligramme": 0.5333,
+        "ginja-des-taillons": 0.4667,
+        "quel-patron-tho-.journiac": 0.4,
+        "lebrio-des-mottes": 0.3333,
+        "lumino-bello": 0.2667,
+        "tante-zena-l.philipperon": 0.2,
+        "pickland": 0.1333,
+        "kucharsky": 0.05,
+        "pascard-de-beausse": 0.05
+      },
+      "mean_rank": {
+        "amy-du-kiff": 0.0,
+        "le-petit-cheval": 1.0,
+        "master-nonantais": 2.3333,
+        "benou": 2.6667,
+        "johnny-roque": 4.0,
+        "kalibre": 5.0,
+        "illaho": 6.0,
+        "caligramme": 7.0,
+        "ginja-des-taillons": 8.0,
+        "quel-patron-tho-.journiac": 9.0,
+        "lebrio-des-mottes": 10.0,
+        "lumino-bello": 11.0,
+        "tante-zena-l.philipperon": 12.0,
+        "pickland": 13.0,
+        "kucharsky": 14.5,
+        "pascard-de-beausse": 14.5
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pascard-de-beausse",
+        "name": "PASCARD DE BEAUSSE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 1 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "quel-patron-tho-.journiac",
+        "name": "QUEL PATRON THO .JOURNIAC",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pickland",
+        "name": "PICKLAND",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 5 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "caligramme",
+        "name": "CALIGRAMME",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 8 vs marché 15)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "illaho",
+        "name": "ILLAHO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lebrio-des-mottes",
+        "name": "LEBRIO DES MOTTES",
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 11 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lumino-bello",
+        "name": "LUMINO BELLO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "benou",
+        "name": "BENOU",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 4 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "kucharsky",
+        "name": "KUCHARSKY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "tante-zena-l.philipperon",
+        "name": "TANTE ZENA L.PHILIPPERON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "master-nonantais",
+        "name": "MASTER NONANTAIS",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "amy-du-kiff",
+      "johnny-roque",
+      "caligramme",
+      "lebrio-des-mottes",
+      "benou",
+      "master-nonantais"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "le-petit-cheval": 0.071277,
+      "pascard-de-beausse": 0.285108,
+      "amy-du-kiff": 0.061094,
+      "quel-patron-tho-.journiac": 0.034213,
+      "pickland": 0.025157,
+      "johnny-roque": 0.038878,
+      "caligramme": 0.023759,
+      "illaho": 0.050313,
+      "ginja-des-taillons": 0.031679,
+      "lebrio-des-mottes": 0.025157,
+      "lumino-bello": 0.030547,
+      "benou": 0.037188,
+      "kucharsky": 0.019891,
+      "tante-zena-l.philipperon": 0.077757,
+      "kalibre": 0.122189,
+      "master-nonantais": 0.065794
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "amy-du-kiff",
+      "le-petit-cheval",
+      "master-nonantais",
+      "benou",
+      "johnny-roque"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.636,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 2.1191,
+      "stabilite_seeds": 8.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "LE PETIT CHEVAL : recent_places",
+      "LE PETIT CHEVAL : driver",
+      "LE PETIT CHEVAL : aptitude",
+      "PASCARD DE BEAUSSE : recent_places",
+      "PASCARD DE BEAUSSE : driver",
+      "PASCARD DE BEAUSSE : aptitude",
+      "AMY DU KIFF : recent_places",
+      "AMY DU KIFF : driver",
+      "AMY DU KIFF : aptitude",
+      "QUEL PATRON THO .JOURNIAC : recent_places",
+      "QUEL PATRON THO .JOURNIAC : driver",
+      "QUEL PATRON THO .JOURNIAC : aptitude",
+      "PICKLAND : recent_places",
+      "PICKLAND : driver",
+      "PICKLAND : aptitude",
+      "JOHNNY ROQUE : recent_places",
+      "JOHNNY ROQUE : driver",
+      "JOHNNY ROQUE : aptitude",
+      "CALIGRAMME : recent_places",
+      "CALIGRAMME : driver",
+      "CALIGRAMME : aptitude",
+      "ILLAHO : recent_places",
+      "ILLAHO : driver",
+      "ILLAHO : aptitude",
+      "GINJA DES TAILLONS : recent_places",
+      "GINJA DES TAILLONS : driver",
+      "GINJA DES TAILLONS : aptitude",
+      "LEBRIO DES MOTTES : recent_places",
+      "LEBRIO DES MOTTES : driver",
+      "LEBRIO DES MOTTES : aptitude",
+      "LUMINO BELLO : recent_places",
+      "LUMINO BELLO : driver",
+      "LUMINO BELLO : aptitude",
+      "BENOU : recent_places",
+      "BENOU : driver",
+      "BENOU : aptitude",
+      "KUCHARSKY : recent_places",
+      "KUCHARSKY : driver",
+      "KUCHARSKY : aptitude",
+      "TANTE ZENA L.PHILIPPERON : recent_places",
+      "TANTE ZENA L.PHILIPPERON : driver",
+      "TANTE ZENA L.PHILIPPERON : aptitude",
+      "KALIBRE : recent_places",
+      "KALIBRE : driver",
+      "KALIBRE : aptitude",
+      "MASTER NONANTAIS : recent_places",
+      "MASTER NONANTAIS : driver",
+      "MASTER NONANTAIS : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.42 (saturé à 2.0) → 2.1/10",
+      "stabilité inter-seeds = 80% → 8.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-07T13:15:00+00:00",
+    "betting_close": "2026-10-07T13:05:00+00:00",
+    "race_started": true,
+    "now": "2026-10-11T00:45:47.512292+00:00",
+    "minutes_late": 5020.79,
+    "minutes_to_close": -5020.79,
+    "schedule": {
+      "start_ouagadougou": "2026-10-07T13:15:00+00:00",
+      "start_paris": "2026-10-07T15:15:00+02:00",
+      "close_lonab": "2026-10-07T13:05:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "AMY DU KIFF",
+      "horse_id": "amy-du-kiff"
+    },
+    {
+      "rang": 2,
+      "cheval": "LE PETIT CHEVAL",
+      "horse_id": "le-petit-cheval"
+    },
+    {
+      "rang": 3,
+      "cheval": "MASTER NONANTAIS",
+      "horse_id": "master-nonantais"
+    },
+    {
+      "rang": 4,
+      "cheval": "BENOU",
+      "horse_id": "benou"
+    },
+    {
+      "rang": 5,
+      "cheval": "JOHNNY ROQUE",
+      "horse_id": "johnny-roque"
+    },
+    {
+      "rang": 6,
+      "cheval": "KALIBRE",
+      "horse_id": "kalibre"
+    },
+    {
+      "rang": 7,
+      "cheval": "ILLAHO",
+      "horse_id": "illaho"
+    },
+    {
+      "rang": 8,
+      "cheval": "CALIGRAMME",
+      "horse_id": "caligramme"
+    },
+    {
+      "rang": 9,
+      "cheval": "GINJA DES TAILLONS",
+      "horse_id": "ginja-des-taillons"
+    },
+    {
+      "rang": 10,
+      "cheval": "QUEL PATRON THO .JOURNIAC",
+      "horse_id": "quel-patron-tho-.journiac"
+    },
+    {
+      "rang": 11,
+      "cheval": "LEBRIO DES MOTTES",
+      "horse_id": "lebrio-des-mottes"
+    },
+    {
+      "rang": 12,
+      "cheval": "LUMINO BELLO",
+      "horse_id": "lumino-bello"
+    },
+    {
+      "rang": 13,
+      "cheval": "TANTE ZENA L.PHILIPPERON",
+      "horse_id": "tante-zena-l.philipperon"
+    },
+    {
+      "rang": 14,
+      "cheval": "PICKLAND",
+      "horse_id": "pickland"
+    },
+    {
+      "rang": 15,
+      "cheval": "KUCHARSKY",
+      "horse_id": "kucharsky"
+    },
+    {
+      "rang": 16,
+      "cheval": "PASCARD DE BEAUSSE",
+      "horse_id": "pascard-de-beausse"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "AMY DU KIFF",
+      "score": 10.0
+    },
+    {
+      "cheval": "LE PETIT CHEVAL",
+      "score": 9.5762
+    },
+    {
+      "cheval": "MASTER NONANTAIS",
+      "score": 9.4565
+    },
+    {
+      "cheval": "BENOU",
+      "score": 9.409
+    },
+    {
+      "cheval": "JOHNNY ROQUE",
+      "score": 9.3743
+    },
+    {
+      "cheval": "KALIBRE",
+      "score": 9.2734
+    },
+    {
+      "cheval": "ILLAHO",
+      "score": 9.2365
+    },
+    {
+      "cheval": "CALIGRAMME",
+      "score": 9.2169
+    },
+    {
+      "cheval": "GINJA DES TAILLONS",
+      "score": 9.2012
+    },
+    {
+      "cheval": "QUEL PATRON THO .JOURNIAC",
+      "score": 9.1418
+    },
+    {
+      "cheval": "LEBRIO DES MOTTES",
+      "score": 9.0629
+    },
+    {
+      "cheval": "LUMINO BELLO",
+      "score": 8.9939
+    },
+    {
+      "cheval": "TANTE ZENA L.PHILIPPERON",
+      "score": 8.9452
+    },
+    {
+      "cheval": "PICKLAND",
+      "score": 8.9385
+    },
+    {
+      "cheval": "PASCARD DE BEAUSSE",
+      "score": 8.9014
+    },
+    {
+      "cheval": "KUCHARSKY",
+      "score": 8.8849
+    }
+  ],
+  "stored_at": "2026-10-11T00:45:47.513643+00:00"
+}
