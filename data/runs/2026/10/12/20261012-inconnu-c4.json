@@ -1,0 +1,1757 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261012-inconnu-c4",
+  "date": "2026-10-12",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-10-12",
+    "start_time": "2026-10-08T11:55:00+00:00",
+    "race_number": 4,
+    "name": "PRIX JACQUES ROSSI (PRIX JULES MORGAN)",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_12-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-12T01:06:45.711425+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "bayamoon",
+        "name": "BAYAMOON",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "windflower",
+        "name": "WINDFLOWER",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "morphewan",
+        "name": "MORPHEWAN",
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "plata-d-octobre",
+        "name": "PLATA D OCTOBRE",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "linfasommer",
+        "name": "LINFASOMMER",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "boogie",
+        "name": "BOOGIE",
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "amedras",
+        "name": "AMEDRAS",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "starnberg",
+        "name": "STARNBERG",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "comme-quoi",
+        "name": "COMME QUOI",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "max-verst",
+        "name": "MAX VERST",
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mets-le-feu",
+        "name": "METS LE FEU",
+        "odds_pdf": 29.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "nous-y-sommes",
+        "name": "NOUS Y SOMMES",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "treatwood",
+        "name": "TREATWOOD",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "BAYAMOON (bayamoon) : aucune cote récente disponible",
+      "WINDFLOWER (windflower) : aucune cote récente disponible",
+      "MORPHEWAN (morphewan) : aucune cote récente disponible",
+      "PLATA D OCTOBRE (plata-d-octobre) : aucune cote récente disponible",
+      "LINFASOMMER (linfasommer) : aucune cote récente disponible",
+      "BOOGIE (boogie) : aucune cote récente disponible",
+      "AMEDRAS (amedras) : aucune cote récente disponible",
+      "STARNBERG (starnberg) : aucune cote récente disponible",
+      "COMME QUOI (comme-quoi) : aucune cote récente disponible",
+      "LOHENGREEN (lohengreen) : aucune cote récente disponible",
+      "MAX VERST (max-verst) : aucune cote récente disponible",
+      "GOLD PLAYER (gold-player) : aucune cote récente disponible",
+      "METS LE FEU (mets-le-feu) : aucune cote récente disponible",
+      "NOUS Y SOMMES (nous-y-sommes) : aucune cote récente disponible",
+      "TREATWOOD (treatwood) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "bayamoon",
+      "windflower",
+      "morphewan",
+      "plata-d-octobre",
+      "linfasommer",
+      "boogie",
+      "amedras",
+      "starnberg",
+      "comme-quoi",
+      "lohengreen",
+      "max-verst",
+      "gold-player",
+      "mets-le-feu",
+      "nous-y-sommes",
+      "treatwood"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "amedras",
+        "name": "AMEDRAS",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "morphewan",
+        "name": "MORPHEWAN",
+        "dimensions": {
+          "historique": 9.894333563182192,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8943,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "max-verst",
+        "name": "MAX VERST",
+        "dimensions": {
+          "historique": 9.762344354428144,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7623,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "dimensions": {
+          "historique": 9.529718571795993,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5297,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "linfasommer",
+        "name": "LINFASOMMER",
+        "dimensions": {
+          "historique": 9.424805087596873,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4248,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "boogie",
+        "name": "BOOGIE",
+        "dimensions": {
+          "historique": 9.411845126012299,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4118,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bayamoon",
+        "name": "BAYAMOON",
+        "dimensions": {
+          "historique": 9.165030885515762,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.165,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "treatwood",
+        "name": "TREATWOOD",
+        "dimensions": {
+          "historique": 9.16088332716802,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1609,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "comme-quoi",
+        "name": "COMME QUOI",
+        "dimensions": {
+          "historique": 9.129789831745953,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1298,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "starnberg",
+        "name": "STARNBERG",
+        "dimensions": {
+          "historique": 9.019457171021582,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0195,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "windflower",
+        "name": "WINDFLOWER",
+        "dimensions": {
+          "historique": 8.83718518966616,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8372,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "plata-d-octobre",
+        "name": "PLATA D OCTOBRE",
+        "dimensions": {
+          "historique": 8.647182720756309,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6472,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "dimensions": {
+          "historique": 8.192549026520554,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.1925,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "nous-y-sommes",
+        "name": "NOUS Y SOMMES",
+        "dimensions": {
+          "historique": 8.150600785257446,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.1506,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mets-le-feu",
+        "name": "METS LE FEU",
+        "dimensions": {
+          "historique": 8.148500765027137,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.1485,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "amedras",
+      "morphewan",
+      "max-verst",
+      "gold-player",
+      "linfasommer",
+      "boogie",
+      "bayamoon",
+      "treatwood",
+      "comme-quoi",
+      "starnberg",
+      "windflower",
+      "plata-d-octobre",
+      "lohengreen",
+      "nous-y-sommes",
+      "mets-le-feu"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "bayamoon": {
+          "horse_id": "bayamoon",
+          "name": "BAYAMOON",
+          "p_win": 0.06674,
+          "p_top3": 0.20006,
+          "p_top5": 0.3381,
+          "expected_position": 7.8603,
+          "position_distribution": {
+            "1": 0.06674,
+            "2": 0.06532,
+            "3": 0.068,
+            "4": 0.0685,
+            "5": 0.06954,
+            "6": 0.06692,
+            "7": 0.06914,
+            "8": 0.07132,
+            "9": 0.0692,
+            "10": 0.06892,
+            "11": 0.06932,
+            "12": 0.06784,
+            "13": 0.0674,
+            "14": 0.0612,
+            "15": 0.05064
+          }
+        },
+        "windflower": {
+          "horse_id": "windflower",
+          "name": "WINDFLOWER",
+          "p_win": 0.05624,
+          "p_top3": 0.1724,
+          "p_top5": 0.29612,
+          "expected_position": 8.4443,
+          "position_distribution": {
+            "1": 0.05624,
+            "2": 0.05816,
+            "3": 0.058,
+            "4": 0.06156,
+            "5": 0.06216,
+            "6": 0.06206,
+            "7": 0.06368,
+            "8": 0.06454,
+            "9": 0.0678,
+            "10": 0.06882,
+            "11": 0.07366,
+            "12": 0.07266,
+            "13": 0.07756,
+            "14": 0.07914,
+            "15": 0.07396
+          }
+        },
+        "morphewan": {
+          "horse_id": "morphewan",
+          "name": "MORPHEWAN",
+          "p_win": 0.09528,
+          "p_top3": 0.27938,
+          "p_top5": 0.44924,
+          "expected_position": 6.5424,
+          "position_distribution": {
+            "1": 0.09528,
+            "2": 0.09336,
+            "3": 0.09074,
+            "4": 0.08688,
+            "5": 0.08298,
+            "6": 0.08026,
+            "7": 0.07594,
+            "8": 0.07166,
+            "9": 0.06858,
+            "10": 0.06194,
+            "11": 0.05526,
+            "12": 0.0505,
+            "13": 0.04008,
+            "14": 0.0303,
+            "15": 0.01624
+          }
+        },
+        "plata-d-octobre": {
+          "horse_id": "plata-d-octobre",
+          "name": "PLATA D OCTOBRE",
+          "p_win": 0.05064,
+          "p_top3": 0.15544,
+          "p_top5": 0.2667,
+          "expected_position": 8.8532,
+          "position_distribution": {
+            "1": 0.05064,
+            "2": 0.05178,
+            "3": 0.05302,
+            "4": 0.05524,
+            "5": 0.05602,
+            "6": 0.06078,
+            "7": 0.05946,
+            "8": 0.06116,
+            "9": 0.06512,
+            "10": 0.06912,
+            "11": 0.07128,
+            "12": 0.0763,
+            "13": 0.08442,
+            "14": 0.09066,
+            "15": 0.095
+          }
+        },
+        "linfasommer": {
+          "horse_id": "linfasommer",
+          "name": "LINFASOMMER",
+          "p_win": 0.07628,
+          "p_top3": 0.22462,
+          "p_top5": 0.37184,
+          "expected_position": 7.4111,
+          "position_distribution": {
+            "1": 0.07628,
+            "2": 0.07308,
+            "3": 0.07526,
+            "4": 0.07404,
+            "5": 0.07318,
+            "6": 0.07406,
+            "7": 0.07298,
+            "8": 0.07112,
+            "9": 0.07006,
+            "10": 0.06658,
+            "11": 0.06598,
+            "12": 0.06346,
+            "13": 0.05776,
+            "14": 0.05024,
+            "15": 0.03592
+          }
+        },
+        "boogie": {
+          "horse_id": "boogie",
+          "name": "BOOGIE",
+          "p_win": 0.075,
+          "p_top3": 0.22346,
+          "p_top5": 0.36858,
+          "expected_position": 7.4539,
+          "position_distribution": {
+            "1": 0.075,
+            "2": 0.07458,
+            "3": 0.07388,
+            "4": 0.07158,
+            "5": 0.07354,
+            "6": 0.07352,
+            "7": 0.07004,
+            "8": 0.07052,
+            "9": 0.07078,
+            "10": 0.06896,
+            "11": 0.06776,
+            "12": 0.0639,
+            "13": 0.05952,
+            "14": 0.05034,
+            "15": 0.03608
+          }
+        },
+        "amedras": {
+          "horse_id": "amedras",
+          "name": "AMEDRAS",
+          "p_win": 0.10122,
+          "p_top3": 0.2926,
+          "p_top5": 0.46712,
+          "expected_position": 6.3677,
+          "position_distribution": {
+            "1": 0.10122,
+            "2": 0.09746,
+            "3": 0.09392,
+            "4": 0.09018,
+            "5": 0.08434,
+            "6": 0.0814,
+            "7": 0.07446,
+            "8": 0.07248,
+            "9": 0.06584,
+            "10": 0.05998,
+            "11": 0.05366,
+            "12": 0.04672,
+            "13": 0.0364,
+            "14": 0.02766,
+            "15": 0.01428
+          }
+        },
+        "starnberg": {
+          "horse_id": "starnberg",
+          "name": "STARNBERG",
+          "p_win": 0.061,
+          "p_top3": 0.18348,
+          "p_top5": 0.31224,
+          "expected_position": 8.1647,
+          "position_distribution": {
+            "1": 0.061,
+            "2": 0.06104,
+            "3": 0.06144,
+            "4": 0.06404,
+            "5": 0.06472,
+            "6": 0.06654,
+            "7": 0.06816,
+            "8": 0.0675,
+            "9": 0.06998,
+            "10": 0.07088,
+            "11": 0.0707,
+            "12": 0.07202,
+            "13": 0.06982,
+            "14": 0.06946,
+            "15": 0.0627
+          }
+        },
+        "comme-quoi": {
+          "horse_id": "comme-quoi",
+          "name": "COMME QUOI",
+          "p_win": 0.06554,
+          "p_top3": 0.19876,
+          "p_top5": 0.33196,
+          "expected_position": 7.9245,
+          "position_distribution": {
+            "1": 0.06554,
+            "2": 0.06678,
+            "3": 0.06644,
+            "4": 0.06614,
+            "5": 0.06706,
+            "6": 0.06664,
+            "7": 0.06932,
+            "8": 0.0685,
+            "9": 0.06984,
+            "10": 0.07252,
+            "11": 0.06886,
+            "12": 0.068,
+            "13": 0.06694,
+            "14": 0.0656,
+            "15": 0.05182
+          }
+        },
+        "lohengreen": {
+          "horse_id": "lohengreen",
+          "name": "LOHENGREEN",
+          "p_win": 0.03964,
+          "p_top3": 0.1262,
+          "p_top5": 0.2153,
+          "expected_position": 9.6711,
+          "position_distribution": {
+            "1": 0.03964,
+            "2": 0.0428,
+            "3": 0.04376,
+            "4": 0.04432,
+            "5": 0.04478,
+            "6": 0.04884,
+            "7": 0.05406,
+            "8": 0.05596,
+            "9": 0.05956,
+            "10": 0.06534,
+            "11": 0.06964,
+            "12": 0.07902,
+            "13": 0.09164,
+            "14": 0.11034,
+            "15": 0.1503
+          }
+        },
+        "max-verst": {
+          "horse_id": "max-verst",
+          "name": "MAX VERST",
+          "p_win": 0.08872,
+          "p_top3": 0.26234,
+          "p_top5": 0.42586,
+          "expected_position": 6.7924,
+          "position_distribution": {
+            "1": 0.08872,
+            "2": 0.08828,
+            "3": 0.08534,
+            "4": 0.08362,
+            "5": 0.0799,
+            "6": 0.07758,
+            "7": 0.07594,
+            "8": 0.0739,
+            "9": 0.0685,
+            "10": 0.06342,
+            "11": 0.06006,
+            "12": 0.05186,
+            "13": 0.04576,
+            "14": 0.0365,
+            "15": 0.02062
+          }
+        },
+        "gold-player": {
+          "horse_id": "gold-player",
+          "name": "GOLD PLAYER",
+          "p_win": 0.0781,
+          "p_top3": 0.23434,
+          "p_top5": 0.38894,
+          "expected_position": 7.2157,
+          "position_distribution": {
+            "1": 0.0781,
+            "2": 0.07922,
+            "3": 0.07702,
+            "4": 0.0782,
+            "5": 0.0764,
+            "6": 0.07502,
+            "7": 0.0725,
+            "8": 0.07274,
+            "9": 0.07,
+            "10": 0.06658,
+            "11": 0.06468,
+            "12": 0.06126,
+            "13": 0.05486,
+            "14": 0.0431,
+            "15": 0.03032
+          }
+        },
+        "mets-le-feu": {
+          "horse_id": "mets-le-feu",
+          "name": "METS LE FEU",
+          "p_win": 0.04008,
+          "p_top3": 0.1222,
+          "p_top5": 0.21426,
+          "expected_position": 9.7201,
+          "position_distribution": {
+            "1": 0.04008,
+            "2": 0.04024,
+            "3": 0.04188,
+            "4": 0.04424,
+            "5": 0.04782,
+            "6": 0.04904,
+            "7": 0.052,
+            "8": 0.0566,
+            "9": 0.05792,
+            "10": 0.06322,
+            "11": 0.07112,
+            "12": 0.07854,
+            "13": 0.09058,
+            "14": 0.10978,
+            "15": 0.15694
+          }
+        },
+        "nous-y-sommes": {
+          "horse_id": "nous-y-sommes",
+          "name": "NOUS Y SOMMES",
+          "p_win": 0.03918,
+          "p_top3": 0.12308,
+          "p_top5": 0.21578,
+          "expected_position": 9.7107,
+          "position_distribution": {
+            "1": 0.03918,
+            "2": 0.0403,
+            "3": 0.0436,
+            "4": 0.04494,
+            "5": 0.04776,
+            "6": 0.04956,
+            "7": 0.05338,
+            "8": 0.0544,
+            "9": 0.05824,
+            "10": 0.06272,
+            "11": 0.0685,
+            "12": 0.07874,
+            "13": 0.09144,
+            "14": 0.11168,
+            "15": 0.15556
+          }
+        },
+        "treatwood": {
+          "horse_id": "treatwood",
+          "name": "TREATWOOD",
+          "p_win": 0.06634,
+          "p_top3": 0.20164,
+          "p_top5": 0.33796,
+          "expected_position": 7.8678,
+          "position_distribution": {
+            "1": 0.06634,
+            "2": 0.0676,
+            "3": 0.0677,
+            "4": 0.06652,
+            "5": 0.0698,
+            "6": 0.06778,
+            "7": 0.06894,
+            "8": 0.0676,
+            "9": 0.06858,
+            "10": 0.071,
+            "11": 0.06952,
+            "12": 0.06918,
+            "13": 0.06582,
+            "14": 0.064,
+            "15": 0.04962
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "amedras",
+          "morphewan",
+          "max-verst"
+        ],
+        "23": [
+          "amedras",
+          "morphewan",
+          "max-verst"
+        ],
+        "37": [
+          "amedras",
+          "morphewan",
+          "max-verst"
+        ],
+        "51": [
+          "amedras",
+          "morphewan",
+          "max-verst"
+        ],
+        "73": [
+          "amedras",
+          "morphewan",
+          "max-verst"
+        ]
+      },
+      "reference_top": [
+        "amedras",
+        "max-verst",
+        "morphewan"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "amedras": 10.0,
+        "morphewan": 5.0,
+        "max-verst": 0.0
+      },
+      "order": [
+        "amedras",
+        "morphewan",
+        "max-verst"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "amedras": 14.0,
+        "morphewan": 13.0,
+        "max-verst": 12.0,
+        "gold-player": 11.0,
+        "linfasommer": 10.0,
+        "boogie": 9.0,
+        "bayamoon": 8.0,
+        "treatwood": 7.0,
+        "comme-quoi": 6.0,
+        "starnberg": 5.0,
+        "windflower": 4.0,
+        "plata-d-octobre": 3.0,
+        "lohengreen": 2.0,
+        "nous-y-sommes": 1.0,
+        "mets-le-feu": 0.0
+      },
+      "order": [
+        "amedras",
+        "morphewan",
+        "max-verst",
+        "gold-player",
+        "linfasommer",
+        "boogie",
+        "bayamoon",
+        "treatwood",
+        "comme-quoi",
+        "starnberg",
+        "windflower",
+        "plata-d-octobre",
+        "lohengreen",
+        "nous-y-sommes",
+        "mets-le-feu"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "amedras",
+        "morphewan",
+        "max-verst",
+        "gold-player",
+        "linfasommer",
+        "boogie",
+        "bayamoon",
+        "treatwood",
+        "comme-quoi",
+        "starnberg",
+        "windflower",
+        "plata-d-octobre",
+        "lohengreen",
+        "nous-y-sommes",
+        "mets-le-feu"
+      ],
+      "copeland": {
+        "amedras": 14.0,
+        "morphewan": 12.0,
+        "max-verst": 10.0,
+        "gold-player": 8.0,
+        "linfasommer": 6.0,
+        "boogie": 4.0,
+        "bayamoon": 2.0,
+        "treatwood": 0.0,
+        "comme-quoi": -2.0,
+        "starnberg": -4.0,
+        "windflower": -6.0,
+        "plata-d-octobre": -8.0,
+        "lohengreen": -10.0,
+        "nous-y-sommes": -12.0,
+        "mets-le-feu": -14.0
+      },
+      "normalized": {
+        "amedras": 1.0,
+        "morphewan": 0.9286,
+        "max-verst": 0.8571,
+        "gold-player": 0.7857,
+        "linfasommer": 0.7143,
+        "boogie": 0.6429,
+        "bayamoon": 0.5714,
+        "treatwood": 0.5,
+        "comme-quoi": 0.4286,
+        "starnberg": 0.3571,
+        "windflower": 0.2857,
+        "plata-d-octobre": 0.2143,
+        "lohengreen": 0.1429,
+        "nous-y-sommes": 0.0714,
+        "mets-le-feu": 0.0
+      },
+      "mean_rank": {
+        "amedras": 0.0,
+        "morphewan": 1.0,
+        "max-verst": 2.0,
+        "gold-player": 3.0,
+        "linfasommer": 4.0,
+        "boogie": 5.0,
+        "bayamoon": 6.0,
+        "treatwood": 7.0,
+        "comme-quoi": 8.0,
+        "starnberg": 9.0,
+        "windflower": 10.0,
+        "plata-d-octobre": 11.0,
+        "lohengreen": 12.0,
+        "nous-y-sommes": 13.0,
+        "mets-le-feu": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "bayamoon",
+        "name": "BAYAMOON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "windflower",
+        "name": "WINDFLOWER",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "morphewan",
+        "name": "MORPHEWAN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "plata-d-octobre",
+        "name": "PLATA D OCTOBRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "linfasommer",
+        "name": "LINFASOMMER",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 5 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "boogie",
+        "name": "BOOGIE",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 6 vs marché 13)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "amedras",
+        "name": "AMEDRAS",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 1 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "starnberg",
+        "name": "STARNBERG",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "comme-quoi",
+        "name": "COMME QUOI",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "max-verst",
+        "name": "MAX VERST",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 3 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 4 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "mets-le-feu",
+        "name": "METS LE FEU",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "nous-y-sommes",
+        "name": "NOUS Y SOMMES",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "treatwood",
+        "name": "TREATWOOD",
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 8 vs marché 15)"
+        ],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "linfasommer",
+      "boogie",
+      "amedras",
+      "max-verst",
+      "gold-player",
+      "treatwood"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "bayamoon": 0.088576,
+      "windflower": 0.095958,
+      "morphewan": 0.143936,
+      "plata-d-octobre": 0.04606,
+      "linfasommer": 0.042648,
+      "boogie": 0.038383,
+      "amedras": 0.050065,
+      "starnberg": 0.071968,
+      "comme-quoi": 0.076766,
+      "lohengreen": 0.082249,
+      "max-verst": 0.054833,
+      "gold-player": 0.033867,
+      "mets-le-feu": 0.039707,
+      "nous-y-sommes": 0.104681,
+      "treatwood": 0.030302
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "amedras",
+      "morphewan",
+      "max-verst",
+      "gold-player",
+      "linfasommer"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.658,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.5283,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "BAYAMOON : recent_places",
+      "BAYAMOON : driver",
+      "BAYAMOON : aptitude",
+      "WINDFLOWER : recent_places",
+      "WINDFLOWER : driver",
+      "WINDFLOWER : aptitude",
+      "MORPHEWAN : recent_places",
+      "MORPHEWAN : driver",
+      "MORPHEWAN : aptitude",
+      "PLATA D OCTOBRE : recent_places",
+      "PLATA D OCTOBRE : driver",
+      "PLATA D OCTOBRE : aptitude",
+      "LINFASOMMER : recent_places",
+      "LINFASOMMER : driver",
+      "LINFASOMMER : aptitude",
+      "BOOGIE : recent_places",
+      "BOOGIE : driver",
+      "BOOGIE : aptitude",
+      "AMEDRAS : recent_places",
+      "AMEDRAS : driver",
+      "AMEDRAS : aptitude",
+      "STARNBERG : recent_places",
+      "STARNBERG : driver",
+      "STARNBERG : aptitude",
+      "COMME QUOI : recent_places",
+      "COMME QUOI : driver",
+      "COMME QUOI : aptitude",
+      "LOHENGREEN : recent_places",
+      "LOHENGREEN : driver",
+      "LOHENGREEN : aptitude",
+      "MAX VERST : recent_places",
+      "MAX VERST : driver",
+      "MAX VERST : aptitude",
+      "GOLD PLAYER : recent_places",
+      "GOLD PLAYER : driver",
+      "GOLD PLAYER : aptitude",
+      "METS LE FEU : recent_places",
+      "METS LE FEU : driver",
+      "METS LE FEU : aptitude",
+      "NOUS Y SOMMES : recent_places",
+      "NOUS Y SOMMES : driver",
+      "NOUS Y SOMMES : aptitude",
+      "TREATWOOD : recent_places",
+      "TREATWOOD : driver",
+      "TREATWOOD : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-08T11:55:00+00:00",
+    "betting_close": "2026-10-08T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-12T01:06:45.763110+00:00",
+    "minutes_late": 5121.76,
+    "minutes_to_close": -5121.76,
+    "schedule": {
+      "start_ouagadougou": "2026-10-08T11:55:00+00:00",
+      "start_paris": "2026-10-08T13:55:00+02:00",
+      "close_lonab": "2026-10-08T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "AMEDRAS",
+      "horse_id": "amedras"
+    },
+    {
+      "rang": 2,
+      "cheval": "MORPHEWAN",
+      "horse_id": "morphewan"
+    },
+    {
+      "rang": 3,
+      "cheval": "MAX VERST",
+      "horse_id": "max-verst"
+    },
+    {
+      "rang": 4,
+      "cheval": "GOLD PLAYER",
+      "horse_id": "gold-player"
+    },
+    {
+      "rang": 5,
+      "cheval": "LINFASOMMER",
+      "horse_id": "linfasommer"
+    },
+    {
+      "rang": 6,
+      "cheval": "BOOGIE",
+      "horse_id": "boogie"
+    },
+    {
+      "rang": 7,
+      "cheval": "BAYAMOON",
+      "horse_id": "bayamoon"
+    },
+    {
+      "rang": 8,
+      "cheval": "TREATWOOD",
+      "horse_id": "treatwood"
+    },
+    {
+      "rang": 9,
+      "cheval": "COMME QUOI",
+      "horse_id": "comme-quoi"
+    },
+    {
+      "rang": 10,
+      "cheval": "STARNBERG",
+      "horse_id": "starnberg"
+    },
+    {
+      "rang": 11,
+      "cheval": "WINDFLOWER",
+      "horse_id": "windflower"
+    },
+    {
+      "rang": 12,
+      "cheval": "PLATA D OCTOBRE",
+      "horse_id": "plata-d-octobre"
+    },
+    {
+      "rang": 13,
+      "cheval": "LOHENGREEN",
+      "horse_id": "lohengreen"
+    },
+    {
+      "rang": 14,
+      "cheval": "NOUS Y SOMMES",
+      "horse_id": "nous-y-sommes"
+    },
+    {
+      "rang": 15,
+      "cheval": "METS LE FEU",
+      "horse_id": "mets-le-feu"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "AMEDRAS",
+      "score": 10.0
+    },
+    {
+      "cheval": "MORPHEWAN",
+      "score": 9.8943
+    },
+    {
+      "cheval": "MAX VERST",
+      "score": 9.7623
+    },
+    {
+      "cheval": "GOLD PLAYER",
+      "score": 9.5297
+    },
+    {
+      "cheval": "LINFASOMMER",
+      "score": 9.4248
+    },
+    {
+      "cheval": "BOOGIE",
+      "score": 9.4118
+    },
+    {
+      "cheval": "BAYAMOON",
+      "score": 9.165
+    },
+    {
+      "cheval": "TREATWOOD",
+      "score": 9.1609
+    },
+    {
+      "cheval": "COMME QUOI",
+      "score": 9.1298
+    },
+    {
+      "cheval": "STARNBERG",
+      "score": 9.0195
+    },
+    {
+      "cheval": "WINDFLOWER",
+      "score": 8.8372
+    },
+    {
+      "cheval": "PLATA D OCTOBRE",
+      "score": 8.6472
+    },
+    {
+      "cheval": "LOHENGREEN",
+      "score": 8.1925
+    },
+    {
+      "cheval": "NOUS Y SOMMES",
+      "score": 8.1506
+    },
+    {
+      "cheval": "METS LE FEU",
+      "score": 8.1485
+    }
+  ],
+  "stored_at": "2026-10-12T01:06:45.766054+00:00"
+}
