@@ -1,0 +1,1756 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261013-parislongchamp-c1",
+  "date": "2026-10-13",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARISLONGCHAMP",
+    "date": "2026-10-13",
+    "start_time": "2026-10-09T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE LA GALERIE DES VARIETES",
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_13-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé ; repli hippodrome (ParisLongchamp : plat uniquement)",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-13T02:56:11.223791+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jusearth-fal",
+        "name": "JUSEARTH FAL",
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mr-fleurant",
+        "name": "MR FLEURANT",
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "aquitain",
+        "name": "AQUITAIN",
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "reve-de-vallarsa",
+        "name": "REVE DE VALLARSA",
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "reverso",
+        "name": "REVERSO",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "montgaudry",
+        "name": "MONTGAUDRY",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "bolkhov",
+        "name": "BOLKHOV",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "pumalin-park",
+        "name": "PUMALIN PARK",
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "duty",
+        "name": "DUTY",
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lord-of-war",
+        "name": "LORD OF WAR",
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "muenchen",
+        "name": "MUENCHEN",
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "galord",
+        "name": "GALORD",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "FELIX AUX ORMES (felix-aux-ormes) : aucune cote récente disponible",
+      "JUSEARTH FAL (jusearth-fal) : aucune cote récente disponible",
+      "MR FLEURANT (mr-fleurant) : aucune cote récente disponible",
+      "AQUITAIN (aquitain) : aucune cote récente disponible",
+      "REVE DE VALLARSA (reve-de-vallarsa) : aucune cote récente disponible",
+      "REVERSO (reverso) : aucune cote récente disponible",
+      "MONTGAUDRY (montgaudry) : aucune cote récente disponible",
+      "BOLKHOV (bolkhov) : aucune cote récente disponible",
+      "WOOD MING (wood-ming) : aucune cote récente disponible",
+      "PUMALIN PARK (pumalin-park) : aucune cote récente disponible",
+      "DUTY (duty) : aucune cote récente disponible",
+      "LORD OF WAR (lord-of-war) : aucune cote récente disponible",
+      "MUENCHEN (muenchen) : aucune cote récente disponible",
+      "HERMES WOOD (hermes-wood) : aucune cote récente disponible",
+      "GALORD (galord) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "felix-aux-ormes",
+      "jusearth-fal",
+      "mr-fleurant",
+      "aquitain",
+      "reve-de-vallarsa",
+      "reverso",
+      "montgaudry",
+      "bolkhov",
+      "wood-ming",
+      "pumalin-park",
+      "duty",
+      "lord-of-war",
+      "muenchen",
+      "hermes-wood",
+      "galord"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "reve-de-vallarsa",
+        "name": "REVE DE VALLARSA",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "reverso",
+        "name": "REVERSO",
+        "dimensions": {
+          "historique": 9.98807499823357,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9881,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "galord",
+        "name": "GALORD",
+        "dimensions": {
+          "historique": 9.95213347522759,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9521,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "dimensions": {
+          "historique": 9.825021494111436,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.825,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "montgaudry",
+        "name": "MONTGAUDRY",
+        "dimensions": {
+          "historique": 9.762632922427871,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7626,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lord-of-war",
+        "name": "LORD OF WAR",
+        "dimensions": {
+          "historique": 9.71392695742853,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7139,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mr-fleurant",
+        "name": "MR FLEURANT",
+        "dimensions": {
+          "historique": 9.55311807618832,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5531,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pumalin-park",
+        "name": "PUMALIN PARK",
+        "dimensions": {
+          "historique": 9.50496403231156,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.505,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "dimensions": {
+          "historique": 9.432368247147778,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4324,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "muenchen",
+        "name": "MUENCHEN",
+        "dimensions": {
+          "historique": 9.111977519967569,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.112,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "aquitain",
+        "name": "AQUITAIN",
+        "dimensions": {
+          "historique": 9.05622461001032,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0562,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bolkhov",
+        "name": "BOLKHOV",
+        "dimensions": {
+          "historique": 9.051507878048966,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0515,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "duty",
+        "name": "DUTY",
+        "dimensions": {
+          "historique": 9.044450726766103,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0445,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jusearth-fal",
+        "name": "JUSEARTH FAL",
+        "dimensions": {
+          "historique": 8.92398648068965,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.924,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "dimensions": {
+          "historique": 8.863336554742968,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.8633,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "reve-de-vallarsa",
+      "reverso",
+      "galord",
+      "felix-aux-ormes",
+      "montgaudry",
+      "lord-of-war",
+      "mr-fleurant",
+      "pumalin-park",
+      "hermes-wood",
+      "muenchen",
+      "aquitain",
+      "bolkhov",
+      "duty",
+      "jusearth-fal",
+      "wood-ming"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "felix-aux-ormes": {
+          "horse_id": "felix-aux-ormes",
+          "name": "FELIX AUX ORMES",
+          "p_win": 0.07918,
+          "p_top3": 0.23516,
+          "p_top5": 0.38602,
+          "expected_position": 7.2843,
+          "position_distribution": {
+            "1": 0.07918,
+            "2": 0.0784,
+            "3": 0.07758,
+            "4": 0.07618,
+            "5": 0.07468,
+            "6": 0.07298,
+            "7": 0.07314,
+            "8": 0.07266,
+            "9": 0.06894,
+            "10": 0.06484,
+            "11": 0.06392,
+            "12": 0.05754,
+            "13": 0.05308,
+            "14": 0.0494,
+            "15": 0.03748
+          }
+        },
+        "jusearth-fal": {
+          "horse_id": "jusearth-fal",
+          "name": "JUSEARTH FAL",
+          "p_win": 0.05014,
+          "p_top3": 0.15666,
+          "p_top5": 0.26632,
+          "expected_position": 8.9434,
+          "position_distribution": {
+            "1": 0.05014,
+            "2": 0.05192,
+            "3": 0.0546,
+            "4": 0.05364,
+            "5": 0.05602,
+            "6": 0.05652,
+            "7": 0.0604,
+            "8": 0.05898,
+            "9": 0.06396,
+            "10": 0.0652,
+            "11": 0.0718,
+            "12": 0.07266,
+            "13": 0.08108,
+            "14": 0.09238,
+            "15": 0.1107
+          }
+        },
+        "mr-fleurant": {
+          "horse_id": "mr-fleurant",
+          "name": "MR FLEURANT",
+          "p_win": 0.0694,
+          "p_top3": 0.20766,
+          "p_top5": 0.34524,
+          "expected_position": 7.8053,
+          "position_distribution": {
+            "1": 0.0694,
+            "2": 0.06796,
+            "3": 0.0703,
+            "4": 0.06822,
+            "5": 0.06936,
+            "6": 0.06764,
+            "7": 0.0692,
+            "8": 0.06862,
+            "9": 0.06824,
+            "10": 0.06834,
+            "11": 0.06746,
+            "12": 0.06638,
+            "13": 0.06376,
+            "14": 0.06162,
+            "15": 0.0535
+          }
+        },
+        "aquitain": {
+          "horse_id": "aquitain",
+          "name": "AQUITAIN",
+          "p_win": 0.05352,
+          "p_top3": 0.16316,
+          "p_top5": 0.2773,
+          "expected_position": 8.7578,
+          "position_distribution": {
+            "1": 0.05352,
+            "2": 0.0546,
+            "3": 0.05504,
+            "4": 0.05658,
+            "5": 0.05756,
+            "6": 0.06024,
+            "7": 0.05948,
+            "8": 0.06384,
+            "9": 0.06344,
+            "10": 0.06702,
+            "11": 0.06812,
+            "12": 0.07544,
+            "13": 0.0796,
+            "14": 0.08604,
+            "15": 0.09948
+          }
+        },
+        "reve-de-vallarsa": {
+          "horse_id": "reve-de-vallarsa",
+          "name": "REVE DE VALLARSA",
+          "p_win": 0.08654,
+          "p_top3": 0.25242,
+          "p_top5": 0.41126,
+          "expected_position": 6.9943,
+          "position_distribution": {
+            "1": 0.08654,
+            "2": 0.08448,
+            "3": 0.0814,
+            "4": 0.08094,
+            "5": 0.0779,
+            "6": 0.07688,
+            "7": 0.07328,
+            "8": 0.07034,
+            "9": 0.06826,
+            "10": 0.06454,
+            "11": 0.06048,
+            "12": 0.05512,
+            "13": 0.04888,
+            "14": 0.04194,
+            "15": 0.02902
+          }
+        },
+        "reverso": {
+          "horse_id": "reverso",
+          "name": "REVERSO",
+          "p_win": 0.08526,
+          "p_top3": 0.24972,
+          "p_top5": 0.40776,
+          "expected_position": 7.0389,
+          "position_distribution": {
+            "1": 0.08526,
+            "2": 0.08428,
+            "3": 0.08018,
+            "4": 0.07908,
+            "5": 0.07896,
+            "6": 0.07588,
+            "7": 0.0723,
+            "8": 0.0704,
+            "9": 0.06922,
+            "10": 0.06544,
+            "11": 0.06054,
+            "12": 0.05612,
+            "13": 0.05096,
+            "14": 0.04106,
+            "15": 0.03032
+          }
+        },
+        "montgaudry": {
+          "horse_id": "montgaudry",
+          "name": "MONTGAUDRY",
+          "p_win": 0.07718,
+          "p_top3": 0.22868,
+          "p_top5": 0.37766,
+          "expected_position": 7.4147,
+          "position_distribution": {
+            "1": 0.07718,
+            "2": 0.07536,
+            "3": 0.07614,
+            "4": 0.07622,
+            "5": 0.07276,
+            "6": 0.07184,
+            "7": 0.06934,
+            "8": 0.06942,
+            "9": 0.06978,
+            "10": 0.06666,
+            "11": 0.06346,
+            "12": 0.0628,
+            "13": 0.0557,
+            "14": 0.0526,
+            "15": 0.04074
+          }
+        },
+        "bolkhov": {
+          "horse_id": "bolkhov",
+          "name": "BOLKHOV",
+          "p_win": 0.0536,
+          "p_top3": 0.1607,
+          "p_top5": 0.27426,
+          "expected_position": 8.756,
+          "position_distribution": {
+            "1": 0.0536,
+            "2": 0.05286,
+            "3": 0.05424,
+            "4": 0.05494,
+            "5": 0.05862,
+            "6": 0.061,
+            "7": 0.06284,
+            "8": 0.06176,
+            "9": 0.06548,
+            "10": 0.06808,
+            "11": 0.07096,
+            "12": 0.0745,
+            "13": 0.07718,
+            "14": 0.08598,
+            "15": 0.09796
+          }
+        },
+        "wood-ming": {
+          "horse_id": "wood-ming",
+          "name": "WOOD MING",
+          "p_win": 0.0499,
+          "p_top3": 0.15152,
+          "p_top5": 0.25812,
+          "expected_position": 9.0673,
+          "position_distribution": {
+            "1": 0.0499,
+            "2": 0.04972,
+            "3": 0.0519,
+            "4": 0.05224,
+            "5": 0.05436,
+            "6": 0.05454,
+            "7": 0.0565,
+            "8": 0.06282,
+            "9": 0.06074,
+            "10": 0.06694,
+            "11": 0.0695,
+            "12": 0.07556,
+            "13": 0.08356,
+            "14": 0.09314,
+            "15": 0.11858
+          }
+        },
+        "pumalin-park": {
+          "horse_id": "pumalin-park",
+          "name": "PUMALIN PARK",
+          "p_win": 0.0656,
+          "p_top3": 0.19948,
+          "p_top5": 0.33274,
+          "expected_position": 7.9345,
+          "position_distribution": {
+            "1": 0.0656,
+            "2": 0.06804,
+            "3": 0.06584,
+            "4": 0.0658,
+            "5": 0.06746,
+            "6": 0.06824,
+            "7": 0.0691,
+            "8": 0.06946,
+            "9": 0.0674,
+            "10": 0.06816,
+            "11": 0.06942,
+            "12": 0.06596,
+            "13": 0.06752,
+            "14": 0.06516,
+            "15": 0.05684
+          }
+        },
+        "duty": {
+          "horse_id": "duty",
+          "name": "DUTY",
+          "p_win": 0.05354,
+          "p_top3": 0.16176,
+          "p_top5": 0.27564,
+          "expected_position": 8.7666,
+          "position_distribution": {
+            "1": 0.05354,
+            "2": 0.05352,
+            "3": 0.0547,
+            "4": 0.05694,
+            "5": 0.05694,
+            "6": 0.05966,
+            "7": 0.06048,
+            "8": 0.06248,
+            "9": 0.06526,
+            "10": 0.0671,
+            "11": 0.07032,
+            "12": 0.07504,
+            "13": 0.07952,
+            "14": 0.08528,
+            "15": 0.09922
+          }
+        },
+        "lord-of-war": {
+          "horse_id": "lord-of-war",
+          "name": "LORD OF WAR",
+          "p_win": 0.07372,
+          "p_top3": 0.22094,
+          "p_top5": 0.36746,
+          "expected_position": 7.5168,
+          "position_distribution": {
+            "1": 0.07372,
+            "2": 0.07364,
+            "3": 0.07358,
+            "4": 0.07412,
+            "5": 0.0724,
+            "6": 0.07156,
+            "7": 0.0698,
+            "8": 0.06942,
+            "9": 0.07054,
+            "10": 0.06798,
+            "11": 0.06382,
+            "12": 0.06394,
+            "13": 0.06064,
+            "14": 0.05158,
+            "15": 0.04326
+          }
+        },
+        "muenchen": {
+          "horse_id": "muenchen",
+          "name": "MUENCHEN",
+          "p_win": 0.0549,
+          "p_top3": 0.16756,
+          "p_top5": 0.2852,
+          "expected_position": 8.6317,
+          "position_distribution": {
+            "1": 0.0549,
+            "2": 0.05538,
+            "3": 0.05728,
+            "4": 0.0574,
+            "5": 0.06024,
+            "6": 0.06106,
+            "7": 0.06148,
+            "8": 0.0634,
+            "9": 0.06526,
+            "10": 0.06854,
+            "11": 0.07106,
+            "12": 0.07226,
+            "13": 0.07728,
+            "14": 0.0836,
+            "15": 0.09086
+          }
+        },
+        "hermes-wood": {
+          "horse_id": "hermes-wood",
+          "name": "HERMES WOOD",
+          "p_win": 0.06336,
+          "p_top3": 0.19588,
+          "p_top5": 0.32744,
+          "expected_position": 8.0319,
+          "position_distribution": {
+            "1": 0.06336,
+            "2": 0.06546,
+            "3": 0.06706,
+            "4": 0.0668,
+            "5": 0.06476,
+            "6": 0.06724,
+            "7": 0.06964,
+            "8": 0.06528,
+            "9": 0.06596,
+            "10": 0.0666,
+            "11": 0.06894,
+            "12": 0.07102,
+            "13": 0.06934,
+            "14": 0.06744,
+            "15": 0.0611
+          }
+        },
+        "galord": {
+          "horse_id": "galord",
+          "name": "GALORD",
+          "p_win": 0.08416,
+          "p_top3": 0.2487,
+          "p_top5": 0.40758,
+          "expected_position": 7.0564,
+          "position_distribution": {
+            "1": 0.08416,
+            "2": 0.08438,
+            "3": 0.08016,
+            "4": 0.0809,
+            "5": 0.07798,
+            "6": 0.07472,
+            "7": 0.07302,
+            "8": 0.07112,
+            "9": 0.06752,
+            "10": 0.06456,
+            "11": 0.0602,
+            "12": 0.05566,
+            "13": 0.0519,
+            "14": 0.04278,
+            "15": 0.03094
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "reve-de-vallarsa",
+          "reverso",
+          "galord"
+        ],
+        "23": [
+          "reve-de-vallarsa",
+          "galord",
+          "reverso"
+        ],
+        "37": [
+          "reve-de-vallarsa",
+          "reverso",
+          "galord"
+        ],
+        "51": [
+          "galord",
+          "reverso",
+          "reve-de-vallarsa"
+        ],
+        "73": [
+          "reverso",
+          "galord",
+          "reve-de-vallarsa"
+        ]
+      },
+      "reference_top": [
+        "galord",
+        "reve-de-vallarsa",
+        "reverso"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "reve-de-vallarsa": 6.0,
+        "reverso": 5.0,
+        "galord": 4.0
+      },
+      "order": [
+        "reve-de-vallarsa",
+        "reverso",
+        "galord"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "reve-de-vallarsa": 14.0,
+        "reverso": 13.0,
+        "galord": 12.0,
+        "felix-aux-ormes": 11.0,
+        "montgaudry": 10.0,
+        "lord-of-war": 9.0,
+        "mr-fleurant": 8.0,
+        "pumalin-park": 7.0,
+        "hermes-wood": 6.0,
+        "muenchen": 5.0,
+        "aquitain": 4.0,
+        "bolkhov": 3.0,
+        "duty": 2.0,
+        "jusearth-fal": 1.0,
+        "wood-ming": 0.0
+      },
+      "order": [
+        "reve-de-vallarsa",
+        "reverso",
+        "galord",
+        "felix-aux-ormes",
+        "montgaudry",
+        "lord-of-war",
+        "mr-fleurant",
+        "pumalin-park",
+        "hermes-wood",
+        "muenchen",
+        "aquitain",
+        "bolkhov",
+        "duty",
+        "jusearth-fal",
+        "wood-ming"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "reve-de-vallarsa",
+        "reverso",
+        "galord",
+        "felix-aux-ormes",
+        "montgaudry",
+        "lord-of-war",
+        "mr-fleurant",
+        "pumalin-park",
+        "hermes-wood",
+        "muenchen",
+        "aquitain",
+        "bolkhov",
+        "duty",
+        "jusearth-fal",
+        "wood-ming"
+      ],
+      "copeland": {
+        "reve-de-vallarsa": 14.0,
+        "reverso": 12.0,
+        "galord": 10.0,
+        "felix-aux-ormes": 8.0,
+        "montgaudry": 6.0,
+        "lord-of-war": 4.0,
+        "mr-fleurant": 2.0,
+        "pumalin-park": 0.0,
+        "hermes-wood": -2.0,
+        "muenchen": -4.0,
+        "bolkhov": -6.5,
+        "aquitain": -6.5,
+        "duty": -10.0,
+        "jusearth-fal": -12.0,
+        "wood-ming": -14.0
+      },
+      "normalized": {
+        "reve-de-vallarsa": 1.0,
+        "reverso": 0.9286,
+        "galord": 0.8571,
+        "felix-aux-ormes": 0.7857,
+        "montgaudry": 0.7143,
+        "lord-of-war": 0.6429,
+        "mr-fleurant": 0.5714,
+        "pumalin-park": 0.5,
+        "hermes-wood": 0.4286,
+        "muenchen": 0.3571,
+        "bolkhov": 0.2679,
+        "aquitain": 0.2679,
+        "duty": 0.1429,
+        "jusearth-fal": 0.0714,
+        "wood-ming": 0.0
+      },
+      "mean_rank": {
+        "reve-de-vallarsa": 0.0,
+        "reverso": 1.0,
+        "galord": 2.0,
+        "felix-aux-ormes": 3.0,
+        "montgaudry": 4.0,
+        "lord-of-war": 5.0,
+        "mr-fleurant": 6.0,
+        "pumalin-park": 7.0,
+        "hermes-wood": 8.0,
+        "muenchen": 9.0,
+        "bolkhov": 10.5,
+        "aquitain": 10.5,
+        "duty": 12.0,
+        "jusearth-fal": 13.0,
+        "wood-ming": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jusearth-fal",
+        "name": "JUSEARTH FAL",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mr-fleurant",
+        "name": "MR FLEURANT",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 7 vs marché 15)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "aquitain",
+        "name": "AQUITAIN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "reve-de-vallarsa",
+        "name": "REVE DE VALLARSA",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 1 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "reverso",
+        "name": "REVERSO",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "montgaudry",
+        "name": "MONTGAUDRY",
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 5 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "bolkhov",
+        "name": "BOLKHOV",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pumalin-park",
+        "name": "PUMALIN PARK",
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 8 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "duty",
+        "name": "DUTY",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lord-of-war",
+        "name": "LORD OF WAR",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "muenchen",
+        "name": "MUENCHEN",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "galord",
+        "name": "GALORD",
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "felix-aux-ormes",
+      "mr-fleurant",
+      "reve-de-vallarsa",
+      "reverso",
+      "montgaudry",
+      "pumalin-park"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "felix-aux-ormes": 0.073128,
+      "jusearth-fal": 0.03521,
+      "mr-fleurant": 0.025018,
+      "aquitain": 0.041333,
+      "reve-de-vallarsa": 0.043212,
+      "reverso": 0.063378,
+      "montgaudry": 0.029708,
+      "bolkhov": 0.038027,
+      "wood-ming": 0.079222,
+      "pumalin-park": 0.027961,
+      "duty": 0.135809,
+      "lord-of-war": 0.052815,
+      "muenchen": 0.10563,
+      "hermes-wood": 0.059417,
+      "galord": 0.190133
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "reve-de-vallarsa",
+      "reverso",
+      "galord",
+      "felix-aux-ormes",
+      "montgaudry"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 4.518,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.0596,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "FELIX AUX ORMES : recent_places",
+      "FELIX AUX ORMES : driver",
+      "FELIX AUX ORMES : aptitude",
+      "JUSEARTH FAL : recent_places",
+      "JUSEARTH FAL : driver",
+      "JUSEARTH FAL : aptitude",
+      "MR FLEURANT : recent_places",
+      "MR FLEURANT : driver",
+      "MR FLEURANT : aptitude",
+      "AQUITAIN : recent_places",
+      "AQUITAIN : driver",
+      "AQUITAIN : aptitude",
+      "REVE DE VALLARSA : recent_places",
+      "REVE DE VALLARSA : driver",
+      "REVE DE VALLARSA : aptitude",
+      "REVERSO : recent_places",
+      "REVERSO : driver",
+      "REVERSO : aptitude",
+      "MONTGAUDRY : recent_places",
+      "MONTGAUDRY : driver",
+      "MONTGAUDRY : aptitude",
+      "BOLKHOV : recent_places",
+      "BOLKHOV : driver",
+      "BOLKHOV : aptitude",
+      "WOOD MING : recent_places",
+      "WOOD MING : driver",
+      "WOOD MING : aptitude",
+      "PUMALIN PARK : recent_places",
+      "PUMALIN PARK : driver",
+      "PUMALIN PARK : aptitude",
+      "DUTY : recent_places",
+      "DUTY : driver",
+      "DUTY : aptitude",
+      "LORD OF WAR : recent_places",
+      "LORD OF WAR : driver",
+      "LORD OF WAR : aptitude",
+      "MUENCHEN : recent_places",
+      "MUENCHEN : driver",
+      "MUENCHEN : aptitude",
+      "HERMES WOOD : recent_places",
+      "HERMES WOOD : driver",
+      "HERMES WOOD : aptitude",
+      "GALORD : recent_places",
+      "GALORD : driver",
+      "GALORD : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.01 (saturé à 2.0) → 0.1/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-09T11:55:00+00:00",
+    "betting_close": "2026-10-09T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-13T02:56:11.251333+00:00",
+    "minutes_late": 5231.19,
+    "minutes_to_close": -5231.19,
+    "schedule": {
+      "start_ouagadougou": "2026-10-09T11:55:00+00:00",
+      "start_paris": "2026-10-09T13:55:00+02:00",
+      "close_lonab": "2026-10-09T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "REVE DE VALLARSA",
+      "horse_id": "reve-de-vallarsa"
+    },
+    {
+      "rang": 2,
+      "cheval": "REVERSO",
+      "horse_id": "reverso"
+    },
+    {
+      "rang": 3,
+      "cheval": "GALORD",
+      "horse_id": "galord"
+    },
+    {
+      "rang": 4,
+      "cheval": "FELIX AUX ORMES",
+      "horse_id": "felix-aux-ormes"
+    },
+    {
+      "rang": 5,
+      "cheval": "MONTGAUDRY",
+      "horse_id": "montgaudry"
+    },
+    {
+      "rang": 6,
+      "cheval": "LORD OF WAR",
+      "horse_id": "lord-of-war"
+    },
+    {
+      "rang": 7,
+      "cheval": "MR FLEURANT",
+      "horse_id": "mr-fleurant"
+    },
+    {
+      "rang": 8,
+      "cheval": "PUMALIN PARK",
+      "horse_id": "pumalin-park"
+    },
+    {
+      "rang": 9,
+      "cheval": "HERMES WOOD",
+      "horse_id": "hermes-wood"
+    },
+    {
+      "rang": 10,
+      "cheval": "MUENCHEN",
+      "horse_id": "muenchen"
+    },
+    {
+      "rang": 11,
+      "cheval": "AQUITAIN",
+      "horse_id": "aquitain"
+    },
+    {
+      "rang": 12,
+      "cheval": "BOLKHOV",
+      "horse_id": "bolkhov"
+    },
+    {
+      "rang": 13,
+      "cheval": "DUTY",
+      "horse_id": "duty"
+    },
+    {
+      "rang": 14,
+      "cheval": "JUSEARTH FAL",
+      "horse_id": "jusearth-fal"
+    },
+    {
+      "rang": 15,
+      "cheval": "WOOD MING",
+      "horse_id": "wood-ming"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "REVE DE VALLARSA",
+      "score": 10.0
+    },
+    {
+      "cheval": "REVERSO",
+      "score": 9.9881
+    },
+    {
+      "cheval": "GALORD",
+      "score": 9.9521
+    },
+    {
+      "cheval": "FELIX AUX ORMES",
+      "score": 9.825
+    },
+    {
+      "cheval": "MONTGAUDRY",
+      "score": 9.7626
+    },
+    {
+      "cheval": "LORD OF WAR",
+      "score": 9.7139
+    },
+    {
+      "cheval": "MR FLEURANT",
+      "score": 9.5531
+    },
+    {
+      "cheval": "PUMALIN PARK",
+      "score": 9.505
+    },
+    {
+      "cheval": "HERMES WOOD",
+      "score": 9.4324
+    },
+    {
+      "cheval": "MUENCHEN",
+      "score": 9.112
+    },
+    {
+      "cheval": "AQUITAIN",
+      "score": 9.0562
+    },
+    {
+      "cheval": "BOLKHOV",
+      "score": 9.0515
+    },
+    {
+      "cheval": "DUTY",
+      "score": 9.0445
+    },
+    {
+      "cheval": "JUSEARTH FAL",
+      "score": 8.924
+    },
+    {
+      "cheval": "WOOD MING",
+      "score": 8.8633
+    }
+  ],
+  "stored_at": "2026-10-13T02:56:11.252461+00:00"
+}
