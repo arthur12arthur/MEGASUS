@@ -81,6 +81,7 @@ class TestParsing:
         assert race.meta.race_number == 1
         assert race.meta.distance_m == 2550
         assert race.meta.discipline is Discipline.TROT_ATTELE
+        assert race.meta.race_type == "ATTELE"
         assert (race.meta.betting_close.hour, race.meta.betting_close.minute) == (11, 45)
         assert (race.meta.start_time.hour, race.meta.start_time.minute) == (11, 55)
         assert any(h.number == 1 and h.name.startswith("KOTKIE") for h in race.horses)

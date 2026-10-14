@@ -72,7 +72,7 @@ _REAL_RACE_NUMBER_RE = re.compile(
     r"(?:[ÈE]RE|[ÈE]ME|E)?\s+COURSE\b", re.IGNORECASE,
 )
 _REAL_RACE_TYPE_RE = re.compile(
-    r"^\s*\d+\s+CONCURRENTS\s+-\s+.*?COURSE\s+-\s+"
+    r"(?<![A-ZÀ-ÖØ-Ý])\d+\s+CONCURRENTS\s+-\s+.*?COURSE\s+-\s+"
     r"(?P<type>[A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý '\-]+?)\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
