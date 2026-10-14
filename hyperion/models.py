@@ -286,6 +286,21 @@ class Race:
         """Identifiant de cheval -> nom affichable."""
         return {h.horse_id: h.name for h in self.horses}
 
+    def numbers_map(self) -> dict[str, int | None]:
+        """Identifiant de cheval -> numéro de corde/dossard tel qu'au journal."""
+        return {h.horse_id: h.number for h in self.horses}
+
+    def display_names_map(self) -> dict[str, str]:
+        """Identifiant de cheval -> "n°X · Nom", pour les rapports et messages.
+
+        Le numéro est celui imprimé au journal LONAB : c'est lui que
+        l'utilisateur rapproche de l'arrivée officielle, jamais le seul nom.
+        """
+        return {
+            h.horse_id: f"n°{h.number} · {h.name}" if h.number is not None else h.name
+            for h in self.horses
+        }
+
     def order_by_odds(self) -> list[Horse]:
         """Partants triés par cote croissante ; les chevaux sans cote en dernier."""
         return sorted(

@@ -157,7 +157,10 @@ def cmd_demo(args: argparse.Namespace) -> int:
         print("VÉRITÉ (capacité latente, non vue par le système) :")
         for position, horse_id in enumerate(synthetic.true_ranking()[:5], start=1):
             horse = synthetic.race.by_id(horse_id)
-            print(f"  {position}. {horse.name if horse else horse_id}")
+            if horse and horse.number is not None:
+                print(f"  {position}. n°{horse.number} · {horse.name}")
+            else:
+                print(f"  {position}. {horse.name if horse else horse_id}")
     return 0
 
 

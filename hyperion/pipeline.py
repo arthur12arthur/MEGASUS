@@ -70,6 +70,16 @@ class PipelineResult:
     def names(self) -> dict[str, str]:
         return {h.horse_id: h.name for h in self.race.runners}
 
+    def numbers(self) -> dict[str, int | None]:
+        return {h.horse_id: h.number for h in self.race.runners}
+
+    def display_names(self) -> dict[str, str]:
+        """Nom précédé du numéro au journal — c'est ce que les blocs affichent."""
+        return {
+            h.horse_id: (f"n°{h.number} · {h.name}" if h.number is not None else h.name)
+            for h in self.race.runners
+        }
+
     def as_record(self) -> dict[str, Any]:
         return dict(self.record)
 
@@ -182,6 +192,7 @@ def _build_record(
 ) -> dict[str, Any]:
     race = result.race
     names = result.names()
+    numbers = result.numbers()
     return {
         "kind": "daily_analysis",
         "race_id": race.race_id,
@@ -204,11 +215,20 @@ def _build_record(
         "delai": result.out_of_deadline.as_dict(),
         "relais": _relay_context(race),
         "classement": [
-            {"rang": i, "cheval": names.get(h, h), "horse_id": h}
+            {
+                "rang": i,
+                "numero": numbers.get(h),
+                "cheval": names.get(h, h),
+                "horse_id": h,
+            }
             for i, h in enumerate(result.consensus.ranking, start=1)
         ],
         "competitivite": [
-            {"cheval": names.get(s.horse_id, s.horse_id), "score": round(s.competitiveness, 4)}
+            {
+                "numero": s.number,
+                "cheval": names.get(s.horse_id, s.horse_id),
+                "score": round(s.competitiveness, 4),
+            }
             for s in result.scorer.ordered()
         ],
     }
@@ -220,7 +240,7 @@ def _build_blocks(
 ) -> dict[str, str]:
     """Messages courts thématiques (préférence confirmée de l'utilisateur)."""
     race = result.race
-    names = result.names()
+    names = result.display_names()
     from hyperion.delivery import Delivery
 
     delivery = Delivery()

@@ -38,6 +38,11 @@ class MarketSignal:
     direction: str                 # "raccourci" | "derive" | "stable" | "inconnu"
     non_runner_alert: bool = False
     note: str = ""
+    number: int | None = None
+
+    @property
+    def display_name(self) -> str:
+        return f"n°{self.number} · {self.name}" if self.number is not None else self.name
 
     @property
     def shortened(self) -> bool:
@@ -51,6 +56,7 @@ class MarketSignal:
         return {
             "horse_id": self.horse_id,
             "name": self.name,
+            "number": self.number,
             "odds_pdf": self.odds_pdf,
             "odds_latest": self.odds_latest,
             "delta": self.delta,
@@ -142,6 +148,7 @@ class MarketWatch:
                 MarketSignal(
                     horse_id=horse.horse_id,
                     name=horse.name,
+                    number=horse.number,
                     odds_pdf=horse.odds_pdf,
                     odds_latest=fresh,
                     delta=delta,
@@ -170,13 +177,13 @@ def summarise(result: MarketWatchResult) -> str:
     ]
     for sig in result.signals:
         if sig.non_runner_alert:
-            lines.append(f"  ⚠ {sig.name} : non-partant tardif")
+            lines.append(f"  ⚠ {sig.display_name} : non-partant tardif")
         elif sig.delta is None:
-            lines.append(f"  · {sig.name} : cote non comparable")
+            lines.append(f"  · {sig.display_name} : cote non comparable")
         else:
             arrow = "▼" if sig.delta < 0 else ("▲" if sig.delta > 0 else "=")
             lines.append(
-                f"  {arrow} {sig.name} : {sig.odds_pdf} → {sig.odds_latest} "
+                f"  {arrow} {sig.display_name} : {sig.odds_pdf} → {sig.odds_latest} "
                 f"({sig.delta * 100:+.0f}%) {sig.direction}"
             )
     return "\n".join(lines)

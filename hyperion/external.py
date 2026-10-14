@@ -394,7 +394,7 @@ def summarise(
     divergences: Mapping[str, Sequence[str]] | None = None,
 ) -> str:
     """Résumé lisible — deux blocs distincts, comme spécifié."""
-    names = {h.horse_id: h.name for h in race.runners}
+    names = race.display_names_map()
     lines = ["ExternalConsensus — panel de référence (comparaison seulement)"]
     lines.append(f"  Sources du panel consultées : {', '.join(result.panel_consulted) or 'aucune'}")
     if result.additional_found:

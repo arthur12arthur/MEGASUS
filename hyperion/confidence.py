@@ -117,7 +117,8 @@ def data_completeness(race: Race, discipline: Discipline | None = None) -> tuple
             if _horse_field_present(horse, field_name, discipline):
                 present += 1
             else:
-                missing.append(f"{horse.name} : {field_name}")
+                label = f"n°{horse.number} · {horse.name}" if horse.number is not None else horse.name
+                missing.append(f"{label} : {field_name}")
     return (present / total if total else 0.0), missing
 
 

@@ -88,16 +88,23 @@ class HorseScore:
 
     horse_id: str
     name: str
+    number: int | None = None
     dimensions: dict[str, float | None] = field(default_factory=dict)
     weights_used: dict[str, float] = field(default_factory=dict)
     competitiveness: float = 0.0
     undetermined: list[str] = field(default_factory=list)
     detail: dict[str, Any] = field(default_factory=dict)
 
+    @property
+    def display_name(self) -> str:
+        """Nom précédé du numéro de corde/dossard, tel qu'il figure au journal."""
+        return f"n°{self.number} · {self.name}" if self.number is not None else self.name
+
     def as_dict(self) -> dict[str, Any]:
         return {
             "horse_id": self.horse_id,
             "name": self.name,
+            "number": self.number,
             "dimensions": dict(self.dimensions),
             "weights_used": dict(self.weights_used),
             "competitiveness": round(self.competitiveness, 4),
@@ -402,6 +409,7 @@ class BaseScorer:
                 HorseScore(
                     horse_id=horse.horse_id,
                     name=horse.name,
+                    number=horse.number,
                     dimensions=dims,
                     weights_used=weights_used,
                     competitiveness=competitiveness,
@@ -429,7 +437,7 @@ def summarise(result: ScorerResult, top: int = 5) -> str:
             f"{name} {'—' if item.dimensions[name] is None else f'{item.dimensions[name]:.1f}'}"
             for name in DIMENSIONS
         )
-        lines.append(f"  {rank}. {item.name} — compétitivité {item.competitiveness:.2f}")
+        lines.append(f"  {rank}. {item.display_name} — compétitivité {item.competitiveness:.2f}")
         lines.append(f"       {dims}")
         if item.undetermined:
             lines.append(f"       non déterminé : {', '.join(item.undetermined)}")

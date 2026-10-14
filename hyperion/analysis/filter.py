@@ -43,6 +43,11 @@ class Exclusion:
     name: str
     reason: str
     risk_points: int
+    number: int | None = None
+
+    @property
+    def display_name(self) -> str:
+        return f"n°{self.number} · {self.name}" if self.number is not None else self.name
 
 
 @dataclass
@@ -67,6 +72,7 @@ class FilterResult:
                 {
                     "horse_id": e.horse_id,
                     "name": e.name,
+                    "number": e.number,
                     "reason": e.reason,
                     "risk_points": e.risk_points,
                 }
@@ -156,7 +162,8 @@ class DataFilter:
             result.reasons[horse.horse_id] = reasons
             if points >= 99:
                 result.excluded.append(
-                    Exclusion(horse.horse_id, horse.name, "non-partant tardif", points)
+                    Exclusion(horse.horse_id, horse.name, "non-partant tardif", points,
+                              number=horse.number)
                 )
                 continue
             if points >= self.settings.filter_threshold_points:
@@ -166,6 +173,7 @@ class DataFilter:
                         horse.name,
                         f"score de risque {points} ≥ seuil {self.settings.filter_threshold_points}",
                         points,
+                        number=horse.number,
                     )
                 )
                 continue
@@ -222,10 +230,11 @@ def summarise(result: FilterResult, race: Race) -> str:
     for hid in result.selected:
         horse = race.by_id(hid)
         if horse:
-            lines.append(f"    ✓ {horse.name}")
+            label = f"n°{horse.number} · {horse.name}" if horse.number is not None else horse.name
+            lines.append(f"    ✓ {label}")
     lines.append(f"  Écartés : {len(result.excluded)}")
     for exc in result.excluded:
-        lines.append(f"    ✗ {exc.name} — {exc.reason}")
+        lines.append(f"    ✗ {exc.display_name} — {exc.reason}")
     if result.notes:
         lines.append("  Notes :")
         lines.extend(f"    · {note}" for note in result.notes)

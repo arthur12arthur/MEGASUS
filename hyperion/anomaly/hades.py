@@ -39,13 +39,19 @@ class HadesSignal:
 
     horse_id: str
     name: str
+    number: int | None = None
     signals: list[str] = field(default_factory=list)
     severity: str = "faible"  # "faible" | "moyenne" | "forte"
+
+    @property
+    def display_name(self) -> str:
+        return f"n°{self.number} · {self.name}" if self.number is not None else self.name
 
     def as_dict(self) -> dict[str, Any]:
         return {
             "horse_id": self.horse_id,
             "name": self.name,
+            "number": self.number,
             "signals": list(self.signals),
             "severity": self.severity,
         }
@@ -176,6 +182,7 @@ class HADES:
                 HadesSignal(
                     horse_id=horse.horse_id,
                     name=horse.name,
+                    number=horse.number,
                     signals=signals,
                     severity=severity if signals else "faible",
                 )
@@ -190,7 +197,7 @@ def summarise(result: HadesResult) -> str:
     if not flagged:
         lines.append("  Aucun signal retenu.")
     for sig in flagged:
-        lines.append(f"  ◆ {sig.name} — sévérité {sig.severity}")
+        lines.append(f"  ◆ {sig.display_name} — sévérité {sig.severity}")
         lines.extend(f"      · {text}" for text in sig.signals)
     return "\n".join(lines)
 
