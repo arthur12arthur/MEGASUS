@@ -82,7 +82,7 @@ _GAINS_ODDS = re.compile(
 _DRIVER = re.compile(r"[A-Z]{1,3}(?:\.[A-Z]{1,10})+")
 _REAL_HEADER = re.compile(
     r"(?<![A-ZÀ-ÖØ-Ý])(?P<place>[A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý' .-]{2,})\s+-\s+"
-    r"(?P<name>PRIX\s+[A-ZÀ-ÖØ-Ý0-9' .-]+?)(?=\s*$)",
+    r"(?P<name>[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9' .-]+?)(?=\s*(?:\(|$))",
     re.MULTILINE,
 )
 _REAL_RACE_NUMBER = re.compile(

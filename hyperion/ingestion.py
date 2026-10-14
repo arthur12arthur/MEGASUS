@@ -41,6 +41,17 @@ _MEETING_RE = re.compile(
 _DATE_RE = re.compile(
     r"(?P<day>\d{1,2})[/\-.]\s*(?P<month>\d{1,2})[/\-.]\s*(?P<year>\d{2,4})"
 )
+_TEXTUAL_DATE_RE = re.compile(
+    r"\b(?:du|le)\s+(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)?\s*"
+    r"(?P<day>\d{1,2})\s+(?P<month>[A-Za-zÀ-ÿ]+)\s+(?P<year>\d{4})\b",
+    re.IGNORECASE,
+)
+_MONTHS = {
+    "janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4,
+    "mai": 5, "juin": 6, "juillet": 7, "août": 8, "aout": 8,
+    "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12,
+    "decembre": 12,
+}
 _TIME_RE = re.compile(r"(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})")
 #: Heure de départ explicite, ex. « Départ 14h15 » (heure de Ouagadougou dans le programme LONAB).
 _START_RE = re.compile(
@@ -48,7 +59,22 @@ _START_RE = re.compile(
 )
 #: Clôture des enjeux LONAB, ex. « Clôture des paris 14h05 ».
 _CLOSE_RE = re.compile(
-    r"cl[ôo]ture[^\d\n]{0,30}(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})", re.IGNORECASE
+    r"(?:cl[ôo]ture|arr[êe]t\s+des\s+jeux)[^\d\n]{0,40}"
+    r"(?P<hour>\d{1,2})\s*[h:]\s*(?P<minute>\d{2})", re.IGNORECASE
+)
+_REAL_HEADER_RE = re.compile(
+    r"(?<![A-ZÀ-ÖØ-Ý])(?P<place>[A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý' .-]{1,})\s+-\s+"
+    r"(?P<name>[A-ZÀ-ÖØ-Ý0-9][A-ZÀ-ÖØ-Ý0-9' .-]{2,}?)(?=\s*\(|\s*$)",
+    re.MULTILINE,
+)
+_REAL_RACE_NUMBER_RE = re.compile(
+    r"\b\d+\s+CONCURRENTS\s+-\s+(?P<number>\d+)"
+    r"(?:[ÈE]RE|[ÈE]ME|E)?\s+COURSE\b", re.IGNORECASE,
+)
+_REAL_RACE_TYPE_RE = re.compile(
+    r"^\s*\d+\s+CONCURRENTS\s+-\s+.*?COURSE\s+-\s+"
+    r"(?P<type>[A-ZÀ-ÖØ-Ý][A-ZÀ-ÖØ-Ý '\-]+?)\s*$",
+    re.IGNORECASE | re.MULTILINE,
 )
 #: Nom de l'épreuve, ex. « Prix de Bretagne » ou « Grand Prix d'Amérique ».
 _NAME_RE = re.compile(
@@ -223,21 +249,52 @@ def parse_journal_text(
         # « PARIS-VINCENNES — Départ 14h15 » -> « PARIS-VINCENNES »
         hippodrome = re.split(r"\s[-–—]\s", match.group("place"))[0].strip(" -–—")
 
-    date_match = _DATE_RE.search(text)
+    # Le titre LONAB (« DU MERCREDI 14 OCTOBRE 2026 ») est prioritaire :
+    # les pages de résultats imprimées plus bas contiennent souvent des dates
+    # antérieures, qui ne doivent jamais devenir la date de cette course.
+    date_match = _TEXTUAL_DATE_RE.search(text)
     if date_match:
-        day = int(date_match.group("day"))
-        month = int(date_match.group("month"))
-        year = int(date_match.group("year"))
-        if year < 100:
-            year += 2000
-        try:
-            race_date = dt.date(year, month, day)
-        except ValueError:
-            report.warnings.append(f"date illisible dans le journal : {date_match.group(0)}")
+        month = _MONTHS.get(date_match.group("month").casefold())
+        if month:
+            try:
+                race_date = dt.date(
+                    int(date_match.group("year")), month, int(date_match.group("day"))
+                )
+            except ValueError:
+                report.warnings.append(f"date illisible dans le journal : {date_match.group(0)}")
+        else:
+            report.warnings.append(f"mois inconnu dans le journal : {date_match.group('month')}")
+    if date_match is None:
+        date_match = _DATE_RE.search(text)
+    if date_match:
+        # Une date textuelle a déjà été convertie ci-dessus.
+        if race_date is None and date_match.re is _DATE_RE:
+            day = int(date_match.group("day"))
+            month = int(date_match.group("month"))
+            year = int(date_match.group("year"))
+            if year < 100:
+                year += 2000
+            try:
+                race_date = dt.date(year, month, day)
+            except ValueError:
+                report.warnings.append(f"date illisible dans le journal : {date_match.group(0)}")
 
-    distance_match = re.search(r"(?P<m>\d{3,4})\s*m\b", text)
+    # Le gabarit officiel LONAB met l'hippodrome et l'épreuve sur une ligne
+    # « REIMS - GRAND NATIONAL DU TROT (...) », sans préfixe R1C1.
+    real_header = _REAL_HEADER_RE.search(text)
+    if real_header:
+        hippodrome = real_header.group("place").strip(" -–—")
+        race_name = real_header.group("name").strip(" -–—")
+    else:
+        race_name = None
+
+    distance_match = re.search(
+        r"(?P<m>\d{1,2}(?:\s\d{3})?|\d{3,4})\s*(?:m\b|mètres?\b|metres?\b)",
+        text,
+        re.IGNORECASE,
+    )
     if distance_match:
-        distance_m = int(distance_match.group("m"))
+        distance_m = int(distance_match.group("m").replace(" ", ""))
 
     def _at(found: re.Match[str] | None) -> dt.datetime | None:
         if not found or not race_date:
@@ -270,14 +327,25 @@ def parse_journal_text(
     number_match = _RACE_NUMBER_RE.search(text)
     if number_match:
         race_number = int(number_match.group("n1") or number_match.group("n2"))
+    if race_number is None:
+        real_number_match = _REAL_RACE_NUMBER_RE.search(text)
+        if real_number_match:
+            race_number = int(real_number_match.group("number"))
 
-    name_match = _NAME_RE.search(text)
-    race_name = name_match.group(1).strip() if name_match else None
+    detected_race_type = race_type
+    if detected_race_type is None:
+        real_type_match = _REAL_RACE_TYPE_RE.search(text)
+        if real_type_match:
+            detected_race_type = real_type_match.group("type").strip()
+
+    if race_name is None:
+        name_match = _NAME_RE.search(text)
+        race_name = name_match.group(1).strip() if name_match else None
     bet_type = relay.normalise_game(text)
     race_country, country_why = relay.race_country_for(hippodrome)
     report.warnings.append(f"pays de la course : {country_why}")
 
-    discipline, why = detect_discipline(race_type, free_text or text)
+    discipline, why = detect_discipline(detected_race_type, free_text or text)
     if discipline is Discipline.UNKNOWN:
         hinted, hint_why = relay.discipline_hint(hippodrome)
         if hinted is not None:
@@ -335,7 +403,7 @@ def parse_journal_text(
         name=race_name,
         distance_m=distance_m,
         discipline=discipline,
-        race_type=str(race_type) if race_type is not None else None,
+        race_type=str(detected_race_type) if detected_race_type is not None else None,
     )
     race_id = _race_id(meta, race_date)
     return Race(meta=meta, horses=horses, race_id=race_id), report

@@ -30,6 +30,16 @@ Réunion R1C4 - PARIS-VINCENNES — Prix de la République
 3  SAGESSE NOIRE  (H/OUEDRAOGO B.)  6a0a8a  300 000 FCFA  8.0
 """
 
+# Extrait verbatim du PDF LONAB du 14/10/2026, produit par pdftotext -layout.
+REAL_LONAB_EXCERPT = """\"4+1\" DU MERCREDI 14 OCTOBRE 2026
+REIMS - GRAND NATIONAL DU TROT (11ème Etape du G.N.T.)
+16 CONCURRENTS - 1ère COURSE - ATTELE
+90 000 EUROS ( ENV. 59 000 000 F CFA ) - 2 550 METRES
+ARRÊT DES JEUX EST FIXÉ : 11h 45mn
+DÉPART DE LA COURSE : 11h 55mn
+1 KOTKIE              P.PH. PLOQUIN J.R. DELLIAUX      EC. du DAMIER  F.6 2550.M 1.11.30 4.3.2.0.D 239 870 32/1 30/1
+"""
+
 
 class TestParsing:
     def test_parse_un_journal(self):
@@ -62,6 +72,19 @@ class TestParsing:
         assert race.meta.start_time.utcoffset() == dt.timedelta(0)
         assert race.meta.betting_close.hour == 15
         assert race.meta.betting_close.minute == 20
+
+    def test_gabarit_reel_lonab_metadonnees(self):
+        race, report = parse_journal_text(REAL_LONAB_EXCERPT)
+        assert race.meta.date == dt.date(2026, 10, 14)
+        assert race.meta.hippodrome == "REIMS"
+        assert race.meta.name == "GRAND NATIONAL DU TROT"
+        assert race.meta.race_number == 1
+        assert race.meta.distance_m == 2550
+        assert race.meta.discipline is Discipline.TROT_ATTELE
+        assert (race.meta.betting_close.hour, race.meta.betting_close.minute) == (11, 45)
+        assert (race.meta.start_time.hour, race.meta.start_time.minute) == (11, 55)
+        assert any(h.number == 1 and h.name.startswith("KOTKIE") for h in race.horses)
+        assert not any("10/10/2026" in warning for warning in report.warnings)
 
     def test_course_francaise_relayee(self):
         race, report = parse_journal_text(JOURNAL)
