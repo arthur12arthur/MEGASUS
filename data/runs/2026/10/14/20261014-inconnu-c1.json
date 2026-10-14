@@ -1,0 +1,1876 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261014-inconnu-c1",
+  "date": "2026-10-14",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": null,
+    "date": "2026-10-14",
+    "start_time": "2026-10-10T11:55:00+00:00",
+    "race_number": 1,
+    "name": null,
+    "distance_m": null,
+    "terrain": null,
+    "prize": null,
+    "discipline": "unknown",
+    "race_type": null,
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_14-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": null,
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "unknown",
+    "label": "Indéterminée",
+    "raison": "champ 'type de course' absent",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-14T01:01:56.596880+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "koureas-d-ela",
+        "name": "KOUREAS D'ELA",
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "if-i-tell-you",
+        "name": "IF I TELL YOU",
+        "odds_pdf": 42.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lord-delo",
+        "name": "LORD DELO",
+        "odds_pdf": 96.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hector-de-bassiere-a.-andre",
+        "name": "HECTOR DE BASSIERE A. ANDRE",
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "heureux-de-fleur-y.-lebourgeois",
+        "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jacomo-bello",
+        "name": "JACOMO BELLO",
+        "odds_pdf": 14.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "katchi-quick",
+        "name": "KATCHI QUICK",
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jango-vici",
+        "name": "JANGO VICI",
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "indus-val",
+        "name": "INDUS VAL",
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ialto-d-hertals",
+        "name": "IALTO D'HERTALS",
+        "odds_pdf": 19.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "just-de-l-oison",
+        "name": "JUST DE L'OISON",
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jingle-du-pont",
+        "name": "JINGLE DU PONT",
+        "odds_pdf": 127.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "KOTKIE (kotkie) : aucune cote récente disponible",
+      "KOUREAS D'ELA (koureas-d-ela) : aucune cote récente disponible",
+      "IF I TELL YOU (if-i-tell-you) : aucune cote récente disponible",
+      "LORD DELO (lord-delo) : aucune cote récente disponible",
+      "JENTIL DIESCHOOT (jentil-dieschoot) : aucune cote récente disponible",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. (kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.) : aucune cote récente disponible",
+      "HECTOR DE BASSIERE A. ANDRE (hector-de-bassiere-a.-andre) : aucune cote récente disponible",
+      "HEUREUX DE FLEUR Y. LEBOURGEOIS (heureux-de-fleur-y.-lebourgeois) : aucune cote récente disponible",
+      "JACOMO BELLO (jacomo-bello) : aucune cote récente disponible",
+      "KATCHI QUICK (katchi-quick) : aucune cote récente disponible",
+      "JANGO VICI (jango-vici) : aucune cote récente disponible",
+      "INDUS VAL (indus-val) : aucune cote récente disponible",
+      "IALTO D'HERTALS (ialto-d-hertals) : aucune cote récente disponible",
+      "HORATIUS D'ELA (horatius-d-ela) : aucune cote récente disponible",
+      "JUST DE L'OISON (just-de-l-oison) : aucune cote récente disponible",
+      "JINGLE DU PONT (jingle-du-pont) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "kotkie",
+      "koureas-d-ela",
+      "if-i-tell-you",
+      "lord-delo",
+      "jentil-dieschoot",
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+      "hector-de-bassiere-a.-andre",
+      "heureux-de-fleur-y.-lebourgeois",
+      "jacomo-bello",
+      "katchi-quick",
+      "jango-vici",
+      "indus-val",
+      "ialto-d-hertals",
+      "horatius-d-ela",
+      "just-de-l-oison",
+      "jingle-du-pont"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "unknown",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "jingle-du-pont",
+        "name": "JINGLE DU PONT",
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "just-de-l-oison",
+        "name": "JUST DE L'OISON",
+        "dimensions": {
+          "historique": 9.890270010801872,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8903,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "dimensions": {
+          "historique": 9.853385990195276,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8534,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ialto-d-hertals",
+        "name": "IALTO D'HERTALS",
+        "dimensions": {
+          "historique": 9.842239668288842,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8422,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "indus-val",
+        "name": "INDUS VAL",
+        "dimensions": {
+          "historique": 9.829844567121075,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8298,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jango-vici",
+        "name": "JANGO VICI",
+        "dimensions": {
+          "historique": 9.821838864516156,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8218,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "katchi-quick",
+        "name": "KATCHI QUICK",
+        "dimensions": {
+          "historique": 9.49997994763457,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jacomo-bello",
+        "name": "JACOMO BELLO",
+        "dimensions": {
+          "historique": 9.493514171525554,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4935,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "heureux-de-fleur-y.-lebourgeois",
+        "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "dimensions": {
+          "historique": 9.490597582289466,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4906,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hector-de-bassiere-a.-andre",
+        "name": "HECTOR DE BASSIERE A. ANDRE",
+        "dimensions": {
+          "historique": 9.47769967890256,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4777,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "dimensions": {
+          "historique": 9.464111237837036,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4641,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "dimensions": {
+          "historique": 9.408499703892302,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4085,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lord-delo",
+        "name": "LORD DELO",
+        "dimensions": {
+          "historique": 9.401081282549175,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4011,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "if-i-tell-you",
+        "name": "IF I TELL YOU",
+        "dimensions": {
+          "historique": 9.36246562854175,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3625,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "koureas-d-ela",
+        "name": "KOUREAS D'ELA",
+        "dimensions": {
+          "historique": 9.341764350685224,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3418,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "dimensions": {
+          "historique": 9.319317749988642,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3193,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "jingle-du-pont",
+      "just-de-l-oison",
+      "horatius-d-ela",
+      "ialto-d-hertals",
+      "indus-val",
+      "jango-vici",
+      "katchi-quick",
+      "heureux-de-fleur-y.-lebourgeois",
+      "jacomo-bello",
+      "hector-de-bassiere-a.-andre",
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+      "jentil-dieschoot",
+      "lord-delo",
+      "if-i-tell-you",
+      "kotkie",
+      "koureas-d-ela"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "kotkie": {
+          "horse_id": "kotkie",
+          "name": "KOTKIE",
+          "p_win": 0.05392,
+          "p_top3": 0.16538,
+          "p_top5": 0.27702,
+          "expected_position": 9.0291,
+          "position_distribution": {
+            "1": 0.05392,
+            "2": 0.05446,
+            "3": 0.057,
+            "4": 0.05662,
+            "5": 0.05502,
+            "6": 0.05768,
+            "7": 0.05856,
+            "8": 0.06014,
+            "9": 0.06082,
+            "10": 0.06088,
+            "11": 0.06352,
+            "12": 0.06612,
+            "13": 0.0679,
+            "14": 0.07004,
+            "15": 0.07214,
+            "16": 0.08518
+          }
+        },
+        "koureas-d-ela": {
+          "horse_id": "koureas-d-ela",
+          "name": "KOUREAS D'ELA",
+          "p_win": 0.05426,
+          "p_top3": 0.16328,
+          "p_top5": 0.27838,
+          "expected_position": 9.0475,
+          "position_distribution": {
+            "1": 0.05426,
+            "2": 0.05448,
+            "3": 0.05454,
+            "4": 0.05808,
+            "5": 0.05702,
+            "6": 0.05612,
+            "7": 0.05882,
+            "8": 0.05696,
+            "9": 0.0602,
+            "10": 0.06354,
+            "11": 0.06356,
+            "12": 0.06378,
+            "13": 0.067,
+            "14": 0.07272,
+            "15": 0.0744,
+            "16": 0.08452
+          }
+        },
+        "if-i-tell-you": {
+          "horse_id": "if-i-tell-you",
+          "name": "IF I TELL YOU",
+          "p_win": 0.05516,
+          "p_top3": 0.16686,
+          "p_top5": 0.27976,
+          "expected_position": 8.971,
+          "position_distribution": {
+            "1": 0.05516,
+            "2": 0.05628,
+            "3": 0.05542,
+            "4": 0.05506,
+            "5": 0.05784,
+            "6": 0.05924,
+            "7": 0.05818,
+            "8": 0.0617,
+            "9": 0.05972,
+            "10": 0.0604,
+            "11": 0.06484,
+            "12": 0.06512,
+            "13": 0.0698,
+            "14": 0.06932,
+            "15": 0.07352,
+            "16": 0.0784
+          }
+        },
+        "lord-delo": {
+          "horse_id": "lord-delo",
+          "name": "LORD DELO",
+          "p_win": 0.05662,
+          "p_top3": 0.17172,
+          "p_top5": 0.28706,
+          "expected_position": 8.8723,
+          "position_distribution": {
+            "1": 0.05662,
+            "2": 0.05754,
+            "3": 0.05756,
+            "4": 0.0576,
+            "5": 0.05774,
+            "6": 0.05886,
+            "7": 0.0598,
+            "8": 0.06094,
+            "9": 0.06148,
+            "10": 0.06242,
+            "11": 0.06346,
+            "12": 0.06432,
+            "13": 0.06564,
+            "14": 0.06766,
+            "15": 0.0722,
+            "16": 0.07616
+          }
+        },
+        "jentil-dieschoot": {
+          "horse_id": "jentil-dieschoot",
+          "name": "JENTIL DIESCHOOT",
+          "p_win": 0.05462,
+          "p_top3": 0.17046,
+          "p_top5": 0.28562,
+          "expected_position": 8.8818,
+          "position_distribution": {
+            "1": 0.05462,
+            "2": 0.05788,
+            "3": 0.05796,
+            "4": 0.05826,
+            "5": 0.0569,
+            "6": 0.05866,
+            "7": 0.0606,
+            "8": 0.06036,
+            "9": 0.06,
+            "10": 0.06296,
+            "11": 0.06436,
+            "12": 0.06568,
+            "13": 0.06838,
+            "14": 0.06864,
+            "15": 0.0705,
+            "16": 0.07424
+          }
+        },
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": {
+          "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+          "p_win": 0.05588,
+          "p_top3": 0.17136,
+          "p_top5": 0.29144,
+          "expected_position": 8.7889,
+          "position_distribution": {
+            "1": 0.05588,
+            "2": 0.05768,
+            "3": 0.0578,
+            "4": 0.05884,
+            "5": 0.06124,
+            "6": 0.06068,
+            "7": 0.05994,
+            "8": 0.06232,
+            "9": 0.06254,
+            "10": 0.06218,
+            "11": 0.06538,
+            "12": 0.06344,
+            "13": 0.06596,
+            "14": 0.0659,
+            "15": 0.06828,
+            "16": 0.07194
+          }
+        },
+        "hector-de-bassiere-a.-andre": {
+          "horse_id": "hector-de-bassiere-a.-andre",
+          "name": "HECTOR DE BASSIERE A. ANDRE",
+          "p_win": 0.05792,
+          "p_top3": 0.17386,
+          "p_top5": 0.29454,
+          "expected_position": 8.7396,
+          "position_distribution": {
+            "1": 0.05792,
+            "2": 0.05656,
+            "3": 0.05938,
+            "4": 0.0596,
+            "5": 0.06108,
+            "6": 0.0624,
+            "7": 0.061,
+            "8": 0.06142,
+            "9": 0.06214,
+            "10": 0.06434,
+            "11": 0.0615,
+            "12": 0.0633,
+            "13": 0.0636,
+            "14": 0.06702,
+            "15": 0.06986,
+            "16": 0.06888
+          }
+        },
+        "heureux-de-fleur-y.-lebourgeois": {
+          "horse_id": "heureux-de-fleur-y.-lebourgeois",
+          "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+          "p_win": 0.061,
+          "p_top3": 0.17814,
+          "p_top5": 0.2989,
+          "expected_position": 8.7139,
+          "position_distribution": {
+            "1": 0.061,
+            "2": 0.05912,
+            "3": 0.05802,
+            "4": 0.05874,
+            "5": 0.06202,
+            "6": 0.06018,
+            "7": 0.06146,
+            "8": 0.06076,
+            "9": 0.06096,
+            "10": 0.06058,
+            "11": 0.06284,
+            "12": 0.06512,
+            "13": 0.06458,
+            "14": 0.06692,
+            "15": 0.0686,
+            "16": 0.0691
+          }
+        },
+        "jacomo-bello": {
+          "horse_id": "jacomo-bello",
+          "name": "JACOMO BELLO",
+          "p_win": 0.05898,
+          "p_top3": 0.17604,
+          "p_top5": 0.29634,
+          "expected_position": 8.7144,
+          "position_distribution": {
+            "1": 0.05898,
+            "2": 0.0592,
+            "3": 0.05786,
+            "4": 0.06048,
+            "5": 0.05982,
+            "6": 0.06134,
+            "7": 0.06102,
+            "8": 0.06042,
+            "9": 0.06342,
+            "10": 0.06274,
+            "11": 0.06428,
+            "12": 0.06512,
+            "13": 0.06416,
+            "14": 0.06416,
+            "15": 0.06718,
+            "16": 0.06982
+          }
+        },
+        "katchi-quick": {
+          "horse_id": "katchi-quick",
+          "name": "KATCHI QUICK",
+          "p_win": 0.05938,
+          "p_top3": 0.1799,
+          "p_top5": 0.30096,
+          "expected_position": 8.6558,
+          "position_distribution": {
+            "1": 0.05938,
+            "2": 0.05944,
+            "3": 0.06108,
+            "4": 0.06176,
+            "5": 0.0593,
+            "6": 0.06236,
+            "7": 0.06102,
+            "8": 0.06204,
+            "9": 0.06128,
+            "10": 0.06312,
+            "11": 0.06264,
+            "12": 0.06392,
+            "13": 0.0653,
+            "14": 0.06318,
+            "15": 0.06594,
+            "16": 0.06824
+          }
+        },
+        "jango-vici": {
+          "horse_id": "jango-vici",
+          "name": "JANGO VICI",
+          "p_win": 0.06962,
+          "p_top3": 0.20896,
+          "p_top5": 0.343,
+          "expected_position": 8.048,
+          "position_distribution": {
+            "1": 0.06962,
+            "2": 0.06922,
+            "3": 0.07012,
+            "4": 0.06688,
+            "5": 0.06716,
+            "6": 0.06694,
+            "7": 0.06568,
+            "8": 0.06464,
+            "9": 0.06526,
+            "10": 0.06176,
+            "11": 0.06102,
+            "12": 0.05926,
+            "13": 0.05878,
+            "14": 0.05536,
+            "15": 0.05156,
+            "16": 0.04674
+          }
+        },
+        "indus-val": {
+          "horse_id": "indus-val",
+          "name": "INDUS VAL",
+          "p_win": 0.07118,
+          "p_top3": 0.21098,
+          "p_top5": 0.34684,
+          "expected_position": 8.0078,
+          "position_distribution": {
+            "1": 0.07118,
+            "2": 0.07136,
+            "3": 0.06844,
+            "4": 0.06782,
+            "5": 0.06804,
+            "6": 0.06498,
+            "7": 0.06606,
+            "8": 0.06618,
+            "9": 0.06322,
+            "10": 0.06362,
+            "11": 0.05988,
+            "12": 0.06028,
+            "13": 0.0579,
+            "14": 0.05516,
+            "15": 0.0509,
+            "16": 0.04498
+          }
+        },
+        "ialto-d-hertals": {
+          "horse_id": "ialto-d-hertals",
+          "name": "IALTO D'HERTALS",
+          "p_win": 0.07044,
+          "p_top3": 0.20924,
+          "p_top5": 0.34662,
+          "expected_position": 7.997,
+          "position_distribution": {
+            "1": 0.07044,
+            "2": 0.0696,
+            "3": 0.0692,
+            "4": 0.06862,
+            "5": 0.06876,
+            "6": 0.06576,
+            "7": 0.06576,
+            "8": 0.06584,
+            "9": 0.06504,
+            "10": 0.06458,
+            "11": 0.061,
+            "12": 0.05862,
+            "13": 0.05766,
+            "14": 0.05524,
+            "15": 0.05078,
+            "16": 0.0431
+          }
+        },
+        "horatius-d-ela": {
+          "horse_id": "horatius-d-ela",
+          "name": "HORATIUS D'ELA",
+          "p_win": 0.07124,
+          "p_top3": 0.2114,
+          "p_top5": 0.34912,
+          "expected_position": 7.957,
+          "position_distribution": {
+            "1": 0.07124,
+            "2": 0.0703,
+            "3": 0.06986,
+            "4": 0.06852,
+            "5": 0.0692,
+            "6": 0.06844,
+            "7": 0.06786,
+            "8": 0.06364,
+            "9": 0.06362,
+            "10": 0.0643,
+            "11": 0.0599,
+            "12": 0.05864,
+            "13": 0.05636,
+            "14": 0.05428,
+            "15": 0.05148,
+            "16": 0.04236
+          }
+        },
+        "just-de-l-oison": {
+          "horse_id": "just-de-l-oison",
+          "name": "JUST DE L'OISON",
+          "p_win": 0.07102,
+          "p_top3": 0.21498,
+          "p_top5": 0.35486,
+          "expected_position": 7.8932,
+          "position_distribution": {
+            "1": 0.07102,
+            "2": 0.07164,
+            "3": 0.07232,
+            "4": 0.0711,
+            "5": 0.06878,
+            "6": 0.0673,
+            "7": 0.0671,
+            "8": 0.06524,
+            "9": 0.06582,
+            "10": 0.06016,
+            "11": 0.06212,
+            "12": 0.05928,
+            "13": 0.05492,
+            "14": 0.05336,
+            "15": 0.04888,
+            "16": 0.04096
+          }
+        },
+        "jingle-du-pont": {
+          "horse_id": "jingle-du-pont",
+          "name": "JINGLE DU PONT",
+          "p_win": 0.07876,
+          "p_top3": 0.22744,
+          "p_top5": 0.36954,
+          "expected_position": 7.6829,
+          "position_distribution": {
+            "1": 0.07876,
+            "2": 0.07524,
+            "3": 0.07344,
+            "4": 0.07202,
+            "5": 0.07008,
+            "6": 0.06906,
+            "7": 0.06714,
+            "8": 0.0674,
+            "9": 0.06448,
+            "10": 0.06242,
+            "11": 0.0597,
+            "12": 0.058,
+            "13": 0.05206,
+            "14": 0.05104,
+            "15": 0.04378,
+            "16": 0.03538
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "jingle-du-pont",
+          "horatius-d-ela",
+          "just-de-l-oison"
+        ],
+        "23": [
+          "jingle-du-pont",
+          "just-de-l-oison",
+          "horatius-d-ela"
+        ],
+        "37": [
+          "jingle-du-pont",
+          "just-de-l-oison",
+          "horatius-d-ela"
+        ],
+        "51": [
+          "jingle-du-pont",
+          "indus-val",
+          "horatius-d-ela"
+        ],
+        "73": [
+          "jingle-du-pont",
+          "just-de-l-oison",
+          "jango-vici"
+        ]
+      },
+      "reference_top": [
+        "horatius-d-ela",
+        "jingle-du-pont",
+        "just-de-l-oison"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "jingle-du-pont": 10.0,
+        "horatius-d-ela": 1.0,
+        "just-de-l-oison": 3.0,
+        "indus-val": 1.0,
+        "jango-vici": 0.0
+      },
+      "order": [
+        "jingle-du-pont",
+        "just-de-l-oison",
+        "indus-val",
+        "horatius-d-ela",
+        "jango-vici"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "jingle-du-pont": 15.0,
+        "just-de-l-oison": 14.0,
+        "horatius-d-ela": 13.0,
+        "ialto-d-hertals": 12.0,
+        "indus-val": 11.0,
+        "jango-vici": 10.0,
+        "katchi-quick": 9.0,
+        "jacomo-bello": 8.0,
+        "heureux-de-fleur-y.-lebourgeois": 7.0,
+        "hector-de-bassiere-a.-andre": 6.0,
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 5.0,
+        "jentil-dieschoot": 4.0,
+        "lord-delo": 3.0,
+        "if-i-tell-you": 2.0,
+        "koureas-d-ela": 1.0,
+        "kotkie": 0.0
+      },
+      "order": [
+        "jingle-du-pont",
+        "just-de-l-oison",
+        "horatius-d-ela",
+        "ialto-d-hertals",
+        "indus-val",
+        "jango-vici",
+        "katchi-quick",
+        "jacomo-bello",
+        "heureux-de-fleur-y.-lebourgeois",
+        "hector-de-bassiere-a.-andre",
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "jentil-dieschoot",
+        "lord-delo",
+        "if-i-tell-you",
+        "koureas-d-ela",
+        "kotkie"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "jingle-du-pont",
+        "just-de-l-oison",
+        "horatius-d-ela",
+        "ialto-d-hertals",
+        "indus-val",
+        "jango-vici",
+        "katchi-quick",
+        "heureux-de-fleur-y.-lebourgeois",
+        "jacomo-bello",
+        "hector-de-bassiere-a.-andre",
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "jentil-dieschoot",
+        "lord-delo",
+        "if-i-tell-you",
+        "kotkie",
+        "koureas-d-ela"
+      ],
+      "copeland": {
+        "jingle-du-pont": 15.0,
+        "just-de-l-oison": 13.0,
+        "horatius-d-ela": 11.0,
+        "ialto-d-hertals": 9.0,
+        "indus-val": 7.0,
+        "jango-vici": 5.0,
+        "katchi-quick": 3.0,
+        "heureux-de-fleur-y.-lebourgeois": 0.5,
+        "jacomo-bello": 0.5,
+        "hector-de-bassiere-a.-andre": -3.0,
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": -5.0,
+        "lord-delo": -7.5,
+        "jentil-dieschoot": -7.5,
+        "if-i-tell-you": -11.0,
+        "kotkie": -13.5,
+        "koureas-d-ela": -13.5
+      },
+      "normalized": {
+        "jingle-du-pont": 1.0,
+        "just-de-l-oison": 0.9333,
+        "horatius-d-ela": 0.8667,
+        "ialto-d-hertals": 0.8,
+        "indus-val": 0.7333,
+        "jango-vici": 0.6667,
+        "katchi-quick": 0.6,
+        "heureux-de-fleur-y.-lebourgeois": 0.5167,
+        "jacomo-bello": 0.5167,
+        "hector-de-bassiere-a.-andre": 0.4,
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 0.3333,
+        "lord-delo": 0.25,
+        "jentil-dieschoot": 0.25,
+        "if-i-tell-you": 0.1333,
+        "kotkie": 0.05,
+        "koureas-d-ela": 0.05
+      },
+      "mean_rank": {
+        "jingle-du-pont": 0.0,
+        "just-de-l-oison": 1.0,
+        "horatius-d-ela": 2.3333,
+        "ialto-d-hertals": 3.0,
+        "indus-val": 3.3333,
+        "jango-vici": 4.6667,
+        "katchi-quick": 6.0,
+        "heureux-de-fleur-y.-lebourgeois": 7.5,
+        "jacomo-bello": 7.5,
+        "hector-de-bassiere-a.-andre": 9.0,
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 10.0,
+        "lord-delo": 11.5,
+        "jentil-dieschoot": 11.5,
+        "if-i-tell-you": 13.0,
+        "kotkie": 14.5,
+        "koureas-d-ela": 14.5
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "koureas-d-ela",
+        "name": "KOUREAS D'ELA",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "if-i-tell-you",
+        "name": "IF I TELL YOU",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lord-delo",
+        "name": "LORD DELO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hector-de-bassiere-a.-andre",
+        "name": "HECTOR DE BASSIERE A. ANDRE",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "heureux-de-fleur-y.-lebourgeois",
+        "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jacomo-bello",
+        "name": "JACOMO BELLO",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "katchi-quick",
+        "name": "KATCHI QUICK",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jango-vici",
+        "name": "JANGO VICI",
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 6 vs marché 11)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "indus-val",
+        "name": "INDUS VAL",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 5 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "ialto-d-hertals",
+        "name": "IALTO D'HERTALS",
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 4 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "just-de-l-oison",
+        "name": "JUST DE L'OISON",
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jingle-du-pont",
+        "name": "JINGLE DU PONT",
+        "signals": [
+          "l'analyse interne le place 15 rangs plus haut que le marché (interne 1 vs marché 16)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "jango-vici",
+      "indus-val",
+      "ialto-d-hertals",
+      "horatius-d-ela",
+      "jingle-du-pont"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [],
+    "picks": [],
+    "p_implicite": {
+      "kotkie": 0.030553,
+      "koureas-d-ela": 0.16295,
+      "if-i-tell-you": 0.023279,
+      "lord-delo": 0.010184,
+      "jentil-dieschoot": 0.088882,
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 0.061106,
+      "hector-de-bassiere-a.-andre": 0.039108,
+      "heureux-de-fleur-y.-lebourgeois": 0.06518,
+      "jacomo-bello": 0.069836,
+      "katchi-quick": 0.09777,
+      "jango-vici": 0.034918,
+      "indus-val": 0.040737,
+      "ialto-d-hertals": 0.051458,
+      "horatius-d-ela": 0.020802,
+      "just-de-l-oison": 0.19554,
+      "jingle-du-pont": 0.007698
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "jingle-du-pont",
+      "just-de-l-oison",
+      "horatius-d-ela",
+      "ialto-d-hertals",
+      "indus-val"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.665,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.5486,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 5.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "KOTKIE : recent_places",
+      "KOTKIE : driver",
+      "KOTKIE : aptitude",
+      "KOUREAS D'ELA : recent_places",
+      "KOUREAS D'ELA : driver",
+      "KOUREAS D'ELA : aptitude",
+      "IF I TELL YOU : recent_places",
+      "IF I TELL YOU : driver",
+      "IF I TELL YOU : aptitude",
+      "LORD DELO : recent_places",
+      "LORD DELO : driver",
+      "LORD DELO : aptitude",
+      "JENTIL DIESCHOOT : recent_places",
+      "JENTIL DIESCHOOT : driver",
+      "JENTIL DIESCHOOT : aptitude",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : recent_places",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : driver",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : aptitude",
+      "HECTOR DE BASSIERE A. ANDRE : recent_places",
+      "HECTOR DE BASSIERE A. ANDRE : driver",
+      "HECTOR DE BASSIERE A. ANDRE : aptitude",
+      "HEUREUX DE FLEUR Y. LEBOURGEOIS : recent_places",
+      "HEUREUX DE FLEUR Y. LEBOURGEOIS : driver",
+      "HEUREUX DE FLEUR Y. LEBOURGEOIS : aptitude",
+      "JACOMO BELLO : recent_places",
+      "JACOMO BELLO : driver",
+      "JACOMO BELLO : aptitude",
+      "KATCHI QUICK : recent_places",
+      "KATCHI QUICK : driver",
+      "KATCHI QUICK : aptitude",
+      "JANGO VICI : recent_places",
+      "JANGO VICI : driver",
+      "JANGO VICI : aptitude",
+      "INDUS VAL : recent_places",
+      "INDUS VAL : driver",
+      "INDUS VAL : aptitude",
+      "IALTO D'HERTALS : recent_places",
+      "IALTO D'HERTALS : driver",
+      "IALTO D'HERTALS : aptitude",
+      "HORATIUS D'ELA : recent_places",
+      "HORATIUS D'ELA : driver",
+      "HORATIUS D'ELA : aptitude",
+      "JUST DE L'OISON : recent_places",
+      "JUST DE L'OISON : driver",
+      "JUST DE L'OISON : aptitude",
+      "JINGLE DU PONT : recent_places",
+      "JINGLE DU PONT : driver",
+      "JINGLE DU PONT : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.5/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence externe indisponible → valeur neutre 5.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-10T11:55:00+00:00",
+    "betting_close": "2026-10-10T11:45:00+00:00",
+    "race_started": true,
+    "now": "2026-10-14T01:01:56.648213+00:00",
+    "minutes_late": 5116.94,
+    "minutes_to_close": -5116.94,
+    "schedule": {
+      "start_ouagadougou": "2026-10-10T11:55:00+00:00",
+      "start_paris": "2026-10-10T13:55:00+02:00",
+      "close_lonab": "2026-10-10T11:45:00+00:00",
+      "close_source": "départ − 10 min",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "cheval": "JINGLE DU PONT",
+      "horse_id": "jingle-du-pont"
+    },
+    {
+      "rang": 2,
+      "cheval": "JUST DE L'OISON",
+      "horse_id": "just-de-l-oison"
+    },
+    {
+      "rang": 3,
+      "cheval": "HORATIUS D'ELA",
+      "horse_id": "horatius-d-ela"
+    },
+    {
+      "rang": 4,
+      "cheval": "IALTO D'HERTALS",
+      "horse_id": "ialto-d-hertals"
+    },
+    {
+      "rang": 5,
+      "cheval": "INDUS VAL",
+      "horse_id": "indus-val"
+    },
+    {
+      "rang": 6,
+      "cheval": "JANGO VICI",
+      "horse_id": "jango-vici"
+    },
+    {
+      "rang": 7,
+      "cheval": "KATCHI QUICK",
+      "horse_id": "katchi-quick"
+    },
+    {
+      "rang": 8,
+      "cheval": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+      "horse_id": "heureux-de-fleur-y.-lebourgeois"
+    },
+    {
+      "rang": 9,
+      "cheval": "JACOMO BELLO",
+      "horse_id": "jacomo-bello"
+    },
+    {
+      "rang": 10,
+      "cheval": "HECTOR DE BASSIERE A. ANDRE",
+      "horse_id": "hector-de-bassiere-a.-andre"
+    },
+    {
+      "rang": 11,
+      "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+      "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec."
+    },
+    {
+      "rang": 12,
+      "cheval": "JENTIL DIESCHOOT",
+      "horse_id": "jentil-dieschoot"
+    },
+    {
+      "rang": 13,
+      "cheval": "LORD DELO",
+      "horse_id": "lord-delo"
+    },
+    {
+      "rang": 14,
+      "cheval": "IF I TELL YOU",
+      "horse_id": "if-i-tell-you"
+    },
+    {
+      "rang": 15,
+      "cheval": "KOTKIE",
+      "horse_id": "kotkie"
+    },
+    {
+      "rang": 16,
+      "cheval": "KOUREAS D'ELA",
+      "horse_id": "koureas-d-ela"
+    }
+  ],
+  "competitivite": [
+    {
+      "cheval": "JINGLE DU PONT",
+      "score": 10.0
+    },
+    {
+      "cheval": "JUST DE L'OISON",
+      "score": 9.8903
+    },
+    {
+      "cheval": "HORATIUS D'ELA",
+      "score": 9.8534
+    },
+    {
+      "cheval": "IALTO D'HERTALS",
+      "score": 9.8422
+    },
+    {
+      "cheval": "INDUS VAL",
+      "score": 9.8298
+    },
+    {
+      "cheval": "JANGO VICI",
+      "score": 9.8218
+    },
+    {
+      "cheval": "KATCHI QUICK",
+      "score": 9.5
+    },
+    {
+      "cheval": "JACOMO BELLO",
+      "score": 9.4935
+    },
+    {
+      "cheval": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+      "score": 9.4906
+    },
+    {
+      "cheval": "HECTOR DE BASSIERE A. ANDRE",
+      "score": 9.4777
+    },
+    {
+      "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+      "score": 9.4641
+    },
+    {
+      "cheval": "JENTIL DIESCHOOT",
+      "score": 9.4085
+    },
+    {
+      "cheval": "LORD DELO",
+      "score": 9.4011
+    },
+    {
+      "cheval": "IF I TELL YOU",
+      "score": 9.3625
+    },
+    {
+      "cheval": "KOUREAS D'ELA",
+      "score": 9.3418
+    },
+    {
+      "cheval": "KOTKIE",
+      "score": 9.3193
+    }
+  ],
+  "stored_at": "2026-10-14T01:01:56.649695+00:00"
+}
