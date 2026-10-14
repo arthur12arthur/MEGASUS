@@ -34,12 +34,13 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-14T14:06:51.864626+00:00",
+    "as_of": "2026-10-14T23:17:59.089718+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
         "horse_id": "kotkie",
         "name": "KOTKIE",
+        "number": 1,
         "odds_pdf": 32.0,
         "odds_latest": null,
         "delta": null,
@@ -50,6 +51,7 @@
       {
         "horse_id": "koureas-d-ela",
         "name": "KOUREAS D'ELA",
+        "number": 2,
         "odds_pdf": 6.0,
         "odds_latest": null,
         "delta": null,
@@ -60,6 +62,7 @@
       {
         "horse_id": "if-i-tell-you",
         "name": "IF I TELL YOU",
+        "number": 3,
         "odds_pdf": 42.0,
         "odds_latest": null,
         "delta": null,
@@ -70,6 +73,7 @@
       {
         "horse_id": "lord-delo",
         "name": "LORD DELO",
+        "number": 4,
         "odds_pdf": 96.0,
         "odds_latest": null,
         "delta": null,
@@ -80,6 +84,7 @@
       {
         "horse_id": "jentil-dieschoot",
         "name": "JENTIL DIESCHOOT",
+        "number": 5,
         "odds_pdf": 11.0,
         "odds_latest": null,
         "delta": null,
@@ -90,6 +95,7 @@
       {
         "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
         "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 6,
         "odds_pdf": 16.0,
         "odds_latest": null,
         "delta": null,
@@ -100,6 +106,7 @@
       {
         "horse_id": "hector-de-bassiere-a.-andre",
         "name": "HECTOR DE BASSIERE A. ANDRE",
+        "number": 7,
         "odds_pdf": 25.0,
         "odds_latest": null,
         "delta": null,
@@ -110,6 +117,7 @@
       {
         "horse_id": "heureux-de-fleur-y.-lebourgeois",
         "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "number": 8,
         "odds_pdf": 15.0,
         "odds_latest": null,
         "delta": null,
@@ -120,6 +128,7 @@
       {
         "horse_id": "jacomo-bello",
         "name": "JACOMO BELLO",
+        "number": 9,
         "odds_pdf": 14.0,
         "odds_latest": null,
         "delta": null,
@@ -130,6 +139,7 @@
       {
         "horse_id": "katchi-quick",
         "name": "KATCHI QUICK",
+        "number": 10,
         "odds_pdf": 10.0,
         "odds_latest": null,
         "delta": null,
@@ -140,6 +150,7 @@
       {
         "horse_id": "jango-vici",
         "name": "JANGO VICI",
+        "number": 11,
         "odds_pdf": 28.0,
         "odds_latest": null,
         "delta": null,
@@ -150,6 +161,7 @@
       {
         "horse_id": "indus-val",
         "name": "INDUS VAL",
+        "number": 12,
         "odds_pdf": 24.0,
         "odds_latest": null,
         "delta": null,
@@ -160,6 +172,7 @@
       {
         "horse_id": "ialto-d-hertals",
         "name": "IALTO D'HERTALS",
+        "number": 13,
         "odds_pdf": 19.0,
         "odds_latest": null,
         "delta": null,
@@ -170,6 +183,7 @@
       {
         "horse_id": "horatius-d-ela",
         "name": "HORATIUS D'ELA",
+        "number": 14,
         "odds_pdf": 47.0,
         "odds_latest": null,
         "delta": null,
@@ -180,6 +194,7 @@
       {
         "horse_id": "just-de-l-oison",
         "name": "JUST DE L'OISON",
+        "number": 15,
         "odds_pdf": 5.0,
         "odds_latest": null,
         "delta": null,
@@ -190,6 +205,7 @@
       {
         "horse_id": "jingle-du-pont",
         "name": "JINGLE DU PONT",
+        "number": 16,
         "odds_pdf": 127.0,
         "odds_latest": null,
         "delta": null,
@@ -253,6 +269,7 @@
       {
         "horse_id": "jingle-du-pont",
         "name": "JINGLE DU PONT",
+        "number": 16,
         "dimensions": {
           "historique": 10.0,
           "forme": null,
@@ -290,6 +307,7 @@
       {
         "horse_id": "just-de-l-oison",
         "name": "JUST DE L'OISON",
+        "number": 15,
         "dimensions": {
           "historique": 9.890270010801872,
           "forme": null,
@@ -327,6 +345,7 @@
       {
         "horse_id": "horatius-d-ela",
         "name": "HORATIUS D'ELA",
+        "number": 14,
         "dimensions": {
           "historique": 9.853385990195276,
           "forme": null,
@@ -364,6 +383,7 @@
       {
         "horse_id": "ialto-d-hertals",
         "name": "IALTO D'HERTALS",
+        "number": 13,
         "dimensions": {
           "historique": 9.842239668288842,
           "forme": null,
@@ -401,6 +421,7 @@
       {
         "horse_id": "indus-val",
         "name": "INDUS VAL",
+        "number": 12,
         "dimensions": {
           "historique": 9.829844567121075,
           "forme": null,
@@ -438,6 +459,7 @@
       {
         "horse_id": "jango-vici",
         "name": "JANGO VICI",
+        "number": 11,
         "dimensions": {
           "historique": 9.821838864516156,
           "forme": null,
@@ -475,6 +497,7 @@
       {
         "horse_id": "katchi-quick",
         "name": "KATCHI QUICK",
+        "number": 10,
         "dimensions": {
           "historique": 9.49997994763457,
           "forme": null,
@@ -512,6 +535,7 @@
       {
         "horse_id": "jacomo-bello",
         "name": "JACOMO BELLO",
+        "number": 9,
         "dimensions": {
           "historique": 9.493514171525554,
           "forme": null,
@@ -549,6 +573,7 @@
       {
         "horse_id": "heureux-de-fleur-y.-lebourgeois",
         "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "number": 8,
         "dimensions": {
           "historique": 9.490597582289466,
           "forme": null,
@@ -586,6 +611,7 @@
       {
         "horse_id": "hector-de-bassiere-a.-andre",
         "name": "HECTOR DE BASSIERE A. ANDRE",
+        "number": 7,
         "dimensions": {
           "historique": 9.47769967890256,
           "forme": null,
@@ -623,6 +649,7 @@
       {
         "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
         "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 6,
         "dimensions": {
           "historique": 9.464111237837036,
           "forme": null,
@@ -660,6 +687,7 @@
       {
         "horse_id": "jentil-dieschoot",
         "name": "JENTIL DIESCHOOT",
+        "number": 5,
         "dimensions": {
           "historique": 9.408499703892302,
           "forme": null,
@@ -697,6 +725,7 @@
       {
         "horse_id": "lord-delo",
         "name": "LORD DELO",
+        "number": 4,
         "dimensions": {
           "historique": 9.401081282549175,
           "forme": null,
@@ -734,6 +763,7 @@
       {
         "horse_id": "if-i-tell-you",
         "name": "IF I TELL YOU",
+        "number": 3,
         "dimensions": {
           "historique": 9.36246562854175,
           "forme": null,
@@ -771,6 +801,7 @@
       {
         "horse_id": "koureas-d-ela",
         "name": "KOUREAS D'ELA",
+        "number": 2,
         "dimensions": {
           "historique": 9.341764350685224,
           "forme": null,
@@ -808,6 +839,7 @@
       {
         "horse_id": "kotkie",
         "name": "KOTKIE",
+        "number": 1,
         "dimensions": {
           "historique": 9.319317749988642,
           "forme": null,
@@ -1469,66 +1501,77 @@
       {
         "horse_id": "kotkie",
         "name": "KOTKIE",
+        "number": 1,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "koureas-d-ela",
         "name": "KOUREAS D'ELA",
+        "number": 2,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "if-i-tell-you",
         "name": "IF I TELL YOU",
+        "number": 3,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "lord-delo",
         "name": "LORD DELO",
+        "number": 4,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "jentil-dieschoot",
         "name": "JENTIL DIESCHOOT",
+        "number": 5,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
         "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 6,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "hector-de-bassiere-a.-andre",
         "name": "HECTOR DE BASSIERE A. ANDRE",
+        "number": 7,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "heureux-de-fleur-y.-lebourgeois",
         "name": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
+        "number": 8,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "jacomo-bello",
         "name": "JACOMO BELLO",
+        "number": 9,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "katchi-quick",
         "name": "KATCHI QUICK",
+        "number": 10,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "jango-vici",
         "name": "JANGO VICI",
+        "number": 11,
         "signals": [
           "l'analyse interne le place 5 rangs plus haut que le marché (interne 6 vs marché 11)"
         ],
@@ -1537,6 +1580,7 @@
       {
         "horse_id": "indus-val",
         "name": "INDUS VAL",
+        "number": 12,
         "signals": [
           "l'analyse interne le place 4 rangs plus haut que le marché (interne 5 vs marché 9)",
           "aucune mise en avant dans le journal malgré des critères internes favorables"
@@ -1546,6 +1590,7 @@
       {
         "horse_id": "ialto-d-hertals",
         "name": "IALTO D'HERTALS",
+        "number": 13,
         "signals": [
           "l'analyse interne le place 4 rangs plus haut que le marché (interne 4 vs marché 8)",
           "aucune mise en avant dans le journal malgré des critères internes favorables"
@@ -1555,6 +1600,7 @@
       {
         "horse_id": "horatius-d-ela",
         "name": "HORATIUS D'ELA",
+        "number": 14,
         "signals": [
           "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
           "aucune mise en avant dans le journal malgré des critères internes favorables"
@@ -1564,12 +1610,14 @@
       {
         "horse_id": "just-de-l-oison",
         "name": "JUST DE L'OISON",
+        "number": 15,
         "signals": [],
         "severity": "faible"
       },
       {
         "horse_id": "jingle-du-pont",
         "name": "JINGLE DU PONT",
+        "number": 16,
         "signals": [
           "l'analyse interne le place 15 rangs plus haut que le marché (interne 1 vs marché 16)",
           "aucune mise en avant dans le journal malgré des critères internes favorables"
@@ -1639,54 +1687,54 @@
       "completude_donnees": 4.0
     },
     "missing_data": [
-      "KOTKIE : recent_places",
-      "KOTKIE : driver",
-      "KOTKIE : aptitude",
-      "KOUREAS D'ELA : recent_places",
-      "KOUREAS D'ELA : driver",
-      "KOUREAS D'ELA : aptitude",
-      "IF I TELL YOU : recent_places",
-      "IF I TELL YOU : driver",
-      "IF I TELL YOU : aptitude",
-      "LORD DELO : recent_places",
-      "LORD DELO : driver",
-      "LORD DELO : aptitude",
-      "JENTIL DIESCHOOT : recent_places",
-      "JENTIL DIESCHOOT : driver",
-      "JENTIL DIESCHOOT : aptitude",
-      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : recent_places",
-      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : driver",
-      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : aptitude",
-      "HECTOR DE BASSIERE A. ANDRE : recent_places",
-      "HECTOR DE BASSIERE A. ANDRE : driver",
-      "HECTOR DE BASSIERE A. ANDRE : aptitude",
-      "HEUREUX DE FLEUR Y. LEBOURGEOIS : recent_places",
-      "HEUREUX DE FLEUR Y. LEBOURGEOIS : driver",
-      "HEUREUX DE FLEUR Y. LEBOURGEOIS : aptitude",
-      "JACOMO BELLO : recent_places",
-      "JACOMO BELLO : driver",
-      "JACOMO BELLO : aptitude",
-      "KATCHI QUICK : recent_places",
-      "KATCHI QUICK : driver",
-      "KATCHI QUICK : aptitude",
-      "JANGO VICI : recent_places",
-      "JANGO VICI : driver",
-      "JANGO VICI : aptitude",
-      "INDUS VAL : recent_places",
-      "INDUS VAL : driver",
-      "INDUS VAL : aptitude",
-      "IALTO D'HERTALS : recent_places",
-      "IALTO D'HERTALS : driver",
-      "IALTO D'HERTALS : aptitude",
-      "HORATIUS D'ELA : recent_places",
-      "HORATIUS D'ELA : driver",
-      "HORATIUS D'ELA : aptitude",
-      "JUST DE L'OISON : recent_places",
-      "JUST DE L'OISON : driver",
-      "JUST DE L'OISON : aptitude",
-      "JINGLE DU PONT : recent_places",
-      "JINGLE DU PONT : driver",
-      "JINGLE DU PONT : aptitude"
+      "n°1 · KOTKIE : recent_places",
+      "n°1 · KOTKIE : driver",
+      "n°1 · KOTKIE : aptitude",
+      "n°2 · KOUREAS D'ELA : recent_places",
+      "n°2 · KOUREAS D'ELA : driver",
+      "n°2 · KOUREAS D'ELA : aptitude",
+      "n°3 · IF I TELL YOU : recent_places",
+      "n°3 · IF I TELL YOU : driver",
+      "n°3 · IF I TELL YOU : aptitude",
+      "n°4 · LORD DELO : recent_places",
+      "n°4 · LORD DELO : driver",
+      "n°4 · LORD DELO : aptitude",
+      "n°5 · JENTIL DIESCHOOT : recent_places",
+      "n°5 · JENTIL DIESCHOOT : driver",
+      "n°5 · JENTIL DIESCHOOT : aptitude",
+      "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : recent_places",
+      "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : driver",
+      "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : aptitude",
+      "n°7 · HECTOR DE BASSIERE A. ANDRE : recent_places",
+      "n°7 · HECTOR DE BASSIERE A. ANDRE : driver",
+      "n°7 · HECTOR DE BASSIERE A. ANDRE : aptitude",
+      "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : recent_places",
+      "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : driver",
+      "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : aptitude",
+      "n°9 · JACOMO BELLO : recent_places",
+      "n°9 · JACOMO BELLO : driver",
+      "n°9 · JACOMO BELLO : aptitude",
+      "n°10 · KATCHI QUICK : recent_places",
+      "n°10 · KATCHI QUICK : driver",
+      "n°10 · KATCHI QUICK : aptitude",
+      "n°11 · JANGO VICI : recent_places",
+      "n°11 · JANGO VICI : driver",
+      "n°11 · JANGO VICI : aptitude",
+      "n°12 · INDUS VAL : recent_places",
+      "n°12 · INDUS VAL : driver",
+      "n°12 · INDUS VAL : aptitude",
+      "n°13 · IALTO D'HERTALS : recent_places",
+      "n°13 · IALTO D'HERTALS : driver",
+      "n°13 · IALTO D'HERTALS : aptitude",
+      "n°14 · HORATIUS D'ELA : recent_places",
+      "n°14 · HORATIUS D'ELA : driver",
+      "n°14 · HORATIUS D'ELA : aptitude",
+      "n°15 · JUST DE L'OISON : recent_places",
+      "n°15 · JUST DE L'OISON : driver",
+      "n°15 · JUST DE L'OISON : aptitude",
+      "n°16 · JINGLE DU PONT : recent_places",
+      "n°16 · JINGLE DU PONT : driver",
+      "n°16 · JINGLE DU PONT : aptitude"
     ],
     "justification": [
       "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.5/10",
@@ -1700,9 +1748,9 @@
     "race_start": "2026-10-10T11:55:00+00:00",
     "betting_close": "2026-10-10T11:45:00+00:00",
     "race_started": true,
-    "now": "2026-10-14T14:06:51.921068+00:00",
-    "minutes_late": 5901.87,
-    "minutes_to_close": -5901.87,
+    "now": "2026-10-14T23:17:59.143121+00:00",
+    "minutes_late": 6452.99,
+    "minutes_to_close": -6452.99,
     "schedule": {
       "start_ouagadougou": "2026-10-10T11:55:00+00:00",
       "start_paris": "2026-10-10T13:55:00+02:00",
@@ -1727,150 +1775,182 @@
   "classement": [
     {
       "rang": 1,
+      "numero": 16,
       "cheval": "JINGLE DU PONT",
       "horse_id": "jingle-du-pont"
     },
     {
       "rang": 2,
+      "numero": 15,
       "cheval": "JUST DE L'OISON",
       "horse_id": "just-de-l-oison"
     },
     {
       "rang": 3,
+      "numero": 14,
       "cheval": "HORATIUS D'ELA",
       "horse_id": "horatius-d-ela"
     },
     {
       "rang": 4,
+      "numero": 13,
       "cheval": "IALTO D'HERTALS",
       "horse_id": "ialto-d-hertals"
     },
     {
       "rang": 5,
+      "numero": 12,
       "cheval": "INDUS VAL",
       "horse_id": "indus-val"
     },
     {
       "rang": 6,
+      "numero": 11,
       "cheval": "JANGO VICI",
       "horse_id": "jango-vici"
     },
     {
       "rang": 7,
+      "numero": 10,
       "cheval": "KATCHI QUICK",
       "horse_id": "katchi-quick"
     },
     {
       "rang": 8,
+      "numero": 8,
       "cheval": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
       "horse_id": "heureux-de-fleur-y.-lebourgeois"
     },
     {
       "rang": 9,
+      "numero": 9,
       "cheval": "JACOMO BELLO",
       "horse_id": "jacomo-bello"
     },
     {
       "rang": 10,
+      "numero": 7,
       "cheval": "HECTOR DE BASSIERE A. ANDRE",
       "horse_id": "hector-de-bassiere-a.-andre"
     },
     {
       "rang": 11,
+      "numero": 6,
       "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
       "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec."
     },
     {
       "rang": 12,
+      "numero": 5,
       "cheval": "JENTIL DIESCHOOT",
       "horse_id": "jentil-dieschoot"
     },
     {
       "rang": 13,
+      "numero": 4,
       "cheval": "LORD DELO",
       "horse_id": "lord-delo"
     },
     {
       "rang": 14,
+      "numero": 3,
       "cheval": "IF I TELL YOU",
       "horse_id": "if-i-tell-you"
     },
     {
       "rang": 15,
+      "numero": 1,
       "cheval": "KOTKIE",
       "horse_id": "kotkie"
     },
     {
       "rang": 16,
+      "numero": 2,
       "cheval": "KOUREAS D'ELA",
       "horse_id": "koureas-d-ela"
     }
   ],
   "competitivite": [
     {
+      "numero": 16,
       "cheval": "JINGLE DU PONT",
       "score": 10.0
     },
     {
+      "numero": 15,
       "cheval": "JUST DE L'OISON",
       "score": 9.8903
     },
     {
+      "numero": 14,
       "cheval": "HORATIUS D'ELA",
       "score": 9.8534
     },
     {
+      "numero": 13,
       "cheval": "IALTO D'HERTALS",
       "score": 9.8422
     },
     {
+      "numero": 12,
       "cheval": "INDUS VAL",
       "score": 9.8298
     },
     {
+      "numero": 11,
       "cheval": "JANGO VICI",
       "score": 9.8218
     },
     {
+      "numero": 10,
       "cheval": "KATCHI QUICK",
       "score": 9.5
     },
     {
+      "numero": 9,
       "cheval": "JACOMO BELLO",
       "score": 9.4935
     },
     {
+      "numero": 8,
       "cheval": "HEUREUX DE FLEUR Y. LEBOURGEOIS",
       "score": 9.4906
     },
     {
+      "numero": 7,
       "cheval": "HECTOR DE BASSIERE A. ANDRE",
       "score": 9.4777
     },
     {
+      "numero": 6,
       "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
       "score": 9.4641
     },
     {
+      "numero": 5,
       "cheval": "JENTIL DIESCHOOT",
       "score": 9.4085
     },
     {
+      "numero": 4,
       "cheval": "LORD DELO",
       "score": 9.4011
     },
     {
+      "numero": 3,
       "cheval": "IF I TELL YOU",
       "score": 9.3625
     },
     {
+      "numero": 2,
       "cheval": "KOUREAS D'ELA",
       "score": 9.3418
     },
     {
+      "numero": 1,
       "cheval": "KOTKIE",
       "score": 9.3193
     }
   ],
-  "stored_at": "2026-10-14T14:06:51.922585+00:00"
+  "stored_at": "2026-10-14T23:17:59.144574+00:00"
 }
