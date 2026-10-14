@@ -14,17 +14,17 @@
     "distance_m": 2550,
     "terrain": null,
     "prize": null,
-    "discipline": "unknown",
-    "race_type": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
     "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_14-10-2026.pdf",
     "race_country": "France",
     "betting_close": "2026-10-14T11:45:00+00:00",
     "bet_type": "4+1"
   },
   "discipline": {
-    "value": "unknown",
-    "label": "Indéterminée",
-    "raison": "champ 'type de course' absent ; aucun mot-clé de discipline trouvé",
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
     "poids": {
       "historique": 0.25,
       "forme": 0.2,
@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-14T23:45:06.155714+00:00",
+    "as_of": "2026-10-14T23:47:21.081161+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -257,7 +257,7 @@
     "notes": []
   },
   "basescorer": {
-    "discipline": "unknown",
+    "discipline": "trot_attele",
     "weights": {
       "historique": 0.25,
       "forme": 0.2,
@@ -290,9 +290,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -328,9 +330,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -366,9 +370,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -404,9 +410,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -442,9 +450,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -480,9 +490,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -518,9 +530,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -556,9 +570,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -594,9 +610,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -632,9 +650,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -670,9 +690,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -708,9 +730,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -746,9 +770,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -784,9 +810,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -822,9 +850,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -860,9 +890,11 @@
         "detail": {
           "technique_detail": {
             "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
             },
+            "ferrure": null,
             "driver": {
               "observed": null,
               "runs": null
@@ -1678,69 +1710,85 @@
     "externe_seulement": []
   },
   "confiance": {
-    "index": 3.665,
-    "level": "faible",
+    "index": 3.498,
+    "level": "très faible",
     "components": {
       "ecart_scores": 0.5486,
       "stabilite_seeds": 6.0,
       "convergence_externe": 5.0,
-      "completude_donnees": 4.0
+      "completude_donnees": 3.3333
     },
     "missing_data": [
       "n°1 · KOTKIE : recent_places",
       "n°1 · KOTKIE : driver",
       "n°1 · KOTKIE : aptitude",
+      "n°1 · KOTKIE : shoeing",
       "n°2 · KOUREAS D'ELA : recent_places",
       "n°2 · KOUREAS D'ELA : driver",
       "n°2 · KOUREAS D'ELA : aptitude",
+      "n°2 · KOUREAS D'ELA : shoeing",
       "n°3 · IF I TELL YOU : recent_places",
       "n°3 · IF I TELL YOU : driver",
       "n°3 · IF I TELL YOU : aptitude",
+      "n°3 · IF I TELL YOU : shoeing",
       "n°4 · LORD DELO : recent_places",
       "n°4 · LORD DELO : driver",
       "n°4 · LORD DELO : aptitude",
+      "n°4 · LORD DELO : shoeing",
       "n°5 · JENTIL DIESCHOOT : recent_places",
       "n°5 · JENTIL DIESCHOOT : driver",
       "n°5 · JENTIL DIESCHOOT : aptitude",
+      "n°5 · JENTIL DIESCHOOT : shoeing",
       "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : recent_places",
       "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : driver",
       "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : aptitude",
+      "n°6 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : shoeing",
       "n°7 · HECTOR DE BASSIERE A. ANDRE : recent_places",
       "n°7 · HECTOR DE BASSIERE A. ANDRE : driver",
       "n°7 · HECTOR DE BASSIERE A. ANDRE : aptitude",
+      "n°7 · HECTOR DE BASSIERE A. ANDRE : shoeing",
       "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : recent_places",
       "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : driver",
       "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : aptitude",
+      "n°8 · HEUREUX DE FLEUR Y. LEBOURGEOIS : shoeing",
       "n°9 · JACOMO BELLO : recent_places",
       "n°9 · JACOMO BELLO : driver",
       "n°9 · JACOMO BELLO : aptitude",
+      "n°9 · JACOMO BELLO : shoeing",
       "n°10 · KATCHI QUICK : recent_places",
       "n°10 · KATCHI QUICK : driver",
       "n°10 · KATCHI QUICK : aptitude",
+      "n°10 · KATCHI QUICK : shoeing",
       "n°11 · JANGO VICI : recent_places",
       "n°11 · JANGO VICI : driver",
       "n°11 · JANGO VICI : aptitude",
+      "n°11 · JANGO VICI : shoeing",
       "n°12 · INDUS VAL : recent_places",
       "n°12 · INDUS VAL : driver",
       "n°12 · INDUS VAL : aptitude",
+      "n°12 · INDUS VAL : shoeing",
       "n°13 · IALTO D'HERTALS : recent_places",
       "n°13 · IALTO D'HERTALS : driver",
       "n°13 · IALTO D'HERTALS : aptitude",
+      "n°13 · IALTO D'HERTALS : shoeing",
       "n°14 · HORATIUS D'ELA : recent_places",
       "n°14 · HORATIUS D'ELA : driver",
       "n°14 · HORATIUS D'ELA : aptitude",
+      "n°14 · HORATIUS D'ELA : shoeing",
       "n°15 · JUST DE L'OISON : recent_places",
       "n°15 · JUST DE L'OISON : driver",
       "n°15 · JUST DE L'OISON : aptitude",
+      "n°15 · JUST DE L'OISON : shoeing",
       "n°16 · JINGLE DU PONT : recent_places",
       "n°16 · JINGLE DU PONT : driver",
-      "n°16 · JINGLE DU PONT : aptitude"
+      "n°16 · JINGLE DU PONT : aptitude",
+      "n°16 · JINGLE DU PONT : shoeing"
     ],
     "justification": [
       "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.5/10",
       "stabilité inter-seeds = 60% → 6.0/10",
       "convergence externe indisponible → valeur neutre 5.0/10",
-      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+      "complétude des données = 33% (64 champ(s) manquant(s)) → 3.3/10"
     ]
   },
   "delai": {
@@ -1748,9 +1796,9 @@
     "race_start": "2026-10-14T11:55:00+00:00",
     "betting_close": "2026-10-14T11:45:00+00:00",
     "race_started": true,
-    "now": "2026-10-14T23:45:06.212642+00:00",
-    "minutes_late": 720.1,
-    "minutes_to_close": -720.1,
+    "now": "2026-10-14T23:47:21.134967+00:00",
+    "minutes_late": 722.35,
+    "minutes_to_close": -722.35,
     "schedule": {
       "start_ouagadougou": "2026-10-14T11:55:00+00:00",
       "start_paris": "2026-10-14T13:55:00+02:00",
@@ -1952,5 +2000,5 @@
       "score": 9.3193
     }
   ],
-  "stored_at": "2026-10-14T23:45:06.214424+00:00"
+  "stored_at": "2026-10-14T23:47:21.136455+00:00"
 }
