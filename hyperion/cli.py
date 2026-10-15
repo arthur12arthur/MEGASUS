@@ -108,11 +108,14 @@ def cmd_run(args: argparse.Namespace) -> int:
         # Le chemin automatique ne doit pas transformer l'absence de fichier
         # panel en absence silencieuse de sources : il consulte les URL
         # configurées, et le provider trace chaque source indisponible.
+        panel_sources = tuple(dict.fromkeys(
+            (*settings.reference_panel, *settings.external_url_templates)
+        ))
         picks = HttpPanelProvider(
             settings.external_url_templates,
             timeout_s=settings.lonab_timeout_s,
             max_retries=settings.lonab_max_retries,
-        ).fetch(race, panel=settings.reference_panel)
+        ).fetch(race, panel=panel_sources)
 
     result = run_pipeline(race, settings, latest_odds=latest_odds, external_picks=picks)
 
