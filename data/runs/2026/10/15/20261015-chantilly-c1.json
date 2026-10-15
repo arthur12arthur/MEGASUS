@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-15T00:43:13.497675+00:00",
+    "as_of": "2026-10-15T02:28:11.953409+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -1632,48 +1632,100 @@
     ]
   },
   "externalconsensus": {
-    "panel_consulted": [],
-    "additional_found": [],
-    "failed_sources": [
+    "panel_consulted": [
       "Genybet",
       "Equidia",
       "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
       "PMU",
       "France Galop",
       "Paris-Turf",
-      "ZEturf",
       "Turf BZH",
       "RueDesJoueurs",
       "Betclic Turf",
-      "Turfomania",
       "Quinté du Jour"
     ],
     "picks": [
       {
         "source": "Genybet",
-        "ranking": [],
-        "coverage": 0.0,
-        "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "ranking": [
+          "royalwood",
+          "sweet-chop",
+          "lesslepasser",
+          "mister-chang",
+          "grand-scoop",
+          "hello-carel",
+          "mai-dire-mai",
+          "silk-roadster",
+          "prince-aubois",
+          "awaiting-christmas",
+          "schuman",
+          "heroiste",
+          "asherah",
+          "yoken",
+          "rozarion",
+          "simply-lovely"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
         "source": "Equidia",
-        "ranking": [],
-        "coverage": 0.0,
-        "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "ranking": [
+          "sweet-chop",
+          "lesslepasser",
+          "mister-chang",
+          "grand-scoop",
+          "hello-carel",
+          "mai-dire-mai",
+          "silk-roadster",
+          "prince-aubois",
+          "awaiting-christmas",
+          "royalwood",
+          "schuman",
+          "heroiste",
+          "asherah",
+          "yoken",
+          "rozarion",
+          "simply-lovely"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
         "source": "Canal Turf",
-        "ranking": [],
-        "coverage": 0.0,
-        "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "ranking": [
+          "sweet-chop",
+          "lesslepasser",
+          "mister-chang",
+          "grand-scoop",
+          "hello-carel",
+          "mai-dire-mai",
+          "silk-roadster",
+          "prince-aubois",
+          "awaiting-christmas",
+          "royalwood",
+          "schuman",
+          "heroiste",
+          "asherah",
+          "yoken",
+          "rozarion",
+          "simply-lovely"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1681,8 +1733,8 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1690,8 +1742,8 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1699,17 +1751,34 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
         "source": "ZEturf",
-        "ranking": [],
-        "coverage": 0.0,
-        "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "ranking": [
+          "royalwood",
+          "silk-roadster",
+          "lesslepasser",
+          "awaiting-christmas",
+          "sweet-chop",
+          "grand-scoop",
+          "schuman",
+          "asherah",
+          "mister-chang",
+          "hello-carel",
+          "mai-dire-mai",
+          "prince-aubois",
+          "heroiste",
+          "yoken",
+          "rozarion",
+          "simply-lovely"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1717,8 +1786,8 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1726,8 +1795,8 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1735,17 +1804,34 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
         "source": "Turfomania",
-        "ranking": [],
-        "coverage": 0.0,
-        "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "ranking": [
+          "sweet-chop",
+          "lesslepasser",
+          "mister-chang",
+          "grand-scoop",
+          "hello-carel",
+          "mai-dire-mai",
+          "silk-roadster",
+          "prince-aubois",
+          "awaiting-christmas",
+          "royalwood",
+          "schuman",
+          "heroiste",
+          "asherah",
+          "yoken",
+          "rozarion",
+          "simply-lovely"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       },
       {
@@ -1753,8 +1839,8 @@
         "ranking": [],
         "coverage": 0.0,
         "usable": false,
-        "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
         "is_panel_member": true
       }
     ],
@@ -1776,31 +1862,46 @@
       "rozarion": 0.05743,
       "simply-lovely": 0.023246
     },
-    "consensus_ranking": [],
-    "convergence": 0.0,
+    "consensus_ranking": [
+      "sweet-chop",
+      "lesslepasser",
+      "mister-chang",
+      "grand-scoop",
+      "hello-carel",
+      "silk-roadster",
+      "royalwood",
+      "mai-dire-mai",
+      "awaiting-christmas",
+      "prince-aubois",
+      "schuman",
+      "asherah",
+      "heroiste",
+      "yoken",
+      "rozarion",
+      "simply-lovely"
+    ],
+    "convergence": 0.4286,
     "notes": [
-      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
-      "convergence Top 5 interne/externe : 0%",
-      "seulement 0 sources du panel consultées (minimum visé : 3)"
+      "convergence Top 5 interne/externe : 43%"
     ]
   },
   "divergences": {
     "interne_seulement": [
-      "lesslepasser",
       "royalwood",
-      "sweet-chop",
-      "simply-lovely",
-      "grand-scoop"
+      "simply-lovely"
     ],
-    "externe_seulement": []
+    "externe_seulement": [
+      "mister-chang",
+      "hello-carel"
+    ]
   },
   "confiance": {
-    "index": 3.463,
-    "level": "très faible",
+    "index": 4.32,
+    "level": "faible",
     "components": {
       "ecart_scores": 1.5422,
       "stabilite_seeds": 8.0,
-      "convergence_externe": 0.0,
+      "convergence_externe": 4.2857,
       "completude_donnees": 4.0
     },
     "missing_data": [
@@ -1856,7 +1957,7 @@
     "justification": [
       "écart de score rang 1 / rang 2 = 0.31 (saturé à 2.0) → 1.5/10",
       "stabilité inter-seeds = 80% → 8.0/10",
-      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
       "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
     ]
   },
@@ -1865,9 +1966,9 @@
     "race_start": "2026-10-15T11:55:00+00:00",
     "betting_close": "2026-10-15T11:45:00+00:00",
     "race_started": false,
-    "now": "2026-10-15T00:43:13.525990+00:00",
+    "now": "2026-10-15T02:28:11.998848+00:00",
     "minutes_late": 0.0,
-    "minutes_to_close": 661.77,
+    "minutes_to_close": 556.8,
     "schedule": {
       "start_ouagadougou": "2026-10-15T11:55:00+00:00",
       "start_paris": "2026-10-15T13:55:00+02:00",
@@ -2069,5 +2170,5 @@
       "score": 8.1116
     }
   ],
-  "stored_at": "2026-10-15T00:43:13.527243+00:00"
+  "stored_at": "2026-10-15T02:28:12.000171+00:00"
 }
