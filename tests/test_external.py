@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import requests
+
 from hyperion.external import (
     ExternalConsensus,
     HttpPanelProvider,
@@ -83,22 +85,66 @@ class TestManualPanelProvider:
 
 
 class TestHttpPanelProvider:
-    def test_sans_url_configuree(self, simple_race):
+    def test_registre_integre_sans_variable_d_environnement(self, simple_race, monkeypatch):
+        """Sans HYPERION_EXTERNAL_URLS ni --panel-urls, les 12 sources du
+        registre sont tout de même tentées (via URL directe ou découverte),
+        jamais rejetées faute de configuration."""
+
+        def toujours_bloque(*args, **kwargs):
+            raise RuntimeError("réseau indisponible dans ce test")
+
+        monkeypatch.setattr(requests, "get", toujours_bloque)
         picks = HttpPanelProvider({}).fetch(simple_race)
-        assert picks
+        assert len(picks) == 12
         assert all(not p.usable for p in picks)
-        assert all("URL" in p.note for p in picks)
+        # Aucune ne doit plus dire "aucune URL configurée" : le registre a
+        # fourni une URL directe ou tenté une découverte pour chacune.
+        assert all("aucune URL configurée" not in p.note for p in picks)
 
     def test_repli_gracieux_sur_erreur_reseau(self, simple_race, monkeypatch):
-        class Boom:
-            def get(self, *args, **kwargs):
-                raise RuntimeError("bloqué")
+        def toujours_bloque(*args, **kwargs):
+            raise RuntimeError("bloqué")
 
+        monkeypatch.setattr(requests, "get", toujours_bloque)
         provider = HttpPanelProvider({"Genybet": "https://example.invalid/{date}"})
         picks = provider.fetch(simple_race)
         assert picks
         assert not picks[0].usable
         assert "impossible" in picks[0].note
+
+    def test_url_fournie_par_l_utilisateur_prioritaire_sur_le_registre(
+        self, simple_race, monkeypatch
+    ):
+        """Une URL explicite (ancien HYPERION_EXTERNAL_URLS) l'emporte
+        toujours sur le registre intégré pour la même source."""
+        calls: list[str] = []
+
+        def enregistre(url, **kwargs):
+            calls.append(url)
+            raise RuntimeError("test : pas de vrai réseau")
+
+        monkeypatch.setattr(requests, "get", enregistre)
+        provider = HttpPanelProvider({"Equidia": "https://exemple.test/{date}"})
+        provider.fetch(simple_race, panel=("Equidia",))
+        expected = "https://exemple.test/" + simple_race.meta.date.isoformat()
+        assert calls and all(call == expected for call in calls)
+
+    def test_une_source_bloquee_n_empeche_pas_les_suivantes(self, simple_race, monkeypatch):
+        """Le panel entier est tenté même si une source échoue en premier."""
+
+        def partiellement_bloque(url, **kwargs):
+            if "equidia" in url:
+                raise RuntimeError("bloqué")
+            return type("R", (), {"status_code": 200, "text": simple_race.runners[0].name})()
+
+        monkeypatch.setattr(requests, "get", partiellement_bloque)
+        picks = HttpPanelProvider({}).fetch(simple_race, panel=("Equidia", "Canal Turf"))
+        assert len(picks) == 2
+        by_source = {p.source: p for p in picks}
+        assert not by_source["Equidia"].usable
+        assert "impossible" in by_source["Equidia"].note
+        # Canal Turf a une URL directe stable et n'est pas bloqué ici.
+        assert by_source["Canal Turf"].coverage > 0
 
 
 class TestExternalConsensus:

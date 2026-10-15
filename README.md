@@ -164,7 +164,7 @@ correctement livrée.
 | `HYPERION_MAIL_FROM` / `HYPERION_MAIL_TO` | expéditeur / destinataires |
 | `HYPERION_LONAB_URL` | URL du journal officiel du jour |
 | `HYPERION_GEMINI_KEYS` | clés API Gemini (optionnel, rotation automatique) |
-| `HYPERION_EXTERNAL_URLS` | JSON des URL de pronostics par source, avec `{date}`, `{hippodrome}`, `{course}` et `{nom}` |
+| `HYPERION_EXTERNAL_URLS` | *optionnel* — surcharge le registre intégré (voir ci-dessous) pour une ou plusieurs sources |
 
 Voir [`.env.example`](.env.example) pour la liste complète. **Aucune clé n'est
 codée en dur** : tout passe par l'environnement.
@@ -186,11 +186,22 @@ LONAB doit être validé sur un vrai document**. En cas d'échec, le pipeline
 bascule automatiquement sur le provider JSON de secours.
 
 Pour une course réelle sans fichier `panel_YYYY-MM-DD.json`, le chemin `--auto`
-consulte désormais `HYPERION_EXTERNAL_URLS` via le provider HTTP. Exemple :
-`{"Equidia":"https://exemple.test/{date}","Canal Turf":"https://exemple.test/{date}/{hippodrome}/{course}"}`.
-Une URL absente ou une page bloquée est conservée dans `failed_sources` avec sa
-raison ; aucune sélection n'est fabriquée. Le workflow utilise automatiquement
-le panel daté lorsqu'il est présent.
+consulte désormais un **registre intégré** des 12 sources de référence
+(`hyperion/external_registry.py`) — aucune variable à renseigner. Pour chaque
+source, deux cas :
+- **URL directe** (Genybet, Equidia, Canal Turf, Turfomania, ZEturf) : une
+  adresse fixe ou construite à partir de la date/hippodrome/nom déjà connus.
+- **Découverte par domaine** (les 7 autres) : une recherche publique sans clé
+  API, restreinte au domaine officiel de la source quand il est confirmé.
+
+`HYPERION_EXTERNAL_URLS` reste disponible pour **surcharger** une source
+précise du registre (ex. une URL plus fiable trouvée depuis), au même format
+qu'avant : `{"Equidia":"https://exemple.test/{date}"}`.
+
+Une source sans URL exploitable (recherche vide, page bloquée, domaine non
+confirmé) est conservée dans `failed_sources` avec sa raison exacte ; aucune
+sélection n'est fabriquée. Le workflow utilise automatiquement le panel daté
+lorsqu'il est présent.
 
 Dans les deux cas, le parseur **n'invente jamais** une valeur manquante : toute
 ligne non reconnue est rapportée plutôt que devinée.

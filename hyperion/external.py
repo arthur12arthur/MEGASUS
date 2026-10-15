@@ -252,20 +252,47 @@ class HttpPanelProvider:
             "course": race.meta.race_number or "",
             "nom": race.meta.name or "",
         }
+        from hyperion.external_registry import discover_url, registry_by_name
+
+        registry = registry_by_name()
         for source in panel:
             template = self.url_templates.get(source)
-            if not template:
-                picks.append(
-                    SourcePick(
-                        source=source,
-                        usable=False,
-                        note="aucune URL configurée pour cette source",
-                        fetched_at=when,
-                        is_panel_member=True,
+            url: str | None = None
+            if template:
+                # Une URL fournie explicitement (--panel-urls, ou ancien
+                # HYPERION_EXTERNAL_URLS) l'emporte toujours sur le registre.
+                url = template.format(**context)
+            else:
+                entry = registry.get(source)
+                if entry is None:
+                    picks.append(
+                        SourcePick(
+                            source=source,
+                            usable=False,
+                            note="source hors du registre intégré et sans URL fournie",
+                            fetched_at=when,
+                            is_panel_member=True,
+                        )
                     )
-                )
-                continue
-            url = template.format(**context)
+                    continue
+                if entry.direct_url is not None:
+                    url = entry.direct_url(race)
+                if url is None:
+                    # Pas d'URL directe exploitable (champs manquants, ou
+                    # source sans adresse quotidienne prévisible) :
+                    # découverte par domaine.
+                    url, note = discover_url(requests, entry, race, self.timeout_s)
+                    if url is None:
+                        picks.append(
+                            SourcePick(
+                                source=source,
+                                usable=False,
+                                note=note,
+                                fetched_at=when,
+                                is_panel_member=True,
+                            )
+                        )
+                        continue
             text = self._get(requests, url)
             if text is None:
                 picks.append(
