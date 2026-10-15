@@ -165,12 +165,22 @@ def discover_url(
     if source.domain_confirmed:
         query = f"site:{source.domain} {query}"
 
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+        ),
+        "Accept-Language": "fr-FR,fr;q=0.9",
+        "Referer": "https://html.duckduckgo.com/",
+    }
+    # Le point d'entrée HTML de DuckDuckGo attend un POST (c'est ce que son
+    # propre formulaire envoie) ; un GET renvoie souvent 202, pas le résultat.
     try:
-        response = requests_module.get(
+        response = requests_module.post(
             "https://html.duckduckgo.com/html/",
-            params={"q": query},
+            data={"q": query},
             timeout=timeout_s,
-            headers={"User-Agent": "Mozilla/5.0 (compatible; HyperionBot/1.0)"},
+            headers=headers,
         )
     except Exception as exc:  # réseau, timeout, blocage
         return None, f"recherche impossible ({exc.__class__.__name__})"

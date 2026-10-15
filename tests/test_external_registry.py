@@ -84,10 +84,10 @@ class TestDecouverte:
             "PMU — pronostic</a>"
         )
 
-        def fake_get(url, params=None, **kwargs):
+        def fake_get(url, data=None, **kwargs):
             return type("R", (), {"status_code": 200, "text": html})()
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["PMU"]
         url, note = discover_url(requests, entry, simple_race)
         assert url == "https://www.pmu.fr/pronostic/vincennes"
@@ -99,10 +99,10 @@ class TestDecouverte:
             '<a class="result__a" href="https://www.pmu.fr/vraie-page">La bonne page</a>'
         )
 
-        def fake_get(url, params=None, **kwargs):
+        def fake_get(url, data=None, **kwargs):
             return type("R", (), {"status_code": 200, "text": html})()
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["PMU"]
         url, _ = discover_url(requests, entry, simple_race)
         assert url == "https://www.pmu.fr/vraie-page"
@@ -112,10 +112,10 @@ class TestDecouverte:
     ):
         html = '<a class="result__a" href="https://autre-site.fr/page">Hors sujet</a>'
 
-        def fake_get(url, params=None, **kwargs):
+        def fake_get(url, data=None, **kwargs):
             return type("R", (), {"status_code": 200, "text": html})()
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["PMU"]
         url, note = discover_url(requests, entry, simple_race)
         assert url is None
@@ -127,11 +127,11 @@ class TestDecouverte:
         html = '<a class="result__a" href="https://un-site-quelconque.fr/page">Résultat</a>'
         captured = {}
 
-        def fake_get(url, params=None, **kwargs):
-            captured["q"] = params["q"]
+        def fake_get(url, data=None, **kwargs):
+            captured["q"] = data["q"]
             return type("R", (), {"status_code": 200, "text": html})()
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["Turf BZH"]
         assert entry.domain_confirmed is False
         url, note = discover_url(requests, entry, simple_race)
@@ -150,7 +150,7 @@ class TestDecouverte:
         def fake_get(*args, **kwargs):
             raise RuntimeError("timeout")
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["PMU"]
         url, note = discover_url(requests, entry, simple_race)
         assert url is None
@@ -160,7 +160,7 @@ class TestDecouverte:
         def fake_get(*args, **kwargs):
             return type("R", (), {"status_code": 403, "text": ""})()
 
-        monkeypatch.setattr(requests, "get", fake_get)
+        monkeypatch.setattr(requests, "post", fake_get)
         entry = registry_by_name()["PMU"]
         url, note = discover_url(requests, entry, simple_race)
         assert url is None
