@@ -1,0 +1,2073 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261015-chantilly-c1",
+  "date": "2026-10-15",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "CHANTILLY",
+    "date": "2026-10-15",
+    "start_time": "2026-10-15T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE LA VIERGE DE LORETTE",
+    "distance_m": 1200,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_15-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-15T11:45:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-15T00:22:59.598858+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lesslepasser",
+        "name": "LESSLEPASSER",
+        "number": 2,
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mister-chang",
+        "name": "MISTER CHANG",
+        "number": 3,
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 4,
+        "odds_pdf": 6.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "odds_pdf": 26.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mai-dire-mai",
+        "name": "MAI DIRE MAI",
+        "number": 6,
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "silk-roadster",
+        "name": "SILK ROADSTER",
+        "number": 7,
+        "odds_pdf": 8.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "prince-aubois",
+        "name": "PRINCE AUBOIS",
+        "number": 8,
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 9,
+        "odds_pdf": 12.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 10,
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "schuman",
+        "name": "SCHUMAN",
+        "number": 11,
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "heroiste",
+        "name": "HEROISTE",
+        "number": 12,
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "asherah",
+        "name": "ASHERAH",
+        "number": 13,
+        "odds_pdf": 28.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "yoken",
+        "name": "YOKEN",
+        "number": 14,
+        "odds_pdf": 67.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "rozarion",
+        "name": "ROZARION",
+        "number": 15,
+        "odds_pdf": 17.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "simply-lovely",
+        "name": "SIMPLY LOVELY",
+        "number": 16,
+        "odds_pdf": 42.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "SWEET CHOP (sweet-chop) : aucune cote récente disponible",
+      "LESSLEPASSER (lesslepasser) : aucune cote récente disponible",
+      "MISTER CHANG (mister-chang) : aucune cote récente disponible",
+      "GRAND SCOOP (grand-scoop) : aucune cote récente disponible",
+      "HELLO CAREL (hello-carel) : aucune cote récente disponible",
+      "MAI DIRE MAI (mai-dire-mai) : aucune cote récente disponible",
+      "SILK ROADSTER (silk-roadster) : aucune cote récente disponible",
+      "PRINCE AUBOIS (prince-aubois) : aucune cote récente disponible",
+      "AWAITING CHRISTMAS (awaiting-christmas) : aucune cote récente disponible",
+      "ROYALWOOD (royalwood) : aucune cote récente disponible",
+      "SCHUMAN (schuman) : aucune cote récente disponible",
+      "HEROISTE (heroiste) : aucune cote récente disponible",
+      "ASHERAH (asherah) : aucune cote récente disponible",
+      "YOKEN (yoken) : aucune cote récente disponible",
+      "ROZARION (rozarion) : aucune cote récente disponible",
+      "SIMPLY LOVELY (simply-lovely) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "sweet-chop",
+      "lesslepasser",
+      "mister-chang",
+      "grand-scoop",
+      "hello-carel",
+      "mai-dire-mai",
+      "silk-roadster",
+      "prince-aubois",
+      "awaiting-christmas",
+      "royalwood",
+      "schuman",
+      "heroiste",
+      "asherah",
+      "yoken",
+      "rozarion",
+      "simply-lovely"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "lesslepasser",
+        "name": "LESSLEPASSER",
+        "number": 2,
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.691564545580452,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6916,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.422607170409874,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4226,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "simply-lovely",
+        "name": "SIMPLY LOVELY",
+        "number": 16,
+        "dimensions": {
+          "historique": 9.38975194710623,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3898,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 4,
+        "dimensions": {
+          "historique": 9.371877273692082,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3719,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mister-chang",
+        "name": "MISTER CHANG",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.351401091920264,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3514,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "prince-aubois",
+        "name": "PRINCE AUBOIS",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.1564296478874,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.1564,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.09681981546031,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0968,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "yoken",
+        "name": "YOKEN",
+        "number": 14,
+        "dimensions": {
+          "historique": 9.035745151988262,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.0357,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "schuman",
+        "name": "SCHUMAN",
+        "number": 11,
+        "dimensions": {
+          "historique": 8.729815034380554,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7298,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "dimensions": {
+          "historique": 8.660906436148437,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.6609,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "rozarion",
+        "name": "ROZARION",
+        "number": 15,
+        "dimensions": {
+          "historique": 8.629982201700436,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.63,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mai-dire-mai",
+        "name": "MAI DIRE MAI",
+        "number": 6,
+        "dimensions": {
+          "historique": 8.494512622537007,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.4945,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "asherah",
+        "name": "ASHERAH",
+        "number": 13,
+        "dimensions": {
+          "historique": 8.340558166766188,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.3406,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "silk-roadster",
+        "name": "SILK ROADSTER",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.209613169872386,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.2096,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "heroiste",
+        "name": "HEROISTE",
+        "number": 12,
+        "dimensions": {
+          "historique": 8.111596442316081,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.1116,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "lesslepasser",
+      "royalwood",
+      "sweet-chop",
+      "simply-lovely",
+      "grand-scoop",
+      "mister-chang",
+      "prince-aubois",
+      "awaiting-christmas",
+      "yoken",
+      "schuman",
+      "hello-carel",
+      "rozarion",
+      "mai-dire-mai",
+      "asherah",
+      "silk-roadster",
+      "heroiste"
+    ],
+    "stability": 0.8,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "sweet-chop": {
+          "horse_id": "sweet-chop",
+          "name": "SWEET CHOP",
+          "p_win": 0.07548,
+          "p_top3": 0.22552,
+          "p_top5": 0.36928,
+          "expected_position": 7.6194,
+          "position_distribution": {
+            "1": 0.07548,
+            "2": 0.0755,
+            "3": 0.07454,
+            "4": 0.07246,
+            "5": 0.0713,
+            "6": 0.07036,
+            "7": 0.06932,
+            "8": 0.06862,
+            "9": 0.06604,
+            "10": 0.0674,
+            "11": 0.05956,
+            "12": 0.05692,
+            "13": 0.05296,
+            "14": 0.04968,
+            "15": 0.04176,
+            "16": 0.0281
+          }
+        },
+        "lesslepasser": {
+          "horse_id": "lesslepasser",
+          "name": "LESSLEPASSER",
+          "p_win": 0.09884,
+          "p_top3": 0.28752,
+          "p_top5": 0.45672,
+          "expected_position": 6.5872,
+          "position_distribution": {
+            "1": 0.09884,
+            "2": 0.09726,
+            "3": 0.09142,
+            "4": 0.08596,
+            "5": 0.08324,
+            "6": 0.07738,
+            "7": 0.07322,
+            "8": 0.06816,
+            "9": 0.0646,
+            "10": 0.05838,
+            "11": 0.05392,
+            "12": 0.04668,
+            "13": 0.03792,
+            "14": 0.03074,
+            "15": 0.02088,
+            "16": 0.0114
+          }
+        },
+        "mister-chang": {
+          "horse_id": "mister-chang",
+          "name": "MISTER CHANG",
+          "p_win": 0.07212,
+          "p_top3": 0.2159,
+          "p_top5": 0.35408,
+          "expected_position": 7.7806,
+          "position_distribution": {
+            "1": 0.07212,
+            "2": 0.0717,
+            "3": 0.07208,
+            "4": 0.07002,
+            "5": 0.06816,
+            "6": 0.07224,
+            "7": 0.06822,
+            "8": 0.06808,
+            "9": 0.0661,
+            "10": 0.06506,
+            "11": 0.06294,
+            "12": 0.06088,
+            "13": 0.05584,
+            "14": 0.05152,
+            "15": 0.04388,
+            "16": 0.03116
+          }
+        },
+        "grand-scoop": {
+          "horse_id": "grand-scoop",
+          "name": "GRAND SCOOP",
+          "p_win": 0.07326,
+          "p_top3": 0.21922,
+          "p_top5": 0.36134,
+          "expected_position": 7.7222,
+          "position_distribution": {
+            "1": 0.07326,
+            "2": 0.0739,
+            "3": 0.07206,
+            "4": 0.07036,
+            "5": 0.07176,
+            "6": 0.07028,
+            "7": 0.06884,
+            "8": 0.06746,
+            "9": 0.06498,
+            "10": 0.0663,
+            "11": 0.0617,
+            "12": 0.05956,
+            "13": 0.0558,
+            "14": 0.05102,
+            "15": 0.04294,
+            "16": 0.02978
+          }
+        },
+        "hello-carel": {
+          "horse_id": "hello-carel",
+          "name": "HELLO CAREL",
+          "p_win": 0.0494,
+          "p_top3": 0.156,
+          "p_top5": 0.26528,
+          "expected_position": 9.1394,
+          "position_distribution": {
+            "1": 0.0494,
+            "2": 0.0537,
+            "3": 0.0529,
+            "4": 0.0545,
+            "5": 0.05478,
+            "6": 0.05584,
+            "7": 0.0594,
+            "8": 0.05956,
+            "9": 0.06096,
+            "10": 0.06372,
+            "11": 0.06642,
+            "12": 0.0687,
+            "13": 0.07098,
+            "14": 0.07356,
+            "15": 0.07802,
+            "16": 0.07756
+          }
+        },
+        "mai-dire-mai": {
+          "horse_id": "mai-dire-mai",
+          "name": "MAI DIRE MAI",
+          "p_win": 0.04604,
+          "p_top3": 0.14076,
+          "p_top5": 0.24286,
+          "expected_position": 9.486,
+          "position_distribution": {
+            "1": 0.04604,
+            "2": 0.04602,
+            "3": 0.0487,
+            "4": 0.05002,
+            "5": 0.05208,
+            "6": 0.05706,
+            "7": 0.05414,
+            "8": 0.05702,
+            "9": 0.06056,
+            "10": 0.06212,
+            "11": 0.06488,
+            "12": 0.06846,
+            "13": 0.0748,
+            "14": 0.0778,
+            "15": 0.08398,
+            "16": 0.09632
+          }
+        },
+        "silk-roadster": {
+          "horse_id": "silk-roadster",
+          "name": "SILK ROADSTER",
+          "p_win": 0.04142,
+          "p_top3": 0.12516,
+          "p_top5": 0.21568,
+          "expected_position": 10.0063,
+          "position_distribution": {
+            "1": 0.04142,
+            "2": 0.04002,
+            "3": 0.04372,
+            "4": 0.04474,
+            "5": 0.04578,
+            "6": 0.04872,
+            "7": 0.0525,
+            "8": 0.0524,
+            "9": 0.05876,
+            "10": 0.05626,
+            "11": 0.06326,
+            "12": 0.0678,
+            "13": 0.07604,
+            "14": 0.07952,
+            "15": 0.10086,
+            "16": 0.1282
+          }
+        },
+        "prince-aubois": {
+          "horse_id": "prince-aubois",
+          "name": "PRINCE AUBOIS",
+          "p_win": 0.06746,
+          "p_top3": 0.19886,
+          "p_top5": 0.33082,
+          "expected_position": 8.1567,
+          "position_distribution": {
+            "1": 0.06746,
+            "2": 0.0659,
+            "3": 0.0655,
+            "4": 0.06486,
+            "5": 0.0671,
+            "6": 0.06574,
+            "7": 0.06506,
+            "8": 0.0651,
+            "9": 0.06556,
+            "10": 0.06356,
+            "11": 0.0651,
+            "12": 0.06182,
+            "13": 0.06318,
+            "14": 0.06036,
+            "15": 0.05382,
+            "16": 0.03988
+          }
+        },
+        "awaiting-christmas": {
+          "horse_id": "awaiting-christmas",
+          "name": "AWAITING CHRISTMAS",
+          "p_win": 0.06364,
+          "p_top3": 0.19,
+          "p_top5": 0.32048,
+          "expected_position": 8.2937,
+          "position_distribution": {
+            "1": 0.06364,
+            "2": 0.06324,
+            "3": 0.06312,
+            "4": 0.06622,
+            "5": 0.06426,
+            "6": 0.06316,
+            "7": 0.06488,
+            "8": 0.06802,
+            "9": 0.06522,
+            "10": 0.06428,
+            "11": 0.065,
+            "12": 0.0649,
+            "13": 0.06084,
+            "14": 0.05892,
+            "15": 0.05742,
+            "16": 0.04688
+          }
+        },
+        "royalwood": {
+          "horse_id": "royalwood",
+          "name": "ROYALWOOD",
+          "p_win": 0.0863,
+          "p_top3": 0.25548,
+          "p_top5": 0.414,
+          "expected_position": 7.0898,
+          "position_distribution": {
+            "1": 0.0863,
+            "2": 0.08396,
+            "3": 0.08522,
+            "4": 0.08158,
+            "5": 0.07694,
+            "6": 0.07494,
+            "7": 0.0715,
+            "8": 0.06864,
+            "9": 0.0646,
+            "10": 0.0631,
+            "11": 0.05598,
+            "12": 0.05136,
+            "13": 0.04632,
+            "14": 0.0397,
+            "15": 0.03056,
+            "16": 0.0193
+          }
+        },
+        "schuman": {
+          "horse_id": "schuman",
+          "name": "SCHUMAN",
+          "p_win": 0.05262,
+          "p_top3": 0.16254,
+          "p_top5": 0.27686,
+          "expected_position": 8.9942,
+          "position_distribution": {
+            "1": 0.05262,
+            "2": 0.05552,
+            "3": 0.0544,
+            "4": 0.05696,
+            "5": 0.05736,
+            "6": 0.05712,
+            "7": 0.0587,
+            "8": 0.06122,
+            "9": 0.06152,
+            "10": 0.06218,
+            "11": 0.0666,
+            "12": 0.06648,
+            "13": 0.06842,
+            "14": 0.07334,
+            "15": 0.07366,
+            "16": 0.0739
+          }
+        },
+        "heroiste": {
+          "horse_id": "heroiste",
+          "name": "HEROISTE",
+          "p_win": 0.03978,
+          "p_top3": 0.12284,
+          "p_top5": 0.21344,
+          "expected_position": 10.1527,
+          "position_distribution": {
+            "1": 0.03978,
+            "2": 0.04026,
+            "3": 0.0428,
+            "4": 0.04456,
+            "5": 0.04604,
+            "6": 0.04536,
+            "7": 0.04934,
+            "8": 0.05154,
+            "9": 0.05292,
+            "10": 0.05596,
+            "11": 0.06238,
+            "12": 0.06832,
+            "13": 0.07318,
+            "14": 0.0848,
+            "15": 0.09886,
+            "16": 0.1439
+          }
+        },
+        "asherah": {
+          "horse_id": "asherah",
+          "name": "ASHERAH",
+          "p_win": 0.04568,
+          "p_top3": 0.13512,
+          "p_top5": 0.23388,
+          "expected_position": 9.7365,
+          "position_distribution": {
+            "1": 0.04568,
+            "2": 0.04324,
+            "3": 0.0462,
+            "4": 0.04902,
+            "5": 0.04974,
+            "6": 0.05106,
+            "7": 0.05048,
+            "8": 0.05536,
+            "9": 0.05682,
+            "10": 0.06156,
+            "11": 0.06342,
+            "12": 0.0676,
+            "13": 0.0735,
+            "14": 0.08054,
+            "15": 0.09294,
+            "16": 0.11284
+          }
+        },
+        "yoken": {
+          "horse_id": "yoken",
+          "name": "YOKEN",
+          "p_win": 0.0622,
+          "p_top3": 0.18722,
+          "p_top5": 0.3154,
+          "expected_position": 8.3685,
+          "position_distribution": {
+            "1": 0.0622,
+            "2": 0.06286,
+            "3": 0.06216,
+            "4": 0.06318,
+            "5": 0.065,
+            "6": 0.06548,
+            "7": 0.06554,
+            "8": 0.06372,
+            "9": 0.06364,
+            "10": 0.06384,
+            "11": 0.06446,
+            "12": 0.06418,
+            "13": 0.06346,
+            "14": 0.06318,
+            "15": 0.05856,
+            "16": 0.04854
+          }
+        },
+        "rozarion": {
+          "horse_id": "rozarion",
+          "name": "ROZARION",
+          "p_win": 0.04972,
+          "p_top3": 0.15446,
+          "p_top5": 0.26626,
+          "expected_position": 9.1758,
+          "position_distribution": {
+            "1": 0.04972,
+            "2": 0.05222,
+            "3": 0.05252,
+            "4": 0.05478,
+            "5": 0.05702,
+            "6": 0.0554,
+            "7": 0.05802,
+            "8": 0.05824,
+            "9": 0.06132,
+            "10": 0.06212,
+            "11": 0.06394,
+            "12": 0.06842,
+            "13": 0.0718,
+            "14": 0.0742,
+            "15": 0.07878,
+            "16": 0.0815
+          }
+        },
+        "simply-lovely": {
+          "horse_id": "simply-lovely",
+          "name": "SIMPLY LOVELY",
+          "p_win": 0.07604,
+          "p_top3": 0.2234,
+          "p_top5": 0.36362,
+          "expected_position": 7.6909,
+          "position_distribution": {
+            "1": 0.07604,
+            "2": 0.0747,
+            "3": 0.07266,
+            "4": 0.07078,
+            "5": 0.06944,
+            "6": 0.06986,
+            "7": 0.07084,
+            "8": 0.06686,
+            "9": 0.0664,
+            "10": 0.06416,
+            "11": 0.06044,
+            "12": 0.05792,
+            "13": 0.05496,
+            "14": 0.05112,
+            "15": 0.04308,
+            "16": 0.03074
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "lesslepasser",
+          "royalwood",
+          "sweet-chop"
+        ],
+        "23": [
+          "lesslepasser",
+          "royalwood",
+          "sweet-chop"
+        ],
+        "37": [
+          "lesslepasser",
+          "royalwood",
+          "sweet-chop"
+        ],
+        "51": [
+          "lesslepasser",
+          "royalwood",
+          "sweet-chop"
+        ],
+        "73": [
+          "lesslepasser",
+          "royalwood",
+          "grand-scoop"
+        ]
+      },
+      "reference_top": [
+        "lesslepasser",
+        "royalwood",
+        "sweet-chop"
+      ],
+      "stable_seeds": 4,
+      "stability": 0.8,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "lesslepasser": 10.0,
+        "royalwood": 5.0,
+        "sweet-chop": 0.0,
+        "grand-scoop": 0.0
+      },
+      "order": [
+        "lesslepasser",
+        "royalwood",
+        "grand-scoop",
+        "sweet-chop"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "lesslepasser": 15.0,
+        "royalwood": 14.0,
+        "sweet-chop": 13.0,
+        "simply-lovely": 12.0,
+        "grand-scoop": 11.0,
+        "mister-chang": 10.0,
+        "prince-aubois": 9.0,
+        "awaiting-christmas": 8.0,
+        "yoken": 7.0,
+        "schuman": 6.0,
+        "hello-carel": 5.0,
+        "rozarion": 4.0,
+        "mai-dire-mai": 3.0,
+        "asherah": 2.0,
+        "silk-roadster": 1.0,
+        "heroiste": 0.0
+      },
+      "order": [
+        "lesslepasser",
+        "royalwood",
+        "sweet-chop",
+        "simply-lovely",
+        "grand-scoop",
+        "mister-chang",
+        "prince-aubois",
+        "awaiting-christmas",
+        "yoken",
+        "schuman",
+        "hello-carel",
+        "rozarion",
+        "mai-dire-mai",
+        "asherah",
+        "silk-roadster",
+        "heroiste"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "lesslepasser",
+        "royalwood",
+        "sweet-chop",
+        "simply-lovely",
+        "grand-scoop",
+        "mister-chang",
+        "prince-aubois",
+        "awaiting-christmas",
+        "yoken",
+        "schuman",
+        "hello-carel",
+        "rozarion",
+        "mai-dire-mai",
+        "asherah",
+        "silk-roadster",
+        "heroiste"
+      ],
+      "copeland": {
+        "lesslepasser": 15.0,
+        "royalwood": 13.0,
+        "sweet-chop": 11.0,
+        "simply-lovely": 9.0,
+        "grand-scoop": 7.0,
+        "mister-chang": 5.0,
+        "prince-aubois": 3.0,
+        "awaiting-christmas": 1.0,
+        "yoken": -1.0,
+        "schuman": -3.0,
+        "hello-carel": -5.0,
+        "rozarion": -7.0,
+        "mai-dire-mai": -9.0,
+        "asherah": -11.0,
+        "silk-roadster": -13.0,
+        "heroiste": -15.0
+      },
+      "normalized": {
+        "lesslepasser": 1.0,
+        "royalwood": 0.9333,
+        "sweet-chop": 0.8667,
+        "simply-lovely": 0.8,
+        "grand-scoop": 0.7333,
+        "mister-chang": 0.6667,
+        "prince-aubois": 0.6,
+        "awaiting-christmas": 0.5333,
+        "yoken": 0.4667,
+        "schuman": 0.4,
+        "hello-carel": 0.3333,
+        "rozarion": 0.2667,
+        "mai-dire-mai": 0.2,
+        "asherah": 0.1333,
+        "silk-roadster": 0.0667,
+        "heroiste": 0.0
+      },
+      "mean_rank": {
+        "lesslepasser": 0.0,
+        "royalwood": 1.0,
+        "sweet-chop": 2.3333,
+        "simply-lovely": 3.0,
+        "grand-scoop": 3.3333,
+        "mister-chang": 5.0,
+        "prince-aubois": 6.0,
+        "awaiting-christmas": 7.0,
+        "yoken": 8.0,
+        "schuman": 9.0,
+        "hello-carel": 10.0,
+        "rozarion": 11.0,
+        "mai-dire-mai": 12.0,
+        "asherah": 13.0,
+        "silk-roadster": 14.0,
+        "heroiste": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lesslepasser",
+        "name": "LESSLEPASSER",
+        "number": 2,
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 1 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "mister-chang",
+        "name": "MISTER CHANG",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mai-dire-mai",
+        "name": "MAI DIRE MAI",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "silk-roadster",
+        "name": "SILK ROADSTER",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "prince-aubois",
+        "name": "PRINCE AUBOIS",
+        "number": 8,
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 7 vs marché 12)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "schuman",
+        "name": "SCHUMAN",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "heroiste",
+        "name": "HEROISTE",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "asherah",
+        "name": "ASHERAH",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "yoken",
+        "name": "YOKEN",
+        "number": 14,
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 9 vs marché 16)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "rozarion",
+        "name": "ROZARION",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "simply-lovely",
+        "name": "SIMPLY LOVELY",
+        "number": 16,
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 4 vs marché 15)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "lesslepasser",
+      "prince-aubois",
+      "royalwood",
+      "yoken",
+      "simply-lovely"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "sweet-chop": 0.088756,
+      "lesslepasser": 0.06102,
+      "mister-chang": 0.05743,
+      "grand-scoop": 0.162719,
+      "hello-carel": 0.03755,
+      "mai-dire-mai": 0.046491,
+      "silk-roadster": 0.122039,
+      "prince-aubois": 0.044378,
+      "awaiting-christmas": 0.081359,
+      "royalwood": 0.048816,
+      "schuman": 0.065087,
+      "heroiste": 0.05424,
+      "asherah": 0.034868,
+      "yoken": 0.014572,
+      "rozarion": 0.05743,
+      "simply-lovely": 0.023246
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "lesslepasser",
+      "royalwood",
+      "sweet-chop",
+      "simply-lovely",
+      "grand-scoop"
+    ],
+    "externe_seulement": []
+  },
+  "confiance": {
+    "index": 3.463,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 1.5422,
+      "stabilite_seeds": 8.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 4.0
+    },
+    "missing_data": [
+      "n°1 · SWEET CHOP : recent_places",
+      "n°1 · SWEET CHOP : driver",
+      "n°1 · SWEET CHOP : aptitude",
+      "n°2 · LESSLEPASSER : recent_places",
+      "n°2 · LESSLEPASSER : driver",
+      "n°2 · LESSLEPASSER : aptitude",
+      "n°3 · MISTER CHANG : recent_places",
+      "n°3 · MISTER CHANG : driver",
+      "n°3 · MISTER CHANG : aptitude",
+      "n°4 · GRAND SCOOP : recent_places",
+      "n°4 · GRAND SCOOP : driver",
+      "n°4 · GRAND SCOOP : aptitude",
+      "n°5 · HELLO CAREL : recent_places",
+      "n°5 · HELLO CAREL : driver",
+      "n°5 · HELLO CAREL : aptitude",
+      "n°6 · MAI DIRE MAI : recent_places",
+      "n°6 · MAI DIRE MAI : driver",
+      "n°6 · MAI DIRE MAI : aptitude",
+      "n°7 · SILK ROADSTER : recent_places",
+      "n°7 · SILK ROADSTER : driver",
+      "n°7 · SILK ROADSTER : aptitude",
+      "n°8 · PRINCE AUBOIS : recent_places",
+      "n°8 · PRINCE AUBOIS : driver",
+      "n°8 · PRINCE AUBOIS : aptitude",
+      "n°9 · AWAITING CHRISTMAS : recent_places",
+      "n°9 · AWAITING CHRISTMAS : driver",
+      "n°9 · AWAITING CHRISTMAS : aptitude",
+      "n°10 · ROYALWOOD : recent_places",
+      "n°10 · ROYALWOOD : driver",
+      "n°10 · ROYALWOOD : aptitude",
+      "n°11 · SCHUMAN : recent_places",
+      "n°11 · SCHUMAN : driver",
+      "n°11 · SCHUMAN : aptitude",
+      "n°12 · HEROISTE : recent_places",
+      "n°12 · HEROISTE : driver",
+      "n°12 · HEROISTE : aptitude",
+      "n°13 · ASHERAH : recent_places",
+      "n°13 · ASHERAH : driver",
+      "n°13 · ASHERAH : aptitude",
+      "n°14 · YOKEN : recent_places",
+      "n°14 · YOKEN : driver",
+      "n°14 · YOKEN : aptitude",
+      "n°15 · ROZARION : recent_places",
+      "n°15 · ROZARION : driver",
+      "n°15 · ROZARION : aptitude",
+      "n°16 · SIMPLY LOVELY : recent_places",
+      "n°16 · SIMPLY LOVELY : driver",
+      "n°16 · SIMPLY LOVELY : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.31 (saturé à 2.0) → 1.5/10",
+      "stabilité inter-seeds = 80% → 8.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-15T11:55:00+00:00",
+    "betting_close": "2026-10-15T11:45:00+00:00",
+    "race_started": false,
+    "now": "2026-10-15T00:22:59.652613+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 682.01,
+    "schedule": {
+      "start_ouagadougou": "2026-10-15T11:55:00+00:00",
+      "start_paris": "2026-10-15T13:55:00+02:00",
+      "close_lonab": "2026-10-15T11:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 2,
+      "cheval": "LESSLEPASSER",
+      "horse_id": "lesslepasser"
+    },
+    {
+      "rang": 2,
+      "numero": 10,
+      "cheval": "ROYALWOOD",
+      "horse_id": "royalwood"
+    },
+    {
+      "rang": 3,
+      "numero": 1,
+      "cheval": "SWEET CHOP",
+      "horse_id": "sweet-chop"
+    },
+    {
+      "rang": 4,
+      "numero": 16,
+      "cheval": "SIMPLY LOVELY",
+      "horse_id": "simply-lovely"
+    },
+    {
+      "rang": 5,
+      "numero": 4,
+      "cheval": "GRAND SCOOP",
+      "horse_id": "grand-scoop"
+    },
+    {
+      "rang": 6,
+      "numero": 3,
+      "cheval": "MISTER CHANG",
+      "horse_id": "mister-chang"
+    },
+    {
+      "rang": 7,
+      "numero": 8,
+      "cheval": "PRINCE AUBOIS",
+      "horse_id": "prince-aubois"
+    },
+    {
+      "rang": 8,
+      "numero": 9,
+      "cheval": "AWAITING CHRISTMAS",
+      "horse_id": "awaiting-christmas"
+    },
+    {
+      "rang": 9,
+      "numero": 14,
+      "cheval": "YOKEN",
+      "horse_id": "yoken"
+    },
+    {
+      "rang": 10,
+      "numero": 11,
+      "cheval": "SCHUMAN",
+      "horse_id": "schuman"
+    },
+    {
+      "rang": 11,
+      "numero": 5,
+      "cheval": "HELLO CAREL",
+      "horse_id": "hello-carel"
+    },
+    {
+      "rang": 12,
+      "numero": 15,
+      "cheval": "ROZARION",
+      "horse_id": "rozarion"
+    },
+    {
+      "rang": 13,
+      "numero": 6,
+      "cheval": "MAI DIRE MAI",
+      "horse_id": "mai-dire-mai"
+    },
+    {
+      "rang": 14,
+      "numero": 13,
+      "cheval": "ASHERAH",
+      "horse_id": "asherah"
+    },
+    {
+      "rang": 15,
+      "numero": 7,
+      "cheval": "SILK ROADSTER",
+      "horse_id": "silk-roadster"
+    },
+    {
+      "rang": 16,
+      "numero": 12,
+      "cheval": "HEROISTE",
+      "horse_id": "heroiste"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 2,
+      "cheval": "LESSLEPASSER",
+      "score": 10.0
+    },
+    {
+      "numero": 10,
+      "cheval": "ROYALWOOD",
+      "score": 9.6916
+    },
+    {
+      "numero": 1,
+      "cheval": "SWEET CHOP",
+      "score": 9.4226
+    },
+    {
+      "numero": 16,
+      "cheval": "SIMPLY LOVELY",
+      "score": 9.3898
+    },
+    {
+      "numero": 4,
+      "cheval": "GRAND SCOOP",
+      "score": 9.3719
+    },
+    {
+      "numero": 3,
+      "cheval": "MISTER CHANG",
+      "score": 9.3514
+    },
+    {
+      "numero": 8,
+      "cheval": "PRINCE AUBOIS",
+      "score": 9.1564
+    },
+    {
+      "numero": 9,
+      "cheval": "AWAITING CHRISTMAS",
+      "score": 9.0968
+    },
+    {
+      "numero": 14,
+      "cheval": "YOKEN",
+      "score": 9.0357
+    },
+    {
+      "numero": 11,
+      "cheval": "SCHUMAN",
+      "score": 8.7298
+    },
+    {
+      "numero": 5,
+      "cheval": "HELLO CAREL",
+      "score": 8.6609
+    },
+    {
+      "numero": 15,
+      "cheval": "ROZARION",
+      "score": 8.63
+    },
+    {
+      "numero": 6,
+      "cheval": "MAI DIRE MAI",
+      "score": 8.4945
+    },
+    {
+      "numero": 13,
+      "cheval": "ASHERAH",
+      "score": 8.3406
+    },
+    {
+      "numero": 7,
+      "cheval": "SILK ROADSTER",
+      "score": 8.2096
+    },
+    {
+      "numero": 12,
+      "cheval": "HEROISTE",
+      "score": 8.1116
+    }
+  ],
+  "stored_at": "2026-10-15T00:22:59.654208+00:00"
+}
