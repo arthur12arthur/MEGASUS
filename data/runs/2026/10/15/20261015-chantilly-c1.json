@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-15T00:22:59.598858+00:00",
+    "as_of": "2026-10-15T00:43:13.497675+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -1655,7 +1655,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1664,7 +1664,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1673,7 +1673,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1682,7 +1682,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1691,7 +1691,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1700,7 +1700,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1709,7 +1709,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1718,7 +1718,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1727,7 +1727,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1736,7 +1736,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1745,7 +1745,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       },
       {
@@ -1754,7 +1754,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "aucune URL configurée pour cette source",
-        "fetched_at": "2026-10-15T00:22:59.598797+00:00",
+        "fetched_at": "2026-10-15T00:43:13.497623+00:00",
         "is_panel_member": true
       }
     ],
@@ -1865,9 +1865,9 @@
     "race_start": "2026-10-15T11:55:00+00:00",
     "betting_close": "2026-10-15T11:45:00+00:00",
     "race_started": false,
-    "now": "2026-10-15T00:22:59.652613+00:00",
+    "now": "2026-10-15T00:43:13.525990+00:00",
     "minutes_late": 0.0,
-    "minutes_to_close": 682.01,
+    "minutes_to_close": 661.77,
     "schedule": {
       "start_ouagadougou": "2026-10-15T11:55:00+00:00",
       "start_paris": "2026-10-15T13:55:00+02:00",
@@ -2069,5 +2069,5 @@
       "score": 8.1116
     }
   ],
-  "stored_at": "2026-10-15T00:22:59.654208+00:00"
+  "stored_at": "2026-10-15T00:43:13.527243+00:00"
 }
