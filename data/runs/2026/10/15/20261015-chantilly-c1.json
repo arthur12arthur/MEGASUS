@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-15T02:28:11.953409+00:00",
+    "as_of": "2026-10-15T13:44:41.279777+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -1653,79 +1653,79 @@
       {
         "source": "Genybet",
         "ranking": [
-          "royalwood",
-          "sweet-chop",
-          "lesslepasser",
-          "mister-chang",
-          "grand-scoop",
-          "hello-carel",
-          "mai-dire-mai",
-          "silk-roadster",
+          "heroiste",
+          "schuman",
           "prince-aubois",
           "awaiting-christmas",
-          "schuman",
-          "heroiste",
-          "asherah",
-          "yoken",
           "rozarion",
-          "simply-lovely"
+          "grand-scoop",
+          "mai-dire-mai",
+          "sweet-chop",
+          "lesslepasser",
+          "simply-lovely",
+          "yoken",
+          "hello-carel",
+          "silk-roadster",
+          "mister-chang",
+          "royalwood",
+          "asherah"
         ],
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
         "source": "Equidia",
         "ranking": [
-          "sweet-chop",
-          "lesslepasser",
-          "mister-chang",
-          "grand-scoop",
-          "hello-carel",
-          "mai-dire-mai",
-          "silk-roadster",
+          "heroiste",
+          "schuman",
           "prince-aubois",
           "awaiting-christmas",
-          "royalwood",
-          "schuman",
-          "heroiste",
-          "asherah",
-          "yoken",
           "rozarion",
-          "simply-lovely"
+          "grand-scoop",
+          "mai-dire-mai",
+          "sweet-chop",
+          "lesslepasser",
+          "simply-lovely",
+          "yoken",
+          "hello-carel",
+          "silk-roadster",
+          "mister-chang",
+          "royalwood",
+          "asherah"
         ],
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
         "source": "Canal Turf",
         "ranking": [
           "sweet-chop",
+          "heroiste",
+          "schuman",
+          "prince-aubois",
+          "awaiting-christmas",
+          "rozarion",
           "lesslepasser",
           "mister-chang",
           "grand-scoop",
           "hello-carel",
           "mai-dire-mai",
           "silk-roadster",
-          "prince-aubois",
-          "awaiting-christmas",
           "royalwood",
-          "schuman",
-          "heroiste",
           "asherah",
           "yoken",
-          "rozarion",
           "simply-lovely"
         ],
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1734,7 +1734,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1743,7 +1743,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1752,33 +1752,33 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
         "source": "ZEturf",
         "ranking": [
-          "royalwood",
-          "silk-roadster",
-          "lesslepasser",
-          "awaiting-christmas",
           "sweet-chop",
-          "grand-scoop",
+          "silk-roadster",
+          "heroiste",
           "schuman",
-          "asherah",
+          "prince-aubois",
+          "awaiting-christmas",
+          "rozarion",
+          "grand-scoop",
+          "mai-dire-mai",
+          "lesslepasser",
           "mister-chang",
           "hello-carel",
-          "mai-dire-mai",
-          "prince-aubois",
-          "heroiste",
+          "royalwood",
+          "asherah",
           "yoken",
-          "rozarion",
           "simply-lovely"
         ],
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1787,7 +1787,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1796,7 +1796,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1805,7 +1805,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1831,7 +1831,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       },
       {
@@ -1840,7 +1840,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-15T02:28:05.997415+00:00",
+        "fetched_at": "2026-10-15T13:44:34.915137+00:00",
         "is_panel_member": true
       }
     ],
@@ -1863,45 +1863,49 @@
       "simply-lovely": 0.023246
     },
     "consensus_ranking": [
-      "sweet-chop",
-      "lesslepasser",
-      "mister-chang",
-      "grand-scoop",
-      "hello-carel",
-      "silk-roadster",
-      "royalwood",
-      "mai-dire-mai",
-      "awaiting-christmas",
-      "prince-aubois",
-      "schuman",
-      "asherah",
       "heroiste",
-      "yoken",
+      "sweet-chop",
+      "schuman",
+      "prince-aubois",
+      "awaiting-christmas",
+      "grand-scoop",
+      "lesslepasser",
       "rozarion",
-      "simply-lovely"
+      "mai-dire-mai",
+      "silk-roadster",
+      "mister-chang",
+      "hello-carel",
+      "royalwood",
+      "yoken",
+      "simply-lovely",
+      "asherah"
     ],
-    "convergence": 0.4286,
+    "convergence": 0.1111,
     "notes": [
-      "convergence Top 5 interne/externe : 43%"
+      "convergence Top 5 interne/externe : 11%"
     ]
   },
   "divergences": {
     "interne_seulement": [
+      "lesslepasser",
       "royalwood",
-      "simply-lovely"
+      "simply-lovely",
+      "grand-scoop"
     ],
     "externe_seulement": [
-      "mister-chang",
-      "hello-carel"
+      "heroiste",
+      "schuman",
+      "prince-aubois",
+      "awaiting-christmas"
     ]
   },
   "confiance": {
-    "index": 4.32,
+    "index": 3.685,
     "level": "faible",
     "components": {
       "ecart_scores": 1.5422,
       "stabilite_seeds": 8.0,
-      "convergence_externe": 4.2857,
+      "convergence_externe": 1.1111,
       "completude_donnees": 4.0
     },
     "missing_data": [
@@ -1957,18 +1961,18 @@
     "justification": [
       "écart de score rang 1 / rang 2 = 0.31 (saturé à 2.0) → 1.5/10",
       "stabilité inter-seeds = 80% → 8.0/10",
-      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
       "complétude des données = 40% (48 champ(s) manquant(s)) → 4.0/10"
     ]
   },
   "delai": {
-    "is_late": false,
+    "is_late": true,
     "race_start": "2026-10-15T11:55:00+00:00",
     "betting_close": "2026-10-15T11:45:00+00:00",
-    "race_started": false,
-    "now": "2026-10-15T02:28:11.998848+00:00",
-    "minutes_late": 0.0,
-    "minutes_to_close": 556.8,
+    "race_started": true,
+    "now": "2026-10-15T13:44:41.328887+00:00",
+    "minutes_late": 119.69,
+    "minutes_to_close": -119.69,
     "schedule": {
       "start_ouagadougou": "2026-10-15T11:55:00+00:00",
       "start_paris": "2026-10-15T13:55:00+02:00",
@@ -2170,5 +2174,5 @@
       "score": 8.1116
     }
   ],
-  "stored_at": "2026-10-15T02:28:12.000171+00:00"
+  "stored_at": "2026-10-15T13:44:41.330640+00:00"
 }
