@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-14T23:55:10.812887+00:00",
+    "as_of": "2026-10-15T00:05:11.683217+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -1671,8 +1671,130 @@
   "externalconsensus": {
     "panel_consulted": [],
     "additional_found": [],
-    "failed_sources": [],
-    "picks": [],
+    "failed_sources": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "aucune URL configurée pour cette source",
+        "fetched_at": "2026-10-15T00:05:11.682921+00:00",
+        "is_panel_member": true
+      }
+    ],
     "p_implicite": {
       "kotkie": 0.030553,
       "koureas-d-ela": 0.16295,
@@ -1710,12 +1832,12 @@
     "externe_seulement": []
   },
   "confiance": {
-    "index": 3.498,
+    "index": 2.498,
     "level": "très faible",
     "components": {
       "ecart_scores": 0.5486,
       "stabilite_seeds": 6.0,
-      "convergence_externe": 5.0,
+      "convergence_externe": 0.0,
       "completude_donnees": 3.3333
     },
     "missing_data": [
@@ -1787,7 +1909,7 @@
     "justification": [
       "écart de score rang 1 / rang 2 = 0.11 (saturé à 2.0) → 0.5/10",
       "stabilité inter-seeds = 60% → 6.0/10",
-      "convergence externe indisponible → valeur neutre 5.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
       "complétude des données = 33% (64 champ(s) manquant(s)) → 3.3/10"
     ]
   },
@@ -1796,9 +1918,9 @@
     "race_start": "2026-10-14T11:55:00+00:00",
     "betting_close": "2026-10-14T11:45:00+00:00",
     "race_started": true,
-    "now": "2026-10-14T23:55:10.866198+00:00",
-    "minutes_late": 730.18,
-    "minutes_to_close": -730.18,
+    "now": "2026-10-15T00:05:11.735962+00:00",
+    "minutes_late": 740.2,
+    "minutes_to_close": -740.2,
     "schedule": {
       "start_ouagadougou": "2026-10-14T11:55:00+00:00",
       "start_paris": "2026-10-14T13:55:00+02:00",
@@ -2000,5 +2122,5 @@
       "score": 9.3193
     }
   ],
-  "stored_at": "2026-10-14T23:55:10.867778+00:00"
+  "stored_at": "2026-10-15T00:05:11.737573+00:00"
 }
