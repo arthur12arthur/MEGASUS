@@ -104,6 +104,7 @@ jobs:
           HYPERION_MAIL_TO: ${{ secrets.HYPERION_MAIL_TO }}
           HYPERION_LONAB_URL: ${{ secrets.HYPERION_LONAB_URL }}
           HYPERION_GEMINI_KEYS: ${{ secrets.HYPERION_GEMINI_KEYS }}
+          HYPERION_EXTERNAL_URLS: ${{ secrets.HYPERION_EXTERNAL_URLS }}
           HYPERION_HUMAN_PRESENT: "false"
         run: |
           DATE="${{ github.event.inputs.date }}"
@@ -119,9 +120,13 @@ jobs:
             # Pas de repli sur la demo synthetique : en cas d'echec, le job
             # echoue et le probleme est visible.
             if [ -n "$DATE" ]; then
-              python -m hyperion.cli run --auto --date "$DATE" --store --deliver
+              PANEL="data/panel_${DATE}.json"
+              if [ -f "$PANEL" ]; then PANEL_ARG="--panel $PANEL"; else PANEL_ARG=""; fi
+              python -m hyperion.cli run --auto --date "$DATE" $PANEL_ARG --store --deliver
             else
-              python -m hyperion.cli run --auto --store --deliver
+              PANEL="data/panel_$(date -u +%F).json"
+              if [ -f "$PANEL" ]; then PANEL_ARG="--panel $PANEL"; else PANEL_ARG=""; fi
+              python -m hyperion.cli run --auto $PANEL_ARG --store --deliver
             fi
           fi
 

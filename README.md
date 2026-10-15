@@ -164,6 +164,7 @@ correctement livrée.
 | `HYPERION_MAIL_FROM` / `HYPERION_MAIL_TO` | expéditeur / destinataires |
 | `HYPERION_LONAB_URL` | URL du journal officiel du jour |
 | `HYPERION_GEMINI_KEYS` | clés API Gemini (optionnel, rotation automatique) |
+| `HYPERION_EXTERNAL_URLS` | JSON des URL de pronostics par source, avec `{date}`, `{hippodrome}`, `{course}` et `{nom}` |
 
 Voir [`.env.example`](.env.example) pour la liste complète. **Aucune clé n'est
 codée en dur** : tout passe par l'environnement.
@@ -183,6 +184,13 @@ télécharge le PDF, en extrait le texte et l'analyse. Les expressions de
 reconnaissance des partants sont surchargeables — **le rendu exact d'un PDF
 LONAB doit être validé sur un vrai document**. En cas d'échec, le pipeline
 bascule automatiquement sur le provider JSON de secours.
+
+Pour une course réelle sans fichier `panel_YYYY-MM-DD.json`, le chemin `--auto`
+consulte désormais `HYPERION_EXTERNAL_URLS` via le provider HTTP. Exemple :
+`{"Equidia":"https://exemple.test/{date}","Canal Turf":"https://exemple.test/{date}/{hippodrome}/{course}"}`.
+Une URL absente ou une page bloquée est conservée dans `failed_sources` avec sa
+raison ; aucune sélection n'est fabriquée. Le workflow utilise automatiquement
+le panel daté lorsqu'il est présent.
 
 Dans les deux cas, le parseur **n'invente jamais** une valeur manquante : toute
 ligne non reconnue est rapportée plutôt que devinée.

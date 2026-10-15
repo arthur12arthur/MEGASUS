@@ -58,6 +58,25 @@ class TestRun:
         assert main(["run", "--input", str(journal), "--panel", str(panel), "--odds", str(odds)]) == 0
         assert "panel" in capsys.readouterr().out
 
+    def test_run_auto_consulte_le_provider_externe(self, monkeypatch, capsys):
+        from hyperion.external import ManualPanelProvider
+        from hyperion import lonab_auto
+
+        synthetic = SyntheticProvider(seed=8).race(dt.date.today(), 1)
+        monkeypatch.setattr(lonab_auto.LonabAutoProvider, "fetch", lambda self, d=None: synthetic.race)
+        monkeypatch.setenv(
+            "HYPERION_EXTERNAL_URLS",
+            json.dumps({"Genybet": "https://example.test/{date}"}),
+        )
+
+        def fake_fetch(self, race, panel, as_of=None):
+            return ManualPanelProvider({"Genybet": [h.name for h in race.order_by_odds()[:10]]}).fetch(race)
+
+        monkeypatch.setattr("hyperion.external.HttpPanelProvider.fetch", fake_fetch)
+        assert main(["run", "--auto", "--json"]) == 0
+        payload = json.loads(capsys.readouterr().out)
+        assert payload["externalconsensus"]["panel_consulted"] == ["Genybet"]
+
     def test_run_stocke_le_rapport(self, tmp_path, capsys, monkeypatch):
         monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs"))
         provider = SyntheticProvider(seed=7)

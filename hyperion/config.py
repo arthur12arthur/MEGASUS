@@ -8,6 +8,7 @@ l'environnement (GitHub Actions secrets en automatisation).
 from __future__ import annotations
 
 import os
+import json
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -96,6 +97,20 @@ def _env_int_list(name: str, default: tuple[int, ...] = ()) -> tuple[int, ...]:
     return tuple(out) or default
 
 
+def _env_mapping(name: str, default: dict[str, str] | None = None) -> dict[str, str]:
+    """Lit une map JSON d'URL sans jamais interrompre le démarrage."""
+    raw = _env_str(name)
+    if raw is None:
+        return dict(default or {})
+    try:
+        value = json.loads(raw)
+    except json.JSONDecodeError:
+        return dict(default or {})
+    if not isinstance(value, dict):
+        return dict(default or {})
+    return {str(key): str(url) for key, url in value.items() if isinstance(url, str) and url}
+
+
 @dataclass
 class Settings:
     """Réglages du pipeline. Valeurs par défaut = valeurs de production V10."""
@@ -147,6 +162,10 @@ class Settings:
     # -- module 1.9 ExternalConsensus --------------------------------------
     reference_panel: tuple[str, ...] = _env_list("REFERENCE_PANEL", REFERENCE_PANEL)
     external_min_sources: int = _env_int("EXTERNAL_MIN_SOURCES", 3)
+    #: JSON {"Equidia": "https://.../{date}..."}; aucune URL n'est devinée.
+    external_url_templates: dict[str, str] = field(
+        default_factory=lambda: _env_mapping("EXTERNAL_URLS")
+    )
 
     # -- module 1.11 Storage ------------------------------------------------
     store_json: bool = _env_bool("STORE_JSON", True)

@@ -78,7 +78,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def cmd_run(args: argparse.Namespace) -> int:
-    from hyperion.external import ManualPanelProvider
+    from hyperion.external import HttpPanelProvider, ManualPanelProvider
     from hyperion.ingestion import JsonFileProvider
     from hyperion.storage import JsonStore
 
@@ -104,6 +104,15 @@ def cmd_run(args: argparse.Namespace) -> int:
     if args.panel:
         payload = json.loads(Path(args.panel).read_text(encoding="utf-8"))
         picks = ManualPanelProvider(payload).fetch(race)
+    else:
+        # Le chemin automatique ne doit pas transformer l'absence de fichier
+        # panel en absence silencieuse de sources : il consulte les URL
+        # configurées, et le provider trace chaque source indisponible.
+        picks = HttpPanelProvider(
+            settings.external_url_templates,
+            timeout_s=settings.lonab_timeout_s,
+            max_retries=settings.lonab_max_retries,
+        ).fetch(race, panel=settings.reference_panel)
 
     result = run_pipeline(race, settings, latest_odds=latest_odds, external_picks=picks)
 
