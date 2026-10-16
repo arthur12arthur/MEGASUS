@@ -182,8 +182,18 @@ class DataFilter:
         # Maintien forcé des favoris aux cotes les plus basses.
         favourites = race.order_by_odds()[: self.settings.filter_forced_favourites]
         kept_ids = {h.horse_id for h in candidates}
+        veto = self.settings.filter_favourite_veto_points
         for horse in favourites:
             if horse.horse_id not in kept_ids:
+                points = result.risk_diagnostics.get(horse.horse_id, 0)
+                if points >= veto:
+                    # Le favori n'est PAS sauvé par sa cote : risque trop élevé
+                    # (ou non-partant tardif). Il reste écarté, motif visible.
+                    result.notes.append(
+                        f"{horse.name} reste écarté malgré sa cote : risque {points} "
+                        f"≥ plafond de maintien forcé {veto}"
+                    )
+                    continue
                 candidates.append(horse)
                 result.notes.append(
                     f"{horse.name} réintégré : favori aux cotes les plus basses "

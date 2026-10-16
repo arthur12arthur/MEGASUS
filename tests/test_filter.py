@@ -89,3 +89,33 @@ class TestDataFilter:
             simple_race, _observe(simple_race, {"h6": 40.0})
         )
         assert without.risk_diagnostics["h6"] <= with_drift.risk_diagnostics["h6"]
+
+
+class TestFavorisConditionnels:
+    """Les favoris forcés ne doivent jamais contourner le portillon à risque élevé."""
+
+    def test_non_partant_favori_jamais_reintegre(self, simple_race):
+        result = DataFilter().filter(simple_race, _observe(simple_race, non_runners=["h1"]))
+        assert "h1" not in result.selected
+        assert "h1" in {e.horse_id for e in result.excluded}
+
+    def test_plafond_applique_aux_favoris(self, simple_race):
+        import dataclasses
+
+        settings = dataclasses.replace(Settings(), filter_favourite_veto_points=1)
+        result = DataFilter(settings).filter(simple_race, _observe(simple_race))
+        exclus = {e.horse_id for e in result.excluded}
+        for h in simple_race.order_by_odds()[:5]:
+            if result.risk_diagnostics.get(h.horse_id, 0) >= 1 and h.horse_id in exclus:
+                assert h.horse_id not in result.selected or any(
+                    "groupe sous le minimum" in n for n in result.notes
+                )
+
+    def test_favoris_sains_toujours_retenus(self, simple_race):
+        result = DataFilter().filter(simple_race, _observe(simple_race))
+        sains = [
+            h.horse_id
+            for h in simple_race.order_by_odds()[:5]
+            if result.risk_diagnostics.get(h.horse_id, 0) < Settings().filter_favourite_veto_points
+        ]
+        assert set(sains).issubset(set(result.selected))

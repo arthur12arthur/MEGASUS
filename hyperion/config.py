@@ -147,6 +147,8 @@ class Settings:
     filter_threshold_points: int = _env_int("FILTER_THRESHOLD", 3)
     filter_min_group: int = _env_int("FILTER_MIN_GROUP", 5)
     filter_forced_favourites: int = _env_int("FILTER_FAVOURITES", 5)
+    # Un favori au risque >= ce plafond n'est plus maintenu de force (4 = max atteignable sans cote d'outsider).
+    filter_favourite_veto_points: int = _env_int("FILTER_FAVOURITE_VETO", 4)
 
     # -- module 1.7 ConsensusInterne ---------------------------------------
     mc_seeds: tuple[int, ...] = _env_int_list("MC_SEEDS", (11, 23, 37, 51, 73))
