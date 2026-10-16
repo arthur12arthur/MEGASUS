@@ -24,6 +24,11 @@ from hyperion.models import Race
 SHORTENING_THRESHOLD = -0.15
 #: Au-delà de cet allongement relatif, on considère la cote comme « dérivante ».
 DRIFTING_THRESHOLD = 0.20
+#: Une dérive n'est significative que si elle déplace aussi la probabilité
+#: implicite d'au moins 2 points (1/cote). Sans ce garde-fou, 30 → 36 (+20 %)
+#: pénaliserait un outsider pour un simple bruit, alors que 4 → 5 (+25 %) est
+#: un vrai mouvement du marché.
+MIN_IMPLIED_SHIFT = 0.02
 
 
 @dataclass
@@ -41,6 +46,13 @@ class MarketSignal:
     number: int | None = None
 
     @property
+    def implied_shift(self) -> float | None:
+        """Variation de probabilité implicite (positive = le marché y croit moins)."""
+        if not self.odds_pdf or not self.odds_latest:
+            return None
+        return 1.0 / self.odds_pdf - 1.0 / self.odds_latest
+
+    @property
     def display_name(self) -> str:
         return f"n°{self.number} · {self.name}" if self.number is not None else self.name
 
@@ -50,7 +62,10 @@ class MarketSignal:
 
     @property
     def drifting(self) -> bool:
-        return self.delta is not None and self.delta >= DRIFTING_THRESHOLD
+        if self.delta is None or self.delta < DRIFTING_THRESHOLD:
+            return False
+        shift = self.implied_shift
+        return shift is None or shift >= MIN_IMPLIED_SHIFT
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -60,6 +75,7 @@ class MarketSignal:
             "odds_pdf": self.odds_pdf,
             "odds_latest": self.odds_latest,
             "delta": self.delta,
+            "implied_shift": self.implied_shift,
             "direction": self.direction,
             "non_runner_alert": self.non_runner_alert,
             "note": self.note,
@@ -95,12 +111,19 @@ class MarketWatchResult:
         }
 
 
-def _direction(delta: float | None) -> str:
+def _direction(
+    delta: float | None,
+    odds_pdf: float | None = None,
+    odds_latest: float | None = None,
+) -> str:
     if delta is None:
         return "inconnu"
     if delta <= SHORTENING_THRESHOLD:
         return "raccourci"
     if delta >= DRIFTING_THRESHOLD:
+        if odds_pdf and odds_latest:
+            if 1.0 / odds_pdf - 1.0 / odds_latest < MIN_IMPLIED_SHIFT:
+                return "stable"  # variation relative forte mais négligeable en probabilité
         return "derive"
     return "stable"
 
@@ -142,7 +165,7 @@ class MarketWatch:
                 note = "non-partant signalé après publication du PDF"
             elif delta is not None and delta <= SHORTENING_THRESHOLD:
                 note = "cote fondue sans justification visible dans le journal"
-            elif delta is not None and delta >= DRIFTING_THRESHOLD:
+            elif _direction(delta, horse.odds_pdf, fresh) == "derive":
                 note = "cote en dérive à la hausse"
             signals.append(
                 MarketSignal(
@@ -152,7 +175,7 @@ class MarketWatch:
                     odds_pdf=horse.odds_pdf,
                     odds_latest=fresh,
                     delta=delta,
-                    direction=_direction(delta),
+                    direction=_direction(delta, horse.odds_pdf, fresh),
                     non_runner_alert=alert,
                     note=note,
                 )
