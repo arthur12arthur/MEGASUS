@@ -169,6 +169,24 @@ def run_pipeline(
     return result
 
 
+def identification_warnings(race: Race) -> list[str]:
+    """Liste ce qui manque pour identifier la course de façon fiable.
+
+    Une course sans hippodrome, sans discipline reconnue ou sans nom lisible est
+    analysée avec des poids génériques : le résultat doit alors être présenté
+    comme peu fiable, jamais comme une analyse normale.
+    """
+    meta = race.meta
+    issues: list[str] = []
+    if not meta.hippodrome:
+        issues.append("hippodrome non identifié")
+    if meta.discipline.value == "unknown":
+        issues.append("discipline non reconnue (poids génériques appliqués)")
+    if not meta.name:
+        issues.append("nom de la course non lu")
+    return issues
+
+
 def _relay_context(race: Race) -> dict[str, Any]:
     """Contexte relais explicite : course française, marché LONAB burkinabè."""
     game = relay.lonab_game_for(race.meta.date, race.meta.bet_type)
@@ -211,6 +229,7 @@ def _build_record(
         "hades": result.hades.as_dict(),
         "externalconsensus": result.external.as_dict(),
         "divergences": {k: list(v) for k, v in divergences.items()},
+        "identification": identification_warnings(race),
         "confiance": result.confidence.as_dict(),
         "delai": result.out_of_deadline.as_dict(),
         "relais": _relay_context(race),
@@ -253,9 +272,16 @@ def _build_blocks(
     def add(title: str, body: str) -> None:
         blocks[title] = f"*{title}*\n{body}"
 
+    ident = identification_warnings(race)
+    ident_line = (
+        "⚠ Identification incomplète : " + " ; ".join(ident) + ". "
+        "Analyse à prendre avec grande prudence.\n\n"
+        if ident
+        else ""
+    )
     add(
         "1/5 · Course",
-        f"{header}\n\n"
+        f"{ident_line}{header}\n\n"
         f"Discipline : {race.meta.discipline.label_fr}\n"
         f"{explain_weights(race.meta.discipline)}\n\n"
         f"{market_summary(result.market)}\n\n"
