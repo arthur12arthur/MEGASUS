@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-16T00:11:05.949992+00:00",
+    "as_of": "2026-10-16T13:35:09.796667+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -1484,7 +1484,7 @@
         "coverage": 0.714,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1504,7 +1504,7 @@
         "coverage": 0.714,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1524,7 +1524,7 @@
         "coverage": 0.714,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1533,7 +1533,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1542,7 +1542,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1551,7 +1551,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1571,7 +1571,7 @@
         "coverage": 0.714,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1580,7 +1580,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1589,7 +1589,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1598,7 +1598,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1618,7 +1618,7 @@
         "coverage": 0.714,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       },
       {
@@ -1627,7 +1627,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-16T00:11:02.076808+00:00",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
         "is_panel_member": true
       }
     ],
@@ -1759,9 +1759,9 @@
     "race_start": "2026-10-16T18:15:00+00:00",
     "betting_close": "2026-10-16T18:05:00+00:00",
     "race_started": false,
-    "now": "2026-10-16T00:11:05.995157+00:00",
+    "now": "2026-10-16T13:35:09.840433+00:00",
     "minutes_late": 0.0,
-    "minutes_to_close": 1073.9,
+    "minutes_to_close": 269.84,
     "schedule": {
       "start_ouagadougou": "2026-10-16T18:15:00+00:00",
       "start_paris": "2026-10-16T20:15:00+02:00",
@@ -1941,5 +1941,5 @@
       "score": 8.7979
     }
   ],
-  "stored_at": "2026-10-16T00:11:05.996795+00:00"
+  "stored_at": "2026-10-16T13:35:09.841939+00:00"
 }
