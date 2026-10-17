@@ -21,7 +21,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Mapping, Sequence
 
-from hyperion.analysis.market import MarketWatchResult
+from hyperion.analysis.market import MIN_IMPLIED_SHIFT, MarketWatchResult
 from hyperion.config import Settings
 from hyperion.models import Race
 
@@ -31,6 +31,12 @@ DROP_THRESHOLD = -0.20
 RANK_GAP_THRESHOLD = 3
 #: Nombre de chevaux du Top considérés comme « mis en avant » par le marché.
 MARKET_SPOTLIGHT = 4
+#: Un écart de rang n'a de sens que pour un cheval que l'analyse interne place
+#: dans son Top N (sinon on signale la moitié du lot, ce qui n'est pas de la valeur).
+INTERNAL_TOP = 4
+#: Plafond de chevaux signalés par course : HADES doit rester sélectif.
+MAX_FLAGGED = 3
+_SEVERITY_ORDER = {"forte": 3, "moyenne": 2, "faible": 1}
 
 
 @dataclass
@@ -89,7 +95,6 @@ def _comment_mentions_improvement(comment: str | None) -> bool:
     markers = (
         "gagnant",
         "vainqueur",
-        "en progrs",
         "en progrès",
         "confirm",
         "réuss",
@@ -102,7 +107,6 @@ def _comment_mentions_improvement(comment: str | None) -> bool:
         "première",
         "premiere",
         "retour",
-        "vient d'affronter",
         "vient d'affronter",
     )
     return any(marker in text for marker in markers)
@@ -132,52 +136,71 @@ class HADES:
             "aucun cheval du classement."
         )
         market_ranks = _market_rank(race)
+        gaps: dict[str, int] = {}
+        late_non_runners = set(market.late_non_runners) if market is not None else set()
 
         for horse in race.runners:
+            # Un non-partant tardif n'est jamais une « valeur » : il est géré en amont.
+            if horse.horse_id in late_non_runners:
+                continue
             signals: list[str] = []
+            market_signal = False
+            gap_signal = False
 
+            # Famille 1 — information de marché (cote qui fond réellement).
             if market is not None:
                 sig = market.signal(horse.horse_id)
-                if sig is not None and sig.delta is not None and sig.delta <= DROP_THRESHOLD:
-                    justified = _comment_mentions_improvement(horse.comment)
-                    if not justified:
+                shift = sig.implied_shift if sig is not None else None
+                if (
+                    sig is not None
+                    and sig.delta is not None
+                    and sig.delta <= DROP_THRESHOLD
+                    and (shift is None or shift <= -MIN_IMPLIED_SHIFT)
+                ):
+                    if not _comment_mentions_improvement(horse.comment):
+                        market_signal = True
                         signals.append(
                             f"cote fondue de {sig.delta * 100:+.0f}% depuis le PDF, "
                             "sans justification visible dans le journal"
                         )
-                if sig is not None and sig.non_runner_alert:
-                    signals.append("non-partant signalé tardivement")
 
+            # Famille 2 — écart entre l'analyse interne et le marché.
             if internal_ranking:
                 try:
                     internal_rank = list(internal_ranking).index(horse.horse_id) + 1
                 except ValueError:
                     internal_rank = None
                 market_rank = market_ranks.get(horse.horse_id)
-                if internal_rank and market_rank:
+                if internal_rank and market_rank and internal_rank <= INTERNAL_TOP:
                     gap = market_rank - internal_rank
                     if gap >= RANK_GAP_THRESHOLD:
+                        gap_signal = True
+                        gaps[horse.horse_id] = gap
                         signals.append(
                             f"l'analyse interne le place {gap} rangs plus haut que "
                             f"le marché (interne {internal_rank} vs marché {market_rank})"
                         )
 
-            if horse.comment is None and market_ranks.get(horse.horse_id, 99) > MARKET_SPOTLIGHT:
-                if competitiveness is not None:
-                    ranked = sorted(
-                        competitiveness, key=lambda c: -float(competitiveness[c])
+            # Corroboration — jamais un signal à lui seul (il redit surtout l'écart).
+            journal_signal = False
+            if (
+                gap_signal
+                and horse.comment is None
+                and market_ranks.get(horse.horse_id, 99) > MARKET_SPOTLIGHT
+                and competitiveness is not None
+            ):
+                ranked = sorted(competitiveness, key=lambda c: -float(competitiveness[c]))
+                if ranked and horse.horse_id in ranked[: max(3, len(ranked) // 3)]:
+                    journal_signal = True
+                    signals.append(
+                        "aucune mise en avant dans le journal malgré des "
+                        "critères internes favorables"
                     )
-                    if ranked and horse.horse_id in ranked[: max(3, len(ranked) // 3)]:
-                        signals.append(
-                            "aucune mise en avant dans le journal malgré des "
-                            "critères internes favorables"
-                        )
 
+            # Sévérité = nombre de sources INDÉPENDANTES, pas de lignes de texte.
             severity = "faible"
-            if len(signals) >= 3:
-                severity = "forte"
-            elif len(signals) >= 2:
-                severity = "moyenne"
+            if market_signal and gap_signal:
+                severity = "forte" if journal_signal else "moyenne"
             result.signals.append(
                 HadesSignal(
                     horse_id=horse.horse_id,
@@ -186,6 +209,28 @@ class HADES:
                     signals=signals,
                     severity=severity if signals else "faible",
                 )
+            )
+
+        # Sélectivité : on ne garde que les MAX_FLAGGED signaux les plus solides.
+        flagged = [s for s in result.signals if s.signals]
+        if len(flagged) > MAX_FLAGGED:
+            flagged.sort(
+                key=lambda s: (_SEVERITY_ORDER[s.severity], gaps.get(s.horse_id, 0)),
+                reverse=True,
+            )
+            dropped = flagged[MAX_FLAGGED:]
+            for sig in dropped:
+                sig.signals = []
+                sig.severity = "faible"
+            result.notes.append(
+                f"{len(dropped)} signal(s) moins solide(s) écarté(s) : HADES reste "
+                f"limité à {MAX_FLAGGED} chevaux par course."
+            )
+        if market is None or not any(
+            s.delta is not None for s in market.signals
+        ):
+            result.notes.append(
+                "Aucun mouvement de cote exploitable : sévérité plafonnée à « faible »."
             )
         return result
 
