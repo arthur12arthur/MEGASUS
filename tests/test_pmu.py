@@ -1,0 +1,86 @@
+"""Musique PMU + enrichissement depuis l'API participants (fichier réel du 15/10/2026)."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from hyperion.models import Horse, Race, RaceMeta
+from hyperion.music import parse_music
+from hyperion.pmu import enrich_race, extract_results, load_payload
+
+FIXTURE = Path(__file__).parent / "fixtures" / "pmu_participants_20261015_R1C1.json"
+
+
+def _race(payload) -> Race:
+    horses = [
+        Horse(horse_id=p["nom"].lower().replace(" ", "-"), name=p["nom"], number=p["numPmu"])
+        for p in payload["participants"]
+    ]
+    return Race(meta=RaceMeta(), horses=horses)
+
+
+class TestMusique:
+    def test_marqueur_d_annee_n_est_pas_une_place(self):
+        assert parse_music("3p2p4p4p2p(25)2p2p1p5p").places == (3, 2, 4, 4, 2, 2, 2, 1, 5)
+
+    def test_zero_est_une_place_non_placee(self):
+        assert parse_music("0p0p6p1p5p1p0p(25)7p0p").places == (0, 0, 6, 1, 5, 1, 0, 7, 0)
+
+    def test_incidents_comptes_comme_non_places(self):
+        m = parse_music("Dp1p(24)Ap3a")
+        assert m.places == (0, 1, 0, 3) and m.incidents == 2
+
+    def test_vide_et_ancien_format(self):
+        assert parse_music(None).places == () and parse_music("").places == ()
+        assert parse_music("1a2a3a").places == (1, 2, 3)
+
+
+class TestEnrichissement:
+    def test_les_16_partants_sont_apparies(self):
+        payload = load_payload(FIXTURE)
+        enriched, report = enrich_race(_race(payload), payload)
+        assert report.matched == 16 and not report.unmatched_pmu and not report.warnings
+        h = enriched.by_id("sweet-chop")
+        assert h.driver == "A.LEMAITRE" and h.runs == 26 and h.wins == 2
+        assert h.gains == 138092.0 and h.weight_kg == 63.5
+        assert h.recent_places[:3] == (3, 2, 4)
+
+    def test_cote_directe_alimente_marketwatch(self):
+        payload = load_payload(FIXTURE)
+        enriched, _ = enrich_race(_race(payload), payload)
+        h = enriched.by_id("sweet-chop")
+        assert h.odds_latest == 5.2 and h.odds_pdf == 8.7
+        assert h.raw["pmu"]["odds_reference_at"] < h.raw["pmu"]["odds_direct_at"]
+
+    def test_aucun_champ_de_resultat_ne_fuit(self):
+        payload = load_payload(FIXTURE)
+        enriched, _ = enrich_race(_race(payload), payload)
+        blob = json.dumps([h.as_dict() for h in enriched.horses], default=str)
+        blob += json.dumps([dict(h.raw) for h in enriched.horses], default=str)
+        assert "ordreArrivee" not in blob and "DATAHIPPIQUE" not in blob
+        # le résultat n'est lisible que par la voie d'évaluation dédiée
+        assert extract_results(payload)[12] == 1
+
+    def test_les_champs_du_pdf_ne_sont_pas_ecrases(self):
+        payload = load_payload(FIXTURE)
+        race = _race(payload)
+        race.horses[0].driver = "DRIVER PDF"
+        race.horses[0].odds_pdf = 9.9
+        enriched, _ = enrich_race(race, payload)
+        assert enriched.horses[0].driver == "DRIVER PDF" and enriched.horses[0].odds_pdf == 9.9
+        assert race.horses[0].odds_latest is None  # course d'origine intacte
+
+    def test_nom_different_refuse_avec_avertissement(self):
+        payload = load_payload(FIXTURE)
+        race = _race(payload)
+        race.horses[1].name = "AUTRE CHEVAL"
+        enriched, report = enrich_race(race, payload)
+        assert report.matched == 15 and any("ignoré" in w for w in report.warnings)
+        assert enriched.horses[1].driver is None
+
+    def test_non_partant_pmu_est_marque(self):
+        payload = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        payload["participants"][2]["statut"] = "NON_PARTANT"
+        enriched, _ = enrich_race(_race(payload), payload)
+        assert enriched.horses[2].non_runner and len(enriched.runners) == 15

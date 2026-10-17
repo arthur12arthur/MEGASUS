@@ -28,6 +28,7 @@ from typing import Any, Mapping, Sequence
 
 from hyperion.analysis.discipline import DIMENSIONS, WEIGHTS
 from hyperion.config import Settings
+from hyperion.music import parse_music
 from hyperion.models import Discipline, Horse, Race
 
 #: Points attribués à chaque place dans les courses récentes.
@@ -189,19 +190,8 @@ def score_forme(horse: Horse) -> float | None:
 
 
 def _parse_music(music: str) -> list[int]:
-    """'1a2a3a' -> [1, 2, 3]. Les lettres séparent les sorties."""
-    out: list[int] = []
-    digits = ""
-    for char in str(music):
-        if char.isdigit():
-            digits += char
-        else:
-            if digits:
-                out.append(int(digits))
-                digits = ""
-    if digits:
-        out.append(int(digits))
-    return [p for p in out if 1 <= p <= 30]
+    """Musique PMU -> places récentes (0 = non placé, marqueur d'année ignoré)."""
+    return list(parse_music(music).places)
 
 
 def _aptitude_value(raw: Any) -> float | None:
