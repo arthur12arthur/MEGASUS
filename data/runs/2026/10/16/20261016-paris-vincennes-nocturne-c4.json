@@ -1,0 +1,1945 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261016-paris-vincennes-nocturne-c4",
+  "date": "2026-10-16",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-10-16",
+    "start_time": "2026-10-16T18:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX THEMIS",
+    "distance_m": 2850,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_16-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-16T18:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-16T13:35:09.796667+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "tretiak",
+        "name": "TRETIAK",
+        "number": 1,
+        "odds_pdf": 32.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 2,
+        "odds_pdf": 58.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 3,
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kiss-me-again",
+        "name": "KISS ME AGAIN",
+        "number": 4,
+        "odds_pdf": 13.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+        "number": 5,
+        "odds_pdf": 38.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kerosen-du-gers",
+        "name": "KEROSEN DU GERS",
+        "number": 7,
+        "odds_pdf": 16.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "keraldo",
+        "name": "KERALDO",
+        "number": 8,
+        "odds_pdf": 57.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "max-occagnes",
+        "name": "MAX OCCAGNES",
+        "number": 9,
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "red-hot-roadster-f.-ouvrie",
+        "name": "RED HOT ROADSTER F. OUVRIE",
+        "number": 10,
+        "odds_pdf": 72.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "readly-lavec",
+        "name": "READLY LAVEC",
+        "number": 11,
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jalendra-de-malac-m.-mottier",
+        "name": "JALENDRA DE MALAC M. MOTTIER",
+        "number": 12,
+        "odds_pdf": 11.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "colbert-wf",
+        "name": "COLBERT WF",
+        "number": 13,
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "number": 14,
+        "odds_pdf": 20.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "elegance-kronos-a.-abrivard",
+        "name": "ELEGANCE KRONOS A. ABRIVARD",
+        "number": 15,
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "TRETIAK (tretiak) : aucune cote récente disponible",
+      "KIPHYLE DESBOIS (kiphyle-desbois) : aucune cote récente disponible",
+      "EMINENT KRONOS (eminent-kronos) : aucune cote récente disponible",
+      "KISS ME AGAIN (kiss-me-again) : aucune cote récente disponible",
+      "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS (komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois) : aucune cote récente disponible",
+      "KEROSEN DU GERS (kerosen-du-gers) : aucune cote récente disponible",
+      "KERALDO (keraldo) : aucune cote récente disponible",
+      "MAX OCCAGNES (max-occagnes) : aucune cote récente disponible",
+      "RED HOT ROADSTER F. OUVRIE (red-hot-roadster-f.-ouvrie) : aucune cote récente disponible",
+      "READLY LAVEC (readly-lavec) : aucune cote récente disponible",
+      "JALENDRA DE MALAC M. MOTTIER (jalendra-de-malac-m.-mottier) : aucune cote récente disponible",
+      "COLBERT WF (colbert-wf) : aucune cote récente disponible",
+      "KAMEHAMEHA (kamehameha) : aucune cote récente disponible",
+      "ELEGANCE KRONOS A. ABRIVARD (elegance-kronos-a.-abrivard) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "tretiak",
+      "kiphyle-desbois",
+      "eminent-kronos",
+      "kiss-me-again",
+      "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+      "kerosen-du-gers",
+      "keraldo",
+      "max-occagnes",
+      "red-hot-roadster-f.-ouvrie",
+      "readly-lavec",
+      "jalendra-de-malac-m.-mottier",
+      "colbert-wf",
+      "kamehameha",
+      "elegance-kronos-a.-abrivard"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "elegance-kronos-a.-abrivard",
+        "name": "ELEGANCE KRONOS A. ABRIVARD",
+        "number": 15,
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "number": 14,
+        "dimensions": {
+          "historique": 9.969705841198397,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9697,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "colbert-wf",
+        "name": "COLBERT WF",
+        "number": 13,
+        "dimensions": {
+          "historique": 9.93923008115789,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9392,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jalendra-de-malac-m.-mottier",
+        "name": "JALENDRA DE MALAC M. MOTTIER",
+        "number": 12,
+        "dimensions": {
+          "historique": 9.887501994700473,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8875,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "readly-lavec",
+        "name": "READLY LAVEC",
+        "number": 11,
+        "dimensions": {
+          "historique": 9.859178818324864,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8592,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "red-hot-roadster-f.-ouvrie",
+        "name": "RED HOT ROADSTER F. OUVRIE",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.40416339839511,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4042,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "max-occagnes",
+        "name": "MAX OCCAGNES",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.399314888924863,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3993,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "keraldo",
+        "name": "KERALDO",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.390155194774056,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3902,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kerosen-du-gers",
+        "name": "KEROSEN DU GERS",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.389503849904697,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3895,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+        "number": 5,
+        "dimensions": {
+          "historique": 9.384092387345703,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3841,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiss-me-again",
+        "name": "KISS ME AGAIN",
+        "number": 4,
+        "dimensions": {
+          "historique": 9.365684889738816,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3657,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.348903282145532,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3489,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 2,
+        "dimensions": {
+          "historique": 9.346546658756779,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.3465,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "tretiak",
+        "name": "TRETIAK",
+        "number": 1,
+        "dimensions": {
+          "historique": 8.797864989869048,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 8.7979,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "elegance-kronos-a.-abrivard",
+      "kamehameha",
+      "colbert-wf",
+      "jalendra-de-malac-m.-mottier",
+      "readly-lavec",
+      "red-hot-roadster-f.-ouvrie",
+      "max-occagnes",
+      "keraldo",
+      "kerosen-du-gers",
+      "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+      "kiss-me-again",
+      "eminent-kronos",
+      "kiphyle-desbois",
+      "tretiak"
+    ],
+    "stability": 0.8,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "tretiak": {
+          "horse_id": "tretiak",
+          "name": "TRETIAK",
+          "p_win": 0.04664,
+          "p_top3": 0.14804,
+          "p_top5": 0.25398,
+          "expected_position": 8.8288,
+          "position_distribution": {
+            "1": 0.04664,
+            "2": 0.04986,
+            "3": 0.05154,
+            "4": 0.05212,
+            "5": 0.05382,
+            "6": 0.0568,
+            "7": 0.0599,
+            "8": 0.06174,
+            "9": 0.06742,
+            "10": 0.07288,
+            "11": 0.0783,
+            "12": 0.09008,
+            "13": 0.10624,
+            "14": 0.15266
+          }
+        },
+        "kiphyle-desbois": {
+          "horse_id": "kiphyle-desbois",
+          "name": "KIPHYLE DESBOIS",
+          "p_win": 0.06312,
+          "p_top3": 0.19276,
+          "p_top5": 0.32616,
+          "expected_position": 7.8407,
+          "position_distribution": {
+            "1": 0.06312,
+            "2": 0.06412,
+            "3": 0.06552,
+            "4": 0.06712,
+            "5": 0.06628,
+            "6": 0.06862,
+            "7": 0.06862,
+            "8": 0.07276,
+            "9": 0.07114,
+            "10": 0.07376,
+            "11": 0.07578,
+            "12": 0.07858,
+            "13": 0.07976,
+            "14": 0.08482
+          }
+        },
+        "eminent-kronos": {
+          "horse_id": "eminent-kronos",
+          "name": "EMINENT KRONOS",
+          "p_win": 0.065,
+          "p_top3": 0.19434,
+          "p_top5": 0.33098,
+          "expected_position": 7.7982,
+          "position_distribution": {
+            "1": 0.065,
+            "2": 0.0656,
+            "3": 0.06374,
+            "4": 0.0682,
+            "5": 0.06844,
+            "6": 0.06942,
+            "7": 0.06794,
+            "8": 0.07082,
+            "9": 0.07188,
+            "10": 0.07306,
+            "11": 0.07514,
+            "12": 0.0783,
+            "13": 0.08098,
+            "14": 0.08148
+          }
+        },
+        "kiss-me-again": {
+          "horse_id": "kiss-me-again",
+          "name": "KISS ME AGAIN",
+          "p_win": 0.06606,
+          "p_top3": 0.19708,
+          "p_top5": 0.3308,
+          "expected_position": 7.7916,
+          "position_distribution": {
+            "1": 0.06606,
+            "2": 0.06628,
+            "3": 0.06474,
+            "4": 0.06714,
+            "5": 0.06658,
+            "6": 0.0684,
+            "7": 0.06944,
+            "8": 0.07026,
+            "9": 0.07226,
+            "10": 0.07288,
+            "11": 0.07558,
+            "12": 0.0787,
+            "13": 0.07968,
+            "14": 0.082
+          }
+        },
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": {
+          "horse_id": "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+          "name": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+          "p_win": 0.06486,
+          "p_top3": 0.1977,
+          "p_top5": 0.33128,
+          "expected_position": 7.7683,
+          "position_distribution": {
+            "1": 0.06486,
+            "2": 0.06622,
+            "3": 0.06662,
+            "4": 0.06692,
+            "5": 0.06666,
+            "6": 0.07114,
+            "7": 0.06928,
+            "8": 0.0714,
+            "9": 0.07128,
+            "10": 0.07462,
+            "11": 0.07396,
+            "12": 0.07694,
+            "13": 0.07884,
+            "14": 0.08126
+          }
+        },
+        "kerosen-du-gers": {
+          "horse_id": "kerosen-du-gers",
+          "name": "KEROSEN DU GERS",
+          "p_win": 0.06658,
+          "p_top3": 0.19862,
+          "p_top5": 0.33336,
+          "expected_position": 7.7531,
+          "position_distribution": {
+            "1": 0.06658,
+            "2": 0.06546,
+            "3": 0.06658,
+            "4": 0.0668,
+            "5": 0.06794,
+            "6": 0.0691,
+            "7": 0.0705,
+            "8": 0.07184,
+            "9": 0.07216,
+            "10": 0.07324,
+            "11": 0.07416,
+            "12": 0.07522,
+            "13": 0.07998,
+            "14": 0.08044
+          }
+        },
+        "keraldo": {
+          "horse_id": "keraldo",
+          "name": "KERALDO",
+          "p_win": 0.06558,
+          "p_top3": 0.19802,
+          "p_top5": 0.33418,
+          "expected_position": 7.7637,
+          "position_distribution": {
+            "1": 0.06558,
+            "2": 0.06486,
+            "3": 0.06758,
+            "4": 0.06782,
+            "5": 0.06834,
+            "6": 0.06788,
+            "7": 0.0701,
+            "8": 0.06984,
+            "9": 0.07234,
+            "10": 0.07392,
+            "11": 0.076,
+            "12": 0.07584,
+            "13": 0.07896,
+            "14": 0.08094
+          }
+        },
+        "max-occagnes": {
+          "horse_id": "max-occagnes",
+          "name": "MAX OCCAGNES",
+          "p_win": 0.0657,
+          "p_top3": 0.19948,
+          "p_top5": 0.33816,
+          "expected_position": 7.7251,
+          "position_distribution": {
+            "1": 0.0657,
+            "2": 0.06778,
+            "3": 0.066,
+            "4": 0.06866,
+            "5": 0.07002,
+            "6": 0.06898,
+            "7": 0.07068,
+            "8": 0.06942,
+            "9": 0.07162,
+            "10": 0.07394,
+            "11": 0.07336,
+            "12": 0.07566,
+            "13": 0.07624,
+            "14": 0.08194
+          }
+        },
+        "red-hot-roadster-f.-ouvrie": {
+          "horse_id": "red-hot-roadster-f.-ouvrie",
+          "name": "RED HOT ROADSTER F. OUVRIE",
+          "p_win": 0.06572,
+          "p_top3": 0.2001,
+          "p_top5": 0.33814,
+          "expected_position": 7.7054,
+          "position_distribution": {
+            "1": 0.06572,
+            "2": 0.06712,
+            "3": 0.06726,
+            "4": 0.069,
+            "5": 0.06904,
+            "6": 0.06942,
+            "7": 0.07004,
+            "8": 0.07066,
+            "9": 0.07214,
+            "10": 0.07364,
+            "11": 0.07646,
+            "12": 0.07614,
+            "13": 0.07704,
+            "14": 0.07632
+          }
+        },
+        "readly-lavec": {
+          "horse_id": "readly-lavec",
+          "name": "READLY LAVEC",
+          "p_win": 0.0853,
+          "p_top3": 0.24916,
+          "p_top5": 0.40822,
+          "expected_position": 6.898,
+          "position_distribution": {
+            "1": 0.0853,
+            "2": 0.08238,
+            "3": 0.08148,
+            "4": 0.07922,
+            "5": 0.07984,
+            "6": 0.07722,
+            "7": 0.07558,
+            "8": 0.07536,
+            "9": 0.07206,
+            "10": 0.06724,
+            "11": 0.06396,
+            "12": 0.06036,
+            "13": 0.05666,
+            "14": 0.04334
+          }
+        },
+        "jalendra-de-malac-m.-mottier": {
+          "horse_id": "jalendra-de-malac-m.-mottier",
+          "name": "JALENDRA DE MALAC M. MOTTIER",
+          "p_win": 0.08356,
+          "p_top3": 0.24842,
+          "p_top5": 0.40528,
+          "expected_position": 6.8916,
+          "position_distribution": {
+            "1": 0.08356,
+            "2": 0.08272,
+            "3": 0.08214,
+            "4": 0.08066,
+            "5": 0.0762,
+            "6": 0.07942,
+            "7": 0.07928,
+            "8": 0.07362,
+            "9": 0.07152,
+            "10": 0.06878,
+            "11": 0.06506,
+            "12": 0.06034,
+            "13": 0.05292,
+            "14": 0.04378
+          }
+        },
+        "colbert-wf": {
+          "horse_id": "colbert-wf",
+          "name": "COLBERT WF",
+          "p_win": 0.08474,
+          "p_top3": 0.25466,
+          "p_top5": 0.4193,
+          "expected_position": 6.8049,
+          "position_distribution": {
+            "1": 0.08474,
+            "2": 0.08452,
+            "3": 0.0854,
+            "4": 0.08226,
+            "5": 0.08238,
+            "6": 0.07684,
+            "7": 0.07516,
+            "8": 0.07332,
+            "9": 0.07116,
+            "10": 0.06748,
+            "11": 0.06492,
+            "12": 0.0614,
+            "13": 0.0518,
+            "14": 0.03862
+          }
+        },
+        "kamehameha": {
+          "horse_id": "kamehameha",
+          "name": "KAMEHAMEHA",
+          "p_win": 0.08664,
+          "p_top3": 0.2588,
+          "p_top5": 0.42366,
+          "expected_position": 6.7421,
+          "position_distribution": {
+            "1": 0.08664,
+            "2": 0.08704,
+            "3": 0.08512,
+            "4": 0.08266,
+            "5": 0.0822,
+            "6": 0.07674,
+            "7": 0.0762,
+            "8": 0.07528,
+            "9": 0.07086,
+            "10": 0.06736,
+            "11": 0.0655,
+            "12": 0.0572,
+            "13": 0.05074,
+            "14": 0.03646
+          }
+        },
+        "elegance-kronos-a.-abrivard": {
+          "horse_id": "elegance-kronos-a.-abrivard",
+          "name": "ELEGANCE KRONOS A. ABRIVARD",
+          "p_win": 0.0905,
+          "p_top3": 0.26282,
+          "p_top5": 0.4265,
+          "expected_position": 6.6885,
+          "position_distribution": {
+            "1": 0.0905,
+            "2": 0.08604,
+            "3": 0.08628,
+            "4": 0.08142,
+            "5": 0.08226,
+            "6": 0.08002,
+            "7": 0.07728,
+            "8": 0.07368,
+            "9": 0.07216,
+            "10": 0.0672,
+            "11": 0.06182,
+            "12": 0.05524,
+            "13": 0.05016,
+            "14": 0.03594
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "elegance-kronos-a.-abrivard",
+          "kamehameha",
+          "colbert-wf"
+        ],
+        "23": [
+          "elegance-kronos-a.-abrivard",
+          "kamehameha",
+          "colbert-wf"
+        ],
+        "37": [
+          "elegance-kronos-a.-abrivard",
+          "kamehameha",
+          "colbert-wf"
+        ],
+        "51": [
+          "elegance-kronos-a.-abrivard",
+          "colbert-wf",
+          "kamehameha"
+        ],
+        "73": [
+          "elegance-kronos-a.-abrivard",
+          "kamehameha",
+          "jalendra-de-malac-m.-mottier"
+        ]
+      },
+      "reference_top": [
+        "colbert-wf",
+        "elegance-kronos-a.-abrivard",
+        "kamehameha"
+      ],
+      "stable_seeds": 4,
+      "stability": 0.8,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "elegance-kronos-a.-abrivard": 10.0,
+        "kamehameha": 4.0,
+        "colbert-wf": 1.0,
+        "jalendra-de-malac-m.-mottier": 0.0
+      },
+      "order": [
+        "elegance-kronos-a.-abrivard",
+        "kamehameha",
+        "colbert-wf",
+        "jalendra-de-malac-m.-mottier"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "elegance-kronos-a.-abrivard": 13.0,
+        "kamehameha": 12.0,
+        "colbert-wf": 11.0,
+        "jalendra-de-malac-m.-mottier": 10.0,
+        "readly-lavec": 9.0,
+        "red-hot-roadster-f.-ouvrie": 8.0,
+        "max-occagnes": 7.0,
+        "keraldo": 6.0,
+        "kerosen-du-gers": 5.0,
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": 4.0,
+        "kiss-me-again": 3.0,
+        "eminent-kronos": 2.0,
+        "kiphyle-desbois": 1.0,
+        "tretiak": 0.0
+      },
+      "order": [
+        "elegance-kronos-a.-abrivard",
+        "kamehameha",
+        "colbert-wf",
+        "jalendra-de-malac-m.-mottier",
+        "readly-lavec",
+        "red-hot-roadster-f.-ouvrie",
+        "max-occagnes",
+        "keraldo",
+        "kerosen-du-gers",
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+        "kiss-me-again",
+        "eminent-kronos",
+        "kiphyle-desbois",
+        "tretiak"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "elegance-kronos-a.-abrivard",
+        "kamehameha",
+        "colbert-wf",
+        "jalendra-de-malac-m.-mottier",
+        "readly-lavec",
+        "red-hot-roadster-f.-ouvrie",
+        "max-occagnes",
+        "keraldo",
+        "kerosen-du-gers",
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+        "kiss-me-again",
+        "eminent-kronos",
+        "kiphyle-desbois",
+        "tretiak"
+      ],
+      "copeland": {
+        "elegance-kronos-a.-abrivard": 13.0,
+        "kamehameha": 11.0,
+        "colbert-wf": 9.0,
+        "jalendra-de-malac-m.-mottier": 7.0,
+        "readly-lavec": 5.0,
+        "red-hot-roadster-f.-ouvrie": 3.0,
+        "max-occagnes": 1.0,
+        "kerosen-du-gers": -1.5,
+        "keraldo": -1.5,
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": -5.0,
+        "kiss-me-again": -7.0,
+        "eminent-kronos": -9.0,
+        "kiphyle-desbois": -11.0,
+        "tretiak": -13.0
+      },
+      "normalized": {
+        "elegance-kronos-a.-abrivard": 1.0,
+        "kamehameha": 0.9231,
+        "colbert-wf": 0.8462,
+        "jalendra-de-malac-m.-mottier": 0.7692,
+        "readly-lavec": 0.6923,
+        "red-hot-roadster-f.-ouvrie": 0.6154,
+        "max-occagnes": 0.5385,
+        "kerosen-du-gers": 0.4423,
+        "keraldo": 0.4423,
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": 0.3077,
+        "kiss-me-again": 0.2308,
+        "eminent-kronos": 0.1538,
+        "kiphyle-desbois": 0.0769,
+        "tretiak": 0.0
+      },
+      "mean_rank": {
+        "elegance-kronos-a.-abrivard": 0.0,
+        "kamehameha": 1.0,
+        "colbert-wf": 2.0,
+        "jalendra-de-malac-m.-mottier": 3.0,
+        "readly-lavec": 4.0,
+        "red-hot-roadster-f.-ouvrie": 5.0,
+        "max-occagnes": 6.0,
+        "kerosen-du-gers": 7.5,
+        "keraldo": 7.5,
+        "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": 9.0,
+        "kiss-me-again": 10.0,
+        "eminent-kronos": 11.0,
+        "kiphyle-desbois": 12.0,
+        "tretiak": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "tretiak",
+        "name": "TRETIAK",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiss-me-again",
+        "name": "KISS ME AGAIN",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kerosen-du-gers",
+        "name": "KEROSEN DU GERS",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "keraldo",
+        "name": "KERALDO",
+        "number": 8,
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 8 vs marché 12)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "max-occagnes",
+        "name": "MAX OCCAGNES",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "red-hot-roadster-f.-ouvrie",
+        "name": "RED HOT ROADSTER F. OUVRIE",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 6 vs marché 14)"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "readly-lavec",
+        "name": "READLY LAVEC",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jalendra-de-malac-m.-mottier",
+        "name": "JALENDRA DE MALAC M. MOTTIER",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "colbert-wf",
+        "name": "COLBERT WF",
+        "number": 13,
+        "signals": [
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kamehameha",
+        "name": "KAMEHAMEHA",
+        "number": 14,
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 2 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "elegance-kronos-a.-abrivard",
+        "name": "ELEGANCE KRONOS A. ABRIVARD",
+        "number": 15,
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 1 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "moyenne"
+      }
+    ],
+    "flagged": [
+      "keraldo",
+      "red-hot-roadster-f.-ouvrie",
+      "colbert-wf",
+      "kamehameha",
+      "elegance-kronos-a.-abrivard"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "eminent-kronos",
+          "tretiak",
+          "kiphyle-desbois",
+          "kiss-me-again",
+          "kerosen-du-gers",
+          "keraldo",
+          "max-occagnes",
+          "readly-lavec",
+          "colbert-wf",
+          "kamehameha"
+        ],
+        "coverage": 0.714,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "tretiak",
+          "kiphyle-desbois",
+          "eminent-kronos",
+          "kiss-me-again",
+          "kerosen-du-gers",
+          "keraldo",
+          "max-occagnes",
+          "readly-lavec",
+          "colbert-wf",
+          "kamehameha"
+        ],
+        "coverage": 0.714,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "eminent-kronos",
+          "tretiak",
+          "kiphyle-desbois",
+          "kiss-me-again",
+          "kerosen-du-gers",
+          "keraldo",
+          "max-occagnes",
+          "readly-lavec",
+          "colbert-wf",
+          "kamehameha"
+        ],
+        "coverage": 0.714,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "eminent-kronos",
+          "kiss-me-again",
+          "kerosen-du-gers",
+          "kamehameha",
+          "tretiak",
+          "colbert-wf",
+          "kiphyle-desbois",
+          "keraldo",
+          "max-occagnes",
+          "readly-lavec"
+        ],
+        "coverage": 0.714,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "tretiak",
+          "kiphyle-desbois",
+          "eminent-kronos",
+          "kiss-me-again",
+          "kerosen-du-gers",
+          "keraldo",
+          "max-occagnes",
+          "readly-lavec",
+          "colbert-wf",
+          "kamehameha"
+        ],
+        "coverage": 0.714,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-16T13:35:00.504478+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "tretiak": 0.036745,
+      "kiphyle-desbois": 0.020273,
+      "eminent-kronos": 0.235167,
+      "kiss-me-again": 0.090449,
+      "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois": 0.030943,
+      "kerosen-du-gers": 0.07349,
+      "keraldo": 0.020629,
+      "max-occagnes": 0.048993,
+      "red-hot-roadster-f.-ouvrie": 0.016331,
+      "readly-lavec": 0.117583,
+      "jalendra-de-malac-m.-mottier": 0.106894,
+      "colbert-wf": 0.078389,
+      "kamehameha": 0.058792,
+      "elegance-kronos-a.-abrivard": 0.065324
+    },
+    "consensus_ranking": [
+      "eminent-kronos",
+      "tretiak",
+      "kiphyle-desbois",
+      "kiss-me-again",
+      "kerosen-du-gers",
+      "keraldo",
+      "max-occagnes",
+      "colbert-wf",
+      "readly-lavec",
+      "kamehameha"
+    ],
+    "convergence": 0.0,
+    "notes": [
+      "convergence Top 5 interne/externe : 0%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "elegance-kronos-a.-abrivard",
+      "kamehameha",
+      "colbert-wf",
+      "jalendra-de-malac-m.-mottier",
+      "readly-lavec"
+    ],
+    "externe_seulement": [
+      "eminent-kronos",
+      "tretiak",
+      "kiphyle-desbois",
+      "kiss-me-again",
+      "kerosen-du-gers"
+    ]
+  },
+  "confiance": {
+    "index": 2.879,
+    "level": "très faible",
+    "components": {
+      "ecart_scores": 0.1515,
+      "stabilite_seeds": 8.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 3.3333
+    },
+    "missing_data": [
+      "n°1 · TRETIAK : recent_places",
+      "n°1 · TRETIAK : driver",
+      "n°1 · TRETIAK : aptitude",
+      "n°1 · TRETIAK : shoeing",
+      "n°2 · KIPHYLE DESBOIS : recent_places",
+      "n°2 · KIPHYLE DESBOIS : driver",
+      "n°2 · KIPHYLE DESBOIS : aptitude",
+      "n°2 · KIPHYLE DESBOIS : shoeing",
+      "n°3 · EMINENT KRONOS : recent_places",
+      "n°3 · EMINENT KRONOS : driver",
+      "n°3 · EMINENT KRONOS : aptitude",
+      "n°3 · EMINENT KRONOS : shoeing",
+      "n°4 · KISS ME AGAIN : recent_places",
+      "n°4 · KISS ME AGAIN : driver",
+      "n°4 · KISS ME AGAIN : aptitude",
+      "n°4 · KISS ME AGAIN : shoeing",
+      "n°5 · KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS : recent_places",
+      "n°5 · KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS : driver",
+      "n°5 · KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS : aptitude",
+      "n°5 · KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS : shoeing",
+      "n°7 · KEROSEN DU GERS : recent_places",
+      "n°7 · KEROSEN DU GERS : driver",
+      "n°7 · KEROSEN DU GERS : aptitude",
+      "n°7 · KEROSEN DU GERS : shoeing",
+      "n°8 · KERALDO : recent_places",
+      "n°8 · KERALDO : driver",
+      "n°8 · KERALDO : aptitude",
+      "n°8 · KERALDO : shoeing",
+      "n°9 · MAX OCCAGNES : recent_places",
+      "n°9 · MAX OCCAGNES : driver",
+      "n°9 · MAX OCCAGNES : aptitude",
+      "n°9 · MAX OCCAGNES : shoeing",
+      "n°10 · RED HOT ROADSTER F. OUVRIE : recent_places",
+      "n°10 · RED HOT ROADSTER F. OUVRIE : driver",
+      "n°10 · RED HOT ROADSTER F. OUVRIE : aptitude",
+      "n°10 · RED HOT ROADSTER F. OUVRIE : shoeing",
+      "n°11 · READLY LAVEC : recent_places",
+      "n°11 · READLY LAVEC : driver",
+      "n°11 · READLY LAVEC : aptitude",
+      "n°11 · READLY LAVEC : shoeing",
+      "n°12 · JALENDRA DE MALAC M. MOTTIER : recent_places",
+      "n°12 · JALENDRA DE MALAC M. MOTTIER : driver",
+      "n°12 · JALENDRA DE MALAC M. MOTTIER : aptitude",
+      "n°12 · JALENDRA DE MALAC M. MOTTIER : shoeing",
+      "n°13 · COLBERT WF : recent_places",
+      "n°13 · COLBERT WF : driver",
+      "n°13 · COLBERT WF : aptitude",
+      "n°13 · COLBERT WF : shoeing",
+      "n°14 · KAMEHAMEHA : recent_places",
+      "n°14 · KAMEHAMEHA : driver",
+      "n°14 · KAMEHAMEHA : aptitude",
+      "n°14 · KAMEHAMEHA : shoeing",
+      "n°15 · ELEGANCE KRONOS A. ABRIVARD : recent_places",
+      "n°15 · ELEGANCE KRONOS A. ABRIVARD : driver",
+      "n°15 · ELEGANCE KRONOS A. ABRIVARD : aptitude",
+      "n°15 · ELEGANCE KRONOS A. ABRIVARD : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.03 (saturé à 2.0) → 0.2/10",
+      "stabilité inter-seeds = 80% → 8.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 33% (56 champ(s) manquant(s)) → 3.3/10"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-16T18:15:00+00:00",
+    "betting_close": "2026-10-16T18:05:00+00:00",
+    "race_started": false,
+    "now": "2026-10-16T13:35:09.840433+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 269.84,
+    "schedule": {
+      "start_ouagadougou": "2026-10-16T18:15:00+00:00",
+      "start_paris": "2026-10-16T20:15:00+02:00",
+      "close_lonab": "2026-10-16T18:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 15,
+      "cheval": "ELEGANCE KRONOS A. ABRIVARD",
+      "horse_id": "elegance-kronos-a.-abrivard"
+    },
+    {
+      "rang": 2,
+      "numero": 14,
+      "cheval": "KAMEHAMEHA",
+      "horse_id": "kamehameha"
+    },
+    {
+      "rang": 3,
+      "numero": 13,
+      "cheval": "COLBERT WF",
+      "horse_id": "colbert-wf"
+    },
+    {
+      "rang": 4,
+      "numero": 12,
+      "cheval": "JALENDRA DE MALAC M. MOTTIER",
+      "horse_id": "jalendra-de-malac-m.-mottier"
+    },
+    {
+      "rang": 5,
+      "numero": 11,
+      "cheval": "READLY LAVEC",
+      "horse_id": "readly-lavec"
+    },
+    {
+      "rang": 6,
+      "numero": 10,
+      "cheval": "RED HOT ROADSTER F. OUVRIE",
+      "horse_id": "red-hot-roadster-f.-ouvrie"
+    },
+    {
+      "rang": 7,
+      "numero": 9,
+      "cheval": "MAX OCCAGNES",
+      "horse_id": "max-occagnes"
+    },
+    {
+      "rang": 8,
+      "numero": 8,
+      "cheval": "KERALDO",
+      "horse_id": "keraldo"
+    },
+    {
+      "rang": 9,
+      "numero": 7,
+      "cheval": "KEROSEN DU GERS",
+      "horse_id": "kerosen-du-gers"
+    },
+    {
+      "rang": 10,
+      "numero": 5,
+      "cheval": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+      "horse_id": "komere-de-corday-guillaume-martin-arnaud-desmottes-p.-lebourgeois"
+    },
+    {
+      "rang": 11,
+      "numero": 4,
+      "cheval": "KISS ME AGAIN",
+      "horse_id": "kiss-me-again"
+    },
+    {
+      "rang": 12,
+      "numero": 3,
+      "cheval": "EMINENT KRONOS",
+      "horse_id": "eminent-kronos"
+    },
+    {
+      "rang": 13,
+      "numero": 2,
+      "cheval": "KIPHYLE DESBOIS",
+      "horse_id": "kiphyle-desbois"
+    },
+    {
+      "rang": 14,
+      "numero": 1,
+      "cheval": "TRETIAK",
+      "horse_id": "tretiak"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 15,
+      "cheval": "ELEGANCE KRONOS A. ABRIVARD",
+      "score": 10.0
+    },
+    {
+      "numero": 14,
+      "cheval": "KAMEHAMEHA",
+      "score": 9.9697
+    },
+    {
+      "numero": 13,
+      "cheval": "COLBERT WF",
+      "score": 9.9392
+    },
+    {
+      "numero": 12,
+      "cheval": "JALENDRA DE MALAC M. MOTTIER",
+      "score": 9.8875
+    },
+    {
+      "numero": 11,
+      "cheval": "READLY LAVEC",
+      "score": 9.8592
+    },
+    {
+      "numero": 10,
+      "cheval": "RED HOT ROADSTER F. OUVRIE",
+      "score": 9.4042
+    },
+    {
+      "numero": 9,
+      "cheval": "MAX OCCAGNES",
+      "score": 9.3993
+    },
+    {
+      "numero": 8,
+      "cheval": "KERALDO",
+      "score": 9.3902
+    },
+    {
+      "numero": 7,
+      "cheval": "KEROSEN DU GERS",
+      "score": 9.3895
+    },
+    {
+      "numero": 5,
+      "cheval": "KOMERE DE CORDAY GUILLAUME MARTIN ARNAUD DESMOTTES P. LEBOURGEOIS",
+      "score": 9.3841
+    },
+    {
+      "numero": 4,
+      "cheval": "KISS ME AGAIN",
+      "score": 9.3657
+    },
+    {
+      "numero": 3,
+      "cheval": "EMINENT KRONOS",
+      "score": 9.3489
+    },
+    {
+      "numero": 2,
+      "cheval": "KIPHYLE DESBOIS",
+      "score": 9.3465
+    },
+    {
+      "numero": 1,
+      "cheval": "TRETIAK",
+      "score": 8.7979
+    }
+  ],
+  "stored_at": "2026-10-16T13:35:09.841939+00:00"
+}
