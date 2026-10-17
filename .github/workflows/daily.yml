@@ -17,12 +17,12 @@ name: Analyse quotidienne
 
 on:
   schedule:
-    # 09h00 UTC = 09h00 a Ouagadougou (UTC+0) = 10h00/11h00 a Paris.
-    # Les courses sont francaises ; la limite est la cloture des enjeux LONAB
-    # (environ 10 min avant le depart), affichee dans le rapport.
-    - cron: "0 9 * * *"
-    # 22h00 UTC : evaluation du soir sur l'arrivee officielle PMU (France).
-    - cron: "0 22 * * *"
+    # 06h23 UTC = 06h23 a Ouagadougou = 08h23/07h23 a Paris : analyse du matin.
+    # Minutes decalees a dessein : GitHub retarde fortement les cron places a
+    # l'heure pile (0 9 * * *), d'ou les runs qui partaient vers 11h-13h.
+    - cron: "23 6 * * *"
+    # 21h53 UTC : evaluation du soir UNIQUEMENT (ne relance plus l'analyse).
+    - cron: "53 21 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -92,6 +92,7 @@ jobs:
             "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/sendMessage" >/dev/null
 
       - name: Analyse de la course du jour
+        if: github.event.schedule != '53 21 * * *'
         env:
           HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}
           HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
@@ -131,6 +132,7 @@ jobs:
           fi
 
       - name: Evaluation du soir
+        if: always() && (github.event.schedule == '53 21 * * *' || github.event_name == 'workflow_dispatch')
         run: python -m hyperion.cli evaluate
 
       - name: Committer les resultats

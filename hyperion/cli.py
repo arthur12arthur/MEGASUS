@@ -85,6 +85,13 @@ def build_parser() -> argparse.ArgumentParser:
 # --------------------------------------------------------------------------
 
 
+def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
+    """Vrai si l'enrichissement PMU révèle que la course est déjà courue."""
+    if not pmu_status:
+        return False
+    return any("déjà courue" in w for w in pmu_status.get("warnings", []))
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     from hyperion.external import HttpPanelProvider, ManualPanelProvider
     from hyperion.ingestion import JsonFileProvider
@@ -146,6 +153,14 @@ def cmd_run(args: argparse.Namespace) -> int:
         for block in result.blocks.values():
             print(block)
             print()
+
+    if is_post_race(pmu_status):
+        print(
+            "Course déjà courue : analyse a posteriori affichée mais NI stockée NI envoyée "
+            "(elle ne doit jamais remplacer le pronostic d'avant-course).",
+            file=sys.stderr,
+        )
+        return 0
 
     if args.store:
         path = JsonStore(settings=settings).save(result.record)

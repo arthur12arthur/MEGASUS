@@ -170,3 +170,14 @@ class TestIntegrationPmu:
         result = run_pipeline(race, Settings())
         assert any(s.delta is not None for s in result.market.signals)
         assert "pmu" not in json.dumps(result.record["identification"])
+
+
+def test_analyse_a_posteriori_jamais_stockee():
+    from hyperion.cli import is_post_race
+    from hyperion.pmu import enrich_from_pmu
+
+    payload = load_payload(FIXTURE)
+    _, status = enrich_from_pmu(_race_with_meta(payload), payload)
+    assert is_post_race(status)
+    assert not is_post_race({"status": "ok", "warnings": []})
+    assert not is_post_race(None)
