@@ -45,6 +45,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     run.add_argument("--panel", help="JSON des pronostics du panel externe")
     run.add_argument("--odds", help="JSON des cotes les plus récentes")
+    run.add_argument(
+        "--pmu", action="store_true",
+        help="enrichir les partants (musique, driver, cote directe) via l'API PMU",
+    )
+    run.add_argument(
+        "--pmu-json",
+        help="enrichir depuis un fichier JSON « participants » PMU déjà téléchargé",
+    )
     run.add_argument("--store", action="store_true", help="stocker le rapport dans data/runs")
     run.add_argument("--deliver", action="store_true", help="envoyer via Telegram/email")
     _add_common(run)
@@ -93,6 +101,17 @@ def cmd_run(args: argparse.Namespace) -> int:
         print("Erreur : fournissez --input <journal.json> ou --auto.", file=sys.stderr)
         return 2
 
+    pmu_status: dict[str, Any] | None = None
+    if args.pmu or args.pmu_json:
+        from hyperion.pmu import enrich_from_pmu, load_payload
+
+        payload = load_payload(args.pmu_json) if args.pmu_json else None
+        race, pmu_status = enrich_from_pmu(
+            race, payload, timeout_s=settings.lonab_timeout_s,
+            max_retries=settings.lonab_max_retries,
+        )
+        print(f"Enrichissement PMU : {pmu_status['status']}", file=sys.stderr)
+
     latest_odds: dict[str, float] = {}
     if args.odds:
         latest_odds = {
@@ -118,6 +137,8 @@ def cmd_run(args: argparse.Namespace) -> int:
         ).fetch(race, panel=panel_sources)
 
     result = run_pipeline(race, settings, latest_odds=latest_odds, external_picks=picks)
+    if pmu_status is not None:
+        result.record["pmu"] = pmu_status
 
     if args.json:
         print(json.dumps(result.record, ensure_ascii=False, indent=2, default=str))

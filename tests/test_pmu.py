@@ -40,7 +40,8 @@ class TestEnrichissement:
     def test_les_16_partants_sont_apparies(self):
         payload = load_payload(FIXTURE)
         enriched, report = enrich_race(_race(payload), payload)
-        assert report.matched == 16 and not report.unmatched_pmu and not report.warnings
+        assert report.matched == 16 and not report.unmatched_pmu
+        assert [w for w in report.warnings if "déjà courue" not in w] == []
         h = enriched.by_id("sweet-chop")
         assert h.driver == "A.LEMAITRE" and h.runs == 26 and h.wins == 2
         assert h.gains == 138092.0 and h.weight_kg == 63.5
@@ -84,3 +85,88 @@ class TestEnrichissement:
         payload["participants"][2]["statut"] = "NON_PARTANT"
         enriched, _ = enrich_race(_race(payload), payload)
         assert enriched.horses[2].non_runner and len(enriched.runners) == 15
+
+
+class _Resp:
+    def __init__(self, payload=None, error=None):
+        self._payload, self._error = payload, error
+
+    def raise_for_status(self):
+        if self._error:
+            raise self._error
+
+    def json(self):
+        return self._payload
+
+
+class _Session:
+    def __init__(self, resp=None, boom=None):
+        self.resp, self.boom, self.calls = resp, boom, []
+
+    def get(self, url, **kw):
+        self.calls.append(url)
+        if self.boom:
+            raise self.boom
+        return self.resp
+
+
+def _race_with_meta(payload):
+    import datetime as dt
+
+    race = _race(payload)
+    race.meta = RaceMeta(meeting="R1", race_number=1, date=dt.date(2026, 10, 15))
+    return race
+
+
+class TestIntegrationPmu:
+    def test_telechargement_ok(self):
+        from hyperion.pmu import enrich_from_pmu
+
+        payload = load_payload(FIXTURE)
+        session = _Session(_Resp(payload))
+        race, status = enrich_from_pmu(_race_with_meta(payload), session=session)
+        assert status["status"] == "ok" and status["matched"] == 16
+        assert session.calls[0].endswith("/15102026/R1/C1/participants")
+        assert race.horses[0].driver == "A.LEMAITRE"
+
+    def test_panne_reseau_ne_leve_jamais(self):
+        from hyperion.pmu import enrich_from_pmu
+
+        payload = load_payload(FIXTURE)
+        original = _race_with_meta(payload)
+        race, status = enrich_from_pmu(original, session=_Session(boom=ConnectionError("down")))
+        assert status["status"] == "indisponible" and race is original
+
+    def test_reponse_invalide_ne_leve_jamais(self):
+        from hyperion.pmu import enrich_from_pmu
+
+        payload = load_payload(FIXTURE)
+        _, status = enrich_from_pmu(
+            _race_with_meta(payload), session=_Session(_Resp({"autre": 1}))
+        )
+        assert status["status"] == "indisponible"
+
+    def test_sans_reunion_appel_impossible_et_trace(self):
+        from hyperion.pmu import enrich_from_pmu
+
+        payload = load_payload(FIXTURE)
+        session = _Session(_Resp(payload))
+        _, status = enrich_from_pmu(_race(payload), session=session)
+        assert status["status"] == "ignore" and not session.calls
+
+    def test_course_deja_courue_signalee(self):
+        from hyperion.pmu import enrich_from_pmu
+
+        payload = load_payload(FIXTURE)
+        _, status = enrich_from_pmu(_race_with_meta(payload), payload)
+        assert any("déjà courue" in w for w in status["warnings"])
+
+    def test_pipeline_voit_enfin_un_mouvement_de_cote(self):
+        from hyperion.config import Settings
+        from hyperion.pipeline import run_pipeline
+
+        payload = load_payload(FIXTURE)
+        race, _ = enrich_race(_race_with_meta(payload), payload)
+        result = run_pipeline(race, Settings())
+        assert any(s.delta is not None for s in result.market.signals)
+        assert "pmu" not in json.dumps(result.record["identification"])

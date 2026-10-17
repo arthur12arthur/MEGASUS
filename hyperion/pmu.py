@@ -26,6 +26,10 @@ from hyperion.music import parse_music
 API_BASE = "https://online.turfinfo.api.pmu.fr/rest/client/7/programme"
 
 
+class PmuUnavailable(RuntimeError):
+    """L'API PMU n'a pas répondu de façon exploitable (réseau, format, blocage)."""
+
+
 def participants_url(date: dt.date, meeting: int, race_number: int) -> str:
     """URL de l'endpoint ``participants`` (à valider en ligne : non testé ici)."""
     return f"{API_BASE}/{date:%d%m%Y}/R{meeting}/C{race_number}/participants"
@@ -132,6 +136,11 @@ def _enriched(horse: Horse, item: Mapping[str, Any]) -> Horse:
 def enrich_race(race: Race, payload: Mapping[str, Any]) -> tuple[Race, EnrichmentReport]:
     """Retourne une NOUVELLE course enrichie + un rapport (la course d'origine est intacte)."""
     report = EnrichmentReport()
+    if extract_results(payload):
+        report.warnings.append(
+            "résultats d'arrivée présents : la course est déjà courue, les cotes "
+            "« direct » sont les cotes finales (analyse a posteriori, pas une prévision)"
+        )
     by_number = {p.get("numPmu"): p for p in payload.get("participants", [])}
     seen: set[Any] = set()
     horses: list[Horse] = []
@@ -157,8 +166,65 @@ def enrich_race(race: Race, payload: Mapping[str, Any]) -> tuple[Race, Enrichmen
     return replace(race, horses=horses), report
 
 
+def fetch_participants(
+    url: str, session: Any = None, timeout_s: float = 20.0, max_retries: int = 2
+) -> Mapping[str, Any]:
+    """Télécharge le JSON ``participants`` ; lève :class:`PmuUnavailable` sinon."""
+    if session is None:
+        import requests
+
+        session = requests.Session()
+    last: Exception | None = None
+    for _ in range(max(1, max_retries)):
+        try:
+            response = session.get(url, timeout=timeout_s, headers={"Accept": "application/json"})
+            response.raise_for_status()
+            payload = response.json()
+            if not isinstance(payload, Mapping) or not payload.get("participants"):
+                raise PmuUnavailable("réponse sans liste « participants »")
+            return payload
+        except PmuUnavailable as exc:
+            last = exc
+        except Exception as exc:  # réseau, HTTP, JSON : jamais bloquant pour l'appelant
+            last = exc
+    raise PmuUnavailable(f"{url} : {last}")
+
+
+def enrich_from_pmu(
+    race: Race,
+    payload: Mapping[str, Any] | None = None,
+    *,
+    session: Any = None,
+    timeout_s: float = 20.0,
+    max_retries: int = 2,
+) -> tuple[Race, dict[str, Any]]:
+    """Enrichit la course sans JAMAIS lever d'exception : au pire, la course d'origine
+    est rendue telle quelle avec un statut explicite (tracé dans le rapport)."""
+    try:
+        if payload is None:
+            meeting = re.sub(r"\D", "", race.meta.meeting or "")
+            if not meeting or not race.meta.race_number or race.meta.date is None:
+                return race, {
+                    "status": "ignore",
+                    "reason": "réunion/numéro de course/date inconnus : appel PMU impossible",
+                }
+            url = participants_url(race.meta.date, int(meeting), int(race.meta.race_number))
+            payload = fetch_participants(url, session, timeout_s, max_retries)
+        enriched, report = enrich_race(race, payload)
+    except PmuUnavailable as exc:
+        return race, {"status": "indisponible", "reason": str(exc)}
+    except Exception as exc:  # garde-fou ultime : l'analyse continue sans enrichissement
+        return race, {"status": "erreur", "reason": f"{type(exc).__name__}: {exc}"}
+    if report.matched == 0:
+        return race, {"status": "aucun_apparie", **report.as_dict()}
+    return enriched, {"status": "ok", **report.as_dict()}
+
+
 __all__ = [
     "EnrichmentReport",
+    "PmuUnavailable",
+    "enrich_from_pmu",
+    "fetch_participants",
     "enrich_race",
     "extract_results",
     "load_payload",
