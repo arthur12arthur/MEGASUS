@@ -29,7 +29,12 @@ from hyperion.analysis.scorer import BaseScorer, ScorerResult, summarise as scor
 from hyperion.anomaly.hades import HADES, HadesResult, summarise as hades_summary
 from hyperion.config import Settings
 from hyperion.consensus import ConsensusInterne, ConsensusResult, summarise as consensus_summary
-from hyperion.confidence import ConfidenceIndex, ConfidenceResult, summarise as confidence_summary
+from hyperion.confidence import (
+    ConfidenceIndex,
+    ConfidenceResult,
+    score_coverage,
+    summarise as confidence_summary,
+)
 from hyperion.delivery import OutOfDeadline, check_deadline
 from hyperion.external import (
     ExternalConsensus,
@@ -144,6 +149,8 @@ def run_pipeline(
         stability=consensus.stability,
         convergence=external.convergence if external.picks else None,
         discipline=discipline,
+        scoring_coverage=score_coverage(scorer),
+        identification=identification_warnings(race),
     )
 
     # -- délai ------------------------------------------------------------
