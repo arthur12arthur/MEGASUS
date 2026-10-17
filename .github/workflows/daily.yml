@@ -122,11 +122,11 @@ jobs:
             if [ -n "$DATE" ]; then
               PANEL="data/panel_${DATE}.json"
               if [ -f "$PANEL" ]; then PANEL_ARG="--panel $PANEL"; else PANEL_ARG=""; fi
-              python -m hyperion.cli run --auto --date "$DATE" $PANEL_ARG --store --deliver
+              python -m hyperion.cli run --auto --pmu --date "$DATE" $PANEL_ARG --store --deliver
             else
               PANEL="data/panel_$(date -u +%F).json"
               if [ -f "$PANEL" ]; then PANEL_ARG="--panel $PANEL"; else PANEL_ARG=""; fi
-              python -m hyperion.cli run --auto $PANEL_ARG --store --deliver
+              python -m hyperion.cli run --auto --pmu $PANEL_ARG --store --deliver
             fi
           fi
 
