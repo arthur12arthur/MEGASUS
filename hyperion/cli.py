@@ -7,6 +7,7 @@ Commandes :
     hyperion backtest   backtest sur N courses synthétiques (labo Ouroboros)
     hyperion calibrate  calibre la concentration du Monte Carlo (walk-forward)
     hyperion evaluate   évaluation du soir sur un historique stocké
+    hyperion decide     moteur de décision qui lit un rapport (JSON ou texte collé)
     hyperion backtest-real  backtest sur courses réelles collectées
     hyperion collect-history  collecte d'un historique réel (API PMU) pour le backtesting
 
@@ -74,6 +75,11 @@ def build_parser() -> argparse.ArgumentParser:
     coll.add_argument("--delay", type=float, default=0.3)
     coll.add_argument("--force", action="store_true")
 
+    dec = subparsers.add_parser("decide", help="moteur de décision : lit un rapport (JSON stocké ou texte collé)")
+    dec.add_argument("--run", help="chemin d'un rapport JSON, ou « latest » (par défaut)")
+    dec.add_argument("--text", help="fichier texte d'un rapport collé, ou « - » pour l'entrée standard")
+    dec.add_argument("--json", action="store_true", help="sortie JSON")
+
     rb = subparsers.add_parser(
         "backtest-real", help="backtest sur courses RÉELLES (historique collecté)"
     )
@@ -109,6 +115,27 @@ def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
     if not pmu_status:
         return False
     return any("déjà courue" in w for w in pmu_status.get("warnings", []))
+
+
+def cmd_decide(args: argparse.Namespace) -> int:
+    from pathlib import Path
+
+    from hyperion.decision import decide, render
+    from hyperion.reader import ReportUnreadable, latest_run, read_record, read_text
+
+    try:
+        if args.text:
+            text = sys.stdin.read() if args.text == "-" else Path(args.text).read_text(encoding="utf-8")
+            rows, source, meta = read_text(text)
+        else:
+            path = latest_run() if args.run in (None, "latest") else Path(args.run)
+            rows, source, meta = read_record(path)
+        decision = decide(rows, system_ranking=[x for x in meta.get("ranking", []) if x], cote_source=source)
+    except (ReportUnreadable, ValueError, OSError) as exc:
+        print(f"Décision impossible : {exc}", file=sys.stderr)
+        return 1
+    print(json.dumps(decision.as_dict(), ensure_ascii=False, indent=2) if args.json else render(decision))
+    return 0
 
 
 def cmd_backtest_real(args: argparse.Namespace) -> int:
@@ -403,6 +430,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "evaluate": cmd_evaluate,
         "collect-history": cmd_collect_history,
         "backtest-real": cmd_backtest_real,
+        "decide": cmd_decide,
     }
     return handlers[args.command](args)
 

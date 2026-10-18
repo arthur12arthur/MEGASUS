@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Mapping, Sequence
@@ -18,14 +19,33 @@ from typing import Mapping, Sequence
 import numpy as np
 
 PARAMS_PATH = Path(__file__).with_name("decision_params.json")
-DEFAULT_PARAMS = {"beta": 1.0, "gamma": 1.0, "n_eff_seuils": [5.5, 8.0], "n_sim": 20000, "seed": 42}
+DEFAULT_PARAMS = {"criteres": {"min_p_au_moins_3": 0.70, "classes_acceptees": ["lisible", "intermédiaire"]}, "beta": 1.0, "gamma": 1.0, "n_eff_seuils": [5.5, 8.0], "n_sim": 20000, "seed": 42}
 
 
 def load_params(path: Path = PARAMS_PATH) -> dict:
     try:
-        return {**DEFAULT_PARAMS, **json.loads(path.read_text(encoding="utf-8"))}
+        prm = {**DEFAULT_PARAMS, **json.loads(path.read_text(encoding="utf-8"))}
     except (OSError, ValueError):
-        return dict(DEFAULT_PARAMS)
+        prm = dict(DEFAULT_PARAMS)
+    env = os.environ.get("DECISION_MIN_P3")  # critère de risque fixé par l'utilisateur
+    if env:
+        try:
+            prm["criteres"] = {**prm["criteres"], "min_p_au_moins_3": float(env)}
+        except ValueError:
+            pass
+    return prm
+
+
+def evaluate_criteria(decision: "Decision", params: Mapping | None = None) -> list[dict]:
+    """Compare la course aux critères de risque FIXÉS PAR L'UTILISATEUR (aucun conseil de mise)."""
+    crit = {**load_params(), **(params or {})}["criteres"]
+    p3 = decision.p_au_moins.get(3, 0.0)
+    return [
+        {"critere": f"au moins 3 bons sur 5 ≥ {crit['min_p_au_moins_3'] * 100:.0f} %",
+         "valeur": f"{p3 * 100:.0f} %", "respecte": bool(p3 >= crit["min_p_au_moins_3"])},
+        {"critere": "course " + " ou ".join(crit["classes_acceptees"]),
+         "valeur": decision.classe, "respecte": decision.classe in crit["classes_acceptees"]},
+    ]
 
 
 def implied(odds: Sequence[float]) -> np.ndarray:
@@ -117,6 +137,7 @@ class Decision:
             "cote_source": self.cote_source,
             "cote_horodatage": self.cote_horodatage,
             "avertissements": list(self.avertissements),
+            "criteres": evaluate_criteria(self),
             "selection": [
                 {"numero": x.number, "cheval": x.name, "cote": x.odds, "p_gagne": round(x.p_win, 4),
                  "p_top3": round(x.p_top3, 4), "p_top5": round(x.p_top5, 4), "rang_systeme": x.system_rank}
@@ -200,7 +221,7 @@ def render(decision: "Decision", params: Mapping | None = None) -> str:
         sys_tag = f" · système #{x.system_rank}" if x.system_rank else ""
         num = f"n°{x.number} " if x.number is not None else ""
         lines.append(
-            f"  {i}. {num}{x.name} — cote {x.odds:g} · gagne {_pct(x.p_win)} · "
+            f"  {i}. {num}{x.name} — cote {x.odds:.1f} · gagne {_pct(x.p_win)} · "
             f"top 3 {_pct(x.p_top3)} · top 5 {_pct(x.p_top5)}{sys_tag}"
         )
     lines += [
@@ -212,8 +233,15 @@ def render(decision: "Decision", params: Mapping | None = None) -> str:
         "Les cotes évoluent jusqu'au départ : l'analyse la plus fiable est la plus proche de la clôture. "
         "Ce moteur mesure un risque, il ne promet aucun gain.",
     ]
+    checks = evaluate_criteria(decision, prm)
+    lines += ["", "Tes critères de risque :"]
+    lines += [f"  {'✓' if c['respecte'] else '✗'} {c['critere']} (course : {c['valeur']})" for c in checks]
+    lines.append(
+        "→ Course DANS tes critères." if all(c["respecte"] for c in checks)
+        else "→ Course HORS de tes critères (la décision de jouer ou non reste la tienne)."
+    )
     lines.extend(f"⚠ {w}" for w in decision.avertissements)
     return "\n".join(lines)
 
 
-__all__ = ["render", "decide", "Decision", "Pick", "implied", "calibrate", "place_probabilities", "openness", "load_params"]
+__all__ = ["evaluate_criteria", "render", "decide", "Decision", "Pick", "implied", "calibrate", "place_probabilities", "openness", "load_params"]
