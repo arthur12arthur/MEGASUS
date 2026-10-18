@@ -1,0 +1,57 @@
+name: Sonde PMU
+
+# Teste l'acces a l'API publique PMU DEPUIS GitHub et sauvegarde un echantillon
+# reel (programme du jour + partants d'une course) dans data/probe/.
+# Lancement manuel uniquement : Actions > Sonde PMU > Run workflow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date JJMMAAAA (vide = hier)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  sonde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Interroger l'API PMU
+        run: |
+          D="${{ inputs.date }}"
+          if [ -z "$D" ]; then D="$(date -u -d yesterday +%d%m%Y)"; fi
+          mkdir -p data/probe
+          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+          : > data/probe/status.txt
+          probe() {  # nom url
+            code=$(curl -sS -m 30 -A "$UA" -H "Accept: application/json" \
+              -o "data/probe/$1.json" -w "%{http_code}" "$2" 2>>data/probe/status.txt || echo "ERR")
+            size=$(wc -c < "data/probe/$1.json" 2>/dev/null || echo 0)
+            echo "$1 | HTTP $code | $size octets | $2" | tee -a data/probe/status.txt
+          }
+          B1="https://online.turfinfo.api.pmu.fr/rest/client/7/programme"
+          B2="https://offline.turfinfo.api.pmu.fr/rest/client/7/programme"
+          probe programme_online   "$B1/$D"
+          probe programme_offline  "$B2/$D"
+          probe participants_R1C1  "$B1/$D/R1/C1/participants"
+          probe course_R1C1        "$B1/$D/R1/C1"
+          probe rapports_R1C1      "$B1/$D/R1/C1/rapports-definitifs"
+          echo "date=$D" | tee -a data/probe/status.txt
+
+      - name: Committer l'echantillon
+        if: always()
+        run: |
+          git config user.name "hyperion-bot"
+          git config user.email "hyperion-bot@users.noreply.github.com"
+          git add -A data/probe || true
+          if git diff --cached --quiet; then echo "Rien a committer."; else
+            git commit -m "chore(probe): echantillon API PMU"
+            git pull --rebase -q origin main || true
+            git push
+          fi
