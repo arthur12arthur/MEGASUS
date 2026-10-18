@@ -237,7 +237,7 @@ class HADES:
 
 def summarise(result: HadesResult) -> str:
     """Résumé lisible de HADES."""
-    lines = ["HADES — valeur masquée (signal annexe, non bloquant)"]
+    lines = ["Écarts système / marché (information seulement — non validé par le backtest)"]
     flagged = [s for s in result.signals if s.signals]
     if not flagged:
         lines.append("  Aucun signal retenu.")

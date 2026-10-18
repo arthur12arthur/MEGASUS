@@ -44,7 +44,7 @@ def test_le_classement_json_porte_le_numero():
 
 def test_les_donnees_manquantes_portent_le_numero():
     result = run_pipeline(RACE, Settings())
-    block = result.blocks["5/5 · Confiance"]
+    block = result.blocks["5/5 · Limites et détails"]
     assert "Données manquantes" in block
     after = block.split("Données manquantes", 1)[1]
     champs = ("recent_places", "driver", "aptitude", "shoeing")

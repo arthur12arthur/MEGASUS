@@ -1,0 +1,132 @@
+{
+ "gamma_train": 0.5,
+ "courses": 2013,
+ "train": 1186,
+ "test": 827,
+ "coupure": "2026-09-22",
+ "beta_train": 1.0923,
+ "ll_test_brut": 1.95929,
+ "ll_test_calibre": 1.95767,
+ "fiabilite": {
+  "top1": {
+   "brier": 0.06732,
+   "brier_naif": 0.07666,
+   "tranches": [
+    {
+     "pred": 0.007,
+     "obs": 0.007,
+     "n": 1934
+    },
+    {
+     "pred": 0.022,
+     "obs": 0.023,
+     "n": 2004
+    },
+    {
+     "pred": 0.049,
+     "obs": 0.055,
+     "n": 1991
+    },
+    {
+     "pred": 0.096,
+     "obs": 0.091,
+     "n": 1973
+    },
+    {
+     "pred": 0.244,
+     "obs": 0.242,
+     "n": 1984
+    }
+   ]
+  },
+  "top3": {
+   "brier": 0.1545,
+   "brier_naif": 0.18788,
+   "tranches": [
+    {
+     "pred": 0.072,
+     "obs": 0.049,
+     "n": 1975
+    },
+    {
+     "pred": 0.135,
+     "obs": 0.124,
+     "n": 1970
+    },
+    {
+     "pred": 0.21,
+     "obs": 0.209,
+     "n": 1986
+    },
+    {
+     "pred": 0.312,
+     "obs": 0.333,
+     "n": 1973
+    },
+    {
+     "pred": 0.524,
+     "obs": 0.538,
+     "n": 1982
+    }
+   ]
+  },
+  "top5": {
+   "brier": 0.19868,
+   "brier_naif": 0.2431,
+   "tranches": [
+    {
+     "pred": 0.15,
+     "obs": 0.129,
+     "n": 1974
+    },
+    {
+     "pred": 0.266,
+     "obs": 0.286,
+     "n": 1978
+    },
+    {
+     "pred": 0.387,
+     "obs": 0.398,
+     "n": 1979
+    },
+    {
+     "pred": 0.531,
+     "obs": 0.553,
+     "n": 1974
+    },
+    {
+     "pred": 0.757,
+     "obs": 0.718,
+     "n": 1981
+    }
+   ]
+  }
+ },
+ "seuils_n_eff": [
+  4.7,
+  6.23
+ ],
+ "par_classe_test": {
+  "lisible": {
+   "n": 269,
+   "favori_gagne": 0.468,
+   "gagnant_dans_top5": 0.918,
+   "bons_dans_top5": 3.45,
+   "au_moins_3_bons": 0.862
+  },
+  "intermédiaire": {
+   "n": 263,
+   "favori_gagne": 0.297,
+   "gagnant_dans_top5": 0.787,
+   "bons_dans_top5": 3.1,
+   "au_moins_3_bons": 0.757
+  },
+  "ouverte": {
+   "n": 295,
+   "favori_gagne": 0.241,
+   "gagnant_dans_top5": 0.702,
+   "bons_dans_top5": 2.75,
+   "au_moins_3_bons": 0.634
+  }
+ }
+}

@@ -43,6 +43,7 @@ from hyperion.external import (
     summarise as external_summary,
 )
 from hyperion import relay
+from hyperion.decision import Decision, decide, render as decision_render
 from hyperion.models import Race
 
 
@@ -61,6 +62,8 @@ class PipelineResult:
     out_of_deadline: OutOfDeadline
     record: dict[str, Any] = field(default_factory=dict)
     blocks: dict[str, str] = field(default_factory=dict)
+    decision: Decision | None = None
+    decision_note: str = ""
 
     # -- accès rapides -----------------------------------------------------
 
@@ -171,9 +174,34 @@ def run_pipeline(
         confidence=confidence,
         out_of_deadline=late,
     )
+    result.decision, result.decision_note = _compute_decision(race, list(consensus.ranking))
     result.record = _build_record(result, why, divergences)
+    result.record["decision"] = (
+        result.decision.as_dict() if result.decision else {"status": "indisponible", "raison": result.decision_note}
+    )
     result.blocks = _build_blocks(result, divergences)
     return result
+
+
+def _compute_decision(race: Race, system_ranking: list[str]) -> tuple[Decision | None, str]:
+    """Moteur de décision sur la meilleure cote disponible (directe PMU > PDF)."""
+    rows, source, stamp = [], "cote du PDF LONAB (relevé du matin)", None
+    for horse in race.runners:
+        direct = horse.odds_latest
+        pmu = (horse.raw or {}).get("pmu") or {}
+        if direct and direct > 1.0:
+            odds = direct
+            source = "cote directe PMU"
+            stamp = stamp or pmu.get("odds_direct_at")
+        elif horse.odds_pdf and horse.odds_pdf > 1.0:
+            odds = horse.odds_pdf
+        else:
+            continue
+        rows.append({"horse_id": horse.horse_id, "number": horse.number, "name": horse.name, "odds": odds})
+    try:
+        return decide(rows, system_ranking=system_ranking, cote_source=source, cote_horodatage=stamp), ""
+    except ValueError as exc:
+        return None, f"cotes insuffisantes ({exc})"
 
 
 def identification_warnings(race: Race) -> list[str]:
@@ -289,21 +317,38 @@ def _build_blocks(
     add(
         "1/5 · Course",
         f"{ident_line}{header}\n\n"
-        f"Discipline : {race.meta.discipline.label_fr}\n"
-        f"{explain_weights(race.meta.discipline)}\n\n"
-        f"{market_summary(result.market)}\n\n"
-        f"{filter_summary(result.filter_result, race)}",
+        f"Discipline : {race.meta.discipline.label_fr}",
     )
-    add("2/5 · Compétitivité", scorer_summary(result.scorer))
-    add("3/5 · Classement", consensus_summary(result.consensus, names))
     add(
-        "4/5 · Signaux annexes",
+        "2/5 · Décision",
+        decision_render(result.decision)
+        if result.decision
+        else f"DÉCISION indisponible : {result.decision_note}. Aucune sélection fondée sur la cote n'est possible.",
+    )
+    add(
+        "3/5 · Classement du système (secondaire)",
+        "Au backtest sur 2 057 courses réelles, ce classement fait MOINS bien que la cote "
+        "(gagnant en tête : 20 % contre 31 %). À lire comme un avis complémentaire, pas comme "
+        "une référence.\n\n" + consensus_summary(result.consensus, names),
+    )
+    add(
+        "4/5 · Écarts système / marché",
         f"{hades_summary(result.hades)}\n\n"
         f"{external_summary(result.external, race, divergences)}",
     )
+    cov = score_coverage(result.scorer)
+    missing = list(result.confidence.missing_data)
+    missing_text = ""
+    if missing:
+        shown = "\n".join(f"    · {m}" for m in missing[:8])
+        extra = f"\n    · … et {len(missing) - 8} autre(s)" if len(missing) > 8 else ""
+        missing_text = f"Données manquantes ({len(missing)}) :\n{shown}{extra}\n\n"
     add(
-        "5/5 · Confiance",
-        f"{confidence_summary(result.confidence)}\n\n"
+        "5/5 · Limites et détails",
+        f"Le score du système repose sur {cov * 100:.0f} % du modèle (le reste est indéterminé faute de données).\n\n"
+        f"{missing_text}"
+        f"{market_summary(result.market)}\n\n"
+        f"{filter_summary(result.filter_result, race)}\n\n"
         f"{delivery.signature({'course': race.race_id})}",
     )
     return blocks

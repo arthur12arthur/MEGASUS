@@ -1,0 +1,26 @@
+{
+ "reference_classes": {
+  "lisible": {
+   "n": 671,
+   "gagnant_dans_top5": 0.911,
+   "au_moins_3_bons": 0.858
+  },
+  "interm\u00e9diaire": {
+   "n": 671,
+   "gagnant_dans_top5": 0.818,
+   "au_moins_3_bons": 0.757
+  },
+  "ouverte": {
+   "n": 671,
+   "gagnant_dans_top5": 0.678,
+   "au_moins_3_bons": 0.624
+  }
+ },
+ "beta": 1.0843,
+ "gamma": 0.5,
+ "n_eff_seuils": [
+  4.76,
+  6.32
+ ],
+ "courses_calibrage": 2013
+}
