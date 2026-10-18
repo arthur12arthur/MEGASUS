@@ -1,0 +1,201 @@
+{
+  "courses": 2054,
+  "coupure": "2026-09-22",
+  "apprentissage": 1213,
+  "test": 841,
+  "cote_seule": {
+    "coef_log_cote": 1.086,
+    "ll_par_course": -1.9497,
+    "gagnant_en_tete": 0.3353
+  },
+  "signaux_un_a_un": [
+    {
+      "signal": "musique_non_places5",
+      "coef": 0.0934,
+      "gain_ll_par_course": 0.00485,
+      "ic95": [
+        -0.00066,
+        0.00979
+      ],
+      "utile": false
+    },
+    {
+      "signal": "musique_moy3",
+      "coef": 0.0959,
+      "gain_ll_par_course": 0.00143,
+      "ic95": [
+        -0.00399,
+        0.00648
+      ],
+      "utile": false
+    },
+    {
+      "signal": "mouvement_cote",
+      "coef": -0.0723,
+      "gain_ll_par_course": 0.00101,
+      "ic95": [
+        -0.00329,
+        0.00516
+      ],
+      "utile": false
+    },
+    {
+      "signal": "taux_victoire",
+      "coef": 0.0329,
+      "gain_ll_par_course": 5e-05,
+      "ic95": [
+        -0.00196,
+        0.00205
+      ],
+      "utile": false
+    },
+    {
+      "signal": "oeilleres",
+      "coef": 0.0009,
+      "gain_ll_par_course": -0.0,
+      "ic95": [
+        -2e-05,
+        1e-05
+      ],
+      "utile": false
+    },
+    {
+      "signal": "corde_relative",
+      "coef": -0.0166,
+      "gain_ll_par_course": -3e-05,
+      "ic95": [
+        -0.00082,
+        0.00071
+      ],
+      "utile": false
+    },
+    {
+      "signal": "musique_victoires5",
+      "coef": 0.0092,
+      "gain_ll_par_course": -0.00012,
+      "ic95": [
+        -0.0007,
+        0.00041
+      ],
+      "utile": false
+    },
+    {
+      "signal": "musique_derniere",
+      "coef": 0.0216,
+      "gain_ll_par_course": -0.00019,
+      "ic95": [
+        -0.00142,
+        0.00104
+      ],
+      "utile": false
+    },
+    {
+      "signal": "femelle",
+      "coef": 0.0222,
+      "gain_ll_par_course": -0.00036,
+      "ic95": [
+        -0.00088,
+        0.00013
+      ],
+      "utile": false
+    },
+    {
+      "signal": "driver_change",
+      "coef": -0.4794,
+      "gain_ll_par_course": -0.00043,
+      "ic95": [
+        -0.00267,
+        0.00163
+      ],
+      "utile": false
+    },
+    {
+      "signal": "poids_relatif",
+      "coef": 0.0195,
+      "gain_ll_par_course": -0.00051,
+      "ic95": [
+        -0.00138,
+        0.00035
+      ],
+      "utile": false
+    },
+    {
+      "signal": "entraineur_force",
+      "coef": 0.0565,
+      "gain_ll_par_course": -0.00059,
+      "ic95": [
+        -0.00414,
+        0.00281
+      ],
+      "utile": false
+    },
+    {
+      "signal": "driver_force",
+      "coef": 0.0412,
+      "gain_ll_par_course": -0.00083,
+      "ic95": [
+        -0.00336,
+        0.00189
+      ],
+      "utile": false
+    },
+    {
+      "signal": "age",
+      "coef": 0.0554,
+      "gain_ll_par_course": -0.00085,
+      "ic95": [
+        -0.00272,
+        0.00119
+      ],
+      "utile": false
+    },
+    {
+      "signal": "systeme",
+      "coef": -0.0714,
+      "gain_ll_par_course": -0.00109,
+      "ic95": [
+        -0.00484,
+        0.00277
+      ],
+      "utile": false
+    },
+    {
+      "signal": "log_courses",
+      "coef": -0.0193,
+      "gain_ll_par_course": -0.00122,
+      "ic95": [
+        -0.00242,
+        2e-05
+      ],
+      "utile": false
+    },
+    {
+      "signal": "taux_place",
+      "coef": -0.0728,
+      "gain_ll_par_course": -0.00224,
+      "ic95": [
+        -0.00677,
+        0.00218
+      ],
+      "utile": false
+    },
+    {
+      "signal": "log_gains_par_course",
+      "coef": -0.0571,
+      "gain_ll_par_course": -0.0034,
+      "ic95": [
+        -0.0064,
+        -0.00049
+      ],
+      "utile": false
+    }
+  ],
+  "tous_ensemble": {
+    "gain_ll_par_course": -0.00815,
+    "gagnant_en_tete": 0.321
+  },
+  "signaux_utiles_seuls": {
+    "signaux": [],
+    "gain_ll_par_course": 0.0
+  }
+}
