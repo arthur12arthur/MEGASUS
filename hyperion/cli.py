@@ -7,6 +7,7 @@ Commandes :
     hyperion backtest   backtest sur N courses synthétiques (labo Ouroboros)
     hyperion calibrate  calibre la concentration du Monte Carlo (walk-forward)
     hyperion evaluate   évaluation du soir sur un historique stocké
+    hyperion backtest-real  backtest sur courses réelles collectées
     hyperion collect-history  collecte d'un historique réel (API PMU) pour le backtesting
 
 Toutes les commandes acceptent ``--json`` pour une sortie machine.
@@ -73,6 +74,13 @@ def build_parser() -> argparse.ArgumentParser:
     coll.add_argument("--delay", type=float, default=0.3)
     coll.add_argument("--force", action="store_true")
 
+    rb = subparsers.add_parser(
+        "backtest-real", help="backtest sur courses RÉELLES (historique collecté)"
+    )
+    rb.add_argument("--history", default="data/history")
+    rb.add_argument("--out", default="data/backtest/report.json")
+    rb.add_argument("--limit", type=int, default=None, help="échantillon aléatoire de N courses")
+
     backtest = subparsers.add_parser("backtest", help="backtest sur courses synthétiques")
     backtest.add_argument("--n", type=int, default=30, help="nombre de courses")
     backtest.add_argument("--seed", type=int, default=42)
@@ -101,6 +109,23 @@ def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
     if not pmu_status:
         return False
     return any("déjà courue" in w for w in pmu_status.get("warnings", []))
+
+
+def cmd_backtest_real(args: argparse.Namespace) -> int:
+    from pathlib import Path
+
+    from hyperion.evaluation.realbacktest import run_backtest
+
+    report = run_backtest(Path(args.history), limit=args.limit)
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    g = report["global"]
+    print(f"{g.get('courses', 0)} courses évaluées ({report['courses_ignorees']} ignorées)")
+    print(f"gagnant en tête : système {g.get('system_top1')} | marché {g.get('market_top1')} | hasard {g.get('random_top1')}")
+    print(f"gagnant dans le top 5 : système {g.get('system_top5')} | marché {g.get('market_top5')} | hasard {g.get('random_top5')}")
+    print(f"rapport : {out}")
+    return 0
 
 
 def cmd_collect_history(args: argparse.Namespace) -> int:
@@ -377,6 +402,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "calibrate": cmd_calibrate,
         "evaluate": cmd_evaluate,
         "collect-history": cmd_collect_history,
+        "backtest-real": cmd_backtest_real,
     }
     return handlers[args.command](args)
 
