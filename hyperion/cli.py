@@ -7,6 +7,7 @@ Commandes :
     hyperion backtest   backtest sur N courses synthétiques (labo Ouroboros)
     hyperion calibrate  calibre la concentration du Monte Carlo (walk-forward)
     hyperion evaluate   évaluation du soir sur un historique stocké
+    hyperion collect-history  collecte d'un historique réel (API PMU) pour le backtesting
 
 Toutes les commandes acceptent ``--json`` pour une sortie machine.
 """
@@ -62,6 +63,16 @@ def build_parser() -> argparse.ArgumentParser:
     demo.add_argument("--index", type=int, default=1)
     _add_common(demo)
 
+    coll = subparsers.add_parser(
+        "collect-history", help="collecte d'un historique réel (API PMU) pour le backtesting"
+    )
+    coll.add_argument("--from", dest="date_from", required=True, help="AAAA-MM-JJ")
+    coll.add_argument("--to", dest="date_to", required=True, help="AAAA-MM-JJ")
+    coll.add_argument("--scope", choices=("quinte", "france", "all"), default="france")
+    coll.add_argument("--out", default="data/history")
+    coll.add_argument("--delay", type=float, default=0.3)
+    coll.add_argument("--force", action="store_true")
+
     backtest = subparsers.add_parser("backtest", help="backtest sur courses synthétiques")
     backtest.add_argument("--n", type=int, default=30, help="nombre de courses")
     backtest.add_argument("--seed", type=int, default=42)
@@ -90,6 +101,31 @@ def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
     if not pmu_status:
         return False
     return any("déjà courue" in w for w in pmu_status.get("warnings", []))
+
+
+def cmd_collect_history(args: argparse.Namespace) -> int:
+    import datetime as _dt
+    from pathlib import Path
+
+    import requests
+
+    from hyperion.history import collect_day
+
+    start = _dt.date.fromisoformat(args.date_from)
+    end = _dt.date.fromisoformat(args.date_to)
+    session = requests.Session()
+    session.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) Chrome/124 Safari/537.36"
+    day, total = start, 0
+    while day <= end:
+        try:
+            n = collect_day(day, Path(args.out), session, args.scope, args.delay, args.force)
+            total += n
+            print(f"{day} : {n} course(s)", file=sys.stderr)
+        except Exception as exc:  # un jour en échec ne bloque pas les suivants
+            print(f"{day} : ÉCHEC ({exc})", file=sys.stderr)
+        day += _dt.timedelta(days=1)
+    print(f"Total : {total} course(s)", file=sys.stderr)
+    return 0
 
 
 def cmd_run(args: argparse.Namespace) -> int:
@@ -340,6 +376,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "backtest": cmd_backtest,
         "calibrate": cmd_calibrate,
         "evaluate": cmd_evaluate,
+        "collect-history": cmd_collect_history,
     }
     return handlers[args.command](args)
 
