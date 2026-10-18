@@ -30,6 +30,46 @@ class PmuUnavailable(RuntimeError):
     """L'API PMU n'a pas répondu de façon exploitable (réseau, format, blocage)."""
 
 
+def _hippo_key(text: str | None) -> str:
+    """Clé de comparaison d'hippodrome : « PARIS-VINCENNES » ~ « VINCENNES »."""
+    key = _norm(text).replace("paris ", "").replace(" ", "")
+    return key
+
+
+def resolve_race(
+    programme: Mapping[str, Any],
+    hippodrome: str | None,
+    race_number: int | None,
+    name: str | None = None,
+) -> tuple[int, int] | None:
+    """Retrouve (réunion, course) PMU à partir de l'hippodrome et du n° de course.
+
+    Refuse (None) si le résultat est ambigu ou si le nom de la course, quand il est
+    connu, ne correspond pas : mieux vaut ne pas enrichir que mélanger deux courses.
+    """
+    if not hippodrome or not race_number:
+        return None
+    target = _hippo_key(hippodrome)
+    prog = programme.get("programme", programme)
+    found: list[tuple[int, int, str]] = []
+    for reunion in prog.get("reunions", []):
+        h = reunion.get("hippodrome") or {}
+        keys = {_hippo_key(h.get("libelleCourt")), _hippo_key(h.get("libelleLong"))}
+        if not any(k and (k == target or k in target or target in k) for k in keys):
+            continue
+        for course in reunion.get("courses", []):
+            if course.get("numOrdre") == race_number:
+                found.append((reunion["numOfficiel"], race_number, course.get("libelle") or ""))
+    if len(found) != 1:
+        return None
+    reunion_no, course_no, label = found[0]
+    if name:
+        a, b = _norm(name), _norm(label)
+        if a and b and a not in b and b not in a:
+            return None
+    return reunion_no, course_no
+
+
 def participants_url(date: dt.date, meeting: int, race_number: int) -> str:
     """URL de l'endpoint ``participants`` (à valider en ligne : non testé ici)."""
     return f"{API_BASE}/{date:%d%m%Y}/R{meeting}/C{race_number}/participants"
@@ -166,6 +206,12 @@ def enrich_race(race: Race, payload: Mapping[str, Any]) -> tuple[Race, Enrichmen
     return replace(race, horses=horses), report
 
 
+def _session() -> Any:
+    import requests
+
+    return requests.Session()
+
+
 def fetch_participants(
     url: str, session: Any = None, timeout_s: float = 20.0, max_retries: int = 2
 ) -> Mapping[str, Any]:
@@ -201,14 +247,31 @@ def enrich_from_pmu(
     """Enrichit la course sans JAMAIS lever d'exception : au pire, la course d'origine
     est rendue telle quelle avec un statut explicite (tracé dans le rapport)."""
     try:
+        resolved_by = None
         if payload is None:
             meeting = re.sub(r"\D", "", race.meta.meeting or "")
-            if not meeting or not race.meta.race_number or race.meta.date is None:
+            number = race.meta.race_number
+            if race.meta.date is None or not number:
                 return race, {
                     "status": "ignore",
-                    "reason": "réunion/numéro de course/date inconnus : appel PMU impossible",
+                    "reason": "date ou numéro de course inconnus : appel PMU impossible",
                 }
-            url = participants_url(race.meta.date, int(meeting), int(race.meta.race_number))
+            if meeting:
+                reunion, resolved_by = int(meeting), "pdf"
+            else:
+                from hyperion.history import fetch_json
+
+                programme = fetch_json(f"{API_BASE}/{race.meta.date:%d%m%Y}", session or _session(), timeout_s, max_retries)
+                found = resolve_race(programme, race.meta.hippodrome, number, race.meta.name)
+                if found is None:
+                    return race, {
+                        "status": "ignore",
+                        "reason": "course introuvable ou ambiguë dans le programme PMU "
+                        f"({race.meta.hippodrome} C{number}) : aucun enrichissement",
+                    }
+                reunion, _ = found
+                resolved_by = "programme_pmu"
+            url = participants_url(race.meta.date, reunion, int(number))
             payload = fetch_participants(url, session, timeout_s, max_retries)
         enriched, report = enrich_race(race, payload)
     except PmuUnavailable as exc:
@@ -217,7 +280,7 @@ def enrich_from_pmu(
         return race, {"status": "erreur", "reason": f"{type(exc).__name__}: {exc}"}
     if report.matched == 0:
         return race, {"status": "aucun_apparie", **report.as_dict()}
-    return enriched, {"status": "ok", **report.as_dict()}
+    return enriched, {"status": "ok", "resolu_par": resolved_by, **report.as_dict()}
 
 
 __all__ = [
@@ -227,6 +290,7 @@ __all__ = [
     "fetch_participants",
     "enrich_race",
     "extract_results",
+    "resolve_race",
     "load_payload",
     "participants_url",
 ]

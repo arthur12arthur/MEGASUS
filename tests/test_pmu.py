@@ -181,3 +181,49 @@ def test_analyse_a_posteriori_jamais_stockee():
     assert is_post_race(status)
     assert not is_post_race({"status": "ok", "warnings": []})
     assert not is_post_race(None)
+
+
+class TestResolutionReunion:
+    def _programme(self):
+        return json.loads(
+            (Path(__file__).parent / "fixtures" / "pmu_programme_20261017_trim.json").read_text(encoding="utf-8")
+        )
+
+    def test_retrouve_reunion_et_course(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "AUTEUIL", 3) == (1, 3)
+
+    def test_refuse_si_le_nom_ne_correspond_pas(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "AUTEUIL", 3, name="PRIX TOTALEMENT AUTRE") is None
+
+    def test_hippodrome_inconnu_ou_course_absente(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "CHANTILLY", 3) is None
+        assert resolve_race(self._programme(), "AUTEUIL", 99) is None
+
+    def test_enrich_from_pmu_sans_reunion_utilise_le_programme(self):
+        import datetime as dt
+
+        from hyperion.pmu import enrich_from_pmu
+
+        prog = self._programme()
+        payload = json.loads(
+            (Path(__file__).parent / "fixtures" / "pmu_participants_20261017_R1C1.json").read_text(encoding="utf-8")
+        )
+
+        class S(_Session):
+            def get(self, url, **kw):
+                self.calls.append(url)
+                return _Resp(payload if url.endswith("/participants") else prog)
+
+        race = _race(payload)
+        race.meta = RaceMeta(hippodrome="AUTEUIL", race_number=3, date=dt.date(2026, 10, 17))
+        session = S()
+        _, status = enrich_from_pmu(race, session=session)
+        assert session.calls[0].endswith("/programme/17102026")
+        assert session.calls[1].endswith("/R1/C3/participants")
+        assert status["resolu_par"] in ("programme_pmu",) or status["status"] != "ok"
