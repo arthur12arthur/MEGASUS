@@ -34,7 +34,7 @@
     }
   },
   "marketwatch": {
-    "as_of": "2026-10-18T11:24:47.448227+00:00",
+    "as_of": "2026-10-18T12:08:47.510280+00:00",
     "source": "panel externe / scraping",
     "signals": [
       {
@@ -42,10 +42,10 @@
         "name": "YES ZARA",
         "number": 1,
         "odds_pdf": 16.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 15.0,
+        "delta": -0.0625,
+        "implied_shift": -0.004166666666666666,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -54,10 +54,10 @@
         "name": "DON'T SHUT ME DOWN",
         "number": 2,
         "odds_pdf": 11.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 9.9,
+        "delta": -0.09999999999999996,
+        "implied_shift": -0.010101010101010097,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -66,10 +66,10 @@
         "name": "BLACK SAXON",
         "number": 3,
         "odds_pdf": 13.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 13.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -78,10 +78,10 @@
         "name": "PRINCESSE D'AMOUR",
         "number": 4,
         "odds_pdf": 7.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 6.5,
+        "delta": -0.07142857142857142,
+        "implied_shift": -0.010989010989011005,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -90,22 +90,22 @@
         "name": "A BEAUREGARD",
         "number": 5,
         "odds_pdf": 20.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 47.0,
+        "delta": 1.35,
+        "implied_shift": 0.028723404255319152,
+        "direction": "derive",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote en dérive à la hausse"
       },
       {
         "horse_id": "ferdinand-premier",
         "name": "FERDINAND PREMIER",
         "number": 6,
         "odds_pdf": 21.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 36.0,
+        "delta": 0.7142857142857143,
+        "implied_shift": 0.01984126984126984,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -114,22 +114,22 @@
         "name": "STEP MORNING",
         "number": 7,
         "odds_pdf": 14.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 9.5,
+        "delta": -0.32142857142857145,
+        "implied_shift": -0.03383458646616541,
+        "direction": "raccourci",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote fondue sans justification visible dans le journal"
       },
       {
         "horse_id": "mighty-boy",
         "name": "MIGHTY BOY",
         "number": 8,
         "odds_pdf": 6.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 5.3,
+        "delta": -0.1166666666666667,
+        "implied_shift": -0.022012578616352224,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -138,10 +138,10 @@
         "name": "RAM SEA",
         "number": 9,
         "odds_pdf": 20.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 21.0,
+        "delta": 0.05,
+        "implied_shift": 0.0023809523809523864,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -150,58 +150,58 @@
         "name": "DEMPY",
         "number": 10,
         "odds_pdf": 10.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 8.2,
+        "delta": -0.18000000000000008,
+        "implied_shift": -0.021951219512195128,
+        "direction": "raccourci",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote fondue sans justification visible dans le journal"
       },
       {
         "horse_id": "vendomya",
         "name": "VENDOMYA",
         "number": 12,
         "odds_pdf": 15.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 12.0,
+        "delta": -0.2,
+        "implied_shift": -0.016666666666666663,
+        "direction": "raccourci",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote fondue sans justification visible dans le journal"
       },
       {
         "horse_id": "recoletty",
         "name": "RECOLETTY",
         "number": 13,
         "odds_pdf": 32.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 25.0,
+        "delta": -0.21875,
+        "implied_shift": -0.00875,
+        "direction": "raccourci",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote fondue sans justification visible dans le journal"
       },
       {
         "horse_id": "zarflight",
         "name": "ZARFLIGHT",
         "number": 14,
         "odds_pdf": 25.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 20.0,
+        "delta": -0.2,
+        "implied_shift": -0.010000000000000002,
+        "direction": "raccourci",
         "non_runner_alert": false,
-        "note": ""
+        "note": "cote fondue sans justification visible dans le journal"
       },
       {
         "horse_id": "fantastico",
         "name": "FANTASTICO",
         "number": 15,
         "odds_pdf": 37.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 57.0,
+        "delta": 0.5405405405405406,
+        "implied_shift": 0.009483167377904222,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       },
@@ -210,32 +210,16 @@
         "name": "MEASTER OWEN",
         "number": 16,
         "odds_pdf": 33.0,
-        "odds_latest": null,
-        "delta": null,
-        "implied_shift": null,
-        "direction": "inconnu",
+        "odds_latest": 40.0,
+        "delta": 0.21212121212121213,
+        "implied_shift": 0.0053030303030303025,
+        "direction": "stable",
         "non_runner_alert": false,
         "note": ""
       }
     ],
     "late_non_runners": [],
-    "warnings": [
-      "YES ZARA (yes-zara) : aucune cote récente disponible",
-      "DON'T SHUT ME DOWN (don-t-shut-me-down) : aucune cote récente disponible",
-      "BLACK SAXON (black-saxon) : aucune cote récente disponible",
-      "PRINCESSE D'AMOUR (princesse-d-amour) : aucune cote récente disponible",
-      "A BEAUREGARD (a-beauregard) : aucune cote récente disponible",
-      "FERDINAND PREMIER (ferdinand-premier) : aucune cote récente disponible",
-      "STEP MORNING (step-morning) : aucune cote récente disponible",
-      "MIGHTY BOY (mighty-boy) : aucune cote récente disponible",
-      "RAM SEA (ram-sea) : aucune cote récente disponible",
-      "DEMPY (dempy) : aucune cote récente disponible",
-      "VENDOMYA (vendomya) : aucune cote récente disponible",
-      "RECOLETTY (recoletty) : aucune cote récente disponible",
-      "ZARFLIGHT (zarflight) : aucune cote récente disponible",
-      "FANTASTICO (fantastico) : aucune cote récente disponible",
-      "MEASTER OWEN (measter-owen) : aucune cote récente disponible"
-    ]
+    "warnings": []
   },
   "datafilter": {
     "selected": [
@@ -269,402 +253,22 @@
     },
     "scores": [
       {
-        "horse_id": "yes-zara",
-        "name": "YES ZARA",
-        "number": 1,
-        "dimensions": {
-          "historique": 10.0,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 10.0,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "step-morning",
-        "name": "STEP MORNING",
-        "number": 7,
-        "dimensions": {
-          "historique": 9.992684141160332,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.9927,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "dempy",
-        "name": "DEMPY",
-        "number": 10,
-        "dimensions": {
-          "historique": 9.751782211117561,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.7518,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
         "horse_id": "princesse-d-amour",
         "name": "PRINCESSE D'AMOUR",
         "number": 4,
         "dimensions": {
-          "historique": 9.669418992975928,
-          "forme": null,
+          "historique": 9.220674408768666,
+          "forme": 6.507462686567164,
           "aptitude": null,
           "fraicheur": null,
           "technique": null
         },
         "weights_used": {
-          "historique": 1.0
+          "historique": 0.56,
+          "forme": 0.44
         },
-        "competitiveness": 9.6694,
+        "competitiveness": 8.0269,
         "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "black-saxon",
-        "name": "BLACK SAXON",
-        "number": 3,
-        "dimensions": {
-          "historique": 9.615981662311865,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.616,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "a-beauregard",
-        "name": "A BEAUREGARD",
-        "number": 5,
-        "dimensions": {
-          "historique": 9.610980785336826,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.611,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "recoletty",
-        "name": "RECOLETTY",
-        "number": 13,
-        "dimensions": {
-          "historique": 9.604599664737304,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.6046,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "measter-owen",
-        "name": "MEASTER OWEN",
-        "number": 16,
-        "dimensions": {
-          "historique": 9.525341869387002,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.5253,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "don-t-shut-me-down",
-        "name": "DON'T SHUT ME DOWN",
-        "number": 2,
-        "dimensions": {
-          "historique": 9.516253082368388,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.5163,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "mighty-boy",
-        "name": "MIGHTY BOY",
-        "number": 8,
-        "dimensions": {
-          "historique": 9.508631805042855,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.5086,
-        "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "ram-sea",
-        "name": "RAM SEA",
-        "number": 9,
-        "dimensions": {
-          "historique": 9.207998315077822,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 9.208,
-        "undetermined": [
-          "forme",
           "aptitude",
           "fraicheur",
           "technique"
@@ -691,18 +295,18 @@
         "name": "VENDOMYA",
         "number": 12,
         "dimensions": {
-          "historique": 9.205364241170184,
-          "forme": null,
+          "historique": 8.174110692013663,
+          "forme": 6.835820895522387,
           "aptitude": null,
           "fraicheur": null,
           "technique": null
         },
         "weights_used": {
-          "historique": 1.0
+          "historique": 0.56,
+          "forme": 0.44
         },
-        "competitiveness": 9.2054,
+        "competitiveness": 7.5853,
         "undetermined": [
-          "forme",
           "aptitude",
           "fraicheur",
           "technique"
@@ -725,60 +329,22 @@
         }
       },
       {
-        "horse_id": "ferdinand-premier",
-        "name": "FERDINAND PREMIER",
-        "number": 6,
+        "horse_id": "yes-zara",
+        "name": "YES ZARA",
+        "number": 1,
         "dimensions": {
-          "historique": 9.192730896846946,
-          "forme": null,
+          "historique": 8.40909090909091,
+          "forme": 6.26865671641791,
           "aptitude": null,
           "fraicheur": null,
           "technique": null
         },
         "weights_used": {
-          "historique": 1.0
+          "historique": 0.56,
+          "forme": 0.44
         },
-        "competitiveness": 9.1927,
+        "competitiveness": 7.4673,
         "undetermined": [
-          "forme",
-          "aptitude",
-          "fraicheur",
-          "technique"
-        ],
-        "detail": {
-          "technique_detail": {
-            "split": {
-              "driver": 0.5,
-              "fiabilite": 0.5
-            },
-            "driver": {
-              "observed": null,
-              "runs": null
-            },
-            "fiabilite": {
-              "observed": null,
-              "runs": null
-            }
-          }
-        }
-      },
-      {
-        "horse_id": "fantastico",
-        "name": "FANTASTICO",
-        "number": 15,
-        "dimensions": {
-          "historique": 8.00800476833648,
-          "forme": null,
-          "aptitude": null,
-          "fraicheur": null,
-          "technique": null
-        },
-        "weights_used": {
-          "historique": 1.0
-        },
-        "competitiveness": 8.008,
-        "undetermined": [
-          "forme",
           "aptitude",
           "fraicheur",
           "technique"
@@ -805,18 +371,436 @@
         "name": "ZARFLIGHT",
         "number": 14,
         "dimensions": {
-          "historique": 7.697597627242056,
-          "forme": null,
+          "historique": 8.848798813621029,
+          "forme": 5.253731343283582,
           "aptitude": null,
           "fraicheur": null,
           "technique": null
         },
         "weights_used": {
-          "historique": 1.0
+          "historique": 0.56,
+          "forme": 0.44
         },
-        "competitiveness": 7.6976,
+        "competitiveness": 7.267,
         "undetermined": [
-          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "black-saxon",
+        "name": "BLACK SAXON",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.706541555793613,
+          "forme": 5.552238805970149,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.7586,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mighty-boy",
+        "name": "MIGHTY BOY",
+        "number": 8,
+        "dimensions": {
+          "historique": 6.508701867433708,
+          "forme": 6.567164179104478,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.5344,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "don-t-shut-me-down",
+        "name": "DON'T SHUT ME DOWN",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.883126541184194,
+          "forme": 4.656716417910448,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4635,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "step-morning",
+        "name": "STEP MORNING",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.805865880103976,
+          "forme": 3.432835820895522,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4417,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "measter-owen",
+        "name": "MEASTER OWEN",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.143623315645882,
+          "forme": 5.208955223880596,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2924,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ferdinand-premier",
+        "name": "FERDINAND PREMIER",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.374143226201251,
+          "forme": 4.134328358208955,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9486,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "recoletty",
+        "name": "RECOLETTY",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.327552357621178,
+          "forme": 3.9104477611940296,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.824,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "a-beauregard",
+        "name": "A BEAUREGARD",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.835793422971443,
+          "forme": 3.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7409,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.600029036593264,
+          "forme": 3.791044776119403,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3641,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ram-sea",
+        "name": "RAM SEA",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.455851009390763,
+          "forme": 3.388059701492537,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.106,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fantastico",
+        "name": "FANTASTICO",
+        "number": 15,
+        "dimensions": {
+          "historique": 5.855854236020091,
+          "forme": 3.328358208955224,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.7438,
+        "undetermined": [
           "aptitude",
           "fraicheur",
           "technique"
@@ -842,21 +826,21 @@
   },
   "consensusinterne": {
     "ranking": [
-      "yes-zara",
-      "step-morning",
-      "dempy",
       "princesse-d-amour",
-      "black-saxon",
-      "a-beauregard",
-      "recoletty",
-      "measter-owen",
-      "don-t-shut-me-down",
-      "mighty-boy",
-      "ram-sea",
       "vendomya",
+      "yes-zara",
+      "zarflight",
+      "black-saxon",
+      "mighty-boy",
+      "don-t-shut-me-down",
+      "step-morning",
+      "measter-owen",
       "ferdinand-premier",
-      "fantastico",
-      "zarflight"
+      "recoletty",
+      "a-beauregard",
+      "dempy",
+      "ram-sea",
+      "fantastico"
     ],
     "stability": 1.0,
     "is_stable": true,
@@ -874,409 +858,409 @@
         "yes-zara": {
           "horse_id": "yes-zara",
           "name": "YES ZARA",
-          "p_win": 0.0887,
-          "p_top3": 0.26224,
-          "p_top5": 0.42526,
-          "expected_position": 6.7947,
+          "p_win": 0.10388,
+          "p_top3": 0.30478,
+          "p_top5": 0.48902,
+          "expected_position": 6.0679,
           "position_distribution": {
-            "1": 0.0887,
-            "2": 0.08774,
-            "3": 0.0858,
-            "4": 0.08308,
-            "5": 0.07994,
-            "6": 0.07938,
-            "7": 0.07524,
-            "8": 0.07442,
-            "9": 0.06734,
-            "10": 0.06324,
-            "11": 0.05942,
-            "12": 0.05244,
-            "13": 0.04516,
-            "14": 0.03714,
-            "15": 0.02096
+            "1": 0.10388,
+            "2": 0.10176,
+            "3": 0.09914,
+            "4": 0.09238,
+            "5": 0.09186,
+            "6": 0.08756,
+            "7": 0.08038,
+            "8": 0.07356,
+            "9": 0.06708,
+            "10": 0.05618,
+            "11": 0.05008,
+            "12": 0.0409,
+            "13": 0.03014,
+            "14": 0.0178,
+            "15": 0.0073
           }
         },
         "don-t-shut-me-down": {
           "horse_id": "don-t-shut-me-down",
           "name": "DON'T SHUT ME DOWN",
-          "p_win": 0.06944,
-          "p_top3": 0.21118,
-          "p_top5": 0.35434,
-          "expected_position": 7.6645,
+          "p_win": 0.06304,
+          "p_top3": 0.19358,
+          "p_top5": 0.33228,
+          "expected_position": 7.8108,
           "position_distribution": {
-            "1": 0.06944,
-            "2": 0.07122,
-            "3": 0.07052,
-            "4": 0.07232,
-            "5": 0.07084,
-            "6": 0.069,
-            "7": 0.06832,
-            "8": 0.07014,
-            "9": 0.07056,
-            "10": 0.06802,
-            "11": 0.06862,
-            "12": 0.06802,
-            "13": 0.06366,
-            "14": 0.05948,
-            "15": 0.03984
+            "1": 0.06304,
+            "2": 0.06412,
+            "3": 0.06642,
+            "4": 0.06978,
+            "5": 0.06892,
+            "6": 0.07026,
+            "7": 0.07252,
+            "8": 0.07056,
+            "9": 0.07332,
+            "10": 0.07464,
+            "11": 0.07396,
+            "12": 0.07176,
+            "13": 0.06622,
+            "14": 0.0562,
+            "15": 0.03828
           }
         },
         "black-saxon": {
           "horse_id": "black-saxon",
           "name": "BLACK SAXON",
-          "p_win": 0.0736,
-          "p_top3": 0.22094,
-          "p_top5": 0.36584,
-          "expected_position": 7.4962,
+          "p_win": 0.07288,
+          "p_top3": 0.22132,
+          "p_top5": 0.373,
+          "expected_position": 7.2912,
           "position_distribution": {
-            "1": 0.0736,
-            "2": 0.07394,
-            "3": 0.0734,
-            "4": 0.07122,
-            "5": 0.07368,
-            "6": 0.07116,
-            "7": 0.07164,
-            "8": 0.07008,
-            "9": 0.06964,
-            "10": 0.0698,
-            "11": 0.06742,
-            "12": 0.0645,
-            "13": 0.0621,
-            "14": 0.05284,
-            "15": 0.03498
+            "1": 0.07288,
+            "2": 0.07416,
+            "3": 0.07428,
+            "4": 0.07644,
+            "5": 0.07524,
+            "6": 0.0765,
+            "7": 0.07488,
+            "8": 0.0754,
+            "9": 0.07376,
+            "10": 0.07366,
+            "11": 0.06798,
+            "12": 0.06232,
+            "13": 0.0564,
+            "14": 0.04196,
+            "15": 0.02414
           }
         },
         "princesse-d-amour": {
           "horse_id": "princesse-d-amour",
           "name": "PRINCESSE D'AMOUR",
-          "p_win": 0.07468,
-          "p_top3": 0.2237,
-          "p_top5": 0.36954,
-          "expected_position": 7.4372,
+          "p_win": 0.1383,
+          "p_top3": 0.38216,
+          "p_top5": 0.5846,
+          "expected_position": 5.2028,
           "position_distribution": {
-            "1": 0.07468,
-            "2": 0.07656,
-            "3": 0.07246,
-            "4": 0.07448,
-            "5": 0.07136,
-            "6": 0.07388,
-            "7": 0.07108,
-            "8": 0.06986,
-            "9": 0.06956,
-            "10": 0.0694,
-            "11": 0.06606,
-            "12": 0.06564,
-            "13": 0.0605,
-            "14": 0.05046,
-            "15": 0.03402
+            "1": 0.1383,
+            "2": 0.12604,
+            "3": 0.11782,
+            "4": 0.10838,
+            "5": 0.09406,
+            "6": 0.08732,
+            "7": 0.0768,
+            "8": 0.06682,
+            "9": 0.05552,
+            "10": 0.04538,
+            "11": 0.03478,
+            "12": 0.02362,
+            "13": 0.0152,
+            "14": 0.00742,
+            "15": 0.00254
           }
         },
         "a-beauregard": {
           "horse_id": "a-beauregard",
           "name": "A BEAUREGARD",
-          "p_win": 0.07424,
-          "p_top3": 0.21828,
-          "p_top5": 0.36332,
-          "expected_position": 7.5275,
+          "p_win": 0.04524,
+          "p_top3": 0.13736,
+          "p_top5": 0.2395,
+          "expected_position": 9.1207,
           "position_distribution": {
-            "1": 0.07424,
-            "2": 0.07136,
-            "3": 0.07268,
-            "4": 0.07208,
-            "5": 0.07296,
-            "6": 0.07164,
-            "7": 0.0714,
-            "8": 0.07106,
-            "9": 0.06882,
-            "10": 0.06802,
-            "11": 0.0675,
-            "12": 0.06498,
-            "13": 0.06306,
-            "14": 0.05334,
-            "15": 0.03686
+            "1": 0.04524,
+            "2": 0.0449,
+            "3": 0.04722,
+            "4": 0.04994,
+            "5": 0.0522,
+            "6": 0.05644,
+            "7": 0.05842,
+            "8": 0.06268,
+            "9": 0.06904,
+            "10": 0.07152,
+            "11": 0.07626,
+            "12": 0.08462,
+            "13": 0.09056,
+            "14": 0.09834,
+            "15": 0.09262
           }
         },
         "ferdinand-premier": {
           "horse_id": "ferdinand-premier",
           "name": "FERDINAND PREMIER",
-          "p_win": 0.05976,
-          "p_top3": 0.18122,
-          "p_top5": 0.30282,
-          "expected_position": 8.3128,
+          "p_win": 0.04922,
+          "p_top3": 0.15252,
+          "p_top5": 0.26144,
+          "expected_position": 8.7761,
           "position_distribution": {
-            "1": 0.05976,
-            "2": 0.0602,
-            "3": 0.06126,
-            "4": 0.05936,
-            "5": 0.06224,
-            "6": 0.06294,
-            "7": 0.0672,
-            "8": 0.0649,
-            "9": 0.06702,
-            "10": 0.06942,
-            "11": 0.0731,
-            "12": 0.0752,
-            "13": 0.0777,
-            "14": 0.07652,
-            "15": 0.06318
+            "1": 0.04922,
+            "2": 0.0505,
+            "3": 0.0528,
+            "4": 0.05414,
+            "5": 0.05478,
+            "6": 0.05956,
+            "7": 0.06418,
+            "8": 0.06466,
+            "9": 0.06768,
+            "10": 0.07462,
+            "11": 0.07766,
+            "12": 0.08452,
+            "13": 0.08528,
+            "14": 0.0853,
+            "15": 0.0751
           }
         },
         "step-morning": {
           "horse_id": "step-morning",
           "name": "STEP MORNING",
-          "p_win": 0.09006,
-          "p_top3": 0.26148,
-          "p_top5": 0.42458,
-          "expected_position": 6.8172,
+          "p_win": 0.06308,
+          "p_top3": 0.19188,
+          "p_top5": 0.32814,
+          "expected_position": 7.8728,
           "position_distribution": {
-            "1": 0.09006,
-            "2": 0.08462,
-            "3": 0.0868,
-            "4": 0.08442,
-            "5": 0.07868,
-            "6": 0.079,
-            "7": 0.07386,
-            "8": 0.07062,
-            "9": 0.06892,
-            "10": 0.06466,
-            "11": 0.059,
-            "12": 0.05554,
-            "13": 0.0462,
-            "14": 0.03684,
-            "15": 0.02078
+            "1": 0.06308,
+            "2": 0.06254,
+            "3": 0.06626,
+            "4": 0.0664,
+            "5": 0.06986,
+            "6": 0.06966,
+            "7": 0.06898,
+            "8": 0.07248,
+            "9": 0.0741,
+            "10": 0.07448,
+            "11": 0.0721,
+            "12": 0.07356,
+            "13": 0.0691,
+            "14": 0.05654,
+            "15": 0.04086
           }
         },
         "mighty-boy": {
           "horse_id": "mighty-boy",
           "name": "MIGHTY BOY",
-          "p_win": 0.06862,
-          "p_top3": 0.20586,
-          "p_top5": 0.34646,
-          "expected_position": 7.718,
+          "p_win": 0.06492,
+          "p_top3": 0.19694,
+          "p_top5": 0.3357,
+          "expected_position": 7.7219,
           "position_distribution": {
-            "1": 0.06862,
-            "2": 0.06866,
-            "3": 0.06858,
-            "4": 0.07054,
-            "5": 0.07006,
-            "6": 0.07066,
-            "7": 0.07108,
-            "8": 0.07064,
-            "9": 0.07076,
-            "10": 0.06854,
-            "11": 0.06866,
-            "12": 0.06704,
-            "13": 0.06402,
-            "14": 0.0591,
-            "15": 0.04304
+            "1": 0.06492,
+            "2": 0.06552,
+            "3": 0.0665,
+            "4": 0.0684,
+            "5": 0.07036,
+            "6": 0.07264,
+            "7": 0.0729,
+            "8": 0.07562,
+            "9": 0.07446,
+            "10": 0.07276,
+            "11": 0.0743,
+            "12": 0.0692,
+            "13": 0.06366,
+            "14": 0.05448,
+            "15": 0.03428
           }
         },
         "ram-sea": {
           "horse_id": "ram-sea",
           "name": "RAM SEA",
-          "p_win": 0.06034,
-          "p_top3": 0.18338,
-          "p_top5": 0.30946,
-          "expected_position": 8.2396,
+          "p_win": 0.03316,
+          "p_top3": 0.10362,
+          "p_top5": 0.18214,
+          "expected_position": 10.1758,
           "position_distribution": {
-            "1": 0.06034,
-            "2": 0.06076,
-            "3": 0.06228,
-            "4": 0.06244,
-            "5": 0.06364,
-            "6": 0.06364,
-            "7": 0.06618,
-            "8": 0.06598,
-            "9": 0.06844,
-            "10": 0.0695,
-            "11": 0.0731,
-            "12": 0.0725,
-            "13": 0.07332,
-            "14": 0.07642,
-            "15": 0.06146
+            "1": 0.03316,
+            "2": 0.03466,
+            "3": 0.0358,
+            "4": 0.03638,
+            "5": 0.04214,
+            "6": 0.0421,
+            "7": 0.04728,
+            "8": 0.0526,
+            "9": 0.0565,
+            "10": 0.06368,
+            "11": 0.07306,
+            "12": 0.08462,
+            "13": 0.10132,
+            "14": 0.12674,
+            "15": 0.16996
           }
         },
         "dempy": {
           "horse_id": "dempy",
           "name": "DEMPY",
-          "p_win": 0.07618,
-          "p_top3": 0.23048,
-          "p_top5": 0.38058,
-          "expected_position": 7.2967,
+          "p_win": 0.03502,
+          "p_top3": 0.11404,
+          "p_top5": 0.20204,
+          "expected_position": 9.7893,
           "position_distribution": {
-            "1": 0.07618,
-            "2": 0.0789,
-            "3": 0.0754,
-            "4": 0.07458,
-            "5": 0.07552,
-            "6": 0.07486,
-            "7": 0.07276,
-            "8": 0.07358,
-            "9": 0.06912,
-            "10": 0.06732,
-            "11": 0.0656,
-            "12": 0.06254,
-            "13": 0.0557,
-            "14": 0.04708,
-            "15": 0.03086
+            "1": 0.03502,
+            "2": 0.03896,
+            "3": 0.04006,
+            "4": 0.04262,
+            "5": 0.04538,
+            "6": 0.04648,
+            "7": 0.05186,
+            "8": 0.05574,
+            "9": 0.06186,
+            "10": 0.06806,
+            "11": 0.07642,
+            "12": 0.08422,
+            "13": 0.0995,
+            "14": 0.11842,
+            "15": 0.1354
           }
         },
         "vendomya": {
           "horse_id": "vendomya",
           "name": "VENDOMYA",
-          "p_win": 0.06014,
-          "p_top3": 0.18102,
-          "p_top5": 0.30658,
-          "expected_position": 8.2647,
+          "p_win": 0.1091,
+          "p_top3": 0.31974,
+          "p_top5": 0.5085,
+          "expected_position": 5.8866,
           "position_distribution": {
-            "1": 0.06014,
-            "2": 0.06058,
-            "3": 0.0603,
-            "4": 0.06262,
-            "5": 0.06294,
-            "6": 0.06422,
-            "7": 0.06436,
-            "8": 0.06664,
-            "9": 0.0697,
-            "10": 0.07068,
-            "11": 0.07222,
-            "12": 0.0731,
-            "13": 0.07432,
-            "14": 0.07618,
-            "15": 0.062
+            "1": 0.1091,
+            "2": 0.1074,
+            "3": 0.10324,
+            "4": 0.09714,
+            "5": 0.09162,
+            "6": 0.08626,
+            "7": 0.0796,
+            "8": 0.07338,
+            "9": 0.06696,
+            "10": 0.05584,
+            "11": 0.04606,
+            "12": 0.03546,
+            "13": 0.02598,
+            "14": 0.01586,
+            "15": 0.0061
           }
         },
         "recoletty": {
           "horse_id": "recoletty",
           "name": "RECOLETTY",
-          "p_win": 0.07268,
-          "p_top3": 0.21668,
-          "p_top5": 0.36238,
-          "expected_position": 7.5327,
+          "p_win": 0.04492,
+          "p_top3": 0.14142,
+          "p_top5": 0.24826,
+          "expected_position": 8.9722,
           "position_distribution": {
-            "1": 0.07268,
-            "2": 0.07256,
-            "3": 0.07144,
-            "4": 0.07346,
-            "5": 0.07224,
-            "6": 0.07032,
-            "7": 0.07214,
-            "8": 0.07018,
-            "9": 0.0705,
-            "10": 0.07052,
-            "11": 0.06634,
-            "12": 0.06604,
-            "13": 0.063,
-            "14": 0.05238,
-            "15": 0.0362
+            "1": 0.04492,
+            "2": 0.04724,
+            "3": 0.04926,
+            "4": 0.05258,
+            "5": 0.05426,
+            "6": 0.05674,
+            "7": 0.06264,
+            "8": 0.0636,
+            "9": 0.06864,
+            "10": 0.07382,
+            "11": 0.07814,
+            "12": 0.08372,
+            "13": 0.08854,
+            "14": 0.094,
+            "15": 0.0819
           }
         },
         "zarflight": {
           "horse_id": "zarflight",
           "name": "ZARFLIGHT",
-          "p_win": 0.0285,
-          "p_top3": 0.08856,
-          "p_top5": 0.15446,
-          "expected_position": 10.8724,
+          "p_win": 0.09296,
+          "p_top3": 0.27704,
+          "p_top5": 0.45406,
+          "expected_position": 6.4206,
           "position_distribution": {
-            "1": 0.0285,
-            "2": 0.02918,
-            "3": 0.03088,
-            "4": 0.03244,
-            "5": 0.03346,
-            "6": 0.03624,
-            "7": 0.03996,
-            "8": 0.04508,
-            "9": 0.0481,
-            "10": 0.05362,
-            "11": 0.0593,
-            "12": 0.07144,
-            "13": 0.09338,
-            "14": 0.13084,
-            "15": 0.26758
+            "1": 0.09296,
+            "2": 0.09398,
+            "3": 0.0901,
+            "4": 0.08962,
+            "5": 0.0874,
+            "6": 0.08326,
+            "7": 0.07906,
+            "8": 0.07516,
+            "9": 0.07028,
+            "10": 0.06526,
+            "11": 0.05552,
+            "12": 0.04658,
+            "13": 0.03684,
+            "14": 0.0238,
+            "15": 0.01018
           }
         },
         "fantastico": {
           "horse_id": "fantastico",
           "name": "FANTASTICO",
-          "p_win": 0.03244,
-          "p_top3": 0.10244,
-          "p_top5": 0.18072,
-          "expected_position": 10.3672,
+          "p_win": 0.02602,
+          "p_top3": 0.08452,
+          "p_top5": 0.1536,
+          "expected_position": 10.7664,
           "position_distribution": {
-            "1": 0.03244,
-            "2": 0.03376,
-            "3": 0.03624,
-            "4": 0.03794,
-            "5": 0.04034,
-            "6": 0.04188,
-            "7": 0.04474,
-            "8": 0.04818,
-            "9": 0.05328,
-            "10": 0.05816,
-            "11": 0.0642,
-            "12": 0.07548,
-            "13": 0.093,
-            "14": 0.13234,
-            "15": 0.20802
+            "1": 0.02602,
+            "2": 0.02854,
+            "3": 0.02996,
+            "4": 0.0333,
+            "5": 0.03578,
+            "6": 0.0372,
+            "7": 0.04222,
+            "8": 0.04538,
+            "9": 0.05034,
+            "10": 0.05662,
+            "11": 0.0674,
+            "12": 0.0794,
+            "13": 0.09844,
+            "14": 0.13466,
+            "15": 0.23474
           }
         },
         "measter-owen": {
           "horse_id": "measter-owen",
           "name": "MEASTER OWEN",
-          "p_win": 0.07062,
-          "p_top3": 0.21254,
-          "p_top5": 0.35366,
-          "expected_position": 7.6585,
+          "p_win": 0.05826,
+          "p_top3": 0.17908,
+          "p_top5": 0.30772,
+          "expected_position": 8.1251,
           "position_distribution": {
-            "1": 0.07062,
-            "2": 0.06996,
-            "3": 0.07196,
-            "4": 0.06902,
-            "5": 0.0721,
-            "6": 0.07118,
-            "7": 0.07004,
-            "8": 0.06864,
-            "9": 0.06824,
-            "10": 0.0691,
-            "11": 0.06946,
-            "12": 0.06554,
-            "13": 0.06488,
-            "14": 0.05904,
-            "15": 0.04022
+            "1": 0.05826,
+            "2": 0.05968,
+            "3": 0.06114,
+            "4": 0.0625,
+            "5": 0.06614,
+            "6": 0.06802,
+            "7": 0.06828,
+            "8": 0.07236,
+            "9": 0.07046,
+            "10": 0.07348,
+            "11": 0.07628,
+            "12": 0.0755,
+            "13": 0.07282,
+            "14": 0.06848,
+            "15": 0.0466
           }
         }
       },
       "per_seed_top": {
         "11": [
-          "yes-zara",
-          "step-morning",
-          "dempy"
+          "princesse-d-amour",
+          "vendomya",
+          "yes-zara"
         ],
         "23": [
-          "yes-zara",
-          "step-morning",
-          "dempy"
+          "princesse-d-amour",
+          "vendomya",
+          "yes-zara"
         ],
         "37": [
-          "step-morning",
-          "yes-zara",
-          "dempy"
+          "princesse-d-amour",
+          "vendomya",
+          "yes-zara"
         ],
         "51": [
-          "yes-zara",
-          "step-morning",
-          "dempy"
+          "princesse-d-amour",
+          "vendomya",
+          "yes-zara"
         ],
         "73": [
-          "step-morning",
-          "yes-zara",
-          "dempy"
+          "princesse-d-amour",
+          "vendomya",
+          "yes-zara"
         ]
       },
       "reference_top": [
-        "dempy",
-        "step-morning",
+        "princesse-d-amour",
+        "vendomya",
         "yes-zara"
       ],
       "stable_seeds": 5,
@@ -1285,122 +1269,122 @@
     },
     "borda_seeds": {
       "points": {
-        "yes-zara": 8.0,
-        "step-morning": 7.0,
-        "dempy": 0.0
+        "princesse-d-amour": 10.0,
+        "vendomya": 5.0,
+        "yes-zara": 0.0
       },
       "order": [
-        "yes-zara",
-        "step-morning",
-        "dempy"
+        "princesse-d-amour",
+        "vendomya",
+        "yes-zara"
       ],
       "rankings_used": 5
     },
     "borda_scores": {
       "points": {
-        "yes-zara": 14.0,
-        "step-morning": 13.0,
-        "dempy": 12.0,
-        "princesse-d-amour": 11.0,
+        "princesse-d-amour": 14.0,
+        "vendomya": 13.0,
+        "yes-zara": 12.0,
+        "zarflight": 11.0,
         "black-saxon": 10.0,
-        "a-beauregard": 9.0,
-        "recoletty": 8.0,
-        "measter-owen": 7.0,
-        "don-t-shut-me-down": 6.0,
-        "mighty-boy": 5.0,
-        "ram-sea": 4.0,
-        "vendomya": 3.0,
-        "ferdinand-premier": 2.0,
-        "fantastico": 1.0,
-        "zarflight": 0.0
+        "mighty-boy": 9.0,
+        "don-t-shut-me-down": 8.0,
+        "step-morning": 7.0,
+        "measter-owen": 6.0,
+        "ferdinand-premier": 5.0,
+        "recoletty": 4.0,
+        "a-beauregard": 3.0,
+        "dempy": 2.0,
+        "ram-sea": 1.0,
+        "fantastico": 0.0
       },
       "order": [
-        "yes-zara",
-        "step-morning",
-        "dempy",
         "princesse-d-amour",
-        "black-saxon",
-        "a-beauregard",
-        "recoletty",
-        "measter-owen",
-        "don-t-shut-me-down",
-        "mighty-boy",
-        "ram-sea",
         "vendomya",
+        "yes-zara",
+        "zarflight",
+        "black-saxon",
+        "mighty-boy",
+        "don-t-shut-me-down",
+        "step-morning",
+        "measter-owen",
         "ferdinand-premier",
-        "fantastico",
-        "zarflight"
+        "recoletty",
+        "a-beauregard",
+        "dempy",
+        "ram-sea",
+        "fantastico"
       ],
       "rankings_used": 1
     },
     "fusion": {
       "order": [
-        "yes-zara",
-        "step-morning",
-        "dempy",
         "princesse-d-amour",
-        "black-saxon",
-        "a-beauregard",
-        "recoletty",
-        "measter-owen",
-        "don-t-shut-me-down",
-        "mighty-boy",
-        "ram-sea",
         "vendomya",
+        "yes-zara",
+        "zarflight",
+        "black-saxon",
+        "mighty-boy",
+        "don-t-shut-me-down",
+        "step-morning",
+        "measter-owen",
         "ferdinand-premier",
-        "fantastico",
-        "zarflight"
+        "recoletty",
+        "a-beauregard",
+        "dempy",
+        "ram-sea",
+        "fantastico"
       ],
       "copeland": {
-        "yes-zara": 14.0,
-        "step-morning": 12.0,
-        "dempy": 10.0,
-        "princesse-d-amour": 8.0,
+        "princesse-d-amour": 14.0,
+        "vendomya": 12.0,
+        "yes-zara": 10.0,
+        "zarflight": 8.0,
         "black-saxon": 6.0,
-        "a-beauregard": 4.0,
-        "recoletty": 2.0,
-        "measter-owen": 0.0,
-        "don-t-shut-me-down": -2.0,
-        "mighty-boy": -4.0,
-        "ram-sea": -6.0,
-        "vendomya": -8.0,
-        "ferdinand-premier": -10.0,
-        "fantastico": -12.0,
-        "zarflight": -14.0
+        "mighty-boy": 4.0,
+        "don-t-shut-me-down": 2.0,
+        "step-morning": 0.0,
+        "measter-owen": -2.0,
+        "ferdinand-premier": -4.0,
+        "recoletty": -6.0,
+        "a-beauregard": -8.0,
+        "dempy": -10.0,
+        "ram-sea": -12.0,
+        "fantastico": -14.0
       },
       "normalized": {
-        "yes-zara": 1.0,
-        "step-morning": 0.9286,
-        "dempy": 0.8571,
-        "princesse-d-amour": 0.7857,
+        "princesse-d-amour": 1.0,
+        "vendomya": 0.9286,
+        "yes-zara": 0.8571,
+        "zarflight": 0.7857,
         "black-saxon": 0.7143,
-        "a-beauregard": 0.6429,
-        "recoletty": 0.5714,
-        "measter-owen": 0.5,
-        "don-t-shut-me-down": 0.4286,
-        "mighty-boy": 0.3571,
-        "ram-sea": 0.2857,
-        "vendomya": 0.2143,
-        "ferdinand-premier": 0.1429,
-        "fantastico": 0.0714,
-        "zarflight": 0.0
+        "mighty-boy": 0.6429,
+        "don-t-shut-me-down": 0.5714,
+        "step-morning": 0.5,
+        "measter-owen": 0.4286,
+        "ferdinand-premier": 0.3571,
+        "recoletty": 0.2857,
+        "a-beauregard": 0.2143,
+        "dempy": 0.1429,
+        "ram-sea": 0.0714,
+        "fantastico": 0.0
       },
       "mean_rank": {
-        "yes-zara": 0.0,
-        "step-morning": 1.0,
-        "dempy": 2.0,
-        "princesse-d-amour": 3.0,
+        "princesse-d-amour": 0.0,
+        "vendomya": 1.0,
+        "yes-zara": 2.0,
+        "zarflight": 3.0,
         "black-saxon": 4.0,
-        "a-beauregard": 5.0,
-        "recoletty": 6.0,
-        "measter-owen": 7.0,
-        "don-t-shut-me-down": 8.0,
-        "mighty-boy": 9.0,
-        "ram-sea": 10.0,
-        "vendomya": 11.0,
-        "ferdinand-premier": 12.0,
-        "fantastico": 13.0,
-        "zarflight": 14.0
+        "mighty-boy": 5.0,
+        "don-t-shut-me-down": 6.0,
+        "step-morning": 7.0,
+        "measter-owen": 8.0,
+        "ferdinand-premier": 9.0,
+        "recoletty": 10.0,
+        "a-beauregard": 11.0,
+        "dempy": 12.0,
+        "ram-sea": 13.0,
+        "fantastico": 14.0
       },
       "rankings_used": 3
     },
@@ -1413,7 +1397,7 @@
         "name": "YES ZARA",
         "number": 1,
         "signals": [
-          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 3 vs marché 8)",
           "aucune mise en avant dans le journal malgré des critères internes favorables"
         ],
         "severity": "faible"
@@ -1457,10 +1441,7 @@
         "horse_id": "step-morning",
         "name": "STEP MORNING",
         "number": 7,
-        "signals": [
-          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
-          "aucune mise en avant dans le journal malgré des critères internes favorables"
-        ],
+        "signals": [],
         "severity": "faible"
       },
       {
@@ -1488,7 +1469,10 @@
         "horse_id": "vendomya",
         "name": "VENDOMYA",
         "number": 12,
-        "signals": [],
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
         "severity": "faible"
       },
       {
@@ -1502,7 +1486,10 @@
         "horse_id": "zarflight",
         "name": "ZARFLIGHT",
         "number": 14,
-        "signals": [],
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 4 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
         "severity": "faible"
       },
       {
@@ -1522,11 +1509,12 @@
     ],
     "flagged": [
       "yes-zara",
-      "step-morning"
+      "vendomya",
+      "zarflight"
     ],
     "notes": [
       "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
-      "Aucun mouvement de cote exploitable : sévérité plafonnée à « faible »."
+      "1 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
     ]
   },
   "externalconsensus": {
@@ -1570,7 +1558,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1595,7 +1583,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1620,7 +1608,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1629,7 +1617,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1638,7 +1626,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1647,7 +1635,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1672,7 +1660,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1681,7 +1669,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1690,7 +1678,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1699,7 +1687,7 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1724,7 +1712,7 @@
         "coverage": 1.0,
         "usable": true,
         "note": "extraction par ordre d'apparition des partants",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       },
       {
@@ -1733,26 +1721,26 @@
         "coverage": 0.0,
         "usable": false,
         "note": "recherche refusée (HTTP 202)",
-        "fetched_at": "2026-10-18T11:24:40.851538+00:00",
+        "fetched_at": "2026-10-18T12:08:42.226807+00:00",
         "is_panel_member": true
       }
     ],
     "p_implicite": {
-      "yes-zara": 0.059289,
-      "don-t-shut-me-down": 0.086239,
-      "black-saxon": 0.072972,
-      "princesse-d-amour": 0.135519,
-      "a-beauregard": 0.047432,
-      "ferdinand-premier": 0.045173,
-      "step-morning": 0.067759,
-      "mighty-boy": 0.158105,
-      "ram-sea": 0.047432,
-      "dempy": 0.094863,
-      "vendomya": 0.063242,
-      "recoletty": 0.029645,
-      "zarflight": 0.037945,
-      "fantastico": 0.025639,
-      "measter-owen": 0.028746
+      "yes-zara": 0.05916,
+      "don-t-shut-me-down": 0.089636,
+      "black-saxon": 0.068261,
+      "princesse-d-amour": 0.136523,
+      "a-beauregard": 0.018881,
+      "ferdinand-premier": 0.02465,
+      "step-morning": 0.09341,
+      "mighty-boy": 0.167434,
+      "ram-sea": 0.042257,
+      "dempy": 0.108219,
+      "vendomya": 0.07395,
+      "recoletty": 0.035496,
+      "zarflight": 0.04437,
+      "fantastico": 0.015568,
+      "measter-owen": 0.022185
     },
     "consensus_ranking": [
       "don-t-shut-me-down",
@@ -1778,8 +1766,8 @@
   },
   "divergences": {
     "interne_seulement": [
-      "step-morning",
-      "dempy"
+      "vendomya",
+      "zarflight"
     ],
     "externe_seulement": [
       "don-t-shut-me-down",
@@ -1788,81 +1776,48 @@
   },
   "identification": [],
   "confiance": {
-    "index": 4.368,
-    "level": "faible",
+    "index": 6.02,
+    "level": "modérée",
     "components": {
-      "ecart_scores": 0.0366,
+      "ecart_scores": 2.208,
       "stabilite_seeds": 10.0,
       "convergence_externe": 4.2857,
-      "completude_donnees": 4.0
+      "completude_donnees": 8.0
     },
     "missing_data": [
-      "n°1 · YES ZARA : recent_places",
-      "n°1 · YES ZARA : driver",
       "n°1 · YES ZARA : aptitude",
-      "n°2 · DON'T SHUT ME DOWN : recent_places",
-      "n°2 · DON'T SHUT ME DOWN : driver",
       "n°2 · DON'T SHUT ME DOWN : aptitude",
-      "n°3 · BLACK SAXON : recent_places",
-      "n°3 · BLACK SAXON : driver",
       "n°3 · BLACK SAXON : aptitude",
-      "n°4 · PRINCESSE D'AMOUR : recent_places",
-      "n°4 · PRINCESSE D'AMOUR : driver",
       "n°4 · PRINCESSE D'AMOUR : aptitude",
-      "n°5 · A BEAUREGARD : recent_places",
-      "n°5 · A BEAUREGARD : driver",
       "n°5 · A BEAUREGARD : aptitude",
-      "n°6 · FERDINAND PREMIER : recent_places",
-      "n°6 · FERDINAND PREMIER : driver",
       "n°6 · FERDINAND PREMIER : aptitude",
-      "n°7 · STEP MORNING : recent_places",
-      "n°7 · STEP MORNING : driver",
       "n°7 · STEP MORNING : aptitude",
-      "n°8 · MIGHTY BOY : recent_places",
-      "n°8 · MIGHTY BOY : driver",
       "n°8 · MIGHTY BOY : aptitude",
-      "n°9 · RAM SEA : recent_places",
-      "n°9 · RAM SEA : driver",
       "n°9 · RAM SEA : aptitude",
-      "n°10 · DEMPY : recent_places",
-      "n°10 · DEMPY : driver",
       "n°10 · DEMPY : aptitude",
-      "n°12 · VENDOMYA : recent_places",
-      "n°12 · VENDOMYA : driver",
       "n°12 · VENDOMYA : aptitude",
-      "n°13 · RECOLETTY : recent_places",
-      "n°13 · RECOLETTY : driver",
       "n°13 · RECOLETTY : aptitude",
-      "n°14 · ZARFLIGHT : recent_places",
-      "n°14 · ZARFLIGHT : driver",
       "n°14 · ZARFLIGHT : aptitude",
-      "n°15 · FANTASTICO : recent_places",
-      "n°15 · FANTASTICO : driver",
       "n°15 · FANTASTICO : aptitude",
-      "n°16 · MEASTER OWEN : recent_places",
-      "n°16 · MEASTER OWEN : driver",
       "n°16 · MEASTER OWEN : aptitude"
     ],
     "justification": [
-      "écart de score rang 1 / rang 2 = 0.01 (saturé à 2.0) → 0.0/10",
+      "écart de score rang 1 / rang 2 = 0.44 (saturé à 2.0) → 2.2/10",
       "stabilité inter-seeds = 100% → 10.0/10",
       "convergence Top 5 interne/externe = 43% → 4.3/10",
-      "complétude des données = 40% (45 champ(s) manquant(s)) → 4.0/10",
-      "couverture du score = 28% du poids du modèle"
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
     ],
-    "caps": [
-      "indice plafonné à 4.9 : le score ne repose que sur 28% du modèle (dimensions non déterminées)",
-      "indice plafonné à 6.4 : données incomplètes (40%)"
-    ]
+    "caps": []
   },
   "delai": {
     "is_late": false,
     "race_start": "2026-10-18T13:15:00+00:00",
     "betting_close": "2026-10-18T13:05:00+00:00",
     "race_started": false,
-    "now": "2026-10-18T11:24:47.491957+00:00",
+    "now": "2026-10-18T12:08:47.556962+00:00",
     "minutes_late": 0.0,
-    "minutes_to_close": 100.21,
+    "minutes_to_close": 56.21,
     "schedule": {
       "start_ouagadougou": "2026-10-18T13:15:00+00:00",
       "start_paris": "2026-10-18T15:15:00+02:00",
@@ -1887,27 +1842,27 @@
   "classement": [
     {
       "rang": 1,
+      "numero": 4,
+      "cheval": "PRINCESSE D'AMOUR",
+      "horse_id": "princesse-d-amour"
+    },
+    {
+      "rang": 2,
+      "numero": 12,
+      "cheval": "VENDOMYA",
+      "horse_id": "vendomya"
+    },
+    {
+      "rang": 3,
       "numero": 1,
       "cheval": "YES ZARA",
       "horse_id": "yes-zara"
     },
     {
-      "rang": 2,
-      "numero": 7,
-      "cheval": "STEP MORNING",
-      "horse_id": "step-morning"
-    },
-    {
-      "rang": 3,
-      "numero": 10,
-      "cheval": "DEMPY",
-      "horse_id": "dempy"
-    },
-    {
       "rang": 4,
-      "numero": 4,
-      "cheval": "PRINCESSE D'AMOUR",
-      "horse_id": "princesse-d-amour"
+      "numero": 14,
+      "cheval": "ZARFLIGHT",
+      "horse_id": "zarflight"
     },
     {
       "rang": 5,
@@ -1917,145 +1872,151 @@
     },
     {
       "rang": 6,
-      "numero": 5,
-      "cheval": "A BEAUREGARD",
-      "horse_id": "a-beauregard"
-    },
-    {
-      "rang": 7,
-      "numero": 13,
-      "cheval": "RECOLETTY",
-      "horse_id": "recoletty"
-    },
-    {
-      "rang": 8,
-      "numero": 16,
-      "cheval": "MEASTER OWEN",
-      "horse_id": "measter-owen"
-    },
-    {
-      "rang": 9,
-      "numero": 2,
-      "cheval": "DON'T SHUT ME DOWN",
-      "horse_id": "don-t-shut-me-down"
-    },
-    {
-      "rang": 10,
       "numero": 8,
       "cheval": "MIGHTY BOY",
       "horse_id": "mighty-boy"
     },
     {
-      "rang": 11,
-      "numero": 9,
-      "cheval": "RAM SEA",
-      "horse_id": "ram-sea"
+      "rang": 7,
+      "numero": 2,
+      "cheval": "DON'T SHUT ME DOWN",
+      "horse_id": "don-t-shut-me-down"
     },
     {
-      "rang": 12,
-      "numero": 12,
-      "cheval": "VENDOMYA",
-      "horse_id": "vendomya"
+      "rang": 8,
+      "numero": 7,
+      "cheval": "STEP MORNING",
+      "horse_id": "step-morning"
     },
     {
-      "rang": 13,
+      "rang": 9,
+      "numero": 16,
+      "cheval": "MEASTER OWEN",
+      "horse_id": "measter-owen"
+    },
+    {
+      "rang": 10,
       "numero": 6,
       "cheval": "FERDINAND PREMIER",
       "horse_id": "ferdinand-premier"
     },
     {
+      "rang": 11,
+      "numero": 13,
+      "cheval": "RECOLETTY",
+      "horse_id": "recoletty"
+    },
+    {
+      "rang": 12,
+      "numero": 5,
+      "cheval": "A BEAUREGARD",
+      "horse_id": "a-beauregard"
+    },
+    {
+      "rang": 13,
+      "numero": 10,
+      "cheval": "DEMPY",
+      "horse_id": "dempy"
+    },
+    {
       "rang": 14,
-      "numero": 15,
-      "cheval": "FANTASTICO",
-      "horse_id": "fantastico"
+      "numero": 9,
+      "cheval": "RAM SEA",
+      "horse_id": "ram-sea"
     },
     {
       "rang": 15,
-      "numero": 14,
-      "cheval": "ZARFLIGHT",
-      "horse_id": "zarflight"
+      "numero": 15,
+      "cheval": "FANTASTICO",
+      "horse_id": "fantastico"
     }
   ],
   "competitivite": [
     {
-      "numero": 1,
-      "cheval": "YES ZARA",
-      "score": 10.0
-    },
-    {
-      "numero": 7,
-      "cheval": "STEP MORNING",
-      "score": 9.9927
-    },
-    {
-      "numero": 10,
-      "cheval": "DEMPY",
-      "score": 9.7518
-    },
-    {
       "numero": 4,
       "cheval": "PRINCESSE D'AMOUR",
-      "score": 9.6694
-    },
-    {
-      "numero": 3,
-      "cheval": "BLACK SAXON",
-      "score": 9.616
-    },
-    {
-      "numero": 5,
-      "cheval": "A BEAUREGARD",
-      "score": 9.611
-    },
-    {
-      "numero": 13,
-      "cheval": "RECOLETTY",
-      "score": 9.6046
-    },
-    {
-      "numero": 16,
-      "cheval": "MEASTER OWEN",
-      "score": 9.5253
-    },
-    {
-      "numero": 2,
-      "cheval": "DON'T SHUT ME DOWN",
-      "score": 9.5163
-    },
-    {
-      "numero": 8,
-      "cheval": "MIGHTY BOY",
-      "score": 9.5086
-    },
-    {
-      "numero": 9,
-      "cheval": "RAM SEA",
-      "score": 9.208
+      "score": 8.0269
     },
     {
       "numero": 12,
       "cheval": "VENDOMYA",
-      "score": 9.2054
+      "score": 7.5853
     },
     {
-      "numero": 6,
-      "cheval": "FERDINAND PREMIER",
-      "score": 9.1927
-    },
-    {
-      "numero": 15,
-      "cheval": "FANTASTICO",
-      "score": 8.008
+      "numero": 1,
+      "cheval": "YES ZARA",
+      "score": 7.4673
     },
     {
       "numero": 14,
       "cheval": "ZARFLIGHT",
-      "score": 7.6976
+      "score": 7.267
+    },
+    {
+      "numero": 3,
+      "cheval": "BLACK SAXON",
+      "score": 6.7586
+    },
+    {
+      "numero": 8,
+      "cheval": "MIGHTY BOY",
+      "score": 6.5344
+    },
+    {
+      "numero": 2,
+      "cheval": "DON'T SHUT ME DOWN",
+      "score": 6.4635
+    },
+    {
+      "numero": 7,
+      "cheval": "STEP MORNING",
+      "score": 6.4417
+    },
+    {
+      "numero": 16,
+      "cheval": "MEASTER OWEN",
+      "score": 6.2924
+    },
+    {
+      "numero": 6,
+      "cheval": "FERDINAND PREMIER",
+      "score": 5.9486
+    },
+    {
+      "numero": 13,
+      "cheval": "RECOLETTY",
+      "score": 5.824
+    },
+    {
+      "numero": 5,
+      "cheval": "A BEAUREGARD",
+      "score": 5.7409
+    },
+    {
+      "numero": 10,
+      "cheval": "DEMPY",
+      "score": 5.3641
+    },
+    {
+      "numero": 9,
+      "cheval": "RAM SEA",
+      "score": 5.106
+    },
+    {
+      "numero": 15,
+      "cheval": "FANTASTICO",
+      "score": 4.7438
     }
   ],
   "pmu": {
-    "status": "ignore",
-    "reason": "réunion/numéro de course/date inconnus : appel PMU impossible"
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "IKKO"
+    ],
+    "unmatched_race": [],
+    "warnings": []
   },
-  "stored_at": "2026-10-18T11:24:47.493390+00:00"
+  "stored_at": "2026-10-18T12:08:47.558558+00:00"
 }
