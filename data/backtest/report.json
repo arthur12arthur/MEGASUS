@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-10-18T02:51:49.104043+00:00",
+  "courses_lues": 2127,
+  "courses_ignorees": 70,
+  "global": {
+    "courses": 2057,
+    "system_top1": 0.1998,
+    "system_top3": 0.4648,
+    "system_top5": 0.6407,
+    "system_overlap3": 1.2,
+    "system_overlap5": 2.695,
+    "market_top1": 0.3145,
+    "market_top3": 0.6475,
+    "market_top5": 0.806,
+    "market_overlap3": 1.509,
+    "market_overlap5": 3.08,
+    "random_top1": 0.0901,
+    "random_top3": 0.2704,
+    "random_top5": 0.4507,
+    "random_overlap3": 0.811,
+    "random_overlap5": 2.254,
+    "system_top1_ic95": [
+      0.1831,
+      0.2176
+    ],
+    "market_top1_ic95": [
+      0.2948,
+      0.3349
+    ],
+    "top5_sys_seul": 127,
+    "top5_marche_seul": 467
+  },
+  "par_discipline": {
+    "ATTELE": {
+      "courses": 995,
+      "system_top1": 0.2121,
+      "system_top3": 0.4633,
+      "system_top5": 0.6362,
+      "system_overlap3": 1.164,
+      "system_overlap5": 2.507,
+      "market_top1": 0.3256,
+      "market_top3": 0.6633,
+      "market_top5": 0.8131,
+      "market_overlap3": 1.491,
+      "market_overlap5": 2.905,
+      "random_top1": 0.0802,
+      "random_top3": 0.2407,
+      "random_top5": 0.4012,
+      "random_overlap3": 0.722,
+      "random_overlap5": 2.006,
+      "system_top1_ic95": [
+        0.1878,
+        0.2385
+      ],
+      "market_top1_ic95": [
+        0.2972,
+        0.3554
+      ],
+      "top5_sys_seul": 62,
+      "top5_marche_seul": 238
+    },
+    "CROSS": {
+      "courses": 4,
+      "system_top1": 0.25,
+      "system_top3": 1.0,
+      "system_top5": 1.0,
+      "system_overlap3": 2.5,
+      "system_overlap5": 3.75,
+      "market_top1": 0.5,
+      "market_top3": 0.5,
+      "market_top5": 1.0,
+      "market_overlap3": 2.5,
+      "market_overlap5": 4.0,
+      "random_top1": 0.1396,
+      "random_top3": 0.4188,
+      "random_top5": 0.6979,
+      "random_overlap3": 1.256,
+      "random_overlap5": 3.49,
+      "system_top1_ic95": [
+        0.0456,
+        0.6994
+      ],
+      "market_top1_ic95": [
+        0.15,
+        0.85
+      ],
+      "top5_sys_seul": 0,
+      "top5_marche_seul": 0
+    },
+    "HAIE": {
+      "courses": 111,
+      "system_top1": 0.2613,
+      "system_top3": 0.5135,
+      "system_top5": 0.6126,
+      "system_overlap3": 1.243,
+      "system_overlap5": 2.928,
+      "market_top1": 0.3423,
+      "market_top3": 0.6396,
+      "market_top5": 0.8108,
+      "market_overlap3": 1.45,
+      "market_overlap5": 3.243,
+      "random_top1": 0.1036,
+      "random_top3": 0.3109,
+      "random_top5": 0.5181,
+      "random_overlap3": 0.933,
+      "random_overlap5": 2.591,
+      "system_top1_ic95": [
+        0.1885,
+        0.35
+      ],
+      "market_top1_ic95": [
+        0.2607,
+        0.4346
+      ],
+      "top5_sys_seul": 6,
+      "top5_marche_seul": 28
+    },
+    "MONTE": {
+      "courses": 168,
+      "system_top1": 0.1548,
+      "system_top3": 0.381,
+      "system_top5": 0.5893,
+      "system_overlap3": 1.173,
+      "system_overlap5": 2.762,
+      "market_top1": 0.2798,
+      "market_top3": 0.5833,
+      "market_top5": 0.7976,
+      "market_overlap3": 1.375,
+      "market_overlap5": 2.958,
+      "random_top1": 0.0882,
+      "random_top3": 0.2647,
+      "random_top5": 0.4412,
+      "random_overlap3": 0.794,
+      "random_overlap5": 2.206,
+      "system_top1_ic95": [
+        0.1079,
+        0.2171
+      ],
+      "market_top1_ic95": [
+        0.2174,
+        0.352
+      ],
+      "top5_sys_seul": 4,
+      "top5_marche_seul": 39
+    },
+    "PLAT": {
+      "courses": 723,
+      "system_top1": 0.1853,
+      "system_top3": 0.4716,
+      "system_top5": 0.6584,
+      "system_overlap3": 1.228,
+      "system_overlap5": 2.853,
+      "market_top1": 0.3001,
+      "market_top3": 0.6404,
+      "market_top5": 0.7939,
+      "market_overlap3": 1.559,
+      "market_overlap5": 3.292,
+      "random_top1": 0.0998,
+      "random_top3": 0.2995,
+      "random_top5": 0.4992,
+      "random_overlap3": 0.899,
+      "random_overlap5": 2.496,
+      "system_top1_ic95": [
+        0.1587,
+        0.2153
+      ],
+      "market_top1_ic95": [
+        0.2679,
+        0.3345
+      ],
+      "top5_sys_seul": 51,
+      "top5_marche_seul": 149
+    },
+    "STEEPLECHASE": {
+      "courses": 56,
+      "system_top1": 0.1786,
+      "system_top3": 0.5179,
+      "system_top5": 0.6786,
+      "system_overlap3": 1.375,
+      "system_overlap5": 3.25,
+      "market_top1": 0.3393,
+      "market_top3": 0.6786,
+      "market_top5": 0.8393,
+      "market_overlap3": 1.643,
+      "market_overlap5": 3.446,
+      "random_top1": 0.1167,
+      "random_top3": 0.3502,
+      "random_top5": 0.5837,
+      "random_overlap3": 1.051,
+      "random_overlap5": 2.918,
+      "system_top1_ic95": [
+        0.1,
+        0.2984
+      ],
+      "market_top1_ic95": [
+        0.2292,
+        0.47
+      ],
+      "top5_sys_seul": 4,
+      "top5_marche_seul": 13
+    }
+  },
+  "par_niveau_confiance": {
+    "bonne": {
+      "courses": 148,
+      "system_top1": 0.1689,
+      "system_top3": 0.4392,
+      "system_top5": 0.6486,
+      "system_overlap3": 1.203,
+      "system_overlap5": 2.784,
+      "market_top1": 0.277,
+      "market_top3": 0.6757,
+      "market_top5": 0.8108,
+      "market_overlap3": 1.568,
+      "market_overlap5": 3.324,
+      "random_top1": 0.1016,
+      "random_top3": 0.3049,
+      "random_top5": 0.5081,
+      "random_overlap3": 0.915,
+      "random_overlap5": 2.541,
+      "system_top1_ic95": [
+        0.1171,
+        0.2375
+      ],
+      "market_top1_ic95": [
+        0.2113,
+        0.3541
+      ],
+      "top5_sys_seul": 8,
+      "top5_marche_seul": 32
+    },
+    "faible": {
+      "courses": 1486,
+      "system_top1": 0.212,
+      "system_top3": 0.4731,
+      "system_top5": 0.6447,
+      "system_overlap3": 1.219,
+      "system_overlap5": 2.676,
+      "market_top1": 0.3284,
+      "market_top3": 0.6575,
+      "market_top5": 0.8183,
+      "market_overlap3": 1.511,
+      "market_overlap5": 3.024,
+      "random_top1": 0.087,
+      "random_top3": 0.2609,
+      "random_top5": 0.4348,
+      "random_overlap3": 0.783,
+      "random_overlap5": 2.174,
+      "system_top1_ic95": [
+        0.192,
+        0.2335
+      ],
+      "market_top1_ic95": [
+        0.305,
+        0.3527
+      ],
+      "top5_sys_seul": 84,
+      "top5_marche_seul": 342
+    },
+    "modérée": {
+      "courses": 358,
+      "system_top1": 0.1704,
+      "system_top3": 0.4441,
+      "system_top5": 0.6285,
+      "system_overlap3": 1.134,
+      "system_overlap5": 2.715,
+      "market_top1": 0.257,
+      "market_top3": 0.5754,
+      "market_top5": 0.7458,
+      "market_overlap3": 1.472,
+      "market_overlap5": 3.179,
+      "random_top1": 0.0964,
+      "random_top3": 0.2892,
+      "random_top5": 0.482,
+      "random_overlap3": 0.868,
+      "random_overlap5": 2.41,
+      "system_top1_ic95": [
+        0.135,
+        0.2128
+      ],
+      "market_top1_ic95": [
+        0.2145,
+        0.3047
+      ],
+      "top5_sys_seul": 31,
+      "top5_marche_seul": 73
+    },
+    "très faible": {
+      "courses": 23,
+      "system_top1": 0.0435,
+      "system_top3": 0.2174,
+      "system_top5": 0.3913,
+      "system_overlap3": 0.783,
+      "system_overlap5": 2.522,
+      "market_top1": 0.3043,
+      "market_top3": 0.7826,
+      "market_top5": 0.8696,
+      "market_overlap3": 1.609,
+      "market_overlap5": 3.348,
+      "random_top1": 0.1001,
+      "random_top3": 0.3003,
+      "random_top5": 0.5005,
+      "random_overlap3": 0.901,
+      "random_overlap5": 2.502,
+      "system_top1_ic95": [
+        0.0077,
+        0.2099
+      ],
+      "market_top1_ic95": [
+        0.156,
+        0.5087
+      ],
+      "top5_sys_seul": 2,
+      "top5_marche_seul": 13
+    },
+    "élevée": {
+      "courses": 42,
+      "system_top1": 0.2143,
+      "system_top3": 0.5714,
+      "system_top5": 0.7143,
+      "system_overlap3": 1.31,
+      "system_overlap5": 2.952,
+      "market_top1": 0.4524,
+      "market_top3": 0.7381,
+      "market_top5": 0.8333,
+      "market_overlap3": 1.5,
+      "market_overlap5": 3.238,
+      "random_top1": 0.1039,
+      "random_top3": 0.3118,
+      "random_top5": 0.5196,
+      "random_overlap3": 0.935,
+      "random_overlap5": 2.598,
+      "system_top1_ic95": [
+        0.1171,
+        0.3594
+      ],
+      "market_top1_ic95": [
+        0.3122,
+        0.6005
+      ],
+      "top5_sys_seul": 2,
+      "top5_marche_seul": 7
+    }
+  },
+  "quinte": {
+    "courses": 61,
+    "system_top1": 0.1475,
+    "system_top3": 0.3607,
+    "system_top5": 0.5246,
+    "system_overlap3": 0.951,
+    "system_overlap5": 2.18,
+    "market_top1": 0.2295,
+    "market_top3": 0.5082,
+    "market_top5": 0.7049,
+    "market_overlap3": 1.344,
+    "market_overlap5": 2.77,
+    "random_top1": 0.0651,
+    "random_top3": 0.1952,
+    "random_top5": 0.3253,
+    "random_overlap3": 0.586,
+    "random_overlap5": 1.627,
+    "system_top1_ic95": [
+      0.0796,
+      0.2572
+    ],
+    "market_top1_ic95": [
+      0.1419,
+      0.3491
+    ],
+    "top5_sys_seul": 4,
+    "top5_marche_seul": 15
+  }
+}
