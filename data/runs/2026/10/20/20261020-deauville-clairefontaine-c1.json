@@ -1,0 +1,2125 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261020-deauville-clairefontaine-c1",
+  "date": "2026-10-20",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-CLAIREFONTAINE",
+    "date": "2026-10-20",
+    "start_time": "2026-10-20T11:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DES EQUIDAYS",
+    "distance_m": 2400,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_20-10-2026_0.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-20T11:45:00+00:00",
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-20T11:52:23.849439+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "yacomo",
+        "name": "YACOMO",
+        "number": 1,
+        "odds_pdf": 33.0,
+        "odds_latest": 37.0,
+        "delta": 0.12121212121212122,
+        "implied_shift": 0.0032760032760032753,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "number": 2,
+        "odds_pdf": 6.0,
+        "odds_latest": 4.5,
+        "delta": -0.25,
+        "implied_shift": -0.05555555555555555,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "makan",
+        "name": "MAKAN",
+        "number": 3,
+        "odds_pdf": 15.0,
+        "odds_latest": 9.0,
+        "delta": -0.4,
+        "implied_shift": -0.04444444444444444,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "zarland",
+        "name": "ZARLAND",
+        "number": 4,
+        "odds_pdf": 9.0,
+        "odds_latest": 8.5,
+        "delta": -0.05555555555555555,
+        "implied_shift": -0.006535947712418305,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "number": 5,
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "number": 6,
+        "odds_pdf": 23.0,
+        "odds_latest": 21.0,
+        "delta": -0.08695652173913043,
+        "implied_shift": -0.0041407867494824,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mooney-vision",
+        "name": "MOONEY VISION",
+        "number": 7,
+        "odds_pdf": 29.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      },
+      {
+        "horse_id": "marie-la-croix",
+        "name": "MARIE LA CROIX",
+        "number": 8,
+        "odds_pdf": 17.0,
+        "odds_latest": 18.0,
+        "delta": 0.058823529411764705,
+        "implied_shift": 0.0032679738562091526,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "takerya",
+        "name": "TAKERYA",
+        "number": 9,
+        "odds_pdf": 11.0,
+        "odds_latest": 9.9,
+        "delta": -0.09999999999999996,
+        "implied_shift": -0.010101010101010097,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "babadoo",
+        "name": "BABADOO",
+        "number": 10,
+        "odds_pdf": 18.0,
+        "odds_latest": 16.0,
+        "delta": -0.1111111111111111,
+        "implied_shift": -0.0069444444444444475,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "entlebuch",
+        "name": "ENTLEBUCH",
+        "number": 11,
+        "odds_pdf": 12.0,
+        "odds_latest": 13.0,
+        "delta": 0.08333333333333333,
+        "implied_shift": 0.006410256410256401,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sorelino",
+        "name": "SORELINO",
+        "number": 12,
+        "odds_pdf": 35.0,
+        "odds_latest": 53.0,
+        "delta": 0.5142857142857142,
+        "implied_shift": 0.009703504043126684,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "adicta",
+        "name": "ADICTA",
+        "number": 13,
+        "odds_pdf": 19.0,
+        "odds_latest": 16.0,
+        "delta": -0.15789473684210525,
+        "implied_shift": -0.009868421052631582,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "exelmans",
+        "name": "EXELMANS",
+        "number": 14,
+        "odds_pdf": 8.0,
+        "odds_latest": 10.0,
+        "delta": 0.25,
+        "implied_shift": 0.024999999999999994,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "zarababy",
+        "name": "ZARABABY",
+        "number": 15,
+        "odds_pdf": 13.0,
+        "odds_latest": 11.0,
+        "delta": -0.15384615384615385,
+        "implied_shift": -0.013986013986013984,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mickael-d-oo",
+        "name": "MICKAEL D'OO",
+        "number": 16,
+        "odds_pdf": 36.0,
+        "odds_latest": 21.0,
+        "delta": -0.4166666666666667,
+        "implied_shift": -0.01984126984126984,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [
+      "mooney-vision"
+    ],
+    "warnings": [
+      "MY HABITUDE C.COLLET-VIDAL (my-habitude-c.collet-vidal) : aucune cote récente disponible",
+      "MOONEY VISION (mooney-vision) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "yacomo",
+      "nity-galeste",
+      "makan",
+      "zarland",
+      "my-habitude-c.collet-vidal",
+      "aranyani",
+      "marie-la-croix",
+      "takerya",
+      "babadoo",
+      "entlebuch",
+      "sorelino",
+      "adicta",
+      "exelmans",
+      "zarababy",
+      "mickael-d-oo"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "number": 5,
+        "dimensions": {
+          "historique": 9.60220699580817,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.6022,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "babadoo",
+        "name": "BABADOO",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.841588170555845,
+          "forme": 8.17910447761194,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 9.1101,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "marie-la-croix",
+        "name": "MARIE LA CROIX",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.74905793347764,
+          "forme": 8.567164179104477,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 8.669,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "makan",
+        "name": "MAKAN",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.866919640212329,
+          "forme": 7.462686567164179,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.6891,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sorelino",
+        "name": "SORELINO",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.816419118519713,
+          "forme": 6.4701492537313445,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.2241,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "takerya",
+        "name": "TAKERYA",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.938231279908566,
+          "forme": 5.641791044776119,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.9278,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zarababy",
+        "name": "ZARABABY",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.732705253977191,
+          "forme": 7.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.87,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.967595093655298,
+          "forme": 5.388059701492537,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.8326,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "adicta",
+        "name": "ADICTA",
+        "number": 13,
+        "dimensions": {
+          "historique": 6.826317112320095,
+          "forme": 6.574626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.7156,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.083333333333334,
+          "forme": 5.701492537313432,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4753,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mickael-d-oo",
+        "name": "MICKAEL D'OO",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.333269481338092,
+          "forme": 5.194029850746268,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.392,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "yacomo",
+        "name": "YACOMO",
+        "number": 1,
+        "dimensions": {
+          "historique": 6.486848658590646,
+          "forme": 3.835820895522388,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3204,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "entlebuch",
+        "name": "ENTLEBUCH",
+        "number": 11,
+        "dimensions": {
+          "historique": 6.228215566056852,
+          "forme": 3.4925373134328352,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.0245,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zarland",
+        "name": "ZARLAND",
+        "number": 4,
+        "dimensions": {
+          "historique": 4.369985934971115,
+          "forme": 3.7014925373134333,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.0758,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "exelmans",
+        "name": "EXELMANS",
+        "number": 14,
+        "dimensions": {
+          "historique": 4.264930028015648,
+          "forme": 3.6268656716417906,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 3.9842,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "my-habitude-c.collet-vidal",
+      "babadoo",
+      "marie-la-croix",
+      "makan",
+      "sorelino",
+      "takerya",
+      "zarababy",
+      "aranyani",
+      "adicta",
+      "nity-galeste",
+      "mickael-d-oo",
+      "yacomo",
+      "entlebuch",
+      "zarland",
+      "exelmans"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "yacomo": {
+          "horse_id": "yacomo",
+          "name": "YACOMO",
+          "p_win": 0.02412,
+          "p_top3": 0.08064,
+          "p_top5": 0.15116,
+          "expected_position": 10.2277,
+          "position_distribution": {
+            "1": 0.02412,
+            "2": 0.0263,
+            "3": 0.03022,
+            "4": 0.03366,
+            "5": 0.03686,
+            "6": 0.04358,
+            "7": 0.04926,
+            "8": 0.05564,
+            "9": 0.06488,
+            "10": 0.07268,
+            "11": 0.08806,
+            "12": 0.10658,
+            "13": 0.12762,
+            "14": 0.1355,
+            "15": 0.10504
+          }
+        },
+        "nity-galeste": {
+          "horse_id": "nity-galeste",
+          "name": "NITY GALESTE",
+          "p_win": 0.04374,
+          "p_top3": 0.1414,
+          "p_top5": 0.26152,
+          "expected_position": 8.3906,
+          "position_distribution": {
+            "1": 0.04374,
+            "2": 0.04582,
+            "3": 0.05184,
+            "4": 0.0567,
+            "5": 0.06342,
+            "6": 0.06658,
+            "7": 0.07104,
+            "8": 0.0766,
+            "9": 0.08616,
+            "10": 0.0891,
+            "11": 0.0901,
+            "12": 0.09036,
+            "13": 0.08216,
+            "14": 0.0594,
+            "15": 0.02698
+          }
+        },
+        "makan": {
+          "horse_id": "makan",
+          "name": "MAKAN",
+          "p_win": 0.07944,
+          "p_top3": 0.24876,
+          "p_top5": 0.4293,
+          "expected_position": 6.4369,
+          "position_distribution": {
+            "1": 0.07944,
+            "2": 0.08318,
+            "3": 0.08614,
+            "4": 0.08986,
+            "5": 0.09068,
+            "6": 0.09164,
+            "7": 0.09142,
+            "8": 0.08722,
+            "9": 0.07924,
+            "10": 0.07168,
+            "11": 0.05876,
+            "12": 0.0448,
+            "13": 0.02858,
+            "14": 0.01352,
+            "15": 0.00384
+          }
+        },
+        "zarland": {
+          "horse_id": "zarland",
+          "name": "ZARLAND",
+          "p_win": 0.01288,
+          "p_top3": 0.0443,
+          "p_top5": 0.08276,
+          "expected_position": 11.9619,
+          "position_distribution": {
+            "1": 0.01288,
+            "2": 0.01442,
+            "3": 0.017,
+            "4": 0.0173,
+            "5": 0.02116,
+            "6": 0.02512,
+            "7": 0.02818,
+            "8": 0.03398,
+            "9": 0.04066,
+            "10": 0.04738,
+            "11": 0.0613,
+            "12": 0.07906,
+            "13": 0.1139,
+            "14": 0.18396,
+            "15": 0.3037
+          }
+        },
+        "my-habitude-c.collet-vidal": {
+          "horse_id": "my-habitude-c.collet-vidal",
+          "name": "MY HABITUDE C.COLLET-VIDAL",
+          "p_win": 0.2038,
+          "p_top3": 0.53898,
+          "p_top5": 0.76638,
+          "expected_position": 3.7957,
+          "position_distribution": {
+            "1": 0.2038,
+            "2": 0.18136,
+            "3": 0.15382,
+            "4": 0.1255,
+            "5": 0.1019,
+            "6": 0.0787,
+            "7": 0.05904,
+            "8": 0.04126,
+            "9": 0.02602,
+            "10": 0.01496,
+            "11": 0.00848,
+            "12": 0.00376,
+            "13": 0.00112,
+            "14": 0.00024,
+            "15": 4e-05
+          }
+        },
+        "aranyani": {
+          "horse_id": "aranyani",
+          "name": "ARANYANI",
+          "p_win": 0.05228,
+          "p_top3": 0.16806,
+          "p_top5": 0.29764,
+          "expected_position": 7.8574,
+          "position_distribution": {
+            "1": 0.05228,
+            "2": 0.0559,
+            "3": 0.05988,
+            "4": 0.06276,
+            "5": 0.06682,
+            "6": 0.0745,
+            "7": 0.0793,
+            "8": 0.08344,
+            "9": 0.08758,
+            "10": 0.0874,
+            "11": 0.08618,
+            "12": 0.07884,
+            "13": 0.0652,
+            "14": 0.0438,
+            "15": 0.01612
+          }
+        },
+        "marie-la-croix": {
+          "horse_id": "marie-la-croix",
+          "name": "MARIE LA CROIX",
+          "p_win": 0.12866,
+          "p_top3": 0.3799,
+          "p_top5": 0.60436,
+          "expected_position": 4.9833,
+          "position_distribution": {
+            "1": 0.12866,
+            "2": 0.12902,
+            "3": 0.12222,
+            "4": 0.11774,
+            "5": 0.10672,
+            "6": 0.0936,
+            "7": 0.0842,
+            "8": 0.0711,
+            "9": 0.053,
+            "10": 0.04146,
+            "11": 0.0269,
+            "12": 0.01514,
+            "13": 0.00746,
+            "14": 0.00232,
+            "15": 0.00046
+          }
+        },
+        "takerya": {
+          "horse_id": "takerya",
+          "name": "TAKERYA",
+          "p_win": 0.05534,
+          "p_top3": 0.17092,
+          "p_top5": 0.31102,
+          "expected_position": 7.6874,
+          "position_distribution": {
+            "1": 0.05534,
+            "2": 0.05496,
+            "3": 0.06062,
+            "4": 0.0667,
+            "5": 0.0734,
+            "6": 0.07794,
+            "7": 0.085,
+            "8": 0.08342,
+            "9": 0.08552,
+            "10": 0.08688,
+            "11": 0.08398,
+            "12": 0.07442,
+            "13": 0.0586,
+            "14": 0.03888,
+            "15": 0.01434
+          }
+        },
+        "babadoo": {
+          "horse_id": "babadoo",
+          "name": "BABADOO",
+          "p_win": 0.1623,
+          "p_top3": 0.45172,
+          "p_top5": 0.68622,
+          "expected_position": 4.3812,
+          "position_distribution": {
+            "1": 0.1623,
+            "2": 0.15298,
+            "3": 0.13644,
+            "4": 0.12528,
+            "5": 0.10922,
+            "6": 0.08994,
+            "7": 0.07274,
+            "8": 0.05564,
+            "9": 0.0404,
+            "10": 0.0256,
+            "11": 0.01648,
+            "12": 0.00828,
+            "13": 0.0037,
+            "14": 0.00088,
+            "15": 0.00012
+          }
+        },
+        "entlebuch": {
+          "horse_id": "entlebuch",
+          "name": "ENTLEBUCH",
+          "p_win": 0.02016,
+          "p_top3": 0.06938,
+          "p_top5": 0.131,
+          "expected_position": 10.6973,
+          "position_distribution": {
+            "1": 0.02016,
+            "2": 0.0226,
+            "3": 0.02662,
+            "4": 0.02912,
+            "5": 0.0325,
+            "6": 0.03764,
+            "7": 0.04162,
+            "8": 0.04982,
+            "9": 0.05678,
+            "10": 0.06796,
+            "11": 0.08192,
+            "12": 0.10336,
+            "13": 0.13254,
+            "14": 0.15814,
+            "15": 0.13922
+          }
+        },
+        "sorelino": {
+          "horse_id": "sorelino",
+          "name": "SORELINO",
+          "p_win": 0.06264,
+          "p_top3": 0.20068,
+          "p_top5": 0.3564,
+          "expected_position": 7.195,
+          "position_distribution": {
+            "1": 0.06264,
+            "2": 0.06676,
+            "3": 0.07128,
+            "4": 0.07488,
+            "5": 0.08084,
+            "6": 0.08302,
+            "7": 0.08322,
+            "8": 0.08786,
+            "9": 0.08822,
+            "10": 0.08214,
+            "11": 0.07368,
+            "12": 0.0633,
+            "13": 0.04706,
+            "14": 0.026,
+            "15": 0.0091
+          }
+        },
+        "adicta": {
+          "horse_id": "adicta",
+          "name": "ADICTA",
+          "p_win": 0.04852,
+          "p_top3": 0.15588,
+          "p_top5": 0.28526,
+          "expected_position": 8.0307,
+          "position_distribution": {
+            "1": 0.04852,
+            "2": 0.05088,
+            "3": 0.05648,
+            "4": 0.06226,
+            "5": 0.06712,
+            "6": 0.07382,
+            "7": 0.07514,
+            "8": 0.08268,
+            "9": 0.08568,
+            "10": 0.08994,
+            "11": 0.08714,
+            "12": 0.08314,
+            "13": 0.07124,
+            "14": 0.04624,
+            "15": 0.01972
+          }
+        },
+        "exelmans": {
+          "horse_id": "exelmans",
+          "name": "EXELMANS",
+          "p_win": 0.01212,
+          "p_top3": 0.04268,
+          "p_top5": 0.08014,
+          "expected_position": 12.0533,
+          "position_distribution": {
+            "1": 0.01212,
+            "2": 0.01428,
+            "3": 0.01628,
+            "4": 0.01754,
+            "5": 0.01992,
+            "6": 0.02314,
+            "7": 0.02708,
+            "8": 0.03174,
+            "9": 0.03892,
+            "10": 0.04756,
+            "11": 0.05982,
+            "12": 0.07946,
+            "13": 0.11096,
+            "14": 0.18586,
+            "15": 0.31532
+          }
+        },
+        "zarababy": {
+          "horse_id": "zarababy",
+          "name": "ZARABABY",
+          "p_win": 0.05238,
+          "p_top3": 0.1693,
+          "p_top5": 0.30772,
+          "expected_position": 7.7658,
+          "position_distribution": {
+            "1": 0.05238,
+            "2": 0.05534,
+            "3": 0.06158,
+            "4": 0.0671,
+            "5": 0.07132,
+            "6": 0.0754,
+            "7": 0.08082,
+            "8": 0.08242,
+            "9": 0.08638,
+            "10": 0.0867,
+            "11": 0.08468,
+            "12": 0.07812,
+            "13": 0.06262,
+            "14": 0.03902,
+            "15": 0.01612
+          }
+        },
+        "mickael-d-oo": {
+          "horse_id": "mickael-d-oo",
+          "name": "MICKAEL D'OO",
+          "p_win": 0.04162,
+          "p_top3": 0.1374,
+          "p_top5": 0.24912,
+          "expected_position": 8.5357,
+          "position_distribution": {
+            "1": 0.04162,
+            "2": 0.0462,
+            "3": 0.04958,
+            "4": 0.0536,
+            "5": 0.05812,
+            "6": 0.06538,
+            "7": 0.07194,
+            "8": 0.07718,
+            "9": 0.08056,
+            "10": 0.08856,
+            "11": 0.09252,
+            "12": 0.09138,
+            "13": 0.08724,
+            "14": 0.06624,
+            "15": 0.02988
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "my-habitude-c.collet-vidal",
+          "babadoo",
+          "marie-la-croix"
+        ],
+        "23": [
+          "my-habitude-c.collet-vidal",
+          "babadoo",
+          "marie-la-croix"
+        ],
+        "37": [
+          "my-habitude-c.collet-vidal",
+          "babadoo",
+          "marie-la-croix"
+        ],
+        "51": [
+          "my-habitude-c.collet-vidal",
+          "babadoo",
+          "marie-la-croix"
+        ],
+        "73": [
+          "my-habitude-c.collet-vidal",
+          "babadoo",
+          "marie-la-croix"
+        ]
+      },
+      "reference_top": [
+        "babadoo",
+        "marie-la-croix",
+        "my-habitude-c.collet-vidal"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "my-habitude-c.collet-vidal": 10.0,
+        "babadoo": 5.0,
+        "marie-la-croix": 0.0
+      },
+      "order": [
+        "my-habitude-c.collet-vidal",
+        "babadoo",
+        "marie-la-croix"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "my-habitude-c.collet-vidal": 14.0,
+        "babadoo": 13.0,
+        "marie-la-croix": 12.0,
+        "makan": 11.0,
+        "sorelino": 10.0,
+        "takerya": 9.0,
+        "zarababy": 8.0,
+        "aranyani": 7.0,
+        "adicta": 6.0,
+        "nity-galeste": 5.0,
+        "mickael-d-oo": 4.0,
+        "yacomo": 3.0,
+        "entlebuch": 2.0,
+        "zarland": 1.0,
+        "exelmans": 0.0
+      },
+      "order": [
+        "my-habitude-c.collet-vidal",
+        "babadoo",
+        "marie-la-croix",
+        "makan",
+        "sorelino",
+        "takerya",
+        "zarababy",
+        "aranyani",
+        "adicta",
+        "nity-galeste",
+        "mickael-d-oo",
+        "yacomo",
+        "entlebuch",
+        "zarland",
+        "exelmans"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "my-habitude-c.collet-vidal",
+        "babadoo",
+        "marie-la-croix",
+        "makan",
+        "sorelino",
+        "takerya",
+        "zarababy",
+        "aranyani",
+        "adicta",
+        "nity-galeste",
+        "mickael-d-oo",
+        "yacomo",
+        "entlebuch",
+        "zarland",
+        "exelmans"
+      ],
+      "copeland": {
+        "my-habitude-c.collet-vidal": 14.0,
+        "babadoo": 12.0,
+        "marie-la-croix": 10.0,
+        "makan": 8.0,
+        "sorelino": 6.0,
+        "takerya": 4.0,
+        "zarababy": 2.0,
+        "aranyani": 0.0,
+        "adicta": -2.0,
+        "nity-galeste": -4.0,
+        "mickael-d-oo": -6.0,
+        "yacomo": -8.0,
+        "entlebuch": -10.0,
+        "zarland": -12.0,
+        "exelmans": -14.0
+      },
+      "normalized": {
+        "my-habitude-c.collet-vidal": 1.0,
+        "babadoo": 0.9286,
+        "marie-la-croix": 0.8571,
+        "makan": 0.7857,
+        "sorelino": 0.7143,
+        "takerya": 0.6429,
+        "zarababy": 0.5714,
+        "aranyani": 0.5,
+        "adicta": 0.4286,
+        "nity-galeste": 0.3571,
+        "mickael-d-oo": 0.2857,
+        "yacomo": 0.2143,
+        "entlebuch": 0.1429,
+        "zarland": 0.0714,
+        "exelmans": 0.0
+      },
+      "mean_rank": {
+        "my-habitude-c.collet-vidal": 0.0,
+        "babadoo": 1.0,
+        "marie-la-croix": 2.0,
+        "makan": 3.0,
+        "sorelino": 4.0,
+        "takerya": 5.0,
+        "zarababy": 6.0,
+        "aranyani": 7.0,
+        "adicta": 8.0,
+        "nity-galeste": 9.0,
+        "mickael-d-oo": 10.0,
+        "yacomo": 11.0,
+        "entlebuch": 12.0,
+        "zarland": 13.0,
+        "exelmans": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "yacomo",
+        "name": "YACOMO",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "nity-galeste",
+        "name": "NITY GALESTE",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "makan",
+        "name": "MAKAN",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zarland",
+        "name": "ZARLAND",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "my-habitude-c.collet-vidal",
+        "name": "MY HABITUDE C.COLLET-VIDAL",
+        "number": 5,
+        "signals": [
+          "l'analyse interne le place 12 rangs plus haut que le marché (interne 1 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "aranyani",
+        "name": "ARANYANI",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "marie-la-croix",
+        "name": "MARIE LA CROIX",
+        "number": 8,
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 3 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "takerya",
+        "name": "TAKERYA",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "babadoo",
+        "name": "BABADOO",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 2 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "entlebuch",
+        "name": "ENTLEBUCH",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sorelino",
+        "name": "SORELINO",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "adicta",
+        "name": "ADICTA",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "exelmans",
+        "name": "EXELMANS",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zarababy",
+        "name": "ZARABABY",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mickael-d-oo",
+        "name": "MICKAEL D'OO",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "my-habitude-c.collet-vidal",
+      "marie-la-croix",
+      "babadoo"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "nity-galeste",
+          "yacomo",
+          "makan",
+          "zarland",
+          "aranyani",
+          "marie-la-croix",
+          "takerya",
+          "babadoo",
+          "entlebuch",
+          "sorelino",
+          "adicta",
+          "exelmans",
+          "zarababy",
+          "mickael-d-oo"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "yacomo",
+          "nity-galeste",
+          "makan",
+          "zarland",
+          "aranyani",
+          "marie-la-croix",
+          "takerya",
+          "babadoo",
+          "entlebuch",
+          "sorelino",
+          "adicta",
+          "exelmans",
+          "zarababy",
+          "mickael-d-oo"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "nity-galeste",
+          "yacomo",
+          "makan",
+          "zarland",
+          "aranyani",
+          "marie-la-croix",
+          "takerya",
+          "babadoo",
+          "entlebuch",
+          "sorelino",
+          "adicta",
+          "exelmans",
+          "zarababy",
+          "mickael-d-oo"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "nity-galeste",
+          "exelmans",
+          "zarababy",
+          "makan",
+          "zarland",
+          "takerya",
+          "adicta",
+          "entlebuch",
+          "aranyani",
+          "yacomo",
+          "marie-la-croix",
+          "babadoo",
+          "sorelino",
+          "mickael-d-oo"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "yacomo",
+          "nity-galeste",
+          "makan",
+          "zarland",
+          "aranyani",
+          "marie-la-croix",
+          "takerya",
+          "babadoo",
+          "entlebuch",
+          "sorelino",
+          "adicta",
+          "exelmans",
+          "zarababy",
+          "mickael-d-oo"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-20T11:52:16.847481+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "yacomo": 0.022843,
+      "nity-galeste": 0.187818,
+      "makan": 0.093909,
+      "zarland": 0.099433,
+      "my-habitude-c.collet-vidal": 0.035216,
+      "aranyani": 0.040247,
+      "marie-la-croix": 0.046955,
+      "takerya": 0.085372,
+      "babadoo": 0.052824,
+      "entlebuch": 0.065014,
+      "sorelino": 0.015947,
+      "adicta": 0.052824,
+      "exelmans": 0.084518,
+      "zarababy": 0.076835,
+      "mickael-d-oo": 0.040247
+    },
+    "consensus_ranking": [
+      "nity-galeste",
+      "makan",
+      "yacomo",
+      "zarland",
+      "aranyani",
+      "takerya",
+      "marie-la-croix",
+      "babadoo",
+      "entlebuch",
+      "exelmans",
+      "adicta",
+      "sorelino",
+      "zarababy",
+      "mickael-d-oo"
+    ],
+    "convergence": 0.1111,
+    "notes": [
+      "convergence Top 5 interne/externe : 11%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "my-habitude-c.collet-vidal",
+      "babadoo",
+      "marie-la-croix",
+      "sorelino"
+    ],
+    "externe_seulement": [
+      "nity-galeste",
+      "yacomo",
+      "zarland",
+      "aranyani"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 2.4606,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 1.1111,
+      "completude_donnees": 7.7333
+    },
+    "missing_data": [
+      "n°1 · YACOMO : aptitude",
+      "n°2 · NITY GALESTE : aptitude",
+      "n°3 · MAKAN : aptitude",
+      "n°4 · ZARLAND : aptitude",
+      "n°5 · MY HABITUDE C.COLLET-VIDAL : recent_places",
+      "n°5 · MY HABITUDE C.COLLET-VIDAL : driver",
+      "n°5 · MY HABITUDE C.COLLET-VIDAL : aptitude",
+      "n°6 · ARANYANI : aptitude",
+      "n°8 · MARIE LA CROIX : aptitude",
+      "n°9 · TAKERYA : aptitude",
+      "n°10 · BABADOO : aptitude",
+      "n°11 · ENTLEBUCH : aptitude",
+      "n°12 · SORELINO : aptitude",
+      "n°13 · ADICTA : aptitude",
+      "n°14 · EXELMANS : aptitude",
+      "n°15 · ZARABABY : aptitude",
+      "n°16 · MICKAEL D'OO : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.49 (saturé à 2.0) → 2.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
+      "complétude des données = 77% (17 champ(s) manquant(s)) → 7.7/10",
+      "couverture du score = 49% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 49% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-10-20T11:55:00+00:00",
+    "betting_close": "2026-10-20T11:45:00+00:00",
+    "race_started": false,
+    "now": "2026-10-20T11:52:23.892049+00:00",
+    "minutes_late": 7.4,
+    "minutes_to_close": -7.4,
+    "schedule": {
+      "start_ouagadougou": "2026-10-20T11:55:00+00:00",
+      "start_paris": "2026-10-20T13:55:00+02:00",
+      "close_lonab": "2026-10-20T11:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 5,
+      "cheval": "MY HABITUDE C.COLLET-VIDAL",
+      "horse_id": "my-habitude-c.collet-vidal"
+    },
+    {
+      "rang": 2,
+      "numero": 10,
+      "cheval": "BABADOO",
+      "horse_id": "babadoo"
+    },
+    {
+      "rang": 3,
+      "numero": 8,
+      "cheval": "MARIE LA CROIX",
+      "horse_id": "marie-la-croix"
+    },
+    {
+      "rang": 4,
+      "numero": 3,
+      "cheval": "MAKAN",
+      "horse_id": "makan"
+    },
+    {
+      "rang": 5,
+      "numero": 12,
+      "cheval": "SORELINO",
+      "horse_id": "sorelino"
+    },
+    {
+      "rang": 6,
+      "numero": 9,
+      "cheval": "TAKERYA",
+      "horse_id": "takerya"
+    },
+    {
+      "rang": 7,
+      "numero": 15,
+      "cheval": "ZARABABY",
+      "horse_id": "zarababy"
+    },
+    {
+      "rang": 8,
+      "numero": 6,
+      "cheval": "ARANYANI",
+      "horse_id": "aranyani"
+    },
+    {
+      "rang": 9,
+      "numero": 13,
+      "cheval": "ADICTA",
+      "horse_id": "adicta"
+    },
+    {
+      "rang": 10,
+      "numero": 2,
+      "cheval": "NITY GALESTE",
+      "horse_id": "nity-galeste"
+    },
+    {
+      "rang": 11,
+      "numero": 16,
+      "cheval": "MICKAEL D'OO",
+      "horse_id": "mickael-d-oo"
+    },
+    {
+      "rang": 12,
+      "numero": 1,
+      "cheval": "YACOMO",
+      "horse_id": "yacomo"
+    },
+    {
+      "rang": 13,
+      "numero": 11,
+      "cheval": "ENTLEBUCH",
+      "horse_id": "entlebuch"
+    },
+    {
+      "rang": 14,
+      "numero": 4,
+      "cheval": "ZARLAND",
+      "horse_id": "zarland"
+    },
+    {
+      "rang": 15,
+      "numero": 14,
+      "cheval": "EXELMANS",
+      "horse_id": "exelmans"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 5,
+      "cheval": "MY HABITUDE C.COLLET-VIDAL",
+      "score": 9.6022
+    },
+    {
+      "numero": 10,
+      "cheval": "BABADOO",
+      "score": 9.1101
+    },
+    {
+      "numero": 8,
+      "cheval": "MARIE LA CROIX",
+      "score": 8.669
+    },
+    {
+      "numero": 3,
+      "cheval": "MAKAN",
+      "score": 7.6891
+    },
+    {
+      "numero": 12,
+      "cheval": "SORELINO",
+      "score": 7.2241
+    },
+    {
+      "numero": 9,
+      "cheval": "TAKERYA",
+      "score": 6.9278
+    },
+    {
+      "numero": 15,
+      "cheval": "ZARABABY",
+      "score": 6.87
+    },
+    {
+      "numero": 6,
+      "cheval": "ARANYANI",
+      "score": 6.8326
+    },
+    {
+      "numero": 13,
+      "cheval": "ADICTA",
+      "score": 6.7156
+    },
+    {
+      "numero": 2,
+      "cheval": "NITY GALESTE",
+      "score": 6.4753
+    },
+    {
+      "numero": 16,
+      "cheval": "MICKAEL D'OO",
+      "score": 6.392
+    },
+    {
+      "numero": 1,
+      "cheval": "YACOMO",
+      "score": 5.3204
+    },
+    {
+      "numero": 11,
+      "cheval": "ENTLEBUCH",
+      "score": 5.0245
+    },
+    {
+      "numero": 4,
+      "cheval": "ZARLAND",
+      "score": 4.0758
+    },
+    {
+      "numero": 14,
+      "cheval": "EXELMANS",
+      "score": 3.9842
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.37,
+      "entropie_norm": 0.9286,
+      "p_favori": 0.2019,
+      "ratio_1_2": 1.9929
+    },
+    "p_gagnant_dans_selection": 0.5629,
+    "nb_attendu_dans_top5": 2.221,
+    "p_au_moins": {
+      "1": 0.9782,
+      "2": 0.7945,
+      "3": 0.3796,
+      "4": 0.0668,
+      "5": 0.0024
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-20T11:51:57+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "38 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 2,
+        "cheval": "NITY GALESTE",
+        "cote": 4.5,
+        "p_gagne": 0.2019,
+        "p_top3": 0.4003,
+        "p_top5": 0.5804,
+        "rang_systeme": 10
+      },
+      {
+        "numero": 4,
+        "cheval": "ZARLAND",
+        "cote": 8.5,
+        "p_gagne": 0.1013,
+        "p_top3": 0.2667,
+        "p_top5": 0.429,
+        "rang_systeme": 14
+      },
+      {
+        "numero": 3,
+        "cheval": "MAKAN",
+        "cote": 9.0,
+        "p_gagne": 0.0952,
+        "p_top3": 0.2601,
+        "p_top5": 0.4145,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 9,
+        "cheval": "TAKERYA",
+        "cote": 9.9,
+        "p_gagne": 0.0859,
+        "p_top3": 0.2447,
+        "p_top5": 0.3981,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 14,
+        "cheval": "EXELMANS",
+        "cote": 10.0,
+        "p_gagne": 0.0849,
+        "p_top3": 0.2434,
+        "p_top5": 0.3995,
+        "rang_systeme": 15
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "MY HABITUDE"
+    ],
+    "unmatched_race": [
+      "MY HABITUDE C.COLLET-VIDAL"
+    ],
+    "warnings": [
+      "n°5 : nom PDF « MY HABITUDE C.COLLET-VIDAL » ≠ nom PMU « MY HABITUDE » — ignoré"
+    ]
+  },
+  "stored_at": "2026-10-20T11:52:23.921649+00:00"
+}
