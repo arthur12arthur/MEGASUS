@@ -151,14 +151,24 @@ jobs:
 
       - name: Evaluation du soir
         if: always() && (github.event.schedule == '53 21 * * *' || github.event_name == 'workflow_dispatch')
-        run: python -m hyperion.cli evaluate
+        env:
+          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}
+          HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+          HYPERION_SMTP_HOST: ${{ secrets.HYPERION_SMTP_HOST }}
+          HYPERION_SMTP_USER: ${{ secrets.HYPERION_SMTP_USER }}
+          HYPERION_SMTP_PASSWORD: ${{ secrets.HYPERION_SMTP_PASSWORD }}
+          HYPERION_MAIL_FROM: ${{ secrets.HYPERION_MAIL_FROM }}
+          HYPERION_MAIL_TO: ${{ secrets.HYPERION_MAIL_TO }}
+        run: python -m hyperion.cli evaluate --auto --deliver
 
       - name: Committer les resultats
         if: always()
         run: |
           git config user.name "hyperion-bot"
           git config user.email "hyperion-bot@users.noreply.github.com"
-          git add -A data/runs || true
+          git add -A data/runs data/evaluations || true
           if git diff --cached --quiet; then
             echo "Rien a committer."
           else

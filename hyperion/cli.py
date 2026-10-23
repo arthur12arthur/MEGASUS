@@ -100,6 +100,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     evaluate = subparsers.add_parser("evaluate", help="évaluation du soir")
     evaluate.add_argument("--results", help="JSON des résultats officiels")
+    evaluate.add_argument("--auto", action="store_true", help="récupère l'arrivée officielle PMU et enregistre le bilan")
+    evaluate.add_argument("--deliver", action="store_true", help="envoie le bilan par Telegram/email (avec --auto)")
     _add_common(evaluate)
 
     return parser
@@ -381,11 +383,51 @@ def cmd_calibrate(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_evaluate_auto(args: argparse.Namespace) -> int:
+    """Évaluation du soir : arrivée officielle PMU -> bilan enregistré -> message court."""
+    import requests
+
+    from hyperion.evaluation import results as ev
+    from hyperion.storage import JsonStore
+
+    settings = Settings()
+    records = [r for r in JsonStore().all_records() if ev.is_analysis(r)]
+    pending = [r for r in records if not ev.eval_path(r).exists()]
+    if not pending:
+        print("Aucune course à évaluer.", file=sys.stderr)
+        return 0
+    session = requests.Session()
+    session.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) Chrome/124 Safari/537.36"
+    official = ev.fetch_official_results(pending, session, log=lambda m: print(m, file=sys.stderr))
+    done = []
+    for rec in pending:
+        got = official.get(str(rec.get("race_id")))
+        if got is None:
+            continue
+        bilan = ev.evaluate_record(rec, got)
+        ev.save_evaluation(bilan, rec)
+        done.append(bilan)
+    print(f"{len(done)} course(s) évaluée(s) sur {len(pending)} en attente.", file=sys.stderr)
+    cum = ev.cumulative(ev.load_evaluations())
+    messages = [ev.render_evening(b, cum) for b in done]
+    for text in messages:
+        print(text)
+    if args.deliver and messages:
+        from hyperion.delivery import Delivery
+
+        reports = Delivery(settings).deliver(subject="Hyperion — résultat du jour", messages=messages)
+        for report in reports:
+            print(f"[{report.channel}] {report.ok} — {report.detail}", file=sys.stderr)
+    return 0
+
+
 def cmd_evaluate(args: argparse.Namespace) -> int:
     from hyperion.evaluation import EveningEvaluation
     from hyperion.models import OfficialResult
     from hyperion.storage import JsonStore
 
+    if getattr(args, "auto", False):
+        return cmd_evaluate_auto(args)
     store = JsonStore()
     records = store.all_records()
     results: dict[str, OfficialResult] = {}

@@ -1,0 +1,57 @@
+name: Evaluation (arrivee officielle)
+
+# Recupere l'arrivee officielle PMU des courses analysees, enregistre le bilan dans
+# data/evaluations/ et envoie un message court. Lancement manuel (le run quotidien du
+# soir fait la meme chose automatiquement).
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "reel = envoie Telegram/mail ; simulation = n'envoie rien"
+        required: false
+        default: "simulation"
+
+concurrency:
+  group: hyperion-daily
+  cancel-in-progress: false
+permissions:
+  contents: write
+
+jobs:
+  evaluation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: Installer
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+      - name: Evaluer
+        env:
+          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'reel' && 'false' || 'true' }}
+          HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+          HYPERION_SMTP_HOST: ${{ secrets.HYPERION_SMTP_HOST }}
+          HYPERION_SMTP_USER: ${{ secrets.HYPERION_SMTP_USER }}
+          HYPERION_SMTP_PASSWORD: ${{ secrets.HYPERION_SMTP_PASSWORD }}
+          HYPERION_MAIL_FROM: ${{ secrets.HYPERION_MAIL_FROM }}
+          HYPERION_MAIL_TO: ${{ secrets.HYPERION_MAIL_TO }}
+        run: python -m hyperion.cli evaluate --auto --deliver
+      - name: Committer les bilans
+        if: always()
+        run: |
+          git config user.name "hyperion-bot"
+          git config user.email "hyperion-bot@users.noreply.github.com"
+          git add -A data/evaluations || true
+          if git diff --cached --quiet; then echo "Rien a committer."; else
+            git commit -m "chore(evaluations): bilans du $(date -u +%F)"
+            git pull --rebase -q origin main || true
+            git push
+          fi
