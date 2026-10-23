@@ -1,0 +1,2281 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261023-paris-vincennes-nocturne-c4",
+  "date": "2026-10-23",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-10-23",
+    "start_time": "2026-10-23T18:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX ORIONIS",
+    "distance_m": 2850,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_23-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-23T18:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-23T16:45:10.243679+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jardyland",
+        "name": "JARDYLAND",
+        "number": 1,
+        "odds_pdf": 89.0,
+        "odds_latest": 59.0,
+        "delta": -0.33707865168539325,
+        "implied_shift": -0.005713197486193106,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "number": 2,
+        "odds_pdf": 39.0,
+        "odds_latest": 36.0,
+        "delta": -0.07692307692307693,
+        "implied_shift": -0.002136752136752136,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "iroise-de-madker",
+        "name": "IROISE DE MADKER",
+        "number": 3,
+        "odds_pdf": 37.0,
+        "odds_latest": 34.0,
+        "delta": -0.08108108108108109,
+        "implied_shift": -0.002384737678855324,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 5,
+        "odds_pdf": 87.0,
+        "odds_latest": 57.0,
+        "delta": -0.3448275862068966,
+        "implied_shift": -0.006049606775559588,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "joker-gema",
+        "name": "JOKER GEMA",
+        "number": 6,
+        "odds_pdf": 20.0,
+        "odds_latest": 15.0,
+        "delta": -0.25,
+        "implied_shift": -0.016666666666666663,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "number": 8,
+        "odds_pdf": 25.0,
+        "odds_latest": 10.0,
+        "delta": -0.6,
+        "implied_shift": -0.060000000000000005,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jewel-de-la-cote",
+        "name": "JEWEL DE LA COTE",
+        "number": 9,
+        "odds_pdf": 31.0,
+        "odds_latest": 17.0,
+        "delta": -0.45161290322580644,
+        "implied_shift": -0.026565464895635674,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jadou-du-lupin",
+        "name": "JADOU DU LUPIN",
+        "number": 10,
+        "odds_pdf": 8.0,
+        "odds_latest": 7.1,
+        "delta": -0.11250000000000004,
+        "implied_shift": -0.015845070422535218,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "number": 11,
+        "odds_pdf": 6.0,
+        "odds_latest": 6.1,
+        "delta": 0.016666666666666607,
+        "implied_shift": 0.0027322404371584452,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "in-love-reglisse",
+        "name": "IN LOVE REGLISSE",
+        "number": 12,
+        "odds_pdf": 23.0,
+        "odds_latest": 20.0,
+        "delta": -0.13043478260869565,
+        "implied_shift": -0.006521739130434787,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 13,
+        "odds_pdf": 18.0,
+        "odds_latest": 20.0,
+        "delta": 0.1111111111111111,
+        "implied_shift": 0.00555555555555555,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "number": 14,
+        "odds_pdf": 28.0,
+        "odds_latest": 37.0,
+        "delta": 0.32142857142857145,
+        "implied_shift": 0.008687258687258684,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "just-du-chatelet",
+        "name": "JUST DU CHATELET",
+        "number": 15,
+        "odds_pdf": 5.0,
+        "odds_latest": 4.7,
+        "delta": -0.05999999999999996,
+        "implied_shift": -0.012765957446808501,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 16,
+        "odds_pdf": 117.0,
+        "odds_latest": 51.0,
+        "delta": -0.5641025641025641,
+        "implied_shift": -0.011060834590246354,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "ivoire-dairpet",
+        "name": "IVOIRE DAIRPET",
+        "number": 17,
+        "odds_pdf": 12.0,
+        "odds_latest": 16.0,
+        "delta": 0.3333333333333333,
+        "implied_shift": 0.02083333333333333,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "odds_pdf": 197.0,
+        "odds_latest": 132.0,
+        "delta": -0.3299492385786802,
+        "implied_shift": -0.002499615443777881,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "jardyland",
+      "gitano-jack",
+      "iroise-de-madker",
+      "in-race-lorraine",
+      "joker-gema",
+      "halfan-speed",
+      "jewel-de-la-cote",
+      "jadou-du-lupin",
+      "jazz-de-padd",
+      "in-love-reglisse",
+      "jibi-du-fruitier",
+      "ioupy-tolleville",
+      "just-du-chatelet",
+      "hinden",
+      "ivoire-dairpet",
+      "jezabelle-bie"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "jadou-du-lupin",
+        "name": "JADOU DU LUPIN",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.307402918057786,
+          "forme": 4.604477611940299,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.2172,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.903027290076945,
+          "forme": 4.731343283582089,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.0489,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "number": 11,
+        "dimensions": {
+          "historique": 7.755589846044733,
+          "forme": 5.6268656716417915,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.8095,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jewel-de-la-cote",
+        "name": "JEWEL DE LA COTE",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.964341945842756,
+          "forme": 4.8955223880597005,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6004,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "in-love-reglisse",
+        "name": "IN LOVE REGLISSE",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.902801644172688,
+          "forme": 4.955223880597015,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.5928,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "just-du-chatelet",
+        "name": "JUST DU CHATELET",
+        "number": 15,
+        "dimensions": {
+          "historique": 7.775028615962047,
+          "forme": 4.567164179104478,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.3493,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "joker-gema",
+        "name": "JOKER GEMA",
+        "number": 6,
+        "dimensions": {
+          "historique": 9.532103402303042,
+          "forme": 1.9776119402985077,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.1746,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "iroise-de-madker",
+        "name": "IROISE DE MADKER",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.738782219710869,
+          "forme": 4.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.1103,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 5,
+        "dimensions": {
+          "historique": 6.387135114979062,
+          "forme": 3.432835820895522,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.0741,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "number": 2,
+        "dimensions": {
+          "historique": 6.530831884144808,
+          "forme": 2.82089552238806,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.882,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ivoire-dairpet",
+        "name": "IVOIRE DAIRPET",
+        "number": 17,
+        "dimensions": {
+          "historique": 7.345425042873197,
+          "forme": 1.7910447761194033,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.8768,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jardyland",
+        "name": "JARDYLAND",
+        "number": 1,
+        "dimensions": {
+          "historique": 6.10999242067688,
+          "forme": 2.8656716417910446,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.6681,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "number": 14,
+        "dimensions": {
+          "historique": 6.842372585765526,
+          "forme": 1.716417910447761,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.5642,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 13,
+        "dimensions": {
+          "historique": 5.90255762183256,
+          "forme": 2.462686567164179,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.3737,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 16,
+        "dimensions": {
+          "historique": 5.784005662184705,
+          "forme": 2.5671641791044775,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.3543,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "dimensions": {
+          "historique": 6.30718954248366,
+          "forme": 1.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.9683,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "jadou-du-lupin",
+      "halfan-speed",
+      "jazz-de-padd",
+      "in-love-reglisse",
+      "jewel-de-la-cote",
+      "just-du-chatelet",
+      "joker-gema",
+      "iroise-de-madker",
+      "in-race-lorraine",
+      "gitano-jack",
+      "ivoire-dairpet",
+      "jardyland",
+      "ioupy-tolleville",
+      "jibi-du-fruitier",
+      "hinden",
+      "jezabelle-bie"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "jardyland": {
+          "horse_id": "jardyland",
+          "name": "JARDYLAND",
+          "p_win": 0.03436,
+          "p_top3": 0.10826,
+          "p_top5": 0.1916,
+          "expected_position": 10.2084,
+          "position_distribution": {
+            "1": 0.03436,
+            "2": 0.03582,
+            "3": 0.03808,
+            "4": 0.03966,
+            "5": 0.04368,
+            "6": 0.04476,
+            "7": 0.04924,
+            "8": 0.05366,
+            "9": 0.05612,
+            "10": 0.0641,
+            "11": 0.07086,
+            "12": 0.07754,
+            "13": 0.08902,
+            "14": 0.09622,
+            "15": 0.10182,
+            "16": 0.10506
+          }
+        },
+        "gitano-jack": {
+          "horse_id": "gitano-jack",
+          "name": "GITANO JACK",
+          "p_win": 0.03774,
+          "p_top3": 0.11776,
+          "p_top5": 0.20672,
+          "expected_position": 9.8858,
+          "position_distribution": {
+            "1": 0.03774,
+            "2": 0.03938,
+            "3": 0.04064,
+            "4": 0.04386,
+            "5": 0.0451,
+            "6": 0.05008,
+            "7": 0.0535,
+            "8": 0.0541,
+            "9": 0.06136,
+            "10": 0.06508,
+            "11": 0.07172,
+            "12": 0.07756,
+            "13": 0.08764,
+            "14": 0.09184,
+            "15": 0.09548,
+            "16": 0.08492
+          }
+        },
+        "iroise-de-madker": {
+          "horse_id": "iroise-de-madker",
+          "name": "IROISE DE MADKER",
+          "p_win": 0.06996,
+          "p_top3": 0.21158,
+          "p_top5": 0.35666,
+          "expected_position": 7.5728,
+          "position_distribution": {
+            "1": 0.06996,
+            "2": 0.07014,
+            "3": 0.07148,
+            "4": 0.07174,
+            "5": 0.07334,
+            "6": 0.07244,
+            "7": 0.0724,
+            "8": 0.0731,
+            "9": 0.07444,
+            "10": 0.07248,
+            "11": 0.06886,
+            "12": 0.06182,
+            "13": 0.0566,
+            "14": 0.0442,
+            "15": 0.03244,
+            "16": 0.01456
+          }
+        },
+        "in-race-lorraine": {
+          "horse_id": "in-race-lorraine",
+          "name": "IN RACE LORRAINE",
+          "p_win": 0.04156,
+          "p_top3": 0.1296,
+          "p_top5": 0.22754,
+          "expected_position": 9.4901,
+          "position_distribution": {
+            "1": 0.04156,
+            "2": 0.04434,
+            "3": 0.0437,
+            "4": 0.0471,
+            "5": 0.05084,
+            "6": 0.05476,
+            "7": 0.05622,
+            "8": 0.05954,
+            "9": 0.06456,
+            "10": 0.06834,
+            "11": 0.07304,
+            "12": 0.07896,
+            "13": 0.08228,
+            "14": 0.08546,
+            "15": 0.08256,
+            "16": 0.06674
+          }
+        },
+        "joker-gema": {
+          "horse_id": "joker-gema",
+          "name": "JOKER GEMA",
+          "p_win": 0.0714,
+          "p_top3": 0.21712,
+          "p_top5": 0.3657,
+          "expected_position": 7.4504,
+          "position_distribution": {
+            "1": 0.0714,
+            "2": 0.07336,
+            "3": 0.07236,
+            "4": 0.07386,
+            "5": 0.07472,
+            "6": 0.07334,
+            "7": 0.07328,
+            "8": 0.0756,
+            "9": 0.0746,
+            "10": 0.0715,
+            "11": 0.06772,
+            "12": 0.06126,
+            "13": 0.05214,
+            "14": 0.0427,
+            "15": 0.02824,
+            "16": 0.01392
+          }
+        },
+        "halfan-speed": {
+          "horse_id": "halfan-speed",
+          "name": "HALFAN SPEED",
+          "p_win": 0.10932,
+          "p_top3": 0.31866,
+          "p_top5": 0.50966,
+          "expected_position": 5.9168,
+          "position_distribution": {
+            "1": 0.10932,
+            "2": 0.10806,
+            "3": 0.10128,
+            "4": 0.09824,
+            "5": 0.09276,
+            "6": 0.08736,
+            "7": 0.07994,
+            "8": 0.06962,
+            "9": 0.0627,
+            "10": 0.0568,
+            "11": 0.04402,
+            "12": 0.03658,
+            "13": 0.0255,
+            "14": 0.01668,
+            "15": 0.00872,
+            "16": 0.00242
+          }
+        },
+        "jewel-de-la-cote": {
+          "horse_id": "jewel-de-la-cote",
+          "name": "JEWEL DE LA COTE",
+          "p_win": 0.08952,
+          "p_top3": 0.2644,
+          "p_top5": 0.4351,
+          "expected_position": 6.6776,
+          "position_distribution": {
+            "1": 0.08952,
+            "2": 0.087,
+            "3": 0.08788,
+            "4": 0.0873,
+            "5": 0.0834,
+            "6": 0.07974,
+            "7": 0.0782,
+            "8": 0.07498,
+            "9": 0.06902,
+            "10": 0.06472,
+            "11": 0.0592,
+            "12": 0.0494,
+            "13": 0.03904,
+            "14": 0.02672,
+            "15": 0.0175,
+            "16": 0.00638
+          }
+        },
+        "jadou-du-lupin": {
+          "horse_id": "jadou-du-lupin",
+          "name": "JADOU DU LUPIN",
+          "p_win": 0.12286,
+          "p_top3": 0.34576,
+          "p_top5": 0.54242,
+          "expected_position": 5.6173,
+          "position_distribution": {
+            "1": 0.12286,
+            "2": 0.11506,
+            "3": 0.10784,
+            "4": 0.10156,
+            "5": 0.0951,
+            "6": 0.08574,
+            "7": 0.0779,
+            "8": 0.0676,
+            "9": 0.061,
+            "10": 0.05262,
+            "11": 0.04038,
+            "12": 0.03074,
+            "13": 0.02126,
+            "14": 0.0129,
+            "15": 0.0058,
+            "16": 0.00164
+          }
+        },
+        "jazz-de-padd": {
+          "horse_id": "jazz-de-padd",
+          "name": "JAZZ DE PADD",
+          "p_win": 0.09862,
+          "p_top3": 0.29068,
+          "p_top5": 0.46808,
+          "expected_position": 6.3144,
+          "position_distribution": {
+            "1": 0.09862,
+            "2": 0.09522,
+            "3": 0.09684,
+            "4": 0.09186,
+            "5": 0.08554,
+            "6": 0.0838,
+            "7": 0.08012,
+            "8": 0.0748,
+            "9": 0.06636,
+            "10": 0.0609,
+            "11": 0.05054,
+            "12": 0.04382,
+            "13": 0.03342,
+            "14": 0.0218,
+            "15": 0.01184,
+            "16": 0.00452
+          }
+        },
+        "in-love-reglisse": {
+          "horse_id": "in-love-reglisse",
+          "name": "IN LOVE REGLISSE",
+          "p_win": 0.0909,
+          "p_top3": 0.26774,
+          "p_top5": 0.43702,
+          "expected_position": 6.6579,
+          "position_distribution": {
+            "1": 0.0909,
+            "2": 0.08832,
+            "3": 0.08852,
+            "4": 0.08362,
+            "5": 0.08566,
+            "6": 0.08234,
+            "7": 0.0759,
+            "8": 0.07568,
+            "9": 0.06992,
+            "10": 0.06278,
+            "11": 0.0561,
+            "12": 0.0487,
+            "13": 0.03954,
+            "14": 0.02824,
+            "15": 0.01724,
+            "16": 0.00654
+          }
+        },
+        "jibi-du-fruitier": {
+          "horse_id": "jibi-du-fruitier",
+          "name": "JIBI DU FRUITIER",
+          "p_win": 0.0286,
+          "p_top3": 0.09222,
+          "p_top5": 0.16508,
+          "expected_position": 10.7445,
+          "position_distribution": {
+            "1": 0.0286,
+            "2": 0.0309,
+            "3": 0.03272,
+            "4": 0.03484,
+            "5": 0.03802,
+            "6": 0.04164,
+            "7": 0.04556,
+            "8": 0.0489,
+            "9": 0.05214,
+            "10": 0.05586,
+            "11": 0.06646,
+            "12": 0.07452,
+            "13": 0.08684,
+            "14": 0.10216,
+            "15": 0.11922,
+            "16": 0.14162
+          }
+        },
+        "ioupy-tolleville": {
+          "horse_id": "ioupy-tolleville",
+          "name": "IOUPY TOLLEVILLE",
+          "p_win": 0.03272,
+          "p_top3": 0.10296,
+          "p_top5": 0.18402,
+          "expected_position": 10.3778,
+          "position_distribution": {
+            "1": 0.03272,
+            "2": 0.03418,
+            "3": 0.03606,
+            "4": 0.0405,
+            "5": 0.04056,
+            "6": 0.04404,
+            "7": 0.04638,
+            "8": 0.0519,
+            "9": 0.05496,
+            "10": 0.06122,
+            "11": 0.07082,
+            "12": 0.07666,
+            "13": 0.08746,
+            "14": 0.09622,
+            "15": 0.11134,
+            "16": 0.11498
+          }
+        },
+        "just-du-chatelet": {
+          "horse_id": "just-du-chatelet",
+          "name": "JUST DU CHATELET",
+          "p_win": 0.08004,
+          "p_top3": 0.23918,
+          "p_top5": 0.39358,
+          "expected_position": 7.1071,
+          "position_distribution": {
+            "1": 0.08004,
+            "2": 0.08006,
+            "3": 0.07908,
+            "4": 0.0778,
+            "5": 0.0766,
+            "6": 0.07806,
+            "7": 0.07652,
+            "8": 0.07536,
+            "9": 0.07216,
+            "10": 0.06892,
+            "11": 0.06248,
+            "12": 0.0571,
+            "13": 0.04704,
+            "14": 0.0356,
+            "15": 0.02328,
+            "16": 0.0099
+          }
+        },
+        "hinden": {
+          "horse_id": "hinden",
+          "name": "HINDEN",
+          "p_win": 0.03018,
+          "p_top3": 0.09422,
+          "p_top5": 0.16458,
+          "expected_position": 10.7489,
+          "position_distribution": {
+            "1": 0.03018,
+            "2": 0.03106,
+            "3": 0.03298,
+            "4": 0.03406,
+            "5": 0.0363,
+            "6": 0.03984,
+            "7": 0.04438,
+            "8": 0.04818,
+            "9": 0.05338,
+            "10": 0.05898,
+            "11": 0.06692,
+            "12": 0.07594,
+            "13": 0.08434,
+            "14": 0.1026,
+            "15": 0.11946,
+            "16": 0.1414
+          }
+        },
+        "ivoire-dairpet": {
+          "horse_id": "ivoire-dairpet",
+          "name": "IVOIRE DAIRPET",
+          "p_win": 0.03758,
+          "p_top3": 0.11954,
+          "p_top5": 0.21172,
+          "expected_position": 9.8331,
+          "position_distribution": {
+            "1": 0.03758,
+            "2": 0.0398,
+            "3": 0.04216,
+            "4": 0.0454,
+            "5": 0.04678,
+            "6": 0.04878,
+            "7": 0.05208,
+            "8": 0.05716,
+            "9": 0.06138,
+            "10": 0.0644,
+            "11": 0.07088,
+            "12": 0.07964,
+            "13": 0.08576,
+            "14": 0.0929,
+            "15": 0.09264,
+            "16": 0.08266
+          }
+        },
+        "jezabelle-bie": {
+          "horse_id": "jezabelle-bie",
+          "name": "JEZABELLE BIE",
+          "p_win": 0.02464,
+          "p_top3": 0.08032,
+          "p_top5": 0.14052,
+          "expected_position": 11.3972,
+          "position_distribution": {
+            "1": 0.02464,
+            "2": 0.0273,
+            "3": 0.02838,
+            "4": 0.0286,
+            "5": 0.0316,
+            "6": 0.03328,
+            "7": 0.03838,
+            "8": 0.03982,
+            "9": 0.0459,
+            "10": 0.0513,
+            "11": 0.06,
+            "12": 0.06976,
+            "13": 0.08212,
+            "14": 0.10376,
+            "15": 0.13242,
+            "16": 0.20274
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "jadou-du-lupin",
+          "halfan-speed",
+          "jazz-de-padd"
+        ],
+        "23": [
+          "jadou-du-lupin",
+          "halfan-speed",
+          "jazz-de-padd"
+        ],
+        "37": [
+          "jadou-du-lupin",
+          "halfan-speed",
+          "jazz-de-padd"
+        ],
+        "51": [
+          "jadou-du-lupin",
+          "halfan-speed",
+          "jazz-de-padd"
+        ],
+        "73": [
+          "jadou-du-lupin",
+          "halfan-speed",
+          "jazz-de-padd"
+        ]
+      },
+      "reference_top": [
+        "halfan-speed",
+        "jadou-du-lupin",
+        "jazz-de-padd"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "jadou-du-lupin": 10.0,
+        "halfan-speed": 5.0,
+        "jazz-de-padd": 0.0
+      },
+      "order": [
+        "jadou-du-lupin",
+        "halfan-speed",
+        "jazz-de-padd"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "jadou-du-lupin": 15.0,
+        "halfan-speed": 14.0,
+        "jazz-de-padd": 13.0,
+        "jewel-de-la-cote": 12.0,
+        "in-love-reglisse": 11.0,
+        "just-du-chatelet": 10.0,
+        "joker-gema": 9.0,
+        "iroise-de-madker": 8.0,
+        "in-race-lorraine": 7.0,
+        "gitano-jack": 6.0,
+        "ivoire-dairpet": 5.0,
+        "jardyland": 4.0,
+        "ioupy-tolleville": 3.0,
+        "jibi-du-fruitier": 2.0,
+        "hinden": 1.0,
+        "jezabelle-bie": 0.0
+      },
+      "order": [
+        "jadou-du-lupin",
+        "halfan-speed",
+        "jazz-de-padd",
+        "jewel-de-la-cote",
+        "in-love-reglisse",
+        "just-du-chatelet",
+        "joker-gema",
+        "iroise-de-madker",
+        "in-race-lorraine",
+        "gitano-jack",
+        "ivoire-dairpet",
+        "jardyland",
+        "ioupy-tolleville",
+        "jibi-du-fruitier",
+        "hinden",
+        "jezabelle-bie"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "jadou-du-lupin",
+        "halfan-speed",
+        "jazz-de-padd",
+        "in-love-reglisse",
+        "jewel-de-la-cote",
+        "just-du-chatelet",
+        "joker-gema",
+        "iroise-de-madker",
+        "in-race-lorraine",
+        "gitano-jack",
+        "ivoire-dairpet",
+        "jardyland",
+        "ioupy-tolleville",
+        "jibi-du-fruitier",
+        "hinden",
+        "jezabelle-bie"
+      ],
+      "copeland": {
+        "jadou-du-lupin": 15.0,
+        "halfan-speed": 13.0,
+        "jazz-de-padd": 11.0,
+        "in-love-reglisse": 8.5,
+        "jewel-de-la-cote": 8.5,
+        "just-du-chatelet": 5.0,
+        "joker-gema": 3.0,
+        "iroise-de-madker": 1.0,
+        "in-race-lorraine": -1.0,
+        "ivoire-dairpet": -3.5,
+        "gitano-jack": -3.5,
+        "jardyland": -7.0,
+        "ioupy-tolleville": -9.0,
+        "jibi-du-fruitier": -11.0,
+        "hinden": -13.0,
+        "jezabelle-bie": -15.0
+      },
+      "normalized": {
+        "jadou-du-lupin": 1.0,
+        "halfan-speed": 0.9333,
+        "jazz-de-padd": 0.8667,
+        "in-love-reglisse": 0.7833,
+        "jewel-de-la-cote": 0.7833,
+        "just-du-chatelet": 0.6667,
+        "joker-gema": 0.6,
+        "iroise-de-madker": 0.5333,
+        "in-race-lorraine": 0.4667,
+        "ivoire-dairpet": 0.3833,
+        "gitano-jack": 0.3833,
+        "jardyland": 0.2667,
+        "ioupy-tolleville": 0.2,
+        "jibi-du-fruitier": 0.1333,
+        "hinden": 0.0667,
+        "jezabelle-bie": 0.0
+      },
+      "mean_rank": {
+        "jadou-du-lupin": 0.0,
+        "halfan-speed": 1.0,
+        "jazz-de-padd": 2.0,
+        "in-love-reglisse": 3.5,
+        "jewel-de-la-cote": 3.5,
+        "just-du-chatelet": 5.0,
+        "joker-gema": 6.0,
+        "iroise-de-madker": 7.0,
+        "in-race-lorraine": 8.0,
+        "ivoire-dairpet": 9.5,
+        "gitano-jack": 9.5,
+        "jardyland": 11.0,
+        "ioupy-tolleville": 12.0,
+        "jibi-du-fruitier": 13.0,
+        "hinden": 14.0,
+        "jezabelle-bie": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "jardyland",
+        "name": "JARDYLAND",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gitano-jack",
+        "name": "GITANO JACK",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "iroise-de-madker",
+        "name": "IROISE DE MADKER",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "joker-gema",
+        "name": "JOKER GEMA",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "halfan-speed",
+        "name": "HALFAN SPEED",
+        "number": 8,
+        "signals": [
+          "cote fondue de -60% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jewel-de-la-cote",
+        "name": "JEWEL DE LA COTE",
+        "number": 9,
+        "signals": [
+          "cote fondue de -45% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jadou-du-lupin",
+        "name": "JADOU DU LUPIN",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jazz-de-padd",
+        "name": "JAZZ DE PADD",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "in-love-reglisse",
+        "name": "IN LOVE REGLISSE",
+        "number": 12,
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 4 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ioupy-tolleville",
+        "name": "IOUPY TOLLEVILLE",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "just-du-chatelet",
+        "name": "JUST DU CHATELET",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ivoire-dairpet",
+        "name": "IVOIRE DAIRPET",
+        "number": 17,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "halfan-speed",
+      "jewel-de-la-cote",
+      "in-love-reglisse"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "just-du-chatelet",
+          "jardyland",
+          "gitano-jack",
+          "iroise-de-madker",
+          "in-race-lorraine",
+          "joker-gema",
+          "halfan-speed",
+          "jewel-de-la-cote",
+          "jadou-du-lupin",
+          "jazz-de-padd",
+          "in-love-reglisse",
+          "jibi-du-fruitier",
+          "ioupy-tolleville",
+          "hinden",
+          "ivoire-dairpet",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "jardyland",
+          "gitano-jack",
+          "iroise-de-madker",
+          "in-race-lorraine",
+          "joker-gema",
+          "halfan-speed",
+          "jewel-de-la-cote",
+          "jadou-du-lupin",
+          "jazz-de-padd",
+          "in-love-reglisse",
+          "jibi-du-fruitier",
+          "ioupy-tolleville",
+          "just-du-chatelet",
+          "hinden",
+          "ivoire-dairpet",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "just-du-chatelet",
+          "jardyland",
+          "gitano-jack",
+          "iroise-de-madker",
+          "in-race-lorraine",
+          "joker-gema",
+          "halfan-speed",
+          "jewel-de-la-cote",
+          "jadou-du-lupin",
+          "jazz-de-padd",
+          "in-love-reglisse",
+          "jibi-du-fruitier",
+          "ioupy-tolleville",
+          "hinden",
+          "ivoire-dairpet",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "just-du-chatelet",
+          "jadou-du-lupin",
+          "jazz-de-padd",
+          "halfan-speed",
+          "ivoire-dairpet",
+          "jibi-du-fruitier",
+          "jewel-de-la-cote",
+          "jardyland",
+          "gitano-jack",
+          "iroise-de-madker",
+          "in-race-lorraine",
+          "joker-gema",
+          "in-love-reglisse",
+          "ioupy-tolleville",
+          "hinden",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "jardyland",
+          "gitano-jack",
+          "iroise-de-madker",
+          "in-race-lorraine",
+          "joker-gema",
+          "halfan-speed",
+          "jewel-de-la-cote",
+          "jadou-du-lupin",
+          "jazz-de-padd",
+          "in-love-reglisse",
+          "jibi-du-fruitier",
+          "ioupy-tolleville",
+          "just-du-chatelet",
+          "hinden",
+          "ivoire-dairpet",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-23T16:45:04.037434+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "jardyland": 0.01612,
+      "gitano-jack": 0.026419,
+      "iroise-de-madker": 0.027973,
+      "in-race-lorraine": 0.016686,
+      "joker-gema": 0.063406,
+      "halfan-speed": 0.095109,
+      "jewel-de-la-cote": 0.055946,
+      "jadou-du-lupin": 0.133956,
+      "jazz-de-padd": 0.155916,
+      "in-love-reglisse": 0.047554,
+      "jibi-du-fruitier": 0.047554,
+      "ioupy-tolleville": 0.025705,
+      "just-du-chatelet": 0.202359,
+      "hinden": 0.018649,
+      "ivoire-dairpet": 0.059443,
+      "jezabelle-bie": 0.007205
+    },
+    "consensus_ranking": [
+      "jardyland",
+      "gitano-jack",
+      "iroise-de-madker",
+      "in-race-lorraine",
+      "just-du-chatelet",
+      "halfan-speed",
+      "joker-gema",
+      "jadou-du-lupin",
+      "jewel-de-la-cote",
+      "jazz-de-padd",
+      "jibi-du-fruitier",
+      "in-love-reglisse",
+      "ioupy-tolleville",
+      "ivoire-dairpet",
+      "hinden",
+      "jezabelle-bie"
+    ],
+    "convergence": 0.0,
+    "notes": [
+      "convergence Top 5 interne/externe : 0%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "jadou-du-lupin",
+      "halfan-speed",
+      "jazz-de-padd",
+      "in-love-reglisse",
+      "jewel-de-la-cote"
+    ],
+    "externe_seulement": [
+      "jardyland",
+      "gitano-jack",
+      "iroise-de-madker",
+      "in-race-lorraine",
+      "just-du-chatelet"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.419,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.8413,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · JARDYLAND : aptitude",
+      "n°1 · JARDYLAND : shoeing",
+      "n°2 · GITANO JACK : aptitude",
+      "n°2 · GITANO JACK : shoeing",
+      "n°3 · IROISE DE MADKER : aptitude",
+      "n°3 · IROISE DE MADKER : shoeing",
+      "n°5 · IN RACE LORRAINE : aptitude",
+      "n°5 · IN RACE LORRAINE : shoeing",
+      "n°6 · JOKER GEMA : aptitude",
+      "n°6 · JOKER GEMA : shoeing",
+      "n°8 · HALFAN SPEED : aptitude",
+      "n°8 · HALFAN SPEED : shoeing",
+      "n°9 · JEWEL DE LA COTE : aptitude",
+      "n°9 · JEWEL DE LA COTE : shoeing",
+      "n°10 · JADOU DU LUPIN : aptitude",
+      "n°10 · JADOU DU LUPIN : shoeing",
+      "n°11 · JAZZ DE PADD : aptitude",
+      "n°11 · JAZZ DE PADD : shoeing",
+      "n°12 · IN LOVE REGLISSE : aptitude",
+      "n°12 · IN LOVE REGLISSE : shoeing",
+      "n°13 · JIBI DU FRUITIER : aptitude",
+      "n°13 · JIBI DU FRUITIER : shoeing",
+      "n°14 · IOUPY TOLLEVILLE : aptitude",
+      "n°14 · IOUPY TOLLEVILLE : shoeing",
+      "n°15 · JUST DU CHATELET : aptitude",
+      "n°15 · JUST DU CHATELET : shoeing",
+      "n°16 · HINDEN : aptitude",
+      "n°16 · HINDEN : shoeing",
+      "n°17 · IVOIRE DAIRPET : aptitude",
+      "n°17 · IVOIRE DAIRPET : shoeing",
+      "n°18 · JEZABELLE BIE : aptitude",
+      "n°18 · JEZABELLE BIE : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.17 (saturé à 2.0) → 0.8/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 67% (32 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-23T18:15:00+00:00",
+    "betting_close": "2026-10-23T18:05:00+00:00",
+    "race_started": false,
+    "now": "2026-10-23T16:45:10.293127+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 79.83,
+    "schedule": {
+      "start_ouagadougou": "2026-10-23T18:15:00+00:00",
+      "start_paris": "2026-10-23T20:15:00+02:00",
+      "close_lonab": "2026-10-23T18:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 10,
+      "cheval": "JADOU DU LUPIN",
+      "horse_id": "jadou-du-lupin"
+    },
+    {
+      "rang": 2,
+      "numero": 8,
+      "cheval": "HALFAN SPEED",
+      "horse_id": "halfan-speed"
+    },
+    {
+      "rang": 3,
+      "numero": 11,
+      "cheval": "JAZZ DE PADD",
+      "horse_id": "jazz-de-padd"
+    },
+    {
+      "rang": 4,
+      "numero": 12,
+      "cheval": "IN LOVE REGLISSE",
+      "horse_id": "in-love-reglisse"
+    },
+    {
+      "rang": 5,
+      "numero": 9,
+      "cheval": "JEWEL DE LA COTE",
+      "horse_id": "jewel-de-la-cote"
+    },
+    {
+      "rang": 6,
+      "numero": 15,
+      "cheval": "JUST DU CHATELET",
+      "horse_id": "just-du-chatelet"
+    },
+    {
+      "rang": 7,
+      "numero": 6,
+      "cheval": "JOKER GEMA",
+      "horse_id": "joker-gema"
+    },
+    {
+      "rang": 8,
+      "numero": 3,
+      "cheval": "IROISE DE MADKER",
+      "horse_id": "iroise-de-madker"
+    },
+    {
+      "rang": 9,
+      "numero": 5,
+      "cheval": "IN RACE LORRAINE",
+      "horse_id": "in-race-lorraine"
+    },
+    {
+      "rang": 10,
+      "numero": 2,
+      "cheval": "GITANO JACK",
+      "horse_id": "gitano-jack"
+    },
+    {
+      "rang": 11,
+      "numero": 17,
+      "cheval": "IVOIRE DAIRPET",
+      "horse_id": "ivoire-dairpet"
+    },
+    {
+      "rang": 12,
+      "numero": 1,
+      "cheval": "JARDYLAND",
+      "horse_id": "jardyland"
+    },
+    {
+      "rang": 13,
+      "numero": 14,
+      "cheval": "IOUPY TOLLEVILLE",
+      "horse_id": "ioupy-tolleville"
+    },
+    {
+      "rang": 14,
+      "numero": 13,
+      "cheval": "JIBI DU FRUITIER",
+      "horse_id": "jibi-du-fruitier"
+    },
+    {
+      "rang": 15,
+      "numero": 16,
+      "cheval": "HINDEN",
+      "horse_id": "hinden"
+    },
+    {
+      "rang": 16,
+      "numero": 18,
+      "cheval": "JEZABELLE BIE",
+      "horse_id": "jezabelle-bie"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 10,
+      "cheval": "JADOU DU LUPIN",
+      "score": 7.2172
+    },
+    {
+      "numero": 8,
+      "cheval": "HALFAN SPEED",
+      "score": 7.0489
+    },
+    {
+      "numero": 11,
+      "cheval": "JAZZ DE PADD",
+      "score": 6.8095
+    },
+    {
+      "numero": 9,
+      "cheval": "JEWEL DE LA COTE",
+      "score": 6.6004
+    },
+    {
+      "numero": 12,
+      "cheval": "IN LOVE REGLISSE",
+      "score": 6.5928
+    },
+    {
+      "numero": 15,
+      "cheval": "JUST DU CHATELET",
+      "score": 6.3493
+    },
+    {
+      "numero": 6,
+      "cheval": "JOKER GEMA",
+      "score": 6.1746
+    },
+    {
+      "numero": 3,
+      "cheval": "IROISE DE MADKER",
+      "score": 6.1103
+    },
+    {
+      "numero": 5,
+      "cheval": "IN RACE LORRAINE",
+      "score": 5.0741
+    },
+    {
+      "numero": 2,
+      "cheval": "GITANO JACK",
+      "score": 4.882
+    },
+    {
+      "numero": 17,
+      "cheval": "IVOIRE DAIRPET",
+      "score": 4.8768
+    },
+    {
+      "numero": 1,
+      "cheval": "JARDYLAND",
+      "score": 4.6681
+    },
+    {
+      "numero": 14,
+      "cheval": "IOUPY TOLLEVILLE",
+      "score": 4.5642
+    },
+    {
+      "numero": 13,
+      "cheval": "JIBI DU FRUITIER",
+      "score": 4.3737
+    },
+    {
+      "numero": 16,
+      "cheval": "HINDEN",
+      "score": 4.3543
+    },
+    {
+      "numero": 18,
+      "cheval": "JEZABELLE BIE",
+      "score": 3.9683
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 8.4408,
+      "entropie_norm": 0.8603,
+      "p_favori": 0.2167,
+      "ratio_1_2": 1.3267
+    },
+    "p_gagnant_dans_selection": 0.6747,
+    "nb_attendu_dans_top5": 2.436,
+    "p_au_moins": {
+      "1": 0.9899,
+      "2": 0.8621,
+      "3": 0.4744,
+      "4": 0.1043,
+      "5": 0.0052
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-23T16:30:32+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "47 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 15,
+        "cheval": "JUST DU CHATELET",
+        "cote": 4.7,
+        "p_gagne": 0.2167,
+        "p_top3": 0.4283,
+        "p_top5": 0.6109,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 11,
+        "cheval": "JAZZ DE PADD",
+        "cote": 6.1,
+        "p_gagne": 0.1633,
+        "p_top3": 0.3701,
+        "p_top5": 0.5445,
+        "rang_systeme": 3
+      },
+      {
+        "numero": 10,
+        "cheval": "JADOU DU LUPIN",
+        "cote": 7.1,
+        "p_gagne": 0.1386,
+        "p_top3": 0.3268,
+        "p_top5": 0.4999,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 8,
+        "cheval": "HALFAN SPEED",
+        "cote": 10.0,
+        "p_gagne": 0.0956,
+        "p_top3": 0.2628,
+        "p_top5": 0.4345,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 6,
+        "cheval": "JOKER GEMA",
+        "cote": 15.0,
+        "p_gagne": 0.0616,
+        "p_top3": 0.2033,
+        "p_top5": 0.3461,
+        "rang_systeme": 7
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [
+      "GENERAL DE CONNEE",
+      "IENISSE DE BARBRAY"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-10-23T16:45:10.344156+00:00"
+}
