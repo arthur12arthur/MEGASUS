@@ -37,6 +37,10 @@ on:
           - réel
           - simulation
         default: "réel"
+      attendre:
+        description: "true = attendre l'heure optimale avant le départ (déclencheur externe)"
+        required: false
+        default: "false"
       telegram_test:
         description: "Envoyer un unique message de test Telegram réel"
         required: false
@@ -51,8 +55,18 @@ permissions:
 jobs:
   analyse:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
+
+      - name: Déjà analysé aujourd'hui ?
+        id: deja
+        if: github.event.schedule == '23 6 * * *' || (github.event_name == 'workflow_dispatch' && github.event.inputs.attendre == 'true')
+        run: |
+          if ls data/runs/$(date -u +%Y)/$(date -u +%m)/$(date -u +%d)/*.json >/dev/null 2>&1; then
+            echo "Analyse déjà stockée aujourd'hui : on ne relance pas."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Installer l'extracteur PDF
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
@@ -67,6 +81,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ".[dev]"
+
+      - name: Attendre l'heure optimale avant le départ
+        if: steps.deja.outputs.skip != 'true' && (github.event.schedule == '23 6 * * *' || github.event.inputs.attendre == 'true')
+        run: python scripts/attendre_cloture.py
 
       - name: Vérifier la configuration Telegram
         env:
@@ -92,7 +110,7 @@ jobs:
             "https://api.telegram.org/bot${HYPERION_TELEGRAM_TOKEN}/sendMessage" >/dev/null
 
       - name: Analyse de la course du jour
-        if: github.event.schedule != '53 21 * * *'
+        if: github.event.schedule != '53 21 * * *' && steps.deja.outputs.skip != 'true'
         env:
           HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}
           HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
