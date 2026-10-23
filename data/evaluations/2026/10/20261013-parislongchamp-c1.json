@@ -1,0 +1,16 @@
+{
+  "race_id": "20261013-parislongchamp-c1",
+  "date": "2026-10-13",
+  "course": "PRIX DE LA GALERIE DES VARIETES",
+  "arrivee_top5": [
+    9,
+    16,
+    2,
+    14,
+    1
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

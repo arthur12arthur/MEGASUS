@@ -1,0 +1,16 @@
+{
+  "race_id": "20261016-paris-vincennes-nocturne-c4",
+  "date": "2026-10-16",
+  "course": "PRIX THEMIS",
+  "arrivee_top5": [
+    4,
+    11,
+    7,
+    6,
+    13
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 3,
+  "favori_marche_place": 9
+}

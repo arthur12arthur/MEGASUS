@@ -1,0 +1,16 @@
+{
+  "race_id": "20260929-chantilly-c1",
+  "date": "2026-09-29",
+  "course": "PRIX DE LA CHAMBRE DU DUC",
+  "arrivee_top5": [
+    1,
+    9,
+    15,
+    2,
+    4
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

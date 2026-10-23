@@ -1,0 +1,16 @@
+{
+  "race_id": "20261008-saint-cloud-c1",
+  "date": "2026-10-08",
+  "course": "PRIX DE VERSAILLES",
+  "arrivee_top5": [
+    1,
+    5,
+    8,
+    4,
+    15
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

@@ -1,0 +1,31 @@
+{
+  "race_id": "20261020-deauville-clairefontaine-c1",
+  "date": "2026-10-20",
+  "course": "PRIX DES EQUIDAYS",
+  "arrivee_top5": [
+    5,
+    13,
+    14,
+    3,
+    15
+  ],
+  "systeme_gagnant_en_tete": true,
+  "systeme_gagnant_dans_top5": true,
+  "favori_marche": 2,
+  "favori_marche_place": 13,
+  "selection": [
+    2,
+    4,
+    3,
+    9,
+    14
+  ],
+  "bons_dans_top5": 2,
+  "gagnant_dans_selection": false,
+  "classe": "ouverte",
+  "attendu_bons": 2.221,
+  "attendu_gagnant_inclus": 0.5629,
+  "attendu_au_moins_3": 0.3796,
+  "au_moins_3_reel": false,
+  "criteres_respectes": false
+}

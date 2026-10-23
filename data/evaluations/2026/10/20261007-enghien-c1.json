@@ -1,0 +1,16 @@
+{
+  "race_id": "20261007-enghien-c1",
+  "date": "2026-10-07",
+  "course": "PRIX DES GOBELINS",
+  "arrivee_top5": [
+    16,
+    5,
+    14,
+    13,
+    2
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

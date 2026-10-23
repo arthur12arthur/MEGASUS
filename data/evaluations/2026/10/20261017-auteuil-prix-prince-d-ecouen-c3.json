@@ -1,0 +1,16 @@
+{
+  "race_id": "20261017-auteuil-prix-prince-d-ecouen-c3",
+  "date": "2026-10-17",
+  "course": "GRAND HANDICAP D'AUTOMNE",
+  "arrivee_top5": [
+    1,
+    6,
+    4,
+    11,
+    2
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 5,
+  "favori_marche_place": 6
+}

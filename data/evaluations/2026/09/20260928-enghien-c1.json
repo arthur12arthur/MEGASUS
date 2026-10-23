@@ -1,0 +1,16 @@
+{
+  "race_id": "20260928-enghien-c1",
+  "date": "2026-09-28",
+  "course": "PRIX DE SAINT-CHAMOND - ATTELE",
+  "arrivee_top5": [
+    15,
+    4,
+    14,
+    5,
+    7
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

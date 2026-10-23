@@ -1,0 +1,16 @@
+{
+  "race_id": "20261014-reims-c1",
+  "date": "2026-10-14",
+  "course": "GRAND NATIONAL DU TROT",
+  "arrivee_top5": [
+    10,
+    15,
+    13,
+    5,
+    9
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 15,
+  "favori_marche_place": 2
+}

@@ -1,0 +1,16 @@
+{
+  "race_id": "20260924-compiegne-c1",
+  "date": "2026-09-24",
+  "course": "PRIX DE LA BASSE AUTOMNE",
+  "arrivee_top5": [
+    13,
+    8,
+    10,
+    4,
+    16
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

@@ -1,0 +1,16 @@
+{
+  "race_id": "20260925-paris-vincennes-nocturne-c4",
+  "date": "2026-09-25",
+  "course": "PRIX AUSTRIA",
+  "arrivee_top5": [
+    13,
+    11,
+    12,
+    10,
+    15
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

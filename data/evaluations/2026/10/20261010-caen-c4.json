@@ -1,0 +1,16 @@
+{
+  "race_id": "20261010-caen-c4",
+  "date": "2026-10-10",
+  "course": "PRIX DE LA VILLE DE CAEN",
+  "arrivee_top5": [
+    9,
+    10,
+    4,
+    3,
+    2
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}

@@ -1,0 +1,16 @@
+{
+  "race_id": "20261002-paris-vincennes-nocturne-c4",
+  "date": "2026-10-02",
+  "course": "PRIX LUDOVICA",
+  "arrivee_top5": [
+    4,
+    11,
+    13,
+    12,
+    7
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": null,
+  "favori_marche_place": null
+}
