@@ -1,0 +1,2110 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261024-compiegne-c3",
+  "date": "2026-10-24",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "COMPIEGNE",
+    "date": "2026-10-24",
+    "start_time": "2026-10-24T13:15:00+00:00",
+    "race_number": 3,
+    "name": "PRIX DE BEAUNE",
+    "distance_m": 3600,
+    "terrain": null,
+    "prize": null,
+    "discipline": "obstacle",
+    "race_type": "HAIES",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_24-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-24T13:05:00+00:00",
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "obstacle",
+    "label": "Obstacle",
+    "raison": "champ officiel lu directement : 'HAIES'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-24T09:05:35.213642+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "sir-marvel-l.philipperon",
+        "name": "SIR MARVEL L.PHILIPPERON",
+        "number": 1,
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "coute-que-coute",
+        "name": "COUTE QUE COUTE",
+        "number": 2,
+        "odds_pdf": 12.0,
+        "odds_latest": 11.0,
+        "delta": -0.08333333333333333,
+        "implied_shift": -0.007575757575757583,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "belle-gosse",
+        "name": "BELLE GOSSE",
+        "number": 3,
+        "odds_pdf": 19.0,
+        "odds_latest": 18.0,
+        "delta": -0.05263157894736842,
+        "implied_shift": -0.0029239766081871343,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "louba",
+        "name": "LOUBA",
+        "number": 4,
+        "odds_pdf": 6.0,
+        "odds_latest": 6.4,
+        "delta": 0.06666666666666672,
+        "implied_shift": 0.010416666666666657,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lady-lady-lay",
+        "name": "LADY LADY LAY",
+        "number": 5,
+        "odds_pdf": 17.0,
+        "odds_latest": 17.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "number": 6,
+        "odds_pdf": 14.0,
+        "odds_latest": 14.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mon-petit-prince",
+        "name": "MON PETIT PRINCE",
+        "number": 7,
+        "odds_pdf": 10.0,
+        "odds_latest": 5.0,
+        "delta": -0.5,
+        "implied_shift": -0.1,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "lady-ange-win",
+        "name": "LADY ANGE WIN",
+        "number": 8,
+        "odds_pdf": 16.0,
+        "odds_latest": 12.0,
+        "delta": -0.25,
+        "implied_shift": -0.02083333333333333,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "le-coeur-sauvage",
+        "name": "LE COEUR SAUVAGE",
+        "number": 9,
+        "odds_pdf": 11.0,
+        "odds_latest": 8.2,
+        "delta": -0.25454545454545463,
+        "implied_shift": -0.03104212860310422,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "flying-trix",
+        "name": "FLYING TRIX",
+        "number": 10,
+        "odds_pdf": 22.0,
+        "odds_latest": 18.0,
+        "delta": -0.18181818181818182,
+        "implied_shift": -0.010101010101010097,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jocasta",
+        "name": "JOCASTA",
+        "number": 11,
+        "odds_pdf": 31.0,
+        "odds_latest": 29.0,
+        "delta": -0.06451612903225806,
+        "implied_shift": -0.0022246941045606233,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "libre-arbitre",
+        "name": "LIBRE ARBITRE",
+        "number": 12,
+        "odds_pdf": 23.0,
+        "odds_latest": 16.0,
+        "delta": -0.30434782608695654,
+        "implied_shift": -0.019021739130434784,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "king-lane",
+        "name": "KING LANE",
+        "number": 13,
+        "odds_pdf": 27.0,
+        "odds_latest": 35.0,
+        "delta": 0.2962962962962963,
+        "implied_shift": 0.008465608465608464,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "captain-flag",
+        "name": "CAPTAIN FLAG",
+        "number": 14,
+        "odds_pdf": 26.0,
+        "odds_latest": 18.0,
+        "delta": -0.3076923076923077,
+        "implied_shift": -0.01709401709401709,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "lerika",
+        "name": "LERIKA",
+        "number": 15,
+        "odds_pdf": 42.0,
+        "odds_latest": 39.0,
+        "delta": -0.07142857142857142,
+        "implied_shift": -0.001831501831501832,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "SIR MARVEL L.PHILIPPERON (sir-marvel-l.philipperon) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "sir-marvel-l.philipperon",
+      "coute-que-coute",
+      "belle-gosse",
+      "louba",
+      "lady-lady-lay",
+      "le-colombar",
+      "mon-petit-prince",
+      "lady-ange-win",
+      "le-coeur-sauvage",
+      "flying-trix",
+      "jocasta",
+      "libre-arbitre",
+      "king-lane",
+      "captain-flag",
+      "lerika"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "obstacle",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "sir-marvel-l.philipperon",
+        "name": "SIR MARVEL L.PHILIPPERON",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.905300820861859,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9053,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "belle-gosse",
+        "name": "BELLE GOSSE",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.56845183840214,
+          "forme": 5.731343283582089,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.9622,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "flying-trix",
+        "name": "FLYING TRIX",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.027303546516745,
+          "forme": 6.223880597014926,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.8538,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "coute-que-coute",
+        "name": "COUTE QUE COUTE",
+        "number": 2,
+        "dimensions": {
+          "historique": 9.98195459130341,
+          "forme": 4.805970149253731,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.8153,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lady-lady-lay",
+        "name": "LADY LADY LAY",
+        "number": 5,
+        "dimensions": {
+          "historique": 9.273566595679746,
+          "forme": 4.910447761194029,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.4471,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "louba",
+        "name": "LOUBA",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.380952380952381,
+          "forme": 7.365671641791044,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.3746,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-coeur-sauvage",
+        "name": "LE COEUR SAUVAGE",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.960946419947705,
+          "forme": 7.014925373134328,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.9835,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jocasta",
+        "name": "JOCASTA",
+        "number": 11,
+        "dimensions": {
+          "historique": 7.70546713738352,
+          "forme": 5.679104477611941,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.8572,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lady-ange-win",
+        "name": "LADY ANGE WIN",
+        "number": 8,
+        "dimensions": {
+          "historique": 6.809244065667585,
+          "forme": 6.597014925373133,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.7204,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lerika",
+        "name": "LERIKA",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.700965491238758,
+          "forme": 6.686567164179105,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.6949,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.719762040760725,
+          "forme": 4.604477611940299,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.4157,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "libre-arbitre",
+        "name": "LIBRE ARBITRE",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.105380024287066,
+          "forme": 5.641791044776119,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 5.9113,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mon-petit-prince",
+        "name": "MON PETIT PRINCE",
+        "number": 7,
+        "dimensions": {
+          "historique": 4.847059532453499,
+          "forme": 7.350746268656716,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 5.8951,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "captain-flag",
+        "name": "CAPTAIN FLAG",
+        "number": 14,
+        "dimensions": {
+          "historique": 6.7078998471833575,
+          "forme": 4.358208955223881,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 5.7243,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-lane",
+        "name": "KING LANE",
+        "number": 13,
+        "dimensions": {
+          "historique": 5.809336648456069,
+          "forme": 2.701492537313433,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 4.5084,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "sir-marvel-l.philipperon",
+      "belle-gosse",
+      "flying-trix",
+      "coute-que-coute",
+      "lady-lady-lay",
+      "louba",
+      "le-coeur-sauvage",
+      "jocasta",
+      "lady-ange-win",
+      "lerika",
+      "le-colombar",
+      "libre-arbitre",
+      "mon-petit-prince",
+      "captain-flag",
+      "king-lane"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "sir-marvel-l.philipperon": {
+          "horse_id": "sir-marvel-l.philipperon",
+          "name": "SIR MARVEL L.PHILIPPERON",
+          "p_win": 0.2412,
+          "p_top3": 0.59534,
+          "p_top5": 0.80638,
+          "expected_position": 3.4984,
+          "position_distribution": {
+            "1": 0.2412,
+            "2": 0.1962,
+            "3": 0.15794,
+            "4": 0.12118,
+            "5": 0.08986,
+            "6": 0.06666,
+            "7": 0.04704,
+            "8": 0.03362,
+            "9": 0.02228,
+            "10": 0.01266,
+            "11": 0.00682,
+            "12": 0.00286,
+            "13": 0.00126,
+            "14": 0.00034,
+            "15": 8e-05
+          }
+        },
+        "coute-que-coute": {
+          "horse_id": "coute-que-coute",
+          "name": "COUTE QUE COUTE",
+          "p_win": 0.0845,
+          "p_top3": 0.26596,
+          "p_top5": 0.4437,
+          "expected_position": 6.457,
+          "position_distribution": {
+            "1": 0.0845,
+            "2": 0.08902,
+            "3": 0.09244,
+            "4": 0.08794,
+            "5": 0.0898,
+            "6": 0.08658,
+            "7": 0.08432,
+            "8": 0.07812,
+            "9": 0.07168,
+            "10": 0.06806,
+            "11": 0.0574,
+            "12": 0.04594,
+            "13": 0.03398,
+            "14": 0.0217,
+            "15": 0.00852
+          }
+        },
+        "belle-gosse": {
+          "horse_id": "belle-gosse",
+          "name": "BELLE GOSSE",
+          "p_win": 0.09086,
+          "p_top3": 0.27936,
+          "p_top5": 0.4669,
+          "expected_position": 6.2205,
+          "position_distribution": {
+            "1": 0.09086,
+            "2": 0.09408,
+            "3": 0.09442,
+            "4": 0.0953,
+            "5": 0.09224,
+            "6": 0.08992,
+            "7": 0.08336,
+            "8": 0.0784,
+            "9": 0.07248,
+            "10": 0.0615,
+            "11": 0.05254,
+            "12": 0.04196,
+            "13": 0.03048,
+            "14": 0.01632,
+            "15": 0.00614
+          }
+        },
+        "louba": {
+          "horse_id": "louba",
+          "name": "LOUBA",
+          "p_win": 0.0672,
+          "p_top3": 0.21364,
+          "p_top5": 0.3696,
+          "expected_position": 7.2488,
+          "position_distribution": {
+            "1": 0.0672,
+            "2": 0.0712,
+            "3": 0.07524,
+            "4": 0.07748,
+            "5": 0.07848,
+            "6": 0.07944,
+            "7": 0.07916,
+            "8": 0.07778,
+            "9": 0.07784,
+            "10": 0.07342,
+            "11": 0.07054,
+            "12": 0.06412,
+            "13": 0.05324,
+            "14": 0.03704,
+            "15": 0.01782
+          }
+        },
+        "lady-lady-lay": {
+          "horse_id": "lady-lady-lay",
+          "name": "LADY LADY LAY",
+          "p_win": 0.07182,
+          "p_top3": 0.2209,
+          "p_top5": 0.38104,
+          "expected_position": 7.1058,
+          "position_distribution": {
+            "1": 0.07182,
+            "2": 0.07212,
+            "3": 0.07696,
+            "4": 0.07958,
+            "5": 0.08056,
+            "6": 0.08312,
+            "7": 0.07998,
+            "8": 0.07974,
+            "9": 0.0744,
+            "10": 0.0741,
+            "11": 0.0669,
+            "12": 0.06056,
+            "13": 0.0501,
+            "14": 0.03422,
+            "15": 0.01584
+          }
+        },
+        "le-colombar": {
+          "horse_id": "le-colombar",
+          "name": "LE COLOMBAR",
+          "p_win": 0.04294,
+          "p_top3": 0.13724,
+          "p_top5": 0.2445,
+          "expected_position": 8.9089,
+          "position_distribution": {
+            "1": 0.04294,
+            "2": 0.04492,
+            "3": 0.04938,
+            "4": 0.05178,
+            "5": 0.05548,
+            "6": 0.05842,
+            "7": 0.06504,
+            "8": 0.06776,
+            "9": 0.06972,
+            "10": 0.07754,
+            "11": 0.0823,
+            "12": 0.08708,
+            "13": 0.09088,
+            "14": 0.09042,
+            "15": 0.06634
+          }
+        },
+        "mon-petit-prince": {
+          "horse_id": "mon-petit-prince",
+          "name": "MON PETIT PRINCE",
+          "p_win": 0.03234,
+          "p_top3": 0.1059,
+          "p_top5": 0.19502,
+          "expected_position": 9.7548,
+          "position_distribution": {
+            "1": 0.03234,
+            "2": 0.03612,
+            "3": 0.03744,
+            "4": 0.04346,
+            "5": 0.04566,
+            "6": 0.05,
+            "7": 0.05418,
+            "8": 0.05742,
+            "9": 0.06494,
+            "10": 0.07094,
+            "11": 0.07766,
+            "12": 0.08952,
+            "13": 0.10402,
+            "14": 0.12194,
+            "15": 0.11436
+          }
+        },
+        "lady-ange-win": {
+          "horse_id": "lady-ange-win",
+          "name": "LADY ANGE WIN",
+          "p_win": 0.0484,
+          "p_top3": 0.15552,
+          "p_top5": 0.27916,
+          "expected_position": 8.3707,
+          "position_distribution": {
+            "1": 0.0484,
+            "2": 0.05164,
+            "3": 0.05548,
+            "4": 0.05918,
+            "5": 0.06446,
+            "6": 0.06728,
+            "7": 0.06954,
+            "8": 0.0731,
+            "9": 0.07746,
+            "10": 0.07726,
+            "11": 0.08102,
+            "12": 0.08198,
+            "13": 0.07638,
+            "14": 0.07162,
+            "15": 0.0452
+          }
+        },
+        "le-coeur-sauvage": {
+          "horse_id": "le-coeur-sauvage",
+          "name": "LE COEUR SAUVAGE",
+          "p_win": 0.05702,
+          "p_top3": 0.18004,
+          "p_top5": 0.31756,
+          "expected_position": 7.8756,
+          "position_distribution": {
+            "1": 0.05702,
+            "2": 0.06062,
+            "3": 0.0624,
+            "4": 0.06706,
+            "5": 0.07046,
+            "6": 0.07154,
+            "7": 0.07472,
+            "8": 0.07626,
+            "9": 0.078,
+            "10": 0.07748,
+            "11": 0.07662,
+            "12": 0.07248,
+            "13": 0.06784,
+            "14": 0.05654,
+            "15": 0.03096
+          }
+        },
+        "flying-trix": {
+          "horse_id": "flying-trix",
+          "name": "FLYING TRIX",
+          "p_win": 0.0852,
+          "p_top3": 0.26112,
+          "p_top5": 0.4442,
+          "expected_position": 6.442,
+          "position_distribution": {
+            "1": 0.0852,
+            "2": 0.08924,
+            "3": 0.08668,
+            "4": 0.09102,
+            "5": 0.09206,
+            "6": 0.08686,
+            "7": 0.08614,
+            "8": 0.07854,
+            "9": 0.07432,
+            "10": 0.06502,
+            "11": 0.05656,
+            "12": 0.0458,
+            "13": 0.03358,
+            "14": 0.02066,
+            "15": 0.00832
+          }
+        },
+        "jocasta": {
+          "horse_id": "jocasta",
+          "name": "JOCASTA",
+          "p_win": 0.0526,
+          "p_top3": 0.16822,
+          "p_top5": 0.29966,
+          "expected_position": 8.1186,
+          "position_distribution": {
+            "1": 0.0526,
+            "2": 0.05538,
+            "3": 0.06024,
+            "4": 0.06396,
+            "5": 0.06748,
+            "6": 0.0683,
+            "7": 0.07034,
+            "8": 0.07634,
+            "9": 0.07648,
+            "10": 0.0795,
+            "11": 0.07808,
+            "12": 0.07768,
+            "13": 0.07346,
+            "14": 0.06336,
+            "15": 0.0368
+          }
+        },
+        "libre-arbitre": {
+          "horse_id": "libre-arbitre",
+          "name": "LIBRE ARBITRE",
+          "p_win": 0.03212,
+          "p_top3": 0.10572,
+          "p_top5": 0.19512,
+          "expected_position": 9.739,
+          "position_distribution": {
+            "1": 0.03212,
+            "2": 0.0358,
+            "3": 0.0378,
+            "4": 0.0429,
+            "5": 0.0465,
+            "6": 0.04906,
+            "7": 0.05452,
+            "8": 0.06006,
+            "9": 0.06406,
+            "10": 0.07126,
+            "11": 0.07946,
+            "12": 0.09098,
+            "13": 0.1036,
+            "14": 0.11868,
+            "15": 0.1132
+          }
+        },
+        "king-lane": {
+          "horse_id": "king-lane",
+          "name": "KING LANE",
+          "p_win": 0.0159,
+          "p_top3": 0.05522,
+          "p_top5": 0.09966,
+          "expected_position": 11.8354,
+          "position_distribution": {
+            "1": 0.0159,
+            "2": 0.01862,
+            "3": 0.0207,
+            "4": 0.021,
+            "5": 0.02344,
+            "6": 0.02806,
+            "7": 0.0304,
+            "8": 0.03476,
+            "9": 0.0412,
+            "10": 0.04728,
+            "11": 0.05666,
+            "12": 0.06956,
+            "13": 0.09166,
+            "14": 0.14488,
+            "15": 0.35588
+          }
+        },
+        "captain-flag": {
+          "horse_id": "captain-flag",
+          "name": "CAPTAIN FLAG",
+          "p_win": 0.02994,
+          "p_top3": 0.0983,
+          "p_top5": 0.17944,
+          "expected_position": 10.0332,
+          "position_distribution": {
+            "1": 0.02994,
+            "2": 0.03264,
+            "3": 0.03572,
+            "4": 0.03978,
+            "5": 0.04136,
+            "6": 0.04698,
+            "7": 0.05148,
+            "8": 0.05496,
+            "9": 0.06032,
+            "10": 0.06842,
+            "11": 0.07674,
+            "12": 0.08802,
+            "13": 0.1097,
+            "14": 0.12972,
+            "15": 0.13422
+          }
+        },
+        "lerika": {
+          "horse_id": "lerika",
+          "name": "LERIKA",
+          "p_win": 0.04796,
+          "p_top3": 0.15752,
+          "p_top5": 0.27806,
+          "expected_position": 8.3913,
+          "position_distribution": {
+            "1": 0.04796,
+            "2": 0.0524,
+            "3": 0.05716,
+            "4": 0.05838,
+            "5": 0.06216,
+            "6": 0.06778,
+            "7": 0.06978,
+            "8": 0.07314,
+            "9": 0.07482,
+            "10": 0.07556,
+            "11": 0.0807,
+            "12": 0.08146,
+            "13": 0.07982,
+            "14": 0.07256,
+            "15": 0.04632
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "sir-marvel-l.philipperon",
+          "belle-gosse",
+          "coute-que-coute"
+        ],
+        "23": [
+          "sir-marvel-l.philipperon",
+          "belle-gosse",
+          "flying-trix"
+        ],
+        "37": [
+          "sir-marvel-l.philipperon",
+          "belle-gosse",
+          "flying-trix"
+        ],
+        "51": [
+          "sir-marvel-l.philipperon",
+          "belle-gosse",
+          "flying-trix"
+        ],
+        "73": [
+          "sir-marvel-l.philipperon",
+          "belle-gosse",
+          "coute-que-coute"
+        ]
+      },
+      "reference_top": [
+        "belle-gosse",
+        "flying-trix",
+        "sir-marvel-l.philipperon"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "sir-marvel-l.philipperon": 10.0,
+        "belle-gosse": 5.0,
+        "coute-que-coute": 0.0,
+        "flying-trix": 0.0
+      },
+      "order": [
+        "sir-marvel-l.philipperon",
+        "belle-gosse",
+        "coute-que-coute",
+        "flying-trix"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "sir-marvel-l.philipperon": 14.0,
+        "belle-gosse": 13.0,
+        "flying-trix": 12.0,
+        "coute-que-coute": 11.0,
+        "lady-lady-lay": 10.0,
+        "louba": 9.0,
+        "le-coeur-sauvage": 8.0,
+        "jocasta": 7.0,
+        "lady-ange-win": 6.0,
+        "lerika": 5.0,
+        "le-colombar": 4.0,
+        "libre-arbitre": 3.0,
+        "mon-petit-prince": 2.0,
+        "captain-flag": 1.0,
+        "king-lane": 0.0
+      },
+      "order": [
+        "sir-marvel-l.philipperon",
+        "belle-gosse",
+        "flying-trix",
+        "coute-que-coute",
+        "lady-lady-lay",
+        "louba",
+        "le-coeur-sauvage",
+        "jocasta",
+        "lady-ange-win",
+        "lerika",
+        "le-colombar",
+        "libre-arbitre",
+        "mon-petit-prince",
+        "captain-flag",
+        "king-lane"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "sir-marvel-l.philipperon",
+        "belle-gosse",
+        "flying-trix",
+        "coute-que-coute",
+        "lady-lady-lay",
+        "louba",
+        "le-coeur-sauvage",
+        "jocasta",
+        "lady-ange-win",
+        "lerika",
+        "le-colombar",
+        "libre-arbitre",
+        "mon-petit-prince",
+        "captain-flag",
+        "king-lane"
+      ],
+      "copeland": {
+        "sir-marvel-l.philipperon": 14.0,
+        "belle-gosse": 12.0,
+        "flying-trix": 10.0,
+        "coute-que-coute": 8.0,
+        "lady-lady-lay": 6.0,
+        "louba": 4.0,
+        "le-coeur-sauvage": 2.0,
+        "jocasta": 0.0,
+        "lady-ange-win": -2.0,
+        "lerika": -4.0,
+        "le-colombar": -6.0,
+        "libre-arbitre": -8.0,
+        "mon-petit-prince": -10.0,
+        "captain-flag": -12.0,
+        "king-lane": -14.0
+      },
+      "normalized": {
+        "sir-marvel-l.philipperon": 1.0,
+        "belle-gosse": 0.9286,
+        "flying-trix": 0.8571,
+        "coute-que-coute": 0.7857,
+        "lady-lady-lay": 0.7143,
+        "louba": 0.6429,
+        "le-coeur-sauvage": 0.5714,
+        "jocasta": 0.5,
+        "lady-ange-win": 0.4286,
+        "lerika": 0.3571,
+        "le-colombar": 0.2857,
+        "libre-arbitre": 0.2143,
+        "mon-petit-prince": 0.1429,
+        "captain-flag": 0.0714,
+        "king-lane": 0.0
+      },
+      "mean_rank": {
+        "sir-marvel-l.philipperon": 0.0,
+        "belle-gosse": 1.0,
+        "flying-trix": 2.3333,
+        "coute-que-coute": 2.6667,
+        "lady-lady-lay": 4.0,
+        "louba": 5.0,
+        "le-coeur-sauvage": 6.0,
+        "jocasta": 7.0,
+        "lady-ange-win": 8.0,
+        "lerika": 9.0,
+        "le-colombar": 10.0,
+        "libre-arbitre": 11.0,
+        "mon-petit-prince": 12.0,
+        "captain-flag": 13.0,
+        "king-lane": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "sir-marvel-l.philipperon",
+        "name": "SIR MARVEL L.PHILIPPERON",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 1 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "coute-que-coute",
+        "name": "COUTE QUE COUTE",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "belle-gosse",
+        "name": "BELLE GOSSE",
+        "number": 3,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "louba",
+        "name": "LOUBA",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lady-lady-lay",
+        "name": "LADY LADY LAY",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-colombar",
+        "name": "LE COLOMBAR",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mon-petit-prince",
+        "name": "MON PETIT PRINCE",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lady-ange-win",
+        "name": "LADY ANGE WIN",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-coeur-sauvage",
+        "name": "LE COEUR SAUVAGE",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "flying-trix",
+        "name": "FLYING TRIX",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 3 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jocasta",
+        "name": "JOCASTA",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "libre-arbitre",
+        "name": "LIBRE ARBITRE",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-lane",
+        "name": "KING LANE",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "captain-flag",
+        "name": "CAPTAIN FLAG",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lerika",
+        "name": "LERIKA",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "sir-marvel-l.philipperon",
+      "belle-gosse",
+      "flying-trix"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "lady-ange-win",
+          "coute-que-coute",
+          "belle-gosse",
+          "louba",
+          "lady-lady-lay",
+          "le-colombar",
+          "mon-petit-prince",
+          "le-coeur-sauvage",
+          "flying-trix",
+          "jocasta",
+          "libre-arbitre",
+          "king-lane",
+          "captain-flag",
+          "lerika"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "coute-que-coute",
+          "belle-gosse",
+          "louba",
+          "lady-lady-lay",
+          "le-colombar",
+          "mon-petit-prince",
+          "lady-ange-win",
+          "le-coeur-sauvage",
+          "flying-trix",
+          "jocasta",
+          "libre-arbitre",
+          "king-lane",
+          "captain-flag",
+          "lerika"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "louba",
+          "coute-que-coute",
+          "belle-gosse",
+          "lady-lady-lay",
+          "le-colombar",
+          "mon-petit-prince",
+          "lady-ange-win",
+          "le-coeur-sauvage",
+          "flying-trix",
+          "jocasta",
+          "libre-arbitre",
+          "king-lane",
+          "captain-flag",
+          "lerika"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "lady-ange-win",
+          "louba",
+          "mon-petit-prince",
+          "le-coeur-sauvage",
+          "coute-que-coute",
+          "libre-arbitre",
+          "captain-flag",
+          "belle-gosse",
+          "lady-lady-lay",
+          "le-colombar",
+          "flying-trix",
+          "jocasta",
+          "king-lane",
+          "lerika"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "coute-que-coute",
+          "belle-gosse",
+          "louba",
+          "lady-lady-lay",
+          "le-colombar",
+          "mon-petit-prince",
+          "lady-ange-win",
+          "le-coeur-sauvage",
+          "flying-trix",
+          "jocasta",
+          "libre-arbitre",
+          "king-lane",
+          "captain-flag",
+          "lerika"
+        ],
+        "coverage": 0.933,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-24T09:05:30.963635+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "sir-marvel-l.philipperon": 0.057116,
+      "coute-que-coute": 0.077885,
+      "belle-gosse": 0.047596,
+      "louba": 0.133865,
+      "lady-lady-lay": 0.050396,
+      "le-colombar": 0.061195,
+      "mon-petit-prince": 0.171347,
+      "lady-ange-win": 0.071394,
+      "le-coeur-sauvage": 0.10448,
+      "flying-trix": 0.047596,
+      "jocasta": 0.029543,
+      "libre-arbitre": 0.053546,
+      "king-lane": 0.024478,
+      "captain-flag": 0.047596,
+      "lerika": 0.021968
+    },
+    "consensus_ranking": [
+      "coute-que-coute",
+      "louba",
+      "belle-gosse",
+      "lady-ange-win",
+      "lady-lady-lay",
+      "mon-petit-prince",
+      "le-colombar",
+      "le-coeur-sauvage",
+      "flying-trix",
+      "libre-arbitre",
+      "jocasta",
+      "captain-flag",
+      "king-lane",
+      "lerika"
+    ],
+    "convergence": 0.4286,
+    "notes": [
+      "convergence Top 5 interne/externe : 43%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "sir-marvel-l.philipperon",
+      "flying-trix"
+    ],
+    "externe_seulement": [
+      "louba",
+      "lady-ange-win"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 9.7154,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 4.2857,
+      "completude_donnees": 7.7333
+    },
+    "missing_data": [
+      "n°1 · SIR MARVEL L.PHILIPPERON : recent_places",
+      "n°1 · SIR MARVEL L.PHILIPPERON : driver",
+      "n°1 · SIR MARVEL L.PHILIPPERON : aptitude",
+      "n°2 · COUTE QUE COUTE : aptitude",
+      "n°3 · BELLE GOSSE : aptitude",
+      "n°4 · LOUBA : aptitude",
+      "n°5 · LADY LADY LAY : aptitude",
+      "n°6 · LE COLOMBAR : aptitude",
+      "n°7 · MON PETIT PRINCE : aptitude",
+      "n°8 · LADY ANGE WIN : aptitude",
+      "n°9 · LE COEUR SAUVAGE : aptitude",
+      "n°10 · FLYING TRIX : aptitude",
+      "n°11 · JOCASTA : aptitude",
+      "n°12 · LIBRE ARBITRE : aptitude",
+      "n°13 · KING LANE : aptitude",
+      "n°14 · CAPTAIN FLAG : aptitude",
+      "n°15 · LERIKA : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 1.94 (saturé à 2.0) → 9.7/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "complétude des données = 77% (17 champ(s) manquant(s)) → 7.7/10",
+      "couverture du score = 42% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 42% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-24T13:15:00+00:00",
+    "betting_close": "2026-10-24T13:05:00+00:00",
+    "race_started": false,
+    "now": "2026-10-24T09:05:35.260062+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 239.41,
+    "schedule": {
+      "start_ouagadougou": "2026-10-24T13:15:00+00:00",
+      "start_paris": "2026-10-24T15:15:00+02:00",
+      "close_lonab": "2026-10-24T13:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 2.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 1,
+      "cheval": "SIR MARVEL L.PHILIPPERON",
+      "horse_id": "sir-marvel-l.philipperon"
+    },
+    {
+      "rang": 2,
+      "numero": 3,
+      "cheval": "BELLE GOSSE",
+      "horse_id": "belle-gosse"
+    },
+    {
+      "rang": 3,
+      "numero": 10,
+      "cheval": "FLYING TRIX",
+      "horse_id": "flying-trix"
+    },
+    {
+      "rang": 4,
+      "numero": 2,
+      "cheval": "COUTE QUE COUTE",
+      "horse_id": "coute-que-coute"
+    },
+    {
+      "rang": 5,
+      "numero": 5,
+      "cheval": "LADY LADY LAY",
+      "horse_id": "lady-lady-lay"
+    },
+    {
+      "rang": 6,
+      "numero": 4,
+      "cheval": "LOUBA",
+      "horse_id": "louba"
+    },
+    {
+      "rang": 7,
+      "numero": 9,
+      "cheval": "LE COEUR SAUVAGE",
+      "horse_id": "le-coeur-sauvage"
+    },
+    {
+      "rang": 8,
+      "numero": 11,
+      "cheval": "JOCASTA",
+      "horse_id": "jocasta"
+    },
+    {
+      "rang": 9,
+      "numero": 8,
+      "cheval": "LADY ANGE WIN",
+      "horse_id": "lady-ange-win"
+    },
+    {
+      "rang": 10,
+      "numero": 15,
+      "cheval": "LERIKA",
+      "horse_id": "lerika"
+    },
+    {
+      "rang": 11,
+      "numero": 6,
+      "cheval": "LE COLOMBAR",
+      "horse_id": "le-colombar"
+    },
+    {
+      "rang": 12,
+      "numero": 12,
+      "cheval": "LIBRE ARBITRE",
+      "horse_id": "libre-arbitre"
+    },
+    {
+      "rang": 13,
+      "numero": 7,
+      "cheval": "MON PETIT PRINCE",
+      "horse_id": "mon-petit-prince"
+    },
+    {
+      "rang": 14,
+      "numero": 14,
+      "cheval": "CAPTAIN FLAG",
+      "horse_id": "captain-flag"
+    },
+    {
+      "rang": 15,
+      "numero": 13,
+      "cheval": "KING LANE",
+      "horse_id": "king-lane"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 1,
+      "cheval": "SIR MARVEL L.PHILIPPERON",
+      "score": 9.9053
+    },
+    {
+      "numero": 3,
+      "cheval": "BELLE GOSSE",
+      "score": 7.9622
+    },
+    {
+      "numero": 10,
+      "cheval": "FLYING TRIX",
+      "score": 7.8538
+    },
+    {
+      "numero": 2,
+      "cheval": "COUTE QUE COUTE",
+      "score": 7.8153
+    },
+    {
+      "numero": 5,
+      "cheval": "LADY LADY LAY",
+      "score": 7.4471
+    },
+    {
+      "numero": 4,
+      "cheval": "LOUBA",
+      "score": 7.3746
+    },
+    {
+      "numero": 9,
+      "cheval": "LE COEUR SAUVAGE",
+      "score": 6.9835
+    },
+    {
+      "numero": 11,
+      "cheval": "JOCASTA",
+      "score": 6.8572
+    },
+    {
+      "numero": 8,
+      "cheval": "LADY ANGE WIN",
+      "score": 6.7204
+    },
+    {
+      "numero": 15,
+      "cheval": "LERIKA",
+      "score": 6.6949
+    },
+    {
+      "numero": 6,
+      "cheval": "LE COLOMBAR",
+      "score": 6.4157
+    },
+    {
+      "numero": 12,
+      "cheval": "LIBRE ARBITRE",
+      "score": 5.9113
+    },
+    {
+      "numero": 7,
+      "cheval": "MON PETIT PRINCE",
+      "score": 5.8951
+    },
+    {
+      "numero": 14,
+      "cheval": "CAPTAIN FLAG",
+      "score": 5.7243
+    },
+    {
+      "numero": 13,
+      "cheval": "KING LANE",
+      "score": 4.5084
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.5155,
+      "entropie_norm": 0.9316,
+      "p_favori": 0.1829,
+      "ratio_1_2": 1.3069
+    },
+    "p_gagnant_dans_selection": 0.5719,
+    "nb_attendu_dans_top5": 2.229,
+    "p_au_moins": {
+      "1": 0.9788,
+      "2": 0.7983,
+      "3": 0.3813,
+      "4": 0.0679,
+      "5": 0.0025
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-24T09:00:52+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "38 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 7,
+        "cheval": "MON PETIT PRINCE",
+        "cote": 5.0,
+        "p_gagne": 0.1829,
+        "p_top3": 0.3779,
+        "p_top5": 0.5594,
+        "rang_systeme": 13
+      },
+      {
+        "numero": 4,
+        "cheval": "LOUBA",
+        "cote": 6.4,
+        "p_gagne": 0.1399,
+        "p_top3": 0.3245,
+        "p_top5": 0.4928,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 9,
+        "cheval": "LE COEUR SAUVAGE",
+        "cote": 8.2,
+        "p_gagne": 0.107,
+        "p_top3": 0.2747,
+        "p_top5": 0.4386,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 2,
+        "cheval": "COUTE QUE COUTE",
+        "cote": 11.0,
+        "p_gagne": 0.0778,
+        "p_top3": 0.2266,
+        "p_top5": 0.3799,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 8,
+        "cheval": "LADY ANGE WIN",
+        "cote": 12.0,
+        "p_gagne": 0.0708,
+        "p_top3": 0.2162,
+        "p_top5": 0.3583,
+        "rang_systeme": 9
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 14,
+    "unmatched_pmu": [
+      "SIR MARVEL"
+    ],
+    "unmatched_race": [
+      "SIR MARVEL L.PHILIPPERON"
+    ],
+    "warnings": [
+      "n°1 : nom PDF « SIR MARVEL L.PHILIPPERON » ≠ nom PMU « SIR MARVEL » — ignoré"
+    ]
+  },
+  "stored_at": "2026-10-24T09:05:35.350685+00:00"
+}
