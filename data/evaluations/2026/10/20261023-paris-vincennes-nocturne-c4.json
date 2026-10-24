@@ -1,0 +1,31 @@
+{
+  "race_id": "20261023-paris-vincennes-nocturne-c4",
+  "date": "2026-10-23",
+  "course": "PRIX ORIONIS",
+  "arrivee_top5": [
+    15,
+    12,
+    6,
+    14,
+    16
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 15,
+  "favori_marche_place": 1,
+  "selection": [
+    15,
+    11,
+    10,
+    8,
+    6
+  ],
+  "bons_dans_top5": 2,
+  "gagnant_dans_selection": true,
+  "classe": "ouverte",
+  "attendu_bons": 2.436,
+  "attendu_gagnant_inclus": 0.6747,
+  "attendu_au_moins_3": 0.4744,
+  "au_moins_3_reel": false,
+  "criteres_respectes": false
+}
