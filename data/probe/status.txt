@@ -1,6 +1,6 @@
-programme_online | HTTP 200 | 486543 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/18102026
-programme_offline | HTTP 200 | 486543 octets | https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/18102026
-participants_R1C1 | HTTP 200 | 12770 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/18102026/R1/C1/participants
-course_R1C1 | HTTP 200 | 6340 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/18102026/R1/C1
-rapports_R1C1 | HTTP 204 | 0 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/18102026/R1/C1/rapports-definitifs
-date=18102026
+programme_online | HTTP 200 | 368188 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/24102026
+programme_offline | HTTP 200 | 368188 octets | https://offline.turfinfo.api.pmu.fr/rest/client/7/programme/24102026
+participants_R1C1 | HTTP 200 | 20860 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C1/participants
+course_R1C1 | HTTP 200 | 8730 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C1
+rapports_R1C1 | HTTP 200 | 4336 octets | https://online.turfinfo.api.pmu.fr/rest/client/7/programme/24102026/R1/C1/rapports-definitifs
+date=24102026
