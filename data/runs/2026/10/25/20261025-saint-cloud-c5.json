@@ -1,0 +1,2229 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261025-saint-cloud-c5",
+  "date": "2026-10-25",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "SAINT-CLOUD",
+    "date": "2026-10-25",
+    "start_time": "2026-10-25T14:15:00+00:00",
+    "race_number": 5,
+    "name": "PRIX DE L'ELEVAGE",
+    "distance_m": 1900,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_25-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-25T14:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-25T10:26:31.383028+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "agile",
+        "name": "AGILE",
+        "number": 1,
+        "odds_pdf": 19.0,
+        "odds_latest": 23.0,
+        "delta": 0.21052631578947367,
+        "implied_shift": 0.009153318077803202,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "number": 2,
+        "odds_pdf": 7.0,
+        "odds_latest": 6.6,
+        "delta": -0.0571428571428572,
+        "implied_shift": -0.00865800865800867,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "maia-star",
+        "name": "MAIA STAR",
+        "number": 3,
+        "odds_pdf": 11.0,
+        "odds_latest": 9.4,
+        "delta": -0.14545454545454542,
+        "implied_shift": -0.015473887814313345,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "american-glory",
+        "name": "AMERICAN GLORY",
+        "number": 4,
+        "odds_pdf": 27.0,
+        "odds_latest": 16.0,
+        "delta": -0.4074074074074074,
+        "implied_shift": -0.025462962962962965,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 5,
+        "odds_pdf": 37.0,
+        "odds_latest": 28.0,
+        "delta": -0.24324324324324326,
+        "implied_shift": -0.008687258687258684,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "weemagatee",
+        "name": "WEEMAGATEE",
+        "number": 6,
+        "odds_pdf": 13.0,
+        "odds_latest": 20.0,
+        "delta": 0.5384615384615384,
+        "implied_shift": 0.026923076923076925,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "ame-d-or",
+        "name": "AME D'OR",
+        "number": 7,
+        "odds_pdf": 25.0,
+        "odds_latest": 11.0,
+        "delta": -0.56,
+        "implied_shift": -0.05090909090909091,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "cristabel",
+        "name": "CRISTABEL",
+        "number": 8,
+        "odds_pdf": 16.0,
+        "odds_latest": 9.9,
+        "delta": -0.38125,
+        "implied_shift": -0.03851010101010101,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "marinaleda",
+        "name": "MARINALEDA",
+        "number": 9,
+        "odds_pdf": 15.0,
+        "odds_latest": 14.0,
+        "delta": -0.06666666666666667,
+        "implied_shift": -0.004761904761904759,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "odds_pdf": 18.0,
+        "odds_latest": 17.0,
+        "delta": -0.05555555555555555,
+        "implied_shift": -0.0032679738562091526,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "golden-belle",
+        "name": "GOLDEN BELLE",
+        "number": 11,
+        "odds_pdf": 23.0,
+        "odds_latest": 12.0,
+        "delta": -0.4782608695652174,
+        "implied_shift": -0.03985507246376811,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "foxey-lady",
+        "name": "FOXEY LADY",
+        "number": 12,
+        "odds_pdf": 30.0,
+        "odds_latest": 30.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "nancy-des-places",
+        "name": "NANCY DES PLACES",
+        "number": 13,
+        "odds_pdf": 10.0,
+        "odds_latest": 9.8,
+        "delta": -0.019999999999999928,
+        "implied_shift": -0.002040816326530595,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "teardrop-explodes",
+        "name": "TEARDROP EXPLODES",
+        "number": 14,
+        "odds_pdf": 33.0,
+        "odds_latest": 43.0,
+        "delta": 0.30303030303030304,
+        "implied_shift": 0.007047216349541932,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "janah",
+        "name": "JANAH",
+        "number": 15,
+        "odds_pdf": 14.0,
+        "odds_latest": 9.5,
+        "delta": -0.32142857142857145,
+        "implied_shift": -0.03383458646616541,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "gareya",
+        "name": "GAREYA",
+        "number": 16,
+        "odds_pdf": 29.0,
+        "odds_latest": 15.0,
+        "delta": -0.4827586206896552,
+        "implied_shift": -0.03218390804597701,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "agile",
+      "shrihara",
+      "maia-star",
+      "american-glory",
+      "hasapiko",
+      "weemagatee",
+      "ame-d-or",
+      "cristabel",
+      "marinaleda",
+      "britania",
+      "golden-belle",
+      "foxey-lady",
+      "nancy-des-places",
+      "teardrop-explodes",
+      "janah",
+      "gareya"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "ame-d-or",
+        "name": "AME D'OR",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.443984868150878,
+          "forme": 6.895522388059701,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 8.3227,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "weemagatee",
+        "name": "WEEMAGATEE",
+        "number": 6,
+        "dimensions": {
+          "historique": 8.487332672587371,
+          "forme": 6.835820895522387,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.7607,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "nancy-des-places",
+        "name": "NANCY DES PLACES",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.58118797192182,
+          "forme": 7.835820895522387,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.6932,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "number": 2,
+        "dimensions": {
+          "historique": 8.579587289766417,
+          "forme": 6.014925373134329,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.4511,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "janah",
+        "name": "JANAH",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.4002368489628045,
+          "forme": 7.343283582089552,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.8152,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "cristabel",
+        "name": "CRISTABEL",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.098353347866345,
+          "forme": 4.544776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.5348,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "teardrop-explodes",
+        "name": "TEARDROP EXPLODES",
+        "number": 14,
+        "dimensions": {
+          "historique": 8.398071519595316,
+          "forme": 3.9104477611940296,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4235,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "golden-belle",
+        "name": "GOLDEN BELLE",
+        "number": 11,
+        "dimensions": {
+          "historique": 6.739071986083738,
+          "forme": 5.940298507462687,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.3876,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "maia-star",
+        "name": "MAIA STAR",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.204242970790475,
+          "forme": 4.373134328358209,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9586,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "marinaleda",
+        "name": "MARINALEDA",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.215874824223036,
+          "forme": 4.253731343283582,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9125,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "foxey-lady",
+        "name": "FOXEY LADY",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.679732426353189,
+          "forme": 4.1268656716417915,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5565,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "american-glory",
+        "name": "AMERICAN GLORY",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.581134135801372,
+          "forme": 2.940298507462687,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5392,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 5,
+        "dimensions": {
+          "historique": 8.059241020994996,
+          "forme": 2.2238805970149254,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.4917,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "agile",
+        "name": "AGILE",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.5,
+          "forme": 2.6716417910447756,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3755,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.940894251214481,
+          "forme": 3.3582089552238807,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3645,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gareya",
+        "name": "GAREYA",
+        "number": 16,
+        "dimensions": {
+          "historique": 3.969344669164867,
+          "forme": 6.85593220338983,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.2394,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ame-d-or",
+      "weemagatee",
+      "nancy-des-places",
+      "shrihara",
+      "janah",
+      "cristabel",
+      "teardrop-explodes",
+      "golden-belle",
+      "maia-star",
+      "marinaleda",
+      "foxey-lady",
+      "american-glory",
+      "hasapiko",
+      "agile",
+      "britania",
+      "gareya"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "agile": {
+          "horse_id": "agile",
+          "name": "AGILE",
+          "p_win": 0.03422,
+          "p_top3": 0.10658,
+          "p_top5": 0.19086,
+          "expected_position": 10.306,
+          "position_distribution": {
+            "1": 0.03422,
+            "2": 0.03416,
+            "3": 0.0382,
+            "4": 0.04056,
+            "5": 0.04372,
+            "6": 0.04624,
+            "7": 0.04848,
+            "8": 0.05048,
+            "9": 0.05492,
+            "10": 0.06412,
+            "11": 0.068,
+            "12": 0.07418,
+            "13": 0.08066,
+            "14": 0.09176,
+            "15": 0.1043,
+            "16": 0.126
+          }
+        },
+        "shrihara": {
+          "horse_id": "shrihara",
+          "name": "SHRIHARA",
+          "p_win": 0.09326,
+          "p_top3": 0.28058,
+          "p_top5": 0.45148,
+          "expected_position": 6.5122,
+          "position_distribution": {
+            "1": 0.09326,
+            "2": 0.09316,
+            "3": 0.09416,
+            "4": 0.08638,
+            "5": 0.08452,
+            "6": 0.08048,
+            "7": 0.07806,
+            "8": 0.0753,
+            "9": 0.06802,
+            "10": 0.06484,
+            "11": 0.05378,
+            "12": 0.04466,
+            "13": 0.03494,
+            "14": 0.0255,
+            "15": 0.01606,
+            "16": 0.00688
+          }
+        },
+        "maia-star": {
+          "horse_id": "maia-star",
+          "name": "MAIA STAR",
+          "p_win": 0.04548,
+          "p_top3": 0.1403,
+          "p_top5": 0.24338,
+          "expected_position": 9.2589,
+          "position_distribution": {
+            "1": 0.04548,
+            "2": 0.04666,
+            "3": 0.04816,
+            "4": 0.05018,
+            "5": 0.0529,
+            "6": 0.05772,
+            "7": 0.05962,
+            "8": 0.06252,
+            "9": 0.06392,
+            "10": 0.0679,
+            "11": 0.07138,
+            "12": 0.07442,
+            "13": 0.0801,
+            "14": 0.0779,
+            "15": 0.07604,
+            "16": 0.0651
+          }
+        },
+        "american-glory": {
+          "horse_id": "american-glory",
+          "name": "AMERICAN GLORY",
+          "p_win": 0.03644,
+          "p_top3": 0.11606,
+          "p_top5": 0.20272,
+          "expected_position": 10.0272,
+          "position_distribution": {
+            "1": 0.03644,
+            "2": 0.03906,
+            "3": 0.04056,
+            "4": 0.04232,
+            "5": 0.04434,
+            "6": 0.04914,
+            "7": 0.0499,
+            "8": 0.05688,
+            "9": 0.05962,
+            "10": 0.06298,
+            "11": 0.0697,
+            "12": 0.0753,
+            "13": 0.0804,
+            "14": 0.08702,
+            "15": 0.10082,
+            "16": 0.10552
+          }
+        },
+        "hasapiko": {
+          "horse_id": "hasapiko",
+          "name": "HASAPIKO",
+          "p_win": 0.03428,
+          "p_top3": 0.11148,
+          "p_top5": 0.19882,
+          "expected_position": 10.1348,
+          "position_distribution": {
+            "1": 0.03428,
+            "2": 0.0369,
+            "3": 0.0403,
+            "4": 0.0413,
+            "5": 0.04604,
+            "6": 0.04604,
+            "7": 0.04924,
+            "8": 0.05326,
+            "9": 0.05886,
+            "10": 0.06512,
+            "11": 0.06862,
+            "12": 0.07602,
+            "13": 0.08134,
+            "14": 0.0922,
+            "15": 0.10052,
+            "16": 0.10996
+          }
+        },
+        "weemagatee": {
+          "horse_id": "weemagatee",
+          "name": "WEEMAGATEE",
+          "p_win": 0.10804,
+          "p_top3": 0.31522,
+          "p_top5": 0.51014,
+          "expected_position": 5.9516,
+          "position_distribution": {
+            "1": 0.10804,
+            "2": 0.1073,
+            "3": 0.09988,
+            "4": 0.1004,
+            "5": 0.09452,
+            "6": 0.0851,
+            "7": 0.07898,
+            "8": 0.07172,
+            "9": 0.06328,
+            "10": 0.0519,
+            "11": 0.0445,
+            "12": 0.03634,
+            "13": 0.02636,
+            "14": 0.01776,
+            "15": 0.0102,
+            "16": 0.00372
+          }
+        },
+        "ame-d-or": {
+          "horse_id": "ame-d-or",
+          "name": "AME D'OR",
+          "p_win": 0.14568,
+          "p_top3": 0.40524,
+          "p_top5": 0.61138,
+          "expected_position": 5.0183,
+          "position_distribution": {
+            "1": 0.14568,
+            "2": 0.13752,
+            "3": 0.12204,
+            "4": 0.10918,
+            "5": 0.09696,
+            "6": 0.08568,
+            "7": 0.07474,
+            "8": 0.062,
+            "9": 0.05026,
+            "10": 0.04048,
+            "11": 0.02906,
+            "12": 0.0208,
+            "13": 0.01348,
+            "14": 0.00772,
+            "15": 0.00344,
+            "16": 0.00096
+          }
+        },
+        "cristabel": {
+          "horse_id": "cristabel",
+          "name": "CRISTABEL",
+          "p_win": 0.06266,
+          "p_top3": 0.18666,
+          "p_top5": 0.31446,
+          "expected_position": 8.163,
+          "position_distribution": {
+            "1": 0.06266,
+            "2": 0.06072,
+            "3": 0.06328,
+            "4": 0.06378,
+            "5": 0.06402,
+            "6": 0.06952,
+            "7": 0.06924,
+            "8": 0.0692,
+            "9": 0.069,
+            "10": 0.06792,
+            "11": 0.07114,
+            "12": 0.06876,
+            "13": 0.06662,
+            "14": 0.0577,
+            "15": 0.04628,
+            "16": 0.03016
+          }
+        },
+        "marinaleda": {
+          "horse_id": "marinaleda",
+          "name": "MARINALEDA",
+          "p_win": 0.04492,
+          "p_top3": 0.13742,
+          "p_top5": 0.24054,
+          "expected_position": 9.3479,
+          "position_distribution": {
+            "1": 0.04492,
+            "2": 0.04468,
+            "3": 0.04782,
+            "4": 0.04978,
+            "5": 0.05334,
+            "6": 0.05426,
+            "7": 0.05766,
+            "8": 0.06004,
+            "9": 0.06698,
+            "10": 0.06738,
+            "11": 0.07356,
+            "12": 0.07412,
+            "13": 0.07714,
+            "14": 0.07894,
+            "15": 0.07842,
+            "16": 0.07096
+          }
+        },
+        "britania": {
+          "horse_id": "britania",
+          "name": "BRITANIA",
+          "p_win": 0.03344,
+          "p_top3": 0.10676,
+          "p_top5": 0.1882,
+          "expected_position": 10.3207,
+          "position_distribution": {
+            "1": 0.03344,
+            "2": 0.03538,
+            "3": 0.03794,
+            "4": 0.0394,
+            "5": 0.04204,
+            "6": 0.04738,
+            "7": 0.04832,
+            "8": 0.05222,
+            "9": 0.0564,
+            "10": 0.06208,
+            "11": 0.0671,
+            "12": 0.07284,
+            "13": 0.08258,
+            "14": 0.0907,
+            "15": 0.10424,
+            "16": 0.12794
+          }
+        },
+        "golden-belle": {
+          "horse_id": "golden-belle",
+          "name": "GOLDEN BELLE",
+          "p_win": 0.05624,
+          "p_top3": 0.17408,
+          "p_top5": 0.29886,
+          "expected_position": 8.4392,
+          "position_distribution": {
+            "1": 0.05624,
+            "2": 0.05694,
+            "3": 0.0609,
+            "4": 0.06078,
+            "5": 0.064,
+            "6": 0.06418,
+            "7": 0.066,
+            "8": 0.0669,
+            "9": 0.07134,
+            "10": 0.06896,
+            "11": 0.06896,
+            "12": 0.07174,
+            "13": 0.06836,
+            "14": 0.06024,
+            "15": 0.0535,
+            "16": 0.04096
+          }
+        },
+        "foxey-lady": {
+          "horse_id": "foxey-lady",
+          "name": "FOXEY LADY",
+          "p_win": 0.03718,
+          "p_top3": 0.11754,
+          "p_top5": 0.20768,
+          "expected_position": 9.9755,
+          "position_distribution": {
+            "1": 0.03718,
+            "2": 0.03944,
+            "3": 0.04092,
+            "4": 0.04416,
+            "5": 0.04598,
+            "6": 0.0489,
+            "7": 0.0502,
+            "8": 0.05722,
+            "9": 0.06006,
+            "10": 0.06246,
+            "11": 0.06852,
+            "12": 0.07454,
+            "13": 0.08038,
+            "14": 0.08844,
+            "15": 0.09444,
+            "16": 0.10716
+          }
+        },
+        "nancy-des-places": {
+          "horse_id": "nancy-des-places",
+          "name": "NANCY DES PLACES",
+          "p_win": 0.1086,
+          "p_top3": 0.31086,
+          "p_top5": 0.49894,
+          "expected_position": 6.039,
+          "position_distribution": {
+            "1": 0.1086,
+            "2": 0.10342,
+            "3": 0.09884,
+            "4": 0.09862,
+            "5": 0.08946,
+            "6": 0.08362,
+            "7": 0.08144,
+            "8": 0.0714,
+            "9": 0.06346,
+            "10": 0.05618,
+            "11": 0.04616,
+            "12": 0.0365,
+            "13": 0.02718,
+            "14": 0.0203,
+            "15": 0.01114,
+            "16": 0.00368
+          }
+        },
+        "teardrop-explodes": {
+          "horse_id": "teardrop-explodes",
+          "name": "TEARDROP EXPLODES",
+          "p_win": 0.0575,
+          "p_top3": 0.17692,
+          "p_top5": 0.30334,
+          "expected_position": 8.3457,
+          "position_distribution": {
+            "1": 0.0575,
+            "2": 0.05916,
+            "3": 0.06026,
+            "4": 0.06124,
+            "5": 0.06518,
+            "6": 0.06606,
+            "7": 0.06894,
+            "8": 0.06948,
+            "9": 0.06818,
+            "10": 0.07026,
+            "11": 0.07058,
+            "12": 0.06656,
+            "13": 0.06512,
+            "14": 0.06252,
+            "15": 0.0531,
+            "16": 0.03586
+          }
+        },
+        "janah": {
+          "horse_id": "janah",
+          "name": "JANAH",
+          "p_win": 0.06926,
+          "p_top3": 0.21072,
+          "p_top5": 0.35798,
+          "expected_position": 7.6155,
+          "position_distribution": {
+            "1": 0.06926,
+            "2": 0.0706,
+            "3": 0.07086,
+            "4": 0.07464,
+            "5": 0.07262,
+            "6": 0.07356,
+            "7": 0.07238,
+            "8": 0.07188,
+            "9": 0.07196,
+            "10": 0.06958,
+            "11": 0.06448,
+            "12": 0.0605,
+            "13": 0.05462,
+            "14": 0.04714,
+            "15": 0.0357,
+            "16": 0.02022
+          }
+        },
+        "gareya": {
+          "horse_id": "gareya",
+          "name": "GAREYA",
+          "p_win": 0.0328,
+          "p_top3": 0.10358,
+          "p_top5": 0.18122,
+          "expected_position": 10.5446,
+          "position_distribution": {
+            "1": 0.0328,
+            "2": 0.0349,
+            "3": 0.03588,
+            "4": 0.03728,
+            "5": 0.04036,
+            "6": 0.04212,
+            "7": 0.0468,
+            "8": 0.0495,
+            "9": 0.05374,
+            "10": 0.05784,
+            "11": 0.06446,
+            "12": 0.07272,
+            "13": 0.08072,
+            "14": 0.09416,
+            "15": 0.1118,
+            "16": 0.14492
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "ame-d-or",
+          "weemagatee",
+          "nancy-des-places"
+        ],
+        "23": [
+          "ame-d-or",
+          "weemagatee",
+          "nancy-des-places"
+        ],
+        "37": [
+          "ame-d-or",
+          "weemagatee",
+          "nancy-des-places"
+        ],
+        "51": [
+          "ame-d-or",
+          "weemagatee",
+          "nancy-des-places"
+        ],
+        "73": [
+          "ame-d-or",
+          "weemagatee",
+          "nancy-des-places"
+        ]
+      },
+      "reference_top": [
+        "ame-d-or",
+        "nancy-des-places",
+        "weemagatee"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "ame-d-or": 10.0,
+        "weemagatee": 5.0,
+        "nancy-des-places": 0.0
+      },
+      "order": [
+        "ame-d-or",
+        "weemagatee",
+        "nancy-des-places"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "ame-d-or": 15.0,
+        "weemagatee": 14.0,
+        "nancy-des-places": 13.0,
+        "shrihara": 12.0,
+        "janah": 11.0,
+        "cristabel": 10.0,
+        "teardrop-explodes": 9.0,
+        "golden-belle": 8.0,
+        "maia-star": 7.0,
+        "marinaleda": 6.0,
+        "foxey-lady": 5.0,
+        "american-glory": 4.0,
+        "hasapiko": 3.0,
+        "agile": 2.0,
+        "britania": 1.0,
+        "gareya": 0.0
+      },
+      "order": [
+        "ame-d-or",
+        "weemagatee",
+        "nancy-des-places",
+        "shrihara",
+        "janah",
+        "cristabel",
+        "teardrop-explodes",
+        "golden-belle",
+        "maia-star",
+        "marinaleda",
+        "foxey-lady",
+        "american-glory",
+        "hasapiko",
+        "agile",
+        "britania",
+        "gareya"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ame-d-or",
+        "weemagatee",
+        "nancy-des-places",
+        "shrihara",
+        "janah",
+        "cristabel",
+        "teardrop-explodes",
+        "golden-belle",
+        "maia-star",
+        "marinaleda",
+        "foxey-lady",
+        "american-glory",
+        "hasapiko",
+        "agile",
+        "britania",
+        "gareya"
+      ],
+      "copeland": {
+        "ame-d-or": 15.0,
+        "weemagatee": 13.0,
+        "nancy-des-places": 11.0,
+        "shrihara": 9.0,
+        "janah": 7.0,
+        "cristabel": 5.0,
+        "teardrop-explodes": 3.0,
+        "golden-belle": 1.0,
+        "maia-star": -1.0,
+        "marinaleda": -3.0,
+        "foxey-lady": -5.0,
+        "american-glory": -7.0,
+        "hasapiko": -9.0,
+        "agile": -11.0,
+        "britania": -13.0,
+        "gareya": -15.0
+      },
+      "normalized": {
+        "ame-d-or": 1.0,
+        "weemagatee": 0.9333,
+        "nancy-des-places": 0.8667,
+        "shrihara": 0.8,
+        "janah": 0.7333,
+        "cristabel": 0.6667,
+        "teardrop-explodes": 0.6,
+        "golden-belle": 0.5333,
+        "maia-star": 0.4667,
+        "marinaleda": 0.4,
+        "foxey-lady": 0.3333,
+        "american-glory": 0.2667,
+        "hasapiko": 0.2,
+        "agile": 0.1333,
+        "britania": 0.0667,
+        "gareya": 0.0
+      },
+      "mean_rank": {
+        "ame-d-or": 0.0,
+        "weemagatee": 1.0,
+        "nancy-des-places": 2.0,
+        "shrihara": 3.0,
+        "janah": 4.0,
+        "cristabel": 5.0,
+        "teardrop-explodes": 6.0,
+        "golden-belle": 7.0,
+        "maia-star": 8.0,
+        "marinaleda": 9.0,
+        "foxey-lady": 10.0,
+        "american-glory": 11.0,
+        "hasapiko": 12.0,
+        "agile": 13.0,
+        "britania": 14.0,
+        "gareya": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "agile",
+        "name": "AGILE",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "shrihara",
+        "name": "SHRIHARA",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "maia-star",
+        "name": "MAIA STAR",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "american-glory",
+        "name": "AMERICAN GLORY",
+        "number": 4,
+        "signals": [
+          "cote fondue de -41% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "weemagatee",
+        "name": "WEEMAGATEE",
+        "number": 6,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 2 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ame-d-or",
+        "name": "AME D'OR",
+        "number": 7,
+        "signals": [
+          "cote fondue de -56% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 1 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "cristabel",
+        "name": "CRISTABEL",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "marinaleda",
+        "name": "MARINALEDA",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "golden-belle",
+        "name": "GOLDEN BELLE",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "foxey-lady",
+        "name": "FOXEY LADY",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "nancy-des-places",
+        "name": "NANCY DES PLACES",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "teardrop-explodes",
+        "name": "TEARDROP EXPLODES",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "janah",
+        "name": "JANAH",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gareya",
+        "name": "GAREYA",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "american-glory",
+      "weemagatee",
+      "ame-d-or"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "4 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "nancy-des-places",
+          "agile",
+          "shrihara",
+          "maia-star",
+          "american-glory",
+          "hasapiko",
+          "weemagatee",
+          "ame-d-or",
+          "cristabel",
+          "marinaleda",
+          "britania",
+          "golden-belle",
+          "foxey-lady",
+          "teardrop-explodes",
+          "janah",
+          "gareya"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "agile",
+          "shrihara",
+          "maia-star",
+          "american-glory",
+          "hasapiko",
+          "weemagatee",
+          "ame-d-or",
+          "cristabel",
+          "marinaleda",
+          "britania",
+          "golden-belle",
+          "foxey-lady",
+          "nancy-des-places",
+          "teardrop-explodes",
+          "janah",
+          "gareya"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "shrihara",
+          "agile",
+          "maia-star",
+          "american-glory",
+          "hasapiko",
+          "weemagatee",
+          "ame-d-or",
+          "cristabel",
+          "marinaleda",
+          "britania",
+          "golden-belle",
+          "foxey-lady",
+          "nancy-des-places",
+          "teardrop-explodes",
+          "janah",
+          "gareya"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "ame-d-or",
+          "maia-star",
+          "shrihara",
+          "nancy-des-places",
+          "agile",
+          "golden-belle",
+          "britania",
+          "hasapiko",
+          "american-glory",
+          "weemagatee",
+          "cristabel",
+          "marinaleda",
+          "foxey-lady",
+          "teardrop-explodes",
+          "janah",
+          "gareya"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "agile",
+          "shrihara",
+          "maia-star",
+          "american-glory",
+          "hasapiko",
+          "weemagatee",
+          "ame-d-or",
+          "cristabel",
+          "marinaleda",
+          "britania",
+          "golden-belle",
+          "foxey-lady",
+          "nancy-des-places",
+          "teardrop-explodes",
+          "janah",
+          "gareya"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-25T10:26:24.888253+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "agile": 0.03667,
+      "shrihara": 0.12779,
+      "maia-star": 0.089725,
+      "american-glory": 0.052713,
+      "hasapiko": 0.030122,
+      "weemagatee": 0.042171,
+      "ame-d-or": 0.076674,
+      "cristabel": 0.085193,
+      "marinaleda": 0.060244,
+      "britania": 0.049613,
+      "golden-belle": 0.070285,
+      "foxey-lady": 0.028114,
+      "nancy-des-places": 0.086063,
+      "teardrop-explodes": 0.019614,
+      "janah": 0.088781,
+      "gareya": 0.056228
+    },
+    "consensus_ranking": [
+      "agile",
+      "shrihara",
+      "maia-star",
+      "american-glory",
+      "hasapiko",
+      "ame-d-or",
+      "weemagatee",
+      "cristabel",
+      "nancy-des-places",
+      "britania",
+      "marinaleda",
+      "golden-belle",
+      "foxey-lady",
+      "teardrop-explodes",
+      "janah",
+      "gareya"
+    ],
+    "convergence": 0.1111,
+    "notes": [
+      "convergence Top 5 interne/externe : 11%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "ame-d-or",
+      "weemagatee",
+      "nancy-des-places",
+      "janah"
+    ],
+    "externe_seulement": [
+      "agile",
+      "maia-star",
+      "american-glory",
+      "hasapiko"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 5.565,
+    "level": "modérée",
+    "components": {
+      "ecart_scores": 2.81,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 1.1111,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · AGILE : aptitude",
+      "n°2 · SHRIHARA : aptitude",
+      "n°3 · MAIA STAR : aptitude",
+      "n°4 · AMERICAN GLORY : aptitude",
+      "n°5 · HASAPIKO : aptitude",
+      "n°6 · WEEMAGATEE : aptitude",
+      "n°7 · AME D'OR : aptitude",
+      "n°8 · CRISTABEL : aptitude",
+      "n°9 · MARINALEDA : aptitude",
+      "n°10 · BRITANIA : aptitude",
+      "n°11 · GOLDEN BELLE : aptitude",
+      "n°12 · FOXEY LADY : aptitude",
+      "n°13 · NANCY DES PLACES : aptitude",
+      "n°14 · TEARDROP EXPLODES : aptitude",
+      "n°15 · JANAH : aptitude",
+      "n°16 · GAREYA : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.56 (saturé à 2.0) → 2.8/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
+      "complétude des données = 80% (16 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-25T14:15:00+00:00",
+    "betting_close": "2026-10-25T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-10-25T10:26:31.408409+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 218.48,
+    "schedule": {
+      "start_ouagadougou": "2026-10-25T14:15:00+00:00",
+      "start_paris": "2026-10-25T15:15:00+01:00",
+      "close_lonab": "2026-10-25T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 7,
+      "cheval": "AME D'OR",
+      "horse_id": "ame-d-or"
+    },
+    {
+      "rang": 2,
+      "numero": 6,
+      "cheval": "WEEMAGATEE",
+      "horse_id": "weemagatee"
+    },
+    {
+      "rang": 3,
+      "numero": 13,
+      "cheval": "NANCY DES PLACES",
+      "horse_id": "nancy-des-places"
+    },
+    {
+      "rang": 4,
+      "numero": 2,
+      "cheval": "SHRIHARA",
+      "horse_id": "shrihara"
+    },
+    {
+      "rang": 5,
+      "numero": 15,
+      "cheval": "JANAH",
+      "horse_id": "janah"
+    },
+    {
+      "rang": 6,
+      "numero": 8,
+      "cheval": "CRISTABEL",
+      "horse_id": "cristabel"
+    },
+    {
+      "rang": 7,
+      "numero": 14,
+      "cheval": "TEARDROP EXPLODES",
+      "horse_id": "teardrop-explodes"
+    },
+    {
+      "rang": 8,
+      "numero": 11,
+      "cheval": "GOLDEN BELLE",
+      "horse_id": "golden-belle"
+    },
+    {
+      "rang": 9,
+      "numero": 3,
+      "cheval": "MAIA STAR",
+      "horse_id": "maia-star"
+    },
+    {
+      "rang": 10,
+      "numero": 9,
+      "cheval": "MARINALEDA",
+      "horse_id": "marinaleda"
+    },
+    {
+      "rang": 11,
+      "numero": 12,
+      "cheval": "FOXEY LADY",
+      "horse_id": "foxey-lady"
+    },
+    {
+      "rang": 12,
+      "numero": 4,
+      "cheval": "AMERICAN GLORY",
+      "horse_id": "american-glory"
+    },
+    {
+      "rang": 13,
+      "numero": 5,
+      "cheval": "HASAPIKO",
+      "horse_id": "hasapiko"
+    },
+    {
+      "rang": 14,
+      "numero": 1,
+      "cheval": "AGILE",
+      "horse_id": "agile"
+    },
+    {
+      "rang": 15,
+      "numero": 10,
+      "cheval": "BRITANIA",
+      "horse_id": "britania"
+    },
+    {
+      "rang": 16,
+      "numero": 16,
+      "cheval": "GAREYA",
+      "horse_id": "gareya"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 7,
+      "cheval": "AME D'OR",
+      "score": 8.3227
+    },
+    {
+      "numero": 6,
+      "cheval": "WEEMAGATEE",
+      "score": 7.7607
+    },
+    {
+      "numero": 13,
+      "cheval": "NANCY DES PLACES",
+      "score": 7.6932
+    },
+    {
+      "numero": 2,
+      "cheval": "SHRIHARA",
+      "score": 7.4511
+    },
+    {
+      "numero": 15,
+      "cheval": "JANAH",
+      "score": 6.8152
+    },
+    {
+      "numero": 8,
+      "cheval": "CRISTABEL",
+      "score": 6.5348
+    },
+    {
+      "numero": 14,
+      "cheval": "TEARDROP EXPLODES",
+      "score": 6.4235
+    },
+    {
+      "numero": 11,
+      "cheval": "GOLDEN BELLE",
+      "score": 6.3876
+    },
+    {
+      "numero": 3,
+      "cheval": "MAIA STAR",
+      "score": 5.9586
+    },
+    {
+      "numero": 9,
+      "cheval": "MARINALEDA",
+      "score": 5.9125
+    },
+    {
+      "numero": 12,
+      "cheval": "FOXEY LADY",
+      "score": 5.5565
+    },
+    {
+      "numero": 4,
+      "cheval": "AMERICAN GLORY",
+      "score": 5.5392
+    },
+    {
+      "numero": 5,
+      "cheval": "HASAPIKO",
+      "score": 5.4917
+    },
+    {
+      "numero": 1,
+      "cheval": "AGILE",
+      "score": 5.3755
+    },
+    {
+      "numero": 10,
+      "cheval": "BRITANIA",
+      "score": 5.3645
+    },
+    {
+      "numero": 16,
+      "cheval": "GAREYA",
+      "score": 5.2394
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 12.9884,
+      "entropie_norm": 0.9579,
+      "p_favori": 0.1345,
+      "ratio_1_2": 1.4673
+    },
+    "p_gagnant_dans_selection": 0.4891,
+    "nb_attendu_dans_top5": 2.006,
+    "p_au_moins": {
+      "1": 0.9594,
+      "2": 0.7173,
+      "3": 0.2854,
+      "4": 0.0423,
+      "5": 0.0013
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-25T10:15:57+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "29 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 2,
+        "cheval": "SHRIHARA",
+        "cote": 6.6,
+        "p_gagne": 0.1345,
+        "p_top3": 0.3065,
+        "p_top5": 0.4684,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 3,
+        "cheval": "MAIA STAR",
+        "cote": 9.4,
+        "p_gagne": 0.0917,
+        "p_top3": 0.2459,
+        "p_top5": 0.393,
+        "rang_systeme": 9
+      },
+      {
+        "numero": 15,
+        "cheval": "JANAH",
+        "cote": 9.5,
+        "p_gagne": 0.0906,
+        "p_top3": 0.2412,
+        "p_top5": 0.3874,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 13,
+        "cheval": "NANCY DES PLACES",
+        "cote": 9.8,
+        "p_gagne": 0.0876,
+        "p_top3": 0.2326,
+        "p_top5": 0.3797,
+        "rang_systeme": 3
+      },
+      {
+        "numero": 8,
+        "cheval": "CRISTABEL",
+        "cote": 9.9,
+        "p_gagne": 0.0867,
+        "p_top3": 0.2339,
+        "p_top5": 0.3773,
+        "rang_systeme": 6
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-10-25T10:26:31.425164+00:00"
+}
