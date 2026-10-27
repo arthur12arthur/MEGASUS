@@ -1,0 +1,51 @@
+name: Surveillance du marche (manuelle)
+
+# Lance le mode vivant a la main sur l'analyse du jour : releve les cotes directes PMU
+# jusqu'a ~12 min avant le depart et envoie un message Telegram court si l'ordre change.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "reel = envoie sur Telegram ; simulation = n'envoie rien"
+        required: false
+        default: "simulation"
+
+concurrency:
+  group: hyperion-daily
+  cancel-in-progress: false
+permissions:
+  contents: write
+
+jobs:
+  surveillance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: Installer
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+      - name: Surveiller
+        env:
+          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'reel' && 'false' || 'true' }}
+          HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+        run: python -m hyperion.cli watch
+      - name: Committer la trace
+        if: always()
+        run: |
+          git config user.name "hyperion-bot"
+          git config user.email "hyperion-bot@users.noreply.github.com"
+          git add -A data/live || true
+          if git diff --cached --quiet; then echo "Rien a committer."; else
+            git commit -m "chore(live): releves du $(date -u +%F)"
+            git pull --rebase -q origin main || true
+            git push
+          fi

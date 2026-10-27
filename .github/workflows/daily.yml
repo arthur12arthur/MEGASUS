@@ -149,6 +149,16 @@ jobs:
             fi
           fi
 
+      - name: Surveillance du marché jusqu'au départ (mode vivant)
+        if: steps.deja.outputs.skip != 'true' && (github.event.schedule == '23 6 * * *' || github.event.inputs.attendre == 'true')
+        continue-on-error: true
+        env:
+          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}
+          HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
+          HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
+          HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
+        run: python -m hyperion.cli watch
+
       - name: Evaluation du soir
         if: always() && (github.event.schedule == '53 21 * * *' || github.event_name == 'workflow_dispatch')
         env:
@@ -168,7 +178,7 @@ jobs:
         run: |
           git config user.name "hyperion-bot"
           git config user.email "hyperion-bot@users.noreply.github.com"
-          git add -A data/runs data/evaluations || true
+          git add -A data/runs data/evaluations data/live || true
           if git diff --cached --quiet; then
             echo "Rien a committer."
           else

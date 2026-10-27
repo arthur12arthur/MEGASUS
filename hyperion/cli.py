@@ -7,6 +7,7 @@ Commandes :
     hyperion backtest   backtest sur N courses synthétiques (labo Ouroboros)
     hyperion calibrate  calibre la concentration du Monte Carlo (walk-forward)
     hyperion evaluate   évaluation du soir sur un historique stocké
+    hyperion watch      mode vivant : alerte Telegram si l'ordre des chevaux change avant le départ
     hyperion decide     moteur de décision qui lit un rapport (JSON ou texte collé)
     hyperion backtest-real  backtest sur courses réelles collectées
     hyperion collect-history  collecte d'un historique réel (API PMU) pour le backtesting
@@ -80,6 +81,12 @@ def build_parser() -> argparse.ArgumentParser:
     dec.add_argument("--text", help="fichier texte d'un rapport collé, ou « - » pour l'entrée standard")
     dec.add_argument("--json", action="store_true", help="sortie JSON")
 
+    watch = subparsers.add_parser("watch", help="mode vivant : surveille les cotes jusqu'au départ, alerte si l'ordre change")
+    watch.add_argument("--run", help="rapport JSON à suivre (défaut : l'analyse du jour)")
+    watch.add_argument("--interval", type=float, default=600.0, help="secondes entre deux relevés")
+    watch.add_argument("--stop-before", type=float, default=12.0, help="minutes avant le départ pour le dernier point")
+    watch.add_argument("--no-final", action="store_true", help="pas de message final de confirmation")
+
     rb = subparsers.add_parser(
         "backtest-real", help="backtest sur courses RÉELLES (historique collecté)"
     )
@@ -117,6 +124,49 @@ def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
     if not pmu_status:
         return False
     return any("déjà courue" in w for w in pmu_status.get("warnings", []))
+
+
+def cmd_watch(args: argparse.Namespace) -> int:
+    import time
+    from pathlib import Path
+
+    import requests
+
+    from hyperion.delivery import Delivery
+    from hyperion.evaluation.results import is_analysis
+    from hyperion.live import run_watch
+    from hyperion.reader import latest_run
+
+    settings = Settings()
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    try:
+        path = Path(args.run) if args.run else latest_run()
+        record = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"Surveillance impossible : {exc}", file=sys.stderr)
+        return 0
+    if not is_analysis(record) or (not args.run and str(record.get("date")) != today):
+        print("Aucune analyse du jour à surveiller.", file=sys.stderr)
+        return 0
+    delivery = Delivery(settings)
+
+    def send(text: str) -> None:
+        print(text)
+        if settings.dry_run:
+            return
+        for report in delivery.send_telegram([text]):
+            if not report.ok:
+                print(f"[telegram] échec : {report.detail}", file=sys.stderr)
+
+    session = requests.Session()
+    session.headers["User-Agent"] = "Mozilla/5.0 (X11; Linux x86_64) Chrome/124 Safari/537.36"
+    status = run_watch(
+        record, session, now_fn=lambda: dt.datetime.now(dt.timezone.utc), sleep_fn=time.sleep, send=send,
+        interval_s=args.interval, stop_before_min=args.stop_before, final=not args.no_final,
+        log=lambda m: print(m, file=sys.stderr),
+    )
+    print(f"Surveillance : {status}", file=sys.stderr)
+    return 0
 
 
 def cmd_decide(args: argparse.Namespace) -> int:
@@ -473,6 +523,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "collect-history": cmd_collect_history,
         "backtest-real": cmd_backtest_real,
         "decide": cmd_decide,
+        "watch": cmd_watch,
     }
     return handlers[args.command](args)
 
