@@ -1,0 +1,2119 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261027-deauville-la-touques-c1",
+  "date": "2026-10-27",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-LA TOUQUES",
+    "date": "2026-10-27",
+    "start_time": "2026-10-27T12:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX D'UTAH BEACH",
+    "distance_m": 1300,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMU_DU_27-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-27T12:45:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-27T10:24:50.019270+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "odds_pdf": 9.0,
+        "odds_latest": 14.0,
+        "delta": 0.5555555555555556,
+        "implied_shift": 0.03968253968253968,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "michael-the-great",
+        "name": "MICHAEL THE GREAT",
+        "number": 2,
+        "odds_pdf": 14.0,
+        "odds_latest": 6.4,
+        "delta": -0.5428571428571428,
+        "implied_shift": -0.08482142857142858,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "zerostress",
+        "name": "ZEROSTRESS",
+        "number": 3,
+        "odds_pdf": 42.0,
+        "odds_latest": 37.0,
+        "delta": -0.11904761904761904,
+        "implied_shift": -0.0032175032175032203,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "talentuoso",
+        "name": "TALENTUOSO",
+        "number": 4,
+        "odds_pdf": 7.0,
+        "odds_latest": 8.0,
+        "delta": 0.14285714285714285,
+        "implied_shift": 0.01785714285714285,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "odds_pdf": 16.0,
+        "odds_latest": 21.0,
+        "delta": 0.3125,
+        "implied_shift": 0.014880952380952384,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "agiota",
+        "name": "AGIOTA",
+        "number": 6,
+        "odds_pdf": 31.0,
+        "odds_latest": 40.0,
+        "delta": 0.2903225806451613,
+        "implied_shift": 0.00725806451612903,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 7,
+        "odds_pdf": 11.0,
+        "odds_latest": 9.8,
+        "delta": -0.10909090909090903,
+        "implied_shift": -0.011131725417439689,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 8,
+        "odds_pdf": 27.0,
+        "odds_latest": 26.0,
+        "delta": -0.037037037037037035,
+        "implied_shift": -0.0014245014245014287,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 9,
+        "odds_pdf": 12.0,
+        "odds_latest": 7.8,
+        "delta": -0.35000000000000003,
+        "implied_shift": -0.04487179487179489,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "break-dance",
+        "name": "BREAK DANCE",
+        "number": 10,
+        "odds_pdf": 28.0,
+        "odds_latest": 11.0,
+        "delta": -0.6071428571428571,
+        "implied_shift": -0.0551948051948052,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "major-oak",
+        "name": "MAJOR OAK",
+        "number": 11,
+        "odds_pdf": 26.0,
+        "odds_latest": 26.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "crowdfunding",
+        "name": "CROWDFUNDING",
+        "number": 12,
+        "odds_pdf": 25.0,
+        "odds_latest": 15.0,
+        "delta": -0.4,
+        "implied_shift": -0.026666666666666665,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "fou-furieux",
+        "name": "FOU FURIEUX",
+        "number": 13,
+        "odds_pdf": 10.0,
+        "odds_latest": 8.8,
+        "delta": -0.11999999999999993,
+        "implied_shift": -0.013636363636363627,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mikey",
+        "name": "MIKEY",
+        "number": 14,
+        "odds_pdf": 13.0,
+        "odds_latest": 11.0,
+        "delta": -0.15384615384615385,
+        "implied_shift": -0.013986013986013984,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 15,
+        "odds_pdf": 17.0,
+        "odds_latest": 15.0,
+        "delta": -0.11764705882352941,
+        "implied_shift": -0.00784313725490196,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kenzel",
+        "name": "KENZEL",
+        "number": 16,
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      }
+    ],
+    "late_non_runners": [
+      "kenzel"
+    ],
+    "warnings": [
+      "KENZEL (kenzel) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "sweet-chop",
+      "michael-the-great",
+      "zerostress",
+      "talentuoso",
+      "hello-carel",
+      "agiota",
+      "omicrone",
+      "royalwood",
+      "fire-rebel",
+      "break-dance",
+      "major-oak",
+      "crowdfunding",
+      "fou-furieux",
+      "mikey",
+      "salalah"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "crowdfunding",
+        "name": "CROWDFUNDING",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.883897479861717,
+          "forme": 8.425373134328359,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 8.1221,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "michael-the-great",
+        "name": "MICHAEL THE GREAT",
+        "number": 2,
+        "dimensions": {
+          "historique": 8.65566400349561,
+          "forme": 6.7835820895522385,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.8319,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "dimensions": {
+          "historique": 8.852807666220418,
+          "forme": 5.589552238805971,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.417,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mikey",
+        "name": "MIKEY",
+        "number": 14,
+        "dimensions": {
+          "historique": 8.405157702799155,
+          "forme": 5.940298507462686,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.3206,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "break-dance",
+        "name": "BREAK DANCE",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.83351307022887,
+          "forme": 5.858208955223881,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4044,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zerostress",
+        "name": "ZEROSTRESS",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.121212121212121,
+          "forme": 3.999999999999999,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7479,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "talentuoso",
+        "name": "TALENTUOSO",
+        "number": 4,
+        "dimensions": {
+          "historique": 6.726804943065585,
+          "forme": 4.492537313432836,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7437,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.432843614113257,
+          "forme": 4.358208955223881,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.52,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "agiota",
+        "name": "AGIOTA",
+        "number": 6,
+        "dimensions": {
+          "historique": 8.274583856232283,
+          "forme": 1.9701492537313432,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5006,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "dimensions": {
+          "historique": 6.030633441200127,
+          "forme": 4.746268656716418,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.4655,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 7,
+        "dimensions": {
+          "historique": 6.899888237069499,
+          "forme": 3.0522388059701497,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.2069,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 8,
+        "dimensions": {
+          "historique": 7.272144945628841,
+          "forme": 1.5820895522388059,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.7685,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fou-furieux",
+        "name": "FOU FURIEUX",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.384890501249578,
+          "forme": 1.164179104477612,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.6478,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.764110702711515,
+          "forme": 0.6119402985074626,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.6172,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "major-oak",
+        "name": "MAJOR OAK",
+        "number": 11,
+        "dimensions": {
+          "historique": 2.4085372732926773,
+          "forme": 2.1791044776119404,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 2.3076,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "crowdfunding",
+      "michael-the-great",
+      "hello-carel",
+      "mikey",
+      "break-dance",
+      "zerostress",
+      "talentuoso",
+      "salalah",
+      "agiota",
+      "sweet-chop",
+      "omicrone",
+      "royalwood",
+      "fou-furieux",
+      "fire-rebel",
+      "major-oak"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "sweet-chop": {
+          "horse_id": "sweet-chop",
+          "name": "SWEET CHOP",
+          "p_win": 0.04528,
+          "p_top3": 0.14254,
+          "p_top5": 0.25954,
+          "expected_position": 8.5265,
+          "position_distribution": {
+            "1": 0.04528,
+            "2": 0.04668,
+            "3": 0.05058,
+            "4": 0.05498,
+            "5": 0.06202,
+            "6": 0.06344,
+            "7": 0.06928,
+            "8": 0.07318,
+            "9": 0.07992,
+            "10": 0.0842,
+            "11": 0.08884,
+            "12": 0.08854,
+            "13": 0.08462,
+            "14": 0.07256,
+            "15": 0.03588
+          }
+        },
+        "michael-the-great": {
+          "horse_id": "michael-the-great",
+          "name": "MICHAEL THE GREAT",
+          "p_win": 0.1451,
+          "p_top3": 0.41384,
+          "p_top5": 0.6365,
+          "expected_position": 4.751,
+          "position_distribution": {
+            "1": 0.1451,
+            "2": 0.14028,
+            "3": 0.12846,
+            "4": 0.11812,
+            "5": 0.10454,
+            "6": 0.09294,
+            "7": 0.0765,
+            "8": 0.06216,
+            "9": 0.05014,
+            "10": 0.03496,
+            "11": 0.02266,
+            "12": 0.01386,
+            "13": 0.0066,
+            "14": 0.00306,
+            "15": 0.00062
+          }
+        },
+        "zerostress": {
+          "horse_id": "zerostress",
+          "name": "ZEROSTRESS",
+          "p_win": 0.05184,
+          "p_top3": 0.16484,
+          "p_top5": 0.29188,
+          "expected_position": 8.0562,
+          "position_distribution": {
+            "1": 0.05184,
+            "2": 0.05456,
+            "3": 0.05844,
+            "4": 0.06326,
+            "5": 0.06378,
+            "6": 0.07122,
+            "7": 0.07314,
+            "8": 0.07832,
+            "9": 0.08236,
+            "10": 0.08502,
+            "11": 0.08484,
+            "12": 0.07976,
+            "13": 0.07162,
+            "14": 0.0583,
+            "15": 0.02354
+          }
+        },
+        "talentuoso": {
+          "horse_id": "talentuoso",
+          "name": "TALENTUOSO",
+          "p_win": 0.05204,
+          "p_top3": 0.16284,
+          "p_top5": 0.29052,
+          "expected_position": 8.1029,
+          "position_distribution": {
+            "1": 0.05204,
+            "2": 0.0541,
+            "3": 0.0567,
+            "4": 0.0621,
+            "5": 0.06558,
+            "6": 0.06766,
+            "7": 0.07348,
+            "8": 0.07764,
+            "9": 0.08236,
+            "10": 0.083,
+            "11": 0.0843,
+            "12": 0.08516,
+            "13": 0.07326,
+            "14": 0.05736,
+            "15": 0.02526
+          }
+        },
+        "hello-carel": {
+          "horse_id": "hello-carel",
+          "name": "HELLO CAREL",
+          "p_win": 0.12042,
+          "p_top3": 0.34998,
+          "p_top5": 0.55746,
+          "expected_position": 5.365,
+          "position_distribution": {
+            "1": 0.12042,
+            "2": 0.11414,
+            "3": 0.11542,
+            "4": 0.10704,
+            "5": 0.10044,
+            "6": 0.09216,
+            "7": 0.08538,
+            "8": 0.0766,
+            "9": 0.0602,
+            "10": 0.0482,
+            "11": 0.03582,
+            "12": 0.02402,
+            "13": 0.01314,
+            "14": 0.00592,
+            "15": 0.0011
+          }
+        },
+        "agiota": {
+          "horse_id": "agiota",
+          "name": "AGIOTA",
+          "p_win": 0.04516,
+          "p_top3": 0.14652,
+          "p_top5": 0.26138,
+          "expected_position": 8.5021,
+          "position_distribution": {
+            "1": 0.04516,
+            "2": 0.04856,
+            "3": 0.0528,
+            "4": 0.0563,
+            "5": 0.05856,
+            "6": 0.06338,
+            "7": 0.0687,
+            "8": 0.07418,
+            "9": 0.07838,
+            "10": 0.08616,
+            "11": 0.0861,
+            "12": 0.08844,
+            "13": 0.08542,
+            "14": 0.07496,
+            "15": 0.0329
+          }
+        },
+        "omicrone": {
+          "horse_id": "omicrone",
+          "name": "OMICRONE",
+          "p_win": 0.04032,
+          "p_top3": 0.12788,
+          "p_top5": 0.23148,
+          "expected_position": 8.9593,
+          "position_distribution": {
+            "1": 0.04032,
+            "2": 0.04126,
+            "3": 0.0463,
+            "4": 0.04936,
+            "5": 0.05424,
+            "6": 0.05796,
+            "7": 0.06408,
+            "8": 0.07076,
+            "9": 0.07286,
+            "10": 0.08198,
+            "11": 0.08866,
+            "12": 0.0931,
+            "13": 0.09736,
+            "14": 0.09354,
+            "15": 0.04822
+          }
+        },
+        "royalwood": {
+          "horse_id": "royalwood",
+          "name": "ROYALWOOD",
+          "p_win": 0.03248,
+          "p_top3": 0.10116,
+          "p_top5": 0.18466,
+          "expected_position": 9.7003,
+          "position_distribution": {
+            "1": 0.03248,
+            "2": 0.03284,
+            "3": 0.03584,
+            "4": 0.03908,
+            "5": 0.04442,
+            "6": 0.04844,
+            "7": 0.0558,
+            "8": 0.06278,
+            "9": 0.06948,
+            "10": 0.0758,
+            "11": 0.08894,
+            "12": 0.09814,
+            "13": 0.11044,
+            "14": 0.12516,
+            "15": 0.08036
+          }
+        },
+        "fire-rebel": {
+          "horse_id": "fire-rebel",
+          "name": "FIRE REBEL",
+          "p_win": 0.03006,
+          "p_top3": 0.0974,
+          "p_top5": 0.17656,
+          "expected_position": 9.9089,
+          "position_distribution": {
+            "1": 0.03006,
+            "2": 0.03272,
+            "3": 0.03462,
+            "4": 0.03766,
+            "5": 0.0415,
+            "6": 0.04656,
+            "7": 0.05216,
+            "8": 0.0572,
+            "9": 0.06568,
+            "10": 0.07412,
+            "11": 0.08296,
+            "12": 0.10078,
+            "13": 0.11454,
+            "14": 0.13558,
+            "15": 0.09386
+          }
+        },
+        "break-dance": {
+          "horse_id": "break-dance",
+          "name": "BREAK DANCE",
+          "p_win": 0.07124,
+          "p_top3": 0.2193,
+          "p_top5": 0.38088,
+          "expected_position": 6.9951,
+          "position_distribution": {
+            "1": 0.07124,
+            "2": 0.07432,
+            "3": 0.07374,
+            "4": 0.0788,
+            "5": 0.08278,
+            "6": 0.08422,
+            "7": 0.0851,
+            "8": 0.08326,
+            "9": 0.08296,
+            "10": 0.07546,
+            "11": 0.06914,
+            "12": 0.05668,
+            "13": 0.04588,
+            "14": 0.0269,
+            "15": 0.00952
+          }
+        },
+        "major-oak": {
+          "horse_id": "major-oak",
+          "name": "MAJOR OAK",
+          "p_win": 0.00946,
+          "p_top3": 0.03026,
+          "p_top5": 0.05804,
+          "expected_position": 12.9355,
+          "position_distribution": {
+            "1": 0.00946,
+            "2": 0.01022,
+            "3": 0.01058,
+            "4": 0.01306,
+            "5": 0.01472,
+            "6": 0.016,
+            "7": 0.01902,
+            "8": 0.02132,
+            "9": 0.02768,
+            "10": 0.03308,
+            "11": 0.04008,
+            "12": 0.05282,
+            "13": 0.0781,
+            "14": 0.12952,
+            "15": 0.52434
+          }
+        },
+        "crowdfunding": {
+          "horse_id": "crowdfunding",
+          "name": "CROWDFUNDING",
+          "p_win": 0.16936,
+          "p_top3": 0.46086,
+          "p_top5": 0.6858,
+          "expected_position": 4.3763,
+          "position_distribution": {
+            "1": 0.16936,
+            "2": 0.15198,
+            "3": 0.13952,
+            "4": 0.12118,
+            "5": 0.10376,
+            "6": 0.08906,
+            "7": 0.07056,
+            "8": 0.05434,
+            "9": 0.03916,
+            "10": 0.02912,
+            "11": 0.01692,
+            "12": 0.00906,
+            "13": 0.00452,
+            "14": 0.00122,
+            "15": 0.00024
+          }
+        },
+        "fou-furieux": {
+          "horse_id": "fou-furieux",
+          "name": "FOU FURIEUX",
+          "p_win": 0.03066,
+          "p_top3": 0.0968,
+          "p_top5": 0.1777,
+          "expected_position": 9.8771,
+          "position_distribution": {
+            "1": 0.03066,
+            "2": 0.03154,
+            "3": 0.0346,
+            "4": 0.03754,
+            "5": 0.04336,
+            "6": 0.04774,
+            "7": 0.05346,
+            "8": 0.05712,
+            "9": 0.0642,
+            "10": 0.07458,
+            "11": 0.08622,
+            "12": 0.09812,
+            "13": 0.11518,
+            "14": 0.13698,
+            "15": 0.0887
+          }
+        },
+        "mikey": {
+          "horse_id": "mikey",
+          "name": "MIKEY",
+          "p_win": 0.1109,
+          "p_top3": 0.33584,
+          "p_top5": 0.54114,
+          "expected_position": 5.5094,
+          "position_distribution": {
+            "1": 0.1109,
+            "2": 0.11576,
+            "3": 0.10918,
+            "4": 0.10596,
+            "5": 0.09934,
+            "6": 0.09412,
+            "7": 0.0837,
+            "8": 0.07566,
+            "9": 0.06576,
+            "10": 0.0506,
+            "11": 0.0389,
+            "12": 0.02536,
+            "13": 0.01544,
+            "14": 0.00758,
+            "15": 0.00174
+          }
+        },
+        "salalah": {
+          "horse_id": "salalah",
+          "name": "SALALAH",
+          "p_win": 0.04568,
+          "p_top3": 0.14994,
+          "p_top5": 0.26646,
+          "expected_position": 8.4343,
+          "position_distribution": {
+            "1": 0.04568,
+            "2": 0.05104,
+            "3": 0.05322,
+            "4": 0.05556,
+            "5": 0.06096,
+            "6": 0.0651,
+            "7": 0.06964,
+            "8": 0.07548,
+            "9": 0.07886,
+            "10": 0.08372,
+            "11": 0.08562,
+            "12": 0.08616,
+            "13": 0.08388,
+            "14": 0.07136,
+            "15": 0.03372
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "crowdfunding",
+          "michael-the-great",
+          "hello-carel"
+        ],
+        "23": [
+          "crowdfunding",
+          "michael-the-great",
+          "hello-carel"
+        ],
+        "37": [
+          "crowdfunding",
+          "michael-the-great",
+          "hello-carel"
+        ],
+        "51": [
+          "crowdfunding",
+          "michael-the-great",
+          "hello-carel"
+        ],
+        "73": [
+          "crowdfunding",
+          "michael-the-great",
+          "hello-carel"
+        ]
+      },
+      "reference_top": [
+        "crowdfunding",
+        "hello-carel",
+        "michael-the-great"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "crowdfunding": 10.0,
+        "michael-the-great": 5.0,
+        "hello-carel": 0.0
+      },
+      "order": [
+        "crowdfunding",
+        "michael-the-great",
+        "hello-carel"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "crowdfunding": 14.0,
+        "michael-the-great": 13.0,
+        "hello-carel": 12.0,
+        "mikey": 11.0,
+        "break-dance": 10.0,
+        "zerostress": 9.0,
+        "talentuoso": 8.0,
+        "salalah": 7.0,
+        "agiota": 6.0,
+        "sweet-chop": 5.0,
+        "omicrone": 4.0,
+        "royalwood": 3.0,
+        "fou-furieux": 2.0,
+        "fire-rebel": 1.0,
+        "major-oak": 0.0
+      },
+      "order": [
+        "crowdfunding",
+        "michael-the-great",
+        "hello-carel",
+        "mikey",
+        "break-dance",
+        "zerostress",
+        "talentuoso",
+        "salalah",
+        "agiota",
+        "sweet-chop",
+        "omicrone",
+        "royalwood",
+        "fou-furieux",
+        "fire-rebel",
+        "major-oak"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "crowdfunding",
+        "michael-the-great",
+        "hello-carel",
+        "mikey",
+        "break-dance",
+        "zerostress",
+        "talentuoso",
+        "salalah",
+        "agiota",
+        "sweet-chop",
+        "omicrone",
+        "royalwood",
+        "fou-furieux",
+        "fire-rebel",
+        "major-oak"
+      ],
+      "copeland": {
+        "crowdfunding": 14.0,
+        "michael-the-great": 12.0,
+        "hello-carel": 10.0,
+        "mikey": 8.0,
+        "break-dance": 6.0,
+        "zerostress": 4.0,
+        "talentuoso": 2.0,
+        "salalah": 0.0,
+        "agiota": -2.0,
+        "sweet-chop": -4.0,
+        "omicrone": -6.0,
+        "royalwood": -8.0,
+        "fou-furieux": -10.0,
+        "fire-rebel": -12.0,
+        "major-oak": -14.0
+      },
+      "normalized": {
+        "crowdfunding": 1.0,
+        "michael-the-great": 0.9286,
+        "hello-carel": 0.8571,
+        "mikey": 0.7857,
+        "break-dance": 0.7143,
+        "zerostress": 0.6429,
+        "talentuoso": 0.5714,
+        "salalah": 0.5,
+        "agiota": 0.4286,
+        "sweet-chop": 0.3571,
+        "omicrone": 0.2857,
+        "royalwood": 0.2143,
+        "fou-furieux": 0.1429,
+        "fire-rebel": 0.0714,
+        "major-oak": 0.0
+      },
+      "mean_rank": {
+        "crowdfunding": 0.0,
+        "michael-the-great": 1.0,
+        "hello-carel": 2.0,
+        "mikey": 3.0,
+        "break-dance": 4.0,
+        "zerostress": 5.0,
+        "talentuoso": 6.0,
+        "salalah": 7.0,
+        "agiota": 8.0,
+        "sweet-chop": 9.0,
+        "omicrone": 10.0,
+        "royalwood": 11.0,
+        "fou-furieux": 12.0,
+        "fire-rebel": 13.0,
+        "major-oak": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "sweet-chop",
+        "name": "SWEET CHOP",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "michael-the-great",
+        "name": "MICHAEL THE GREAT",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zerostress",
+        "name": "ZEROSTRESS",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "talentuoso",
+        "name": "TALENTUOSO",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hello-carel",
+        "name": "HELLO CAREL",
+        "number": 5,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 3 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "agiota",
+        "name": "AGIOTA",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "break-dance",
+        "name": "BREAK DANCE",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "major-oak",
+        "name": "MAJOR OAK",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "crowdfunding",
+        "name": "CROWDFUNDING",
+        "number": 12,
+        "signals": [
+          "cote fondue de -40% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 1 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "fou-furieux",
+        "name": "FOU FURIEUX",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mikey",
+        "name": "MIKEY",
+        "number": 14,
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 4 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "hello-carel",
+      "crowdfunding",
+      "mikey"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "fire-rebel",
+          "sweet-chop",
+          "michael-the-great",
+          "zerostress",
+          "talentuoso",
+          "hello-carel",
+          "agiota",
+          "omicrone",
+          "royalwood",
+          "break-dance",
+          "major-oak",
+          "crowdfunding",
+          "fou-furieux",
+          "mikey",
+          "salalah"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "sweet-chop",
+          "michael-the-great",
+          "zerostress",
+          "talentuoso",
+          "hello-carel",
+          "agiota",
+          "omicrone",
+          "royalwood",
+          "fire-rebel",
+          "break-dance",
+          "major-oak",
+          "crowdfunding",
+          "fou-furieux",
+          "mikey",
+          "salalah"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "talentuoso",
+          "sweet-chop",
+          "michael-the-great",
+          "zerostress",
+          "hello-carel",
+          "agiota",
+          "omicrone",
+          "royalwood",
+          "fire-rebel",
+          "break-dance",
+          "major-oak",
+          "crowdfunding",
+          "fou-furieux",
+          "mikey",
+          "salalah"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "talentuoso",
+          "fire-rebel",
+          "michael-the-great",
+          "break-dance",
+          "omicrone",
+          "fou-furieux",
+          "sweet-chop",
+          "hello-carel",
+          "mikey",
+          "major-oak",
+          "zerostress",
+          "agiota",
+          "royalwood",
+          "crowdfunding",
+          "salalah"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "sweet-chop",
+          "michael-the-great",
+          "zerostress",
+          "talentuoso",
+          "hello-carel",
+          "agiota",
+          "omicrone",
+          "royalwood",
+          "fire-rebel",
+          "break-dance",
+          "major-oak",
+          "crowdfunding",
+          "fou-furieux",
+          "mikey",
+          "salalah"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche impossible (ConnectTimeout)",
+        "fetched_at": "2026-10-27T10:22:25.853181+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "sweet-chop": 0.060111,
+      "michael-the-great": 0.131492,
+      "zerostress": 0.022745,
+      "talentuoso": 0.105194,
+      "hello-carel": 0.040074,
+      "agiota": 0.021039,
+      "omicrone": 0.085873,
+      "royalwood": 0.032367,
+      "fire-rebel": 0.107891,
+      "break-dance": 0.076505,
+      "major-oak": 0.032367,
+      "crowdfunding": 0.056103,
+      "fou-furieux": 0.095631,
+      "mikey": 0.076505,
+      "salalah": 0.056103
+    },
+    "consensus_ranking": [
+      "michael-the-great",
+      "sweet-chop",
+      "talentuoso",
+      "zerostress",
+      "hello-carel",
+      "fire-rebel",
+      "omicrone",
+      "agiota",
+      "break-dance",
+      "royalwood",
+      "major-oak",
+      "fou-furieux",
+      "crowdfunding",
+      "mikey",
+      "salalah"
+    ],
+    "convergence": 0.25,
+    "notes": [
+      "convergence Top 5 interne/externe : 25%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "crowdfunding",
+      "mikey",
+      "break-dance"
+    ],
+    "externe_seulement": [
+      "sweet-chop",
+      "talentuoso",
+      "zerostress"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 5.435,
+    "level": "modérée",
+    "components": {
+      "ecart_scores": 1.451,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 2.5,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · SWEET CHOP : aptitude",
+      "n°2 · MICHAEL THE GREAT : aptitude",
+      "n°3 · ZEROSTRESS : aptitude",
+      "n°4 · TALENTUOSO : aptitude",
+      "n°5 · HELLO CAREL : aptitude",
+      "n°6 · AGIOTA : aptitude",
+      "n°7 · OMICRONE : aptitude",
+      "n°8 · ROYALWOOD : aptitude",
+      "n°9 · FIRE REBEL : aptitude",
+      "n°10 · BREAK DANCE : aptitude",
+      "n°11 · MAJOR OAK : aptitude",
+      "n°12 · CROWDFUNDING : aptitude",
+      "n°13 · FOU FURIEUX : aptitude",
+      "n°14 · MIKEY : aptitude",
+      "n°15 · SALALAH : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.29 (saturé à 2.0) → 1.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 25% → 2.5/10",
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-27T12:55:00+00:00",
+    "betting_close": "2026-10-27T12:45:00+00:00",
+    "race_started": false,
+    "now": "2026-10-27T10:24:50.062792+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 140.17,
+    "schedule": {
+      "start_ouagadougou": "2026-10-27T12:55:00+00:00",
+      "start_paris": "2026-10-27T13:55:00+01:00",
+      "close_lonab": "2026-10-27T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 12,
+      "cheval": "CROWDFUNDING",
+      "horse_id": "crowdfunding"
+    },
+    {
+      "rang": 2,
+      "numero": 2,
+      "cheval": "MICHAEL THE GREAT",
+      "horse_id": "michael-the-great"
+    },
+    {
+      "rang": 3,
+      "numero": 5,
+      "cheval": "HELLO CAREL",
+      "horse_id": "hello-carel"
+    },
+    {
+      "rang": 4,
+      "numero": 14,
+      "cheval": "MIKEY",
+      "horse_id": "mikey"
+    },
+    {
+      "rang": 5,
+      "numero": 10,
+      "cheval": "BREAK DANCE",
+      "horse_id": "break-dance"
+    },
+    {
+      "rang": 6,
+      "numero": 3,
+      "cheval": "ZEROSTRESS",
+      "horse_id": "zerostress"
+    },
+    {
+      "rang": 7,
+      "numero": 4,
+      "cheval": "TALENTUOSO",
+      "horse_id": "talentuoso"
+    },
+    {
+      "rang": 8,
+      "numero": 15,
+      "cheval": "SALALAH",
+      "horse_id": "salalah"
+    },
+    {
+      "rang": 9,
+      "numero": 6,
+      "cheval": "AGIOTA",
+      "horse_id": "agiota"
+    },
+    {
+      "rang": 10,
+      "numero": 1,
+      "cheval": "SWEET CHOP",
+      "horse_id": "sweet-chop"
+    },
+    {
+      "rang": 11,
+      "numero": 7,
+      "cheval": "OMICRONE",
+      "horse_id": "omicrone"
+    },
+    {
+      "rang": 12,
+      "numero": 8,
+      "cheval": "ROYALWOOD",
+      "horse_id": "royalwood"
+    },
+    {
+      "rang": 13,
+      "numero": 13,
+      "cheval": "FOU FURIEUX",
+      "horse_id": "fou-furieux"
+    },
+    {
+      "rang": 14,
+      "numero": 9,
+      "cheval": "FIRE REBEL",
+      "horse_id": "fire-rebel"
+    },
+    {
+      "rang": 15,
+      "numero": 11,
+      "cheval": "MAJOR OAK",
+      "horse_id": "major-oak"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 12,
+      "cheval": "CROWDFUNDING",
+      "score": 8.1221
+    },
+    {
+      "numero": 2,
+      "cheval": "MICHAEL THE GREAT",
+      "score": 7.8319
+    },
+    {
+      "numero": 5,
+      "cheval": "HELLO CAREL",
+      "score": 7.417
+    },
+    {
+      "numero": 14,
+      "cheval": "MIKEY",
+      "score": 7.3206
+    },
+    {
+      "numero": 10,
+      "cheval": "BREAK DANCE",
+      "score": 6.4044
+    },
+    {
+      "numero": 3,
+      "cheval": "ZEROSTRESS",
+      "score": 5.7479
+    },
+    {
+      "numero": 4,
+      "cheval": "TALENTUOSO",
+      "score": 5.7437
+    },
+    {
+      "numero": 15,
+      "cheval": "SALALAH",
+      "score": 5.52
+    },
+    {
+      "numero": 6,
+      "cheval": "AGIOTA",
+      "score": 5.5006
+    },
+    {
+      "numero": 1,
+      "cheval": "SWEET CHOP",
+      "score": 5.4655
+    },
+    {
+      "numero": 7,
+      "cheval": "OMICRONE",
+      "score": 5.2069
+    },
+    {
+      "numero": 8,
+      "cheval": "ROYALWOOD",
+      "score": 4.7685
+    },
+    {
+      "numero": 13,
+      "cheval": "FOU FURIEUX",
+      "score": 4.6478
+    },
+    {
+      "numero": 9,
+      "cheval": "FIRE REBEL",
+      "score": 4.6172
+    },
+    {
+      "numero": 11,
+      "cheval": "MAJOR OAK",
+      "score": 2.3076
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 11.7368,
+      "entropie_norm": 0.947,
+      "p_favori": 0.1377,
+      "ratio_1_2": 1.2392
+    },
+    "p_gagnant_dans_selection": 0.5353,
+    "nb_attendu_dans_top5": 2.176,
+    "p_au_moins": {
+      "1": 0.9761,
+      "2": 0.7777,
+      "3": 0.3579,
+      "4": 0.0619,
+      "5": 0.0018
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-27T10:15:01+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "36 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 2,
+        "cheval": "MICHAEL THE GREAT",
+        "cote": 6.4,
+        "p_gagne": 0.1377,
+        "p_top3": 0.3147,
+        "p_top5": 0.4878,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 9,
+        "cheval": "FIRE REBEL",
+        "cote": 7.8,
+        "p_gagne": 0.1111,
+        "p_top3": 0.2774,
+        "p_top5": 0.4399,
+        "rang_systeme": 14
+      },
+      {
+        "numero": 4,
+        "cheval": "TALENTUOSO",
+        "cote": 8.0,
+        "p_gagne": 0.1081,
+        "p_top3": 0.2771,
+        "p_top5": 0.4356,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 13,
+        "cheval": "FOU FURIEUX",
+        "cote": 8.8,
+        "p_gagne": 0.0975,
+        "p_top3": 0.2603,
+        "p_top5": 0.4195,
+        "rang_systeme": 13
+      },
+      {
+        "numero": 7,
+        "cheval": "OMICRONE",
+        "cote": 9.8,
+        "p_gagne": 0.0867,
+        "p_top3": 0.2417,
+        "p_top5": 0.3928,
+        "rang_systeme": 11
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-10-27T10:24:50.138231+00:00"
+}
