@@ -149,6 +149,18 @@ jobs:
             fi
           fi
 
+      - name: Enregistrer l'analyse dans le dépôt (avant la surveillance)
+        if: steps.deja.outputs.skip != 'true'
+        run: |
+          git config user.name "hyperion-bot"
+          git config user.email "hyperion-bot@users.noreply.github.com"
+          for d in data/runs; do [ -e "$d" ] && git add -A "$d"; done; true
+          if git diff --cached --quiet; then echo "Rien a committer."; else
+            git commit -m "chore(runs): analyse du $(date -u +%F)"
+            git pull --rebase -q origin main || true
+            git push
+          fi
+
       - name: Surveillance du marché jusqu'au départ (mode vivant)
         if: steps.deja.outputs.skip != 'true' && (github.event.schedule == '23 6 * * *' || github.event.inputs.attendre == 'true')
         continue-on-error: true
@@ -178,7 +190,7 @@ jobs:
         run: |
           git config user.name "hyperion-bot"
           git config user.email "hyperion-bot@users.noreply.github.com"
-          git add -A data/runs data/evaluations data/live || true
+          for d in data/runs data/evaluations data/live; do [ -e "$d" ] && git add -A "$d"; done; true
           if git diff --cached --quiet; then
             echo "Rien a committer."
           else

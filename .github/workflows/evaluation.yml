@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "hyperion-bot"
           git config user.email "hyperion-bot@users.noreply.github.com"
-          git add -A data/evaluations || true
+          for d in data/evaluations; do [ -e "$d" ] && git add -A "$d"; done; true
           if git diff --cached --quiet; then echo "Rien a committer."; else
             git commit -m "chore(evaluations): bilans du $(date -u +%F)"
             git pull --rebase -q origin main || true
