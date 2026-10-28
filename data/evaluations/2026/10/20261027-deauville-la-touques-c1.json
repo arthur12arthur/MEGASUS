@@ -1,0 +1,31 @@
+{
+  "race_id": "20261027-deauville-la-touques-c1",
+  "date": "2026-10-27",
+  "course": "PRIX D'UTAH BEACH",
+  "arrivee_top5": [
+    10,
+    6,
+    9,
+    15,
+    3
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": true,
+  "favori_marche": 2,
+  "favori_marche_place": 11,
+  "selection": [
+    2,
+    9,
+    4,
+    13,
+    7
+  ],
+  "bons_dans_top5": 1,
+  "gagnant_dans_selection": false,
+  "classe": "ouverte",
+  "attendu_bons": 2.176,
+  "attendu_gagnant_inclus": 0.5353,
+  "attendu_au_moins_3": 0.3579,
+  "au_moins_3_reel": false,
+  "criteres_respectes": false
+}
