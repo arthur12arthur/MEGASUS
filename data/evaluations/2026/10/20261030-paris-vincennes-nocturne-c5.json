@@ -1,0 +1,31 @@
+{
+  "race_id": "20261030-paris-vincennes-nocturne-c5",
+  "date": "2026-10-30",
+  "course": "PRIX MEBSUTA",
+  "arrivee_top5": [
+    7,
+    12,
+    5,
+    3,
+    4
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 10,
+  "favori_marche_place": 9,
+  "selection": [
+    10,
+    17,
+    13,
+    16,
+    12
+  ],
+  "bons_dans_top5": 1,
+  "gagnant_dans_selection": false,
+  "classe": "ouverte",
+  "attendu_bons": 2.391,
+  "attendu_gagnant_inclus": 0.6558,
+  "attendu_au_moins_3": 0.4553,
+  "au_moins_3_reel": false,
+  "criteres_respectes": false
+}
