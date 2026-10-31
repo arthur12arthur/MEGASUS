@@ -1,0 +1,2105 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261031-deauville-la-touques-c3",
+  "date": "2026-10-31",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-LA TOUQUES",
+    "date": "2026-10-31",
+    "start_time": "2026-10-31T14:15:00+00:00",
+    "race_number": 3,
+    "name": "PRIX DU PAYS DE BRAY",
+    "distance_m": 1900,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_31-10-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-10-31T14:05:00+00:00",
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-10-31T11:24:57.991229+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "zelzara",
+        "name": "ZELZARA",
+        "number": 1,
+        "odds_pdf": 14.0,
+        "odds_latest": 13.0,
+        "delta": -0.07142857142857142,
+        "implied_shift": -0.005494505494505503,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "number": 2,
+        "odds_pdf": 25.0,
+        "odds_latest": 31.0,
+        "delta": 0.24,
+        "implied_shift": 0.0077419354838709695,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "louiza",
+        "name": "LOUIZA",
+        "number": 3,
+        "odds_pdf": 15.0,
+        "odds_latest": 16.0,
+        "delta": 0.06666666666666667,
+        "implied_shift": 0.004166666666666666,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "bon-viveur",
+        "name": "BON VIVEUR",
+        "number": 4,
+        "odds_pdf": 16.0,
+        "odds_latest": 13.0,
+        "delta": -0.1875,
+        "implied_shift": -0.014423076923076927,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "crackon",
+        "name": "CRACKON",
+        "number": 5,
+        "odds_pdf": 17.0,
+        "odds_latest": 14.0,
+        "delta": -0.17647058823529413,
+        "implied_shift": -0.01260504201680672,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "number": 6,
+        "odds_pdf": 7.0,
+        "odds_latest": 5.8,
+        "delta": -0.17142857142857146,
+        "implied_shift": -0.029556650246305438,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "palm-springs",
+        "name": "PALM SPRINGS",
+        "number": 7,
+        "odds_pdf": 10.0,
+        "odds_latest": 9.8,
+        "delta": -0.019999999999999928,
+        "implied_shift": -0.002040816326530595,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 8,
+        "odds_pdf": 23.0,
+        "odds_latest": 15.0,
+        "delta": -0.34782608695652173,
+        "implied_shift": -0.02318840579710145,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "amie-amour",
+        "name": "AMIE AMOUR",
+        "number": 9,
+        "odds_pdf": 11.0,
+        "odds_latest": 6.1,
+        "delta": -0.4454545454545455,
+        "implied_shift": -0.0730253353204173,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "number": 10,
+        "odds_pdf": 18.0,
+        "odds_latest": 41.0,
+        "delta": 1.2777777777777777,
+        "implied_shift": 0.031165311653116527,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "number": 11,
+        "odds_pdf": 6.0,
+        "odds_latest": 6.9,
+        "delta": 0.15000000000000005,
+        "implied_shift": 0.021739130434782594,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ingeborg",
+        "name": "INGEBORG",
+        "number": 12,
+        "odds_pdf": 42.0,
+        "odds_latest": 36.0,
+        "delta": -0.14285714285714285,
+        "implied_shift": -0.003968253968253968,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "number": 13,
+        "odds_pdf": 59.0,
+        "odds_latest": 42.0,
+        "delta": -0.288135593220339,
+        "implied_shift": -0.006860371267150927,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "parvage",
+        "name": "PARVAGE",
+        "number": 15,
+        "odds_pdf": 31.0,
+        "odds_latest": 23.0,
+        "delta": -0.25806451612903225,
+        "implied_shift": -0.011220196353436185,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "marasi-drive",
+        "name": "MARASI DRIVE",
+        "number": 16,
+        "odds_pdf": 28.0,
+        "odds_latest": 17.0,
+        "delta": -0.39285714285714285,
+        "implied_shift": -0.023109243697478993,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "zelzara",
+      "wood-ming",
+      "louiza",
+      "bon-viveur",
+      "crackon",
+      "victory-pace",
+      "palm-springs",
+      "natorspeed-essef",
+      "amie-amour",
+      "il-magistero",
+      "mister-black",
+      "ingeborg",
+      "blanc-carat",
+      "parvage",
+      "marasi-drive"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.47196198595398,
+          "forme": 8.082089552238807,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 8.8604,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "number": 2,
+        "dimensions": {
+          "historique": 9.676866909688249,
+          "forme": 5.850746268656716,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.9934,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.55454550902526,
+          "forme": 5.611940298507463,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.8198,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "louiza",
+        "name": "LOUIZA",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.561453946007592,
+          "forme": 5.432835820895522,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.7449,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "amie-amour",
+        "name": "AMIE AMOUR",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.641280835873481,
+          "forme": 7.850746268656716,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.1734,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "parvage",
+        "name": "PARVAGE",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.575720631181627,
+          "forme": 7.402985074626865,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.9397,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.417501676772755,
+          "forme": 7.2388059701492535,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.7789,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zelzara",
+        "name": "ZELZARA",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.083333333333334,
+          "forme": 6.164179104477611,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.6789,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "marasi-drive",
+        "name": "MARASI DRIVE",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.142473873137323,
+          "forme": 5.611940298507463,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.469,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bon-viveur",
+        "name": "BON VIVEUR",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.505037429252664,
+          "forme": 4.985074626865671,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.3963,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "number": 11,
+        "dimensions": {
+          "historique": 6.339107333913355,
+          "forme": 6.08955223880597,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2293,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "crackon",
+        "name": "CRACKON",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.132143132481161,
+          "forme": 4.462686567164178,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9576,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "palm-springs",
+        "name": "PALM SPRINGS",
+        "number": 7,
+        "dimensions": {
+          "historique": 6.249879039509292,
+          "forme": 5.179104477611941,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7787,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ingeborg",
+        "name": "INGEBORG",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.567079825716297,
+          "forme": 4.537313432835821,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.674,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "number": 13,
+        "dimensions": {
+          "historique": 6.316170539485217,
+          "forme": 3.462686567164179,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.0606,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "natorspeed-essef",
+      "wood-ming",
+      "il-magistero",
+      "louiza",
+      "amie-amour",
+      "parvage",
+      "victory-pace",
+      "zelzara",
+      "marasi-drive",
+      "bon-viveur",
+      "mister-black",
+      "crackon",
+      "palm-springs",
+      "ingeborg",
+      "blanc-carat"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "zelzara": {
+          "horse_id": "zelzara",
+          "name": "ZELZARA",
+          "p_win": 0.05676,
+          "p_top3": 0.17518,
+          "p_top5": 0.30414,
+          "expected_position": 8.1294,
+          "position_distribution": {
+            "1": 0.05676,
+            "2": 0.05782,
+            "3": 0.0606,
+            "4": 0.06324,
+            "5": 0.06572,
+            "6": 0.06706,
+            "7": 0.0693,
+            "8": 0.07288,
+            "9": 0.07534,
+            "10": 0.07618,
+            "11": 0.07818,
+            "12": 0.07528,
+            "13": 0.0697,
+            "14": 0.06522,
+            "15": 0.04672
+          }
+        },
+        "wood-ming": {
+          "horse_id": "wood-ming",
+          "name": "WOOD MING",
+          "p_win": 0.10872,
+          "p_top3": 0.31894,
+          "p_top5": 0.51066,
+          "expected_position": 5.8571,
+          "position_distribution": {
+            "1": 0.10872,
+            "2": 0.10764,
+            "3": 0.10258,
+            "4": 0.09782,
+            "5": 0.0939,
+            "6": 0.0869,
+            "7": 0.08206,
+            "8": 0.07318,
+            "9": 0.06566,
+            "10": 0.05618,
+            "11": 0.04542,
+            "12": 0.03492,
+            "13": 0.02418,
+            "14": 0.01502,
+            "15": 0.00582
+          }
+        },
+        "louiza": {
+          "horse_id": "louiza",
+          "name": "LOUIZA",
+          "p_win": 0.0949,
+          "p_top3": 0.28694,
+          "p_top5": 0.4643,
+          "expected_position": 6.2807,
+          "position_distribution": {
+            "1": 0.0949,
+            "2": 0.09506,
+            "3": 0.09698,
+            "4": 0.09018,
+            "5": 0.08718,
+            "6": 0.08596,
+            "7": 0.08106,
+            "8": 0.07712,
+            "9": 0.07038,
+            "10": 0.06238,
+            "11": 0.05364,
+            "12": 0.0432,
+            "13": 0.0333,
+            "14": 0.02048,
+            "15": 0.00818
+          }
+        },
+        "bon-viveur": {
+          "horse_id": "bon-viveur",
+          "name": "BON VIVEUR",
+          "p_win": 0.04888,
+          "p_top3": 0.15216,
+          "p_top5": 0.26756,
+          "expected_position": 8.675,
+          "position_distribution": {
+            "1": 0.04888,
+            "2": 0.0507,
+            "3": 0.05258,
+            "4": 0.05652,
+            "5": 0.05888,
+            "6": 0.06156,
+            "7": 0.06304,
+            "8": 0.06732,
+            "9": 0.0715,
+            "10": 0.07336,
+            "11": 0.07876,
+            "12": 0.0831,
+            "13": 0.08366,
+            "14": 0.08304,
+            "15": 0.0671
+          }
+        },
+        "crackon": {
+          "horse_id": "crackon",
+          "name": "CRACKON",
+          "p_win": 0.04062,
+          "p_top3": 0.12384,
+          "p_top5": 0.21936,
+          "expected_position": 9.4135,
+          "position_distribution": {
+            "1": 0.04062,
+            "2": 0.0398,
+            "3": 0.04342,
+            "4": 0.04656,
+            "5": 0.04896,
+            "6": 0.05366,
+            "7": 0.05694,
+            "8": 0.06112,
+            "9": 0.06556,
+            "10": 0.07098,
+            "11": 0.07824,
+            "12": 0.08392,
+            "13": 0.09668,
+            "14": 0.10502,
+            "15": 0.10852
+          }
+        },
+        "victory-pace": {
+          "horse_id": "victory-pace",
+          "name": "VICTORY PACE",
+          "p_win": 0.05902,
+          "p_top3": 0.18302,
+          "p_top5": 0.31366,
+          "expected_position": 8.0074,
+          "position_distribution": {
+            "1": 0.05902,
+            "2": 0.06134,
+            "3": 0.06266,
+            "4": 0.06376,
+            "5": 0.06688,
+            "6": 0.0682,
+            "7": 0.07112,
+            "8": 0.07248,
+            "9": 0.07298,
+            "10": 0.07682,
+            "11": 0.07762,
+            "12": 0.0746,
+            "13": 0.0698,
+            "14": 0.06088,
+            "15": 0.04184
+          }
+        },
+        "palm-springs": {
+          "horse_id": "palm-springs",
+          "name": "PALM SPRINGS",
+          "p_win": 0.0365,
+          "p_top3": 0.11356,
+          "p_top5": 0.20466,
+          "expected_position": 9.7095,
+          "position_distribution": {
+            "1": 0.0365,
+            "2": 0.03758,
+            "3": 0.03948,
+            "4": 0.04404,
+            "5": 0.04706,
+            "6": 0.04764,
+            "7": 0.05508,
+            "8": 0.05876,
+            "9": 0.06224,
+            "10": 0.06782,
+            "11": 0.07444,
+            "12": 0.08698,
+            "13": 0.09644,
+            "14": 0.1173,
+            "15": 0.12864
+          }
+        },
+        "natorspeed-essef": {
+          "horse_id": "natorspeed-essef",
+          "name": "NATORSPEED ESSEF",
+          "p_win": 0.16558,
+          "p_top3": 0.44762,
+          "p_top5": 0.66576,
+          "expected_position": 4.5653,
+          "position_distribution": {
+            "1": 0.16558,
+            "2": 0.14828,
+            "3": 0.13376,
+            "4": 0.11712,
+            "5": 0.10102,
+            "6": 0.08438,
+            "7": 0.07078,
+            "8": 0.05566,
+            "9": 0.0435,
+            "10": 0.0327,
+            "11": 0.02112,
+            "12": 0.014,
+            "13": 0.00776,
+            "14": 0.00354,
+            "15": 0.0008
+          }
+        },
+        "amie-amour": {
+          "horse_id": "amie-amour",
+          "name": "AMIE AMOUR",
+          "p_win": 0.07352,
+          "p_top3": 0.22046,
+          "p_top5": 0.37328,
+          "expected_position": 7.2583,
+          "position_distribution": {
+            "1": 0.07352,
+            "2": 0.07316,
+            "3": 0.07378,
+            "4": 0.07634,
+            "5": 0.07648,
+            "6": 0.07804,
+            "7": 0.07696,
+            "8": 0.07612,
+            "9": 0.0756,
+            "10": 0.07224,
+            "11": 0.06838,
+            "12": 0.0611,
+            "13": 0.0542,
+            "14": 0.04052,
+            "15": 0.02356
+          }
+        },
+        "il-magistero": {
+          "horse_id": "il-magistero",
+          "name": "IL MAGISTERO",
+          "p_win": 0.09868,
+          "p_top3": 0.28878,
+          "p_top5": 0.47208,
+          "expected_position": 6.1929,
+          "position_distribution": {
+            "1": 0.09868,
+            "2": 0.09798,
+            "3": 0.09212,
+            "4": 0.09314,
+            "5": 0.09016,
+            "6": 0.08954,
+            "7": 0.0825,
+            "8": 0.07458,
+            "9": 0.06858,
+            "10": 0.06256,
+            "11": 0.05192,
+            "12": 0.04058,
+            "13": 0.03,
+            "14": 0.01862,
+            "15": 0.00904
+          }
+        },
+        "mister-black": {
+          "horse_id": "mister-black",
+          "name": "MISTER BLACK",
+          "p_win": 0.04458,
+          "p_top3": 0.14236,
+          "p_top5": 0.24978,
+          "expected_position": 8.9412,
+          "position_distribution": {
+            "1": 0.04458,
+            "2": 0.04734,
+            "3": 0.05044,
+            "4": 0.05176,
+            "5": 0.05566,
+            "6": 0.05672,
+            "7": 0.06104,
+            "8": 0.06636,
+            "9": 0.0693,
+            "10": 0.07528,
+            "11": 0.07724,
+            "12": 0.08548,
+            "13": 0.0884,
+            "14": 0.0903,
+            "15": 0.0801
+          }
+        },
+        "ingeborg": {
+          "horse_id": "ingeborg",
+          "name": "INGEBORG",
+          "p_win": 0.03338,
+          "p_top3": 0.10786,
+          "p_top5": 0.19138,
+          "expected_position": 9.9033,
+          "position_distribution": {
+            "1": 0.03338,
+            "2": 0.03596,
+            "3": 0.03852,
+            "4": 0.04002,
+            "5": 0.0435,
+            "6": 0.04808,
+            "7": 0.05124,
+            "8": 0.055,
+            "9": 0.06132,
+            "10": 0.06958,
+            "11": 0.07664,
+            "12": 0.08398,
+            "13": 0.10176,
+            "14": 0.11896,
+            "15": 0.14206
+          }
+        },
+        "blanc-carat": {
+          "horse_id": "blanc-carat",
+          "name": "BLANC CARAT",
+          "p_win": 0.02486,
+          "p_top3": 0.08098,
+          "p_top5": 0.14474,
+          "expected_position": 10.8821,
+          "position_distribution": {
+            "1": 0.02486,
+            "2": 0.02722,
+            "3": 0.0289,
+            "4": 0.03096,
+            "5": 0.0328,
+            "6": 0.03662,
+            "7": 0.04044,
+            "8": 0.04598,
+            "9": 0.0508,
+            "10": 0.05652,
+            "11": 0.06688,
+            "12": 0.07812,
+            "13": 0.10084,
+            "14": 0.1347,
+            "15": 0.24436
+          }
+        },
+        "parvage": {
+          "horse_id": "parvage",
+          "name": "PARVAGE",
+          "p_win": 0.06298,
+          "p_top3": 0.19804,
+          "p_top5": 0.34092,
+          "expected_position": 7.6832,
+          "position_distribution": {
+            "1": 0.06298,
+            "2": 0.0671,
+            "3": 0.06796,
+            "4": 0.07026,
+            "5": 0.07262,
+            "6": 0.07232,
+            "7": 0.072,
+            "8": 0.07328,
+            "9": 0.07494,
+            "10": 0.07356,
+            "11": 0.07438,
+            "12": 0.07188,
+            "13": 0.0638,
+            "14": 0.05016,
+            "15": 0.03276
+          }
+        },
+        "marasi-drive": {
+          "horse_id": "marasi-drive",
+          "name": "MARASI DRIVE",
+          "p_win": 0.05102,
+          "p_top3": 0.16026,
+          "p_top5": 0.27772,
+          "expected_position": 8.5011,
+          "position_distribution": {
+            "1": 0.05102,
+            "2": 0.05302,
+            "3": 0.05622,
+            "4": 0.05828,
+            "5": 0.05918,
+            "6": 0.06332,
+            "7": 0.06644,
+            "8": 0.07016,
+            "9": 0.0723,
+            "10": 0.07384,
+            "11": 0.07714,
+            "12": 0.08286,
+            "13": 0.07948,
+            "14": 0.07624,
+            "15": 0.0605
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "natorspeed-essef",
+          "wood-ming",
+          "il-magistero"
+        ],
+        "23": [
+          "natorspeed-essef",
+          "wood-ming",
+          "il-magistero"
+        ],
+        "37": [
+          "natorspeed-essef",
+          "wood-ming",
+          "il-magistero"
+        ],
+        "51": [
+          "natorspeed-essef",
+          "wood-ming",
+          "il-magistero"
+        ],
+        "73": [
+          "natorspeed-essef",
+          "wood-ming",
+          "il-magistero"
+        ]
+      },
+      "reference_top": [
+        "il-magistero",
+        "natorspeed-essef",
+        "wood-ming"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "natorspeed-essef": 10.0,
+        "wood-ming": 5.0,
+        "il-magistero": 0.0
+      },
+      "order": [
+        "natorspeed-essef",
+        "wood-ming",
+        "il-magistero"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "natorspeed-essef": 14.0,
+        "wood-ming": 13.0,
+        "il-magistero": 12.0,
+        "louiza": 11.0,
+        "amie-amour": 10.0,
+        "parvage": 9.0,
+        "victory-pace": 8.0,
+        "zelzara": 7.0,
+        "marasi-drive": 6.0,
+        "bon-viveur": 5.0,
+        "mister-black": 4.0,
+        "crackon": 3.0,
+        "palm-springs": 2.0,
+        "ingeborg": 1.0,
+        "blanc-carat": 0.0
+      },
+      "order": [
+        "natorspeed-essef",
+        "wood-ming",
+        "il-magistero",
+        "louiza",
+        "amie-amour",
+        "parvage",
+        "victory-pace",
+        "zelzara",
+        "marasi-drive",
+        "bon-viveur",
+        "mister-black",
+        "crackon",
+        "palm-springs",
+        "ingeborg",
+        "blanc-carat"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "natorspeed-essef",
+        "wood-ming",
+        "il-magistero",
+        "louiza",
+        "amie-amour",
+        "parvage",
+        "victory-pace",
+        "zelzara",
+        "marasi-drive",
+        "bon-viveur",
+        "mister-black",
+        "crackon",
+        "palm-springs",
+        "ingeborg",
+        "blanc-carat"
+      ],
+      "copeland": {
+        "natorspeed-essef": 14.0,
+        "wood-ming": 12.0,
+        "il-magistero": 10.0,
+        "louiza": 8.0,
+        "amie-amour": 6.0,
+        "parvage": 4.0,
+        "victory-pace": 2.0,
+        "zelzara": 0.0,
+        "marasi-drive": -2.0,
+        "bon-viveur": -4.0,
+        "mister-black": -6.0,
+        "crackon": -8.0,
+        "palm-springs": -10.0,
+        "ingeborg": -12.0,
+        "blanc-carat": -14.0
+      },
+      "normalized": {
+        "natorspeed-essef": 1.0,
+        "wood-ming": 0.9286,
+        "il-magistero": 0.8571,
+        "louiza": 0.7857,
+        "amie-amour": 0.7143,
+        "parvage": 0.6429,
+        "victory-pace": 0.5714,
+        "zelzara": 0.5,
+        "marasi-drive": 0.4286,
+        "bon-viveur": 0.3571,
+        "mister-black": 0.2857,
+        "crackon": 0.2143,
+        "palm-springs": 0.1429,
+        "ingeborg": 0.0714,
+        "blanc-carat": 0.0
+      },
+      "mean_rank": {
+        "natorspeed-essef": 0.0,
+        "wood-ming": 1.0,
+        "il-magistero": 2.0,
+        "louiza": 3.0,
+        "amie-amour": 4.0,
+        "parvage": 5.0,
+        "victory-pace": 6.0,
+        "zelzara": 7.0,
+        "marasi-drive": 8.0,
+        "bon-viveur": 9.0,
+        "mister-black": 10.0,
+        "crackon": 11.0,
+        "palm-springs": 12.0,
+        "ingeborg": 13.0,
+        "blanc-carat": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "zelzara",
+        "name": "ZELZARA",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "wood-ming",
+        "name": "WOOD MING",
+        "number": 2,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 2 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "louiza",
+        "name": "LOUIZA",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "bon-viveur",
+        "name": "BON VIVEUR",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "crackon",
+        "name": "CRACKON",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "victory-pace",
+        "name": "VICTORY PACE",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "palm-springs",
+        "name": "PALM SPRINGS",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 8,
+        "signals": [
+          "cote fondue de -35% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 1 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "amie-amour",
+        "name": "AMIE AMOUR",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "il-magistero",
+        "name": "IL MAGISTERO",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mister-black",
+        "name": "MISTER BLACK",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ingeborg",
+        "name": "INGEBORG",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "blanc-carat",
+        "name": "BLANC CARAT",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "parvage",
+        "name": "PARVAGE",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "marasi-drive",
+        "name": "MARASI DRIVE",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "wood-ming",
+      "natorspeed-essef",
+      "il-magistero"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "zelzara",
+          "wood-ming",
+          "louiza",
+          "bon-viveur",
+          "crackon",
+          "victory-pace",
+          "palm-springs",
+          "natorspeed-essef",
+          "amie-amour",
+          "il-magistero",
+          "mister-black",
+          "ingeborg",
+          "blanc-carat",
+          "parvage",
+          "marasi-drive"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "zelzara",
+          "wood-ming",
+          "louiza",
+          "bon-viveur",
+          "crackon",
+          "victory-pace",
+          "palm-springs",
+          "natorspeed-essef",
+          "amie-amour",
+          "il-magistero",
+          "mister-black",
+          "ingeborg",
+          "blanc-carat",
+          "parvage",
+          "marasi-drive"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "victory-pace",
+          "zelzara",
+          "wood-ming",
+          "louiza",
+          "bon-viveur",
+          "crackon",
+          "palm-springs",
+          "natorspeed-essef",
+          "amie-amour",
+          "il-magistero",
+          "mister-black",
+          "ingeborg",
+          "blanc-carat",
+          "parvage",
+          "marasi-drive"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "victory-pace",
+          "amie-amour",
+          "zelzara",
+          "mister-black",
+          "palm-springs",
+          "marasi-drive",
+          "bon-viveur",
+          "parvage",
+          "wood-ming",
+          "louiza",
+          "crackon",
+          "natorspeed-essef",
+          "il-magistero",
+          "ingeborg",
+          "blanc-carat"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "zelzara",
+          "wood-ming",
+          "louiza",
+          "bon-viveur",
+          "crackon",
+          "victory-pace",
+          "palm-springs",
+          "natorspeed-essef",
+          "amie-amour",
+          "il-magistero",
+          "mister-black",
+          "ingeborg",
+          "blanc-carat",
+          "parvage",
+          "marasi-drive"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-10-31T11:24:52.627441+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "zelzara": 0.066989,
+      "wood-ming": 0.028092,
+      "louiza": 0.054429,
+      "bon-viveur": 0.066989,
+      "crackon": 0.062204,
+      "victory-pace": 0.150148,
+      "palm-springs": 0.088863,
+      "natorspeed-essef": 0.058057,
+      "amie-amour": 0.142763,
+      "il-magistero": 0.02124,
+      "mister-black": 0.126211,
+      "ingeborg": 0.02419,
+      "blanc-carat": 0.020735,
+      "parvage": 0.037863,
+      "marasi-drive": 0.051227
+    },
+    "consensus_ranking": [
+      "zelzara",
+      "wood-ming",
+      "victory-pace",
+      "louiza",
+      "bon-viveur",
+      "crackon",
+      "palm-springs",
+      "amie-amour",
+      "natorspeed-essef",
+      "mister-black",
+      "il-magistero",
+      "ingeborg",
+      "parvage",
+      "marasi-drive",
+      "blanc-carat"
+    ],
+    "convergence": 0.25,
+    "notes": [
+      "convergence Top 5 interne/externe : 25%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "natorspeed-essef",
+      "il-magistero",
+      "amie-amour"
+    ],
+    "externe_seulement": [
+      "zelzara",
+      "victory-pace",
+      "bon-viveur"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 6.301,
+    "level": "modérée",
+    "components": {
+      "ecart_scores": 4.3352,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 2.5,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · ZELZARA : aptitude",
+      "n°2 · WOOD MING : aptitude",
+      "n°3 · LOUIZA : aptitude",
+      "n°4 · BON VIVEUR : aptitude",
+      "n°5 · CRACKON : aptitude",
+      "n°6 · VICTORY PACE : aptitude",
+      "n°7 · PALM SPRINGS : aptitude",
+      "n°8 · NATORSPEED ESSEF : aptitude",
+      "n°9 · AMIE AMOUR : aptitude",
+      "n°10 · IL MAGISTERO : aptitude",
+      "n°11 · MISTER BLACK : aptitude",
+      "n°12 · INGEBORG : aptitude",
+      "n°13 · BLANC CARAT : aptitude",
+      "n°15 · PARVAGE : aptitude",
+      "n°16 · MARASI DRIVE : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.87 (saturé à 2.0) → 4.3/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 25% → 2.5/10",
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-10-31T14:15:00+00:00",
+    "betting_close": "2026-10-31T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-10-31T11:24:58.031053+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 160.03,
+    "schedule": {
+      "start_ouagadougou": "2026-10-31T14:15:00+00:00",
+      "start_paris": "2026-10-31T15:15:00+01:00",
+      "close_lonab": "2026-10-31T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 8,
+      "cheval": "NATORSPEED ESSEF",
+      "horse_id": "natorspeed-essef"
+    },
+    {
+      "rang": 2,
+      "numero": 2,
+      "cheval": "WOOD MING",
+      "horse_id": "wood-ming"
+    },
+    {
+      "rang": 3,
+      "numero": 10,
+      "cheval": "IL MAGISTERO",
+      "horse_id": "il-magistero"
+    },
+    {
+      "rang": 4,
+      "numero": 3,
+      "cheval": "LOUIZA",
+      "horse_id": "louiza"
+    },
+    {
+      "rang": 5,
+      "numero": 9,
+      "cheval": "AMIE AMOUR",
+      "horse_id": "amie-amour"
+    },
+    {
+      "rang": 6,
+      "numero": 15,
+      "cheval": "PARVAGE",
+      "horse_id": "parvage"
+    },
+    {
+      "rang": 7,
+      "numero": 6,
+      "cheval": "VICTORY PACE",
+      "horse_id": "victory-pace"
+    },
+    {
+      "rang": 8,
+      "numero": 1,
+      "cheval": "ZELZARA",
+      "horse_id": "zelzara"
+    },
+    {
+      "rang": 9,
+      "numero": 16,
+      "cheval": "MARASI DRIVE",
+      "horse_id": "marasi-drive"
+    },
+    {
+      "rang": 10,
+      "numero": 4,
+      "cheval": "BON VIVEUR",
+      "horse_id": "bon-viveur"
+    },
+    {
+      "rang": 11,
+      "numero": 11,
+      "cheval": "MISTER BLACK",
+      "horse_id": "mister-black"
+    },
+    {
+      "rang": 12,
+      "numero": 5,
+      "cheval": "CRACKON",
+      "horse_id": "crackon"
+    },
+    {
+      "rang": 13,
+      "numero": 7,
+      "cheval": "PALM SPRINGS",
+      "horse_id": "palm-springs"
+    },
+    {
+      "rang": 14,
+      "numero": 12,
+      "cheval": "INGEBORG",
+      "horse_id": "ingeborg"
+    },
+    {
+      "rang": 15,
+      "numero": 13,
+      "cheval": "BLANC CARAT",
+      "horse_id": "blanc-carat"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 8,
+      "cheval": "NATORSPEED ESSEF",
+      "score": 8.8604
+    },
+    {
+      "numero": 2,
+      "cheval": "WOOD MING",
+      "score": 7.9934
+    },
+    {
+      "numero": 10,
+      "cheval": "IL MAGISTERO",
+      "score": 7.8198
+    },
+    {
+      "numero": 3,
+      "cheval": "LOUIZA",
+      "score": 7.7449
+    },
+    {
+      "numero": 9,
+      "cheval": "AMIE AMOUR",
+      "score": 7.1734
+    },
+    {
+      "numero": 15,
+      "cheval": "PARVAGE",
+      "score": 6.9397
+    },
+    {
+      "numero": 6,
+      "cheval": "VICTORY PACE",
+      "score": 6.7789
+    },
+    {
+      "numero": 1,
+      "cheval": "ZELZARA",
+      "score": 6.6789
+    },
+    {
+      "numero": 16,
+      "cheval": "MARASI DRIVE",
+      "score": 6.469
+    },
+    {
+      "numero": 4,
+      "cheval": "BON VIVEUR",
+      "score": 6.3963
+    },
+    {
+      "numero": 11,
+      "cheval": "MISTER BLACK",
+      "score": 6.2293
+    },
+    {
+      "numero": 5,
+      "cheval": "CRACKON",
+      "score": 5.9576
+    },
+    {
+      "numero": 7,
+      "cheval": "PALM SPRINGS",
+      "score": 5.7787
+    },
+    {
+      "numero": 12,
+      "cheval": "INGEBORG",
+      "score": 5.674
+    },
+    {
+      "numero": 13,
+      "cheval": "BLANC CARAT",
+      "score": 5.0606
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.3631,
+      "entropie_norm": 0.9224,
+      "p_favori": 0.1582,
+      "ratio_1_2": 1.0562
+    },
+    "p_gagnant_dans_selection": 0.5956,
+    "nb_attendu_dans_top5": 2.291,
+    "p_au_moins": {
+      "1": 0.9839,
+      "2": 0.8216,
+      "3": 0.4082,
+      "4": 0.0753,
+      "5": 0.0022
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-10-31T11:15:05+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "41 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 6,
+        "cheval": "VICTORY PACE",
+        "cote": 5.8,
+        "p_gagne": 0.1582,
+        "p_top3": 0.3578,
+        "p_top5": 0.5283,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 9,
+        "cheval": "AMIE AMOUR",
+        "cote": 6.1,
+        "p_gagne": 0.1497,
+        "p_top3": 0.3386,
+        "p_top5": 0.5151,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 11,
+        "cheval": "MISTER BLACK",
+        "cote": 6.9,
+        "p_gagne": 0.131,
+        "p_top3": 0.3059,
+        "p_top5": 0.4788,
+        "rang_systeme": 11
+      },
+      {
+        "numero": 7,
+        "cheval": "PALM SPRINGS",
+        "cote": 9.8,
+        "p_gagne": 0.0896,
+        "p_top3": 0.251,
+        "p_top5": 0.4093,
+        "rang_systeme": 13
+      },
+      {
+        "numero": 1,
+        "cheval": "ZELZARA",
+        "cote": 13.0,
+        "p_gagne": 0.0659,
+        "p_top3": 0.2126,
+        "p_top5": 0.3596,
+        "rang_systeme": 8
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "HONEY PEARL"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-10-31T11:24:58.073204+00:00"
+}
