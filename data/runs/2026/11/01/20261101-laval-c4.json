@@ -1,0 +1,2544 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261101-laval-c4",
+  "date": "2026-11-01",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "LAVAL",
+    "date": "2026-11-01",
+    "start_time": "2026-11-01T14:15:00+00:00",
+    "race_number": 4,
+    "name": "GRAND PRIX DE LA VILLE DE LAVAL",
+    "distance_m": 2850,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-10/JH_PMUB_DU_01-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-01T14:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-01T13:38:27.990666+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "name": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+        "number": 1,
+        "odds_pdf": 47.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 2,
+        "odds_pdf": 21.0,
+        "odds_latest": 15.0,
+        "delta": -0.2857142857142857,
+        "implied_shift": -0.01904761904761905,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jerzinho-sport",
+        "name": "JERZINHO SPORT",
+        "number": 3,
+        "odds_pdf": 38.0,
+        "odds_latest": 63.0,
+        "delta": 0.6578947368421053,
+        "implied_shift": 0.010442773600668337,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "laroze-du-gers",
+        "name": "LAROZE DU GERS",
+        "number": 4,
+        "odds_pdf": 20.0,
+        "odds_latest": 3.1,
+        "delta": -0.845,
+        "implied_shift": -0.2725806451612903,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "far-west-bi",
+        "name": "FAR WEST BI",
+        "number": 5,
+        "odds_pdf": 7.0,
+        "odds_latest": 6.4,
+        "delta": -0.08571428571428566,
+        "implied_shift": -0.01339285714285715,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lemon-tree",
+        "name": "LEMON TREE",
+        "number": 6,
+        "odds_pdf": 18.0,
+        "odds_latest": 14.0,
+        "delta": -0.2222222222222222,
+        "implied_shift": -0.015873015873015872,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "janko-haufor",
+        "name": "JANKO HAUFOR",
+        "number": 7,
+        "odds_pdf": 15.0,
+        "odds_latest": 12.0,
+        "delta": -0.2,
+        "implied_shift": -0.016666666666666663,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jasmine-de-vau",
+        "name": "JASMINE DE VAU",
+        "number": 8,
+        "odds_pdf": 147.0,
+        "odds_latest": 78.0,
+        "delta": -0.46938775510204084,
+        "implied_shift": -0.006017791732077446,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "indy-dark",
+        "name": "INDY DARK",
+        "number": 9,
+        "odds_pdf": 88.0,
+        "odds_latest": 93.0,
+        "delta": 0.056818181818181816,
+        "implied_shift": 0.0006109481915933523,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "illusion-jipad",
+        "name": "ILLUSION JIPAD",
+        "number": 10,
+        "odds_pdf": 117.0,
+        "odds_latest": 130.0,
+        "delta": 0.1111111111111111,
+        "implied_shift": 0.0008547008547008551,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "l-ecrin-d-or",
+        "name": "L'ECRIN D'OR",
+        "number": 11,
+        "odds_pdf": 68.0,
+        "odds_latest": 100.0,
+        "delta": 0.47058823529411764,
+        "implied_shift": 0.004705882352941176,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ibiza-bella",
+        "name": "IBIZA BELLA",
+        "number": 12,
+        "odds_pdf": 28.0,
+        "odds_latest": 27.0,
+        "delta": -0.03571428571428571,
+        "implied_shift": -0.0013227513227513227,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "idylle-express",
+        "name": "IDYLLE EXPRESS",
+        "number": 13,
+        "odds_pdf": 77.0,
+        "odds_latest": 66.0,
+        "delta": -0.14285714285714285,
+        "implied_shift": -0.002164502164502164,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "inshore",
+        "name": "INSHORE",
+        "number": 14,
+        "odds_pdf": 128.0,
+        "odds_latest": 137.0,
+        "delta": 0.0703125,
+        "implied_shift": 0.0005132299270072995,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "isofou-du-chene-p.ph.-ploquin",
+        "name": "ISOFOU DU CHENE P.PH. PLOQUIN",
+        "number": 15,
+        "odds_pdf": 27.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "j-aime-le-foot",
+        "name": "J'AIME LE FOOT",
+        "number": 16,
+        "odds_pdf": 98.0,
+        "odds_latest": 111.0,
+        "delta": 0.1326530612244898,
+        "implied_shift": 0.0011950726236440515,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kanto-avis",
+        "name": "KANTO AVIS",
+        "number": 17,
+        "odds_pdf": 10.0,
+        "odds_latest": 4.9,
+        "delta": -0.51,
+        "implied_shift": -0.1040816326530612,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "king-opera",
+        "name": "KING OPERA",
+        "number": 18,
+        "odds_pdf": 9.0,
+        "odds_latest": 10.0,
+        "delta": 0.1111111111111111,
+        "implied_shift": 0.0111111111111111,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS (jericho-du-rib-c.-hallais-dersoir-joel-hallais) : aucune cote récente disponible",
+      "ISOFOU DU CHENE P.PH. PLOQUIN (isofou-du-chene-p.ph.-ploquin) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+      "jibi-du-fruitier",
+      "jerzinho-sport",
+      "laroze-du-gers",
+      "far-west-bi",
+      "lemon-tree",
+      "janko-haufor",
+      "jasmine-de-vau",
+      "indy-dark",
+      "illusion-jipad",
+      "l-ecrin-d-or",
+      "ibiza-bella",
+      "idylle-express",
+      "inshore",
+      "isofou-du-chene-p.ph.-ploquin",
+      "j-aime-le-foot",
+      "kanto-avis",
+      "king-opera"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "isofou-du-chene-p.ph.-ploquin",
+        "name": "ISOFOU DU CHENE P.PH. PLOQUIN",
+        "number": 15,
+        "dimensions": {
+          "historique": 9.93493758111795,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9349,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "name": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.236876704526809,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.2369,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kanto-avis",
+        "name": "KANTO AVIS",
+        "number": 17,
+        "dimensions": {
+          "historique": 8.812663072017843,
+          "forme": 7.597014925373133,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.2724,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "idylle-express",
+        "name": "IDYLLE EXPRESS",
+        "number": 13,
+        "dimensions": {
+          "historique": 8.711290991878046,
+          "forme": 5.746268656716418,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.3935,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "l-ecrin-d-or",
+        "name": "L'ECRIN D'OR",
+        "number": 11,
+        "dimensions": {
+          "historique": 8.879452920752623,
+          "forme": 4.985074626865671,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.1486,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-opera",
+        "name": "KING OPERA",
+        "number": 18,
+        "dimensions": {
+          "historique": 7.884615384615385,
+          "forme": 6.17910447761194,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.1266,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ibiza-bella",
+        "name": "IBIZA BELLA",
+        "number": 12,
+        "dimensions": {
+          "historique": 9.065405025410293,
+          "forme": 4.365671641791045,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.9766,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "laroze-du-gers",
+        "name": "LAROZE DU GERS",
+        "number": 4,
+        "dimensions": {
+          "historique": 5.261596592571204,
+          "forme": 7.522388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.2664,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "indy-dark",
+        "name": "INDY DARK",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.165739716871533,
+          "forme": 2.4477611940298503,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.18,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "janko-haufor",
+        "name": "JANKO HAUFOR",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.847563129286765,
+          "forme": 2.4776119402985075,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.0165,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jasmine-de-vau",
+        "name": "JASMINE DE VAU",
+        "number": 8,
+        "dimensions": {
+          "historique": 7.100934261389888,
+          "forme": 4.2388059701492535,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.8289,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "far-west-bi",
+        "name": "FAR WEST BI",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.455583502174048,
+          "forme": 3.522388059701492,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.7075,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jerzinho-sport",
+        "name": "JERZINHO SPORT",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.935179518787409,
+          "forme": 2.3358208955223883,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.4466,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lemon-tree",
+        "name": "LEMON TREE",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.481860384787361,
+          "forme": 3.4776119402985075,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.1466,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "j-aime-le-foot",
+        "name": "J'AIME LE FOOT",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.621797948241047,
+          "forme": 0.7761194029850746,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.5793,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "inshore",
+        "name": "INSHORE",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.998797280132054,
+          "forme": 0.29850746268656714,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.5764,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "illusion-jipad",
+        "name": "ILLUSION JIPAD",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.663117575110115,
+          "forme": 0.9701492537313433,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1329,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 2,
+        "dimensions": {
+          "historique": 5.55675157687598,
+          "forme": 1.7761194029850746,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.8765,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "isofou-du-chene-p.ph.-ploquin",
+      "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+      "kanto-avis",
+      "idylle-express",
+      "l-ecrin-d-or",
+      "king-opera",
+      "ibiza-bella",
+      "laroze-du-gers",
+      "indy-dark",
+      "janko-haufor",
+      "jasmine-de-vau",
+      "far-west-bi",
+      "jerzinho-sport",
+      "lemon-tree",
+      "j-aime-le-foot",
+      "inshore",
+      "illusion-jipad",
+      "jibi-du-fruitier"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": {
+          "horse_id": "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "name": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+          "p_win": 0.16422,
+          "p_top3": 0.4581,
+          "p_top5": 0.68836,
+          "expected_position": 4.4164,
+          "position_distribution": {
+            "1": 0.16422,
+            "2": 0.15374,
+            "3": 0.14014,
+            "4": 0.1225,
+            "5": 0.10776,
+            "6": 0.08644,
+            "7": 0.06894,
+            "8": 0.05334,
+            "9": 0.03804,
+            "10": 0.02676,
+            "11": 0.01742,
+            "12": 0.0102,
+            "13": 0.00582,
+            "14": 0.00298,
+            "15": 0.00112,
+            "16": 0.00044,
+            "17": 0.00014
+          }
+        },
+        "jibi-du-fruitier": {
+          "horse_id": "jibi-du-fruitier",
+          "name": "JIBI DU FRUITIER",
+          "p_win": 0.01142,
+          "p_top3": 0.03828,
+          "p_top5": 0.07322,
+          "expected_position": 13.9204,
+          "position_distribution": {
+            "1": 0.01142,
+            "2": 0.01162,
+            "3": 0.01524,
+            "4": 0.01662,
+            "5": 0.01832,
+            "6": 0.0206,
+            "7": 0.02184,
+            "8": 0.02668,
+            "9": 0.03064,
+            "10": 0.03436,
+            "11": 0.0399,
+            "12": 0.0462,
+            "13": 0.05484,
+            "14": 0.06616,
+            "15": 0.08088,
+            "16": 0.10506,
+            "17": 0.14714,
+            "18": 0.25248
+          }
+        },
+        "jerzinho-sport": {
+          "horse_id": "jerzinho-sport",
+          "name": "JERZINHO SPORT",
+          "p_win": 0.024,
+          "p_top3": 0.08288,
+          "p_top5": 0.15308,
+          "expected_position": 11.1356,
+          "position_distribution": {
+            "1": 0.024,
+            "2": 0.02774,
+            "3": 0.03114,
+            "4": 0.03348,
+            "5": 0.03672,
+            "6": 0.04386,
+            "7": 0.04496,
+            "8": 0.0518,
+            "9": 0.05534,
+            "10": 0.0583,
+            "11": 0.06602,
+            "12": 0.07136,
+            "13": 0.07704,
+            "14": 0.0816,
+            "15": 0.08336,
+            "16": 0.08422,
+            "17": 0.07564,
+            "18": 0.05342
+          }
+        },
+        "laroze-du-gers": {
+          "horse_id": "laroze-du-gers",
+          "name": "LAROZE DU GERS",
+          "p_win": 0.03626,
+          "p_top3": 0.12124,
+          "p_top5": 0.2244,
+          "expected_position": 9.5379,
+          "position_distribution": {
+            "1": 0.03626,
+            "2": 0.03998,
+            "3": 0.045,
+            "4": 0.04982,
+            "5": 0.05334,
+            "6": 0.05778,
+            "7": 0.0637,
+            "8": 0.06606,
+            "9": 0.07092,
+            "10": 0.06974,
+            "11": 0.07296,
+            "12": 0.0737,
+            "13": 0.07008,
+            "14": 0.06786,
+            "15": 0.05902,
+            "16": 0.0512,
+            "17": 0.03506,
+            "18": 0.01752
+          }
+        },
+        "far-west-bi": {
+          "horse_id": "far-west-bi",
+          "name": "FAR WEST BI",
+          "p_win": 0.02778,
+          "p_top3": 0.09522,
+          "p_top5": 0.17468,
+          "expected_position": 10.623,
+          "position_distribution": {
+            "1": 0.02778,
+            "2": 0.0317,
+            "3": 0.03574,
+            "4": 0.03726,
+            "5": 0.0422,
+            "6": 0.04692,
+            "7": 0.05172,
+            "8": 0.0542,
+            "9": 0.06042,
+            "10": 0.0645,
+            "11": 0.06828,
+            "12": 0.0751,
+            "13": 0.07316,
+            "14": 0.0801,
+            "15": 0.07878,
+            "16": 0.0723,
+            "17": 0.06174,
+            "18": 0.0381
+          }
+        },
+        "lemon-tree": {
+          "horse_id": "lemon-tree",
+          "name": "LEMON TREE",
+          "p_win": 0.02244,
+          "p_top3": 0.07298,
+          "p_top5": 0.13582,
+          "expected_position": 11.6547,
+          "position_distribution": {
+            "1": 0.02244,
+            "2": 0.02336,
+            "3": 0.02718,
+            "4": 0.02934,
+            "5": 0.0335,
+            "6": 0.03892,
+            "7": 0.04222,
+            "8": 0.04528,
+            "9": 0.04926,
+            "10": 0.05684,
+            "11": 0.05974,
+            "12": 0.06742,
+            "13": 0.07232,
+            "14": 0.07916,
+            "15": 0.0901,
+            "16": 0.09408,
+            "17": 0.09442,
+            "18": 0.07442
+          }
+        },
+        "janko-haufor": {
+          "horse_id": "janko-haufor",
+          "name": "JANKO HAUFOR",
+          "p_win": 0.0328,
+          "p_top3": 0.10924,
+          "p_top5": 0.20146,
+          "expected_position": 10.0546,
+          "position_distribution": {
+            "1": 0.0328,
+            "2": 0.03654,
+            "3": 0.0399,
+            "4": 0.0441,
+            "5": 0.04812,
+            "6": 0.0522,
+            "7": 0.0566,
+            "8": 0.06058,
+            "9": 0.06404,
+            "10": 0.06774,
+            "11": 0.07126,
+            "12": 0.07368,
+            "13": 0.07454,
+            "14": 0.074,
+            "15": 0.06944,
+            "16": 0.06138,
+            "17": 0.04796,
+            "18": 0.02512
+          }
+        },
+        "jasmine-de-vau": {
+          "horse_id": "jasmine-de-vau",
+          "name": "JASMINE DE VAU",
+          "p_win": 0.03152,
+          "p_top3": 0.1004,
+          "p_top5": 0.18718,
+          "expected_position": 10.3631,
+          "position_distribution": {
+            "1": 0.03152,
+            "2": 0.03232,
+            "3": 0.03656,
+            "4": 0.04084,
+            "5": 0.04594,
+            "6": 0.04994,
+            "7": 0.05594,
+            "8": 0.05768,
+            "9": 0.06082,
+            "10": 0.06584,
+            "11": 0.06734,
+            "12": 0.07148,
+            "13": 0.0752,
+            "14": 0.07722,
+            "15": 0.07476,
+            "16": 0.06712,
+            "17": 0.05736,
+            "18": 0.03212
+          }
+        },
+        "indy-dark": {
+          "horse_id": "indy-dark",
+          "name": "INDY DARK",
+          "p_win": 0.03626,
+          "p_top3": 0.11798,
+          "p_top5": 0.21702,
+          "expected_position": 9.6825,
+          "position_distribution": {
+            "1": 0.03626,
+            "2": 0.03932,
+            "3": 0.0424,
+            "4": 0.04888,
+            "5": 0.05016,
+            "6": 0.05736,
+            "7": 0.06056,
+            "8": 0.06524,
+            "9": 0.06814,
+            "10": 0.06986,
+            "11": 0.07198,
+            "12": 0.0719,
+            "13": 0.07406,
+            "14": 0.06998,
+            "15": 0.06298,
+            "16": 0.05402,
+            "17": 0.03812,
+            "18": 0.01878
+          }
+        },
+        "illusion-jipad": {
+          "horse_id": "illusion-jipad",
+          "name": "ILLUSION JIPAD",
+          "p_win": 0.01266,
+          "p_top3": 0.04442,
+          "p_top5": 0.08368,
+          "expected_position": 13.4713,
+          "position_distribution": {
+            "1": 0.01266,
+            "2": 0.01544,
+            "3": 0.01632,
+            "4": 0.01834,
+            "5": 0.02092,
+            "6": 0.0232,
+            "7": 0.02578,
+            "8": 0.0297,
+            "9": 0.03422,
+            "10": 0.03886,
+            "11": 0.04412,
+            "12": 0.05152,
+            "13": 0.05986,
+            "14": 0.06932,
+            "15": 0.08614,
+            "16": 0.1087,
+            "17": 0.14472,
+            "18": 0.20018
+          }
+        },
+        "l-ecrin-d-or": {
+          "horse_id": "l-ecrin-d-or",
+          "name": "L'ECRIN D'OR",
+          "p_win": 0.05636,
+          "p_top3": 0.18642,
+          "p_top5": 0.33278,
+          "expected_position": 7.8349,
+          "position_distribution": {
+            "1": 0.05636,
+            "2": 0.0634,
+            "3": 0.06666,
+            "4": 0.0711,
+            "5": 0.07526,
+            "6": 0.07566,
+            "7": 0.07726,
+            "8": 0.07812,
+            "9": 0.07564,
+            "10": 0.07458,
+            "11": 0.06732,
+            "12": 0.05988,
+            "13": 0.05278,
+            "14": 0.04124,
+            "15": 0.03118,
+            "16": 0.0195,
+            "17": 0.01058,
+            "18": 0.00348
+          }
+        },
+        "ibiza-bella": {
+          "horse_id": "ibiza-bella",
+          "name": "IBIZA BELLA",
+          "p_win": 0.05272,
+          "p_top3": 0.17058,
+          "p_top5": 0.30626,
+          "expected_position": 8.2052,
+          "position_distribution": {
+            "1": 0.05272,
+            "2": 0.0584,
+            "3": 0.05946,
+            "4": 0.06516,
+            "5": 0.07052,
+            "6": 0.07132,
+            "7": 0.07494,
+            "8": 0.07648,
+            "9": 0.07504,
+            "10": 0.07494,
+            "11": 0.06994,
+            "12": 0.06272,
+            "13": 0.05634,
+            "14": 0.04808,
+            "15": 0.03914,
+            "16": 0.02582,
+            "17": 0.0144,
+            "18": 0.00458
+          }
+        },
+        "idylle-express": {
+          "horse_id": "idylle-express",
+          "name": "IDYLLE EXPRESS",
+          "p_win": 0.06494,
+          "p_top3": 0.21176,
+          "p_top5": 0.36814,
+          "expected_position": 7.3697,
+          "position_distribution": {
+            "1": 0.06494,
+            "2": 0.07086,
+            "3": 0.07596,
+            "4": 0.07744,
+            "5": 0.07894,
+            "6": 0.08212,
+            "7": 0.07922,
+            "8": 0.08006,
+            "9": 0.07652,
+            "10": 0.07048,
+            "11": 0.06292,
+            "12": 0.05372,
+            "13": 0.04482,
+            "14": 0.03446,
+            "15": 0.02396,
+            "16": 0.01468,
+            "17": 0.0069,
+            "18": 0.002
+          }
+        },
+        "inshore": {
+          "horse_id": "inshore",
+          "name": "INSHORE",
+          "p_win": 0.01682,
+          "p_top3": 0.055,
+          "p_top5": 0.10222,
+          "expected_position": 12.7404,
+          "position_distribution": {
+            "1": 0.01682,
+            "2": 0.0185,
+            "3": 0.01968,
+            "4": 0.02244,
+            "5": 0.02478,
+            "6": 0.02818,
+            "7": 0.0312,
+            "8": 0.03616,
+            "9": 0.0398,
+            "10": 0.04538,
+            "11": 0.05322,
+            "12": 0.05994,
+            "13": 0.06652,
+            "14": 0.07584,
+            "15": 0.0906,
+            "16": 0.10794,
+            "17": 0.12614,
+            "18": 0.13686
+          }
+        },
+        "isofou-du-chene-p.ph.-ploquin": {
+          "horse_id": "isofou-du-chene-p.ph.-ploquin",
+          "name": "ISOFOU DU CHENE P.PH. PLOQUIN",
+          "p_win": 0.2356,
+          "p_top3": 0.58484,
+          "p_top5": 0.80528,
+          "expected_position": 3.5294,
+          "position_distribution": {
+            "1": 0.2356,
+            "2": 0.19604,
+            "3": 0.1532,
+            "4": 0.12566,
+            "5": 0.09478,
+            "6": 0.0677,
+            "7": 0.04858,
+            "8": 0.03296,
+            "9": 0.02028,
+            "10": 0.01288,
+            "11": 0.0067,
+            "12": 0.00342,
+            "13": 0.00146,
+            "14": 0.00054,
+            "15": 0.00012,
+            "16": 8e-05
+          }
+        },
+        "j-aime-le-foot": {
+          "horse_id": "j-aime-le-foot",
+          "name": "J'AIME LE FOOT",
+          "p_win": 0.01654,
+          "p_top3": 0.0556,
+          "p_top5": 0.10444,
+          "expected_position": 12.731,
+          "position_distribution": {
+            "1": 0.01654,
+            "2": 0.01832,
+            "3": 0.02074,
+            "4": 0.0227,
+            "5": 0.02614,
+            "6": 0.02808,
+            "7": 0.03242,
+            "8": 0.03522,
+            "9": 0.0395,
+            "10": 0.04482,
+            "11": 0.05356,
+            "12": 0.0565,
+            "13": 0.06686,
+            "14": 0.07572,
+            "15": 0.09008,
+            "16": 0.10858,
+            "17": 0.12768,
+            "18": 0.13654
+          }
+        },
+        "kanto-avis": {
+          "horse_id": "kanto-avis",
+          "name": "KANTO AVIS",
+          "p_win": 0.10118,
+          "p_top3": 0.31082,
+          "p_top5": 0.51476,
+          "expected_position": 5.8365,
+          "position_distribution": {
+            "1": 0.10118,
+            "2": 0.10262,
+            "3": 0.10702,
+            "4": 0.10346,
+            "5": 0.10048,
+            "6": 0.09372,
+            "7": 0.0863,
+            "8": 0.07378,
+            "9": 0.06344,
+            "10": 0.05062,
+            "11": 0.0401,
+            "12": 0.03056,
+            "13": 0.02174,
+            "14": 0.01284,
+            "15": 0.0072,
+            "16": 0.00346,
+            "17": 0.0012,
+            "18": 0.00028
+          }
+        },
+        "king-opera": {
+          "horse_id": "king-opera",
+          "name": "KING OPERA",
+          "p_win": 0.05648,
+          "p_top3": 0.18424,
+          "p_top5": 0.32722,
+          "expected_position": 7.8935,
+          "position_distribution": {
+            "1": 0.05648,
+            "2": 0.0601,
+            "3": 0.06766,
+            "4": 0.07086,
+            "5": 0.07212,
+            "6": 0.076,
+            "7": 0.07782,
+            "8": 0.07666,
+            "9": 0.07794,
+            "10": 0.0735,
+            "11": 0.06722,
+            "12": 0.0607,
+            "13": 0.05256,
+            "14": 0.0429,
+            "15": 0.03114,
+            "16": 0.02142,
+            "17": 0.0108,
+            "18": 0.00412
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "isofou-du-chene-p.ph.-ploquin",
+          "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "kanto-avis"
+        ],
+        "23": [
+          "isofou-du-chene-p.ph.-ploquin",
+          "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "kanto-avis"
+        ],
+        "37": [
+          "isofou-du-chene-p.ph.-ploquin",
+          "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "kanto-avis"
+        ],
+        "51": [
+          "isofou-du-chene-p.ph.-ploquin",
+          "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "kanto-avis"
+        ],
+        "73": [
+          "isofou-du-chene-p.ph.-ploquin",
+          "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+          "kanto-avis"
+        ]
+      },
+      "reference_top": [
+        "isofou-du-chene-p.ph.-ploquin",
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "kanto-avis"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "isofou-du-chene-p.ph.-ploquin": 10.0,
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 5.0,
+        "kanto-avis": 0.0
+      },
+      "order": [
+        "isofou-du-chene-p.ph.-ploquin",
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "kanto-avis"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "isofou-du-chene-p.ph.-ploquin": 17.0,
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 16.0,
+        "kanto-avis": 15.0,
+        "idylle-express": 14.0,
+        "l-ecrin-d-or": 13.0,
+        "king-opera": 12.0,
+        "ibiza-bella": 11.0,
+        "laroze-du-gers": 10.0,
+        "indy-dark": 9.0,
+        "janko-haufor": 8.0,
+        "jasmine-de-vau": 7.0,
+        "far-west-bi": 6.0,
+        "jerzinho-sport": 5.0,
+        "lemon-tree": 4.0,
+        "j-aime-le-foot": 3.0,
+        "inshore": 2.0,
+        "illusion-jipad": 1.0,
+        "jibi-du-fruitier": 0.0
+      },
+      "order": [
+        "isofou-du-chene-p.ph.-ploquin",
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "kanto-avis",
+        "idylle-express",
+        "l-ecrin-d-or",
+        "king-opera",
+        "ibiza-bella",
+        "laroze-du-gers",
+        "indy-dark",
+        "janko-haufor",
+        "jasmine-de-vau",
+        "far-west-bi",
+        "jerzinho-sport",
+        "lemon-tree",
+        "j-aime-le-foot",
+        "inshore",
+        "illusion-jipad",
+        "jibi-du-fruitier"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "isofou-du-chene-p.ph.-ploquin",
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "kanto-avis",
+        "idylle-express",
+        "l-ecrin-d-or",
+        "king-opera",
+        "ibiza-bella",
+        "laroze-du-gers",
+        "indy-dark",
+        "janko-haufor",
+        "jasmine-de-vau",
+        "far-west-bi",
+        "jerzinho-sport",
+        "lemon-tree",
+        "j-aime-le-foot",
+        "inshore",
+        "illusion-jipad",
+        "jibi-du-fruitier"
+      ],
+      "copeland": {
+        "isofou-du-chene-p.ph.-ploquin": 17.0,
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 15.0,
+        "kanto-avis": 13.0,
+        "idylle-express": 11.0,
+        "l-ecrin-d-or": 9.0,
+        "king-opera": 7.0,
+        "ibiza-bella": 5.0,
+        "laroze-du-gers": 3.0,
+        "indy-dark": 1.0,
+        "janko-haufor": -1.0,
+        "jasmine-de-vau": -3.0,
+        "far-west-bi": -5.0,
+        "jerzinho-sport": -7.0,
+        "lemon-tree": -9.0,
+        "j-aime-le-foot": -11.0,
+        "inshore": -13.0,
+        "illusion-jipad": -15.0,
+        "jibi-du-fruitier": -17.0
+      },
+      "normalized": {
+        "isofou-du-chene-p.ph.-ploquin": 1.0,
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 0.9412,
+        "kanto-avis": 0.8824,
+        "idylle-express": 0.8235,
+        "l-ecrin-d-or": 0.7647,
+        "king-opera": 0.7059,
+        "ibiza-bella": 0.6471,
+        "laroze-du-gers": 0.5882,
+        "indy-dark": 0.5294,
+        "janko-haufor": 0.4706,
+        "jasmine-de-vau": 0.4118,
+        "far-west-bi": 0.3529,
+        "jerzinho-sport": 0.2941,
+        "lemon-tree": 0.2353,
+        "j-aime-le-foot": 0.1765,
+        "inshore": 0.1176,
+        "illusion-jipad": 0.0588,
+        "jibi-du-fruitier": 0.0
+      },
+      "mean_rank": {
+        "isofou-du-chene-p.ph.-ploquin": 0.0,
+        "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 1.0,
+        "kanto-avis": 2.0,
+        "idylle-express": 3.0,
+        "l-ecrin-d-or": 4.0,
+        "king-opera": 5.0,
+        "ibiza-bella": 6.0,
+        "laroze-du-gers": 7.0,
+        "indy-dark": 8.0,
+        "janko-haufor": 9.0,
+        "jasmine-de-vau": 10.0,
+        "far-west-bi": 11.0,
+        "jerzinho-sport": 12.0,
+        "lemon-tree": 13.0,
+        "j-aime-le-foot": 14.0,
+        "inshore": 15.0,
+        "illusion-jipad": 16.0,
+        "jibi-du-fruitier": 17.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+        "name": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jibi-du-fruitier",
+        "name": "JIBI DU FRUITIER",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jerzinho-sport",
+        "name": "JERZINHO SPORT",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "laroze-du-gers",
+        "name": "LAROZE DU GERS",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "far-west-bi",
+        "name": "FAR WEST BI",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lemon-tree",
+        "name": "LEMON TREE",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "janko-haufor",
+        "name": "JANKO HAUFOR",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jasmine-de-vau",
+        "name": "JASMINE DE VAU",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "indy-dark",
+        "name": "INDY DARK",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "illusion-jipad",
+        "name": "ILLUSION JIPAD",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "l-ecrin-d-or",
+        "name": "L'ECRIN D'OR",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ibiza-bella",
+        "name": "IBIZA BELLA",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "idylle-express",
+        "name": "IDYLLE EXPRESS",
+        "number": 13,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 4 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "inshore",
+        "name": "INSHORE",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "isofou-du-chene-p.ph.-ploquin",
+        "name": "ISOFOU DU CHENE P.PH. PLOQUIN",
+        "number": 15,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 1 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "j-aime-le-foot",
+        "name": "J'AIME LE FOOT",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kanto-avis",
+        "name": "KANTO AVIS",
+        "number": 17,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-opera",
+        "name": "KING OPERA",
+        "number": 18,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+      "idylle-express",
+      "isofou-du-chene-p.ph.-ploquin"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "laroze-du-gers",
+          "jibi-du-fruitier",
+          "jerzinho-sport",
+          "far-west-bi",
+          "lemon-tree",
+          "janko-haufor",
+          "jasmine-de-vau",
+          "indy-dark",
+          "illusion-jipad",
+          "l-ecrin-d-or",
+          "ibiza-bella",
+          "idylle-express",
+          "inshore",
+          "j-aime-le-foot",
+          "kanto-avis",
+          "king-opera"
+        ],
+        "coverage": 0.889,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "jibi-du-fruitier",
+          "jerzinho-sport",
+          "laroze-du-gers",
+          "far-west-bi",
+          "lemon-tree",
+          "janko-haufor",
+          "jasmine-de-vau",
+          "indy-dark",
+          "illusion-jipad",
+          "l-ecrin-d-or",
+          "ibiza-bella",
+          "idylle-express",
+          "inshore",
+          "j-aime-le-foot",
+          "kanto-avis",
+          "king-opera"
+        ],
+        "coverage": 0.889,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "laroze-du-gers",
+          "jibi-du-fruitier",
+          "jerzinho-sport",
+          "far-west-bi",
+          "lemon-tree",
+          "janko-haufor",
+          "jasmine-de-vau",
+          "indy-dark",
+          "illusion-jipad",
+          "l-ecrin-d-or",
+          "ibiza-bella",
+          "idylle-express",
+          "inshore",
+          "j-aime-le-foot",
+          "kanto-avis",
+          "king-opera"
+        ],
+        "coverage": 0.889,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "laroze-du-gers",
+          "far-west-bi",
+          "kanto-avis",
+          "janko-haufor",
+          "lemon-tree",
+          "king-opera",
+          "jibi-du-fruitier",
+          "jerzinho-sport",
+          "jasmine-de-vau",
+          "indy-dark",
+          "illusion-jipad",
+          "l-ecrin-d-or",
+          "ibiza-bella",
+          "idylle-express",
+          "inshore",
+          "j-aime-le-foot"
+        ],
+        "coverage": 0.889,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "jibi-du-fruitier",
+          "jerzinho-sport",
+          "laroze-du-gers",
+          "far-west-bi",
+          "lemon-tree",
+          "janko-haufor",
+          "jasmine-de-vau",
+          "indy-dark",
+          "illusion-jipad",
+          "l-ecrin-d-or",
+          "ibiza-bella",
+          "idylle-express",
+          "inshore",
+          "j-aime-le-foot",
+          "kanto-avis",
+          "king-opera"
+        ],
+        "coverage": 0.889,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-01T13:38:21.483433+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "jericho-du-rib-c.-hallais-dersoir-joel-hallais": 0.017905,
+      "jibi-du-fruitier": 0.056103,
+      "jerzinho-sport": 0.013358,
+      "laroze-du-gers": 0.271466,
+      "far-west-bi": 0.131491,
+      "lemon-tree": 0.06011,
+      "janko-haufor": 0.070129,
+      "jasmine-de-vau": 0.010789,
+      "indy-dark": 0.009049,
+      "illusion-jipad": 0.006473,
+      "l-ecrin-d-or": 0.008415,
+      "ibiza-bella": 0.031168,
+      "idylle-express": 0.012751,
+      "inshore": 0.006143,
+      "isofou-du-chene-p.ph.-ploquin": 0.031168,
+      "j-aime-le-foot": 0.007581,
+      "kanto-avis": 0.171744,
+      "king-opera": 0.084155
+    },
+    "consensus_ranking": [
+      "laroze-du-gers",
+      "jibi-du-fruitier",
+      "far-west-bi",
+      "jerzinho-sport",
+      "lemon-tree",
+      "janko-haufor",
+      "jasmine-de-vau",
+      "indy-dark",
+      "illusion-jipad",
+      "l-ecrin-d-or",
+      "ibiza-bella",
+      "idylle-express",
+      "kanto-avis",
+      "inshore",
+      "king-opera",
+      "j-aime-le-foot"
+    ],
+    "convergence": 0.0,
+    "notes": [
+      "convergence Top 5 interne/externe : 0%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "isofou-du-chene-p.ph.-ploquin",
+      "jericho-du-rib-c.-hallais-dersoir-joel-hallais",
+      "kanto-avis",
+      "idylle-express",
+      "l-ecrin-d-or"
+    ],
+    "externe_seulement": [
+      "laroze-du-gers",
+      "jibi-du-fruitier",
+      "far-west-bi",
+      "jerzinho-sport",
+      "lemon-tree"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 3.4903,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 6.2963
+    },
+    "missing_data": [
+      "n°1 · JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS : recent_places",
+      "n°1 · JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS : driver",
+      "n°1 · JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS : aptitude",
+      "n°1 · JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS : shoeing",
+      "n°2 · JIBI DU FRUITIER : aptitude",
+      "n°2 · JIBI DU FRUITIER : shoeing",
+      "n°3 · JERZINHO SPORT : aptitude",
+      "n°3 · JERZINHO SPORT : shoeing",
+      "n°4 · LAROZE DU GERS : aptitude",
+      "n°4 · LAROZE DU GERS : shoeing",
+      "n°5 · FAR WEST BI : aptitude",
+      "n°5 · FAR WEST BI : shoeing",
+      "n°6 · LEMON TREE : aptitude",
+      "n°6 · LEMON TREE : shoeing",
+      "n°7 · JANKO HAUFOR : aptitude",
+      "n°7 · JANKO HAUFOR : shoeing",
+      "n°8 · JASMINE DE VAU : aptitude",
+      "n°8 · JASMINE DE VAU : shoeing",
+      "n°9 · INDY DARK : aptitude",
+      "n°9 · INDY DARK : shoeing",
+      "n°10 · ILLUSION JIPAD : aptitude",
+      "n°10 · ILLUSION JIPAD : shoeing",
+      "n°11 · L'ECRIN D'OR : aptitude",
+      "n°11 · L'ECRIN D'OR : shoeing",
+      "n°12 · IBIZA BELLA : aptitude",
+      "n°12 · IBIZA BELLA : shoeing",
+      "n°13 · IDYLLE EXPRESS : aptitude",
+      "n°13 · IDYLLE EXPRESS : shoeing",
+      "n°14 · INSHORE : aptitude",
+      "n°14 · INSHORE : shoeing",
+      "n°15 · ISOFOU DU CHENE P.PH. PLOQUIN : recent_places",
+      "n°15 · ISOFOU DU CHENE P.PH. PLOQUIN : driver",
+      "n°15 · ISOFOU DU CHENE P.PH. PLOQUIN : aptitude",
+      "n°15 · ISOFOU DU CHENE P.PH. PLOQUIN : shoeing",
+      "n°16 · J'AIME LE FOOT : aptitude",
+      "n°16 · J'AIME LE FOOT : shoeing",
+      "n°17 · KANTO AVIS : aptitude",
+      "n°17 · KANTO AVIS : shoeing",
+      "n°18 · KING OPERA : aptitude",
+      "n°18 · KING OPERA : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.70 (saturé à 2.0) → 3.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 63% (40 champ(s) manquant(s)) → 6.3/10",
+      "couverture du score = 43% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 43% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-01T14:15:00+00:00",
+    "betting_close": "2026-11-01T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-01T13:38:28.047909+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 26.53,
+    "schedule": {
+      "start_ouagadougou": "2026-11-01T14:15:00+00:00",
+      "start_paris": "2026-11-01T15:15:00+01:00",
+      "close_lonab": "2026-11-01T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 15,
+      "cheval": "ISOFOU DU CHENE P.PH. PLOQUIN",
+      "horse_id": "isofou-du-chene-p.ph.-ploquin"
+    },
+    {
+      "rang": 2,
+      "numero": 1,
+      "cheval": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+      "horse_id": "jericho-du-rib-c.-hallais-dersoir-joel-hallais"
+    },
+    {
+      "rang": 3,
+      "numero": 17,
+      "cheval": "KANTO AVIS",
+      "horse_id": "kanto-avis"
+    },
+    {
+      "rang": 4,
+      "numero": 13,
+      "cheval": "IDYLLE EXPRESS",
+      "horse_id": "idylle-express"
+    },
+    {
+      "rang": 5,
+      "numero": 11,
+      "cheval": "L'ECRIN D'OR",
+      "horse_id": "l-ecrin-d-or"
+    },
+    {
+      "rang": 6,
+      "numero": 18,
+      "cheval": "KING OPERA",
+      "horse_id": "king-opera"
+    },
+    {
+      "rang": 7,
+      "numero": 12,
+      "cheval": "IBIZA BELLA",
+      "horse_id": "ibiza-bella"
+    },
+    {
+      "rang": 8,
+      "numero": 4,
+      "cheval": "LAROZE DU GERS",
+      "horse_id": "laroze-du-gers"
+    },
+    {
+      "rang": 9,
+      "numero": 9,
+      "cheval": "INDY DARK",
+      "horse_id": "indy-dark"
+    },
+    {
+      "rang": 10,
+      "numero": 7,
+      "cheval": "JANKO HAUFOR",
+      "horse_id": "janko-haufor"
+    },
+    {
+      "rang": 11,
+      "numero": 8,
+      "cheval": "JASMINE DE VAU",
+      "horse_id": "jasmine-de-vau"
+    },
+    {
+      "rang": 12,
+      "numero": 5,
+      "cheval": "FAR WEST BI",
+      "horse_id": "far-west-bi"
+    },
+    {
+      "rang": 13,
+      "numero": 3,
+      "cheval": "JERZINHO SPORT",
+      "horse_id": "jerzinho-sport"
+    },
+    {
+      "rang": 14,
+      "numero": 6,
+      "cheval": "LEMON TREE",
+      "horse_id": "lemon-tree"
+    },
+    {
+      "rang": 15,
+      "numero": 16,
+      "cheval": "J'AIME LE FOOT",
+      "horse_id": "j-aime-le-foot"
+    },
+    {
+      "rang": 16,
+      "numero": 14,
+      "cheval": "INSHORE",
+      "horse_id": "inshore"
+    },
+    {
+      "rang": 17,
+      "numero": 10,
+      "cheval": "ILLUSION JIPAD",
+      "horse_id": "illusion-jipad"
+    },
+    {
+      "rang": 18,
+      "numero": 2,
+      "cheval": "JIBI DU FRUITIER",
+      "horse_id": "jibi-du-fruitier"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 15,
+      "cheval": "ISOFOU DU CHENE P.PH. PLOQUIN",
+      "score": 9.9349
+    },
+    {
+      "numero": 1,
+      "cheval": "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+      "score": 9.2369
+    },
+    {
+      "numero": 17,
+      "cheval": "KANTO AVIS",
+      "score": 8.2724
+    },
+    {
+      "numero": 13,
+      "cheval": "IDYLLE EXPRESS",
+      "score": 7.3935
+    },
+    {
+      "numero": 11,
+      "cheval": "L'ECRIN D'OR",
+      "score": 7.1486
+    },
+    {
+      "numero": 18,
+      "cheval": "KING OPERA",
+      "score": 7.1266
+    },
+    {
+      "numero": 12,
+      "cheval": "IBIZA BELLA",
+      "score": 6.9766
+    },
+    {
+      "numero": 4,
+      "cheval": "LAROZE DU GERS",
+      "score": 6.2664
+    },
+    {
+      "numero": 9,
+      "cheval": "INDY DARK",
+      "score": 6.18
+    },
+    {
+      "numero": 7,
+      "cheval": "JANKO HAUFOR",
+      "score": 6.0165
+    },
+    {
+      "numero": 8,
+      "cheval": "JASMINE DE VAU",
+      "score": 5.8289
+    },
+    {
+      "numero": 5,
+      "cheval": "FAR WEST BI",
+      "score": 5.7075
+    },
+    {
+      "numero": 3,
+      "cheval": "JERZINHO SPORT",
+      "score": 5.4466
+    },
+    {
+      "numero": 6,
+      "cheval": "LEMON TREE",
+      "score": 5.1466
+    },
+    {
+      "numero": 16,
+      "cheval": "J'AIME LE FOOT",
+      "score": 4.5793
+    },
+    {
+      "numero": 14,
+      "cheval": "INSHORE",
+      "score": 4.5764
+    },
+    {
+      "numero": 10,
+      "cheval": "ILLUSION JIPAD",
+      "score": 4.1329
+    },
+    {
+      "numero": 2,
+      "cheval": "JIBI DU FRUITIER",
+      "score": 3.8765
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 6.4051,
+      "entropie_norm": 0.7628,
+      "p_favori": 0.2939,
+      "ratio_1_2": 1.6428
+    },
+    "p_gagnant_dans_selection": 0.7541,
+    "nb_attendu_dans_top5": 2.582,
+    "p_au_moins": {
+      "1": 0.9947,
+      "2": 0.901,
+      "3": 0.5401,
+      "4": 0.1388,
+      "5": 0.0072
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-01T13:30:03+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "54 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 4,
+        "cheval": "LAROZE DU GERS",
+        "cote": 3.1,
+        "p_gagne": 0.2939,
+        "p_top3": 0.5232,
+        "p_top5": 0.6995,
+        "rang_systeme": 8
+      },
+      {
+        "numero": 17,
+        "cheval": "KANTO AVIS",
+        "cote": 4.9,
+        "p_gagne": 0.1789,
+        "p_top3": 0.3916,
+        "p_top5": 0.5796,
+        "rang_systeme": 3
+      },
+      {
+        "numero": 5,
+        "cheval": "FAR WEST BI",
+        "cote": 6.4,
+        "p_gagne": 0.1339,
+        "p_top3": 0.3306,
+        "p_top5": 0.5098,
+        "rang_systeme": 12
+      },
+      {
+        "numero": 18,
+        "cheval": "KING OPERA",
+        "cote": 10.0,
+        "p_gagne": 0.0825,
+        "p_top3": 0.2492,
+        "p_top5": 0.4139,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 7,
+        "cheval": "JANKO HAUFOR",
+        "cote": 12.0,
+        "p_gagne": 0.0677,
+        "p_top3": 0.2236,
+        "p_top5": 0.379,
+        "rang_systeme": 10
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [
+      "JERICHO DU RIB",
+      "ISOFOU DU CHENE"
+    ],
+    "unmatched_race": [
+      "JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS",
+      "ISOFOU DU CHENE P.PH. PLOQUIN"
+    ],
+    "warnings": [
+      "n°1 : nom PDF « JERICHO DU RIB C. HALLAIS-DERSOIR JOEL HALLAIS » ≠ nom PMU « JERICHO DU RIB » — ignoré",
+      "n°15 : nom PDF « ISOFOU DU CHENE P.PH. PLOQUIN » ≠ nom PMU « ISOFOU DU CHENE » — ignoré"
+    ]
+  },
+  "stored_at": "2026-11-01T13:38:28.106773+00:00"
+}
