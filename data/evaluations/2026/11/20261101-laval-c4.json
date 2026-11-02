@@ -1,0 +1,31 @@
+{
+  "race_id": "20261101-laval-c4",
+  "date": "2026-11-01",
+  "course": "GRAND PRIX DE LA VILLE DE LAVAL",
+  "arrivee_top5": [
+    17,
+    2,
+    5,
+    12,
+    7
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": true,
+  "favori_marche": 4,
+  "favori_marche_place": null,
+  "selection": [
+    4,
+    17,
+    5,
+    18,
+    7
+  ],
+  "bons_dans_top5": 3,
+  "gagnant_dans_selection": true,
+  "classe": "ouverte",
+  "attendu_bons": 2.582,
+  "attendu_gagnant_inclus": 0.7541,
+  "attendu_au_moins_3": 0.5401,
+  "au_moins_3_reel": true,
+  "criteres_respectes": false
+}
