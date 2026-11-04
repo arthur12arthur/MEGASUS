@@ -1,0 +1,1674 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261104-nantes-c2",
+  "date": "2026-11-04",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "NANTES",
+    "date": "2026-11-04",
+    "start_time": "2026-11-04T12:55:00+00:00",
+    "race_number": 2,
+    "name": "GRAND NATIONAL DU TROT",
+    "distance_m": 3000,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_04-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-04T12:45:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-04T10:57:08.529064+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jerenal-d-hameline-a.-wiels",
+        "name": "JERENAL D'HAMELINE A. WIELS",
+        "number": 1,
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "idole-de-meat",
+        "name": "IDOLE DE MEAT",
+        "number": 2,
+        "odds_pdf": 27.0,
+        "odds_latest": 49.0,
+        "delta": 0.8148148148148148,
+        "implied_shift": 0.016628873771730914,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "happy-face",
+        "name": "HAPPY FACE",
+        "number": 3,
+        "odds_pdf": 25.0,
+        "odds_latest": 20.0,
+        "delta": -0.2,
+        "implied_shift": -0.010000000000000002,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "happy-danover",
+        "name": "HAPPY DANOVER",
+        "number": 4,
+        "odds_pdf": 38.0,
+        "odds_latest": 51.0,
+        "delta": 0.34210526315789475,
+        "implied_shift": 0.006707946336429307,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "number": 5,
+        "odds_pdf": 53.0,
+        "odds_latest": 64.0,
+        "delta": 0.20754716981132076,
+        "implied_shift": 0.003242924528301886,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "number": 6,
+        "odds_pdf": 6.0,
+        "odds_latest": 7.9,
+        "delta": 0.3166666666666667,
+        "implied_shift": 0.04008438818565402,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "karnac-wood",
+        "name": "KARNAC WOOD",
+        "number": 7,
+        "odds_pdf": 7.0,
+        "odds_latest": 4.2,
+        "delta": -0.39999999999999997,
+        "implied_shift": -0.09523809523809523,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 8,
+        "odds_pdf": 5.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "je-reve-du-bois",
+        "name": "JE REVE DU BOIS",
+        "number": 10,
+        "odds_pdf": 14.0,
+        "odds_latest": 12.0,
+        "delta": -0.14285714285714285,
+        "implied_shift": -0.011904761904761904,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "number": 11,
+        "odds_pdf": 15.0,
+        "odds_latest": 11.0,
+        "delta": -0.26666666666666666,
+        "implied_shift": -0.024242424242424246,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "number": 12,
+        "odds_pdf": 10.0,
+        "odds_latest": 3.8,
+        "delta": -0.62,
+        "implied_shift": -0.16315789473684209,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jingle-du-pont",
+        "name": "JINGLE DU PONT",
+        "number": 13,
+        "odds_pdf": 72.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      }
+    ],
+    "late_non_runners": [
+      "jingle-du-pont"
+    ],
+    "warnings": [
+      "JERENAL D'HAMELINE A. WIELS (jerenal-d-hameline-a.-wiels) : aucune cote récente disponible",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. (kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.) : aucune cote récente disponible",
+      "JINGLE DU PONT (jingle-du-pont) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "jerenal-d-hameline-a.-wiels",
+      "idole-de-meat",
+      "happy-face",
+      "happy-danover",
+      "jane-aimee",
+      "jentil-dieschoot",
+      "karnac-wood",
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+      "je-reve-du-bois",
+      "horatius-d-ela",
+      "ibiscus-man"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.55838001143354,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5584,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jerenal-d-hameline-a.-wiels",
+        "name": "JERENAL D'HAMELINE A. WIELS",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.457902189949056,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.4579,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "karnac-wood",
+        "name": "KARNAC WOOD",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.777128050662812,
+          "forme": 5.119402985074626,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.707,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.291666666666668,
+          "forme": 4.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.8619,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.816658388794007,
+          "forme": 3.402985074626865,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.855,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "je-reve-du-bois",
+        "name": "JE REVE DU BOIS",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.6507187370489955,
+          "forme": 3.4029850746268657,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.7628,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "happy-face",
+        "name": "HAPPY FACE",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.753159616845593,
+          "forme": 3.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6605,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "number": 5,
+        "dimensions": {
+          "historique": 6.8802830524674885,
+          "forme": 3.1940298507462686,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.2419,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "idole-de-meat",
+        "name": "IDOLE DE MEAT",
+        "number": 2,
+        "dimensions": {
+          "historique": 6.17842026098133,
+          "forme": 3.1641791044776117,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.8388,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "number": 11,
+        "dimensions": {
+          "historique": 7.635340566283812,
+          "forme": 1.298507462686567,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.819,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "happy-danover",
+        "name": "HAPPY DANOVER",
+        "number": 4,
+        "dimensions": {
+          "historique": 6.296959442152328,
+          "forme": 1.6119402985074625,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.2147,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+      "jerenal-d-hameline-a.-wiels",
+      "karnac-wood",
+      "ibiscus-man",
+      "jentil-dieschoot",
+      "je-reve-du-bois",
+      "happy-face",
+      "jane-aimee",
+      "idole-de-meat",
+      "horatius-d-ela",
+      "happy-danover"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "jerenal-d-hameline-a.-wiels": {
+          "horse_id": "jerenal-d-hameline-a.-wiels",
+          "name": "JERENAL D'HAMELINE A. WIELS",
+          "p_win": 0.28472,
+          "p_top3": 0.72438,
+          "p_top5": 0.92898,
+          "expected_position": 2.7218,
+          "position_distribution": {
+            "1": 0.28472,
+            "2": 0.24816,
+            "3": 0.1915,
+            "4": 0.1276,
+            "5": 0.077,
+            "6": 0.04108,
+            "7": 0.01936,
+            "8": 0.00734,
+            "9": 0.00242,
+            "10": 0.0007,
+            "11": 0.00012
+          }
+        },
+        "idole-de-meat": {
+          "horse_id": "idole-de-meat",
+          "name": "IDOLE DE MEAT",
+          "p_win": 0.028,
+          "p_top3": 0.10894,
+          "p_top5": 0.24212,
+          "expected_position": 7.5607,
+          "position_distribution": {
+            "1": 0.028,
+            "2": 0.03514,
+            "3": 0.0458,
+            "4": 0.06048,
+            "5": 0.0727,
+            "6": 0.08762,
+            "7": 0.10286,
+            "8": 0.11738,
+            "9": 0.1324,
+            "10": 0.15062,
+            "11": 0.167
+          }
+        },
+        "happy-face": {
+          "horse_id": "happy-face",
+          "name": "HAPPY FACE",
+          "p_win": 0.0422,
+          "p_top3": 0.1626,
+          "p_top5": 0.34946,
+          "expected_position": 6.6118,
+          "position_distribution": {
+            "1": 0.0422,
+            "2": 0.05112,
+            "3": 0.06928,
+            "4": 0.08516,
+            "5": 0.1017,
+            "6": 0.11308,
+            "7": 0.11892,
+            "8": 0.12302,
+            "9": 0.11574,
+            "10": 0.10398,
+            "11": 0.0758
+          }
+        },
+        "happy-danover": {
+          "horse_id": "happy-danover",
+          "name": "HAPPY DANOVER",
+          "p_win": 0.02036,
+          "p_top3": 0.0814,
+          "p_top5": 0.18282,
+          "expected_position": 8.2383,
+          "position_distribution": {
+            "1": 0.02036,
+            "2": 0.0257,
+            "3": 0.03534,
+            "4": 0.04388,
+            "5": 0.05754,
+            "6": 0.07024,
+            "7": 0.08306,
+            "8": 0.10042,
+            "9": 0.12218,
+            "10": 0.16264,
+            "11": 0.27864
+          }
+        },
+        "jane-aimee": {
+          "horse_id": "jane-aimee",
+          "name": "JANE AIMEE",
+          "p_win": 0.03656,
+          "p_top3": 0.13454,
+          "p_top5": 0.29188,
+          "expected_position": 7.0895,
+          "position_distribution": {
+            "1": 0.03656,
+            "2": 0.04198,
+            "3": 0.056,
+            "4": 0.07072,
+            "5": 0.08662,
+            "6": 0.10116,
+            "7": 0.1104,
+            "8": 0.1214,
+            "9": 0.13022,
+            "10": 0.13228,
+            "11": 0.11266
+          }
+        },
+        "jentil-dieschoot": {
+          "horse_id": "jentil-dieschoot",
+          "name": "JENTIL DIESCHOOT",
+          "p_win": 0.04762,
+          "p_top3": 0.178,
+          "p_top5": 0.37812,
+          "expected_position": 6.3853,
+          "position_distribution": {
+            "1": 0.04762,
+            "2": 0.0566,
+            "3": 0.07378,
+            "4": 0.0927,
+            "5": 0.10742,
+            "6": 0.1177,
+            "7": 0.12248,
+            "8": 0.11762,
+            "9": 0.11166,
+            "10": 0.0908,
+            "11": 0.06162
+          }
+        },
+        "karnac-wood": {
+          "horse_id": "karnac-wood",
+          "name": "KARNAC WOOD",
+          "p_win": 0.121,
+          "p_top3": 0.41278,
+          "p_top5": 0.70818,
+          "expected_position": 4.283,
+          "position_distribution": {
+            "1": 0.121,
+            "2": 0.13532,
+            "3": 0.15646,
+            "4": 0.155,
+            "5": 0.1404,
+            "6": 0.11244,
+            "7": 0.07948,
+            "8": 0.05196,
+            "9": 0.03038,
+            "10": 0.0133,
+            "11": 0.00426
+          }
+        },
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": {
+          "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+          "p_win": 0.29982,
+          "p_top3": 0.7422,
+          "p_top5": 0.9369,
+          "expected_position": 2.6377,
+          "position_distribution": {
+            "1": 0.29982,
+            "2": 0.25504,
+            "3": 0.18734,
+            "4": 0.12388,
+            "5": 0.07082,
+            "6": 0.03726,
+            "7": 0.0172,
+            "8": 0.00612,
+            "9": 0.00198,
+            "10": 0.00054
+          }
+        },
+        "je-reve-du-bois": {
+          "horse_id": "je-reve-du-bois",
+          "name": "JE REVE DU BOIS",
+          "p_win": 0.0445,
+          "p_top3": 0.16632,
+          "p_top5": 0.36118,
+          "expected_position": 6.518,
+          "position_distribution": {
+            "1": 0.0445,
+            "2": 0.05552,
+            "3": 0.0663,
+            "4": 0.08912,
+            "5": 0.10574,
+            "6": 0.1131,
+            "7": 0.12226,
+            "8": 0.12296,
+            "9": 0.11306,
+            "10": 0.0991,
+            "11": 0.06834
+          }
+        },
+        "horatius-d-ela": {
+          "horse_id": "horatius-d-ela",
+          "name": "HORATIUS D'ELA",
+          "p_win": 0.02814,
+          "p_top3": 0.10794,
+          "p_top5": 0.23824,
+          "expected_position": 7.5951,
+          "position_distribution": {
+            "1": 0.02814,
+            "2": 0.0352,
+            "3": 0.0446,
+            "4": 0.05846,
+            "5": 0.07184,
+            "6": 0.08834,
+            "7": 0.10164,
+            "8": 0.11432,
+            "9": 0.13224,
+            "10": 0.1539,
+            "11": 0.17132
+          }
+        },
+        "ibiscus-man": {
+          "horse_id": "ibiscus-man",
+          "name": "IBISCUS MAN",
+          "p_win": 0.04708,
+          "p_top3": 0.1809,
+          "p_top5": 0.38212,
+          "expected_position": 6.3589,
+          "position_distribution": {
+            "1": 0.04708,
+            "2": 0.06022,
+            "3": 0.0736,
+            "4": 0.093,
+            "5": 0.10822,
+            "6": 0.11798,
+            "7": 0.12234,
+            "8": 0.11746,
+            "9": 0.10772,
+            "10": 0.09214,
+            "11": 0.06024
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "jerenal-d-hameline-a.-wiels",
+          "karnac-wood"
+        ],
+        "23": [
+          "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "jerenal-d-hameline-a.-wiels",
+          "karnac-wood"
+        ],
+        "37": [
+          "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "jerenal-d-hameline-a.-wiels",
+          "karnac-wood"
+        ],
+        "51": [
+          "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "jerenal-d-hameline-a.-wiels",
+          "karnac-wood"
+        ],
+        "73": [
+          "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+          "jerenal-d-hameline-a.-wiels",
+          "karnac-wood"
+        ]
+      },
+      "reference_top": [
+        "jerenal-d-hameline-a.-wiels",
+        "karnac-wood",
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec."
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 10.0,
+        "jerenal-d-hameline-a.-wiels": 5.0,
+        "karnac-wood": 0.0
+      },
+      "order": [
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "jerenal-d-hameline-a.-wiels",
+        "karnac-wood"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 10.0,
+        "jerenal-d-hameline-a.-wiels": 9.0,
+        "karnac-wood": 8.0,
+        "ibiscus-man": 7.0,
+        "jentil-dieschoot": 6.0,
+        "je-reve-du-bois": 5.0,
+        "happy-face": 4.0,
+        "jane-aimee": 3.0,
+        "idole-de-meat": 2.0,
+        "horatius-d-ela": 1.0,
+        "happy-danover": 0.0
+      },
+      "order": [
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "jerenal-d-hameline-a.-wiels",
+        "karnac-wood",
+        "ibiscus-man",
+        "jentil-dieschoot",
+        "je-reve-du-bois",
+        "happy-face",
+        "jane-aimee",
+        "idole-de-meat",
+        "horatius-d-ela",
+        "happy-danover"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "jerenal-d-hameline-a.-wiels",
+        "karnac-wood",
+        "ibiscus-man",
+        "jentil-dieschoot",
+        "je-reve-du-bois",
+        "happy-face",
+        "jane-aimee",
+        "idole-de-meat",
+        "horatius-d-ela",
+        "happy-danover"
+      ],
+      "copeland": {
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 10.0,
+        "jerenal-d-hameline-a.-wiels": 8.0,
+        "karnac-wood": 6.0,
+        "ibiscus-man": 4.0,
+        "jentil-dieschoot": 2.0,
+        "je-reve-du-bois": 0.0,
+        "happy-face": -2.0,
+        "jane-aimee": -4.0,
+        "idole-de-meat": -6.0,
+        "horatius-d-ela": -8.0,
+        "happy-danover": -10.0
+      },
+      "normalized": {
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 1.0,
+        "jerenal-d-hameline-a.-wiels": 0.9,
+        "karnac-wood": 0.8,
+        "ibiscus-man": 0.7,
+        "jentil-dieschoot": 0.6,
+        "je-reve-du-bois": 0.5,
+        "happy-face": 0.4,
+        "jane-aimee": 0.3,
+        "idole-de-meat": 0.2,
+        "horatius-d-ela": 0.1,
+        "happy-danover": 0.0
+      },
+      "mean_rank": {
+        "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 0.0,
+        "jerenal-d-hameline-a.-wiels": 1.0,
+        "karnac-wood": 2.0,
+        "ibiscus-man": 3.0,
+        "jentil-dieschoot": 4.0,
+        "je-reve-du-bois": 5.0,
+        "happy-face": 6.0,
+        "jane-aimee": 7.0,
+        "idole-de-meat": 8.0,
+        "horatius-d-ela": 9.0,
+        "happy-danover": 10.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "jerenal-d-hameline-a.-wiels",
+        "name": "JERENAL D'HAMELINE A. WIELS",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 6 rangs plus haut que le marché (interne 2 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "idole-de-meat",
+        "name": "IDOLE DE MEAT",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "happy-face",
+        "name": "HAPPY FACE",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "happy-danover",
+        "name": "HAPPY DANOVER",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jane-aimee",
+        "name": "JANE AIMEE",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jentil-dieschoot",
+        "name": "JENTIL DIESCHOOT",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "karnac-wood",
+        "name": "KARNAC WOOD",
+        "number": 7,
+        "signals": [
+          "cote fondue de -40% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+        "name": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "je-reve-du-bois",
+        "name": "JE REVE DU BOIS",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "horatius-d-ela",
+        "name": "HORATIUS D'ELA",
+        "number": 11,
+        "signals": [
+          "cote fondue de -27% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ibiscus-man",
+        "name": "IBISCUS MAN",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "jerenal-d-hameline-a.-wiels",
+      "karnac-wood",
+      "horatius-d-ela"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "1 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "karnac-wood",
+          "idole-de-meat",
+          "happy-face",
+          "happy-danover",
+          "jane-aimee",
+          "jentil-dieschoot",
+          "je-reve-du-bois",
+          "horatius-d-ela",
+          "ibiscus-man"
+        ],
+        "coverage": 0.818,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "idole-de-meat",
+          "happy-face",
+          "happy-danover",
+          "jane-aimee",
+          "jentil-dieschoot",
+          "karnac-wood",
+          "je-reve-du-bois",
+          "horatius-d-ela",
+          "ibiscus-man"
+        ],
+        "coverage": 0.818,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "karnac-wood",
+          "idole-de-meat",
+          "happy-face",
+          "happy-danover",
+          "jane-aimee",
+          "jentil-dieschoot",
+          "je-reve-du-bois",
+          "horatius-d-ela",
+          "ibiscus-man"
+        ],
+        "coverage": 0.818,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "karnac-wood",
+          "jentil-dieschoot",
+          "ibiscus-man",
+          "je-reve-du-bois",
+          "horatius-d-ela",
+          "idole-de-meat",
+          "happy-face",
+          "happy-danover",
+          "jane-aimee"
+        ],
+        "coverage": 0.818,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "idole-de-meat",
+          "happy-face",
+          "happy-danover",
+          "jane-aimee",
+          "jentil-dieschoot",
+          "karnac-wood",
+          "je-reve-du-bois",
+          "horatius-d-ela",
+          "ibiscus-man"
+        ],
+        "coverage": 0.818,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-04T10:57:04.934424+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "jerenal-d-hameline-a.-wiels": 0.037768,
+      "idole-de-meat": 0.017728,
+      "happy-face": 0.043433,
+      "happy-danover": 0.017033,
+      "jane-aimee": 0.013573,
+      "jentil-dieschoot": 0.109957,
+      "karnac-wood": 0.206824,
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.": 0.173732,
+      "je-reve-du-bois": 0.072388,
+      "horatius-d-ela": 0.078969,
+      "ibiscus-man": 0.228595
+    },
+    "consensus_ranking": [
+      "idole-de-meat",
+      "karnac-wood",
+      "happy-face",
+      "happy-danover",
+      "jentil-dieschoot",
+      "jane-aimee",
+      "je-reve-du-bois",
+      "horatius-d-ela",
+      "ibiscus-man"
+    ],
+    "convergence": 0.25,
+    "notes": [
+      "convergence Top 5 interne/externe : 25%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec.",
+      "jerenal-d-hameline-a.-wiels",
+      "ibiscus-man"
+    ],
+    "externe_seulement": [
+      "idole-de-meat",
+      "happy-face",
+      "happy-danover"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.666,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.5024,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 2.5,
+      "completude_donnees": 6.0606
+    },
+    "missing_data": [
+      "n°1 · JERENAL D'HAMELINE A. WIELS : recent_places",
+      "n°1 · JERENAL D'HAMELINE A. WIELS : driver",
+      "n°1 · JERENAL D'HAMELINE A. WIELS : aptitude",
+      "n°1 · JERENAL D'HAMELINE A. WIELS : shoeing",
+      "n°2 · IDOLE DE MEAT : aptitude",
+      "n°2 · IDOLE DE MEAT : shoeing",
+      "n°3 · HAPPY FACE : aptitude",
+      "n°3 · HAPPY FACE : shoeing",
+      "n°4 · HAPPY DANOVER : aptitude",
+      "n°4 · HAPPY DANOVER : shoeing",
+      "n°5 · JANE AIMEE : aptitude",
+      "n°5 · JANE AIMEE : shoeing",
+      "n°6 · JENTIL DIESCHOOT : aptitude",
+      "n°6 · JENTIL DIESCHOOT : shoeing",
+      "n°7 · KARNAC WOOD : aptitude",
+      "n°7 · KARNAC WOOD : shoeing",
+      "n°8 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : recent_places",
+      "n°8 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : driver",
+      "n°8 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : aptitude",
+      "n°8 · KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. : shoeing",
+      "n°10 · JE REVE DU BOIS : aptitude",
+      "n°10 · JE REVE DU BOIS : shoeing",
+      "n°11 · HORATIUS D'ELA : aptitude",
+      "n°11 · HORATIUS D'ELA : shoeing",
+      "n°12 · IBISCUS MAN : aptitude",
+      "n°12 · IBISCUS MAN : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.10 (saturé à 2.0) → 0.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 25% → 2.5/10",
+      "complétude des données = 61% (26 champ(s) manquant(s)) → 6.1/10",
+      "couverture du score = 41% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 41% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-04T12:55:00+00:00",
+    "betting_close": "2026-11-04T12:45:00+00:00",
+    "race_started": false,
+    "now": "2026-11-04T10:57:08.562949+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 107.86,
+    "schedule": {
+      "start_ouagadougou": "2026-11-04T12:55:00+00:00",
+      "start_paris": "2026-11-04T13:55:00+01:00",
+      "close_lonab": "2026-11-04T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 8,
+      "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+      "horse_id": "kelle-beaute-a.-abrivard-l.cl.-abrivard-ec."
+    },
+    {
+      "rang": 2,
+      "numero": 1,
+      "cheval": "JERENAL D'HAMELINE A. WIELS",
+      "horse_id": "jerenal-d-hameline-a.-wiels"
+    },
+    {
+      "rang": 3,
+      "numero": 7,
+      "cheval": "KARNAC WOOD",
+      "horse_id": "karnac-wood"
+    },
+    {
+      "rang": 4,
+      "numero": 12,
+      "cheval": "IBISCUS MAN",
+      "horse_id": "ibiscus-man"
+    },
+    {
+      "rang": 5,
+      "numero": 6,
+      "cheval": "JENTIL DIESCHOOT",
+      "horse_id": "jentil-dieschoot"
+    },
+    {
+      "rang": 6,
+      "numero": 10,
+      "cheval": "JE REVE DU BOIS",
+      "horse_id": "je-reve-du-bois"
+    },
+    {
+      "rang": 7,
+      "numero": 3,
+      "cheval": "HAPPY FACE",
+      "horse_id": "happy-face"
+    },
+    {
+      "rang": 8,
+      "numero": 5,
+      "cheval": "JANE AIMEE",
+      "horse_id": "jane-aimee"
+    },
+    {
+      "rang": 9,
+      "numero": 2,
+      "cheval": "IDOLE DE MEAT",
+      "horse_id": "idole-de-meat"
+    },
+    {
+      "rang": 10,
+      "numero": 11,
+      "cheval": "HORATIUS D'ELA",
+      "horse_id": "horatius-d-ela"
+    },
+    {
+      "rang": 11,
+      "numero": 4,
+      "cheval": "HAPPY DANOVER",
+      "horse_id": "happy-danover"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 8,
+      "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+      "score": 9.5584
+    },
+    {
+      "numero": 1,
+      "cheval": "JERENAL D'HAMELINE A. WIELS",
+      "score": 9.4579
+    },
+    {
+      "numero": 7,
+      "cheval": "KARNAC WOOD",
+      "score": 7.707
+    },
+    {
+      "numero": 12,
+      "cheval": "IBISCUS MAN",
+      "score": 5.8619
+    },
+    {
+      "numero": 6,
+      "cheval": "JENTIL DIESCHOOT",
+      "score": 5.855
+    },
+    {
+      "numero": 10,
+      "cheval": "JE REVE DU BOIS",
+      "score": 5.7628
+    },
+    {
+      "numero": 3,
+      "cheval": "HAPPY FACE",
+      "score": 5.6605
+    },
+    {
+      "numero": 5,
+      "cheval": "JANE AIMEE",
+      "score": 5.2419
+    },
+    {
+      "numero": 2,
+      "cheval": "IDOLE DE MEAT",
+      "score": 4.8388
+    },
+    {
+      "numero": 11,
+      "cheval": "HORATIUS D'ELA",
+      "score": 4.819
+    },
+    {
+      "numero": 4,
+      "cheval": "HAPPY DANOVER",
+      "score": 4.2147
+    }
+  ],
+  "decision": {
+    "classe": "intermédiaire",
+    "ouverture": {
+      "n_eff": 6.2142,
+      "entropie_norm": 0.8415,
+      "p_favori": 0.2397,
+      "ratio_1_2": 1.1146
+    },
+    "p_gagnant_dans_selection": 0.8152,
+    "nb_attendu_dans_top5": 3.144,
+    "p_au_moins": {
+      "1": 0.9998,
+      "2": 0.9825,
+      "3": 0.8044,
+      "4": 0.3274,
+      "5": 0.0304
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-04T10:45:08+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "80 %",
+        "respecte": true
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "intermédiaire",
+        "respecte": true
+      }
+    ],
+    "selection": [
+      {
+        "numero": 12,
+        "cheval": "IBISCUS MAN",
+        "cote": 3.8,
+        "p_gagne": 0.2397,
+        "p_top3": 0.5104,
+        "p_top5": 0.7262,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 7,
+        "cheval": "KARNAC WOOD",
+        "cote": 4.2,
+        "p_gagne": 0.2151,
+        "p_top3": 0.4833,
+        "p_top5": 0.7102,
+        "rang_systeme": 3
+      },
+      {
+        "numero": 8,
+        "cheval": "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC.",
+        "cote": 5.0,
+        "p_gagne": 0.178,
+        "p_top3": 0.4354,
+        "p_top5": 0.6651,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 6,
+        "cheval": "JENTIL DIESCHOOT",
+        "cote": 7.9,
+        "p_gagne": 0.1084,
+        "p_top3": 0.3365,
+        "p_top5": 0.5612,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 11,
+        "cheval": "HORATIUS D'ELA",
+        "cote": 11.0,
+        "p_gagne": 0.0757,
+        "p_top3": 0.2745,
+        "p_top5": 0.4817,
+        "rang_systeme": 10
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 10,
+    "unmatched_pmu": [
+      "JERENAL D'HAMELINE",
+      "KELLE BEAUTE",
+      "HARMONY LA NUIT"
+    ],
+    "unmatched_race": [
+      "JERENAL D'HAMELINE A. WIELS",
+      "KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC."
+    ],
+    "warnings": [
+      "n°1 : nom PDF « JERENAL D'HAMELINE A. WIELS » ≠ nom PMU « JERENAL D'HAMELINE » — ignoré",
+      "n°8 : nom PDF « KELLE BEAUTE A. ABRIVARD L.CL. ABRIVARD EC. » ≠ nom PMU « KELLE BEAUTE » — ignoré"
+    ]
+  },
+  "stored_at": "2026-11-04T10:57:08.589529+00:00"
+}
