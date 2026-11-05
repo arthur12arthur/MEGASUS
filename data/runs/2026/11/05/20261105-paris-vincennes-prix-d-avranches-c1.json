@@ -1,0 +1,2432 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261105-paris-vincennes-prix-d-avranches-c1",
+  "date": "2026-11-05",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES - PRIX D'AVRANCHES",
+    "date": "2026-11-05",
+    "start_time": "2026-11-05T12:55:00+00:00",
+    "race_number": 1,
+    "name": "ATTELE",
+    "distance_m": 2700,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "AUTOSTART",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_05-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-05T12:45:00+00:00",
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'AUTOSTART'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-05T14:49:17.225454+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "number": 1,
+        "odds_pdf": 30.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "isis-d-herfraie",
+        "name": "ISIS D'HERFRAIE",
+        "number": 2,
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO B. GOOP",
+        "number": 3,
+        "odds_pdf": 21.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "joker-des-chaliers-g.-gelormini",
+        "name": "JOKER DES CHALIERS G. GELORMINI",
+        "number": 4,
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "every-time-winner-e.-raffin",
+        "name": "EVERY TIME WINNER E. RAFFIN",
+        "number": 5,
+        "odds_pdf": 10.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "humanity-pellini",
+        "name": "HUMANITY PELLINI",
+        "number": 6,
+        "odds_pdf": 22.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 7,
+        "odds_pdf": 60.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 8,
+        "odds_pdf": 42.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 9,
+        "odds_pdf": 7.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "die-hard",
+        "name": "DIE HARD",
+        "number": 10,
+        "odds_pdf": 58.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kira-bo-face",
+        "name": "KIRA BO FACE",
+        "number": 11,
+        "odds_pdf": 33.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaxig-in",
+        "name": "KAXIG IN",
+        "number": 12,
+        "odds_pdf": 18.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "instinct-d-authise-l.-laudren",
+        "name": "INSTINCT D'AUTHISE L. LAUDREN",
+        "number": 13,
+        "odds_pdf": 72.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "number": 14,
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "zoom-diamant",
+        "name": "ZOOM DIAMANT",
+        "number": 16,
+        "odds_pdf": 15.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "niagara-river",
+        "name": "NIAGARA RIVER",
+        "number": 17,
+        "odds_pdf": 34.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "junkie",
+        "name": "JUNKIE",
+        "number": 18,
+        "odds_pdf": 77.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "KOTKIE (kotkie) : aucune cote récente disponible",
+      "ISIS D'HERFRAIE (isis-d-herfraie) : aucune cote récente disponible",
+      "MATEO DI QUATTRO B. GOOP (mateo-di-quattro-b.-goop) : aucune cote récente disponible",
+      "JOKER DES CHALIERS G. GELORMINI (joker-des-chaliers-g.-gelormini) : aucune cote récente disponible",
+      "EVERY TIME WINNER E. RAFFIN (every-time-winner-e.-raffin) : aucune cote récente disponible",
+      "HUMANITY PELLINI (humanity-pellini) : aucune cote récente disponible",
+      "JUSSEO (jusseo) : aucune cote récente disponible",
+      "HINDEN (hinden) : aucune cote récente disponible",
+      "READY STAR (ready-star) : aucune cote récente disponible",
+      "DIE HARD (die-hard) : aucune cote récente disponible",
+      "KIRA BO FACE (kira-bo-face) : aucune cote récente disponible",
+      "KAXIG IN (kaxig-in) : aucune cote récente disponible",
+      "INSTINCT D'AUTHISE L. LAUDREN (instinct-d-authise-l.-laudren) : aucune cote récente disponible",
+      "KNOCKONWOOD (knockonwood) : aucune cote récente disponible",
+      "ZOOM DIAMANT (zoom-diamant) : aucune cote récente disponible",
+      "NIAGARA RIVER (niagara-river) : aucune cote récente disponible",
+      "JUNKIE (junkie) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "kotkie",
+      "isis-d-herfraie",
+      "mateo-di-quattro-b.-goop",
+      "joker-des-chaliers-g.-gelormini",
+      "every-time-winner-e.-raffin",
+      "humanity-pellini",
+      "jusseo",
+      "hinden",
+      "ready-star",
+      "die-hard",
+      "kira-bo-face",
+      "kaxig-in",
+      "instinct-d-authise-l.-laudren",
+      "knockonwood",
+      "zoom-diamant",
+      "niagara-river",
+      "junkie"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "number": 1,
+        "dimensions": {
+          "historique": 10.0,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 10.0,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.994353486380103,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9944,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "isis-d-herfraie",
+        "name": "ISIS D'HERFRAIE",
+        "number": 2,
+        "dimensions": {
+          "historique": 9.98714360932032,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9871,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.985740459503885,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9857,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "humanity-pellini",
+        "name": "HUMANITY PELLINI",
+        "number": 6,
+        "dimensions": {
+          "historique": 9.985315611432314,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9853,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO B. GOOP",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.959491576898618,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9595,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.954344372833013,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9543,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "every-time-winner-e.-raffin",
+        "name": "EVERY TIME WINNER E. RAFFIN",
+        "number": 5,
+        "dimensions": {
+          "historique": 9.94325754949678,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9433,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "number": 14,
+        "dimensions": {
+          "historique": 9.929757995248336,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.9298,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zoom-diamant",
+        "name": "ZOOM DIAMANT",
+        "number": 16,
+        "dimensions": {
+          "historique": 9.897375288093924,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8974,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "niagara-river",
+        "name": "NIAGARA RIVER",
+        "number": 17,
+        "dimensions": {
+          "historique": 9.865644814461426,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8656,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kaxig-in",
+        "name": "KAXIG IN",
+        "number": 12,
+        "dimensions": {
+          "historique": 9.845522378667557,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8455,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "junkie",
+        "name": "JUNKIE",
+        "number": 18,
+        "dimensions": {
+          "historique": 9.794379066162355,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7944,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kira-bo-face",
+        "name": "KIRA BO FACE",
+        "number": 11,
+        "dimensions": {
+          "historique": 9.754778868371696,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7548,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "die-hard",
+        "name": "DIE HARD",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.716551456549071,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.7166,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "instinct-d-authise-l.-laudren",
+        "name": "INSTINCT D'AUTHISE L. LAUDREN",
+        "number": 13,
+        "dimensions": {
+          "historique": 9.580079881343593,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.5801,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "joker-des-chaliers-g.-gelormini",
+        "name": "JOKER DES CHALIERS G. GELORMINI",
+        "number": 4,
+        "dimensions": {
+          "historique": 0.5595376224488412,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 0.5595,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ready-star",
+      "kotkie",
+      "hinden",
+      "isis-d-herfraie",
+      "humanity-pellini",
+      "mateo-di-quattro-b.-goop",
+      "every-time-winner-e.-raffin",
+      "jusseo",
+      "knockonwood",
+      "zoom-diamant",
+      "niagara-river",
+      "kaxig-in",
+      "junkie",
+      "kira-bo-face",
+      "die-hard",
+      "instinct-d-authise-l.-laudren",
+      "joker-des-chaliers-g.-gelormini"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "kotkie": {
+          "horse_id": "kotkie",
+          "name": "KOTKIE",
+          "p_win": 0.0669,
+          "p_top3": 0.1958,
+          "p_top5": 0.32782,
+          "expected_position": 8.2913,
+          "position_distribution": {
+            "1": 0.0669,
+            "2": 0.06556,
+            "3": 0.06334,
+            "4": 0.06782,
+            "5": 0.0642,
+            "6": 0.06362,
+            "7": 0.06296,
+            "8": 0.06274,
+            "9": 0.06434,
+            "10": 0.06336,
+            "11": 0.06138,
+            "12": 0.06138,
+            "13": 0.06062,
+            "14": 0.0602,
+            "15": 0.05556,
+            "16": 0.05438,
+            "17": 0.00164
+          }
+        },
+        "isis-d-herfraie": {
+          "horse_id": "isis-d-herfraie",
+          "name": "ISIS D'HERFRAIE",
+          "p_win": 0.06412,
+          "p_top3": 0.19442,
+          "p_top5": 0.32258,
+          "expected_position": 8.3423,
+          "position_distribution": {
+            "1": 0.06412,
+            "2": 0.06556,
+            "3": 0.06474,
+            "4": 0.06414,
+            "5": 0.06402,
+            "6": 0.0642,
+            "7": 0.0639,
+            "8": 0.06474,
+            "9": 0.06418,
+            "10": 0.0612,
+            "11": 0.0616,
+            "12": 0.06116,
+            "13": 0.06072,
+            "14": 0.05966,
+            "15": 0.05842,
+            "16": 0.0562,
+            "17": 0.00144
+          }
+        },
+        "mateo-di-quattro-b.-goop": {
+          "horse_id": "mateo-di-quattro-b.-goop",
+          "name": "MATEO DI QUATTRO B. GOOP",
+          "p_win": 0.0643,
+          "p_top3": 0.19268,
+          "p_top5": 0.32104,
+          "expected_position": 8.3701,
+          "position_distribution": {
+            "1": 0.0643,
+            "2": 0.06274,
+            "3": 0.06564,
+            "4": 0.06512,
+            "5": 0.06324,
+            "6": 0.0652,
+            "7": 0.06198,
+            "8": 0.06264,
+            "9": 0.06408,
+            "10": 0.06166,
+            "11": 0.06322,
+            "12": 0.063,
+            "13": 0.06034,
+            "14": 0.0601,
+            "15": 0.0594,
+            "16": 0.05576,
+            "17": 0.00158
+          }
+        },
+        "joker-des-chaliers-g.-gelormini": {
+          "horse_id": "joker-des-chaliers-g.-gelormini",
+          "name": "JOKER DES CHALIERS G. GELORMINI",
+          "p_win": 0.0009,
+          "p_top3": 0.00204,
+          "p_top5": 0.00322,
+          "expected_position": 16.8538,
+          "position_distribution": {
+            "1": 0.0009,
+            "2": 0.00046,
+            "3": 0.00068,
+            "4": 0.0006,
+            "5": 0.00058,
+            "6": 0.0009,
+            "7": 0.00096,
+            "8": 0.00098,
+            "9": 0.00108,
+            "10": 0.00132,
+            "11": 0.00148,
+            "12": 0.00164,
+            "13": 0.00234,
+            "14": 0.00326,
+            "15": 0.00434,
+            "16": 0.00952,
+            "17": 0.96896
+          }
+        },
+        "every-time-winner-e.-raffin": {
+          "horse_id": "every-time-winner-e.-raffin",
+          "name": "EVERY TIME WINNER E. RAFFIN",
+          "p_win": 0.06498,
+          "p_top3": 0.1924,
+          "p_top5": 0.32056,
+          "expected_position": 8.3793,
+          "position_distribution": {
+            "1": 0.06498,
+            "2": 0.0641,
+            "3": 0.06332,
+            "4": 0.06388,
+            "5": 0.06428,
+            "6": 0.06454,
+            "7": 0.06366,
+            "8": 0.06242,
+            "9": 0.06226,
+            "10": 0.06254,
+            "11": 0.06162,
+            "12": 0.06222,
+            "13": 0.06246,
+            "14": 0.05938,
+            "15": 0.06162,
+            "16": 0.05504,
+            "17": 0.00168
+          }
+        },
+        "humanity-pellini": {
+          "horse_id": "humanity-pellini",
+          "name": "HUMANITY PELLINI",
+          "p_win": 0.06502,
+          "p_top3": 0.1951,
+          "p_top5": 0.32302,
+          "expected_position": 8.3243,
+          "position_distribution": {
+            "1": 0.06502,
+            "2": 0.06418,
+            "3": 0.0659,
+            "4": 0.06414,
+            "5": 0.06378,
+            "6": 0.06414,
+            "7": 0.06426,
+            "8": 0.06306,
+            "9": 0.06322,
+            "10": 0.06492,
+            "11": 0.06334,
+            "12": 0.0619,
+            "13": 0.05992,
+            "14": 0.05968,
+            "15": 0.05584,
+            "16": 0.05512,
+            "17": 0.00158
+          }
+        },
+        "jusseo": {
+          "horse_id": "jusseo",
+          "name": "JUSSEO",
+          "p_win": 0.06538,
+          "p_top3": 0.19302,
+          "p_top5": 0.31928,
+          "expected_position": 8.3957,
+          "position_distribution": {
+            "1": 0.06538,
+            "2": 0.06414,
+            "3": 0.0635,
+            "4": 0.06328,
+            "5": 0.06298,
+            "6": 0.06294,
+            "7": 0.06234,
+            "8": 0.0621,
+            "9": 0.06384,
+            "10": 0.0645,
+            "11": 0.06386,
+            "12": 0.06108,
+            "13": 0.06108,
+            "14": 0.0611,
+            "15": 0.05962,
+            "16": 0.05646,
+            "17": 0.0018
+          }
+        },
+        "hinden": {
+          "horse_id": "hinden",
+          "name": "HINDEN",
+          "p_win": 0.0639,
+          "p_top3": 0.1942,
+          "p_top5": 0.32478,
+          "expected_position": 8.3072,
+          "position_distribution": {
+            "1": 0.0639,
+            "2": 0.06496,
+            "3": 0.06534,
+            "4": 0.06432,
+            "5": 0.06626,
+            "6": 0.0653,
+            "7": 0.06458,
+            "8": 0.06522,
+            "9": 0.06152,
+            "10": 0.06348,
+            "11": 0.06132,
+            "12": 0.06112,
+            "13": 0.0598,
+            "14": 0.0606,
+            "15": 0.05724,
+            "16": 0.05338,
+            "17": 0.00166
+          }
+        },
+        "ready-star": {
+          "horse_id": "ready-star",
+          "name": "READY STAR",
+          "p_win": 0.0676,
+          "p_top3": 0.19854,
+          "p_top5": 0.3281,
+          "expected_position": 8.2691,
+          "position_distribution": {
+            "1": 0.0676,
+            "2": 0.06638,
+            "3": 0.06456,
+            "4": 0.06458,
+            "5": 0.06498,
+            "6": 0.06534,
+            "7": 0.06252,
+            "8": 0.0633,
+            "9": 0.06444,
+            "10": 0.06206,
+            "11": 0.06234,
+            "12": 0.0629,
+            "13": 0.06022,
+            "14": 0.05662,
+            "15": 0.05726,
+            "16": 0.05304,
+            "17": 0.00186
+          }
+        },
+        "die-hard": {
+          "horse_id": "die-hard",
+          "name": "DIE HARD",
+          "p_win": 0.05952,
+          "p_top3": 0.1746,
+          "p_top5": 0.29294,
+          "expected_position": 8.8317,
+          "position_distribution": {
+            "1": 0.05952,
+            "2": 0.05638,
+            "3": 0.0587,
+            "4": 0.05884,
+            "5": 0.0595,
+            "6": 0.05794,
+            "7": 0.05942,
+            "8": 0.0604,
+            "9": 0.06148,
+            "10": 0.06204,
+            "11": 0.0628,
+            "12": 0.06276,
+            "13": 0.0655,
+            "14": 0.06666,
+            "15": 0.0698,
+            "16": 0.0761,
+            "17": 0.00216
+          }
+        },
+        "kira-bo-face": {
+          "horse_id": "kira-bo-face",
+          "name": "KIRA BO FACE",
+          "p_win": 0.05912,
+          "p_top3": 0.17594,
+          "p_top5": 0.29444,
+          "expected_position": 8.7775,
+          "position_distribution": {
+            "1": 0.05912,
+            "2": 0.05984,
+            "3": 0.05698,
+            "4": 0.05816,
+            "5": 0.06034,
+            "6": 0.05934,
+            "7": 0.06302,
+            "8": 0.06182,
+            "9": 0.059,
+            "10": 0.06266,
+            "11": 0.06118,
+            "12": 0.06302,
+            "13": 0.06466,
+            "14": 0.06642,
+            "15": 0.06922,
+            "16": 0.07264,
+            "17": 0.00258
+          }
+        },
+        "kaxig-in": {
+          "horse_id": "kaxig-in",
+          "name": "KAXIG IN",
+          "p_win": 0.0613,
+          "p_top3": 0.18348,
+          "p_top5": 0.3051,
+          "expected_position": 8.6011,
+          "position_distribution": {
+            "1": 0.0613,
+            "2": 0.05944,
+            "3": 0.06274,
+            "4": 0.0609,
+            "5": 0.06072,
+            "6": 0.06148,
+            "7": 0.06238,
+            "8": 0.06262,
+            "9": 0.06268,
+            "10": 0.06118,
+            "11": 0.06378,
+            "12": 0.0628,
+            "13": 0.06284,
+            "14": 0.06402,
+            "15": 0.06538,
+            "16": 0.06354,
+            "17": 0.0022
+          }
+        },
+        "instinct-d-authise-l.-laudren": {
+          "horse_id": "instinct-d-authise-l.-laudren",
+          "name": "INSTINCT D'AUTHISE L. LAUDREN",
+          "p_win": 0.05186,
+          "p_top3": 0.1627,
+          "p_top5": 0.27622,
+          "expected_position": 9.1202,
+          "position_distribution": {
+            "1": 0.05186,
+            "2": 0.05544,
+            "3": 0.0554,
+            "4": 0.0552,
+            "5": 0.05832,
+            "6": 0.0552,
+            "7": 0.0579,
+            "8": 0.05774,
+            "9": 0.05944,
+            "10": 0.06066,
+            "11": 0.06418,
+            "12": 0.06344,
+            "13": 0.066,
+            "14": 0.0706,
+            "15": 0.07594,
+            "16": 0.0894,
+            "17": 0.00328
+          }
+        },
+        "knockonwood": {
+          "horse_id": "knockonwood",
+          "name": "KNOCKONWOOD",
+          "p_win": 0.06198,
+          "p_top3": 0.1911,
+          "p_top5": 0.32104,
+          "expected_position": 8.4147,
+          "position_distribution": {
+            "1": 0.06198,
+            "2": 0.0649,
+            "3": 0.06422,
+            "4": 0.06632,
+            "5": 0.06362,
+            "6": 0.06256,
+            "7": 0.06248,
+            "8": 0.06382,
+            "9": 0.06284,
+            "10": 0.06134,
+            "11": 0.05904,
+            "12": 0.06206,
+            "13": 0.06122,
+            "14": 0.06142,
+            "15": 0.06194,
+            "16": 0.05842,
+            "17": 0.00182
+          }
+        },
+        "zoom-diamant": {
+          "horse_id": "zoom-diamant",
+          "name": "ZOOM DIAMANT",
+          "p_win": 0.06206,
+          "p_top3": 0.18754,
+          "p_top5": 0.3114,
+          "expected_position": 8.4649,
+          "position_distribution": {
+            "1": 0.06206,
+            "2": 0.06218,
+            "3": 0.0633,
+            "4": 0.06142,
+            "5": 0.06244,
+            "6": 0.06372,
+            "7": 0.06392,
+            "8": 0.06372,
+            "9": 0.06424,
+            "10": 0.06442,
+            "11": 0.06192,
+            "12": 0.06282,
+            "13": 0.06234,
+            "14": 0.06168,
+            "15": 0.05908,
+            "16": 0.0589,
+            "17": 0.00184
+          }
+        },
+        "niagara-river": {
+          "horse_id": "niagara-river",
+          "name": "NIAGARA RIVER",
+          "p_win": 0.06154,
+          "p_top3": 0.1859,
+          "p_top5": 0.30764,
+          "expected_position": 8.5551,
+          "position_distribution": {
+            "1": 0.06154,
+            "2": 0.06274,
+            "3": 0.06162,
+            "4": 0.0617,
+            "5": 0.06004,
+            "6": 0.064,
+            "7": 0.062,
+            "8": 0.06094,
+            "9": 0.06132,
+            "10": 0.06212,
+            "11": 0.0634,
+            "12": 0.0643,
+            "13": 0.06474,
+            "14": 0.0621,
+            "15": 0.06318,
+            "16": 0.06248,
+            "17": 0.00178
+          }
+        },
+        "junkie": {
+          "horse_id": "junkie",
+          "name": "JUNKIE",
+          "p_win": 0.05952,
+          "p_top3": 0.18054,
+          "p_top5": 0.30082,
+          "expected_position": 8.7016,
+          "position_distribution": {
+            "1": 0.05952,
+            "2": 0.061,
+            "3": 0.06002,
+            "4": 0.05958,
+            "5": 0.0607,
+            "6": 0.05958,
+            "7": 0.06172,
+            "8": 0.06174,
+            "9": 0.06004,
+            "10": 0.06054,
+            "11": 0.06354,
+            "12": 0.0624,
+            "13": 0.0652,
+            "14": 0.0665,
+            "15": 0.06616,
+            "16": 0.06962,
+            "17": 0.00214
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "ready-star",
+          "hinden",
+          "humanity-pellini"
+        ],
+        "23": [
+          "kotkie",
+          "humanity-pellini",
+          "ready-star"
+        ],
+        "37": [
+          "kotkie",
+          "ready-star",
+          "hinden"
+        ],
+        "51": [
+          "ready-star",
+          "kotkie",
+          "hinden"
+        ],
+        "73": [
+          "ready-star",
+          "hinden",
+          "kotkie"
+        ]
+      },
+      "reference_top": [
+        "hinden",
+        "kotkie",
+        "ready-star"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "ready-star": 7.0,
+        "hinden": 2.0,
+        "humanity-pellini": 1.0,
+        "kotkie": 5.0
+      },
+      "order": [
+        "ready-star",
+        "kotkie",
+        "hinden",
+        "humanity-pellini"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kotkie": 16.0,
+        "ready-star": 15.0,
+        "isis-d-herfraie": 14.0,
+        "hinden": 13.0,
+        "humanity-pellini": 12.0,
+        "mateo-di-quattro-b.-goop": 11.0,
+        "jusseo": 10.0,
+        "every-time-winner-e.-raffin": 9.0,
+        "knockonwood": 8.0,
+        "zoom-diamant": 7.0,
+        "niagara-river": 6.0,
+        "kaxig-in": 5.0,
+        "junkie": 4.0,
+        "kira-bo-face": 3.0,
+        "die-hard": 2.0,
+        "instinct-d-authise-l.-laudren": 1.0,
+        "joker-des-chaliers-g.-gelormini": 0.0
+      },
+      "order": [
+        "kotkie",
+        "ready-star",
+        "isis-d-herfraie",
+        "hinden",
+        "humanity-pellini",
+        "mateo-di-quattro-b.-goop",
+        "jusseo",
+        "every-time-winner-e.-raffin",
+        "knockonwood",
+        "zoom-diamant",
+        "niagara-river",
+        "kaxig-in",
+        "junkie",
+        "kira-bo-face",
+        "die-hard",
+        "instinct-d-authise-l.-laudren",
+        "joker-des-chaliers-g.-gelormini"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ready-star",
+        "kotkie",
+        "hinden",
+        "isis-d-herfraie",
+        "humanity-pellini",
+        "mateo-di-quattro-b.-goop",
+        "every-time-winner-e.-raffin",
+        "jusseo",
+        "knockonwood",
+        "zoom-diamant",
+        "niagara-river",
+        "kaxig-in",
+        "junkie",
+        "kira-bo-face",
+        "die-hard",
+        "instinct-d-authise-l.-laudren",
+        "joker-des-chaliers-g.-gelormini"
+      ],
+      "copeland": {
+        "ready-star": 16.0,
+        "kotkie": 14.0,
+        "hinden": 11.5,
+        "humanity-pellini": 9.5,
+        "isis-d-herfraie": 11.0,
+        "mateo-di-quattro-b.-goop": 6.0,
+        "every-time-winner-e.-raffin": 3.5,
+        "jusseo": 3.5,
+        "knockonwood": 0.0,
+        "zoom-diamant": -2.0,
+        "niagara-river": -4.0,
+        "kaxig-in": -6.0,
+        "junkie": -8.0,
+        "kira-bo-face": -10.0,
+        "die-hard": -12.0,
+        "instinct-d-authise-l.-laudren": -14.0,
+        "joker-des-chaliers-g.-gelormini": -16.0
+      },
+      "normalized": {
+        "ready-star": 1.0,
+        "kotkie": 0.9375,
+        "hinden": 0.8594,
+        "humanity-pellini": 0.7969,
+        "isis-d-herfraie": 0.8438,
+        "mateo-di-quattro-b.-goop": 0.6875,
+        "every-time-winner-e.-raffin": 0.6094,
+        "jusseo": 0.6094,
+        "knockonwood": 0.5,
+        "zoom-diamant": 0.4375,
+        "niagara-river": 0.375,
+        "kaxig-in": 0.3125,
+        "junkie": 0.25,
+        "kira-bo-face": 0.1875,
+        "die-hard": 0.125,
+        "instinct-d-authise-l.-laudren": 0.0625,
+        "joker-des-chaliers-g.-gelormini": 0.0
+      },
+      "mean_rank": {
+        "ready-star": 0.3333,
+        "kotkie": 0.6667,
+        "hinden": 2.3333,
+        "humanity-pellini": 3.3333,
+        "isis-d-herfraie": 3.0,
+        "mateo-di-quattro-b.-goop": 5.0,
+        "every-time-winner-e.-raffin": 6.5,
+        "jusseo": 6.5,
+        "knockonwood": 8.0,
+        "zoom-diamant": 9.0,
+        "niagara-river": 10.0,
+        "kaxig-in": 11.0,
+        "junkie": 12.0,
+        "kira-bo-face": 13.0,
+        "die-hard": 14.0,
+        "instinct-d-authise-l.-laudren": 15.0,
+        "joker-des-chaliers-g.-gelormini": 16.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "kotkie",
+        "name": "KOTKIE",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "isis-d-herfraie",
+        "name": "ISIS D'HERFRAIE",
+        "number": 2,
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 4 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO B. GOOP",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "joker-des-chaliers-g.-gelormini",
+        "name": "JOKER DES CHALIERS G. GELORMINI",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "every-time-winner-e.-raffin",
+        "name": "EVERY TIME WINNER E. RAFFIN",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "humanity-pellini",
+        "name": "HUMANITY PELLINI",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hinden",
+        "name": "HINDEN",
+        "number": 8,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 3 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "die-hard",
+        "name": "DIE HARD",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kira-bo-face",
+        "name": "KIRA BO FACE",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kaxig-in",
+        "name": "KAXIG IN",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "instinct-d-authise-l.-laudren",
+        "name": "INSTINCT D'AUTHISE L. LAUDREN",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "knockonwood",
+        "name": "KNOCKONWOOD",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zoom-diamant",
+        "name": "ZOOM DIAMANT",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "niagara-river",
+        "name": "NIAGARA RIVER",
+        "number": 17,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "junkie",
+        "name": "JUNKIE",
+        "number": 18,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "kotkie",
+      "isis-d-herfraie",
+      "hinden"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "Aucun mouvement de cote exploitable : sévérité plafonnée à « faible »."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "ready-star",
+          "humanity-pellini",
+          "kotkie",
+          "kaxig-in",
+          "jusseo",
+          "zoom-diamant",
+          "knockonwood",
+          "isis-d-herfraie",
+          "hinden",
+          "niagara-river",
+          "junkie",
+          "die-hard",
+          "kira-bo-face"
+        ],
+        "coverage": 0.765,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "ready-star",
+          "humanity-pellini",
+          "kotkie",
+          "kaxig-in",
+          "knockonwood",
+          "isis-d-herfraie",
+          "hinden",
+          "niagara-river",
+          "junkie",
+          "die-hard",
+          "kira-bo-face",
+          "jusseo",
+          "zoom-diamant"
+        ],
+        "coverage": 0.765,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "ready-star",
+          "humanity-pellini",
+          "kotkie",
+          "isis-d-herfraie",
+          "jusseo",
+          "hinden",
+          "die-hard",
+          "kira-bo-face",
+          "kaxig-in",
+          "knockonwood",
+          "zoom-diamant",
+          "niagara-river",
+          "junkie"
+        ],
+        "coverage": 0.765,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "ready-star",
+          "humanity-pellini",
+          "kotkie",
+          "jusseo",
+          "zoom-diamant",
+          "kaxig-in",
+          "isis-d-herfraie",
+          "hinden",
+          "die-hard",
+          "kira-bo-face",
+          "knockonwood",
+          "niagara-river",
+          "junkie"
+        ],
+        "coverage": 0.765,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "kotkie",
+          "isis-d-herfraie",
+          "humanity-pellini",
+          "jusseo",
+          "hinden",
+          "ready-star",
+          "die-hard",
+          "kira-bo-face",
+          "kaxig-in",
+          "knockonwood",
+          "zoom-diamant",
+          "niagara-river",
+          "junkie"
+        ],
+        "coverage": 0.765,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-05T14:49:09.794608+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "kotkie": 0.043701,
+      "isis-d-herfraie": 0.052442,
+      "mateo-di-quattro-b.-goop": 0.062431,
+      "joker-des-chaliers-g.-gelormini": 0.057002,
+      "every-time-winner-e.-raffin": 0.131104,
+      "humanity-pellini": 0.059593,
+      "jusseo": 0.021851,
+      "hinden": 0.031215,
+      "ready-star": 0.187292,
+      "die-hard": 0.022604,
+      "kira-bo-face": 0.039729,
+      "kaxig-in": 0.072836,
+      "instinct-d-authise-l.-laudren": 0.018209,
+      "knockonwood": 0.057002,
+      "zoom-diamant": 0.087403,
+      "niagara-river": 0.03856,
+      "junkie": 0.017027
+    },
+    "consensus_ranking": [
+      "ready-star",
+      "humanity-pellini",
+      "kotkie",
+      "isis-d-herfraie",
+      "jusseo",
+      "kaxig-in",
+      "hinden",
+      "knockonwood",
+      "die-hard",
+      "zoom-diamant",
+      "kira-bo-face",
+      "niagara-river",
+      "junkie"
+    ],
+    "convergence": 0.6667,
+    "notes": [
+      "convergence Top 5 interne/externe : 67%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "hinden"
+    ],
+    "externe_seulement": [
+      "jusseo"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 3.675,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 0.0282,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 6.6667,
+      "completude_donnees": 3.3333
+    },
+    "missing_data": [
+      "n°1 · KOTKIE : recent_places",
+      "n°1 · KOTKIE : driver",
+      "n°1 · KOTKIE : aptitude",
+      "n°1 · KOTKIE : shoeing",
+      "n°2 · ISIS D'HERFRAIE : recent_places",
+      "n°2 · ISIS D'HERFRAIE : driver",
+      "n°2 · ISIS D'HERFRAIE : aptitude",
+      "n°2 · ISIS D'HERFRAIE : shoeing",
+      "n°3 · MATEO DI QUATTRO B. GOOP : recent_places",
+      "n°3 · MATEO DI QUATTRO B. GOOP : driver",
+      "n°3 · MATEO DI QUATTRO B. GOOP : aptitude",
+      "n°3 · MATEO DI QUATTRO B. GOOP : shoeing",
+      "n°4 · JOKER DES CHALIERS G. GELORMINI : recent_places",
+      "n°4 · JOKER DES CHALIERS G. GELORMINI : driver",
+      "n°4 · JOKER DES CHALIERS G. GELORMINI : aptitude",
+      "n°4 · JOKER DES CHALIERS G. GELORMINI : shoeing",
+      "n°5 · EVERY TIME WINNER E. RAFFIN : recent_places",
+      "n°5 · EVERY TIME WINNER E. RAFFIN : driver",
+      "n°5 · EVERY TIME WINNER E. RAFFIN : aptitude",
+      "n°5 · EVERY TIME WINNER E. RAFFIN : shoeing",
+      "n°6 · HUMANITY PELLINI : recent_places",
+      "n°6 · HUMANITY PELLINI : driver",
+      "n°6 · HUMANITY PELLINI : aptitude",
+      "n°6 · HUMANITY PELLINI : shoeing",
+      "n°7 · JUSSEO : recent_places",
+      "n°7 · JUSSEO : driver",
+      "n°7 · JUSSEO : aptitude",
+      "n°7 · JUSSEO : shoeing",
+      "n°8 · HINDEN : recent_places",
+      "n°8 · HINDEN : driver",
+      "n°8 · HINDEN : aptitude",
+      "n°8 · HINDEN : shoeing",
+      "n°9 · READY STAR : recent_places",
+      "n°9 · READY STAR : driver",
+      "n°9 · READY STAR : aptitude",
+      "n°9 · READY STAR : shoeing",
+      "n°10 · DIE HARD : recent_places",
+      "n°10 · DIE HARD : driver",
+      "n°10 · DIE HARD : aptitude",
+      "n°10 · DIE HARD : shoeing",
+      "n°11 · KIRA BO FACE : recent_places",
+      "n°11 · KIRA BO FACE : driver",
+      "n°11 · KIRA BO FACE : aptitude",
+      "n°11 · KIRA BO FACE : shoeing",
+      "n°12 · KAXIG IN : recent_places",
+      "n°12 · KAXIG IN : driver",
+      "n°12 · KAXIG IN : aptitude",
+      "n°12 · KAXIG IN : shoeing",
+      "n°13 · INSTINCT D'AUTHISE L. LAUDREN : recent_places",
+      "n°13 · INSTINCT D'AUTHISE L. LAUDREN : driver",
+      "n°13 · INSTINCT D'AUTHISE L. LAUDREN : aptitude",
+      "n°13 · INSTINCT D'AUTHISE L. LAUDREN : shoeing",
+      "n°14 · KNOCKONWOOD : recent_places",
+      "n°14 · KNOCKONWOOD : driver",
+      "n°14 · KNOCKONWOOD : aptitude",
+      "n°14 · KNOCKONWOOD : shoeing",
+      "n°16 · ZOOM DIAMANT : recent_places",
+      "n°16 · ZOOM DIAMANT : driver",
+      "n°16 · ZOOM DIAMANT : aptitude",
+      "n°16 · ZOOM DIAMANT : shoeing",
+      "n°17 · NIAGARA RIVER : recent_places",
+      "n°17 · NIAGARA RIVER : driver",
+      "n°17 · NIAGARA RIVER : aptitude",
+      "n°17 · NIAGARA RIVER : shoeing",
+      "n°18 · JUNKIE : recent_places",
+      "n°18 · JUNKIE : driver",
+      "n°18 · JUNKIE : aptitude",
+      "n°18 · JUNKIE : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.01 (saturé à 2.0) → 0.0/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence Top 5 interne/externe = 67% → 6.7/10",
+      "complétude des données = 33% (68 champ(s) manquant(s)) → 3.3/10",
+      "couverture du score = 25% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 25% du modèle (dimensions non déterminées)",
+      "indice plafonné à 6.4 : données incomplètes (33%)"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-11-05T12:55:00+00:00",
+    "betting_close": "2026-11-05T12:45:00+00:00",
+    "race_started": true,
+    "now": "2026-11-05T14:49:17.276566+00:00",
+    "minutes_late": 124.29,
+    "minutes_to_close": -124.29,
+    "schedule": {
+      "start_ouagadougou": "2026-11-05T12:55:00+00:00",
+      "start_paris": "2026-11-05T13:55:00+01:00",
+      "close_lonab": "2026-11-05T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 9,
+      "cheval": "READY STAR",
+      "horse_id": "ready-star"
+    },
+    {
+      "rang": 2,
+      "numero": 1,
+      "cheval": "KOTKIE",
+      "horse_id": "kotkie"
+    },
+    {
+      "rang": 3,
+      "numero": 8,
+      "cheval": "HINDEN",
+      "horse_id": "hinden"
+    },
+    {
+      "rang": 4,
+      "numero": 2,
+      "cheval": "ISIS D'HERFRAIE",
+      "horse_id": "isis-d-herfraie"
+    },
+    {
+      "rang": 5,
+      "numero": 6,
+      "cheval": "HUMANITY PELLINI",
+      "horse_id": "humanity-pellini"
+    },
+    {
+      "rang": 6,
+      "numero": 3,
+      "cheval": "MATEO DI QUATTRO B. GOOP",
+      "horse_id": "mateo-di-quattro-b.-goop"
+    },
+    {
+      "rang": 7,
+      "numero": 5,
+      "cheval": "EVERY TIME WINNER E. RAFFIN",
+      "horse_id": "every-time-winner-e.-raffin"
+    },
+    {
+      "rang": 8,
+      "numero": 7,
+      "cheval": "JUSSEO",
+      "horse_id": "jusseo"
+    },
+    {
+      "rang": 9,
+      "numero": 14,
+      "cheval": "KNOCKONWOOD",
+      "horse_id": "knockonwood"
+    },
+    {
+      "rang": 10,
+      "numero": 16,
+      "cheval": "ZOOM DIAMANT",
+      "horse_id": "zoom-diamant"
+    },
+    {
+      "rang": 11,
+      "numero": 17,
+      "cheval": "NIAGARA RIVER",
+      "horse_id": "niagara-river"
+    },
+    {
+      "rang": 12,
+      "numero": 12,
+      "cheval": "KAXIG IN",
+      "horse_id": "kaxig-in"
+    },
+    {
+      "rang": 13,
+      "numero": 18,
+      "cheval": "JUNKIE",
+      "horse_id": "junkie"
+    },
+    {
+      "rang": 14,
+      "numero": 11,
+      "cheval": "KIRA BO FACE",
+      "horse_id": "kira-bo-face"
+    },
+    {
+      "rang": 15,
+      "numero": 10,
+      "cheval": "DIE HARD",
+      "horse_id": "die-hard"
+    },
+    {
+      "rang": 16,
+      "numero": 13,
+      "cheval": "INSTINCT D'AUTHISE L. LAUDREN",
+      "horse_id": "instinct-d-authise-l.-laudren"
+    },
+    {
+      "rang": 17,
+      "numero": 4,
+      "cheval": "JOKER DES CHALIERS G. GELORMINI",
+      "horse_id": "joker-des-chaliers-g.-gelormini"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 1,
+      "cheval": "KOTKIE",
+      "score": 10.0
+    },
+    {
+      "numero": 9,
+      "cheval": "READY STAR",
+      "score": 9.9944
+    },
+    {
+      "numero": 2,
+      "cheval": "ISIS D'HERFRAIE",
+      "score": 9.9871
+    },
+    {
+      "numero": 8,
+      "cheval": "HINDEN",
+      "score": 9.9857
+    },
+    {
+      "numero": 6,
+      "cheval": "HUMANITY PELLINI",
+      "score": 9.9853
+    },
+    {
+      "numero": 3,
+      "cheval": "MATEO DI QUATTRO B. GOOP",
+      "score": 9.9595
+    },
+    {
+      "numero": 7,
+      "cheval": "JUSSEO",
+      "score": 9.9543
+    },
+    {
+      "numero": 5,
+      "cheval": "EVERY TIME WINNER E. RAFFIN",
+      "score": 9.9433
+    },
+    {
+      "numero": 14,
+      "cheval": "KNOCKONWOOD",
+      "score": 9.9298
+    },
+    {
+      "numero": 16,
+      "cheval": "ZOOM DIAMANT",
+      "score": 9.8974
+    },
+    {
+      "numero": 17,
+      "cheval": "NIAGARA RIVER",
+      "score": 9.8656
+    },
+    {
+      "numero": 12,
+      "cheval": "KAXIG IN",
+      "score": 9.8455
+    },
+    {
+      "numero": 18,
+      "cheval": "JUNKIE",
+      "score": 9.7944
+    },
+    {
+      "numero": 11,
+      "cheval": "KIRA BO FACE",
+      "score": 9.7548
+    },
+    {
+      "numero": 10,
+      "cheval": "DIE HARD",
+      "score": 9.7166
+    },
+    {
+      "numero": 13,
+      "cheval": "INSTINCT D'AUTHISE L. LAUDREN",
+      "score": 9.5801
+    },
+    {
+      "numero": 4,
+      "cheval": "JOKER DES CHALIERS G. GELORMINI",
+      "score": 0.5595
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.4516,
+      "entropie_norm": 0.9103,
+      "p_favori": 0.2025,
+      "ratio_1_2": 1.4722
+    },
+    "p_gagnant_dans_selection": 0.5635,
+    "nb_attendu_dans_top5": 2.093,
+    "p_au_moins": {
+      "1": 0.9708,
+      "2": 0.7475,
+      "3": 0.3221,
+      "4": 0.0512,
+      "5": 0.0014
+    },
+    "cote_source": "cote du PDF LONAB (relevé du matin)",
+    "cote_horodatage": null,
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "32 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 9,
+        "cheval": "READY STAR",
+        "cote": 7.0,
+        "p_gagne": 0.2025,
+        "p_top3": 0.3957,
+        "p_top5": 0.5659,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 5,
+        "cheval": "EVERY TIME WINNER E. RAFFIN",
+        "cote": 10.0,
+        "p_gagne": 0.1375,
+        "p_top3": 0.3131,
+        "p_top5": 0.4729,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 16,
+        "cheval": "ZOOM DIAMANT",
+        "cote": 15.0,
+        "p_gagne": 0.0886,
+        "p_top3": 0.2396,
+        "p_top5": 0.385,
+        "rang_systeme": 10
+      },
+      {
+        "numero": 12,
+        "cheval": "KAXIG IN",
+        "cote": 18.0,
+        "p_gagne": 0.0727,
+        "p_top3": 0.2138,
+        "p_top5": 0.3481,
+        "rang_systeme": 12
+      },
+      {
+        "numero": 3,
+        "cheval": "MATEO DI QUATTRO B. GOOP",
+        "cote": 21.0,
+        "p_gagne": 0.0615,
+        "p_top3": 0.188,
+        "p_top5": 0.3211,
+        "rang_systeme": 6
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ignore",
+    "reason": "course introuvable ou ambiguë dans le programme PMU (PARIS-VINCENNES - PRIX D'AVRANCHES C1) : aucun enrichissement"
+  },
+  "stored_at": "2026-11-05T14:49:17.335377+00:00"
+}
