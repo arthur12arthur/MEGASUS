@@ -1,0 +1,31 @@
+{
+  "race_id": "20261104-nantes-c2",
+  "date": "2026-11-04",
+  "course": "GRAND NATIONAL DU TROT",
+  "arrivee_top5": [
+    12,
+    8,
+    6,
+    3,
+    7
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": true,
+  "favori_marche": 12,
+  "favori_marche_place": 1,
+  "selection": [
+    12,
+    7,
+    8,
+    6,
+    11
+  ],
+  "bons_dans_top5": 4,
+  "gagnant_dans_selection": true,
+  "classe": "intermédiaire",
+  "attendu_bons": 3.144,
+  "attendu_gagnant_inclus": 0.8152,
+  "attendu_au_moins_3": 0.8044,
+  "au_moins_3_reel": true,
+  "criteres_respectes": true
+}
