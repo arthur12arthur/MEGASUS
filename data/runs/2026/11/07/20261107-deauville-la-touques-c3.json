@@ -1,0 +1,2229 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261107-deauville-la-touques-c3",
+  "date": "2026-11-07",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-LA TOUQUES",
+    "date": "2026-11-07",
+    "start_time": "2026-11-07T14:15:00+00:00",
+    "race_number": 3,
+    "name": "PRIX DE L'OPERATION EPSOM",
+    "distance_m": 1900,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_07-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-07T14:05:00+00:00",
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-07T11:22:51.863319+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "number": 1,
+        "odds_pdf": 6.0,
+        "odds_latest": 3.2,
+        "delta": -0.4666666666666666,
+        "implied_shift": -0.14583333333333334,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "quiet-king",
+        "name": "QUIET KING",
+        "number": 2,
+        "odds_pdf": 9.0,
+        "odds_latest": 8.9,
+        "delta": -0.011111111111111072,
+        "implied_shift": -0.0012484394506866447,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "human-evolution",
+        "name": "HUMAN EVOLUTION",
+        "number": 3,
+        "odds_pdf": 26.0,
+        "odds_latest": 29.0,
+        "delta": 0.11538461538461539,
+        "implied_shift": 0.003978779840848809,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "number": 4,
+        "odds_pdf": 7.0,
+        "odds_latest": 10.0,
+        "delta": 0.42857142857142855,
+        "implied_shift": 0.042857142857142844,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "number": 5,
+        "odds_pdf": 63.0,
+        "odds_latest": 55.0,
+        "delta": -0.12698412698412698,
+        "implied_shift": -0.002308802308802309,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "piquoiseau",
+        "name": "PIQUOISEAU",
+        "number": 6,
+        "odds_pdf": 44.0,
+        "odds_latest": 16.0,
+        "delta": -0.6363636363636364,
+        "implied_shift": -0.03977272727272727,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 7,
+        "odds_pdf": 8.0,
+        "odds_latest": 11.0,
+        "delta": 0.375,
+        "implied_shift": 0.03409090909090909,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "wedgewood-pearl",
+        "name": "WEDGEWOOD PEARL",
+        "number": 8,
+        "odds_pdf": 57.0,
+        "odds_latest": 51.0,
+        "delta": -0.10526315789473684,
+        "implied_shift": -0.0020639834881320956,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "east-grey",
+        "name": "EAST GREY",
+        "number": 9,
+        "odds_pdf": 10.0,
+        "odds_latest": 23.0,
+        "delta": 1.3,
+        "implied_shift": 0.05652173913043479,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "allurre",
+        "name": "ALLURRE",
+        "number": 10,
+        "odds_pdf": 12.0,
+        "odds_latest": 29.0,
+        "delta": 1.4166666666666667,
+        "implied_shift": 0.048850574712643674,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "ciccio-boy",
+        "name": "CICCIO BOY",
+        "number": 11,
+        "odds_pdf": 30.0,
+        "odds_latest": 24.0,
+        "delta": -0.2,
+        "implied_shift": -0.008333333333333331,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "almaromy",
+        "name": "ALMAROMY",
+        "number": 12,
+        "odds_pdf": 15.0,
+        "odds_latest": 16.0,
+        "delta": 0.06666666666666667,
+        "implied_shift": 0.004166666666666666,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "number": 13,
+        "odds_pdf": 32.0,
+        "odds_latest": 13.0,
+        "delta": -0.59375,
+        "implied_shift": -0.04567307692307693,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "her-christopher",
+        "name": "HER CHRISTOPHER",
+        "number": 14,
+        "odds_pdf": 25.0,
+        "odds_latest": 19.0,
+        "delta": -0.24,
+        "implied_shift": -0.012631578947368417,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "lavendin",
+        "name": "LAVENDIN",
+        "number": 15,
+        "odds_pdf": 37.0,
+        "odds_latest": 21.0,
+        "delta": -0.43243243243243246,
+        "implied_shift": -0.020592020592020588,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "number": 16,
+        "odds_pdf": 23.0,
+        "odds_latest": 13.0,
+        "delta": -0.43478260869565216,
+        "implied_shift": -0.03344481605351171,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "zeloro",
+      "quiet-king",
+      "human-evolution",
+      "al-max",
+      "opalus-road",
+      "piquoiseau",
+      "fearless-cheetah",
+      "wedgewood-pearl",
+      "east-grey",
+      "allurre",
+      "ciccio-boy",
+      "almaromy",
+      "hermes-wood",
+      "her-christopher",
+      "lavendin",
+      "speedy-green"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "number": 1,
+        "dimensions": {
+          "historique": 8.079268973274608,
+          "forme": 6.776119402985074,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.5059,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "east-grey",
+        "name": "EAST GREY",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.243692735198914,
+          "forme": 4.552238805970149,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.1795,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lavendin",
+        "name": "LAVENDIN",
+        "number": 15,
+        "dimensions": {
+          "historique": 8.850520819740076,
+          "forme": 3.820895522388059,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.6375,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.362247633457592,
+          "forme": 5.582089552238806,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.579,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "wedgewood-pearl",
+        "name": "WEDGEWOOD PEARL",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.132094548983664,
+          "forme": 4.507462686567164,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.5373,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "her-christopher",
+        "name": "HER CHRISTOPHER",
+        "number": 14,
+        "dimensions": {
+          "historique": 6.6171645547585864,
+          "forme": 5.298507462686567,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.037,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "almaromy",
+        "name": "ALMAROMY",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.732550844445534,
+          "forme": 5.08955223880597,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.0096,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "allurre",
+        "name": "ALLURRE",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.601557566684879,
+          "forme": 3.716417910447761,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.8921,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.468846668341687,
+          "forme": 3.5820895522388065,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7587,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "quiet-king",
+        "name": "QUIET KING",
+        "number": 2,
+        "dimensions": {
+          "historique": 6.8420921449350605,
+          "forme": 3.6268656716417906,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.4274,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.2147852243685495,
+          "forme": 3.029850746268657,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3734,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 7,
+        "dimensions": {
+          "historique": 7.581787013177328,
+          "forme": 1.7761194029850746,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.0273,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "human-evolution",
+        "name": "HUMAN EVOLUTION",
+        "number": 3,
+        "dimensions": {
+          "historique": 6.48918305982058,
+          "forme": 2.328358208955224,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.6584,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "number": 4,
+        "dimensions": {
+          "historique": 6.3840596097436455,
+          "forme": 2.029850746268657,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.4682,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "piquoiseau",
+        "name": "PIQUOISEAU",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.440163375700704,
+          "forme": 1.373134328358209,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.2107,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ciccio-boy",
+        "name": "CICCIO BOY",
+        "number": 11,
+        "dimensions": {
+          "historique": 6.458333333333334,
+          "forme": 0.8955223880597016,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.0107,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "zeloro",
+      "east-grey",
+      "lavendin",
+      "speedy-green",
+      "wedgewood-pearl",
+      "her-christopher",
+      "almaromy",
+      "allurre",
+      "hermes-wood",
+      "quiet-king",
+      "opalus-road",
+      "fearless-cheetah",
+      "human-evolution",
+      "al-max",
+      "piquoiseau",
+      "ciccio-boy"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "zeloro": {
+          "horse_id": "zeloro",
+          "name": "ZELORO",
+          "p_win": 0.13672,
+          "p_top3": 0.37864,
+          "p_top5": 0.5827,
+          "expected_position": 5.2761,
+          "position_distribution": {
+            "1": 0.13672,
+            "2": 0.1272,
+            "3": 0.11472,
+            "4": 0.10526,
+            "5": 0.0988,
+            "6": 0.08448,
+            "7": 0.07508,
+            "8": 0.06612,
+            "9": 0.05406,
+            "10": 0.0449,
+            "11": 0.03574,
+            "12": 0.02604,
+            "13": 0.01604,
+            "14": 0.00914,
+            "15": 0.0045,
+            "16": 0.0012
+          }
+        },
+        "quiet-king": {
+          "horse_id": "quiet-king",
+          "name": "QUIET KING",
+          "p_win": 0.04762,
+          "p_top3": 0.14788,
+          "p_top5": 0.25662,
+          "expected_position": 9.0752,
+          "position_distribution": {
+            "1": 0.04762,
+            "2": 0.04884,
+            "3": 0.05142,
+            "4": 0.0538,
+            "5": 0.05494,
+            "6": 0.0572,
+            "7": 0.0604,
+            "8": 0.06186,
+            "9": 0.06522,
+            "10": 0.06966,
+            "11": 0.07138,
+            "12": 0.07596,
+            "13": 0.07592,
+            "14": 0.08072,
+            "15": 0.0734,
+            "16": 0.05166
+          }
+        },
+        "human-evolution": {
+          "horse_id": "human-evolution",
+          "name": "HUMAN EVOLUTION",
+          "p_win": 0.03228,
+          "p_top3": 0.10312,
+          "p_top5": 0.18178,
+          "expected_position": 10.4471,
+          "position_distribution": {
+            "1": 0.03228,
+            "2": 0.0356,
+            "3": 0.03524,
+            "4": 0.0381,
+            "5": 0.04056,
+            "6": 0.04272,
+            "7": 0.04636,
+            "8": 0.05194,
+            "9": 0.05386,
+            "10": 0.06218,
+            "11": 0.06644,
+            "12": 0.07412,
+            "13": 0.0862,
+            "14": 0.098,
+            "15": 0.1155,
+            "16": 0.1209
+          }
+        },
+        "al-max": {
+          "horse_id": "al-max",
+          "name": "AL MAX",
+          "p_win": 0.0296,
+          "p_top3": 0.09482,
+          "p_top5": 0.16542,
+          "expected_position": 10.7728,
+          "position_distribution": {
+            "1": 0.0296,
+            "2": 0.03198,
+            "3": 0.03324,
+            "4": 0.03372,
+            "5": 0.03688,
+            "6": 0.04108,
+            "7": 0.0445,
+            "8": 0.04848,
+            "9": 0.0529,
+            "10": 0.05506,
+            "11": 0.06302,
+            "12": 0.07454,
+            "13": 0.08536,
+            "14": 0.10084,
+            "15": 0.12224,
+            "16": 0.14656
+          }
+        },
+        "opalus-road": {
+          "horse_id": "opalus-road",
+          "name": "OPALUS ROAD",
+          "p_win": 0.04442,
+          "p_top3": 0.14402,
+          "p_top5": 0.25028,
+          "expected_position": 9.1447,
+          "position_distribution": {
+            "1": 0.04442,
+            "2": 0.04922,
+            "3": 0.05038,
+            "4": 0.05348,
+            "5": 0.05278,
+            "6": 0.0569,
+            "7": 0.05936,
+            "8": 0.063,
+            "9": 0.0636,
+            "10": 0.07036,
+            "11": 0.07442,
+            "12": 0.07608,
+            "13": 0.07984,
+            "14": 0.08028,
+            "15": 0.07152,
+            "16": 0.05436
+          }
+        },
+        "piquoiseau": {
+          "horse_id": "piquoiseau",
+          "name": "PIQUOISEAU",
+          "p_win": 0.0256,
+          "p_top3": 0.07972,
+          "p_top5": 0.14408,
+          "expected_position": 11.2561,
+          "position_distribution": {
+            "1": 0.0256,
+            "2": 0.02626,
+            "3": 0.02786,
+            "4": 0.03084,
+            "5": 0.03352,
+            "6": 0.0365,
+            "7": 0.03776,
+            "8": 0.04314,
+            "9": 0.04866,
+            "10": 0.05418,
+            "11": 0.06196,
+            "12": 0.07048,
+            "13": 0.08184,
+            "14": 0.10208,
+            "15": 0.13422,
+            "16": 0.1851
+          }
+        },
+        "fearless-cheetah": {
+          "horse_id": "fearless-cheetah",
+          "name": "FEARLESS CHEETAH",
+          "p_win": 0.03926,
+          "p_top3": 0.12254,
+          "p_top5": 0.21302,
+          "expected_position": 9.7755,
+          "position_distribution": {
+            "1": 0.03926,
+            "2": 0.03984,
+            "3": 0.04344,
+            "4": 0.0445,
+            "5": 0.04598,
+            "6": 0.05134,
+            "7": 0.05444,
+            "8": 0.05888,
+            "9": 0.0593,
+            "10": 0.06724,
+            "11": 0.07006,
+            "12": 0.07616,
+            "13": 0.08456,
+            "14": 0.08862,
+            "15": 0.09456,
+            "16": 0.08182
+          }
+        },
+        "wedgewood-pearl": {
+          "horse_id": "wedgewood-pearl",
+          "name": "WEDGEWOOD PEARL",
+          "p_win": 0.08504,
+          "p_top3": 0.25002,
+          "p_top5": 0.41184,
+          "expected_position": 6.9545,
+          "position_distribution": {
+            "1": 0.08504,
+            "2": 0.08292,
+            "3": 0.08206,
+            "4": 0.08246,
+            "5": 0.07936,
+            "6": 0.07778,
+            "7": 0.0748,
+            "8": 0.07358,
+            "9": 0.0706,
+            "10": 0.06566,
+            "11": 0.06256,
+            "12": 0.05484,
+            "13": 0.04392,
+            "14": 0.03334,
+            "15": 0.02132,
+            "16": 0.00976
+          }
+        },
+        "east-grey": {
+          "horse_id": "east-grey",
+          "name": "EAST GREY",
+          "p_win": 0.11324,
+          "p_top3": 0.32768,
+          "p_top5": 0.51948,
+          "expected_position": 5.8388,
+          "position_distribution": {
+            "1": 0.11324,
+            "2": 0.10922,
+            "3": 0.10522,
+            "4": 0.09832,
+            "5": 0.09348,
+            "6": 0.08704,
+            "7": 0.0776,
+            "8": 0.07038,
+            "9": 0.0632,
+            "10": 0.05182,
+            "11": 0.04402,
+            "12": 0.03378,
+            "13": 0.02582,
+            "14": 0.01532,
+            "15": 0.00908,
+            "16": 0.00246
+          }
+        },
+        "allurre": {
+          "horse_id": "allurre",
+          "name": "ALLURRE",
+          "p_win": 0.06084,
+          "p_top3": 0.1884,
+          "p_top5": 0.31852,
+          "expected_position": 8.1249,
+          "position_distribution": {
+            "1": 0.06084,
+            "2": 0.06076,
+            "3": 0.0668,
+            "4": 0.063,
+            "5": 0.06712,
+            "6": 0.06864,
+            "7": 0.06876,
+            "8": 0.06774,
+            "9": 0.07104,
+            "10": 0.07166,
+            "11": 0.06962,
+            "12": 0.068,
+            "13": 0.06496,
+            "14": 0.05714,
+            "15": 0.04544,
+            "16": 0.02848
+          }
+        },
+        "ciccio-boy": {
+          "horse_id": "ciccio-boy",
+          "name": "CICCIO BOY",
+          "p_win": 0.02264,
+          "p_top3": 0.0751,
+          "p_top5": 0.13438,
+          "expected_position": 11.5411,
+          "position_distribution": {
+            "1": 0.02264,
+            "2": 0.0251,
+            "3": 0.02736,
+            "4": 0.02828,
+            "5": 0.031,
+            "6": 0.03434,
+            "7": 0.03698,
+            "8": 0.04062,
+            "9": 0.04488,
+            "10": 0.04958,
+            "11": 0.05632,
+            "12": 0.06522,
+            "13": 0.07966,
+            "14": 0.10116,
+            "15": 0.13522,
+            "16": 0.22164
+          }
+        },
+        "almaromy": {
+          "horse_id": "almaromy",
+          "name": "ALMAROMY",
+          "p_win": 0.06458,
+          "p_top3": 0.19836,
+          "p_top5": 0.3339,
+          "expected_position": 7.9163,
+          "position_distribution": {
+            "1": 0.06458,
+            "2": 0.06742,
+            "3": 0.06636,
+            "4": 0.06678,
+            "5": 0.06876,
+            "6": 0.06984,
+            "7": 0.0693,
+            "8": 0.07202,
+            "9": 0.07096,
+            "10": 0.0684,
+            "11": 0.06896,
+            "12": 0.06656,
+            "13": 0.06198,
+            "14": 0.05366,
+            "15": 0.04108,
+            "16": 0.02334
+          }
+        },
+        "hermes-wood": {
+          "horse_id": "hermes-wood",
+          "name": "HERMES WOOD",
+          "p_win": 0.0571,
+          "p_top3": 0.17444,
+          "p_top5": 0.30052,
+          "expected_position": 8.3928,
+          "position_distribution": {
+            "1": 0.0571,
+            "2": 0.05752,
+            "3": 0.05982,
+            "4": 0.06274,
+            "5": 0.06334,
+            "6": 0.06288,
+            "7": 0.06692,
+            "8": 0.06632,
+            "9": 0.07094,
+            "10": 0.07084,
+            "11": 0.07154,
+            "12": 0.07248,
+            "13": 0.07014,
+            "14": 0.06256,
+            "15": 0.05176,
+            "16": 0.0331
+          }
+        },
+        "her-christopher": {
+          "horse_id": "her-christopher",
+          "name": "HER CHRISTOPHER",
+          "p_win": 0.06656,
+          "p_top3": 0.1983,
+          "p_top5": 0.33898,
+          "expected_position": 7.8538,
+          "position_distribution": {
+            "1": 0.06656,
+            "2": 0.06518,
+            "3": 0.06656,
+            "4": 0.0693,
+            "5": 0.07138,
+            "6": 0.07082,
+            "7": 0.07154,
+            "8": 0.07022,
+            "9": 0.07022,
+            "10": 0.07044,
+            "11": 0.06876,
+            "12": 0.0643,
+            "13": 0.05872,
+            "14": 0.05404,
+            "15": 0.03996,
+            "16": 0.022
+          }
+        },
+        "lavendin": {
+          "horse_id": "lavendin",
+          "name": "LAVENDIN",
+          "p_win": 0.0865,
+          "p_top3": 0.26194,
+          "p_top5": 0.43012,
+          "expected_position": 6.7552,
+          "position_distribution": {
+            "1": 0.0865,
+            "2": 0.08838,
+            "3": 0.08706,
+            "4": 0.0867,
+            "5": 0.08148,
+            "6": 0.07922,
+            "7": 0.07814,
+            "8": 0.0726,
+            "9": 0.0708,
+            "10": 0.06374,
+            "11": 0.05666,
+            "12": 0.0499,
+            "13": 0.04158,
+            "14": 0.03036,
+            "15": 0.0189,
+            "16": 0.00798
+          }
+        },
+        "speedy-green": {
+          "horse_id": "speedy-green",
+          "name": "SPEEDY GREEN",
+          "p_win": 0.088,
+          "p_top3": 0.25502,
+          "p_top5": 0.41836,
+          "expected_position": 6.8752,
+          "position_distribution": {
+            "1": 0.088,
+            "2": 0.08456,
+            "3": 0.08246,
+            "4": 0.08272,
+            "5": 0.08062,
+            "6": 0.07922,
+            "7": 0.07806,
+            "8": 0.0731,
+            "9": 0.06976,
+            "10": 0.06428,
+            "11": 0.05854,
+            "12": 0.05154,
+            "13": 0.04346,
+            "14": 0.03274,
+            "15": 0.0213,
+            "16": 0.00964
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "zeloro",
+          "east-grey",
+          "lavendin"
+        ],
+        "23": [
+          "zeloro",
+          "east-grey",
+          "lavendin"
+        ],
+        "37": [
+          "zeloro",
+          "east-grey",
+          "lavendin"
+        ],
+        "51": [
+          "zeloro",
+          "east-grey",
+          "lavendin"
+        ],
+        "73": [
+          "zeloro",
+          "east-grey",
+          "lavendin"
+        ]
+      },
+      "reference_top": [
+        "east-grey",
+        "lavendin",
+        "zeloro"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "zeloro": 10.0,
+        "east-grey": 5.0,
+        "lavendin": 0.0
+      },
+      "order": [
+        "zeloro",
+        "east-grey",
+        "lavendin"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "zeloro": 15.0,
+        "east-grey": 14.0,
+        "lavendin": 13.0,
+        "speedy-green": 12.0,
+        "wedgewood-pearl": 11.0,
+        "her-christopher": 10.0,
+        "almaromy": 9.0,
+        "allurre": 8.0,
+        "hermes-wood": 7.0,
+        "quiet-king": 6.0,
+        "opalus-road": 5.0,
+        "fearless-cheetah": 4.0,
+        "human-evolution": 3.0,
+        "al-max": 2.0,
+        "piquoiseau": 1.0,
+        "ciccio-boy": 0.0
+      },
+      "order": [
+        "zeloro",
+        "east-grey",
+        "lavendin",
+        "speedy-green",
+        "wedgewood-pearl",
+        "her-christopher",
+        "almaromy",
+        "allurre",
+        "hermes-wood",
+        "quiet-king",
+        "opalus-road",
+        "fearless-cheetah",
+        "human-evolution",
+        "al-max",
+        "piquoiseau",
+        "ciccio-boy"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "zeloro",
+        "east-grey",
+        "lavendin",
+        "speedy-green",
+        "wedgewood-pearl",
+        "her-christopher",
+        "almaromy",
+        "allurre",
+        "hermes-wood",
+        "quiet-king",
+        "opalus-road",
+        "fearless-cheetah",
+        "human-evolution",
+        "al-max",
+        "piquoiseau",
+        "ciccio-boy"
+      ],
+      "copeland": {
+        "zeloro": 15.0,
+        "east-grey": 13.0,
+        "lavendin": 11.0,
+        "speedy-green": 9.0,
+        "wedgewood-pearl": 7.0,
+        "her-christopher": 5.0,
+        "almaromy": 3.0,
+        "allurre": 1.0,
+        "hermes-wood": -1.0,
+        "quiet-king": -3.0,
+        "opalus-road": -5.0,
+        "fearless-cheetah": -7.0,
+        "human-evolution": -9.0,
+        "al-max": -11.0,
+        "piquoiseau": -13.0,
+        "ciccio-boy": -15.0
+      },
+      "normalized": {
+        "zeloro": 1.0,
+        "east-grey": 0.9333,
+        "lavendin": 0.8667,
+        "speedy-green": 0.8,
+        "wedgewood-pearl": 0.7333,
+        "her-christopher": 0.6667,
+        "almaromy": 0.6,
+        "allurre": 0.5333,
+        "hermes-wood": 0.4667,
+        "quiet-king": 0.4,
+        "opalus-road": 0.3333,
+        "fearless-cheetah": 0.2667,
+        "human-evolution": 0.2,
+        "al-max": 0.1333,
+        "piquoiseau": 0.0667,
+        "ciccio-boy": 0.0
+      },
+      "mean_rank": {
+        "zeloro": 0.0,
+        "east-grey": 1.0,
+        "lavendin": 2.0,
+        "speedy-green": 3.0,
+        "wedgewood-pearl": 4.0,
+        "her-christopher": 5.0,
+        "almaromy": 6.0,
+        "allurre": 7.0,
+        "hermes-wood": 8.0,
+        "quiet-king": 9.0,
+        "opalus-road": 10.0,
+        "fearless-cheetah": 11.0,
+        "human-evolution": 12.0,
+        "al-max": 13.0,
+        "piquoiseau": 14.0,
+        "ciccio-boy": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "zeloro",
+        "name": "ZELORO",
+        "number": 1,
+        "signals": [
+          "cote fondue de -47% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "quiet-king",
+        "name": "QUIET KING",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "human-evolution",
+        "name": "HUMAN EVOLUTION",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "al-max",
+        "name": "AL MAX",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "opalus-road",
+        "name": "OPALUS ROAD",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "piquoiseau",
+        "name": "PIQUOISEAU",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "wedgewood-pearl",
+        "name": "WEDGEWOOD PEARL",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "east-grey",
+        "name": "EAST GREY",
+        "number": 9,
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 2 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "allurre",
+        "name": "ALLURRE",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ciccio-boy",
+        "name": "CICCIO BOY",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "almaromy",
+        "name": "ALMAROMY",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hermes-wood",
+        "name": "HERMES WOOD",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "her-christopher",
+        "name": "HER CHRISTOPHER",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lavendin",
+        "name": "LAVENDIN",
+        "number": 15,
+        "signals": [
+          "cote fondue de -43% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 3 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "speedy-green",
+        "name": "SPEEDY GREEN",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "zeloro",
+      "east-grey",
+      "lavendin"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "zeloro",
+          "quiet-king",
+          "human-evolution",
+          "al-max",
+          "opalus-road",
+          "piquoiseau",
+          "fearless-cheetah",
+          "wedgewood-pearl",
+          "east-grey",
+          "allurre",
+          "ciccio-boy",
+          "almaromy",
+          "hermes-wood",
+          "her-christopher",
+          "lavendin",
+          "speedy-green"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "zeloro",
+          "quiet-king",
+          "human-evolution",
+          "al-max",
+          "opalus-road",
+          "piquoiseau",
+          "fearless-cheetah",
+          "wedgewood-pearl",
+          "east-grey",
+          "allurre",
+          "ciccio-boy",
+          "almaromy",
+          "hermes-wood",
+          "her-christopher",
+          "lavendin",
+          "speedy-green"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "zeloro",
+          "quiet-king",
+          "human-evolution",
+          "al-max",
+          "opalus-road",
+          "piquoiseau",
+          "fearless-cheetah",
+          "wedgewood-pearl",
+          "east-grey",
+          "allurre",
+          "ciccio-boy",
+          "almaromy",
+          "hermes-wood",
+          "her-christopher",
+          "lavendin",
+          "speedy-green"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "zeloro",
+          "quiet-king",
+          "piquoiseau",
+          "al-max",
+          "her-christopher",
+          "fearless-cheetah",
+          "east-grey",
+          "hermes-wood",
+          "almaromy",
+          "speedy-green",
+          "human-evolution",
+          "opalus-road",
+          "wedgewood-pearl",
+          "allurre",
+          "ciccio-boy",
+          "lavendin"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "zeloro",
+          "quiet-king",
+          "human-evolution",
+          "al-max",
+          "opalus-road",
+          "piquoiseau",
+          "fearless-cheetah",
+          "wedgewood-pearl",
+          "east-grey",
+          "allurre",
+          "ciccio-boy",
+          "almaromy",
+          "hermes-wood",
+          "her-christopher",
+          "lavendin",
+          "speedy-green"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-07T11:22:45.352967+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "zeloro": 0.263321,
+      "quiet-king": 0.094677,
+      "human-evolution": 0.029056,
+      "al-max": 0.084263,
+      "opalus-road": 0.01532,
+      "piquoiseau": 0.052664,
+      "fearless-cheetah": 0.076602,
+      "wedgewood-pearl": 0.016522,
+      "east-grey": 0.036636,
+      "allurre": 0.029056,
+      "ciccio-boy": 0.035109,
+      "almaromy": 0.052664,
+      "hermes-wood": 0.064817,
+      "her-christopher": 0.044349,
+      "lavendin": 0.040125,
+      "speedy-green": 0.064817
+    },
+    "consensus_ranking": [
+      "zeloro",
+      "quiet-king",
+      "al-max",
+      "human-evolution",
+      "piquoiseau",
+      "opalus-road",
+      "fearless-cheetah",
+      "east-grey",
+      "wedgewood-pearl",
+      "allurre",
+      "almaromy",
+      "ciccio-boy",
+      "hermes-wood",
+      "her-christopher",
+      "speedy-green",
+      "lavendin"
+    ],
+    "convergence": 0.1111,
+    "notes": [
+      "convergence Top 5 interne/externe : 11%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "east-grey",
+      "lavendin",
+      "speedy-green",
+      "wedgewood-pearl"
+    ],
+    "externe_seulement": [
+      "quiet-king",
+      "al-max",
+      "human-evolution",
+      "piquoiseau"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 5.212,
+    "level": "modérée",
+    "components": {
+      "ecart_scores": 1.6322,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 1.1111,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · ZELORO : aptitude",
+      "n°2 · QUIET KING : aptitude",
+      "n°3 · HUMAN EVOLUTION : aptitude",
+      "n°4 · AL MAX : aptitude",
+      "n°5 · OPALUS ROAD : aptitude",
+      "n°6 · PIQUOISEAU : aptitude",
+      "n°7 · FEARLESS CHEETAH : aptitude",
+      "n°8 · WEDGEWOOD PEARL : aptitude",
+      "n°9 · EAST GREY : aptitude",
+      "n°10 · ALLURRE : aptitude",
+      "n°11 · CICCIO BOY : aptitude",
+      "n°12 · ALMAROMY : aptitude",
+      "n°13 · HERMES WOOD : aptitude",
+      "n°14 · HER CHRISTOPHER : aptitude",
+      "n°15 · LAVENDIN : aptitude",
+      "n°16 · SPEEDY GREEN : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.33 (saturé à 2.0) → 1.6/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
+      "complétude des données = 80% (16 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-07T14:15:00+00:00",
+    "betting_close": "2026-11-07T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-07T11:22:51.908950+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 162.13,
+    "schedule": {
+      "start_ouagadougou": "2026-11-07T14:15:00+00:00",
+      "start_paris": "2026-11-07T15:15:00+01:00",
+      "close_lonab": "2026-11-07T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 1,
+      "cheval": "ZELORO",
+      "horse_id": "zeloro"
+    },
+    {
+      "rang": 2,
+      "numero": 9,
+      "cheval": "EAST GREY",
+      "horse_id": "east-grey"
+    },
+    {
+      "rang": 3,
+      "numero": 15,
+      "cheval": "LAVENDIN",
+      "horse_id": "lavendin"
+    },
+    {
+      "rang": 4,
+      "numero": 16,
+      "cheval": "SPEEDY GREEN",
+      "horse_id": "speedy-green"
+    },
+    {
+      "rang": 5,
+      "numero": 8,
+      "cheval": "WEDGEWOOD PEARL",
+      "horse_id": "wedgewood-pearl"
+    },
+    {
+      "rang": 6,
+      "numero": 14,
+      "cheval": "HER CHRISTOPHER",
+      "horse_id": "her-christopher"
+    },
+    {
+      "rang": 7,
+      "numero": 12,
+      "cheval": "ALMAROMY",
+      "horse_id": "almaromy"
+    },
+    {
+      "rang": 8,
+      "numero": 10,
+      "cheval": "ALLURRE",
+      "horse_id": "allurre"
+    },
+    {
+      "rang": 9,
+      "numero": 13,
+      "cheval": "HERMES WOOD",
+      "horse_id": "hermes-wood"
+    },
+    {
+      "rang": 10,
+      "numero": 2,
+      "cheval": "QUIET KING",
+      "horse_id": "quiet-king"
+    },
+    {
+      "rang": 11,
+      "numero": 5,
+      "cheval": "OPALUS ROAD",
+      "horse_id": "opalus-road"
+    },
+    {
+      "rang": 12,
+      "numero": 7,
+      "cheval": "FEARLESS CHEETAH",
+      "horse_id": "fearless-cheetah"
+    },
+    {
+      "rang": 13,
+      "numero": 3,
+      "cheval": "HUMAN EVOLUTION",
+      "horse_id": "human-evolution"
+    },
+    {
+      "rang": 14,
+      "numero": 4,
+      "cheval": "AL MAX",
+      "horse_id": "al-max"
+    },
+    {
+      "rang": 15,
+      "numero": 6,
+      "cheval": "PIQUOISEAU",
+      "horse_id": "piquoiseau"
+    },
+    {
+      "rang": 16,
+      "numero": 11,
+      "cheval": "CICCIO BOY",
+      "horse_id": "ciccio-boy"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 1,
+      "cheval": "ZELORO",
+      "score": 7.5059
+    },
+    {
+      "numero": 9,
+      "cheval": "EAST GREY",
+      "score": 7.1795
+    },
+    {
+      "numero": 15,
+      "cheval": "LAVENDIN",
+      "score": 6.6375
+    },
+    {
+      "numero": 16,
+      "cheval": "SPEEDY GREEN",
+      "score": 6.579
+    },
+    {
+      "numero": 8,
+      "cheval": "WEDGEWOOD PEARL",
+      "score": 6.5373
+    },
+    {
+      "numero": 14,
+      "cheval": "HER CHRISTOPHER",
+      "score": 6.037
+    },
+    {
+      "numero": 12,
+      "cheval": "ALMAROMY",
+      "score": 6.0096
+    },
+    {
+      "numero": 10,
+      "cheval": "ALLURRE",
+      "score": 5.8921
+    },
+    {
+      "numero": 13,
+      "cheval": "HERMES WOOD",
+      "score": 5.7587
+    },
+    {
+      "numero": 2,
+      "cheval": "QUIET KING",
+      "score": 5.4274
+    },
+    {
+      "numero": 5,
+      "cheval": "OPALUS ROAD",
+      "score": 5.3734
+    },
+    {
+      "numero": 7,
+      "cheval": "FEARLESS CHEETAH",
+      "score": 5.0273
+    },
+    {
+      "numero": 3,
+      "cheval": "HUMAN EVOLUTION",
+      "score": 4.6584
+    },
+    {
+      "numero": 4,
+      "cheval": "AL MAX",
+      "score": 4.4682
+    },
+    {
+      "numero": 6,
+      "cheval": "PIQUOISEAU",
+      "score": 4.2107
+    },
+    {
+      "numero": 11,
+      "cheval": "CICCIO BOY",
+      "score": 4.0107
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 7.9269,
+      "entropie_norm": 0.8775,
+      "p_favori": 0.2896,
+      "ratio_1_2": 3.0317
+    },
+    "p_gagnant_dans_selection": 0.6058,
+    "nb_attendu_dans_top5": 2.204,
+    "p_au_moins": {
+      "1": 0.9801,
+      "2": 0.7917,
+      "3": 0.3653,
+      "4": 0.0643,
+      "5": 0.0023
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-07T11:15:40+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "37 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 1,
+        "cheval": "ZELORO",
+        "cote": 3.2,
+        "p_gagne": 0.2896,
+        "p_top3": 0.5001,
+        "p_top5": 0.6673,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 2,
+        "cheval": "QUIET KING",
+        "cote": 8.9,
+        "p_gagne": 0.0955,
+        "p_top3": 0.2636,
+        "p_top5": 0.4179,
+        "rang_systeme": 10
+      },
+      {
+        "numero": 4,
+        "cheval": "AL MAX",
+        "cote": 10.0,
+        "p_gagne": 0.0842,
+        "p_top3": 0.2454,
+        "p_top5": 0.4002,
+        "rang_systeme": 14
+      },
+      {
+        "numero": 7,
+        "cheval": "FEARLESS CHEETAH",
+        "cote": 11.0,
+        "p_gagne": 0.0759,
+        "p_top3": 0.2221,
+        "p_top5": 0.3745,
+        "rang_systeme": 12
+      },
+      {
+        "numero": 13,
+        "cheval": "HERMES WOOD",
+        "cote": 13.0,
+        "p_gagne": 0.0633,
+        "p_top3": 0.2013,
+        "p_top5": 0.3438,
+        "rang_systeme": 9
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-07T11:22:51.982493+00:00"
+}
