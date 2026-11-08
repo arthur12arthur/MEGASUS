@@ -1,0 +1,2105 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261108-à-saint-cloud-c5",
+  "date": "2026-11-08",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "À                        SAINT-CLOUD",
+    "date": "2026-11-08",
+    "start_time": "2026-11-08T14:15:00+00:00",
+    "race_number": 5,
+    "name": "PRIX SAGARO",
+    "distance_m": 2000,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_08-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-08T14:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-08T13:39:48.903700+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "don-t-shut-me-down",
+        "name": "DON'T SHUT ME DOWN",
+        "number": 1,
+        "odds_pdf": 6.0,
+        "odds_latest": 8.8,
+        "delta": 0.4666666666666668,
+        "implied_shift": 0.053030303030303025,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "homo-deus",
+        "name": "HOMO DEUS",
+        "number": 2,
+        "odds_pdf": 30.0,
+        "odds_latest": 32.0,
+        "delta": 0.06666666666666667,
+        "implied_shift": 0.002083333333333333,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "black-saxon",
+        "name": "BLACK SAXON",
+        "number": 3,
+        "odds_pdf": 28.0,
+        "odds_latest": 24.0,
+        "delta": -0.14285714285714285,
+        "implied_shift": -0.005952380952380952,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "number": 4,
+        "odds_pdf": 22.0,
+        "odds_latest": 17.0,
+        "delta": -0.22727272727272727,
+        "implied_shift": -0.01336898395721925,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "a-beauregard",
+        "name": "A BEAUREGARD",
+        "number": 5,
+        "odds_pdf": 13.0,
+        "odds_latest": 11.0,
+        "delta": -0.15384615384615385,
+        "implied_shift": -0.013986013986013984,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "number": 6,
+        "odds_pdf": 27.0,
+        "odds_latest": 15.0,
+        "delta": -0.4444444444444444,
+        "implied_shift": -0.02962962962962963,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "orageux",
+        "name": "ORAGEUX",
+        "number": 7,
+        "odds_pdf": 8.0,
+        "odds_latest": 4.8,
+        "delta": -0.4,
+        "implied_shift": -0.08333333333333334,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "ram-sea",
+        "name": "RAM SEA",
+        "number": 8,
+        "odds_pdf": 14.0,
+        "odds_latest": 9.1,
+        "delta": -0.35000000000000003,
+        "implied_shift": -0.038461538461538464,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "number": 9,
+        "odds_pdf": 18.0,
+        "odds_latest": 20.0,
+        "delta": 0.1111111111111111,
+        "implied_shift": 0.00555555555555555,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "dark-rockster",
+        "name": "DARK ROCKSTER",
+        "number": 10,
+        "odds_pdf": 11.0,
+        "odds_latest": 14.0,
+        "delta": 0.2727272727272727,
+        "implied_shift": 0.019480519480519487,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "number": 11,
+        "odds_pdf": 20.0,
+        "odds_latest": 6.5,
+        "delta": -0.675,
+        "implied_shift": -0.10384615384615385,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "lucio-vero",
+        "name": "LUCIO VERO",
+        "number": 12,
+        "odds_pdf": 24.0,
+        "odds_latest": 30.0,
+        "delta": 0.25,
+        "implied_shift": 0.008333333333333331,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "garvey",
+        "name": "GARVEY",
+        "number": 13,
+        "odds_pdf": 33.0,
+        "odds_latest": 15.0,
+        "delta": -0.5454545454545454,
+        "implied_shift": -0.03636363636363636,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "zarflight",
+        "name": "ZARFLIGHT",
+        "number": 14,
+        "odds_pdf": 27.0,
+        "odds_latest": 36.0,
+        "delta": 0.3333333333333333,
+        "implied_shift": 0.009259259259259259,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "good-to-see-you",
+        "name": "GOOD TO SEE YOU",
+        "number": 15,
+        "odds_pdf": 23.0,
+        "odds_latest": 17.0,
+        "delta": -0.2608695652173913,
+        "implied_shift": -0.015345268542199489,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "don-t-shut-me-down",
+      "homo-deus",
+      "black-saxon",
+      "mister-gatz",
+      "a-beauregard",
+      "mon-ricin",
+      "orageux",
+      "ram-sea",
+      "paolino",
+      "dark-rockster",
+      "dempy",
+      "lucio-vero",
+      "garvey",
+      "zarflight",
+      "good-to-see-you"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "orageux",
+        "name": "ORAGEUX",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.976506204849953,
+          "forme": 9.661016949152541,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 9.2777,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "good-to-see-you",
+        "name": "GOOD TO SEE YOU",
+        "number": 15,
+        "dimensions": {
+          "historique": 7.083161494206671,
+          "forme": 6.7164179104477615,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.9218,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lucio-vero",
+        "name": "LUCIO VERO",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.994987249752662,
+          "forme": 6.44776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.7542,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "dark-rockster",
+        "name": "DARK ROCKSTER",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.303976881678973,
+          "forme": 5.731343283582089,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.612,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "homo-deus",
+        "name": "HOMO DEUS",
+        "number": 2,
+        "dimensions": {
+          "historique": 9.25531914893617,
+          "forme": 2.8656716417910446,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4439,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "a-beauregard",
+        "name": "A BEAUREGARD",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.477039302380717,
+          "forme": 4.865671641791045,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.328,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zarflight",
+        "name": "ZARFLIGHT",
+        "number": 14,
+        "dimensions": {
+          "historique": 8.635852927167013,
+          "forme": 3.1940298507462686,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2415,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "don-t-shut-me-down",
+        "name": "DON'T SHUT ME DOWN",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.4420142914326455,
+          "forme": 4.626865671641791,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2033,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "garvey",
+        "name": "GARVEY",
+        "number": 13,
+        "dimensions": {
+          "historique": 4.944289783723776,
+          "forme": 6.768656716417911,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.747,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "black-saxon",
+        "name": "BLACK SAXON",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.3197526597550056,
+          "forme": 3.4776119402985075,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.6292,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "number": 11,
+        "dimensions": {
+          "historique": 6.288814962465135,
+          "forme": 4.537313432835821,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5182,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.480672003202377,
+          "forme": 2.716417910447761,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3844,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "number": 4,
+        "dimensions": {
+          "historique": 6.847824523074378,
+          "forme": 3.432835820895522,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3452,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ram-sea",
+        "name": "RAM SEA",
+        "number": 8,
+        "dimensions": {
+          "historique": 6.149533464035222,
+          "forme": 4.208955223880597,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.2957,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.538967725858173,
+          "forme": 1.9701492537313432,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.5287,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "orageux",
+      "good-to-see-you",
+      "lucio-vero",
+      "dark-rockster",
+      "homo-deus",
+      "a-beauregard",
+      "zarflight",
+      "don-t-shut-me-down",
+      "garvey",
+      "black-saxon",
+      "dempy",
+      "mon-ricin",
+      "mister-gatz",
+      "ram-sea",
+      "paolino"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "don-t-shut-me-down": {
+          "horse_id": "don-t-shut-me-down",
+          "name": "DON'T SHUT ME DOWN",
+          "p_win": 0.0572,
+          "p_top3": 0.18356,
+          "p_top5": 0.32684,
+          "expected_position": 7.8333,
+          "position_distribution": {
+            "1": 0.0572,
+            "2": 0.06072,
+            "3": 0.06564,
+            "4": 0.0709,
+            "5": 0.07238,
+            "6": 0.0737,
+            "7": 0.07352,
+            "8": 0.0764,
+            "9": 0.07552,
+            "10": 0.07432,
+            "11": 0.07278,
+            "12": 0.0675,
+            "13": 0.0622,
+            "14": 0.0562,
+            "15": 0.04102
+          }
+        },
+        "homo-deus": {
+          "horse_id": "homo-deus",
+          "name": "HOMO DEUS",
+          "p_win": 0.06536,
+          "p_top3": 0.20746,
+          "p_top5": 0.36128,
+          "expected_position": 7.403,
+          "position_distribution": {
+            "1": 0.06536,
+            "2": 0.06866,
+            "3": 0.07344,
+            "4": 0.07678,
+            "5": 0.07704,
+            "6": 0.07882,
+            "7": 0.07806,
+            "8": 0.0757,
+            "9": 0.07546,
+            "10": 0.07106,
+            "11": 0.06852,
+            "12": 0.06464,
+            "13": 0.05368,
+            "14": 0.04594,
+            "15": 0.02684
+          }
+        },
+        "black-saxon": {
+          "horse_id": "black-saxon",
+          "name": "BLACK SAXON",
+          "p_win": 0.04274,
+          "p_top3": 0.1407,
+          "p_top5": 0.25478,
+          "expected_position": 8.8605,
+          "position_distribution": {
+            "1": 0.04274,
+            "2": 0.047,
+            "3": 0.05096,
+            "4": 0.05604,
+            "5": 0.05804,
+            "6": 0.05996,
+            "7": 0.06438,
+            "8": 0.06676,
+            "9": 0.07098,
+            "10": 0.0734,
+            "11": 0.07574,
+            "12": 0.08302,
+            "13": 0.08434,
+            "14": 0.08624,
+            "15": 0.0804
+          }
+        },
+        "mister-gatz": {
+          "horse_id": "mister-gatz",
+          "name": "MISTER GATZ",
+          "p_win": 0.03764,
+          "p_top3": 0.1225,
+          "p_top5": 0.22312,
+          "expected_position": 9.3836,
+          "position_distribution": {
+            "1": 0.03764,
+            "2": 0.04108,
+            "3": 0.04378,
+            "4": 0.0496,
+            "5": 0.05102,
+            "6": 0.05418,
+            "7": 0.05856,
+            "8": 0.06208,
+            "9": 0.06602,
+            "10": 0.06986,
+            "11": 0.07636,
+            "12": 0.08262,
+            "13": 0.09056,
+            "14": 0.10378,
+            "15": 0.11286
+          }
+        },
+        "a-beauregard": {
+          "horse_id": "a-beauregard",
+          "name": "A BEAUREGARD",
+          "p_win": 0.06202,
+          "p_top3": 0.19754,
+          "p_top5": 0.34148,
+          "expected_position": 7.6335,
+          "position_distribution": {
+            "1": 0.06202,
+            "2": 0.06432,
+            "3": 0.0712,
+            "4": 0.0699,
+            "5": 0.07404,
+            "6": 0.07684,
+            "7": 0.0766,
+            "8": 0.07428,
+            "9": 0.07556,
+            "10": 0.07294,
+            "11": 0.07184,
+            "12": 0.06614,
+            "13": 0.06006,
+            "14": 0.05004,
+            "15": 0.03422
+          }
+        },
+        "mon-ricin": {
+          "horse_id": "mon-ricin",
+          "name": "MON RICIN",
+          "p_win": 0.03774,
+          "p_top3": 0.1262,
+          "p_top5": 0.22578,
+          "expected_position": 9.3199,
+          "position_distribution": {
+            "1": 0.03774,
+            "2": 0.0422,
+            "3": 0.04626,
+            "4": 0.04822,
+            "5": 0.05136,
+            "6": 0.05498,
+            "7": 0.05884,
+            "8": 0.06252,
+            "9": 0.06656,
+            "10": 0.07234,
+            "11": 0.07646,
+            "12": 0.082,
+            "13": 0.09336,
+            "14": 0.10116,
+            "15": 0.106
+          }
+        },
+        "orageux": {
+          "horse_id": "orageux",
+          "name": "ORAGEUX",
+          "p_win": 0.26816,
+          "p_top3": 0.63492,
+          "p_top5": 0.83732,
+          "expected_position": 3.2594,
+          "position_distribution": {
+            "1": 0.26816,
+            "2": 0.20838,
+            "3": 0.15838,
+            "4": 0.11804,
+            "5": 0.08436,
+            "6": 0.0586,
+            "7": 0.04262,
+            "8": 0.02796,
+            "9": 0.0165,
+            "10": 0.0089,
+            "11": 0.00466,
+            "12": 0.0021,
+            "13": 0.001,
+            "14": 0.0003,
+            "15": 4e-05
+          }
+        },
+        "ram-sea": {
+          "horse_id": "ram-sea",
+          "name": "RAM SEA",
+          "p_win": 0.03612,
+          "p_top3": 0.11842,
+          "p_top5": 0.21412,
+          "expected_position": 9.4669,
+          "position_distribution": {
+            "1": 0.03612,
+            "2": 0.03974,
+            "3": 0.04256,
+            "4": 0.0437,
+            "5": 0.052,
+            "6": 0.05502,
+            "7": 0.05958,
+            "8": 0.06128,
+            "9": 0.0655,
+            "10": 0.07116,
+            "11": 0.07708,
+            "12": 0.08406,
+            "13": 0.09258,
+            "14": 0.1041,
+            "15": 0.11552
+          }
+        },
+        "paolino": {
+          "horse_id": "paolino",
+          "name": "PAOLINO",
+          "p_win": 0.02436,
+          "p_top3": 0.0848,
+          "p_top5": 0.15472,
+          "expected_position": 10.6948,
+          "position_distribution": {
+            "1": 0.02436,
+            "2": 0.02894,
+            "3": 0.0315,
+            "4": 0.03222,
+            "5": 0.0377,
+            "6": 0.0404,
+            "7": 0.04316,
+            "8": 0.0485,
+            "9": 0.05162,
+            "10": 0.05798,
+            "11": 0.06764,
+            "12": 0.0794,
+            "13": 0.09636,
+            "14": 0.12906,
+            "15": 0.23116
+          }
+        },
+        "dark-rockster": {
+          "horse_id": "dark-rockster",
+          "name": "DARK ROCKSTER",
+          "p_win": 0.06802,
+          "p_top3": 0.21978,
+          "p_top5": 0.38128,
+          "expected_position": 7.1597,
+          "position_distribution": {
+            "1": 0.06802,
+            "2": 0.07624,
+            "3": 0.07552,
+            "4": 0.08004,
+            "5": 0.08146,
+            "6": 0.0806,
+            "7": 0.07934,
+            "8": 0.07978,
+            "9": 0.07494,
+            "10": 0.07138,
+            "11": 0.06492,
+            "12": 0.05758,
+            "13": 0.05018,
+            "14": 0.03768,
+            "15": 0.02232
+          }
+        },
+        "dempy": {
+          "horse_id": "dempy",
+          "name": "DEMPY",
+          "p_win": 0.04044,
+          "p_top3": 0.13302,
+          "p_top5": 0.24012,
+          "expected_position": 9.068,
+          "position_distribution": {
+            "1": 0.04044,
+            "2": 0.04406,
+            "3": 0.04852,
+            "4": 0.05214,
+            "5": 0.05496,
+            "6": 0.06018,
+            "7": 0.06086,
+            "8": 0.06516,
+            "9": 0.06928,
+            "10": 0.07374,
+            "11": 0.07704,
+            "12": 0.08162,
+            "13": 0.08666,
+            "14": 0.0923,
+            "15": 0.09304
+          }
+        },
+        "lucio-vero": {
+          "horse_id": "lucio-vero",
+          "name": "LUCIO VERO",
+          "p_win": 0.07516,
+          "p_top3": 0.23644,
+          "p_top5": 0.40602,
+          "expected_position": 6.8898,
+          "position_distribution": {
+            "1": 0.07516,
+            "2": 0.07984,
+            "3": 0.08144,
+            "4": 0.08528,
+            "5": 0.0843,
+            "6": 0.08208,
+            "7": 0.08036,
+            "8": 0.07988,
+            "9": 0.0759,
+            "10": 0.069,
+            "11": 0.0604,
+            "12": 0.05298,
+            "13": 0.0437,
+            "14": 0.03258,
+            "15": 0.0171
+          }
+        },
+        "garvey": {
+          "horse_id": "garvey",
+          "name": "GARVEY",
+          "p_win": 0.04546,
+          "p_top3": 0.1481,
+          "p_top5": 0.26526,
+          "expected_position": 8.6615,
+          "position_distribution": {
+            "1": 0.04546,
+            "2": 0.0489,
+            "3": 0.05374,
+            "4": 0.05662,
+            "5": 0.06054,
+            "6": 0.06558,
+            "7": 0.06716,
+            "8": 0.06962,
+            "9": 0.06918,
+            "10": 0.07426,
+            "11": 0.07754,
+            "12": 0.07828,
+            "13": 0.08284,
+            "14": 0.08136,
+            "15": 0.06892
+          }
+        },
+        "zarflight": {
+          "horse_id": "zarflight",
+          "name": "ZARFLIGHT",
+          "p_win": 0.05666,
+          "p_top3": 0.18754,
+          "p_top5": 0.33128,
+          "expected_position": 7.7871,
+          "position_distribution": {
+            "1": 0.05666,
+            "2": 0.0629,
+            "3": 0.06798,
+            "4": 0.07098,
+            "5": 0.07276,
+            "6": 0.07302,
+            "7": 0.07542,
+            "8": 0.07336,
+            "9": 0.07438,
+            "10": 0.07532,
+            "11": 0.07246,
+            "12": 0.06992,
+            "13": 0.06406,
+            "14": 0.05318,
+            "15": 0.0376
+          }
+        },
+        "good-to-see-you": {
+          "horse_id": "good-to-see-you",
+          "name": "GOOD TO SEE YOU",
+          "p_win": 0.08292,
+          "p_top3": 0.25902,
+          "p_top5": 0.4366,
+          "expected_position": 6.579,
+          "position_distribution": {
+            "1": 0.08292,
+            "2": 0.08702,
+            "3": 0.08908,
+            "4": 0.08954,
+            "5": 0.08804,
+            "6": 0.08604,
+            "7": 0.08154,
+            "8": 0.07672,
+            "9": 0.0726,
+            "10": 0.06434,
+            "11": 0.05656,
+            "12": 0.04814,
+            "13": 0.03842,
+            "14": 0.02608,
+            "15": 0.01296
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "orageux",
+          "good-to-see-you",
+          "lucio-vero"
+        ],
+        "23": [
+          "orageux",
+          "good-to-see-you",
+          "lucio-vero"
+        ],
+        "37": [
+          "orageux",
+          "good-to-see-you",
+          "lucio-vero"
+        ],
+        "51": [
+          "orageux",
+          "good-to-see-you",
+          "lucio-vero"
+        ],
+        "73": [
+          "orageux",
+          "good-to-see-you",
+          "lucio-vero"
+        ]
+      },
+      "reference_top": [
+        "good-to-see-you",
+        "lucio-vero",
+        "orageux"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "orageux": 10.0,
+        "good-to-see-you": 5.0,
+        "lucio-vero": 0.0
+      },
+      "order": [
+        "orageux",
+        "good-to-see-you",
+        "lucio-vero"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "orageux": 14.0,
+        "good-to-see-you": 13.0,
+        "lucio-vero": 12.0,
+        "dark-rockster": 11.0,
+        "homo-deus": 10.0,
+        "a-beauregard": 9.0,
+        "zarflight": 8.0,
+        "don-t-shut-me-down": 7.0,
+        "garvey": 6.0,
+        "black-saxon": 5.0,
+        "dempy": 4.0,
+        "mon-ricin": 3.0,
+        "mister-gatz": 2.0,
+        "ram-sea": 1.0,
+        "paolino": 0.0
+      },
+      "order": [
+        "orageux",
+        "good-to-see-you",
+        "lucio-vero",
+        "dark-rockster",
+        "homo-deus",
+        "a-beauregard",
+        "zarflight",
+        "don-t-shut-me-down",
+        "garvey",
+        "black-saxon",
+        "dempy",
+        "mon-ricin",
+        "mister-gatz",
+        "ram-sea",
+        "paolino"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "orageux",
+        "good-to-see-you",
+        "lucio-vero",
+        "dark-rockster",
+        "homo-deus",
+        "a-beauregard",
+        "zarflight",
+        "don-t-shut-me-down",
+        "garvey",
+        "black-saxon",
+        "dempy",
+        "mon-ricin",
+        "mister-gatz",
+        "ram-sea",
+        "paolino"
+      ],
+      "copeland": {
+        "orageux": 14.0,
+        "good-to-see-you": 12.0,
+        "lucio-vero": 10.0,
+        "dark-rockster": 8.0,
+        "homo-deus": 6.0,
+        "a-beauregard": 4.0,
+        "zarflight": 2.0,
+        "don-t-shut-me-down": 0.0,
+        "garvey": -2.0,
+        "black-saxon": -4.0,
+        "dempy": -6.0,
+        "mon-ricin": -8.0,
+        "mister-gatz": -10.0,
+        "ram-sea": -12.0,
+        "paolino": -14.0
+      },
+      "normalized": {
+        "orageux": 1.0,
+        "good-to-see-you": 0.9286,
+        "lucio-vero": 0.8571,
+        "dark-rockster": 0.7857,
+        "homo-deus": 0.7143,
+        "a-beauregard": 0.6429,
+        "zarflight": 0.5714,
+        "don-t-shut-me-down": 0.5,
+        "garvey": 0.4286,
+        "black-saxon": 0.3571,
+        "dempy": 0.2857,
+        "mon-ricin": 0.2143,
+        "mister-gatz": 0.1429,
+        "ram-sea": 0.0714,
+        "paolino": 0.0
+      },
+      "mean_rank": {
+        "orageux": 0.0,
+        "good-to-see-you": 1.0,
+        "lucio-vero": 2.0,
+        "dark-rockster": 3.0,
+        "homo-deus": 4.0,
+        "a-beauregard": 5.0,
+        "zarflight": 6.0,
+        "don-t-shut-me-down": 7.0,
+        "garvey": 8.0,
+        "black-saxon": 9.0,
+        "dempy": 10.0,
+        "mon-ricin": 11.0,
+        "mister-gatz": 12.0,
+        "ram-sea": 13.0,
+        "paolino": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "don-t-shut-me-down",
+        "name": "DON'T SHUT ME DOWN",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "homo-deus",
+        "name": "HOMO DEUS",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "black-saxon",
+        "name": "BLACK SAXON",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mister-gatz",
+        "name": "MISTER GATZ",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "a-beauregard",
+        "name": "A BEAUREGARD",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mon-ricin",
+        "name": "MON RICIN",
+        "number": 6,
+        "signals": [
+          "cote fondue de -44% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "orageux",
+        "name": "ORAGEUX",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ram-sea",
+        "name": "RAM SEA",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "paolino",
+        "name": "PAOLINO",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "dark-rockster",
+        "name": "DARK ROCKSTER",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "dempy",
+        "name": "DEMPY",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lucio-vero",
+        "name": "LUCIO VERO",
+        "number": 12,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 3 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "garvey",
+        "name": "GARVEY",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zarflight",
+        "name": "ZARFLIGHT",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "good-to-see-you",
+        "name": "GOOD TO SEE YOU",
+        "number": 15,
+        "signals": [
+          "l'analyse interne le place 8 rangs plus haut que le marché (interne 2 vs marché 10)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "mon-ricin",
+      "lucio-vero",
+      "good-to-see-you"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "4 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "dark-rockster",
+          "don-t-shut-me-down",
+          "homo-deus",
+          "black-saxon",
+          "mister-gatz",
+          "a-beauregard",
+          "mon-ricin",
+          "orageux",
+          "ram-sea",
+          "paolino",
+          "dempy",
+          "lucio-vero",
+          "garvey",
+          "zarflight",
+          "good-to-see-you"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "don-t-shut-me-down",
+          "homo-deus",
+          "black-saxon",
+          "mister-gatz",
+          "a-beauregard",
+          "mon-ricin",
+          "orageux",
+          "ram-sea",
+          "paolino",
+          "dark-rockster",
+          "dempy",
+          "lucio-vero",
+          "garvey",
+          "zarflight",
+          "good-to-see-you"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "don-t-shut-me-down",
+          "homo-deus",
+          "black-saxon",
+          "mister-gatz",
+          "a-beauregard",
+          "mon-ricin",
+          "orageux",
+          "ram-sea",
+          "paolino",
+          "dark-rockster",
+          "dempy",
+          "lucio-vero",
+          "garvey",
+          "zarflight",
+          "good-to-see-you"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "orageux",
+          "don-t-shut-me-down",
+          "dempy",
+          "a-beauregard",
+          "ram-sea",
+          "dark-rockster",
+          "good-to-see-you",
+          "black-saxon",
+          "homo-deus",
+          "mister-gatz",
+          "mon-ricin",
+          "paolino",
+          "lucio-vero",
+          "garvey",
+          "zarflight"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "don-t-shut-me-down",
+          "homo-deus",
+          "black-saxon",
+          "mister-gatz",
+          "a-beauregard",
+          "mon-ricin",
+          "orageux",
+          "ram-sea",
+          "paolino",
+          "dark-rockster",
+          "dempy",
+          "lucio-vero",
+          "garvey",
+          "zarflight",
+          "good-to-see-you"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-08T13:39:44.233126+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "don-t-shut-me-down": 0.096054,
+      "homo-deus": 0.026415,
+      "black-saxon": 0.03522,
+      "mister-gatz": 0.049722,
+      "a-beauregard": 0.076843,
+      "mon-ricin": 0.056351,
+      "orageux": 0.176098,
+      "ram-sea": 0.092887,
+      "paolino": 0.042264,
+      "dark-rockster": 0.060377,
+      "dempy": 0.130042,
+      "lucio-vero": 0.028176,
+      "garvey": 0.056351,
+      "zarflight": 0.02348,
+      "good-to-see-you": 0.049722
+    },
+    "consensus_ranking": [
+      "don-t-shut-me-down",
+      "homo-deus",
+      "black-saxon",
+      "a-beauregard",
+      "mister-gatz",
+      "orageux",
+      "mon-ricin",
+      "dark-rockster",
+      "ram-sea",
+      "dempy",
+      "paolino",
+      "lucio-vero",
+      "garvey",
+      "good-to-see-you",
+      "zarflight"
+    ],
+    "convergence": 0.1111,
+    "notes": [
+      "convergence Top 5 interne/externe : 11%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "orageux",
+      "good-to-see-you",
+      "lucio-vero",
+      "dark-rockster"
+    ],
+    "externe_seulement": [
+      "don-t-shut-me-down",
+      "black-saxon",
+      "a-beauregard",
+      "mister-gatz"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 7.722,
+    "level": "bonne",
+    "components": {
+      "ecart_scores": 10.0,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 1.1111,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · DON'T SHUT ME DOWN : aptitude",
+      "n°2 · HOMO DEUS : aptitude",
+      "n°3 · BLACK SAXON : aptitude",
+      "n°4 · MISTER GATZ : aptitude",
+      "n°5 · A BEAUREGARD : aptitude",
+      "n°6 · MON RICIN : aptitude",
+      "n°7 · ORAGEUX : aptitude",
+      "n°8 · RAM SEA : aptitude",
+      "n°9 · PAOLINO : aptitude",
+      "n°10 · DARK ROCKSTER : aptitude",
+      "n°11 · DEMPY : aptitude",
+      "n°12 · LUCIO VERO : aptitude",
+      "n°13 · GARVEY : aptitude",
+      "n°14 · ZARFLIGHT : aptitude",
+      "n°15 · GOOD TO SEE YOU : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 2.36 (saturé à 2.0) → 10.0/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-08T14:15:00+00:00",
+    "betting_close": "2026-11-08T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-08T13:39:48.932682+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 25.18,
+    "schedule": {
+      "start_ouagadougou": "2026-11-08T14:15:00+00:00",
+      "start_paris": "2026-11-08T15:15:00+01:00",
+      "close_lonab": "2026-11-08T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 7,
+      "cheval": "ORAGEUX",
+      "horse_id": "orageux"
+    },
+    {
+      "rang": 2,
+      "numero": 15,
+      "cheval": "GOOD TO SEE YOU",
+      "horse_id": "good-to-see-you"
+    },
+    {
+      "rang": 3,
+      "numero": 12,
+      "cheval": "LUCIO VERO",
+      "horse_id": "lucio-vero"
+    },
+    {
+      "rang": 4,
+      "numero": 10,
+      "cheval": "DARK ROCKSTER",
+      "horse_id": "dark-rockster"
+    },
+    {
+      "rang": 5,
+      "numero": 2,
+      "cheval": "HOMO DEUS",
+      "horse_id": "homo-deus"
+    },
+    {
+      "rang": 6,
+      "numero": 5,
+      "cheval": "A BEAUREGARD",
+      "horse_id": "a-beauregard"
+    },
+    {
+      "rang": 7,
+      "numero": 14,
+      "cheval": "ZARFLIGHT",
+      "horse_id": "zarflight"
+    },
+    {
+      "rang": 8,
+      "numero": 1,
+      "cheval": "DON'T SHUT ME DOWN",
+      "horse_id": "don-t-shut-me-down"
+    },
+    {
+      "rang": 9,
+      "numero": 13,
+      "cheval": "GARVEY",
+      "horse_id": "garvey"
+    },
+    {
+      "rang": 10,
+      "numero": 3,
+      "cheval": "BLACK SAXON",
+      "horse_id": "black-saxon"
+    },
+    {
+      "rang": 11,
+      "numero": 11,
+      "cheval": "DEMPY",
+      "horse_id": "dempy"
+    },
+    {
+      "rang": 12,
+      "numero": 6,
+      "cheval": "MON RICIN",
+      "horse_id": "mon-ricin"
+    },
+    {
+      "rang": 13,
+      "numero": 4,
+      "cheval": "MISTER GATZ",
+      "horse_id": "mister-gatz"
+    },
+    {
+      "rang": 14,
+      "numero": 8,
+      "cheval": "RAM SEA",
+      "horse_id": "ram-sea"
+    },
+    {
+      "rang": 15,
+      "numero": 9,
+      "cheval": "PAOLINO",
+      "horse_id": "paolino"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 7,
+      "cheval": "ORAGEUX",
+      "score": 9.2777
+    },
+    {
+      "numero": 15,
+      "cheval": "GOOD TO SEE YOU",
+      "score": 6.9218
+    },
+    {
+      "numero": 12,
+      "cheval": "LUCIO VERO",
+      "score": 6.7542
+    },
+    {
+      "numero": 10,
+      "cheval": "DARK ROCKSTER",
+      "score": 6.612
+    },
+    {
+      "numero": 2,
+      "cheval": "HOMO DEUS",
+      "score": 6.4439
+    },
+    {
+      "numero": 5,
+      "cheval": "A BEAUREGARD",
+      "score": 6.328
+    },
+    {
+      "numero": 14,
+      "cheval": "ZARFLIGHT",
+      "score": 6.2415
+    },
+    {
+      "numero": 1,
+      "cheval": "DON'T SHUT ME DOWN",
+      "score": 6.2033
+    },
+    {
+      "numero": 13,
+      "cheval": "GARVEY",
+      "score": 5.747
+    },
+    {
+      "numero": 3,
+      "cheval": "BLACK SAXON",
+      "score": 5.6292
+    },
+    {
+      "numero": 11,
+      "cheval": "DEMPY",
+      "score": 5.5182
+    },
+    {
+      "numero": 6,
+      "cheval": "MON RICIN",
+      "score": 5.3844
+    },
+    {
+      "numero": 4,
+      "cheval": "MISTER GATZ",
+      "score": 5.3452
+    },
+    {
+      "numero": 8,
+      "cheval": "RAM SEA",
+      "score": 5.2957
+    },
+    {
+      "numero": 9,
+      "cheval": "PAOLINO",
+      "score": 4.5287
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.3673,
+      "entropie_norm": 0.9283,
+      "p_favori": 0.1883,
+      "ratio_1_2": 1.3892
+    },
+    "p_gagnant_dans_selection": 0.589,
+    "nb_attendu_dans_top5": 2.266,
+    "p_au_moins": {
+      "1": 0.9811,
+      "2": 0.8139,
+      "3": 0.3918,
+      "4": 0.0759,
+      "5": 0.0029
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-08T13:30:51+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "39 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 7,
+        "cheval": "ORAGEUX",
+        "cote": 4.8,
+        "p_gagne": 0.1883,
+        "p_top3": 0.3893,
+        "p_top5": 0.5656,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 11,
+        "cheval": "DEMPY",
+        "cote": 6.5,
+        "p_gagne": 0.1355,
+        "p_top3": 0.3132,
+        "p_top5": 0.4838,
+        "rang_systeme": 11
+      },
+      {
+        "numero": 1,
+        "cheval": "DON'T SHUT ME DOWN",
+        "cote": 8.8,
+        "p_gagne": 0.0976,
+        "p_top3": 0.2652,
+        "p_top5": 0.4263,
+        "rang_systeme": 8
+      },
+      {
+        "numero": 8,
+        "cheval": "RAM SEA",
+        "cote": 9.1,
+        "p_gagne": 0.0941,
+        "p_top3": 0.2548,
+        "p_top5": 0.4125,
+        "rang_systeme": 14
+      },
+      {
+        "numero": 5,
+        "cheval": "A BEAUREGARD",
+        "cote": 11.0,
+        "p_gagne": 0.0766,
+        "p_top3": 0.2263,
+        "p_top5": 0.3774,
+        "rang_systeme": 6
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "SEEYOUGO"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-08T13:39:49.051469+00:00"
+}
