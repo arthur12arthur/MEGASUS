@@ -1,0 +1,2231 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261111-toulouse-c3",
+  "date": "2026-11-11",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "TOULOUSE",
+    "date": "2026-11-11",
+    "start_time": "2026-11-11T14:15:00+00:00",
+    "race_number": 3,
+    "name": "PRIX DE LA VILLE DE TOULOUSE",
+    "distance_m": 2400,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_11-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-11T14:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-11T10:32:46.027959+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "agador",
+        "name": "AGADOR",
+        "number": 1,
+        "odds_pdf": 17.0,
+        "odds_latest": 17.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "poca-gen",
+        "name": "POCA GEN",
+        "number": 2,
+        "odds_pdf": 30.0,
+        "odds_latest": 24.0,
+        "delta": -0.2,
+        "implied_shift": -0.008333333333333331,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "spanish-breeze-cen",
+        "name": "SPANISH BREEZE CEN",
+        "number": 3,
+        "odds_pdf": 14.0,
+        "odds_latest": 9.1,
+        "delta": -0.35000000000000003,
+        "implied_shift": -0.038461538461538464,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "sharp-rise",
+        "name": "SHARP RISE",
+        "number": 4,
+        "odds_pdf": 42.0,
+        "odds_latest": 46.0,
+        "delta": 0.09523809523809523,
+        "implied_shift": 0.0020703933747412,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "xilofono",
+        "name": "XILOFONO",
+        "number": 5,
+        "odds_pdf": 13.0,
+        "odds_latest": 14.0,
+        "delta": 0.07692307692307693,
+        "implied_shift": 0.005494505494505503,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "nolito-g.guedj-gay",
+        "name": "NOLITO G.GUEDJ-GAY",
+        "number": 6,
+        "odds_pdf": 25.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sigtuna",
+        "name": "SIGTUNA",
+        "number": 7,
+        "odds_pdf": 20.0,
+        "odds_latest": 14.0,
+        "delta": -0.3,
+        "implied_shift": -0.021428571428571422,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "number": 8,
+        "odds_pdf": 10.0,
+        "odds_latest": 11.0,
+        "delta": 0.1,
+        "implied_shift": 0.009090909090909094,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "zilya",
+        "name": "ZILYA",
+        "number": 9,
+        "odds_pdf": 27.0,
+        "odds_latest": 29.0,
+        "delta": 0.07407407407407407,
+        "implied_shift": 0.0025542784163473803,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "odds_pdf": 9.0,
+        "odds_latest": 4.9,
+        "delta": -0.4555555555555555,
+        "implied_shift": -0.0929705215419501,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "number": 11,
+        "odds_pdf": 6.0,
+        "odds_latest": 4.6,
+        "delta": -0.2333333333333334,
+        "implied_shift": -0.05072463768115945,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "number": 12,
+        "odds_pdf": 17.0,
+        "odds_latest": 25.0,
+        "delta": 0.47058823529411764,
+        "implied_shift": 0.018823529411764704,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "black-ultra",
+        "name": "BLACK ULTRA",
+        "number": 13,
+        "odds_pdf": 19.0,
+        "odds_latest": 13.0,
+        "delta": -0.3157894736842105,
+        "implied_shift": -0.02429149797570851,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "georges-ville",
+        "name": "GEORGES VILLE",
+        "number": 14,
+        "odds_pdf": 22.0,
+        "odds_latest": 21.0,
+        "delta": -0.045454545454545456,
+        "implied_shift": -0.0021645021645021606,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "spanish-light",
+        "name": "SPANISH LIGHT",
+        "number": 15,
+        "odds_pdf": 24.0,
+        "odds_latest": 26.0,
+        "delta": 0.08333333333333333,
+        "implied_shift": 0.0032051282051282007,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "swiss-money",
+        "name": "SWISS MONEY",
+        "number": 16,
+        "odds_pdf": 62.0,
+        "odds_latest": 53.0,
+        "delta": -0.14516129032258066,
+        "implied_shift": -0.0027388922702373704,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": [
+      "NOLITO G.GUEDJ-GAY (nolito-g.guedj-gay) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "agador",
+      "poca-gen",
+      "spanish-breeze-cen",
+      "sharp-rise",
+      "xilofono",
+      "nolito-g.guedj-gay",
+      "sigtuna",
+      "lohengreen",
+      "zilya",
+      "britania",
+      "king-trezy",
+      "gold-player",
+      "black-ultra",
+      "georges-ville",
+      "spanish-light",
+      "swiss-money"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "nolito-g.guedj-gay",
+        "name": "NOLITO G.GUEDJ-GAY",
+        "number": 6,
+        "dimensions": {
+          "historique": 9.814616190781189,
+          "forme": null,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 1.0
+        },
+        "competitiveness": 9.8146,
+        "undetermined": [
+          "forme",
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sigtuna",
+        "name": "SIGTUNA",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.084786353560617,
+          "forme": 7.208955223880596,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.6994,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "agador",
+        "name": "AGADOR",
+        "number": 1,
+        "dimensions": {
+          "historique": 10.0,
+          "forme": 4.432835820895523,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.5504,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "xilofono",
+        "name": "XILOFONO",
+        "number": 5,
+        "dimensions": {
+          "historique": 8.094036238833935,
+          "forme": 6.395522388059701,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.3467,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sharp-rise",
+        "name": "SHARP RISE",
+        "number": 4,
+        "dimensions": {
+          "historique": 8.692769699051322,
+          "forme": 4.850746268656716,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.0023,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "black-ultra",
+        "name": "BLACK ULTRA",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.662484816922186,
+          "forme": 5.291044776119403,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.6191,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "swiss-money",
+        "name": "SWISS MONEY",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.496720418302236,
+          "forme": 4.783582089552239,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.3029,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "georges-ville",
+        "name": "GEORGES VILLE",
+        "number": 14,
+        "dimensions": {
+          "historique": 6.345945147322105,
+          "forme": 6.179104477611941,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2725,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "zilya",
+        "name": "ZILYA",
+        "number": 9,
+        "dimensions": {
+          "historique": 8.034030448947455,
+          "forme": 3.9402985074626864,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2328,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "spanish-breeze-cen",
+        "name": "SPANISH BREEZE CEN",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.390998457769444,
+          "forme": 4.164179104477611,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9712,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "poca-gen",
+        "name": "POCA GEN",
+        "number": 2,
+        "dimensions": {
+          "historique": 6.7913095138907575,
+          "forme": 4.910447761194029,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9637,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.661925117031247,
+          "forme": 4.253731343283582,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.6023,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "spanish-light",
+        "name": "SPANISH LIGHT",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.44414579336294,
+          "forme": 4.313432835820895,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5066,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "number": 8,
+        "dimensions": {
+          "historique": 5.758491969929192,
+          "forme": 3.820895522388059,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.9059,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.473719285525768,
+          "forme": 1.3805970149253735,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.7927,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "number": 11,
+        "dimensions": {
+          "historique": 5.556661310976516,
+          "forme": 2.8507462686567164,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.3661,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "nolito-g.guedj-gay",
+      "sigtuna",
+      "agador",
+      "xilofono",
+      "sharp-rise",
+      "black-ultra",
+      "swiss-money",
+      "georges-ville",
+      "zilya",
+      "spanish-breeze-cen",
+      "poca-gen",
+      "britania",
+      "spanish-light",
+      "lohengreen",
+      "gold-player",
+      "king-trezy"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "agador": {
+          "horse_id": "agador",
+          "name": "AGADOR",
+          "p_win": 0.0882,
+          "p_top3": 0.27638,
+          "p_top5": 0.46154,
+          "expected_position": 6.3295,
+          "position_distribution": {
+            "1": 0.0882,
+            "2": 0.09332,
+            "3": 0.09486,
+            "4": 0.0935,
+            "5": 0.09166,
+            "6": 0.08908,
+            "7": 0.08476,
+            "8": 0.07724,
+            "9": 0.06726,
+            "10": 0.05992,
+            "11": 0.05386,
+            "12": 0.0405,
+            "13": 0.03092,
+            "14": 0.02042,
+            "15": 0.01078,
+            "16": 0.00372
+          }
+        },
+        "poca-gen": {
+          "horse_id": "poca-gen",
+          "name": "POCA GEN",
+          "p_win": 0.03876,
+          "p_top3": 0.12862,
+          "p_top5": 0.23602,
+          "expected_position": 9.2508,
+          "position_distribution": {
+            "1": 0.03876,
+            "2": 0.04242,
+            "3": 0.04744,
+            "4": 0.0516,
+            "5": 0.0558,
+            "6": 0.0587,
+            "7": 0.06278,
+            "8": 0.06316,
+            "9": 0.06844,
+            "10": 0.07062,
+            "11": 0.07418,
+            "12": 0.07864,
+            "13": 0.0813,
+            "14": 0.08036,
+            "15": 0.07398,
+            "16": 0.05182
+          }
+        },
+        "spanish-breeze-cen": {
+          "horse_id": "spanish-breeze-cen",
+          "name": "SPANISH BREEZE CEN",
+          "p_win": 0.03926,
+          "p_top3": 0.13092,
+          "p_top5": 0.23518,
+          "expected_position": 9.1937,
+          "position_distribution": {
+            "1": 0.03926,
+            "2": 0.0438,
+            "3": 0.04786,
+            "4": 0.05148,
+            "5": 0.05278,
+            "6": 0.06054,
+            "7": 0.06284,
+            "8": 0.06648,
+            "9": 0.06874,
+            "10": 0.072,
+            "11": 0.0773,
+            "12": 0.07788,
+            "13": 0.08066,
+            "14": 0.07892,
+            "15": 0.0699,
+            "16": 0.04956
+          }
+        },
+        "sharp-rise": {
+          "horse_id": "sharp-rise",
+          "name": "SHARP RISE",
+          "p_win": 0.0668,
+          "p_top3": 0.21286,
+          "p_top5": 0.37262,
+          "expected_position": 7.2994,
+          "position_distribution": {
+            "1": 0.0668,
+            "2": 0.07242,
+            "3": 0.07364,
+            "4": 0.0793,
+            "5": 0.08046,
+            "6": 0.07906,
+            "7": 0.0799,
+            "8": 0.07712,
+            "9": 0.07678,
+            "10": 0.07098,
+            "11": 0.06534,
+            "12": 0.05728,
+            "13": 0.04768,
+            "14": 0.03946,
+            "15": 0.023,
+            "16": 0.01078
+          }
+        },
+        "xilofono": {
+          "horse_id": "xilofono",
+          "name": "XILOFONO",
+          "p_win": 0.0769,
+          "p_top3": 0.2488,
+          "p_top5": 0.42372,
+          "expected_position": 6.7069,
+          "position_distribution": {
+            "1": 0.0769,
+            "2": 0.08502,
+            "3": 0.08688,
+            "4": 0.0876,
+            "5": 0.08732,
+            "6": 0.08604,
+            "7": 0.08196,
+            "8": 0.08,
+            "9": 0.07492,
+            "10": 0.06642,
+            "11": 0.05634,
+            "12": 0.04652,
+            "13": 0.03738,
+            "14": 0.02634,
+            "15": 0.01454,
+            "16": 0.00582
+          }
+        },
+        "nolito-g.guedj-gay": {
+          "horse_id": "nolito-g.guedj-gay",
+          "name": "NOLITO G.GUEDJ-GAY",
+          "p_win": 0.26856,
+          "p_top3": 0.64026,
+          "p_top5": 0.8449,
+          "expected_position": 3.2177,
+          "position_distribution": {
+            "1": 0.26856,
+            "2": 0.21248,
+            "3": 0.15922,
+            "4": 0.11978,
+            "5": 0.08486,
+            "6": 0.0583,
+            "7": 0.03974,
+            "8": 0.02562,
+            "9": 0.01542,
+            "10": 0.00876,
+            "11": 0.00458,
+            "12": 0.00174,
+            "13": 0.00062,
+            "14": 0.0003,
+            "15": 2e-05
+          }
+        },
+        "sigtuna": {
+          "horse_id": "sigtuna",
+          "name": "SIGTUNA",
+          "p_win": 0.09308,
+          "p_top3": 0.29174,
+          "p_top5": 0.48706,
+          "expected_position": 6.0979,
+          "position_distribution": {
+            "1": 0.09308,
+            "2": 0.0976,
+            "3": 0.10106,
+            "4": 0.09998,
+            "5": 0.09534,
+            "6": 0.08988,
+            "7": 0.0834,
+            "8": 0.07672,
+            "9": 0.06576,
+            "10": 0.0588,
+            "11": 0.04604,
+            "12": 0.03702,
+            "13": 0.02666,
+            "14": 0.01682,
+            "15": 0.00902,
+            "16": 0.00282
+          }
+        },
+        "lohengreen": {
+          "horse_id": "lohengreen",
+          "name": "LOHENGREEN",
+          "p_win": 0.02432,
+          "p_top3": 0.08084,
+          "p_top5": 0.14734,
+          "expected_position": 11.0569,
+          "position_distribution": {
+            "1": 0.02432,
+            "2": 0.0257,
+            "3": 0.03082,
+            "4": 0.03298,
+            "5": 0.03352,
+            "6": 0.03764,
+            "7": 0.04154,
+            "8": 0.04812,
+            "9": 0.05202,
+            "10": 0.05842,
+            "11": 0.06432,
+            "12": 0.0722,
+            "13": 0.08586,
+            "14": 0.10196,
+            "15": 0.13156,
+            "16": 0.15902
+          }
+        },
+        "zilya": {
+          "horse_id": "zilya",
+          "name": "ZILYA",
+          "p_win": 0.04744,
+          "p_top3": 0.14776,
+          "p_top5": 0.2687,
+          "expected_position": 8.7133,
+          "position_distribution": {
+            "1": 0.04744,
+            "2": 0.04692,
+            "3": 0.0534,
+            "4": 0.0579,
+            "5": 0.06304,
+            "6": 0.064,
+            "7": 0.06658,
+            "8": 0.0666,
+            "9": 0.07424,
+            "10": 0.07642,
+            "11": 0.07438,
+            "12": 0.07752,
+            "13": 0.07088,
+            "14": 0.06682,
+            "15": 0.05734,
+            "16": 0.03652
+          }
+        },
+        "britania": {
+          "horse_id": "britania",
+          "name": "BRITANIA",
+          "p_win": 0.0335,
+          "p_top3": 0.1112,
+          "p_top5": 0.20304,
+          "expected_position": 9.821,
+          "position_distribution": {
+            "1": 0.0335,
+            "2": 0.0374,
+            "3": 0.0403,
+            "4": 0.04368,
+            "5": 0.04816,
+            "6": 0.05386,
+            "7": 0.0553,
+            "8": 0.05936,
+            "9": 0.06408,
+            "10": 0.06962,
+            "11": 0.07112,
+            "12": 0.07944,
+            "13": 0.08384,
+            "14": 0.09008,
+            "15": 0.0926,
+            "16": 0.07766
+          }
+        },
+        "king-trezy": {
+          "horse_id": "king-trezy",
+          "name": "KING TREZY",
+          "p_win": 0.01736,
+          "p_top3": 0.05922,
+          "p_top5": 0.11252,
+          "expected_position": 11.9287,
+          "position_distribution": {
+            "1": 0.01736,
+            "2": 0.01932,
+            "3": 0.02254,
+            "4": 0.02486,
+            "5": 0.02844,
+            "6": 0.03188,
+            "7": 0.03442,
+            "8": 0.03922,
+            "9": 0.04226,
+            "10": 0.04698,
+            "11": 0.05552,
+            "12": 0.06548,
+            "13": 0.0802,
+            "14": 0.0979,
+            "15": 0.14032,
+            "16": 0.2533
+          }
+        },
+        "gold-player": {
+          "horse_id": "gold-player",
+          "name": "GOLD PLAYER",
+          "p_win": 0.02254,
+          "p_top3": 0.07476,
+          "p_top5": 0.13966,
+          "expected_position": 11.2271,
+          "position_distribution": {
+            "1": 0.02254,
+            "2": 0.02476,
+            "3": 0.02746,
+            "4": 0.03076,
+            "5": 0.03414,
+            "6": 0.0384,
+            "7": 0.04086,
+            "8": 0.04496,
+            "9": 0.04966,
+            "10": 0.05546,
+            "11": 0.06244,
+            "12": 0.0717,
+            "13": 0.08574,
+            "14": 0.1031,
+            "15": 0.1323,
+            "16": 0.17572
+          }
+        },
+        "black-ultra": {
+          "horse_id": "black-ultra",
+          "name": "BLACK ULTRA",
+          "p_win": 0.05502,
+          "p_top3": 0.18034,
+          "p_top5": 0.31778,
+          "expected_position": 7.9932,
+          "position_distribution": {
+            "1": 0.05502,
+            "2": 0.06066,
+            "3": 0.06466,
+            "4": 0.06638,
+            "5": 0.07106,
+            "6": 0.07148,
+            "7": 0.07328,
+            "8": 0.07618,
+            "9": 0.07568,
+            "10": 0.07446,
+            "11": 0.07176,
+            "12": 0.06736,
+            "13": 0.06028,
+            "14": 0.05304,
+            "15": 0.03802,
+            "16": 0.02068
+          }
+        },
+        "georges-ville": {
+          "horse_id": "georges-ville",
+          "name": "GEORGES VILLE",
+          "p_win": 0.04702,
+          "p_top3": 0.1531,
+          "p_top5": 0.27452,
+          "expected_position": 8.6019,
+          "position_distribution": {
+            "1": 0.04702,
+            "2": 0.05164,
+            "3": 0.05444,
+            "4": 0.05808,
+            "5": 0.06334,
+            "6": 0.06688,
+            "7": 0.07066,
+            "8": 0.0698,
+            "9": 0.07116,
+            "10": 0.0724,
+            "11": 0.0755,
+            "12": 0.07386,
+            "13": 0.07178,
+            "14": 0.06478,
+            "15": 0.05492,
+            "16": 0.03374
+          }
+        },
+        "spanish-light": {
+          "horse_id": "spanish-light",
+          "name": "SPANISH LIGHT",
+          "p_win": 0.03166,
+          "p_top3": 0.10564,
+          "p_top5": 0.19492,
+          "expected_position": 10.0005,
+          "position_distribution": {
+            "1": 0.03166,
+            "2": 0.03466,
+            "3": 0.03932,
+            "4": 0.04248,
+            "5": 0.0468,
+            "6": 0.05134,
+            "7": 0.05406,
+            "8": 0.05724,
+            "9": 0.06216,
+            "10": 0.06474,
+            "11": 0.07152,
+            "12": 0.08046,
+            "13": 0.08592,
+            "14": 0.09356,
+            "15": 0.0979,
+            "16": 0.08618
+          }
+        },
+        "swiss-money": {
+          "horse_id": "swiss-money",
+          "name": "SWISS MONEY",
+          "p_win": 0.04958,
+          "p_top3": 0.15756,
+          "p_top5": 0.28048,
+          "expected_position": 8.5615,
+          "position_distribution": {
+            "1": 0.04958,
+            "2": 0.05188,
+            "3": 0.0561,
+            "4": 0.05964,
+            "5": 0.06328,
+            "6": 0.06292,
+            "7": 0.06792,
+            "8": 0.07218,
+            "9": 0.07142,
+            "10": 0.074,
+            "11": 0.0758,
+            "12": 0.0724,
+            "13": 0.07028,
+            "14": 0.06614,
+            "15": 0.0538,
+            "16": 0.03266
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "nolito-g.guedj-gay",
+          "sigtuna",
+          "agador"
+        ],
+        "23": [
+          "nolito-g.guedj-gay",
+          "sigtuna",
+          "agador"
+        ],
+        "37": [
+          "nolito-g.guedj-gay",
+          "sigtuna",
+          "agador"
+        ],
+        "51": [
+          "nolito-g.guedj-gay",
+          "sigtuna",
+          "agador"
+        ],
+        "73": [
+          "nolito-g.guedj-gay",
+          "sigtuna",
+          "agador"
+        ]
+      },
+      "reference_top": [
+        "agador",
+        "nolito-g.guedj-gay",
+        "sigtuna"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "nolito-g.guedj-gay": 10.0,
+        "sigtuna": 5.0,
+        "agador": 0.0
+      },
+      "order": [
+        "nolito-g.guedj-gay",
+        "sigtuna",
+        "agador"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "nolito-g.guedj-gay": 15.0,
+        "sigtuna": 14.0,
+        "agador": 13.0,
+        "xilofono": 12.0,
+        "sharp-rise": 11.0,
+        "black-ultra": 10.0,
+        "swiss-money": 9.0,
+        "georges-ville": 8.0,
+        "zilya": 7.0,
+        "spanish-breeze-cen": 6.0,
+        "poca-gen": 5.0,
+        "britania": 4.0,
+        "spanish-light": 3.0,
+        "lohengreen": 2.0,
+        "gold-player": 1.0,
+        "king-trezy": 0.0
+      },
+      "order": [
+        "nolito-g.guedj-gay",
+        "sigtuna",
+        "agador",
+        "xilofono",
+        "sharp-rise",
+        "black-ultra",
+        "swiss-money",
+        "georges-ville",
+        "zilya",
+        "spanish-breeze-cen",
+        "poca-gen",
+        "britania",
+        "spanish-light",
+        "lohengreen",
+        "gold-player",
+        "king-trezy"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "nolito-g.guedj-gay",
+        "sigtuna",
+        "agador",
+        "xilofono",
+        "sharp-rise",
+        "black-ultra",
+        "swiss-money",
+        "georges-ville",
+        "zilya",
+        "spanish-breeze-cen",
+        "poca-gen",
+        "britania",
+        "spanish-light",
+        "lohengreen",
+        "gold-player",
+        "king-trezy"
+      ],
+      "copeland": {
+        "nolito-g.guedj-gay": 15.0,
+        "sigtuna": 13.0,
+        "agador": 11.0,
+        "xilofono": 9.0,
+        "sharp-rise": 7.0,
+        "black-ultra": 5.0,
+        "swiss-money": 3.0,
+        "georges-ville": 1.0,
+        "zilya": -1.0,
+        "spanish-breeze-cen": -3.0,
+        "poca-gen": -5.0,
+        "britania": -7.0,
+        "spanish-light": -9.0,
+        "lohengreen": -11.0,
+        "gold-player": -13.0,
+        "king-trezy": -15.0
+      },
+      "normalized": {
+        "nolito-g.guedj-gay": 1.0,
+        "sigtuna": 0.9333,
+        "agador": 0.8667,
+        "xilofono": 0.8,
+        "sharp-rise": 0.7333,
+        "black-ultra": 0.6667,
+        "swiss-money": 0.6,
+        "georges-ville": 0.5333,
+        "zilya": 0.4667,
+        "spanish-breeze-cen": 0.4,
+        "poca-gen": 0.3333,
+        "britania": 0.2667,
+        "spanish-light": 0.2,
+        "lohengreen": 0.1333,
+        "gold-player": 0.0667,
+        "king-trezy": 0.0
+      },
+      "mean_rank": {
+        "nolito-g.guedj-gay": 0.0,
+        "sigtuna": 1.0,
+        "agador": 2.0,
+        "xilofono": 3.0,
+        "sharp-rise": 4.0,
+        "black-ultra": 5.0,
+        "swiss-money": 6.0,
+        "georges-ville": 7.0,
+        "zilya": 8.0,
+        "spanish-breeze-cen": 9.0,
+        "poca-gen": 10.0,
+        "britania": 11.0,
+        "spanish-light": 12.0,
+        "lohengreen": 13.0,
+        "gold-player": 14.0,
+        "king-trezy": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "agador",
+        "name": "AGADOR",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 3 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "poca-gen",
+        "name": "POCA GEN",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "spanish-breeze-cen",
+        "name": "SPANISH BREEZE CEN",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sharp-rise",
+        "name": "SHARP RISE",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "xilofono",
+        "name": "XILOFONO",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "nolito-g.guedj-gay",
+        "name": "NOLITO G.GUEDJ-GAY",
+        "number": 6,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 1 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sigtuna",
+        "name": "SIGTUNA",
+        "number": 7,
+        "signals": [
+          "cote fondue de -30% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 2 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "lohengreen",
+        "name": "LOHENGREEN",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "zilya",
+        "name": "ZILYA",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "britania",
+        "name": "BRITANIA",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-trezy",
+        "name": "KING TREZY",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "gold-player",
+        "name": "GOLD PLAYER",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "black-ultra",
+        "name": "BLACK ULTRA",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "georges-ville",
+        "name": "GEORGES VILLE",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "spanish-light",
+        "name": "SPANISH LIGHT",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "swiss-money",
+        "name": "SWISS MONEY",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "agador",
+      "nolito-g.guedj-gay",
+      "sigtuna"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "4 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "ZEturf",
+      "Turfomania"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "spanish-breeze-cen",
+          "agador",
+          "poca-gen",
+          "sharp-rise",
+          "xilofono",
+          "sigtuna",
+          "lohengreen",
+          "zilya",
+          "britania",
+          "king-trezy",
+          "gold-player",
+          "black-ultra",
+          "georges-ville",
+          "spanish-light",
+          "swiss-money"
+        ],
+        "coverage": 0.938,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "agador",
+          "poca-gen",
+          "spanish-breeze-cen",
+          "sharp-rise",
+          "xilofono",
+          "sigtuna",
+          "lohengreen",
+          "zilya",
+          "britania",
+          "king-trezy",
+          "gold-player",
+          "black-ultra",
+          "georges-ville",
+          "spanish-light",
+          "swiss-money"
+        ],
+        "coverage": 0.938,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "britania",
+          "agador",
+          "poca-gen",
+          "spanish-breeze-cen",
+          "sharp-rise",
+          "xilofono",
+          "sigtuna",
+          "lohengreen",
+          "zilya",
+          "king-trezy",
+          "gold-player",
+          "black-ultra",
+          "georges-ville",
+          "spanish-light",
+          "swiss-money"
+        ],
+        "coverage": 0.938,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "britania",
+          "spanish-light",
+          "king-trezy",
+          "xilofono",
+          "agador",
+          "black-ultra",
+          "lohengreen",
+          "sigtuna",
+          "poca-gen",
+          "spanish-breeze-cen",
+          "sharp-rise",
+          "zilya",
+          "gold-player",
+          "georges-ville",
+          "swiss-money"
+        ],
+        "coverage": 0.938,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "agador",
+          "poca-gen",
+          "spanish-breeze-cen",
+          "sharp-rise",
+          "xilofono",
+          "sigtuna",
+          "lohengreen",
+          "zilya",
+          "britania",
+          "king-trezy",
+          "gold-player",
+          "black-ultra",
+          "georges-ville",
+          "spanish-light",
+          "swiss-money"
+        ],
+        "coverage": 0.938,
+        "usable": true,
+        "note": "extraction par ordre d'apparition des partants",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-11T10:32:39.794501+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "agador": 0.049694,
+      "poca-gen": 0.0352,
+      "spanish-breeze-cen": 0.092835,
+      "sharp-rise": 0.018365,
+      "xilofono": 0.060343,
+      "nolito-g.guedj-gay": 0.033792,
+      "sigtuna": 0.060343,
+      "lohengreen": 0.0768,
+      "zilya": 0.029131,
+      "britania": 0.172408,
+      "king-trezy": 0.183652,
+      "gold-player": 0.033792,
+      "black-ultra": 0.064985,
+      "georges-ville": 0.040229,
+      "spanish-light": 0.032492,
+      "swiss-money": 0.01594
+    },
+    "consensus_ranking": [
+      "agador",
+      "poca-gen",
+      "spanish-breeze-cen",
+      "xilofono",
+      "sharp-rise",
+      "britania",
+      "sigtuna",
+      "lohengreen",
+      "king-trezy",
+      "zilya",
+      "black-ultra",
+      "gold-player",
+      "spanish-light",
+      "georges-ville",
+      "swiss-money"
+    ],
+    "convergence": 0.4286,
+    "notes": [
+      "convergence Top 5 interne/externe : 43%"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "nolito-g.guedj-gay",
+      "sigtuna"
+    ],
+    "externe_seulement": [
+      "poca-gen",
+      "spanish-breeze-cen"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 10.0,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 4.2857,
+      "completude_donnees": 7.75
+    },
+    "missing_data": [
+      "n°1 · AGADOR : aptitude",
+      "n°2 · POCA GEN : aptitude",
+      "n°3 · SPANISH BREEZE CEN : aptitude",
+      "n°4 · SHARP RISE : aptitude",
+      "n°5 · XILOFONO : aptitude",
+      "n°6 · NOLITO G.GUEDJ-GAY : recent_places",
+      "n°6 · NOLITO G.GUEDJ-GAY : driver",
+      "n°6 · NOLITO G.GUEDJ-GAY : aptitude",
+      "n°7 · SIGTUNA : aptitude",
+      "n°8 · LOHENGREEN : aptitude",
+      "n°9 · ZILYA : aptitude",
+      "n°10 · BRITANIA : aptitude",
+      "n°11 · KING TREZY : aptitude",
+      "n°12 · GOLD PLAYER : aptitude",
+      "n°13 · BLACK ULTRA : aptitude",
+      "n°14 · GEORGES VILLE : aptitude",
+      "n°15 · SPANISH LIGHT : aptitude",
+      "n°16 · SWISS MONEY : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 2.12 (saturé à 2.0) → 10.0/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "complétude des données = 78% (18 champ(s) manquant(s)) → 7.8/10",
+      "couverture du score = 49% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 49% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-11T14:15:00+00:00",
+    "betting_close": "2026-11-11T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-11T10:32:46.080955+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 212.23,
+    "schedule": {
+      "start_ouagadougou": "2026-11-11T14:15:00+00:00",
+      "start_paris": "2026-11-11T15:15:00+01:00",
+      "close_lonab": "2026-11-11T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 6,
+      "cheval": "NOLITO G.GUEDJ-GAY",
+      "horse_id": "nolito-g.guedj-gay"
+    },
+    {
+      "rang": 2,
+      "numero": 7,
+      "cheval": "SIGTUNA",
+      "horse_id": "sigtuna"
+    },
+    {
+      "rang": 3,
+      "numero": 1,
+      "cheval": "AGADOR",
+      "horse_id": "agador"
+    },
+    {
+      "rang": 4,
+      "numero": 5,
+      "cheval": "XILOFONO",
+      "horse_id": "xilofono"
+    },
+    {
+      "rang": 5,
+      "numero": 4,
+      "cheval": "SHARP RISE",
+      "horse_id": "sharp-rise"
+    },
+    {
+      "rang": 6,
+      "numero": 13,
+      "cheval": "BLACK ULTRA",
+      "horse_id": "black-ultra"
+    },
+    {
+      "rang": 7,
+      "numero": 16,
+      "cheval": "SWISS MONEY",
+      "horse_id": "swiss-money"
+    },
+    {
+      "rang": 8,
+      "numero": 14,
+      "cheval": "GEORGES VILLE",
+      "horse_id": "georges-ville"
+    },
+    {
+      "rang": 9,
+      "numero": 9,
+      "cheval": "ZILYA",
+      "horse_id": "zilya"
+    },
+    {
+      "rang": 10,
+      "numero": 3,
+      "cheval": "SPANISH BREEZE CEN",
+      "horse_id": "spanish-breeze-cen"
+    },
+    {
+      "rang": 11,
+      "numero": 2,
+      "cheval": "POCA GEN",
+      "horse_id": "poca-gen"
+    },
+    {
+      "rang": 12,
+      "numero": 10,
+      "cheval": "BRITANIA",
+      "horse_id": "britania"
+    },
+    {
+      "rang": 13,
+      "numero": 15,
+      "cheval": "SPANISH LIGHT",
+      "horse_id": "spanish-light"
+    },
+    {
+      "rang": 14,
+      "numero": 8,
+      "cheval": "LOHENGREEN",
+      "horse_id": "lohengreen"
+    },
+    {
+      "rang": 15,
+      "numero": 12,
+      "cheval": "GOLD PLAYER",
+      "horse_id": "gold-player"
+    },
+    {
+      "rang": 16,
+      "numero": 11,
+      "cheval": "KING TREZY",
+      "horse_id": "king-trezy"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 6,
+      "cheval": "NOLITO G.GUEDJ-GAY",
+      "score": 9.8146
+    },
+    {
+      "numero": 7,
+      "cheval": "SIGTUNA",
+      "score": 7.6994
+    },
+    {
+      "numero": 1,
+      "cheval": "AGADOR",
+      "score": 7.5504
+    },
+    {
+      "numero": 5,
+      "cheval": "XILOFONO",
+      "score": 7.3467
+    },
+    {
+      "numero": 4,
+      "cheval": "SHARP RISE",
+      "score": 7.0023
+    },
+    {
+      "numero": 13,
+      "cheval": "BLACK ULTRA",
+      "score": 6.6191
+    },
+    {
+      "numero": 16,
+      "cheval": "SWISS MONEY",
+      "score": 6.3029
+    },
+    {
+      "numero": 14,
+      "cheval": "GEORGES VILLE",
+      "score": 6.2725
+    },
+    {
+      "numero": 9,
+      "cheval": "ZILYA",
+      "score": 6.2328
+    },
+    {
+      "numero": 3,
+      "cheval": "SPANISH BREEZE CEN",
+      "score": 5.9712
+    },
+    {
+      "numero": 2,
+      "cheval": "POCA GEN",
+      "score": 5.9637
+    },
+    {
+      "numero": 10,
+      "cheval": "BRITANIA",
+      "score": 5.6023
+    },
+    {
+      "numero": 15,
+      "cheval": "SPANISH LIGHT",
+      "score": 5.5066
+    },
+    {
+      "numero": 8,
+      "cheval": "LOHENGREEN",
+      "score": 4.9059
+    },
+    {
+      "numero": 12,
+      "cheval": "GOLD PLAYER",
+      "score": 4.7927
+    },
+    {
+      "numero": 11,
+      "cheval": "KING TREZY",
+      "score": 4.3661
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 9.3572,
+      "entropie_norm": 0.8964,
+      "p_favori": 0.1967,
+      "ratio_1_2": 1.0709
+    },
+    "p_gagnant_dans_selection": 0.6136,
+    "nb_attendu_dans_top5": 2.258,
+    "p_au_moins": {
+      "1": 0.9815,
+      "2": 0.8101,
+      "3": 0.3924,
+      "4": 0.0709,
+      "5": 0.0031
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-11T10:30:39+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "39 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 11,
+        "cheval": "KING TREZY",
+        "cote": 4.6,
+        "p_gagne": 0.1967,
+        "p_top3": 0.3956,
+        "p_top5": 0.5672,
+        "rang_systeme": 16
+      },
+      {
+        "numero": 10,
+        "cheval": "BRITANIA",
+        "cote": 4.9,
+        "p_gagne": 0.1836,
+        "p_top3": 0.387,
+        "p_top5": 0.5598,
+        "rang_systeme": 12
+      },
+      {
+        "numero": 3,
+        "cheval": "SPANISH BREEZE CEN",
+        "cote": 9.1,
+        "p_gagne": 0.0939,
+        "p_top3": 0.2574,
+        "p_top5": 0.4153,
+        "rang_systeme": 10
+      },
+      {
+        "numero": 8,
+        "cheval": "LOHENGREEN",
+        "cote": 11.0,
+        "p_gagne": 0.0764,
+        "p_top3": 0.2231,
+        "p_top5": 0.3716,
+        "rang_systeme": 14
+      },
+      {
+        "numero": 13,
+        "cheval": "BLACK ULTRA",
+        "cote": 13.0,
+        "p_gagne": 0.0638,
+        "p_top3": 0.2029,
+        "p_top5": 0.3441,
+        "rang_systeme": 6
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "NOLITO"
+    ],
+    "unmatched_race": [
+      "NOLITO G.GUEDJ-GAY"
+    ],
+    "warnings": [
+      "n°6 : nom PDF « NOLITO G.GUEDJ-GAY » ≠ nom PMU « NOLITO » — ignoré"
+    ]
+  },
+  "stored_at": "2026-11-11T10:32:46.198748+00:00"
+}
