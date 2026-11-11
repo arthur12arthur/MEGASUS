@@ -97,6 +97,21 @@ def _norm(text: str | None) -> str:
     return re.sub(r"[^a-z0-9]+", " ", ascii_only.lower()).strip()
 
 
+def names_match(pdf_name: str | None, pmu_name: str | None) -> bool:
+    """Même cheval malgré un nom du PDF « pollué » par le driver/propriétaire.
+
+    « NOLITO G.GUEDJ-GAY » (PDF) et « NOLITO » (PMU) désignent le même cheval : on accepte
+    quand l'un des noms normalisés commence par l'autre, à une frontière de mot.
+    """
+    a, b = _norm(pdf_name), _norm(pmu_name)
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    return len(short) >= 3 and long_.startswith(short + " ")
+
+
 def _iso(ms: Any) -> str | None:
     try:
         return dt.datetime.fromtimestamp(float(ms) / 1000.0, dt.timezone.utc).isoformat()
@@ -157,6 +172,10 @@ def _enriched(horse: Horse, item: Mapping[str, Any]) -> Horse:
     if str(item.get("statut", "PARTANT")).upper() != "PARTANT":
         changes["non_runner"] = True
 
+    pmu_name = (item.get("nom") or "").strip()
+    if pmu_name and _norm(pmu_name) != _norm(horse.name):
+        changes["name"] = pmu_name  # nom canonique PMU (le PDF y colle parfois le driver)
+
     raw = dict(horse.raw)
     raw["pmu"] = {
         "odds_direct": direct,
@@ -190,7 +209,7 @@ def enrich_race(race: Race, payload: Mapping[str, Any]) -> tuple[Race, Enrichmen
             report.unmatched_race.append(horse.name)
             horses.append(horse)
             continue
-        if _norm(item.get("nom")) != _norm(horse.name):
+        if not names_match(horse.name, item.get("nom")):
             report.warnings.append(
                 f"n°{horse.number} : nom PDF « {horse.name} » ≠ nom PMU « {item.get('nom')} » — ignoré"
             )

@@ -126,6 +126,14 @@ def is_post_race(pmu_status: dict[str, Any] | None) -> bool:
     return any("déjà courue" in w for w in pmu_status.get("warnings", []))
 
 
+def after_departure(meta: Any, now: dt.datetime | None = None) -> bool:
+    """Vrai si la course est déjà partie d'après l'heure de départ du programme."""
+    start = getattr(meta, "start_time", None)
+    if start is None or start.tzinfo is None:
+        return False
+    return (now or dt.datetime.now(dt.timezone.utc)) >= start
+
+
 def cmd_watch(args: argparse.Namespace) -> int:
     import time
     from pathlib import Path
@@ -294,12 +302,20 @@ def cmd_run(args: argparse.Namespace) -> int:
             print(block)
             print()
 
-    if is_post_race(pmu_status):
+    if is_post_race(pmu_status) or after_departure(race.meta):
         print(
-            "Course déjà courue : analyse a posteriori affichée mais NI stockée NI envoyée "
+            "Course déjà partie : analyse a posteriori affichée mais NI stockée NI envoyée "
             "(elle ne doit jamais remplacer le pronostic d'avant-course).",
             file=sys.stderr,
         )
+        if args.deliver and not settings.dry_run:
+            from hyperion.delivery import Delivery
+
+            Delivery(settings).send_telegram([
+                f"⚠ Lancement trop tardif : « {race.meta.name or race.race_id} » est déjà partie, "
+                "aucune analyse avant-course n'a été enregistrée ni envoyée. "
+                "(GitHub a retardé le déclenchement automatique.)"
+            ])
         return 0
 
     if args.store:

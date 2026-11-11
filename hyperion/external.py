@@ -311,9 +311,12 @@ class HttpPanelProvider:
                     source=source,
                     ranking=ranking,
                     coverage=coverage,
-                    usable=coverage >= MIN_COVERAGE,
+                    # L'ordre d'apparition des noms dans une page est l'ordre du programme
+                    # (ou d'un tableau de cotes), PAS un pronostic : on ne le compte jamais
+                    # dans le consensus. Seule la saisie manuelle fournit un vrai pronostic.
+                    usable=False,
                     note=(
-                        "extraction par ordre d'apparition des partants"
+                        "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé"
                         if coverage >= MIN_COVERAGE
                         else f"couverture insuffisante ({coverage:.0%})"
                     ),
