@@ -1,0 +1,2295 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261113-paris-vincennes-nocturne-c4",
+  "date": "2026-11-13",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-11-13",
+    "start_time": "2026-11-13T19:15:00+00:00",
+    "race_number": 4,
+    "name": "GRAND PRIX DU VENDREDI 13",
+    "distance_m": 2850,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE - AUTOSTART",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMU_DU_13-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-13T19:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel partiel : 'ATTELE - AUTOSTART' -> attele",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-13T08:17:24.960666+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "kaiser-des-granges-p.ph.-ploquin",
+        "name": "KAISER DES GRANGES",
+        "number": 1,
+        "odds_pdf": 11.0,
+        "odds_latest": 51.0,
+        "delta": 3.6363636363636362,
+        "implied_shift": 0.07130124777183601,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "katia-dhelpa",
+        "name": "KATIA DHELPA",
+        "number": 2,
+        "odds_pdf": 11.0,
+        "odds_latest": 7.2,
+        "delta": -0.34545454545454546,
+        "implied_shift": -0.04797979797979798,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kazy-merite",
+        "name": "KAZY MERITE",
+        "number": 3,
+        "odds_pdf": 28.0,
+        "odds_latest": 26.0,
+        "delta": -0.07142857142857142,
+        "implied_shift": -0.0027472527472527514,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kingston-de-blary-d.-thomain",
+        "name": "KINGSTON DE BLARY",
+        "number": 4,
+        "odds_pdf": 20.0,
+        "odds_latest": 22.0,
+        "delta": 0.1,
+        "implied_shift": 0.004545454545454547,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "king-look",
+        "name": "KING LOOK",
+        "number": 5,
+        "odds_pdf": 6.0,
+        "odds_latest": 3.5,
+        "delta": -0.4166666666666667,
+        "implied_shift": -0.11904761904761904,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 6,
+        "odds_pdf": 4.0,
+        "odds_latest": 7.6,
+        "delta": 0.8999999999999999,
+        "implied_shift": 0.11842105263157895,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "savastano",
+        "name": "SAVASTANO",
+        "number": 8,
+        "odds_pdf": 8.0,
+        "odds_latest": 6.8,
+        "delta": -0.15000000000000002,
+        "implied_shift": -0.02205882352941177,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kool-and-the-gang-n.-bazire",
+        "name": "KOOL AND THE GANG",
+        "number": 9,
+        "odds_pdf": 178.0,
+        "odds_latest": 48.0,
+        "delta": -0.7303370786516854,
+        "implied_shift": -0.015215355805243445,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "khartoum-de-la-fye-m.-ionescu",
+        "name": "KHARTOUM DE LA FYE",
+        "number": 10,
+        "odds_pdf": 163.0,
+        "odds_latest": 175.0,
+        "delta": 0.0736196319018405,
+        "implied_shift": 0.0004206836108676601,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "i-can-win-gardenia-p.y.-verva",
+        "name": "I CAN WIN GARDENIA",
+        "number": 11,
+        "odds_pdf": 32.0,
+        "odds_latest": 43.0,
+        "delta": 0.34375,
+        "implied_shift": 0.007994186046511628,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "quintus-tooma",
+        "name": "QUINTUS TOOMA",
+        "number": 12,
+        "odds_pdf": 16.0,
+        "odds_latest": 45.0,
+        "delta": 1.8125,
+        "implied_shift": 0.04027777777777777,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "cosmea",
+        "name": "COSMEA",
+        "number": 13,
+        "odds_pdf": 14.0,
+        "odds_latest": 9.0,
+        "delta": -0.35714285714285715,
+        "implied_shift": -0.03968253968253968,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "koquery-du-buisson-r.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 14,
+        "odds_pdf": 99.0,
+        "odds_latest": 121.0,
+        "delta": 0.2222222222222222,
+        "implied_shift": 0.0018365472910927463,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jubii-vang",
+        "name": "JUBII VANG",
+        "number": 15,
+        "odds_pdf": 42.0,
+        "odds_latest": 43.0,
+        "delta": 0.023809523809523808,
+        "implied_shift": 0.0005537098560354364,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "no-talking-you",
+        "name": "NO TALKING YOU",
+        "number": 16,
+        "odds_pdf": 43.0,
+        "odds_latest": 127.0,
+        "delta": 1.9534883720930232,
+        "implied_shift": 0.015381798205456876,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "eleonora-grif",
+        "name": "ELEONORA GRIF",
+        "number": 17,
+        "odds_pdf": 17.0,
+        "odds_latest": 11.0,
+        "delta": -0.35294117647058826,
+        "implied_shift": -0.03208556149732621,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "pure-steel",
+        "name": "PURE STEEL",
+        "number": 18,
+        "odds_pdf": 24.0,
+        "odds_latest": 34.0,
+        "delta": 0.4166666666666667,
+        "implied_shift": 0.012254901960784312,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "katia-dhelpa",
+      "kazy-merite",
+      "kingston-de-blary-d.-thomain",
+      "king-look",
+      "eminent-kronos",
+      "savastano",
+      "kool-and-the-gang-n.-bazire",
+      "khartoum-de-la-fye-m.-ionescu",
+      "i-can-win-gardenia-p.y.-verva",
+      "quintus-tooma",
+      "cosmea",
+      "koquery-du-buisson-r.-lamy",
+      "jubii-vang",
+      "no-talking-you",
+      "eleonora-grif",
+      "pure-steel"
+    ],
+    "excluded": [
+      {
+        "horse_id": "kaiser-des-granges-p.ph.-ploquin",
+        "name": "KAISER DES GRANGES",
+        "number": 1,
+        "reason": "score de risque 3 ≥ seuil 3",
+        "risk_points": 3
+      }
+    ],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "king-look",
+        "name": "KING LOOK",
+        "number": 5,
+        "dimensions": {
+          "historique": 9.993113373558392,
+          "forme": 4.358208955223881,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.4887,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "katia-dhelpa",
+        "name": "KATIA DHELPA",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.121212121212121,
+          "forme": 6.55223880597015,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.8683,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "cosmea",
+        "name": "COSMEA",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.706284543733535,
+          "forme": 5.641791044776119,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.7887,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 6,
+        "dimensions": {
+          "historique": 9.98979611632687,
+          "forme": 2.746268656716418,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.7705,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "savastano",
+        "name": "SAVASTANO",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.961903546979839,
+          "forme": 2.5074626865671643,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6488,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "eleonora-grif",
+        "name": "ELEONORA GRIF",
+        "number": 17,
+        "dimensions": {
+          "historique": 7.4878850359077305,
+          "forme": 5.492537313432836,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6011,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "khartoum-de-la-fye-m.-ionescu",
+        "name": "KHARTOUM DE LA FYE",
+        "number": 10,
+        "dimensions": {
+          "historique": 8.503583929436537,
+          "forme": 3.8507462686567164,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.4357,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kool-and-the-gang-n.-bazire",
+        "name": "KOOL AND THE GANG",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.1333463920430376,
+          "forme": 4.656716417910448,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.0326,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "quintus-tooma",
+        "name": "QUINTUS TOOMA",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.474431011705242,
+          "forme": 4.014925373134328,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9369,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kingston-de-blary-d.-thomain",
+        "name": "KINGSTON DE BLARY",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.385578024062768,
+          "forme": 4.059701492537314,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9074,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "koquery-du-buisson-r.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.554922792483132,
+          "forme": 1.8059701492537314,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.9998,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "no-talking-you",
+        "name": "NO TALKING YOU",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.504195252649697,
+          "forme": 1.671641791044776,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.9119,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pure-steel",
+        "name": "PURE STEEL",
+        "number": 18,
+        "dimensions": {
+          "historique": 5.953025709766418,
+          "forme": 3.4925373134328352,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.8595,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jubii-vang",
+        "name": "JUBII VANG",
+        "number": 15,
+        "dimensions": {
+          "historique": 5.9901376522241625,
+          "forme": 3.1791044776119404,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.7408,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kazy-merite",
+        "name": "KAZY MERITE",
+        "number": 3,
+        "dimensions": {
+          "historique": 6.818414173409629,
+          "forme": 1.298507462686567,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.3651,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "i-can-win-gardenia-p.y.-verva",
+        "name": "I CAN WIN GARDENIA",
+        "number": 11,
+        "dimensions": {
+          "historique": 4.7488642377010635,
+          "forme": 3.507462686567164,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1971,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "king-look",
+      "katia-dhelpa",
+      "cosmea",
+      "eminent-kronos",
+      "savastano",
+      "eleonora-grif",
+      "khartoum-de-la-fye-m.-ionescu",
+      "kool-and-the-gang-n.-bazire",
+      "quintus-tooma",
+      "kingston-de-blary-d.-thomain",
+      "koquery-du-buisson-r.-lamy",
+      "no-talking-you",
+      "pure-steel",
+      "jubii-vang",
+      "kazy-merite",
+      "i-can-win-gardenia-p.y.-verva"
+    ],
+    "stability": 0.8,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "katia-dhelpa": {
+          "horse_id": "katia-dhelpa",
+          "name": "KATIA DHELPA",
+          "p_win": 0.09304,
+          "p_top3": 0.27398,
+          "p_top5": 0.44292,
+          "expected_position": 6.6071,
+          "position_distribution": {
+            "1": 0.09304,
+            "2": 0.09388,
+            "3": 0.08706,
+            "4": 0.08508,
+            "5": 0.08386,
+            "6": 0.08262,
+            "7": 0.0767,
+            "8": 0.07266,
+            "9": 0.06706,
+            "10": 0.06342,
+            "11": 0.05482,
+            "12": 0.04986,
+            "13": 0.03794,
+            "14": 0.02752,
+            "15": 0.0177,
+            "16": 0.00678
+          }
+        },
+        "kazy-merite": {
+          "horse_id": "kazy-merite",
+          "name": "KAZY MERITE",
+          "p_win": 0.02604,
+          "p_top3": 0.0833,
+          "p_top5": 0.14748,
+          "expected_position": 11.2394,
+          "position_distribution": {
+            "1": 0.02604,
+            "2": 0.02798,
+            "3": 0.02928,
+            "4": 0.0313,
+            "5": 0.03288,
+            "6": 0.0364,
+            "7": 0.03952,
+            "8": 0.04222,
+            "9": 0.0461,
+            "10": 0.05334,
+            "11": 0.05946,
+            "12": 0.06946,
+            "13": 0.08202,
+            "14": 0.1027,
+            "15": 0.13362,
+            "16": 0.18768
+          }
+        },
+        "kingston-de-blary-d.-thomain": {
+          "horse_id": "kingston-de-blary-d.-thomain",
+          "name": "KINGSTON DE BLARY",
+          "p_win": 0.05742,
+          "p_top3": 0.17418,
+          "p_top5": 0.29788,
+          "expected_position": 8.4088,
+          "position_distribution": {
+            "1": 0.05742,
+            "2": 0.05744,
+            "3": 0.05932,
+            "4": 0.0607,
+            "5": 0.063,
+            "6": 0.0655,
+            "7": 0.06412,
+            "8": 0.06768,
+            "9": 0.06974,
+            "10": 0.0716,
+            "11": 0.0725,
+            "12": 0.0731,
+            "13": 0.0687,
+            "14": 0.06404,
+            "15": 0.05282,
+            "16": 0.03232
+          }
+        },
+        "king-look": {
+          "horse_id": "king-look",
+          "name": "KING LOOK",
+          "p_win": 0.1253,
+          "p_top3": 0.35404,
+          "p_top5": 0.55354,
+          "expected_position": 5.5391,
+          "position_distribution": {
+            "1": 0.1253,
+            "2": 0.12036,
+            "3": 0.10838,
+            "4": 0.1042,
+            "5": 0.0953,
+            "6": 0.08452,
+            "7": 0.076,
+            "8": 0.06846,
+            "9": 0.05872,
+            "10": 0.04804,
+            "11": 0.03964,
+            "12": 0.03062,
+            "13": 0.02006,
+            "14": 0.01278,
+            "15": 0.00612,
+            "16": 0.0015
+          }
+        },
+        "eminent-kronos": {
+          "horse_id": "eminent-kronos",
+          "name": "EMINENT KRONOS",
+          "p_win": 0.0868,
+          "p_top3": 0.26034,
+          "p_top5": 0.42488,
+          "expected_position": 6.7983,
+          "position_distribution": {
+            "1": 0.0868,
+            "2": 0.0872,
+            "3": 0.08634,
+            "4": 0.08324,
+            "5": 0.0813,
+            "6": 0.07908,
+            "7": 0.07534,
+            "8": 0.0753,
+            "9": 0.07144,
+            "10": 0.06494,
+            "11": 0.05966,
+            "12": 0.04974,
+            "13": 0.04168,
+            "14": 0.03018,
+            "15": 0.01962,
+            "16": 0.00814
+          }
+        },
+        "savastano": {
+          "horse_id": "savastano",
+          "name": "SAVASTANO",
+          "p_win": 0.08058,
+          "p_top3": 0.24316,
+          "p_top5": 0.40288,
+          "expected_position": 7.0419,
+          "position_distribution": {
+            "1": 0.08058,
+            "2": 0.0802,
+            "3": 0.08238,
+            "4": 0.08114,
+            "5": 0.07858,
+            "6": 0.07822,
+            "7": 0.07802,
+            "8": 0.0738,
+            "9": 0.0704,
+            "10": 0.06552,
+            "11": 0.06094,
+            "12": 0.05448,
+            "13": 0.04694,
+            "14": 0.035,
+            "15": 0.02342,
+            "16": 0.01038
+          }
+        },
+        "kool-and-the-gang-n.-bazire": {
+          "horse_id": "kool-and-the-gang-n.-bazire",
+          "name": "KOOL AND THE GANG",
+          "p_win": 0.06074,
+          "p_top3": 0.1844,
+          "p_top5": 0.31452,
+          "expected_position": 8.1697,
+          "position_distribution": {
+            "1": 0.06074,
+            "2": 0.05984,
+            "3": 0.06382,
+            "4": 0.06414,
+            "5": 0.06598,
+            "6": 0.06764,
+            "7": 0.06962,
+            "8": 0.06798,
+            "9": 0.07066,
+            "10": 0.0708,
+            "11": 0.07068,
+            "12": 0.06846,
+            "13": 0.06582,
+            "14": 0.05866,
+            "15": 0.04806,
+            "16": 0.0271
+          }
+        },
+        "khartoum-de-la-fye-m.-ionescu": {
+          "horse_id": "khartoum-de-la-fye-m.-ionescu",
+          "name": "KHARTOUM DE LA FYE",
+          "p_win": 0.07484,
+          "p_top3": 0.22492,
+          "p_top5": 0.37354,
+          "expected_position": 7.4164,
+          "position_distribution": {
+            "1": 0.07484,
+            "2": 0.07488,
+            "3": 0.0752,
+            "4": 0.07446,
+            "5": 0.07416,
+            "6": 0.07362,
+            "7": 0.07182,
+            "8": 0.07438,
+            "9": 0.069,
+            "10": 0.06918,
+            "11": 0.06492,
+            "12": 0.06192,
+            "13": 0.05306,
+            "14": 0.04444,
+            "15": 0.02972,
+            "16": 0.0144
+          }
+        },
+        "i-can-win-gardenia-p.y.-verva": {
+          "horse_id": "i-can-win-gardenia-p.y.-verva",
+          "name": "I CAN WIN GARDENIA",
+          "p_win": 0.02546,
+          "p_top3": 0.07762,
+          "p_top5": 0.13764,
+          "expected_position": 11.4914,
+          "position_distribution": {
+            "1": 0.02546,
+            "2": 0.02498,
+            "3": 0.02718,
+            "4": 0.0285,
+            "5": 0.03152,
+            "6": 0.0328,
+            "7": 0.0368,
+            "8": 0.03936,
+            "9": 0.04618,
+            "10": 0.04876,
+            "11": 0.05698,
+            "12": 0.0665,
+            "13": 0.08284,
+            "14": 0.10364,
+            "15": 0.13836,
+            "16": 0.21014
+          }
+        },
+        "quintus-tooma": {
+          "horse_id": "quintus-tooma",
+          "name": "QUINTUS TOOMA",
+          "p_win": 0.05832,
+          "p_top3": 0.17796,
+          "p_top5": 0.30594,
+          "expected_position": 8.3086,
+          "position_distribution": {
+            "1": 0.05832,
+            "2": 0.0597,
+            "3": 0.05994,
+            "4": 0.06376,
+            "5": 0.06422,
+            "6": 0.066,
+            "7": 0.06798,
+            "8": 0.06784,
+            "9": 0.06836,
+            "10": 0.07012,
+            "11": 0.07108,
+            "12": 0.07086,
+            "13": 0.06712,
+            "14": 0.06238,
+            "15": 0.05134,
+            "16": 0.03098
+          }
+        },
+        "cosmea": {
+          "horse_id": "cosmea",
+          "name": "COSMEA",
+          "p_win": 0.08932,
+          "p_top3": 0.2629,
+          "p_top5": 0.43162,
+          "expected_position": 6.7622,
+          "position_distribution": {
+            "1": 0.08932,
+            "2": 0.0877,
+            "3": 0.08588,
+            "4": 0.0857,
+            "5": 0.08302,
+            "6": 0.0789,
+            "7": 0.07546,
+            "8": 0.07236,
+            "9": 0.0682,
+            "10": 0.06626,
+            "11": 0.0564,
+            "12": 0.0497,
+            "13": 0.04228,
+            "14": 0.03198,
+            "15": 0.01852,
+            "16": 0.00832
+          }
+        },
+        "koquery-du-buisson-r.-lamy": {
+          "horse_id": "koquery-du-buisson-r.-lamy",
+          "name": "KOQUERY DU BUISSON",
+          "p_win": 0.03716,
+          "p_top3": 0.11484,
+          "p_top5": 0.20374,
+          "expected_position": 10.063,
+          "position_distribution": {
+            "1": 0.03716,
+            "2": 0.03748,
+            "3": 0.0402,
+            "4": 0.04252,
+            "5": 0.04638,
+            "6": 0.0459,
+            "7": 0.04962,
+            "8": 0.05352,
+            "9": 0.05688,
+            "10": 0.06266,
+            "11": 0.07072,
+            "12": 0.07476,
+            "13": 0.08602,
+            "14": 0.0945,
+            "15": 0.1043,
+            "16": 0.09738
+          }
+        },
+        "jubii-vang": {
+          "horse_id": "jubii-vang",
+          "name": "JUBII VANG",
+          "p_win": 0.0333,
+          "p_top3": 0.10188,
+          "p_top5": 0.17876,
+          "expected_position": 10.5353,
+          "position_distribution": {
+            "1": 0.0333,
+            "2": 0.03342,
+            "3": 0.03516,
+            "4": 0.03688,
+            "5": 0.04,
+            "6": 0.04192,
+            "7": 0.04778,
+            "8": 0.04818,
+            "9": 0.0539,
+            "10": 0.05694,
+            "11": 0.06536,
+            "12": 0.07542,
+            "13": 0.08608,
+            "14": 0.10108,
+            "15": 0.11516,
+            "16": 0.12942
+          }
+        },
+        "no-talking-you": {
+          "horse_id": "no-talking-you",
+          "name": "NO TALKING YOU",
+          "p_win": 0.03562,
+          "p_top3": 0.11136,
+          "p_top5": 0.1932,
+          "expected_position": 10.2168,
+          "position_distribution": {
+            "1": 0.03562,
+            "2": 0.03726,
+            "3": 0.03848,
+            "4": 0.03928,
+            "5": 0.04256,
+            "6": 0.04538,
+            "7": 0.04938,
+            "8": 0.0527,
+            "9": 0.0579,
+            "10": 0.06124,
+            "11": 0.06752,
+            "12": 0.07504,
+            "13": 0.08604,
+            "14": 0.09692,
+            "15": 0.10518,
+            "16": 0.1095
+          }
+        },
+        "eleonora-grif": {
+          "horse_id": "eleonora-grif",
+          "name": "ELEONORA GRIF",
+          "p_win": 0.08066,
+          "p_top3": 0.24416,
+          "p_top5": 0.40046,
+          "expected_position": 7.0902,
+          "position_distribution": {
+            "1": 0.08066,
+            "2": 0.08072,
+            "3": 0.08278,
+            "4": 0.07932,
+            "5": 0.07698,
+            "6": 0.07722,
+            "7": 0.07536,
+            "8": 0.0726,
+            "9": 0.06954,
+            "10": 0.06762,
+            "11": 0.0627,
+            "12": 0.05562,
+            "13": 0.04508,
+            "14": 0.03774,
+            "15": 0.02462,
+            "16": 0.01144
+          }
+        },
+        "pure-steel": {
+          "horse_id": "pure-steel",
+          "name": "PURE STEEL",
+          "p_win": 0.0354,
+          "p_top3": 0.11096,
+          "p_top5": 0.191,
+          "expected_position": 10.3117,
+          "position_distribution": {
+            "1": 0.0354,
+            "2": 0.03696,
+            "3": 0.0386,
+            "4": 0.03978,
+            "5": 0.04026,
+            "6": 0.04428,
+            "7": 0.04648,
+            "8": 0.05096,
+            "9": 0.05592,
+            "10": 0.05956,
+            "11": 0.06662,
+            "12": 0.07446,
+            "13": 0.08832,
+            "14": 0.09644,
+            "15": 0.11144,
+            "16": 0.11452
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "king-look",
+          "katia-dhelpa",
+          "cosmea"
+        ],
+        "23": [
+          "king-look",
+          "katia-dhelpa",
+          "cosmea"
+        ],
+        "37": [
+          "king-look",
+          "katia-dhelpa",
+          "eminent-kronos"
+        ],
+        "51": [
+          "king-look",
+          "katia-dhelpa",
+          "cosmea"
+        ],
+        "73": [
+          "king-look",
+          "katia-dhelpa",
+          "cosmea"
+        ]
+      },
+      "reference_top": [
+        "cosmea",
+        "katia-dhelpa",
+        "king-look"
+      ],
+      "stable_seeds": 4,
+      "stability": 0.8,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "king-look": 10.0,
+        "katia-dhelpa": 5.0,
+        "cosmea": 0.0,
+        "eminent-kronos": 0.0
+      },
+      "order": [
+        "king-look",
+        "katia-dhelpa",
+        "cosmea",
+        "eminent-kronos"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "king-look": 15.0,
+        "katia-dhelpa": 14.0,
+        "cosmea": 13.0,
+        "eminent-kronos": 12.0,
+        "savastano": 11.0,
+        "eleonora-grif": 10.0,
+        "khartoum-de-la-fye-m.-ionescu": 9.0,
+        "kool-and-the-gang-n.-bazire": 8.0,
+        "quintus-tooma": 7.0,
+        "kingston-de-blary-d.-thomain": 6.0,
+        "koquery-du-buisson-r.-lamy": 5.0,
+        "no-talking-you": 4.0,
+        "pure-steel": 3.0,
+        "jubii-vang": 2.0,
+        "kazy-merite": 1.0,
+        "i-can-win-gardenia-p.y.-verva": 0.0
+      },
+      "order": [
+        "king-look",
+        "katia-dhelpa",
+        "cosmea",
+        "eminent-kronos",
+        "savastano",
+        "eleonora-grif",
+        "khartoum-de-la-fye-m.-ionescu",
+        "kool-and-the-gang-n.-bazire",
+        "quintus-tooma",
+        "kingston-de-blary-d.-thomain",
+        "koquery-du-buisson-r.-lamy",
+        "no-talking-you",
+        "pure-steel",
+        "jubii-vang",
+        "kazy-merite",
+        "i-can-win-gardenia-p.y.-verva"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "king-look",
+        "katia-dhelpa",
+        "cosmea",
+        "eminent-kronos",
+        "savastano",
+        "eleonora-grif",
+        "khartoum-de-la-fye-m.-ionescu",
+        "kool-and-the-gang-n.-bazire",
+        "quintus-tooma",
+        "kingston-de-blary-d.-thomain",
+        "koquery-du-buisson-r.-lamy",
+        "no-talking-you",
+        "pure-steel",
+        "jubii-vang",
+        "kazy-merite",
+        "i-can-win-gardenia-p.y.-verva"
+      ],
+      "copeland": {
+        "king-look": 15.0,
+        "katia-dhelpa": 13.0,
+        "cosmea": 11.0,
+        "eminent-kronos": 9.0,
+        "savastano": 7.0,
+        "eleonora-grif": 5.0,
+        "khartoum-de-la-fye-m.-ionescu": 3.0,
+        "kool-and-the-gang-n.-bazire": 1.0,
+        "quintus-tooma": -1.0,
+        "kingston-de-blary-d.-thomain": -3.0,
+        "koquery-du-buisson-r.-lamy": -5.0,
+        "no-talking-you": -7.0,
+        "pure-steel": -9.0,
+        "jubii-vang": -11.0,
+        "kazy-merite": -13.0,
+        "i-can-win-gardenia-p.y.-verva": -15.0
+      },
+      "normalized": {
+        "king-look": 1.0,
+        "katia-dhelpa": 0.9333,
+        "cosmea": 0.8667,
+        "eminent-kronos": 0.8,
+        "savastano": 0.7333,
+        "eleonora-grif": 0.6667,
+        "khartoum-de-la-fye-m.-ionescu": 0.6,
+        "kool-and-the-gang-n.-bazire": 0.5333,
+        "quintus-tooma": 0.4667,
+        "kingston-de-blary-d.-thomain": 0.4,
+        "koquery-du-buisson-r.-lamy": 0.3333,
+        "no-talking-you": 0.2667,
+        "pure-steel": 0.2,
+        "jubii-vang": 0.1333,
+        "kazy-merite": 0.0667,
+        "i-can-win-gardenia-p.y.-verva": 0.0
+      },
+      "mean_rank": {
+        "king-look": 0.0,
+        "katia-dhelpa": 1.0,
+        "cosmea": 2.0,
+        "eminent-kronos": 3.0,
+        "savastano": 4.0,
+        "eleonora-grif": 5.0,
+        "khartoum-de-la-fye-m.-ionescu": 6.0,
+        "kool-and-the-gang-n.-bazire": 7.0,
+        "quintus-tooma": 8.0,
+        "kingston-de-blary-d.-thomain": 9.0,
+        "koquery-du-buisson-r.-lamy": 10.0,
+        "no-talking-you": 11.0,
+        "pure-steel": 12.0,
+        "jubii-vang": 13.0,
+        "kazy-merite": 14.0,
+        "i-can-win-gardenia-p.y.-verva": 15.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "kaiser-des-granges-p.ph.-ploquin",
+        "name": "KAISER DES GRANGES",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "katia-dhelpa",
+        "name": "KATIA DHELPA",
+        "number": 2,
+        "signals": [
+          "cote fondue de -35% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kazy-merite",
+        "name": "KAZY MERITE",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kingston-de-blary-d.-thomain",
+        "name": "KINGSTON DE BLARY",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-look",
+        "name": "KING LOOK",
+        "number": 5,
+        "signals": [
+          "cote fondue de -42% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "eminent-kronos",
+        "name": "EMINENT KRONOS",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "savastano",
+        "name": "SAVASTANO",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kool-and-the-gang-n.-bazire",
+        "name": "KOOL AND THE GANG",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "khartoum-de-la-fye-m.-ionescu",
+        "name": "KHARTOUM DE LA FYE",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "i-can-win-gardenia-p.y.-verva",
+        "name": "I CAN WIN GARDENIA",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "quintus-tooma",
+        "name": "QUINTUS TOOMA",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "cosmea",
+        "name": "COSMEA",
+        "number": 13,
+        "signals": [
+          "cote fondue de -36% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "koquery-du-buisson-r.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jubii-vang",
+        "name": "JUBII VANG",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "no-talking-you",
+        "name": "NO TALKING YOU",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "eleonora-grif",
+        "name": "ELEONORA GRIF",
+        "number": 17,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pure-steel",
+        "name": "PURE STEEL",
+        "number": 18,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "katia-dhelpa",
+      "king-look",
+      "cosmea"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "1 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "eminent-kronos",
+          "kaiser-des-granges-p.ph.-ploquin",
+          "katia-dhelpa",
+          "kazy-merite",
+          "kingston-de-blary-d.-thomain",
+          "king-look",
+          "savastano",
+          "kool-and-the-gang-n.-bazire",
+          "khartoum-de-la-fye-m.-ionescu",
+          "i-can-win-gardenia-p.y.-verva",
+          "quintus-tooma",
+          "cosmea",
+          "koquery-du-buisson-r.-lamy",
+          "jubii-vang",
+          "no-talking-you",
+          "eleonora-grif",
+          "pure-steel"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "kaiser-des-granges-p.ph.-ploquin",
+          "katia-dhelpa",
+          "kazy-merite",
+          "kingston-de-blary-d.-thomain",
+          "king-look",
+          "eminent-kronos",
+          "savastano",
+          "kool-and-the-gang-n.-bazire",
+          "khartoum-de-la-fye-m.-ionescu",
+          "i-can-win-gardenia-p.y.-verva",
+          "quintus-tooma",
+          "cosmea",
+          "koquery-du-buisson-r.-lamy",
+          "jubii-vang",
+          "no-talking-you",
+          "eleonora-grif",
+          "pure-steel"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "savastano",
+          "kaiser-des-granges-p.ph.-ploquin",
+          "katia-dhelpa",
+          "kazy-merite",
+          "kingston-de-blary-d.-thomain",
+          "king-look",
+          "eminent-kronos",
+          "kool-and-the-gang-n.-bazire",
+          "khartoum-de-la-fye-m.-ionescu",
+          "i-can-win-gardenia-p.y.-verva",
+          "quintus-tooma",
+          "cosmea",
+          "koquery-du-buisson-r.-lamy",
+          "jubii-vang",
+          "no-talking-you",
+          "eleonora-grif",
+          "pure-steel"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "savastano",
+          "king-look",
+          "eminent-kronos",
+          "katia-dhelpa",
+          "eleonora-grif",
+          "kingston-de-blary-d.-thomain",
+          "cosmea",
+          "kaiser-des-granges-p.ph.-ploquin",
+          "kazy-merite",
+          "kool-and-the-gang-n.-bazire",
+          "khartoum-de-la-fye-m.-ionescu",
+          "i-can-win-gardenia-p.y.-verva",
+          "quintus-tooma",
+          "koquery-du-buisson-r.-lamy",
+          "jubii-vang",
+          "no-talking-you",
+          "pure-steel"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "kaiser-des-granges-p.ph.-ploquin",
+          "katia-dhelpa",
+          "kazy-merite",
+          "kingston-de-blary-d.-thomain",
+          "king-look",
+          "eminent-kronos",
+          "savastano",
+          "kool-and-the-gang-n.-bazire",
+          "khartoum-de-la-fye-m.-ionescu",
+          "i-can-win-gardenia-p.y.-verva",
+          "quintus-tooma",
+          "cosmea",
+          "koquery-du-buisson-r.-lamy",
+          "jubii-vang",
+          "no-talking-you",
+          "eleonora-grif",
+          "pure-steel"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-13T08:17:20.349211+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "kaiser-des-granges-p.ph.-ploquin": 0.017056,
+      "katia-dhelpa": 0.120813,
+      "kazy-merite": 0.033456,
+      "kingston-de-blary-d.-thomain": 0.039539,
+      "king-look": 0.24853,
+      "eminent-kronos": 0.114455,
+      "savastano": 0.12792,
+      "kool-and-the-gang-n.-bazire": 0.018122,
+      "khartoum-de-la-fye-m.-ionescu": 0.004971,
+      "i-can-win-gardenia-p.y.-verva": 0.020229,
+      "quintus-tooma": 0.01933,
+      "cosmea": 0.096651,
+      "koquery-du-buisson-r.-lamy": 0.007189,
+      "jubii-vang": 0.020229,
+      "no-talking-you": 0.006849,
+      "eleonora-grif": 0.079078,
+      "pure-steel": 0.025584
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "king-look",
+      "katia-dhelpa",
+      "cosmea",
+      "eminent-kronos",
+      "savastano"
+    ],
+    "externe_seulement": []
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.597,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 3.1019,
+      "stabilite_seeds": 8.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · KAISER DES GRANGES : aptitude",
+      "n°1 · KAISER DES GRANGES : shoeing",
+      "n°2 · KATIA DHELPA : aptitude",
+      "n°2 · KATIA DHELPA : shoeing",
+      "n°3 · KAZY MERITE : aptitude",
+      "n°3 · KAZY MERITE : shoeing",
+      "n°4 · KINGSTON DE BLARY : aptitude",
+      "n°4 · KINGSTON DE BLARY : shoeing",
+      "n°5 · KING LOOK : aptitude",
+      "n°5 · KING LOOK : shoeing",
+      "n°6 · EMINENT KRONOS : aptitude",
+      "n°6 · EMINENT KRONOS : shoeing",
+      "n°8 · SAVASTANO : aptitude",
+      "n°8 · SAVASTANO : shoeing",
+      "n°9 · KOOL AND THE GANG : aptitude",
+      "n°9 · KOOL AND THE GANG : shoeing",
+      "n°10 · KHARTOUM DE LA FYE : aptitude",
+      "n°10 · KHARTOUM DE LA FYE : shoeing",
+      "n°11 · I CAN WIN GARDENIA : aptitude",
+      "n°11 · I CAN WIN GARDENIA : shoeing",
+      "n°12 · QUINTUS TOOMA : aptitude",
+      "n°12 · QUINTUS TOOMA : shoeing",
+      "n°13 · COSMEA : aptitude",
+      "n°13 · COSMEA : shoeing",
+      "n°14 · KOQUERY DU BUISSON : aptitude",
+      "n°14 · KOQUERY DU BUISSON : shoeing",
+      "n°15 · JUBII VANG : aptitude",
+      "n°15 · JUBII VANG : shoeing",
+      "n°16 · NO TALKING YOU : aptitude",
+      "n°16 · NO TALKING YOU : shoeing",
+      "n°17 · ELEONORA GRIF : aptitude",
+      "n°17 · ELEONORA GRIF : shoeing",
+      "n°18 · PURE STEEL : aptitude",
+      "n°18 · PURE STEEL : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.62 (saturé à 2.0) → 3.1/10",
+      "stabilité inter-seeds = 80% → 8.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 67% (34 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-13T19:15:00+00:00",
+    "betting_close": "2026-11-13T19:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-13T08:17:25.009098+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 647.58,
+    "schedule": {
+      "start_ouagadougou": "2026-11-13T19:15:00+00:00",
+      "start_paris": "2026-11-13T20:15:00+01:00",
+      "close_lonab": "2026-11-13T19:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 5,
+      "cheval": "KING LOOK",
+      "horse_id": "king-look"
+    },
+    {
+      "rang": 2,
+      "numero": 2,
+      "cheval": "KATIA DHELPA",
+      "horse_id": "katia-dhelpa"
+    },
+    {
+      "rang": 3,
+      "numero": 13,
+      "cheval": "COSMEA",
+      "horse_id": "cosmea"
+    },
+    {
+      "rang": 4,
+      "numero": 6,
+      "cheval": "EMINENT KRONOS",
+      "horse_id": "eminent-kronos"
+    },
+    {
+      "rang": 5,
+      "numero": 8,
+      "cheval": "SAVASTANO",
+      "horse_id": "savastano"
+    },
+    {
+      "rang": 6,
+      "numero": 17,
+      "cheval": "ELEONORA GRIF",
+      "horse_id": "eleonora-grif"
+    },
+    {
+      "rang": 7,
+      "numero": 10,
+      "cheval": "KHARTOUM DE LA FYE",
+      "horse_id": "khartoum-de-la-fye-m.-ionescu"
+    },
+    {
+      "rang": 8,
+      "numero": 9,
+      "cheval": "KOOL AND THE GANG",
+      "horse_id": "kool-and-the-gang-n.-bazire"
+    },
+    {
+      "rang": 9,
+      "numero": 12,
+      "cheval": "QUINTUS TOOMA",
+      "horse_id": "quintus-tooma"
+    },
+    {
+      "rang": 10,
+      "numero": 4,
+      "cheval": "KINGSTON DE BLARY",
+      "horse_id": "kingston-de-blary-d.-thomain"
+    },
+    {
+      "rang": 11,
+      "numero": 14,
+      "cheval": "KOQUERY DU BUISSON",
+      "horse_id": "koquery-du-buisson-r.-lamy"
+    },
+    {
+      "rang": 12,
+      "numero": 16,
+      "cheval": "NO TALKING YOU",
+      "horse_id": "no-talking-you"
+    },
+    {
+      "rang": 13,
+      "numero": 18,
+      "cheval": "PURE STEEL",
+      "horse_id": "pure-steel"
+    },
+    {
+      "rang": 14,
+      "numero": 15,
+      "cheval": "JUBII VANG",
+      "horse_id": "jubii-vang"
+    },
+    {
+      "rang": 15,
+      "numero": 3,
+      "cheval": "KAZY MERITE",
+      "horse_id": "kazy-merite"
+    },
+    {
+      "rang": 16,
+      "numero": 11,
+      "cheval": "I CAN WIN GARDENIA",
+      "horse_id": "i-can-win-gardenia-p.y.-verva"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 5,
+      "cheval": "KING LOOK",
+      "score": 7.4887
+    },
+    {
+      "numero": 2,
+      "cheval": "KATIA DHELPA",
+      "score": 6.8683
+    },
+    {
+      "numero": 13,
+      "cheval": "COSMEA",
+      "score": 6.7887
+    },
+    {
+      "numero": 6,
+      "cheval": "EMINENT KRONOS",
+      "score": 6.7705
+    },
+    {
+      "numero": 8,
+      "cheval": "SAVASTANO",
+      "score": 6.6488
+    },
+    {
+      "numero": 17,
+      "cheval": "ELEONORA GRIF",
+      "score": 6.6011
+    },
+    {
+      "numero": 10,
+      "cheval": "KHARTOUM DE LA FYE",
+      "score": 6.4357
+    },
+    {
+      "numero": 9,
+      "cheval": "KOOL AND THE GANG",
+      "score": 6.0326
+    },
+    {
+      "numero": 12,
+      "cheval": "QUINTUS TOOMA",
+      "score": 5.9369
+    },
+    {
+      "numero": 4,
+      "cheval": "KINGSTON DE BLARY",
+      "score": 5.9074
+    },
+    {
+      "numero": 14,
+      "cheval": "KOQUERY DU BUISSON",
+      "score": 4.9998
+    },
+    {
+      "numero": 16,
+      "cheval": "NO TALKING YOU",
+      "score": 4.9119
+    },
+    {
+      "numero": 18,
+      "cheval": "PURE STEEL",
+      "score": 4.8595
+    },
+    {
+      "numero": 15,
+      "cheval": "JUBII VANG",
+      "score": 4.7408
+    },
+    {
+      "numero": 3,
+      "cheval": "KAZY MERITE",
+      "score": 4.3651
+    },
+    {
+      "numero": 11,
+      "cheval": "I CAN WIN GARDENIA",
+      "score": 4.1971
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 7.2793,
+      "entropie_norm": 0.8058,
+      "p_favori": 0.2686,
+      "ratio_1_2": 2.0547
+    },
+    "p_gagnant_dans_selection": 0.7344,
+    "nb_attendu_dans_top5": 2.583,
+    "p_au_moins": {
+      "1": 0.9937,
+      "2": 0.8964,
+      "3": 0.5448,
+      "4": 0.1401,
+      "5": 0.008
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-13T08:15:56+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "54 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 5,
+        "cheval": "KING LOOK",
+        "cote": 3.5,
+        "p_gagne": 0.2686,
+        "p_top3": 0.4918,
+        "p_top5": 0.6706,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 8,
+        "cheval": "SAVASTANO",
+        "cote": 6.8,
+        "p_gagne": 0.1307,
+        "p_top3": 0.3194,
+        "p_top5": 0.5012,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 2,
+        "cheval": "KATIA DHELPA",
+        "cote": 7.2,
+        "p_gagne": 0.1229,
+        "p_top3": 0.3217,
+        "p_top5": 0.4925,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 6,
+        "cheval": "EMINENT KRONOS",
+        "cote": 7.6,
+        "p_gagne": 0.1159,
+        "p_top3": 0.3052,
+        "p_top5": 0.4826,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 13,
+        "cheval": "COSMEA",
+        "cote": 9.0,
+        "p_gagne": 0.0965,
+        "p_top3": 0.269,
+        "p_top5": 0.4361,
+        "rang_systeme": 3
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 17,
+    "unmatched_pmu": [
+      "KELLY JANE"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-13T08:17:25.105817+00:00"
+}
