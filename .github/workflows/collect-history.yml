@@ -1,17 +1,20 @@
 name: Collecte historique PMU
 
 # Telecharge des courses PASSEES (partants + arrivee officielle) dans data/history/
-# pour le backtesting. Lancement manuel : Actions > Collecte historique PMU.
+# pour le backtesting. Automatique chaque jour (3 derniers jours) ; lancement manuel
+# possible : Actions > Collecte historique PMU.
 
 on:
+  schedule:
+    - cron: "11 4 * * *"
   workflow_dispatch:
     inputs:
       date_from:
-        description: "Premier jour (AAAA-MM-JJ)"
-        required: true
+        description: "Premier jour (AAAA-MM-JJ), vide = il y a 3 jours"
+        required: false
       date_to:
-        description: "Dernier jour (AAAA-MM-JJ)"
-        required: true
+        description: "Dernier jour (AAAA-MM-JJ), vide = hier"
+        required: false
       scope:
         description: "quinte | france | all"
         required: false
@@ -31,8 +34,14 @@ jobs:
           python-version: "3.12"
       - name: Installer
         run: pip install -e . requests
+      - name: Dates a collecter
+        id: dates
+        run: |
+          echo "from=${{ inputs.date_from }}" | sed 's/=$/='"$(date -u -d '3 days ago' +%F)"'/' >> "$GITHUB_OUTPUT"
+          echo "to=${{ inputs.date_to }}" | sed 's/=$/='"$(date -u -d 'yesterday' +%F)"'/' >> "$GITHUB_OUTPUT"
+          echo "scope=${{ inputs.scope || 'france' }}" >> "$GITHUB_OUTPUT"
       - name: Collecter
-        run: python -m hyperion.cli collect-history --from "${{ inputs.date_from }}" --to "${{ inputs.date_to }}" --scope "${{ inputs.scope }}"
+        run: python -m hyperion.cli collect-history --from "${{ steps.dates.outputs.from }}" --to "${{ steps.dates.outputs.to }}" --scope "${{ steps.dates.outputs.scope }}"
       - name: Committer l'historique
         if: always()
         run: |
@@ -40,7 +49,7 @@ jobs:
           git config user.email "hyperion-bot@users.noreply.github.com"
           git add -A data/history || true
           if git diff --cached --quiet; then echo "Rien a committer."; else
-            git commit -m "chore(history): collecte ${{ inputs.date_from }} -> ${{ inputs.date_to }}"
+            git commit -m "chore(history): collecte ${{ steps.dates.outputs.from }} -> ${{ steps.dates.outputs.to }}"
             git pull --rebase -q origin main || true
             git push
           fi

@@ -3,8 +3,14 @@ name: Evaluation (arrivee officielle)
 # Recupere l'arrivee officielle PMU des courses analysees, enregistre le bilan dans
 # data/evaluations/ et envoie un message court. Lancement manuel (le run quotidien du
 # soir fait la meme chose automatiquement).
+# Passes automatiques en plus du run du soir : seules les courses pas encore evaluees sont
+# traitees (donc pas de doublon de message), ce qui rattrape les arrivees tardives.
 
 on:
+  schedule:
+    # Minutes decalees a dessein (GitHub retarde les cron a l'heure pile).
+    - cron: "47 23 * * *"
+    - cron: "17 7 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -34,7 +40,7 @@ jobs:
           python -m pip install -e ".[dev]"
       - name: Evaluer
         env:
-          HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'reel' && 'false' || 'true' }}
+          HYPERION_DRY_RUN: ${{ (github.event_name == 'schedule' || github.event.inputs.mode == 'reel') && 'false' || 'true' }}
           HYPERION_PLATFORM_NAME: "Hyperion V1 (GitHub Actions)"
           HYPERION_TELEGRAM_TOKEN: ${{ secrets.HYPERION_TELEGRAM_TOKEN }}
           HYPERION_TELEGRAM_CHAT_ID: ${{ secrets.HYPERION_TELEGRAM_CHAT_ID }}
