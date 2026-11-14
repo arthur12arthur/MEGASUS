@@ -1,0 +1,2401 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261114-paris-vincennes-c4",
+  "date": "2026-11-14",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES",
+    "date": "2026-11-14",
+    "start_time": "2026-11-14T14:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX ATLANTIC",
+    "distance_m": 2700,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_14-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-14T14:05:00+00:00",
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-14T08:52:29.223337+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "number": 1,
+        "odds_pdf": 23.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      },
+      {
+        "horse_id": "kapusha-mip",
+        "name": "KAPUSHA MIP",
+        "number": 2,
+        "odds_pdf": 23.0,
+        "odds_latest": 23.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaliskana",
+        "name": "KALISKANA",
+        "number": 3,
+        "odds_pdf": 19.0,
+        "odds_latest": 13.0,
+        "delta": -0.3157894736842105,
+        "implied_shift": -0.02429149797570851,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kanaka-de-busset",
+        "name": "KANAKA DE BUSSET",
+        "number": 4,
+        "odds_pdf": 54.0,
+        "odds_latest": 34.0,
+        "delta": -0.37037037037037035,
+        "implied_shift": -0.010893246187363835,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "number": 5,
+        "odds_pdf": 17.0,
+        "odds_latest": 11.0,
+        "delta": -0.35294117647058826,
+        "implied_shift": -0.03208556149732621,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kalita-d-heninel",
+        "name": "KALITA D'HENINEL",
+        "number": 6,
+        "odds_pdf": 26.0,
+        "odds_latest": 18.0,
+        "delta": -0.3076923076923077,
+        "implied_shift": -0.01709401709401709,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY",
+        "number": 7,
+        "odds_pdf": 16.0,
+        "odds_latest": 14.0,
+        "delta": -0.125,
+        "implied_shift": -0.008928571428571425,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR",
+        "number": 8,
+        "odds_pdf": 10.0,
+        "odds_latest": 7.9,
+        "delta": -0.20999999999999996,
+        "implied_shift": -0.026582278481012633,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "hudson-baie",
+        "name": "HUDSON BAIE",
+        "number": 9,
+        "odds_pdf": 39.0,
+        "odds_latest": 82.0,
+        "delta": 1.1025641025641026,
+        "implied_shift": 0.013445903689806128,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kalmia-quick-a.-rebeche-m.-varin",
+        "name": "KALMIA QUICK",
+        "number": 10,
+        "odds_pdf": 37.0,
+        "odds_latest": 106.0,
+        "delta": 1.864864864864865,
+        "implied_shift": 0.017593064762876087,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jaflosa-girl",
+        "name": "JAFLOSA GIRL",
+        "number": 11,
+        "odds_pdf": 11.0,
+        "odds_latest": 10.0,
+        "delta": -0.09090909090909091,
+        "implied_shift": -0.009090909090909094,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 12,
+        "odds_pdf": 53.0,
+        "odds_latest": 77.0,
+        "delta": 0.4528301886792453,
+        "implied_shift": 0.005880911541288898,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "key-lady",
+        "name": "KEY LADY",
+        "number": 13,
+        "odds_pdf": 14.0,
+        "odds_latest": 11.0,
+        "delta": -0.21428571428571427,
+        "implied_shift": -0.019480519480519487,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jalouz-d-oliverie",
+        "name": "JALOUZ D'OLIVERIE",
+        "number": 14,
+        "odds_pdf": 21.0,
+        "odds_latest": 32.0,
+        "delta": 0.5238095238095238,
+        "implied_shift": 0.016369047619047616,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "number": 15,
+        "odds_pdf": 7.0,
+        "odds_latest": 3.9,
+        "delta": -0.4428571428571429,
+        "implied_shift": -0.1135531135531136,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "idreamis",
+        "name": "IDREAMIS",
+        "number": 16,
+        "odds_pdf": 80.0,
+        "odds_latest": 122.0,
+        "delta": 0.525,
+        "implied_shift": 0.00430327868852459,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "koufra-iris-eyes",
+        "name": "KOUFRA IRIS'EYES",
+        "number": 17,
+        "odds_pdf": 3.0,
+        "odds_latest": 6.1,
+        "delta": 1.0333333333333332,
+        "implied_shift": 0.1693989071038251,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "odds_pdf": 92.0,
+        "odds_latest": 139.0,
+        "delta": 0.5108695652173914,
+        "implied_shift": 0.003675320613074757,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [
+      "jade-de-navary"
+    ],
+    "warnings": [
+      "JADE DE NAVARY (jade-de-navary) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "kapusha-mip",
+      "kaliskana",
+      "kanaka-de-busset",
+      "kassya",
+      "kalita-d-heninel",
+      "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+      "kaline-du-locheur-d.-brohier",
+      "hudson-baie",
+      "kalmia-quick-a.-rebeche-m.-varin",
+      "jaflosa-girl",
+      "in-race-lorraine",
+      "key-lady",
+      "jalouz-d-oliverie",
+      "jaifa-de-l-iton",
+      "idreamis",
+      "koufra-iris-eyes",
+      "jezabelle-bie"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "number": 15,
+        "dimensions": {
+          "historique": 9.958264566745783,
+          "forme": 8.059701492537313,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 9.1145,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.951587164180774,
+          "forme": 8.716417910447761,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.8471,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "number": 5,
+        "dimensions": {
+          "historique": 8.319724944006504,
+          "forme": 6.925373134328358,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.7,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.615613708436634,
+          "forme": 5.08955223880597,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.604,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "koufra-iris-eyes",
+        "name": "KOUFRA IRIS'EYES",
+        "number": 17,
+        "dimensions": {
+          "historique": 9.687309808719004,
+          "forme": 4.3059701492537314,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.2956,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "idreamis",
+        "name": "IDREAMIS",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.687421979428355,
+          "forme": 4.8955223880597005,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.4466,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jaflosa-girl",
+        "name": "JAFLOSA GIRL",
+        "number": 11,
+        "dimensions": {
+          "historique": 9.597939112594002,
+          "forme": 1.4925373134328357,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9955,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kaliskana",
+        "name": "KALISKANA",
+        "number": 3,
+        "dimensions": {
+          "historique": 8.829788281907563,
+          "forme": 2.388059701492537,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9668,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "key-lady",
+        "name": "KEY LADY",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.868858422711437,
+          "forme": 3.4104477611940296,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.8873,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kanaka-de-busset",
+        "name": "KANAKA DE BUSSET",
+        "number": 4,
+        "dimensions": {
+          "historique": 5.520553088025223,
+          "forme": 6.2835820895522385,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.8597,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kapusha-mip",
+        "name": "KAPUSHA MIP",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.363973180878704,
+          "forme": 3.7985074626865676,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.7793,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalmia-quick-a.-rebeche-m.-varin",
+        "name": "KALMIA QUICK",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.081442907911255,
+          "forme": 3.2686567164179103,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.3869,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hudson-baie",
+        "name": "HUDSON BAIE",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.1668383310558195,
+          "forme": 2.8955223880597014,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.2685,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jalouz-d-oliverie",
+        "name": "JALOUZ D'OLIVERIE",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.388676358006199,
+          "forme": 2.5074626865671643,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.2192,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.369570124514342,
+          "forme": 2.6865671641791042,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.7327,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalita-d-heninel",
+        "name": "KALITA D'HENINEL",
+        "number": 6,
+        "dimensions": {
+          "historique": 5.861326966768141,
+          "forme": 2.522388059701492,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.3774,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "dimensions": {
+          "historique": 6.282051282051282,
+          "forme": 0.5522388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.7355,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "jaifa-de-l-iton",
+      "kaline-du-locheur-d.-brohier",
+      "kassya",
+      "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+      "koufra-iris-eyes",
+      "idreamis",
+      "jaflosa-girl",
+      "kaliskana",
+      "key-lady",
+      "kanaka-de-busset",
+      "kapusha-mip",
+      "kalmia-quick-a.-rebeche-m.-varin",
+      "hudson-baie",
+      "jalouz-d-oliverie",
+      "in-race-lorraine",
+      "kalita-d-heninel",
+      "jezabelle-bie"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "kapusha-mip": {
+          "horse_id": "kapusha-mip",
+          "name": "KAPUSHA MIP",
+          "p_win": 0.03642,
+          "p_top3": 0.11782,
+          "p_top5": 0.21224,
+          "expected_position": 9.7372,
+          "position_distribution": {
+            "1": 0.03642,
+            "2": 0.03868,
+            "3": 0.04272,
+            "4": 0.0456,
+            "5": 0.04882,
+            "6": 0.05666,
+            "7": 0.0568,
+            "8": 0.06096,
+            "9": 0.0641,
+            "10": 0.06996,
+            "11": 0.07486,
+            "12": 0.07672,
+            "13": 0.07754,
+            "14": 0.07724,
+            "15": 0.0721,
+            "16": 0.06186,
+            "17": 0.03896
+          }
+        },
+        "kaliskana": {
+          "horse_id": "kaliskana",
+          "name": "KALISKANA",
+          "p_win": 0.0393,
+          "p_top3": 0.12698,
+          "p_top5": 0.22894,
+          "expected_position": 9.3965,
+          "position_distribution": {
+            "1": 0.0393,
+            "2": 0.04288,
+            "3": 0.0448,
+            "4": 0.04828,
+            "5": 0.05368,
+            "6": 0.05844,
+            "7": 0.0619,
+            "8": 0.06498,
+            "9": 0.06912,
+            "10": 0.07418,
+            "11": 0.07358,
+            "12": 0.07572,
+            "13": 0.07334,
+            "14": 0.07378,
+            "15": 0.06266,
+            "16": 0.05356,
+            "17": 0.0298
+          }
+        },
+        "kanaka-de-busset": {
+          "horse_id": "kanaka-de-busset",
+          "name": "KANAKA DE BUSSET",
+          "p_win": 0.03746,
+          "p_top3": 0.12078,
+          "p_top5": 0.22042,
+          "expected_position": 9.5803,
+          "position_distribution": {
+            "1": 0.03746,
+            "2": 0.04004,
+            "3": 0.04328,
+            "4": 0.04728,
+            "5": 0.05236,
+            "6": 0.05576,
+            "7": 0.06082,
+            "8": 0.06324,
+            "9": 0.06646,
+            "10": 0.07106,
+            "11": 0.07452,
+            "12": 0.07592,
+            "13": 0.0771,
+            "14": 0.07318,
+            "15": 0.0694,
+            "16": 0.05758,
+            "17": 0.03454
+          }
+        },
+        "kassya": {
+          "horse_id": "kassya",
+          "name": "KASSYA",
+          "p_win": 0.0935,
+          "p_top3": 0.28796,
+          "p_top5": 0.47578,
+          "expected_position": 6.2037,
+          "position_distribution": {
+            "1": 0.0935,
+            "2": 0.09714,
+            "3": 0.09732,
+            "4": 0.09526,
+            "5": 0.09256,
+            "6": 0.08924,
+            "7": 0.08444,
+            "8": 0.0753,
+            "9": 0.06864,
+            "10": 0.05754,
+            "11": 0.04962,
+            "12": 0.03746,
+            "13": 0.02788,
+            "14": 0.01796,
+            "15": 0.01042,
+            "16": 0.00474,
+            "17": 0.00098
+          }
+        },
+        "kalita-d-heninel": {
+          "horse_id": "kalita-d-heninel",
+          "name": "KALITA D'HENINEL",
+          "p_win": 0.01788,
+          "p_top3": 0.06016,
+          "p_top5": 0.11076,
+          "expected_position": 12.2384,
+          "position_distribution": {
+            "1": 0.01788,
+            "2": 0.01972,
+            "3": 0.02256,
+            "4": 0.0248,
+            "5": 0.0258,
+            "6": 0.0304,
+            "7": 0.034,
+            "8": 0.03722,
+            "9": 0.0437,
+            "10": 0.0482,
+            "11": 0.0544,
+            "12": 0.06156,
+            "13": 0.07428,
+            "14": 0.08492,
+            "15": 0.10556,
+            "16": 0.13834,
+            "17": 0.17666
+          }
+        },
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": {
+          "horse_id": "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "name": "KOMERE DE CORDAY",
+          "p_win": 0.0894,
+          "p_top3": 0.27482,
+          "p_top5": 0.45898,
+          "expected_position": 6.3687,
+          "position_distribution": {
+            "1": 0.0894,
+            "2": 0.09144,
+            "3": 0.09398,
+            "4": 0.0918,
+            "5": 0.09236,
+            "6": 0.08776,
+            "7": 0.08456,
+            "8": 0.08028,
+            "9": 0.06976,
+            "10": 0.05882,
+            "11": 0.04912,
+            "12": 0.04016,
+            "13": 0.0303,
+            "14": 0.02036,
+            "15": 0.0125,
+            "16": 0.00576,
+            "17": 0.00164
+          }
+        },
+        "kaline-du-locheur-d.-brohier": {
+          "horse_id": "kaline-du-locheur-d.-brohier",
+          "name": "KALINE DU LOCHEUR",
+          "p_win": 0.16752,
+          "p_top3": 0.45624,
+          "p_top5": 0.68168,
+          "expected_position": 4.4477,
+          "position_distribution": {
+            "1": 0.16752,
+            "2": 0.15124,
+            "3": 0.13748,
+            "4": 0.12204,
+            "5": 0.1034,
+            "6": 0.08592,
+            "7": 0.06974,
+            "8": 0.0539,
+            "9": 0.0404,
+            "10": 0.02882,
+            "11": 0.01794,
+            "12": 0.01096,
+            "13": 0.00616,
+            "14": 0.00308,
+            "15": 0.0011,
+            "16": 0.00026,
+            "17": 4e-05
+          }
+        },
+        "hudson-baie": {
+          "horse_id": "hudson-baie",
+          "name": "HUDSON BAIE",
+          "p_win": 0.02728,
+          "p_top3": 0.09034,
+          "p_top5": 0.16616,
+          "expected_position": 10.6873,
+          "position_distribution": {
+            "1": 0.02728,
+            "2": 0.02966,
+            "3": 0.0334,
+            "4": 0.0356,
+            "5": 0.04022,
+            "6": 0.04456,
+            "7": 0.04706,
+            "8": 0.05354,
+            "9": 0.06044,
+            "10": 0.06346,
+            "11": 0.06988,
+            "12": 0.0755,
+            "13": 0.07948,
+            "14": 0.08646,
+            "15": 0.09162,
+            "16": 0.09064,
+            "17": 0.0712
+          }
+        },
+        "kalmia-quick-a.-rebeche-m.-varin": {
+          "horse_id": "kalmia-quick-a.-rebeche-m.-varin",
+          "name": "KALMIA QUICK",
+          "p_win": 0.0305,
+          "p_top3": 0.1001,
+          "p_top5": 0.17998,
+          "expected_position": 10.4332,
+          "position_distribution": {
+            "1": 0.0305,
+            "2": 0.03402,
+            "3": 0.03558,
+            "4": 0.03842,
+            "5": 0.04146,
+            "6": 0.04492,
+            "7": 0.05174,
+            "8": 0.05648,
+            "9": 0.0588,
+            "10": 0.06514,
+            "11": 0.06846,
+            "12": 0.07726,
+            "13": 0.08002,
+            "14": 0.08364,
+            "15": 0.0884,
+            "16": 0.0823,
+            "17": 0.06286
+          }
+        },
+        "jaflosa-girl": {
+          "horse_id": "jaflosa-girl",
+          "name": "JAFLOSA GIRL",
+          "p_win": 0.04148,
+          "p_top3": 0.1319,
+          "p_top5": 0.23758,
+          "expected_position": 9.3003,
+          "position_distribution": {
+            "1": 0.04148,
+            "2": 0.0436,
+            "3": 0.04682,
+            "4": 0.0515,
+            "5": 0.05418,
+            "6": 0.05932,
+            "7": 0.0601,
+            "8": 0.06516,
+            "9": 0.0682,
+            "10": 0.07418,
+            "11": 0.0751,
+            "12": 0.0739,
+            "13": 0.07422,
+            "14": 0.06838,
+            "15": 0.06454,
+            "16": 0.05084,
+            "17": 0.02848
+          }
+        },
+        "in-race-lorraine": {
+          "horse_id": "in-race-lorraine",
+          "name": "IN RACE LORRAINE",
+          "p_win": 0.02256,
+          "p_top3": 0.07158,
+          "p_top5": 0.13168,
+          "expected_position": 11.6395,
+          "position_distribution": {
+            "1": 0.02256,
+            "2": 0.02326,
+            "3": 0.02576,
+            "4": 0.0286,
+            "5": 0.0315,
+            "6": 0.03506,
+            "7": 0.0393,
+            "8": 0.04272,
+            "9": 0.04808,
+            "10": 0.0538,
+            "11": 0.06268,
+            "12": 0.06944,
+            "13": 0.07558,
+            "14": 0.08816,
+            "15": 0.10222,
+            "16": 0.1213,
+            "17": 0.12998
+          }
+        },
+        "key-lady": {
+          "horse_id": "key-lady",
+          "name": "KEY LADY",
+          "p_win": 0.03848,
+          "p_top3": 0.1209,
+          "p_top5": 0.22042,
+          "expected_position": 9.5386,
+          "position_distribution": {
+            "1": 0.03848,
+            "2": 0.03974,
+            "3": 0.04268,
+            "4": 0.04796,
+            "5": 0.05156,
+            "6": 0.05548,
+            "7": 0.0629,
+            "8": 0.06506,
+            "9": 0.06964,
+            "10": 0.07112,
+            "11": 0.07224,
+            "12": 0.07486,
+            "13": 0.07706,
+            "14": 0.07412,
+            "15": 0.06746,
+            "16": 0.05682,
+            "17": 0.03282
+          }
+        },
+        "jalouz-d-oliverie": {
+          "horse_id": "jalouz-d-oliverie",
+          "name": "JALOUZ D'OLIVERIE",
+          "p_win": 0.02736,
+          "p_top3": 0.08826,
+          "p_top5": 0.16482,
+          "expected_position": 10.7736,
+          "position_distribution": {
+            "1": 0.02736,
+            "2": 0.02888,
+            "3": 0.03202,
+            "4": 0.03656,
+            "5": 0.04,
+            "6": 0.04274,
+            "7": 0.0486,
+            "8": 0.05172,
+            "9": 0.05742,
+            "10": 0.06198,
+            "11": 0.06808,
+            "12": 0.07322,
+            "13": 0.07926,
+            "14": 0.08826,
+            "15": 0.09302,
+            "16": 0.09458,
+            "17": 0.0763
+          }
+        },
+        "jaifa-de-l-iton": {
+          "horse_id": "jaifa-de-l-iton",
+          "name": "JAIFA DE L'ITON",
+          "p_win": 0.1912,
+          "p_top3": 0.50818,
+          "p_top5": 0.73088,
+          "expected_position": 4.0803,
+          "position_distribution": {
+            "1": 0.1912,
+            "2": 0.17238,
+            "3": 0.1446,
+            "4": 0.1216,
+            "5": 0.1011,
+            "6": 0.07954,
+            "7": 0.0606,
+            "8": 0.0468,
+            "9": 0.03254,
+            "10": 0.02108,
+            "11": 0.014,
+            "12": 0.00756,
+            "13": 0.00436,
+            "14": 0.00196,
+            "15": 0.0006,
+            "16": 8e-05
+          }
+        },
+        "idreamis": {
+          "horse_id": "idreamis",
+          "name": "IDREAMIS",
+          "p_win": 0.04916,
+          "p_top3": 0.16026,
+          "p_top5": 0.28652,
+          "expected_position": 8.4358,
+          "position_distribution": {
+            "1": 0.04916,
+            "2": 0.05388,
+            "3": 0.05722,
+            "4": 0.06096,
+            "5": 0.0653,
+            "6": 0.06752,
+            "7": 0.07142,
+            "8": 0.07674,
+            "9": 0.0735,
+            "10": 0.07562,
+            "11": 0.07502,
+            "12": 0.06868,
+            "13": 0.06346,
+            "14": 0.05464,
+            "15": 0.04372,
+            "16": 0.02868,
+            "17": 0.01448
+          }
+        },
+        "koufra-iris-eyes": {
+          "horse_id": "koufra-iris-eyes",
+          "name": "KOUFRA IRIS'EYES",
+          "p_win": 0.0776,
+          "p_top3": 0.23958,
+          "p_top5": 0.40984,
+          "expected_position": 6.8906,
+          "position_distribution": {
+            "1": 0.0776,
+            "2": 0.07898,
+            "3": 0.083,
+            "4": 0.0848,
+            "5": 0.08546,
+            "6": 0.084,
+            "7": 0.0808,
+            "8": 0.07784,
+            "9": 0.07564,
+            "10": 0.06894,
+            "11": 0.05768,
+            "12": 0.04886,
+            "13": 0.03814,
+            "14": 0.02884,
+            "15": 0.0172,
+            "16": 0.00902,
+            "17": 0.0032
+          }
+        },
+        "jezabelle-bie": {
+          "horse_id": "jezabelle-bie",
+          "name": "JEZABELLE BIE",
+          "p_win": 0.0129,
+          "p_top3": 0.04414,
+          "p_top5": 0.08332,
+          "expected_position": 13.2483,
+          "position_distribution": {
+            "1": 0.0129,
+            "2": 0.01446,
+            "3": 0.01678,
+            "4": 0.01894,
+            "5": 0.02024,
+            "6": 0.02268,
+            "7": 0.02522,
+            "8": 0.02806,
+            "9": 0.03356,
+            "10": 0.0361,
+            "11": 0.04282,
+            "12": 0.05222,
+            "13": 0.06182,
+            "14": 0.07502,
+            "15": 0.09748,
+            "16": 0.14364,
+            "17": 0.29806
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "jaifa-de-l-iton",
+          "kaline-du-locheur-d.-brohier",
+          "kassya"
+        ],
+        "23": [
+          "jaifa-de-l-iton",
+          "kaline-du-locheur-d.-brohier",
+          "kassya"
+        ],
+        "37": [
+          "jaifa-de-l-iton",
+          "kaline-du-locheur-d.-brohier",
+          "kassya"
+        ],
+        "51": [
+          "jaifa-de-l-iton",
+          "kaline-du-locheur-d.-brohier",
+          "kassya"
+        ],
+        "73": [
+          "jaifa-de-l-iton",
+          "kaline-du-locheur-d.-brohier",
+          "kassya"
+        ]
+      },
+      "reference_top": [
+        "jaifa-de-l-iton",
+        "kaline-du-locheur-d.-brohier",
+        "kassya"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "jaifa-de-l-iton": 10.0,
+        "kaline-du-locheur-d.-brohier": 5.0,
+        "kassya": 0.0
+      },
+      "order": [
+        "jaifa-de-l-iton",
+        "kaline-du-locheur-d.-brohier",
+        "kassya"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "jaifa-de-l-iton": 16.0,
+        "kaline-du-locheur-d.-brohier": 15.0,
+        "kassya": 14.0,
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": 13.0,
+        "koufra-iris-eyes": 12.0,
+        "idreamis": 11.0,
+        "jaflosa-girl": 10.0,
+        "kaliskana": 9.0,
+        "key-lady": 8.0,
+        "kanaka-de-busset": 7.0,
+        "kapusha-mip": 6.0,
+        "kalmia-quick-a.-rebeche-m.-varin": 5.0,
+        "hudson-baie": 4.0,
+        "jalouz-d-oliverie": 3.0,
+        "in-race-lorraine": 2.0,
+        "kalita-d-heninel": 1.0,
+        "jezabelle-bie": 0.0
+      },
+      "order": [
+        "jaifa-de-l-iton",
+        "kaline-du-locheur-d.-brohier",
+        "kassya",
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+        "koufra-iris-eyes",
+        "idreamis",
+        "jaflosa-girl",
+        "kaliskana",
+        "key-lady",
+        "kanaka-de-busset",
+        "kapusha-mip",
+        "kalmia-quick-a.-rebeche-m.-varin",
+        "hudson-baie",
+        "jalouz-d-oliverie",
+        "in-race-lorraine",
+        "kalita-d-heninel",
+        "jezabelle-bie"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "jaifa-de-l-iton",
+        "kaline-du-locheur-d.-brohier",
+        "kassya",
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+        "koufra-iris-eyes",
+        "idreamis",
+        "jaflosa-girl",
+        "kaliskana",
+        "key-lady",
+        "kanaka-de-busset",
+        "kapusha-mip",
+        "kalmia-quick-a.-rebeche-m.-varin",
+        "hudson-baie",
+        "jalouz-d-oliverie",
+        "in-race-lorraine",
+        "kalita-d-heninel",
+        "jezabelle-bie"
+      ],
+      "copeland": {
+        "jaifa-de-l-iton": 16.0,
+        "kaline-du-locheur-d.-brohier": 14.0,
+        "kassya": 12.0,
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": 10.0,
+        "koufra-iris-eyes": 8.0,
+        "idreamis": 6.0,
+        "jaflosa-girl": 4.0,
+        "kaliskana": 2.0,
+        "key-lady": 0.0,
+        "kanaka-de-busset": -2.0,
+        "kapusha-mip": -4.0,
+        "kalmia-quick-a.-rebeche-m.-varin": -6.0,
+        "hudson-baie": -8.0,
+        "jalouz-d-oliverie": -10.0,
+        "in-race-lorraine": -12.0,
+        "kalita-d-heninel": -14.0,
+        "jezabelle-bie": -16.0
+      },
+      "normalized": {
+        "jaifa-de-l-iton": 1.0,
+        "kaline-du-locheur-d.-brohier": 0.9375,
+        "kassya": 0.875,
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": 0.8125,
+        "koufra-iris-eyes": 0.75,
+        "idreamis": 0.6875,
+        "jaflosa-girl": 0.625,
+        "kaliskana": 0.5625,
+        "key-lady": 0.5,
+        "kanaka-de-busset": 0.4375,
+        "kapusha-mip": 0.375,
+        "kalmia-quick-a.-rebeche-m.-varin": 0.3125,
+        "hudson-baie": 0.25,
+        "jalouz-d-oliverie": 0.1875,
+        "in-race-lorraine": 0.125,
+        "kalita-d-heninel": 0.0625,
+        "jezabelle-bie": 0.0
+      },
+      "mean_rank": {
+        "jaifa-de-l-iton": 0.0,
+        "kaline-du-locheur-d.-brohier": 1.0,
+        "kassya": 2.0,
+        "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": 3.0,
+        "koufra-iris-eyes": 4.0,
+        "idreamis": 5.0,
+        "jaflosa-girl": 6.0,
+        "kaliskana": 7.0,
+        "key-lady": 8.0,
+        "kanaka-de-busset": 9.0,
+        "kapusha-mip": 10.0,
+        "kalmia-quick-a.-rebeche-m.-varin": 11.0,
+        "hudson-baie": 12.0,
+        "jalouz-d-oliverie": 13.0,
+        "in-race-lorraine": 14.0,
+        "kalita-d-heninel": 15.0,
+        "jezabelle-bie": 16.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "kapusha-mip",
+        "name": "KAPUSHA MIP",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kaliskana",
+        "name": "KALISKANA",
+        "number": 3,
+        "signals": [
+          "cote fondue de -32% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kanaka-de-busset",
+        "name": "KANAKA DE BUSSET",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kassya",
+        "name": "KASSYA",
+        "number": 5,
+        "signals": [
+          "cote fondue de -35% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalita-d-heninel",
+        "name": "KALITA D'HENINEL",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+        "name": "KOMERE DE CORDAY",
+        "number": 7,
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 4 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kaline-du-locheur-d.-brohier",
+        "name": "KALINE DU LOCHEUR",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hudson-baie",
+        "name": "HUDSON BAIE",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalmia-quick-a.-rebeche-m.-varin",
+        "name": "KALMIA QUICK",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jaflosa-girl",
+        "name": "JAFLOSA GIRL",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "in-race-lorraine",
+        "name": "IN RACE LORRAINE",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "key-lady",
+        "name": "KEY LADY",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jalouz-d-oliverie",
+        "name": "JALOUZ D'OLIVERIE",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jaifa-de-l-iton",
+        "name": "JAIFA DE L'ITON",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "idreamis",
+        "name": "IDREAMIS",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "koufra-iris-eyes",
+        "name": "KOUFRA IRIS'EYES",
+        "number": 17,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jezabelle-bie",
+        "name": "JEZABELLE BIE",
+        "number": 18,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "kaliskana",
+      "kassya",
+      "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Equidia",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "kapusha-mip",
+          "kaliskana",
+          "kanaka-de-busset",
+          "kassya",
+          "kalita-d-heninel",
+          "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "kaline-du-locheur-d.-brohier",
+          "hudson-baie",
+          "kalmia-quick-a.-rebeche-m.-varin",
+          "jaflosa-girl",
+          "in-race-lorraine",
+          "key-lady",
+          "jalouz-d-oliverie",
+          "jaifa-de-l-iton",
+          "idreamis",
+          "koufra-iris-eyes",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "kapusha-mip",
+          "kaliskana",
+          "kanaka-de-busset",
+          "kassya",
+          "kalita-d-heninel",
+          "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "kaline-du-locheur-d.-brohier",
+          "hudson-baie",
+          "kalmia-quick-a.-rebeche-m.-varin",
+          "jaflosa-girl",
+          "in-race-lorraine",
+          "key-lady",
+          "jalouz-d-oliverie",
+          "jaifa-de-l-iton",
+          "idreamis",
+          "koufra-iris-eyes",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "jaifa-de-l-iton",
+          "kapusha-mip",
+          "kaliskana",
+          "kanaka-de-busset",
+          "kassya",
+          "kalita-d-heninel",
+          "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "kaline-du-locheur-d.-brohier",
+          "hudson-baie",
+          "kalmia-quick-a.-rebeche-m.-varin",
+          "jaflosa-girl",
+          "in-race-lorraine",
+          "key-lady",
+          "jalouz-d-oliverie",
+          "idreamis",
+          "koufra-iris-eyes",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "kaline-du-locheur-d.-brohier",
+          "koufra-iris-eyes",
+          "jalouz-d-oliverie",
+          "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "jaifa-de-l-iton",
+          "jaflosa-girl",
+          "key-lady",
+          "kassya",
+          "kapusha-mip",
+          "kaliskana",
+          "kanaka-de-busset",
+          "kalita-d-heninel",
+          "hudson-baie",
+          "kalmia-quick-a.-rebeche-m.-varin",
+          "in-race-lorraine",
+          "idreamis",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "kapusha-mip",
+          "kaliskana",
+          "kanaka-de-busset",
+          "kassya",
+          "kalita-d-heninel",
+          "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+          "kaline-du-locheur-d.-brohier",
+          "hudson-baie",
+          "kalmia-quick-a.-rebeche-m.-varin",
+          "jaflosa-girl",
+          "in-race-lorraine",
+          "key-lady",
+          "jalouz-d-oliverie",
+          "jaifa-de-l-iton",
+          "idreamis",
+          "koufra-iris-eyes",
+          "jezabelle-bie"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-14T08:52:24.815555+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "kapusha-mip": 0.036635,
+      "kaliskana": 0.064816,
+      "kanaka-de-busset": 0.024782,
+      "kassya": 0.0766,
+      "kalita-d-heninel": 0.046811,
+      "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois": 0.060186,
+      "kaline-du-locheur-d.-brohier": 0.106659,
+      "hudson-baie": 0.010276,
+      "kalmia-quick-a.-rebeche-m.-varin": 0.007949,
+      "jaflosa-girl": 0.08426,
+      "in-race-lorraine": 0.010943,
+      "key-lady": 0.0766,
+      "jalouz-d-oliverie": 0.026331,
+      "jaifa-de-l-iton": 0.216052,
+      "idreamis": 0.006907,
+      "koufra-iris-eyes": 0.138132,
+      "jezabelle-bie": 0.006062
+    },
+    "consensus_ranking": [],
+    "convergence": 0.0,
+    "notes": [
+      "aucune source externe exploitable — la comparaison est vide, l'analyse interne reste inchangée",
+      "convergence Top 5 interne/externe : 0%",
+      "seulement 0 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "jaifa-de-l-iton",
+      "kaline-du-locheur-d.-brohier",
+      "kassya",
+      "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois",
+      "koufra-iris-eyes"
+    ],
+    "externe_seulement": []
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.568,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 1.337,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 0.0,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°2 · KAPUSHA MIP : aptitude",
+      "n°2 · KAPUSHA MIP : shoeing",
+      "n°3 · KALISKANA : aptitude",
+      "n°3 · KALISKANA : shoeing",
+      "n°4 · KANAKA DE BUSSET : aptitude",
+      "n°4 · KANAKA DE BUSSET : shoeing",
+      "n°5 · KASSYA : aptitude",
+      "n°5 · KASSYA : shoeing",
+      "n°6 · KALITA D'HENINEL : aptitude",
+      "n°6 · KALITA D'HENINEL : shoeing",
+      "n°7 · KOMERE DE CORDAY : aptitude",
+      "n°7 · KOMERE DE CORDAY : shoeing",
+      "n°8 · KALINE DU LOCHEUR : aptitude",
+      "n°8 · KALINE DU LOCHEUR : shoeing",
+      "n°9 · HUDSON BAIE : aptitude",
+      "n°9 · HUDSON BAIE : shoeing",
+      "n°10 · KALMIA QUICK : aptitude",
+      "n°10 · KALMIA QUICK : shoeing",
+      "n°11 · JAFLOSA GIRL : aptitude",
+      "n°11 · JAFLOSA GIRL : shoeing",
+      "n°12 · IN RACE LORRAINE : aptitude",
+      "n°12 · IN RACE LORRAINE : shoeing",
+      "n°13 · KEY LADY : aptitude",
+      "n°13 · KEY LADY : shoeing",
+      "n°14 · JALOUZ D'OLIVERIE : aptitude",
+      "n°14 · JALOUZ D'OLIVERIE : shoeing",
+      "n°15 · JAIFA DE L'ITON : aptitude",
+      "n°15 · JAIFA DE L'ITON : shoeing",
+      "n°16 · IDREAMIS : aptitude",
+      "n°16 · IDREAMIS : shoeing",
+      "n°17 · KOUFRA IRIS'EYES : aptitude",
+      "n°17 · KOUFRA IRIS'EYES : shoeing",
+      "n°18 · JEZABELLE BIE : aptitude",
+      "n°18 · JEZABELLE BIE : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.27 (saturé à 2.0) → 1.3/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 0% → 0.0/10",
+      "complétude des données = 67% (34 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-14T14:15:00+00:00",
+    "betting_close": "2026-11-14T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-14T08:52:29.277712+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 312.51,
+    "schedule": {
+      "start_ouagadougou": "2026-11-14T14:15:00+00:00",
+      "start_paris": "2026-11-14T15:15:00+01:00",
+      "close_lonab": "2026-11-14T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 15,
+      "cheval": "JAIFA DE L'ITON",
+      "horse_id": "jaifa-de-l-iton"
+    },
+    {
+      "rang": 2,
+      "numero": 8,
+      "cheval": "KALINE DU LOCHEUR",
+      "horse_id": "kaline-du-locheur-d.-brohier"
+    },
+    {
+      "rang": 3,
+      "numero": 5,
+      "cheval": "KASSYA",
+      "horse_id": "kassya"
+    },
+    {
+      "rang": 4,
+      "numero": 7,
+      "cheval": "KOMERE DE CORDAY",
+      "horse_id": "komere-de-corday-arnaud-desmottes-arnaud-desmottes-p.-lebourgeois"
+    },
+    {
+      "rang": 5,
+      "numero": 17,
+      "cheval": "KOUFRA IRIS'EYES",
+      "horse_id": "koufra-iris-eyes"
+    },
+    {
+      "rang": 6,
+      "numero": 16,
+      "cheval": "IDREAMIS",
+      "horse_id": "idreamis"
+    },
+    {
+      "rang": 7,
+      "numero": 11,
+      "cheval": "JAFLOSA GIRL",
+      "horse_id": "jaflosa-girl"
+    },
+    {
+      "rang": 8,
+      "numero": 3,
+      "cheval": "KALISKANA",
+      "horse_id": "kaliskana"
+    },
+    {
+      "rang": 9,
+      "numero": 13,
+      "cheval": "KEY LADY",
+      "horse_id": "key-lady"
+    },
+    {
+      "rang": 10,
+      "numero": 4,
+      "cheval": "KANAKA DE BUSSET",
+      "horse_id": "kanaka-de-busset"
+    },
+    {
+      "rang": 11,
+      "numero": 2,
+      "cheval": "KAPUSHA MIP",
+      "horse_id": "kapusha-mip"
+    },
+    {
+      "rang": 12,
+      "numero": 10,
+      "cheval": "KALMIA QUICK",
+      "horse_id": "kalmia-quick-a.-rebeche-m.-varin"
+    },
+    {
+      "rang": 13,
+      "numero": 9,
+      "cheval": "HUDSON BAIE",
+      "horse_id": "hudson-baie"
+    },
+    {
+      "rang": 14,
+      "numero": 14,
+      "cheval": "JALOUZ D'OLIVERIE",
+      "horse_id": "jalouz-d-oliverie"
+    },
+    {
+      "rang": 15,
+      "numero": 12,
+      "cheval": "IN RACE LORRAINE",
+      "horse_id": "in-race-lorraine"
+    },
+    {
+      "rang": 16,
+      "numero": 6,
+      "cheval": "KALITA D'HENINEL",
+      "horse_id": "kalita-d-heninel"
+    },
+    {
+      "rang": 17,
+      "numero": 18,
+      "cheval": "JEZABELLE BIE",
+      "horse_id": "jezabelle-bie"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 15,
+      "cheval": "JAIFA DE L'ITON",
+      "score": 9.1145
+    },
+    {
+      "numero": 8,
+      "cheval": "KALINE DU LOCHEUR",
+      "score": 8.8471
+    },
+    {
+      "numero": 5,
+      "cheval": "KASSYA",
+      "score": 7.7
+    },
+    {
+      "numero": 7,
+      "cheval": "KOMERE DE CORDAY",
+      "score": 7.604
+    },
+    {
+      "numero": 17,
+      "cheval": "KOUFRA IRIS'EYES",
+      "score": 7.2956
+    },
+    {
+      "numero": 16,
+      "cheval": "IDREAMIS",
+      "score": 6.4466
+    },
+    {
+      "numero": 11,
+      "cheval": "JAFLOSA GIRL",
+      "score": 5.9955
+    },
+    {
+      "numero": 3,
+      "cheval": "KALISKANA",
+      "score": 5.9668
+    },
+    {
+      "numero": 13,
+      "cheval": "KEY LADY",
+      "score": 5.8873
+    },
+    {
+      "numero": 4,
+      "cheval": "KANAKA DE BUSSET",
+      "score": 5.8597
+    },
+    {
+      "numero": 2,
+      "cheval": "KAPUSHA MIP",
+      "score": 5.7793
+    },
+    {
+      "numero": 10,
+      "cheval": "KALMIA QUICK",
+      "score": 5.3869
+    },
+    {
+      "numero": 9,
+      "cheval": "HUDSON BAIE",
+      "score": 5.2685
+    },
+    {
+      "numero": 14,
+      "cheval": "JALOUZ D'OLIVERIE",
+      "score": 5.2192
+    },
+    {
+      "numero": 12,
+      "cheval": "IN RACE LORRAINE",
+      "score": 4.7327
+    },
+    {
+      "numero": 6,
+      "cheval": "KALITA D'HENINEL",
+      "score": 4.3774
+    },
+    {
+      "numero": 18,
+      "cheval": "JEZABELLE BIE",
+      "score": 3.7355
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 8.5626,
+      "entropie_norm": 0.8453,
+      "p_favori": 0.2328,
+      "ratio_1_2": 1.6242
+    },
+    "p_gagnant_dans_selection": 0.6381,
+    "nb_attendu_dans_top5": 2.365,
+    "p_au_moins": {
+      "1": 0.9868,
+      "2": 0.8448,
+      "3": 0.4409,
+      "4": 0.0883,
+      "5": 0.0041
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-14T08:45:21+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "44 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 15,
+        "cheval": "JAIFA DE L'ITON",
+        "cote": 3.9,
+        "p_gagne": 0.2328,
+        "p_top3": 0.4401,
+        "p_top5": 0.6207,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 17,
+        "cheval": "KOUFRA IRIS'EYES",
+        "cote": 6.1,
+        "p_gagne": 0.1434,
+        "p_top3": 0.3326,
+        "p_top5": 0.5115,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 8,
+        "cheval": "KALINE DU LOCHEUR",
+        "cote": 7.9,
+        "p_gagne": 0.1083,
+        "p_top3": 0.2819,
+        "p_top5": 0.4497,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 11,
+        "cheval": "JAFLOSA GIRL",
+        "cote": 10.0,
+        "p_gagne": 0.0839,
+        "p_top3": 0.246,
+        "p_top5": 0.4033,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 13,
+        "cheval": "KEY LADY",
+        "cote": 11.0,
+        "p_gagne": 0.0756,
+        "p_top3": 0.2306,
+        "p_top5": 0.3796,
+        "rang_systeme": 9
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 18,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-14T08:52:29.351735+00:00"
+}
