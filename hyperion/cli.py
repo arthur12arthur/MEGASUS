@@ -289,6 +289,7 @@ def cmd_run(args: argparse.Namespace) -> int:
             settings.external_url_templates,
             timeout_s=settings.lonab_timeout_s,
             max_retries=settings.lonab_max_retries,
+            settings=settings,
         ).fetch(race, panel=panel_sources)
 
     result = run_pipeline(race, settings, latest_odds=latest_odds, external_picks=picks)

@@ -230,10 +230,16 @@ class HttpPanelProvider:
         url_templates: Mapping[str, str] | None = None,
         timeout_s: int = 20,
         max_retries: int = 2,
+        gemini_fallback: bool = True,
+        settings: Settings | None = None,
+        gemini_post: Any = None,
     ) -> None:
         self.url_templates = dict(url_templates or {})
         self.timeout_s = timeout_s
         self.max_retries = max_retries
+        self.gemini_fallback = gemini_fallback
+        self._settings = settings
+        self._gemini_post = gemini_post
 
     def fetch(
         self,
@@ -306,6 +312,24 @@ class HttpPanelProvider:
                 )
                 continue
             ranking, coverage = extract_ranking(text, race.runners)
+            from hyperion.external_picks import extract_labeled_picks
+
+            # La page doit parler de CETTE course (partants retrouvés) avant qu'on lise ses
+            # blocs « bases / belles chances » : sinon ils pourraient viser une autre course.
+            labeled = extract_labeled_picks(text, race) if coverage >= MIN_COVERAGE else None
+            if labeled is not None:
+                picks.append(
+                    SourcePick(
+                        source=source,
+                        ranking=labeled[0],
+                        coverage=coverage,
+                        usable=True,
+                        note=labeled[1],
+                        fetched_at=when,
+                        is_panel_member=True,
+                    )
+                )
+                continue
             picks.append(
                 SourcePick(
                     source=source,
@@ -324,6 +348,30 @@ class HttpPanelProvider:
                     is_panel_member=True,
                 )
             )
+        return self._with_gemini_fallback(race, picks, when)
+
+    def _with_gemini_fallback(self, race: Race, picks: list[SourcePick], when: dt.datetime) -> list[SourcePick]:
+        """Secours : sources encore inexploitables -> Gemini + recherche web (clé requise)."""
+        missing = [p.source for p in picks if not p.usable]
+        if not self.gemini_fallback or not missing:
+            return picks
+        settings = self._settings or Settings()
+        if not settings.gemini_keys:
+            return picks
+        from hyperion.external_picks import gemini_web_picks
+
+        try:
+            found = gemini_web_picks(race, missing, settings, post=self._gemini_post, when=when)
+        except Exception:
+            return picks
+        for pick in picks:
+            if pick.usable or pick.source not in found:
+                continue
+            ranking, note = found[pick.source]
+            pick.ranking = ranking
+            pick.coverage = len(ranking) / len(race.runners) if race.runners else 0.0
+            pick.usable = True
+            pick.note = note
         return picks
 
     def _get(self, requests: Any, url: str) -> str | None:
