@@ -1,0 +1,31 @@
+{
+  "race_id": "20261114-paris-vincennes-c4",
+  "date": "2026-11-14",
+  "course": "PRIX ATLANTIC",
+  "arrivee_top5": [
+    8,
+    13,
+    5,
+    3,
+    2
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": true,
+  "favori_marche": 15,
+  "favori_marche_place": 6,
+  "selection": [
+    15,
+    17,
+    8,
+    11,
+    13
+  ],
+  "bons_dans_top5": 2,
+  "gagnant_dans_selection": true,
+  "classe": "ouverte",
+  "attendu_bons": 2.365,
+  "attendu_gagnant_inclus": 0.6381,
+  "attendu_au_moins_3": 0.4409,
+  "au_moins_3_reel": false,
+  "criteres_respectes": false
+}
