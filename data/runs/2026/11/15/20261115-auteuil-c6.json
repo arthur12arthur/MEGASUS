@@ -1,0 +1,1859 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261115-auteuil-c6",
+  "date": "2026-11-15",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "AUTEUIL",
+    "date": "2026-11-15",
+    "start_time": "2026-11-15T14:15:00+00:00",
+    "race_number": 6,
+    "name": "PRIX LA HAYE JOUSSELIN",
+    "distance_m": 5500,
+    "terrain": null,
+    "prize": null,
+    "discipline": "obstacle",
+    "race_type": "STEEPLE CHASE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_15-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-15T14:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "obstacle",
+    "label": "Obstacle",
+    "raison": "champ officiel partiel : 'STEEPLE CHASE' -> steeple",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-15T10:34:01.074619+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "bon-garcon",
+        "name": "BON GARCON",
+        "number": 1,
+        "odds_pdf": 11.0,
+        "odds_latest": 8.8,
+        "delta": -0.19999999999999993,
+        "implied_shift": -0.02272727272727272,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "number": 2,
+        "odds_pdf": 19.0,
+        "odds_latest": 32.0,
+        "delta": 0.6842105263157895,
+        "implied_shift": 0.021381578947368418,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "royal-saga",
+        "name": "ROYAL SAGA",
+        "number": 4,
+        "odds_pdf": 10.0,
+        "odds_latest": 8.8,
+        "delta": -0.11999999999999993,
+        "implied_shift": -0.013636363636363627,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "number": 5,
+        "odds_pdf": 24.0,
+        "odds_latest": 18.0,
+        "delta": -0.25,
+        "implied_shift": -0.013888888888888888,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kilometre-illimite",
+        "name": "KILOMETRE ILLIMITE",
+        "number": 7,
+        "odds_pdf": 17.0,
+        "odds_latest": 5.4,
+        "delta": -0.6823529411764706,
+        "implied_shift": -0.12636165577342046,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "juntos-ganamos",
+        "name": "JUNTOS GANAMOS",
+        "number": 8,
+        "odds_pdf": 18.0,
+        "odds_latest": 16.0,
+        "delta": -0.1111111111111111,
+        "implied_shift": -0.0069444444444444475,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kolokico",
+        "name": "KOLOKICO",
+        "number": 9,
+        "odds_pdf": 7.0,
+        "odds_latest": 9.6,
+        "delta": 0.3714285714285714,
+        "implied_shift": 0.03869047619047618,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "number": 10,
+        "odds_pdf": 25.0,
+        "odds_latest": 32.0,
+        "delta": 0.28,
+        "implied_shift": 0.00875,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "number": 11,
+        "odds_pdf": 16.0,
+        "odds_latest": 8.7,
+        "delta": -0.45625000000000004,
+        "implied_shift": -0.052442528735632196,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "feu-de-dieu-l.philipperon",
+        "name": "FEU DE DIEU",
+        "number": 12,
+        "odds_pdf": 15.0,
+        "odds_latest": 12.0,
+        "delta": -0.2,
+        "implied_shift": -0.016666666666666663,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kivala-du-berlais",
+        "name": "KIVALA DU BERLAIS",
+        "number": 13,
+        "odds_pdf": 8.0,
+        "odds_latest": 9.6,
+        "delta": 0.19999999999999996,
+        "implied_shift": 0.02083333333333333,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "number": 14,
+        "odds_pdf": 57.0,
+        "odds_latest": 66.0,
+        "delta": 0.15789473684210525,
+        "implied_shift": 0.002392344497607654,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "lacokokeldy",
+        "name": "LACOKOKELDY",
+        "number": 15,
+        "odds_pdf": 23.0,
+        "odds_latest": 17.0,
+        "delta": -0.2608695652173913,
+        "implied_shift": -0.015345268542199489,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "bon-garcon",
+      "amy-du-kiff",
+      "royal-saga",
+      "kalibre",
+      "kilometre-illimite",
+      "juntos-ganamos",
+      "kolokico",
+      "johnny-roque",
+      "le-petit-cheval",
+      "feu-de-dieu-l.philipperon",
+      "kivala-du-berlais",
+      "ginja-des-taillons",
+      "lacokokeldy"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "obstacle",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.18,
+      "aptitude": 0.22,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kilometre-illimite",
+        "name": "KILOMETRE ILLIMITE",
+        "number": 7,
+        "dimensions": {
+          "historique": 9.352721553883077,
+          "forme": 7.291044776119404,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 8.4897,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "number": 11,
+        "dimensions": {
+          "historique": 9.63418019750403,
+          "forme": 5.7611940298507465,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 8.0129,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.165565682301821,
+          "forme": 5.746268656716418,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.7342,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "royal-saga",
+        "name": "ROYAL SAGA",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.738587026398816,
+          "forme": 7.313432835820896,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.5606,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "juntos-ganamos",
+        "name": "JUNTOS GANAMOS",
+        "number": 8,
+        "dimensions": {
+          "historique": 10.0,
+          "forme": 3.9850746268656714,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.4821,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.14507273563115,
+          "forme": 7.044776119402984,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 7.1031,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kivala-du-berlais",
+        "name": "KIVALA DU BERLAIS",
+        "number": 13,
+        "dimensions": {
+          "historique": 8.91552288342124,
+          "forme": 4.059701492537314,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.8829,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kolokico",
+        "name": "KOLOKICO",
+        "number": 9,
+        "dimensions": {
+          "historique": 8.607508073374593,
+          "forme": 4.298507462686567,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.8037,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.14184975232179,
+          "forme": 5.820895522388059,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.5889,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "lacokokeldy",
+        "name": "LACOKOKELDY",
+        "number": 15,
+        "dimensions": {
+          "historique": 8.630913410969107,
+          "forme": 3.4701492537313436,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.4706,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "feu-de-dieu-l.philipperon",
+        "name": "FEU DE DIEU",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.048107785934636,
+          "forme": 5.014925373134329,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 6.197,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.317977857865352,
+          "forme": 4.149253731343284,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 5.9915,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bon-garcon",
+        "name": "BON GARCON",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.141527273963889,
+          "forme": 4.149253731343284,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5813953488372093,
+          "forme": 0.41860465116279066
+        },
+        "competitiveness": 5.8889,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "kilometre-illimite",
+      "le-petit-cheval",
+      "johnny-roque",
+      "royal-saga",
+      "juntos-ganamos",
+      "kalibre",
+      "kivala-du-berlais",
+      "kolokico",
+      "amy-du-kiff",
+      "lacokokeldy",
+      "feu-de-dieu-l.philipperon",
+      "ginja-des-taillons",
+      "bon-garcon"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "bon-garcon": {
+          "horse_id": "bon-garcon",
+          "name": "BON GARCON",
+          "p_win": 0.04108,
+          "p_top3": 0.13014,
+          "p_top5": 0.23098,
+          "expected_position": 8.695,
+          "position_distribution": {
+            "1": 0.04108,
+            "2": 0.04314,
+            "3": 0.04592,
+            "4": 0.0479,
+            "5": 0.05294,
+            "6": 0.05742,
+            "7": 0.062,
+            "8": 0.07014,
+            "9": 0.07552,
+            "10": 0.08696,
+            "11": 0.10372,
+            "12": 0.12868,
+            "13": 0.18458
+          }
+        },
+        "amy-du-kiff": {
+          "horse_id": "amy-du-kiff",
+          "name": "AMY DU KIFF",
+          "p_win": 0.05702,
+          "p_top3": 0.17766,
+          "p_top5": 0.30858,
+          "expected_position": 7.7006,
+          "position_distribution": {
+            "1": 0.05702,
+            "2": 0.05964,
+            "3": 0.061,
+            "4": 0.06534,
+            "5": 0.06558,
+            "6": 0.07212,
+            "7": 0.07328,
+            "8": 0.07932,
+            "9": 0.0828,
+            "10": 0.09076,
+            "11": 0.09512,
+            "12": 0.10162,
+            "13": 0.0964
+          }
+        },
+        "royal-saga": {
+          "horse_id": "royal-saga",
+          "name": "ROYAL SAGA",
+          "p_win": 0.09334,
+          "p_top3": 0.27926,
+          "p_top5": 0.46086,
+          "expected_position": 6.1548,
+          "position_distribution": {
+            "1": 0.09334,
+            "2": 0.09156,
+            "3": 0.09436,
+            "4": 0.09218,
+            "5": 0.08942,
+            "6": 0.08924,
+            "7": 0.08466,
+            "8": 0.08164,
+            "9": 0.07762,
+            "10": 0.06928,
+            "11": 0.06156,
+            "12": 0.04708,
+            "13": 0.02806
+          }
+        },
+        "kalibre": {
+          "horse_id": "kalibre",
+          "name": "KALIBRE",
+          "p_win": 0.07442,
+          "p_top3": 0.22834,
+          "p_top5": 0.38978,
+          "expected_position": 6.8532,
+          "position_distribution": {
+            "1": 0.07442,
+            "2": 0.07572,
+            "3": 0.0782,
+            "4": 0.08008,
+            "5": 0.08136,
+            "6": 0.07988,
+            "7": 0.08146,
+            "8": 0.0836,
+            "9": 0.08244,
+            "10": 0.08144,
+            "11": 0.07834,
+            "12": 0.07056,
+            "13": 0.0525
+          }
+        },
+        "kilometre-illimite": {
+          "horse_id": "kilometre-illimite",
+          "name": "KILOMETRE ILLIMITE",
+          "p_win": 0.14828,
+          "p_top3": 0.41552,
+          "p_top5": 0.62804,
+          "expected_position": 4.7778,
+          "position_distribution": {
+            "1": 0.14828,
+            "2": 0.1404,
+            "3": 0.12684,
+            "4": 0.11218,
+            "5": 0.10034,
+            "6": 0.08962,
+            "7": 0.07746,
+            "8": 0.0666,
+            "9": 0.05162,
+            "10": 0.03958,
+            "11": 0.0258,
+            "12": 0.01582,
+            "13": 0.00546
+          }
+        },
+        "juntos-ganamos": {
+          "horse_id": "juntos-ganamos",
+          "name": "JUNTOS GANAMOS",
+          "p_win": 0.0909,
+          "p_top3": 0.2691,
+          "p_top5": 0.44762,
+          "expected_position": 6.2656,
+          "position_distribution": {
+            "1": 0.0909,
+            "2": 0.0886,
+            "3": 0.0896,
+            "4": 0.0901,
+            "5": 0.08842,
+            "6": 0.08846,
+            "7": 0.0862,
+            "8": 0.08188,
+            "9": 0.07824,
+            "10": 0.07296,
+            "11": 0.0639,
+            "12": 0.0493,
+            "13": 0.03144
+          }
+        },
+        "kolokico": {
+          "horse_id": "kolokico",
+          "name": "KOLOKICO",
+          "p_win": 0.06436,
+          "p_top3": 0.20024,
+          "p_top5": 0.34308,
+          "expected_position": 7.3069,
+          "position_distribution": {
+            "1": 0.06436,
+            "2": 0.0683,
+            "3": 0.06758,
+            "4": 0.06836,
+            "5": 0.07448,
+            "6": 0.07518,
+            "7": 0.07992,
+            "8": 0.0835,
+            "9": 0.08482,
+            "10": 0.0865,
+            "11": 0.08742,
+            "12": 0.08566,
+            "13": 0.07392
+          }
+        },
+        "johnny-roque": {
+          "horse_id": "johnny-roque",
+          "name": "JOHNNY ROQUE",
+          "p_win": 0.10472,
+          "p_top3": 0.30334,
+          "p_top5": 0.49502,
+          "expected_position": 5.8559,
+          "position_distribution": {
+            "1": 0.10472,
+            "2": 0.09974,
+            "3": 0.09888,
+            "4": 0.09742,
+            "5": 0.09426,
+            "6": 0.09056,
+            "7": 0.08548,
+            "8": 0.07956,
+            "9": 0.07248,
+            "10": 0.0642,
+            "11": 0.05256,
+            "12": 0.03846,
+            "13": 0.02168
+          }
+        },
+        "le-petit-cheval": {
+          "horse_id": "le-petit-cheval",
+          "name": "LE PETIT CHEVAL",
+          "p_win": 0.11726,
+          "p_top3": 0.3388,
+          "p_top5": 0.54226,
+          "expected_position": 5.4698,
+          "position_distribution": {
+            "1": 0.11726,
+            "2": 0.11304,
+            "3": 0.1085,
+            "4": 0.10386,
+            "5": 0.0996,
+            "6": 0.0899,
+            "7": 0.08416,
+            "8": 0.0768,
+            "9": 0.06652,
+            "10": 0.05488,
+            "11": 0.04252,
+            "12": 0.02904,
+            "13": 0.01392
+          }
+        },
+        "feu-de-dieu-l.philipperon": {
+          "horse_id": "feu-de-dieu-l.philipperon",
+          "name": "FEU DE DIEU",
+          "p_win": 0.0468,
+          "p_top3": 0.14698,
+          "p_top5": 0.26102,
+          "expected_position": 8.2917,
+          "position_distribution": {
+            "1": 0.0468,
+            "2": 0.04734,
+            "3": 0.05284,
+            "4": 0.05574,
+            "5": 0.0583,
+            "6": 0.06252,
+            "7": 0.06646,
+            "8": 0.07234,
+            "9": 0.08294,
+            "10": 0.09166,
+            "11": 0.10408,
+            "12": 0.11648,
+            "13": 0.1425
+          }
+        },
+        "kivala-du-berlais": {
+          "horse_id": "kivala-du-berlais",
+          "name": "KIVALA DU BERLAIS",
+          "p_win": 0.06464,
+          "p_top3": 0.2036,
+          "p_top5": 0.35128,
+          "expected_position": 7.2137,
+          "position_distribution": {
+            "1": 0.06464,
+            "2": 0.06846,
+            "3": 0.0705,
+            "4": 0.07244,
+            "5": 0.07524,
+            "6": 0.0782,
+            "7": 0.0818,
+            "8": 0.0802,
+            "9": 0.08602,
+            "10": 0.08736,
+            "11": 0.0858,
+            "12": 0.08168,
+            "13": 0.06766
+          }
+        },
+        "ginja-des-taillons": {
+          "horse_id": "ginja-des-taillons",
+          "name": "GINJA DES TAILLONS",
+          "p_win": 0.04252,
+          "p_top3": 0.13582,
+          "p_top5": 0.24114,
+          "expected_position": 8.5812,
+          "position_distribution": {
+            "1": 0.04252,
+            "2": 0.04514,
+            "3": 0.04816,
+            "4": 0.05142,
+            "5": 0.0539,
+            "6": 0.05896,
+            "7": 0.064,
+            "8": 0.06876,
+            "9": 0.07656,
+            "10": 0.08432,
+            "11": 0.10288,
+            "12": 0.13092,
+            "13": 0.17246
+          }
+        },
+        "lacokokeldy": {
+          "horse_id": "lacokokeldy",
+          "name": "LACOKOKELDY",
+          "p_win": 0.05466,
+          "p_top3": 0.1712,
+          "p_top5": 0.30034,
+          "expected_position": 7.8338,
+          "position_distribution": {
+            "1": 0.05466,
+            "2": 0.05892,
+            "3": 0.05762,
+            "4": 0.06298,
+            "5": 0.06616,
+            "6": 0.06794,
+            "7": 0.07312,
+            "8": 0.07566,
+            "9": 0.08242,
+            "10": 0.0901,
+            "11": 0.0963,
+            "12": 0.1047,
+            "13": 0.10942
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "kilometre-illimite",
+          "le-petit-cheval",
+          "johnny-roque"
+        ],
+        "23": [
+          "kilometre-illimite",
+          "le-petit-cheval",
+          "johnny-roque"
+        ],
+        "37": [
+          "kilometre-illimite",
+          "le-petit-cheval",
+          "johnny-roque"
+        ],
+        "51": [
+          "kilometre-illimite",
+          "le-petit-cheval",
+          "johnny-roque"
+        ],
+        "73": [
+          "kilometre-illimite",
+          "le-petit-cheval",
+          "johnny-roque"
+        ]
+      },
+      "reference_top": [
+        "johnny-roque",
+        "kilometre-illimite",
+        "le-petit-cheval"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "kilometre-illimite": 10.0,
+        "le-petit-cheval": 5.0,
+        "johnny-roque": 0.0
+      },
+      "order": [
+        "kilometre-illimite",
+        "le-petit-cheval",
+        "johnny-roque"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kilometre-illimite": 12.0,
+        "le-petit-cheval": 11.0,
+        "johnny-roque": 10.0,
+        "royal-saga": 9.0,
+        "juntos-ganamos": 8.0,
+        "kalibre": 7.0,
+        "kivala-du-berlais": 6.0,
+        "kolokico": 5.0,
+        "amy-du-kiff": 4.0,
+        "lacokokeldy": 3.0,
+        "feu-de-dieu-l.philipperon": 2.0,
+        "ginja-des-taillons": 1.0,
+        "bon-garcon": 0.0
+      },
+      "order": [
+        "kilometre-illimite",
+        "le-petit-cheval",
+        "johnny-roque",
+        "royal-saga",
+        "juntos-ganamos",
+        "kalibre",
+        "kivala-du-berlais",
+        "kolokico",
+        "amy-du-kiff",
+        "lacokokeldy",
+        "feu-de-dieu-l.philipperon",
+        "ginja-des-taillons",
+        "bon-garcon"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "kilometre-illimite",
+        "le-petit-cheval",
+        "johnny-roque",
+        "royal-saga",
+        "juntos-ganamos",
+        "kalibre",
+        "kivala-du-berlais",
+        "kolokico",
+        "amy-du-kiff",
+        "lacokokeldy",
+        "feu-de-dieu-l.philipperon",
+        "ginja-des-taillons",
+        "bon-garcon"
+      ],
+      "copeland": {
+        "kilometre-illimite": 12.0,
+        "le-petit-cheval": 10.0,
+        "johnny-roque": 8.0,
+        "royal-saga": 6.0,
+        "juntos-ganamos": 4.0,
+        "kalibre": 2.0,
+        "kivala-du-berlais": 0.0,
+        "kolokico": -2.0,
+        "amy-du-kiff": -4.0,
+        "lacokokeldy": -6.0,
+        "feu-de-dieu-l.philipperon": -8.0,
+        "ginja-des-taillons": -10.0,
+        "bon-garcon": -12.0
+      },
+      "normalized": {
+        "kilometre-illimite": 1.0,
+        "le-petit-cheval": 0.9167,
+        "johnny-roque": 0.8333,
+        "royal-saga": 0.75,
+        "juntos-ganamos": 0.6667,
+        "kalibre": 0.5833,
+        "kivala-du-berlais": 0.5,
+        "kolokico": 0.4167,
+        "amy-du-kiff": 0.3333,
+        "lacokokeldy": 0.25,
+        "feu-de-dieu-l.philipperon": 0.1667,
+        "ginja-des-taillons": 0.0833,
+        "bon-garcon": 0.0
+      },
+      "mean_rank": {
+        "kilometre-illimite": 0.0,
+        "le-petit-cheval": 1.0,
+        "johnny-roque": 2.0,
+        "royal-saga": 3.0,
+        "juntos-ganamos": 4.0,
+        "kalibre": 5.0,
+        "kivala-du-berlais": 6.0,
+        "kolokico": 7.0,
+        "amy-du-kiff": 8.0,
+        "lacokokeldy": 9.0,
+        "feu-de-dieu-l.philipperon": 10.0,
+        "ginja-des-taillons": 11.0,
+        "bon-garcon": 12.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "bon-garcon",
+        "name": "BON GARCON",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "amy-du-kiff",
+        "name": "AMY DU KIFF",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "royal-saga",
+        "name": "ROYAL SAGA",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalibre",
+        "name": "KALIBRE",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kilometre-illimite",
+        "name": "KILOMETRE ILLIMITE",
+        "number": 7,
+        "signals": [
+          "cote fondue de -68% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "juntos-ganamos",
+        "name": "JUNTOS GANAMOS",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kolokico",
+        "name": "KOLOKICO",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "johnny-roque",
+        "name": "JOHNNY ROQUE",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 9 rangs plus haut que le marché (interne 3 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "le-petit-cheval",
+        "name": "LE PETIT CHEVAL",
+        "number": 11,
+        "signals": [
+          "cote fondue de -46% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "feu-de-dieu-l.philipperon",
+        "name": "FEU DE DIEU",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kivala-du-berlais",
+        "name": "KIVALA DU BERLAIS",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ginja-des-taillons",
+        "name": "GINJA DES TAILLONS",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "lacokokeldy",
+        "name": "LACOKOKELDY",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "kilometre-illimite",
+      "johnny-roque",
+      "le-petit-cheval"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "kilometre-illimite",
+          "bon-garcon",
+          "amy-du-kiff",
+          "royal-saga",
+          "kalibre",
+          "juntos-ganamos",
+          "kolokico",
+          "johnny-roque",
+          "le-petit-cheval",
+          "feu-de-dieu-l.philipperon",
+          "kivala-du-berlais",
+          "ginja-des-taillons",
+          "lacokokeldy"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "kivala-du-berlais",
+          "royal-saga",
+          "kolokico",
+          "feu-de-dieu-l.philipperon",
+          "le-petit-cheval",
+          "juntos-ganamos",
+          "bon-garcon",
+          "lacokokeldy",
+          "kilometre-illimite",
+          "amy-du-kiff",
+          "kalibre",
+          "johnny-roque"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 8 chances retenues",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "kivala-du-berlais",
+          "bon-garcon",
+          "amy-du-kiff",
+          "royal-saga",
+          "kalibre",
+          "kilometre-illimite",
+          "juntos-ganamos",
+          "kolokico",
+          "johnny-roque",
+          "le-petit-cheval",
+          "feu-de-dieu-l.philipperon",
+          "ginja-des-taillons",
+          "lacokokeldy"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "kilometre-illimite",
+          "royal-saga",
+          "bon-garcon",
+          "juntos-ganamos",
+          "feu-de-dieu-l.philipperon",
+          "kolokico",
+          "kivala-du-berlais",
+          "johnny-roque",
+          "amy-du-kiff",
+          "kalibre",
+          "le-petit-cheval",
+          "ginja-des-taillons",
+          "lacokokeldy"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "bon-garcon",
+          "amy-du-kiff",
+          "royal-saga",
+          "kalibre",
+          "kilometre-illimite",
+          "juntos-ganamos",
+          "kolokico",
+          "johnny-roque",
+          "le-petit-cheval",
+          "feu-de-dieu-l.philipperon",
+          "kivala-du-berlais",
+          "ginja-des-taillons",
+          "lacokokeldy"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-15T10:33:55.885914+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "bon-garcon": 0.105846,
+      "amy-du-kiff": 0.029108,
+      "royal-saga": 0.105846,
+      "kalibre": 0.051747,
+      "kilometre-illimite": 0.17249,
+      "juntos-ganamos": 0.058215,
+      "kolokico": 0.097026,
+      "johnny-roque": 0.029108,
+      "le-petit-cheval": 0.107063,
+      "feu-de-dieu-l.philipperon": 0.077621,
+      "kivala-du-berlais": 0.097026,
+      "ginja-des-taillons": 0.014113,
+      "lacokokeldy": 0.054791
+    },
+    "consensus_ranking": [
+      "kivala-du-berlais",
+      "royal-saga",
+      "kolokico",
+      "feu-de-dieu-l.philipperon",
+      "le-petit-cheval",
+      "juntos-ganamos",
+      "bon-garcon",
+      "lacokokeldy",
+      "kilometre-illimite",
+      "amy-du-kiff",
+      "kalibre",
+      "johnny-roque"
+    ],
+    "convergence": 0.25,
+    "notes": [
+      "convergence Top 5 interne/externe : 25%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "kilometre-illimite",
+      "johnny-roque",
+      "juntos-ganamos"
+    ],
+    "externe_seulement": [
+      "kivala-du-berlais",
+      "kolokico",
+      "feu-de-dieu-l.philipperon"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 2.3838,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 2.5,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · BON GARCON : aptitude",
+      "n°2 · AMY DU KIFF : aptitude",
+      "n°4 · ROYAL SAGA : aptitude",
+      "n°5 · KALIBRE : aptitude",
+      "n°7 · KILOMETRE ILLIMITE : aptitude",
+      "n°8 · JUNTOS GANAMOS : aptitude",
+      "n°9 · KOLOKICO : aptitude",
+      "n°10 · JOHNNY ROQUE : aptitude",
+      "n°11 · LE PETIT CHEVAL : aptitude",
+      "n°12 · FEU DE DIEU : aptitude",
+      "n°13 · KIVALA DU BERLAIS : aptitude",
+      "n°14 · GINJA DES TAILLONS : aptitude",
+      "n°15 · LACOKOKELDY : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.48 (saturé à 2.0) → 2.4/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 25% → 2.5/10",
+      "complétude des données = 80% (13 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 43% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 43% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-15T14:15:00+00:00",
+    "betting_close": "2026-11-15T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-15T10:34:01.116588+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 210.98,
+    "schedule": {
+      "start_ouagadougou": "2026-11-15T14:15:00+00:00",
+      "start_paris": "2026-11-15T15:15:00+01:00",
+      "close_lonab": "2026-11-15T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 7,
+      "cheval": "KILOMETRE ILLIMITE",
+      "horse_id": "kilometre-illimite"
+    },
+    {
+      "rang": 2,
+      "numero": 11,
+      "cheval": "LE PETIT CHEVAL",
+      "horse_id": "le-petit-cheval"
+    },
+    {
+      "rang": 3,
+      "numero": 10,
+      "cheval": "JOHNNY ROQUE",
+      "horse_id": "johnny-roque"
+    },
+    {
+      "rang": 4,
+      "numero": 4,
+      "cheval": "ROYAL SAGA",
+      "horse_id": "royal-saga"
+    },
+    {
+      "rang": 5,
+      "numero": 8,
+      "cheval": "JUNTOS GANAMOS",
+      "horse_id": "juntos-ganamos"
+    },
+    {
+      "rang": 6,
+      "numero": 5,
+      "cheval": "KALIBRE",
+      "horse_id": "kalibre"
+    },
+    {
+      "rang": 7,
+      "numero": 13,
+      "cheval": "KIVALA DU BERLAIS",
+      "horse_id": "kivala-du-berlais"
+    },
+    {
+      "rang": 8,
+      "numero": 9,
+      "cheval": "KOLOKICO",
+      "horse_id": "kolokico"
+    },
+    {
+      "rang": 9,
+      "numero": 2,
+      "cheval": "AMY DU KIFF",
+      "horse_id": "amy-du-kiff"
+    },
+    {
+      "rang": 10,
+      "numero": 15,
+      "cheval": "LACOKOKELDY",
+      "horse_id": "lacokokeldy"
+    },
+    {
+      "rang": 11,
+      "numero": 12,
+      "cheval": "FEU DE DIEU",
+      "horse_id": "feu-de-dieu-l.philipperon"
+    },
+    {
+      "rang": 12,
+      "numero": 14,
+      "cheval": "GINJA DES TAILLONS",
+      "horse_id": "ginja-des-taillons"
+    },
+    {
+      "rang": 13,
+      "numero": 1,
+      "cheval": "BON GARCON",
+      "horse_id": "bon-garcon"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 7,
+      "cheval": "KILOMETRE ILLIMITE",
+      "score": 8.4897
+    },
+    {
+      "numero": 11,
+      "cheval": "LE PETIT CHEVAL",
+      "score": 8.0129
+    },
+    {
+      "numero": 10,
+      "cheval": "JOHNNY ROQUE",
+      "score": 7.7342
+    },
+    {
+      "numero": 4,
+      "cheval": "ROYAL SAGA",
+      "score": 7.5606
+    },
+    {
+      "numero": 8,
+      "cheval": "JUNTOS GANAMOS",
+      "score": 7.4821
+    },
+    {
+      "numero": 5,
+      "cheval": "KALIBRE",
+      "score": 7.1031
+    },
+    {
+      "numero": 13,
+      "cheval": "KIVALA DU BERLAIS",
+      "score": 6.8829
+    },
+    {
+      "numero": 9,
+      "cheval": "KOLOKICO",
+      "score": 6.8037
+    },
+    {
+      "numero": 2,
+      "cheval": "AMY DU KIFF",
+      "score": 6.5889
+    },
+    {
+      "numero": 15,
+      "cheval": "LACOKOKELDY",
+      "score": 6.4706
+    },
+    {
+      "numero": 12,
+      "cheval": "FEU DE DIEU",
+      "score": 6.197
+    },
+    {
+      "numero": 14,
+      "cheval": "GINJA DES TAILLONS",
+      "score": 5.9915
+    },
+    {
+      "numero": 1,
+      "cheval": "BON GARCON",
+      "score": 5.8889
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 9.7296,
+      "entropie_norm": 0.9324,
+      "p_favori": 0.1821,
+      "ratio_1_2": 1.6772
+    },
+    "p_gagnant_dans_selection": 0.6067,
+    "nb_attendu_dans_top5": 2.466,
+    "p_au_moins": {
+      "1": 0.9915,
+      "2": 0.8755,
+      "3": 0.4868,
+      "4": 0.1078,
+      "5": 0.0047
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-15T10:30:51+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "49 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 7,
+        "cheval": "KILOMETRE ILLIMITE",
+        "cote": 5.4,
+        "p_gagne": 0.1821,
+        "p_top3": 0.3977,
+        "p_top5": 0.5869,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 11,
+        "cheval": "LE PETIT CHEVAL",
+        "cote": 8.7,
+        "p_gagne": 0.1086,
+        "p_top3": 0.2999,
+        "p_top5": 0.4812,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 4,
+        "cheval": "ROYAL SAGA",
+        "cote": 8.8,
+        "p_gagne": 0.1073,
+        "p_top3": 0.2933,
+        "p_top5": 0.475,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 1,
+        "cheval": "BON GARCON",
+        "cote": 8.8,
+        "p_gagne": 0.1073,
+        "p_top3": 0.2939,
+        "p_top5": 0.4718,
+        "rang_systeme": 13
+      },
+      {
+        "numero": 13,
+        "cheval": "KIVALA DU BERLAIS",
+        "cote": 9.6,
+        "p_gagne": 0.0976,
+        "p_top3": 0.2742,
+        "p_top5": 0.4513,
+        "rang_systeme": 7
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 13,
+    "unmatched_pmu": [
+      "TOSCANA DU BERLAIS",
+      "JOJO LAPIN"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-15T10:34:01.152432+00:00"
+}
