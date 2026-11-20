@@ -1,0 +1,2016 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261120-paris-vincennes-nocturne-c4",
+  "date": "2026-11-20",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES NOCTURNE",
+    "date": "2026-11-20",
+    "start_time": "2026-11-20T19:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX TRITON",
+    "distance_m": 2700,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_20-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-20T19:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-20T17:45:11.384694+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "king-fromentro-d.-thomain",
+        "name": "KING FROMENTRO",
+        "number": 1,
+        "odds_pdf": 23.0,
+        "odds_latest": 14.0,
+        "delta": -0.391304347826087,
+        "implied_shift": -0.02795031055900621,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "koquery-du-buisson-a.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 2,
+        "odds_pdf": 58.0,
+        "odds_latest": 74.0,
+        "delta": 0.27586206896551724,
+        "implied_shift": 0.003727865796831313,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kervelean",
+        "name": "KERVELEAN",
+        "number": 4,
+        "odds_pdf": 5.0,
+        "odds_latest": 6.0,
+        "delta": 0.2,
+        "implied_shift": 0.033333333333333354,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "keller-de-l-iton-e.-raffin",
+        "name": "KELLER DE L'ITON",
+        "number": 5,
+        "odds_pdf": 6.0,
+        "odds_latest": 4.1,
+        "delta": -0.3166666666666667,
+        "implied_shift": -0.07723577235772361,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "ketberny",
+        "name": "KETBERNY",
+        "number": 6,
+        "odds_pdf": 25.0,
+        "odds_latest": 22.0,
+        "delta": -0.12,
+        "implied_shift": -0.005454545454545455,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kharnas",
+        "name": "KHARNAS",
+        "number": 7,
+        "odds_pdf": 42.0,
+        "odds_latest": 31.0,
+        "delta": -0.2619047619047619,
+        "implied_shift": -0.008448540706605223,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jorlando",
+        "name": "JORLANDO",
+        "number": 8,
+        "odds_pdf": 117.0,
+        "odds_latest": 108.0,
+        "delta": -0.07692307692307693,
+        "implied_shift": -0.0007122507122507109,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kannabis-jeloca-m.-goetz",
+        "name": "KANNABIS JELOCA",
+        "number": 9,
+        "odds_pdf": 17.0,
+        "odds_latest": 11.0,
+        "delta": -0.35294117647058826,
+        "implied_shift": -0.03208556149732621,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "karma",
+        "name": "KARMA",
+        "number": 10,
+        "odds_pdf": 16.0,
+        "odds_latest": 17.0,
+        "delta": 0.0625,
+        "implied_shift": 0.003676470588235295,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ker-poulgwen",
+        "name": "KER POULGWEN",
+        "number": 11,
+        "odds_pdf": 13.0,
+        "odds_latest": 15.0,
+        "delta": 0.15384615384615385,
+        "implied_shift": 0.010256410256410262,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kiki-and-co",
+        "name": "KIKI AND CO",
+        "number": 12,
+        "odds_pdf": 23.0,
+        "odds_latest": 20.0,
+        "delta": -0.13043478260869565,
+        "implied_shift": -0.006521739130434787,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "king-d-hermes",
+        "name": "KING D'HERMES",
+        "number": 13,
+        "odds_pdf": 8.0,
+        "odds_latest": 6.0,
+        "delta": -0.25,
+        "implied_shift": -0.04166666666666666,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kancalais",
+        "name": "KANCALAIS",
+        "number": 14,
+        "odds_pdf": 15.0,
+        "odds_latest": 7.2,
+        "delta": -0.52,
+        "implied_shift": -0.07222222222222223,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jack-des-malberaux-j.-maillard",
+        "name": "JACK DES MALBERAUX",
+        "number": 15,
+        "odds_pdf": 127.0,
+        "odds_latest": 112.0,
+        "delta": -0.11811023622047244,
+        "implied_shift": -0.0010545556805399321,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "king-fromentro-d.-thomain",
+      "koquery-du-buisson-a.-lamy",
+      "kervelean",
+      "keller-de-l-iton-e.-raffin",
+      "ketberny",
+      "kharnas",
+      "jorlando",
+      "kannabis-jeloca-m.-goetz",
+      "karma",
+      "ker-poulgwen",
+      "kiki-and-co",
+      "king-d-hermes",
+      "kancalais",
+      "jack-des-malberaux-j.-maillard"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "kervelean",
+        "name": "KERVELEAN",
+        "number": 4,
+        "dimensions": {
+          "historique": 9.941271718351887,
+          "forme": 8.805970149253731,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 9.4367,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-d-hermes",
+        "name": "KING D'HERMES",
+        "number": 13,
+        "dimensions": {
+          "historique": 8.744465687618806,
+          "forme": 8.074626865671641,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.4468,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kannabis-jeloca-m.-goetz",
+        "name": "KANNABIS JELOCA",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.970162709225017,
+          "forme": 6.3283582089552235,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.3516,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ker-poulgwen",
+        "name": "KER POULGWEN",
+        "number": 11,
+        "dimensions": {
+          "historique": 9.278616146727513,
+          "forme": 5.313432835820896,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.5163,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "keller-de-l-iton-e.-raffin",
+        "name": "KELLER DE L'ITON",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.864809975900304,
+          "forme": 6.746268656716419,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.3677,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kancalais",
+        "name": "KANCALAIS",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.93779320842958,
+          "forme": 5.91044776119403,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.0368,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "king-fromentro-d.-thomain",
+        "name": "KING FROMENTRO",
+        "number": 1,
+        "dimensions": {
+          "historique": 6.4015968336324605,
+          "forme": 7.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6875,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "karma",
+        "name": "KARMA",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.603276601514343,
+          "forme": 4.313432835820895,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.1411,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jack-des-malberaux-j.-maillard",
+        "name": "JACK DES MALBERAUX",
+        "number": 15,
+        "dimensions": {
+          "historique": 5.6410256410256405,
+          "forme": 6.402985074626867,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9797,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ketberny",
+        "name": "KETBERNY",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.377944096159923,
+          "forme": 4.022388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.8866,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "koquery-du-buisson-a.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.497719330343876,
+          "forme": 1.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.6297,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jorlando",
+        "name": "JORLANDO",
+        "number": 8,
+        "dimensions": {
+          "historique": 8.184955373951725,
+          "forme": 0.0,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.5472,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kharnas",
+        "name": "KHARNAS",
+        "number": 7,
+        "dimensions": {
+          "historique": 7.560585883396258,
+          "forme": 0.29850746268656714,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.333,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiki-and-co",
+        "name": "KIKI AND CO",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.426290815628303,
+          "forme": 0.0,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1257,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "kervelean",
+      "king-d-hermes",
+      "kannabis-jeloca-m.-goetz",
+      "ker-poulgwen",
+      "keller-de-l-iton-e.-raffin",
+      "kancalais",
+      "king-fromentro-d.-thomain",
+      "karma",
+      "jack-des-malberaux-j.-maillard",
+      "ketberny",
+      "koquery-du-buisson-a.-lamy",
+      "jorlando",
+      "kharnas",
+      "kiki-and-co"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "king-fromentro-d.-thomain": {
+          "horse_id": "king-fromentro-d.-thomain",
+          "name": "KING FROMENTRO",
+          "p_win": 0.05604,
+          "p_top3": 0.18512,
+          "p_top5": 0.33808,
+          "expected_position": 7.1975,
+          "position_distribution": {
+            "1": 0.05604,
+            "2": 0.06304,
+            "3": 0.06604,
+            "4": 0.07236,
+            "5": 0.0806,
+            "6": 0.08378,
+            "7": 0.09116,
+            "8": 0.09494,
+            "9": 0.09332,
+            "10": 0.09456,
+            "11": 0.0836,
+            "12": 0.06368,
+            "13": 0.04104,
+            "14": 0.01584
+          }
+        },
+        "koquery-du-buisson-a.-lamy": {
+          "horse_id": "koquery-du-buisson-a.-lamy",
+          "name": "KOQUERY DU BUISSON",
+          "p_win": 0.02018,
+          "p_top3": 0.0694,
+          "p_top5": 0.13318,
+          "expected_position": 10.167,
+          "position_distribution": {
+            "1": 0.02018,
+            "2": 0.02384,
+            "3": 0.02538,
+            "4": 0.02954,
+            "5": 0.03424,
+            "6": 0.03942,
+            "7": 0.04874,
+            "8": 0.05524,
+            "9": 0.06732,
+            "10": 0.08398,
+            "11": 0.10546,
+            "12": 0.13154,
+            "13": 0.16186,
+            "14": 0.17326
+          }
+        },
+        "kervelean": {
+          "horse_id": "kervelean",
+          "name": "KERVELEAN",
+          "p_win": 0.23072,
+          "p_top3": 0.58872,
+          "p_top5": 0.8144,
+          "expected_position": 3.4569,
+          "position_distribution": {
+            "1": 0.23072,
+            "2": 0.19218,
+            "3": 0.16582,
+            "4": 0.12778,
+            "5": 0.0979,
+            "6": 0.07272,
+            "7": 0.04918,
+            "8": 0.03166,
+            "9": 0.01762,
+            "10": 0.00944,
+            "11": 0.00332,
+            "12": 0.00128,
+            "13": 0.00034,
+            "14": 4e-05
+          }
+        },
+        "keller-de-l-iton-e.-raffin": {
+          "horse_id": "keller-de-l-iton-e.-raffin",
+          "name": "KELLER DE L'ITON",
+          "p_win": 0.08308,
+          "p_top3": 0.25854,
+          "p_top5": 0.45052,
+          "expected_position": 6.1233,
+          "position_distribution": {
+            "1": 0.08308,
+            "2": 0.08554,
+            "3": 0.08992,
+            "4": 0.09486,
+            "5": 0.09712,
+            "6": 0.0977,
+            "7": 0.0984,
+            "8": 0.09232,
+            "9": 0.08146,
+            "10": 0.07014,
+            "11": 0.0543,
+            "12": 0.03344,
+            "13": 0.0164,
+            "14": 0.00532
+          }
+        },
+        "ketberny": {
+          "horse_id": "ketberny",
+          "name": "KETBERNY",
+          "p_win": 0.03852,
+          "p_top3": 0.12812,
+          "p_top5": 0.24018,
+          "expected_position": 8.3659,
+          "position_distribution": {
+            "1": 0.03852,
+            "2": 0.04298,
+            "3": 0.04662,
+            "4": 0.05252,
+            "5": 0.05954,
+            "6": 0.06634,
+            "7": 0.07522,
+            "8": 0.08218,
+            "9": 0.09512,
+            "10": 0.10388,
+            "11": 0.10526,
+            "12": 0.10158,
+            "13": 0.08334,
+            "14": 0.0469
+          }
+        },
+        "kharnas": {
+          "horse_id": "kharnas",
+          "name": "KHARNAS",
+          "p_win": 0.01942,
+          "p_top3": 0.06164,
+          "p_top5": 0.11684,
+          "expected_position": 10.5251,
+          "position_distribution": {
+            "1": 0.01942,
+            "2": 0.02044,
+            "3": 0.02178,
+            "4": 0.02588,
+            "5": 0.02932,
+            "6": 0.03702,
+            "7": 0.04156,
+            "8": 0.05,
+            "9": 0.05946,
+            "10": 0.0764,
+            "11": 0.09872,
+            "12": 0.13032,
+            "13": 0.1681,
+            "14": 0.22158
+          }
+        },
+        "jorlando": {
+          "horse_id": "jorlando",
+          "name": "JORLANDO",
+          "p_win": 0.02002,
+          "p_top3": 0.06694,
+          "p_top5": 0.12958,
+          "expected_position": 10.2689,
+          "position_distribution": {
+            "1": 0.02002,
+            "2": 0.02124,
+            "3": 0.02568,
+            "4": 0.0295,
+            "5": 0.03314,
+            "6": 0.0395,
+            "7": 0.04598,
+            "8": 0.05382,
+            "9": 0.06676,
+            "10": 0.07858,
+            "11": 0.0998,
+            "12": 0.1327,
+            "13": 0.16648,
+            "14": 0.1868
+          }
+        },
+        "kannabis-jeloca-m.-goetz": {
+          "horse_id": "kannabis-jeloca-m.-goetz",
+          "name": "KANNABIS JELOCA",
+          "p_win": 0.13372,
+          "p_top3": 0.39486,
+          "p_top5": 0.62902,
+          "expected_position": 4.7636,
+          "position_distribution": {
+            "1": 0.13372,
+            "2": 0.1341,
+            "3": 0.12704,
+            "4": 0.12398,
+            "5": 0.11018,
+            "6": 0.09802,
+            "7": 0.08364,
+            "8": 0.06812,
+            "9": 0.05116,
+            "10": 0.0347,
+            "11": 0.02088,
+            "12": 0.01042,
+            "13": 0.0035,
+            "14": 0.00054
+          }
+        },
+        "karma": {
+          "horse_id": "karma",
+          "name": "KARMA",
+          "p_win": 0.04452,
+          "p_top3": 0.1458,
+          "p_top5": 0.27128,
+          "expected_position": 7.9603,
+          "position_distribution": {
+            "1": 0.04452,
+            "2": 0.0479,
+            "3": 0.05338,
+            "4": 0.06024,
+            "5": 0.06524,
+            "6": 0.07396,
+            "7": 0.07976,
+            "8": 0.08798,
+            "9": 0.09656,
+            "10": 0.09954,
+            "11": 0.10156,
+            "12": 0.08928,
+            "13": 0.0673,
+            "14": 0.03278
+          }
+        },
+        "ker-poulgwen": {
+          "horse_id": "ker-poulgwen",
+          "name": "KER POULGWEN",
+          "p_win": 0.08976,
+          "p_top3": 0.27958,
+          "p_top5": 0.47844,
+          "expected_position": 5.891,
+          "position_distribution": {
+            "1": 0.08976,
+            "2": 0.09314,
+            "3": 0.09668,
+            "4": 0.09772,
+            "5": 0.10114,
+            "6": 0.10014,
+            "7": 0.09596,
+            "8": 0.09112,
+            "9": 0.07766,
+            "10": 0.06374,
+            "11": 0.0465,
+            "12": 0.0285,
+            "13": 0.01416,
+            "14": 0.00378
+          }
+        },
+        "kiki-and-co": {
+          "horse_id": "kiki-and-co",
+          "name": "KIKI AND CO",
+          "p_win": 0.0163,
+          "p_top3": 0.05376,
+          "p_top5": 0.10616,
+          "expected_position": 10.8042,
+          "position_distribution": {
+            "1": 0.0163,
+            "2": 0.0171,
+            "3": 0.02036,
+            "4": 0.02404,
+            "5": 0.02836,
+            "6": 0.0325,
+            "7": 0.03792,
+            "8": 0.04504,
+            "9": 0.0565,
+            "10": 0.07106,
+            "11": 0.09036,
+            "12": 0.1258,
+            "13": 0.174,
+            "14": 0.26066
+          }
+        },
+        "king-d-hermes": {
+          "horse_id": "king-d-hermes",
+          "name": "KING D'HERMES",
+          "p_win": 0.13708,
+          "p_top3": 0.41036,
+          "p_top5": 0.64558,
+          "expected_position": 4.6432,
+          "position_distribution": {
+            "1": 0.13708,
+            "2": 0.14062,
+            "3": 0.13266,
+            "4": 0.12266,
+            "5": 0.11256,
+            "6": 0.09688,
+            "7": 0.08166,
+            "8": 0.06668,
+            "9": 0.0494,
+            "10": 0.03052,
+            "11": 0.01776,
+            "12": 0.0083,
+            "13": 0.00272,
+            "14": 0.0005
+          }
+        },
+        "kancalais": {
+          "horse_id": "kancalais",
+          "name": "KANCALAIS",
+          "p_win": 0.06934,
+          "p_top3": 0.22174,
+          "p_top5": 0.39506,
+          "expected_position": 6.6194,
+          "position_distribution": {
+            "1": 0.06934,
+            "2": 0.07358,
+            "3": 0.07882,
+            "4": 0.08428,
+            "5": 0.08904,
+            "6": 0.09302,
+            "7": 0.09522,
+            "8": 0.09534,
+            "9": 0.09142,
+            "10": 0.08152,
+            "11": 0.06682,
+            "12": 0.04596,
+            "13": 0.02678,
+            "14": 0.00886
+          }
+        },
+        "jack-des-malberaux-j.-maillard": {
+          "horse_id": "jack-des-malberaux-j.-maillard",
+          "name": "JACK DES MALBERAUX",
+          "p_win": 0.0413,
+          "p_top3": 0.13542,
+          "p_top5": 0.25168,
+          "expected_position": 8.2136,
+          "position_distribution": {
+            "1": 0.0413,
+            "2": 0.0443,
+            "3": 0.04982,
+            "4": 0.05464,
+            "5": 0.06162,
+            "6": 0.069,
+            "7": 0.0756,
+            "8": 0.08556,
+            "9": 0.09624,
+            "10": 0.10194,
+            "11": 0.10566,
+            "12": 0.0972,
+            "13": 0.07398,
+            "14": 0.04314
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "kervelean",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz"
+        ],
+        "23": [
+          "kervelean",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz"
+        ],
+        "37": [
+          "kervelean",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz"
+        ],
+        "51": [
+          "kervelean",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz"
+        ],
+        "73": [
+          "kervelean",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz"
+        ]
+      },
+      "reference_top": [
+        "kannabis-jeloca-m.-goetz",
+        "kervelean",
+        "king-d-hermes"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "kervelean": 10.0,
+        "king-d-hermes": 5.0,
+        "kannabis-jeloca-m.-goetz": 0.0
+      },
+      "order": [
+        "kervelean",
+        "king-d-hermes",
+        "kannabis-jeloca-m.-goetz"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "kervelean": 13.0,
+        "king-d-hermes": 12.0,
+        "kannabis-jeloca-m.-goetz": 11.0,
+        "ker-poulgwen": 10.0,
+        "keller-de-l-iton-e.-raffin": 9.0,
+        "kancalais": 8.0,
+        "king-fromentro-d.-thomain": 7.0,
+        "karma": 6.0,
+        "jack-des-malberaux-j.-maillard": 5.0,
+        "ketberny": 4.0,
+        "koquery-du-buisson-a.-lamy": 3.0,
+        "jorlando": 2.0,
+        "kharnas": 1.0,
+        "kiki-and-co": 0.0
+      },
+      "order": [
+        "kervelean",
+        "king-d-hermes",
+        "kannabis-jeloca-m.-goetz",
+        "ker-poulgwen",
+        "keller-de-l-iton-e.-raffin",
+        "kancalais",
+        "king-fromentro-d.-thomain",
+        "karma",
+        "jack-des-malberaux-j.-maillard",
+        "ketberny",
+        "koquery-du-buisson-a.-lamy",
+        "jorlando",
+        "kharnas",
+        "kiki-and-co"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "kervelean",
+        "king-d-hermes",
+        "kannabis-jeloca-m.-goetz",
+        "ker-poulgwen",
+        "keller-de-l-iton-e.-raffin",
+        "kancalais",
+        "king-fromentro-d.-thomain",
+        "karma",
+        "jack-des-malberaux-j.-maillard",
+        "ketberny",
+        "koquery-du-buisson-a.-lamy",
+        "jorlando",
+        "kharnas",
+        "kiki-and-co"
+      ],
+      "copeland": {
+        "kervelean": 13.0,
+        "king-d-hermes": 11.0,
+        "kannabis-jeloca-m.-goetz": 9.0,
+        "ker-poulgwen": 7.0,
+        "keller-de-l-iton-e.-raffin": 5.0,
+        "kancalais": 3.0,
+        "king-fromentro-d.-thomain": 1.0,
+        "karma": -1.0,
+        "jack-des-malberaux-j.-maillard": -3.0,
+        "ketberny": -5.0,
+        "koquery-du-buisson-a.-lamy": -7.0,
+        "jorlando": -9.0,
+        "kharnas": -11.0,
+        "kiki-and-co": -13.0
+      },
+      "normalized": {
+        "kervelean": 1.0,
+        "king-d-hermes": 0.9231,
+        "kannabis-jeloca-m.-goetz": 0.8462,
+        "ker-poulgwen": 0.7692,
+        "keller-de-l-iton-e.-raffin": 0.6923,
+        "kancalais": 0.6154,
+        "king-fromentro-d.-thomain": 0.5385,
+        "karma": 0.4615,
+        "jack-des-malberaux-j.-maillard": 0.3846,
+        "ketberny": 0.3077,
+        "koquery-du-buisson-a.-lamy": 0.2308,
+        "jorlando": 0.1538,
+        "kharnas": 0.0769,
+        "kiki-and-co": 0.0
+      },
+      "mean_rank": {
+        "kervelean": 0.0,
+        "king-d-hermes": 1.0,
+        "kannabis-jeloca-m.-goetz": 2.0,
+        "ker-poulgwen": 3.0,
+        "keller-de-l-iton-e.-raffin": 4.0,
+        "kancalais": 5.0,
+        "king-fromentro-d.-thomain": 6.0,
+        "karma": 7.0,
+        "jack-des-malberaux-j.-maillard": 8.0,
+        "ketberny": 9.0,
+        "koquery-du-buisson-a.-lamy": 10.0,
+        "jorlando": 11.0,
+        "kharnas": 12.0,
+        "kiki-and-co": 13.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "king-fromentro-d.-thomain",
+        "name": "KING FROMENTRO",
+        "number": 1,
+        "signals": [
+          "cote fondue de -39% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "koquery-du-buisson-a.-lamy",
+        "name": "KOQUERY DU BUISSON",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kervelean",
+        "name": "KERVELEAN",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "keller-de-l-iton-e.-raffin",
+        "name": "KELLER DE L'ITON",
+        "number": 5,
+        "signals": [
+          "cote fondue de -32% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ketberny",
+        "name": "KETBERNY",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kharnas",
+        "name": "KHARNAS",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jorlando",
+        "name": "JORLANDO",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kannabis-jeloca-m.-goetz",
+        "name": "KANNABIS JELOCA",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "karma",
+        "name": "KARMA",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ker-poulgwen",
+        "name": "KER POULGWEN",
+        "number": 11,
+        "signals": [
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 4 vs marché 7)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiki-and-co",
+        "name": "KIKI AND CO",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "king-d-hermes",
+        "name": "KING D'HERMES",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kancalais",
+        "name": "KANCALAIS",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jack-des-malberaux-j.-maillard",
+        "name": "JACK DES MALBERAUX",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "king-fromentro-d.-thomain",
+      "keller-de-l-iton-e.-raffin",
+      "ker-poulgwen"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "king-fromentro-d.-thomain",
+          "koquery-du-buisson-a.-lamy",
+          "kervelean",
+          "keller-de-l-iton-e.-raffin",
+          "ketberny",
+          "kharnas",
+          "jorlando",
+          "kannabis-jeloca-m.-goetz",
+          "karma",
+          "ker-poulgwen",
+          "kiki-and-co",
+          "king-d-hermes",
+          "kancalais",
+          "jack-des-malberaux-j.-maillard"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "kervelean",
+          "keller-de-l-iton-e.-raffin",
+          "king-d-hermes",
+          "kancalais",
+          "ker-poulgwen",
+          "karma",
+          "kannabis-jeloca-m.-goetz",
+          "king-fromentro-d.-thomain",
+          "ketberny",
+          "kiki-and-co",
+          "kharnas",
+          "koquery-du-buisson-a.-lamy"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 8 chances retenues",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "keller-de-l-iton-e.-raffin",
+          "king-fromentro-d.-thomain",
+          "koquery-du-buisson-a.-lamy",
+          "kervelean",
+          "ketberny",
+          "kharnas",
+          "jorlando",
+          "kannabis-jeloca-m.-goetz",
+          "karma",
+          "ker-poulgwen",
+          "kiki-and-co",
+          "king-d-hermes",
+          "kancalais",
+          "jack-des-malberaux-j.-maillard"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "keller-de-l-iton-e.-raffin",
+          "kervelean",
+          "kancalais",
+          "king-d-hermes",
+          "kannabis-jeloca-m.-goetz",
+          "king-fromentro-d.-thomain",
+          "ketberny",
+          "ker-poulgwen",
+          "kiki-and-co",
+          "koquery-du-buisson-a.-lamy",
+          "kharnas",
+          "jorlando",
+          "karma",
+          "jack-des-malberaux-j.-maillard"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "king-fromentro-d.-thomain",
+          "koquery-du-buisson-a.-lamy",
+          "kervelean",
+          "keller-de-l-iton-e.-raffin",
+          "ketberny",
+          "kharnas",
+          "jorlando",
+          "kannabis-jeloca-m.-goetz",
+          "karma",
+          "ker-poulgwen",
+          "kiki-and-co",
+          "king-d-hermes",
+          "kancalais",
+          "jack-des-malberaux-j.-maillard"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-20T17:45:04.188938+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "king-fromentro-d.-thomain": 0.061398,
+      "koquery-du-buisson-a.-lamy": 0.011616,
+      "kervelean": 0.143262,
+      "keller-de-l-iton-e.-raffin": 0.209652,
+      "ketberny": 0.039072,
+      "kharnas": 0.027728,
+      "jorlando": 0.007959,
+      "kannabis-jeloca-m.-goetz": 0.078143,
+      "karma": 0.050563,
+      "ker-poulgwen": 0.057305,
+      "kiki-and-co": 0.042979,
+      "king-d-hermes": 0.143262,
+      "kancalais": 0.119385,
+      "jack-des-malberaux-j.-maillard": 0.007675
+    },
+    "consensus_ranking": [
+      "kervelean",
+      "keller-de-l-iton-e.-raffin",
+      "king-d-hermes",
+      "kancalais",
+      "ker-poulgwen",
+      "karma",
+      "kannabis-jeloca-m.-goetz",
+      "king-fromentro-d.-thomain",
+      "ketberny",
+      "kiki-and-co",
+      "kharnas",
+      "koquery-du-buisson-a.-lamy"
+    ],
+    "convergence": 0.6667,
+    "notes": [
+      "convergence Top 5 interne/externe : 67%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "kannabis-jeloca-m.-goetz"
+    ],
+    "externe_seulement": [
+      "kancalais"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 4.9497,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 6.6667,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · KING FROMENTRO : aptitude",
+      "n°1 · KING FROMENTRO : shoeing",
+      "n°2 · KOQUERY DU BUISSON : aptitude",
+      "n°2 · KOQUERY DU BUISSON : shoeing",
+      "n°4 · KERVELEAN : aptitude",
+      "n°4 · KERVELEAN : shoeing",
+      "n°5 · KELLER DE L'ITON : aptitude",
+      "n°5 · KELLER DE L'ITON : shoeing",
+      "n°6 · KETBERNY : aptitude",
+      "n°6 · KETBERNY : shoeing",
+      "n°7 · KHARNAS : aptitude",
+      "n°7 · KHARNAS : shoeing",
+      "n°8 · JORLANDO : aptitude",
+      "n°8 · JORLANDO : shoeing",
+      "n°9 · KANNABIS JELOCA : aptitude",
+      "n°9 · KANNABIS JELOCA : shoeing",
+      "n°10 · KARMA : aptitude",
+      "n°10 · KARMA : shoeing",
+      "n°11 · KER POULGWEN : aptitude",
+      "n°11 · KER POULGWEN : shoeing",
+      "n°12 · KIKI AND CO : aptitude",
+      "n°12 · KIKI AND CO : shoeing",
+      "n°13 · KING D'HERMES : aptitude",
+      "n°13 · KING D'HERMES : shoeing",
+      "n°14 · KANCALAIS : aptitude",
+      "n°14 · KANCALAIS : shoeing",
+      "n°15 · JACK DES MALBERAUX : aptitude",
+      "n°15 · JACK DES MALBERAUX : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.99 (saturé à 2.0) → 4.9/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 67% → 6.7/10",
+      "complétude des données = 67% (28 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-20T19:15:00+00:00",
+    "betting_close": "2026-11-20T19:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-20T17:45:11.428017+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 79.81,
+    "schedule": {
+      "start_ouagadougou": "2026-11-20T19:15:00+00:00",
+      "start_paris": "2026-11-20T20:15:00+01:00",
+      "close_lonab": "2026-11-20T19:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 4,
+      "cheval": "KERVELEAN",
+      "horse_id": "kervelean"
+    },
+    {
+      "rang": 2,
+      "numero": 13,
+      "cheval": "KING D'HERMES",
+      "horse_id": "king-d-hermes"
+    },
+    {
+      "rang": 3,
+      "numero": 9,
+      "cheval": "KANNABIS JELOCA",
+      "horse_id": "kannabis-jeloca-m.-goetz"
+    },
+    {
+      "rang": 4,
+      "numero": 11,
+      "cheval": "KER POULGWEN",
+      "horse_id": "ker-poulgwen"
+    },
+    {
+      "rang": 5,
+      "numero": 5,
+      "cheval": "KELLER DE L'ITON",
+      "horse_id": "keller-de-l-iton-e.-raffin"
+    },
+    {
+      "rang": 6,
+      "numero": 14,
+      "cheval": "KANCALAIS",
+      "horse_id": "kancalais"
+    },
+    {
+      "rang": 7,
+      "numero": 1,
+      "cheval": "KING FROMENTRO",
+      "horse_id": "king-fromentro-d.-thomain"
+    },
+    {
+      "rang": 8,
+      "numero": 10,
+      "cheval": "KARMA",
+      "horse_id": "karma"
+    },
+    {
+      "rang": 9,
+      "numero": 15,
+      "cheval": "JACK DES MALBERAUX",
+      "horse_id": "jack-des-malberaux-j.-maillard"
+    },
+    {
+      "rang": 10,
+      "numero": 6,
+      "cheval": "KETBERNY",
+      "horse_id": "ketberny"
+    },
+    {
+      "rang": 11,
+      "numero": 2,
+      "cheval": "KOQUERY DU BUISSON",
+      "horse_id": "koquery-du-buisson-a.-lamy"
+    },
+    {
+      "rang": 12,
+      "numero": 8,
+      "cheval": "JORLANDO",
+      "horse_id": "jorlando"
+    },
+    {
+      "rang": 13,
+      "numero": 7,
+      "cheval": "KHARNAS",
+      "horse_id": "kharnas"
+    },
+    {
+      "rang": 14,
+      "numero": 12,
+      "cheval": "KIKI AND CO",
+      "horse_id": "kiki-and-co"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 4,
+      "cheval": "KERVELEAN",
+      "score": 9.4367
+    },
+    {
+      "numero": 13,
+      "cheval": "KING D'HERMES",
+      "score": 8.4468
+    },
+    {
+      "numero": 9,
+      "cheval": "KANNABIS JELOCA",
+      "score": 8.3516
+    },
+    {
+      "numero": 11,
+      "cheval": "KER POULGWEN",
+      "score": 7.5163
+    },
+    {
+      "numero": 5,
+      "cheval": "KELLER DE L'ITON",
+      "score": 7.3677
+    },
+    {
+      "numero": 14,
+      "cheval": "KANCALAIS",
+      "score": 7.0368
+    },
+    {
+      "numero": 1,
+      "cheval": "KING FROMENTRO",
+      "score": 6.6875
+    },
+    {
+      "numero": 10,
+      "cheval": "KARMA",
+      "score": 6.1411
+    },
+    {
+      "numero": 15,
+      "cheval": "JACK DES MALBERAUX",
+      "score": 5.9797
+    },
+    {
+      "numero": 6,
+      "cheval": "KETBERNY",
+      "score": 5.8866
+    },
+    {
+      "numero": 2,
+      "cheval": "KOQUERY DU BUISSON",
+      "score": 4.6297
+    },
+    {
+      "numero": 8,
+      "cheval": "JORLANDO",
+      "score": 4.5472
+    },
+    {
+      "numero": 7,
+      "cheval": "KHARNAS",
+      "score": 4.333
+    },
+    {
+      "numero": 12,
+      "cheval": "KIKI AND CO",
+      "score": 4.1257
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 7.9255,
+      "entropie_norm": 0.8607,
+      "p_favori": 0.223,
+      "ratio_1_2": 1.5112
+    },
+    "p_gagnant_dans_selection": 0.7194,
+    "nb_attendu_dans_top5": 2.686,
+    "p_au_moins": {
+      "1": 0.9962,
+      "2": 0.9189,
+      "3": 0.5941,
+      "4": 0.1683,
+      "5": 0.0089
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-20T17:30:48+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "59 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 5,
+        "cheval": "KELLER DE L'ITON",
+        "cote": 4.1,
+        "p_gagne": 0.223,
+        "p_top3": 0.4544,
+        "p_top5": 0.6486,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 4,
+        "cheval": "KERVELEAN",
+        "cote": 6.0,
+        "p_gagne": 0.1475,
+        "p_top3": 0.3639,
+        "p_top5": 0.5571,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 13,
+        "cheval": "KING D'HERMES",
+        "cote": 6.0,
+        "p_gagne": 0.1475,
+        "p_top3": 0.3615,
+        "p_top5": 0.5545,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 14,
+        "cheval": "KANCALAIS",
+        "cote": 7.2,
+        "p_gagne": 0.1211,
+        "p_top3": 0.3167,
+        "p_top5": 0.5037,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 9,
+        "cheval": "KANNABIS JELOCA",
+        "cote": 11.0,
+        "p_gagne": 0.0765,
+        "p_top3": 0.2488,
+        "p_top5": 0.4225,
+        "rang_systeme": 3
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 14,
+    "unmatched_pmu": [
+      "IVON DE LA MONERIE"
+    ],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-20T17:45:11.472785+00:00"
+}
