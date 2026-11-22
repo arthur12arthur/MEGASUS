@@ -134,6 +134,7 @@ jobs:
           HYPERION_EXTERNAL_URLS: ${{ secrets.HYPERION_EXTERNAL_URLS }}
           HYPERION_HUMAN_PRESENT: "false"
         run: |
+          exec 2> >(tee /tmp/analyse.err >&2)
           DATE="${{ github.event.inputs.date }}"
           if [ -f "data/runs/$(date -u +%Y)/$(date -u +%m)/$(date -u +%d)" ]; then
             echo "Une analyse existe deja pour aujourd'hui."
@@ -156,13 +157,22 @@ jobs:
               python -m hyperion.cli run --auto --pmu $PANEL_ARG --store --deliver
             fi
           fi
+          # Le run reste « vert » quand la course est deja partie (rien n'est stocke a dessein) :
+          # on le rend visible, et on ecrit data/status.json pour l'application.
+          sleep 1
+          if grep -q "Course déjà partie" /tmp/analyse.err 2>/dev/null; then
+            echo "::warning title=Analyse non enregistree::Course deja partie au lancement (declenchement GitHub en retard). Aucune analyse avant-course stockee."
+            printf '{"date":"%s","statut":"course_deja_partie","heure_utc":"%s","message":"Lancement trop tardif : la course etait deja partie, aucune analyse avant-course enregistree."}\n' "$(date -u +%F)" "$(date -u +%H:%M)" > data/status.json
+          else
+            printf '{"date":"%s","statut":"ok","heure_utc":"%s"}\n' "$(date -u +%F)" "$(date -u +%H:%M)" > data/status.json
+          fi
 
       - name: Enregistrer l'analyse dans le dépôt (avant la surveillance)
         if: steps.deja.outputs.skip != 'true'
         run: |
           git config user.name "hyperion-bot"
           git config user.email "hyperion-bot@users.noreply.github.com"
-          for d in data/runs; do [ -e "$d" ] && git add -A "$d"; done; true
+          for d in data/runs data/status.json; do [ -e "$d" ] && git add -A "$d"; done; true
           if git diff --cached --quiet; then echo "Rien a committer."; else
             git commit -m "chore(runs): analyse du $(date -u +%F)"
             git pull --rebase -q origin main || true

@@ -79,6 +79,9 @@ class TestRun:
 
     def test_run_stocke_le_rapport(self, tmp_path, capsys, monkeypatch):
         monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs"))
+        # Le test ne doit pas dépendre de l'heure à laquelle il tourne : la course synthétique
+        # a un départ fixe, et la règle « course déjà partie » refuse de stocker passé cette heure.
+        monkeypatch.setattr("hyperion.cli.after_departure", lambda *a, **k: False)
         provider = SyntheticProvider(seed=7)
         synthetic = provider.race(dt.date.today(), 1)
         journal = tmp_path / "journal.json"
