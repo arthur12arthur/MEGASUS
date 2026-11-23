@@ -227,3 +227,30 @@ class TestResolutionReunion:
         assert session.calls[0].endswith("/programme/17102026")
         assert session.calls[1].endswith("/R1/C3/participants")
         assert status["resolu_par"] in ("programme_pmu",) or status["status"] != "ok"
+
+
+class TestResolveRaceNomGenerique:
+    """Cas réel du 05/11 : « PARIS-VINCENNES - PRIX D'AVRANCHES » / nom « ATTELE »."""
+
+    @staticmethod
+    def _programme():
+        return {"programme": {"reunions": [{
+            "numOfficiel": 1,
+            "hippodrome": {"libelleCourt": "VINCENNES", "libelleLong": "VINCENNES"},
+            "courses": [{"numOrdre": 1, "libelle": "PRIX D'AVRANCHES"}],
+        }]}}
+
+    def test_nom_generique_ignore(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "PARIS-VINCENNES - PRIX D'AVRANCHES", 1, "ATTELE") == (1, 1)
+
+    def test_libelle_dans_l_hippodrome_accepte(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "PARIS-VINCENNES - PRIX D'AVRANCHES", 1, "AUTRE NOM") == (1, 1)
+
+    def test_vrai_conflit_de_nom_toujours_refuse(self):
+        from hyperion.pmu import resolve_race
+
+        assert resolve_race(self._programme(), "PARIS-VINCENNES", 1, "PRIX TOTALEMENT AUTRE") is None

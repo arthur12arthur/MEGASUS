@@ -303,24 +303,30 @@ def cmd_run(args: argparse.Namespace) -> int:
             print(block)
             print()
 
-    if is_post_race(pmu_status) or after_departure(race.meta):
+    late = is_post_race(pmu_status) or after_departure(race.meta)
+    late_warning = (
+        "⚠ ANALYSE APRÈS LE DÉPART : la course était déjà partie quand l'analyse a tourné "
+        "(déclenchement en retard). Pronostic affiché à titre indicatif ; il n'est PAS compté "
+        "dans les statistiques."
+    )
+    if late:
+        result.record["apres_course"] = True
+        result.record["avertissement"] = late_warning
+        result.blocks = {"avertissement": late_warning, **result.blocks}
         print(
-            "Course déjà partie : analyse a posteriori affichée mais NI stockée NI envoyée "
-            "(elle ne doit jamais remplacer le pronostic d'avant-course).",
+            "Course déjà partie : analyse a posteriori ENREGISTRÉE avec avertissement "
+            "(exclue des statistiques).",
             file=sys.stderr,
         )
-        if args.deliver and not settings.dry_run:
-            from hyperion.delivery import Delivery
-
-            Delivery(settings).send_telegram([
-                f"⚠ Lancement trop tardif : « {race.meta.name or race.race_id} » est déjà partie, "
-                "aucune analyse avant-course n'a été enregistrée ni envoyée. "
-                "(GitHub a retardé le déclenchement automatique.)"
-            ])
-        return 0
 
     if args.store:
-        path = JsonStore(settings=settings).save(result.record)
+        store = JsonStore(settings=settings)
+        existing = store.load(str(result.record.get("race_id") or ""), store._date_of(result.record))
+        if late and existing and not existing.get("apres_course"):
+            # Un vrai pronostic d'avant-course existe déjà : l'analyse tardive ne le remplace jamais.
+            print("Analyse d'avant-course déjà stockée : l'analyse tardive n'est pas enregistrée.", file=sys.stderr)
+            return 0
+        path = store.save(result.record)
         shown = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
         print(f"Rapport stocké : {shown}", file=sys.stderr)
 

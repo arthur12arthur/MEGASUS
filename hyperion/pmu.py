@@ -30,6 +30,12 @@ class PmuUnavailable(RuntimeError):
     """L'API PMU n'a pas répondu de façon exploitable (réseau, format, blocage)."""
 
 
+_GENERIC_NAMES = {
+    "attele", "monte", "plat", "haies", "steeple", "steeple chase", "cross", "cross country",
+    "obstacle", "obstacles", "trot", "galop", "course", "",
+}
+
+
 def _hippo_key(text: str | None) -> str:
     """Clé de comparaison d'hippodrome : « PARIS-VINCENNES » ~ « VINCENNES »."""
     key = _norm(text).replace("paris ", "").replace(" ", "")
@@ -63,9 +69,11 @@ def resolve_race(
     if len(found) != 1:
         return None
     reunion_no, course_no, label = found[0]
-    if name:
+    if name and _norm(name) not in _GENERIC_NAMES:
         a, b = _norm(name), _norm(label)
-        if a and b and a not in b and b not in a:
+        # Le journal LONAB colle parfois le nom du prix à l'hippodrome (« PARIS-VINCENNES -
+        # PRIX D'AVRANCHES ») et ne donne que la discipline comme nom : on tient compte des deux.
+        if a and b and a not in b and b not in a and b not in _norm(hippodrome):
             return None
     return reunion_no, course_no
 

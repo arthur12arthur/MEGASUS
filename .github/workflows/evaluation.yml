@@ -11,6 +11,8 @@ on:
     # Minutes decalees a dessein (GitHub retarde les cron a l'heure pile).
     - cron: "47 23 * * *"
     - cron: "17 7 * * *"
+    - cron: "7 12 * * *"
+    - cron: "37 16 * * *"
   workflow_dispatch:
     inputs:
       mode:

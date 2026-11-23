@@ -90,6 +90,35 @@ class TestRun:
         assert "stocké" in capsys.readouterr().err
         assert list((tmp_path / "runs").rglob("*.json")), "le rapport doit aller dans HYPERION_RUNS_DIR"
 
+    def test_analyse_apres_depart_enregistree_avec_avertissement(self, tmp_path, capsys, monkeypatch):
+        monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs"))
+        monkeypatch.setattr("hyperion.cli.after_departure", lambda *a, **k: True)
+        synthetic = SyntheticProvider(seed=7).race(dt.date.today(), 1)
+        journal = tmp_path / "journal.json"
+        journal.write_text(json.dumps(synthetic.race.as_dict()), encoding="utf-8")
+        panel = tmp_path / "panel.json"
+        panel.write_text("{}", encoding="utf-8")  # panel vide : aucun accès réseau dans le test
+        assert main(["run", "--input", str(journal), "--panel", str(panel), "--store"]) == 0
+        files = list((tmp_path / "runs").rglob("*.json"))
+        assert files, "l'analyse tardive doit être enregistrée"
+        record = json.loads(files[0].read_text(encoding="utf-8"))
+        assert record["apres_course"] is True and "APRÈS LE DÉPART" in record["avertissement"]
+
+    def test_analyse_tardive_n_ecrase_pas_l_avant_course(self, tmp_path, capsys, monkeypatch):
+        monkeypatch.setenv("HYPERION_RUNS_DIR", str(tmp_path / "runs"))
+        synthetic = SyntheticProvider(seed=7).race(dt.date.today(), 1)
+        journal = tmp_path / "journal.json"
+        journal.write_text(json.dumps(synthetic.race.as_dict()), encoding="utf-8")
+        panel = tmp_path / "panel.json"
+        panel.write_text("{}", encoding="utf-8")  # panel vide : aucun accès réseau dans le test
+        monkeypatch.setattr("hyperion.cli.after_departure", lambda *a, **k: False)
+        assert main(["run", "--input", str(journal), "--panel", str(panel), "--store"]) == 0
+        monkeypatch.setattr("hyperion.cli.after_departure", lambda *a, **k: True)
+        assert main(["run", "--input", str(journal), "--panel", str(panel), "--store"]) == 0
+        files = list((tmp_path / "runs").rglob("*.json"))
+        assert len(files) == 1
+        assert not json.loads(files[0].read_text(encoding="utf-8")).get("apres_course")
+
     def test_date_invalide(self):
         from hyperion.cli import _parse_date
 

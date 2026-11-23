@@ -83,3 +83,4 @@ def test_cumul_compare_predit_et_observe_et_message_court(tmp_path):
 def test_les_enregistrements_de_resultat_ne_sont_pas_des_analyses():
     assert ev.is_analysis(_record())
     assert not ev.is_analysis({"kind": "official_result", "race_id": "x", "classement": [{"a": 1}]})
+    assert not ev.is_analysis({**_record(), "apres_course": True}), "analyse tardive : hors statistiques"

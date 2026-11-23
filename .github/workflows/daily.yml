@@ -20,7 +20,7 @@ on:
     # 06h23 UTC = 06h23 a Ouagadougou = 08h23/07h23 a Paris : analyse du matin.
     # Minutes decalees a dessein : GitHub retarde fortement les cron places a
     # l'heure pile (0 9 * * *), d'ou les runs qui partaient vers 11h-13h.
-    - cron: "23 6 * * *"
+    - cron: "53 4 * * *"
     # Passes de rattrapage : GitHub saute ou retarde parfois un cron (cas du 15/11 : rien
     # n'a demarre a 06h23). L'etape "Deja analyse aujourd'hui ?" evite tout doublon.
     - cron: "41 7 * * *"
@@ -65,7 +65,7 @@ jobs:
 
       - name: Déjà analysé aujourd'hui ?
         id: deja
-        if: (github.event.schedule == '23 6 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.attendre == 'true')
+        if: (github.event.schedule == '53 4 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.attendre == 'true')
         run: |
           if ls data/runs/$(date -u +%Y)/$(date -u +%m)/$(date -u +%d)/*.json >/dev/null 2>&1; then
             echo "Analyse déjà stockée aujourd'hui : on ne relance pas."
@@ -87,7 +87,7 @@ jobs:
           python -m pip install -e ".[dev]"
 
       - name: Attendre l'heure optimale avant le départ
-        if: steps.deja.outputs.skip != 'true' && ((github.event.schedule == '23 6 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || github.event.inputs.attendre == 'true')
+        if: steps.deja.outputs.skip != 'true' && ((github.event.schedule == '53 4 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || github.event.inputs.attendre == 'true')
         run: python scripts/attendre_cloture.py
 
       - name: Vérifier la configuration Telegram
@@ -162,7 +162,7 @@ jobs:
           sleep 1
           if grep -q "Course déjà partie" /tmp/analyse.err 2>/dev/null; then
             echo "::warning title=Analyse non enregistree::Course deja partie au lancement (declenchement GitHub en retard). Aucune analyse avant-course stockee."
-            printf '{"date":"%s","statut":"course_deja_partie","heure_utc":"%s","message":"Lancement trop tardif : la course etait deja partie, aucune analyse avant-course enregistree."}\n' "$(date -u +%F)" "$(date -u +%H:%M)" > data/status.json
+            printf '{"date":"%s","statut":"analyse_apres_course","heure_utc":"%s","message":"Lancement tardif : la course etait deja partie. Analyse enregistree avec avertissement, hors statistiques."}\n' "$(date -u +%F)" "$(date -u +%H:%M)" > data/status.json
           else
             printf '{"date":"%s","statut":"ok","heure_utc":"%s"}\n' "$(date -u +%F)" "$(date -u +%H:%M)" > data/status.json
           fi
@@ -180,7 +180,7 @@ jobs:
           fi
 
       - name: Surveillance du marché jusqu'au départ (mode vivant)
-        if: steps.deja.outputs.skip != 'true' && ((github.event.schedule == '23 6 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || github.event.inputs.attendre == 'true')
+        if: steps.deja.outputs.skip != 'true' && ((github.event.schedule == '53 4 * * *' || github.event.schedule == '41 7 * * *' || github.event.schedule == '11 9 * * *') || github.event.inputs.attendre == 'true')
         continue-on-error: true
         env:
           HYPERION_DRY_RUN: ${{ github.event.inputs.mode == 'simulation' && 'true' || 'false' }}

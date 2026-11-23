@@ -21,7 +21,12 @@ EVAL_DIR = Path("data/evaluations")
 
 
 def is_analysis(record: Mapping[str, Any]) -> bool:
-    return bool(record.get("classement")) and record.get("kind") != "official_result"
+    # Les analyses faites APRES le départ (apres_course) ne sont jamais comptées dans les bilans.
+    return (
+        bool(record.get("classement"))
+        and record.get("kind") != "official_result"
+        and not record.get("apres_course")
+    )
 
 
 def _numbers_to_ids(record: Mapping[str, Any]) -> dict[int, str]:
@@ -71,6 +76,7 @@ def fetch_official_results(
             None,
         )
         if not course or not course.get("isArriveeDefinitive") or not course.get("ordreArrivee"):
+            log(f"  - {rec.get('race_id')} : arrivée non définitive ou absente côté PMU (réessai au prochain passage)")
             continue  # pas encore courue ou arrivée non définitive : on n'évalue pas
         numbers = [int(n) for group in course["ordreArrivee"] for n in group]
         ids = _numbers_to_ids(rec)
