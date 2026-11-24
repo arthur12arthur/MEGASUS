@@ -1,0 +1,2121 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261124-deauville-la-touques-c1",
+  "date": "2026-11-24",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-LA TOUQUES",
+    "date": "2026-11-24",
+    "start_time": "2026-11-24T12:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DU CHATEAU DE BAYEUX",
+    "distance_m": 1900,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_24-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-24T12:45:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-24T15:22:12.003484+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "cassius",
+        "name": "CASSIUS",
+        "number": 1,
+        "odds_pdf": 11.0,
+        "odds_latest": 11.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "chess",
+        "name": "CHESS",
+        "number": 2,
+        "odds_pdf": 22.0,
+        "odds_latest": 27.0,
+        "delta": 0.22727272727272727,
+        "implied_shift": 0.00841750841750842,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "number": 3,
+        "odds_pdf": 7.0,
+        "odds_latest": 5.5,
+        "delta": -0.21428571428571427,
+        "implied_shift": -0.038961038961038974,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "ram-sea",
+        "name": "RAM SEA",
+        "number": 4,
+        "odds_pdf": 24.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      },
+      {
+        "horse_id": "ferdinand-premier",
+        "name": "FERDINAND PREMIER",
+        "number": 5,
+        "odds_pdf": 18.0,
+        "odds_latest": 34.0,
+        "delta": 0.8888888888888888,
+        "implied_shift": 0.0261437908496732,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "misterwinner",
+        "name": "MISTERWINNER",
+        "number": 6,
+        "odds_pdf": 38.0,
+        "odds_latest": 24.0,
+        "delta": -0.3684210526315789,
+        "implied_shift": -0.015350877192982455,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "pretty-queen",
+        "name": "PRETTY QUEEN",
+        "number": 7,
+        "odds_pdf": 47.0,
+        "odds_latest": 37.0,
+        "delta": -0.2127659574468085,
+        "implied_shift": -0.005750431282346178,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "tamyz",
+        "name": "TAMYZ",
+        "number": 8,
+        "odds_pdf": 13.0,
+        "odds_latest": 7.9,
+        "delta": -0.3923076923076923,
+        "implied_shift": -0.04965920155793571,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mononof",
+        "name": "MONONOF",
+        "number": 9,
+        "odds_pdf": 28.0,
+        "odds_latest": 32.0,
+        "delta": 0.14285714285714285,
+        "implied_shift": 0.004464285714285712,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "step-morning",
+        "name": "STEP MORNING",
+        "number": 10,
+        "odds_pdf": 16.0,
+        "odds_latest": 25.0,
+        "delta": 0.5625,
+        "implied_shift": 0.0225,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 11,
+        "odds_pdf": 22.0,
+        "odds_latest": 21.0,
+        "delta": -0.045454545454545456,
+        "implied_shift": -0.0021645021645021606,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 12,
+        "odds_pdf": 8.0,
+        "odds_latest": 4.5,
+        "delta": -0.4375,
+        "implied_shift": -0.09722222222222221,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "roulette",
+        "name": "ROULETTE",
+        "number": 13,
+        "odds_pdf": 19.0,
+        "odds_latest": 8.4,
+        "delta": -0.5578947368421052,
+        "implied_shift": -0.06641604010025062,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 14,
+        "odds_pdf": 24.0,
+        "odds_latest": 31.0,
+        "delta": 0.2916666666666667,
+        "implied_shift": 0.009408602150537633,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "sapristi",
+        "name": "SAPRISTI",
+        "number": 15,
+        "odds_pdf": 27.0,
+        "odds_latest": 27.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "starac",
+        "name": "STARAC",
+        "number": 16,
+        "odds_pdf": 10.0,
+        "odds_latest": 8.4,
+        "delta": -0.15999999999999998,
+        "implied_shift": -0.019047619047619035,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [
+      "ram-sea"
+    ],
+    "warnings": [
+      "RAM SEA (ram-sea) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "cassius",
+      "chess",
+      "colgan-senora",
+      "ferdinand-premier",
+      "misterwinner",
+      "pretty-queen",
+      "tamyz",
+      "mononof",
+      "step-morning",
+      "fearless-cheetah",
+      "hasapiko",
+      "roulette",
+      "natorspeed-essef",
+      "sapristi",
+      "starac"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "roulette",
+        "name": "ROULETTE",
+        "number": 13,
+        "dimensions": {
+          "historique": 8.805120051449066,
+          "forme": 8.447761194029852,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 8.6479,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 14,
+        "dimensions": {
+          "historique": 9.240802751176654,
+          "forme": 6.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.8477,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "starac",
+        "name": "STARAC",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.207085772450141,
+          "forme": 6.179104477611941,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.7548,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "step-morning",
+        "name": "STEP MORNING",
+        "number": 10,
+        "dimensions": {
+          "historique": 8.508771929824562,
+          "forme": 3.925373134328358,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.4921,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "cassius",
+        "name": "CASSIUS",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.6881115779548885,
+          "forme": 4.313432835820895,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2033,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "number": 3,
+        "dimensions": {
+          "historique": 8.582802535118269,
+          "forme": 3.134328358208955,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.1855,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "tamyz",
+        "name": "TAMYZ",
+        "number": 8,
+        "dimensions": {
+          "historique": 7.03155398368109,
+          "forme": 4.7164179104477615,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.0129,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "pretty-queen",
+        "name": "PRETTY QUEEN",
+        "number": 7,
+        "dimensions": {
+          "historique": 8.411655617517999,
+          "forme": 2.895522388059702,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9846,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "sapristi",
+        "name": "SAPRISTI",
+        "number": 15,
+        "dimensions": {
+          "historique": 8.054261776539802,
+          "forme": 3.283582089552239,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.9552,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "chess",
+        "name": "CHESS",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.774786110797908,
+          "forme": 3.4104477611940296,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.8545,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.773747166308399,
+          "forme": 3.1641791044776117,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7455,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ferdinand-premier",
+        "name": "FERDINAND PREMIER",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.219743024504166,
+          "forme": 2.328358208955224,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.0675,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 11,
+        "dimensions": {
+          "historique": 7.767654549756513,
+          "forme": 1.4029850746268657,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.9672,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mononof",
+        "name": "MONONOF",
+        "number": 9,
+        "dimensions": {
+          "historique": 5.784697240308346,
+          "forme": 2.5373134328358207,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.3558,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "misterwinner",
+        "name": "MISTERWINNER",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.180735195342,
+          "forme": 2.0,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.3412,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "roulette",
+      "natorspeed-essef",
+      "starac",
+      "step-morning",
+      "cassius",
+      "colgan-senora",
+      "tamyz",
+      "pretty-queen",
+      "sapristi",
+      "chess",
+      "hasapiko",
+      "ferdinand-premier",
+      "fearless-cheetah",
+      "mononof",
+      "misterwinner"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "cassius": {
+          "horse_id": "cassius",
+          "name": "CASSIUS",
+          "p_win": 0.0609,
+          "p_top3": 0.19146,
+          "p_top5": 0.33646,
+          "expected_position": 7.6467,
+          "position_distribution": {
+            "1": 0.0609,
+            "2": 0.06412,
+            "3": 0.06644,
+            "4": 0.07256,
+            "5": 0.07244,
+            "6": 0.07532,
+            "7": 0.0772,
+            "8": 0.07748,
+            "9": 0.0766,
+            "10": 0.07708,
+            "11": 0.07172,
+            "12": 0.06876,
+            "13": 0.06114,
+            "14": 0.04898,
+            "15": 0.02926
+          }
+        },
+        "chess": {
+          "horse_id": "chess",
+          "name": "CHESS",
+          "p_win": 0.05264,
+          "p_top3": 0.16376,
+          "p_top5": 0.29312,
+          "expected_position": 8.2538,
+          "position_distribution": {
+            "1": 0.05264,
+            "2": 0.05262,
+            "3": 0.0585,
+            "4": 0.0627,
+            "5": 0.06666,
+            "6": 0.06726,
+            "7": 0.06788,
+            "8": 0.07378,
+            "9": 0.07462,
+            "10": 0.07744,
+            "11": 0.0786,
+            "12": 0.07762,
+            "13": 0.07692,
+            "14": 0.06598,
+            "15": 0.04678
+          }
+        },
+        "colgan-senora": {
+          "horse_id": "colgan-senora",
+          "name": "COLGAN SENORA",
+          "p_win": 0.06088,
+          "p_top3": 0.1914,
+          "p_top5": 0.33288,
+          "expected_position": 7.6881,
+          "position_distribution": {
+            "1": 0.06088,
+            "2": 0.06304,
+            "3": 0.06748,
+            "4": 0.06984,
+            "5": 0.07164,
+            "6": 0.07424,
+            "7": 0.0759,
+            "8": 0.07752,
+            "9": 0.07846,
+            "10": 0.0757,
+            "11": 0.073,
+            "12": 0.07106,
+            "13": 0.06206,
+            "14": 0.04908,
+            "15": 0.0301
+          }
+        },
+        "ferdinand-premier": {
+          "horse_id": "ferdinand-premier",
+          "name": "FERDINAND PREMIER",
+          "p_win": 0.03442,
+          "p_top3": 0.11062,
+          "p_top5": 0.20238,
+          "expected_position": 9.6527,
+          "position_distribution": {
+            "1": 0.03442,
+            "2": 0.03752,
+            "3": 0.03868,
+            "4": 0.04336,
+            "5": 0.0484,
+            "6": 0.0516,
+            "7": 0.05458,
+            "8": 0.05978,
+            "9": 0.06378,
+            "10": 0.0725,
+            "11": 0.07754,
+            "12": 0.0881,
+            "13": 0.1,
+            "14": 0.11342,
+            "15": 0.11632
+          }
+        },
+        "misterwinner": {
+          "horse_id": "misterwinner",
+          "name": "MISTERWINNER",
+          "p_win": 0.02512,
+          "p_top3": 0.08,
+          "p_top5": 0.14338,
+          "expected_position": 10.7997,
+          "position_distribution": {
+            "1": 0.02512,
+            "2": 0.02598,
+            "3": 0.0289,
+            "4": 0.0295,
+            "5": 0.03388,
+            "6": 0.03914,
+            "7": 0.04336,
+            "8": 0.04592,
+            "9": 0.05266,
+            "10": 0.05948,
+            "11": 0.07062,
+            "12": 0.08104,
+            "13": 0.10112,
+            "14": 0.13902,
+            "15": 0.22426
+          }
+        },
+        "pretty-queen": {
+          "horse_id": "pretty-queen",
+          "name": "PRETTY QUEEN",
+          "p_win": 0.0548,
+          "p_top3": 0.1748,
+          "p_top5": 0.3036,
+          "expected_position": 8.0735,
+          "position_distribution": {
+            "1": 0.0548,
+            "2": 0.05814,
+            "3": 0.06186,
+            "4": 0.06234,
+            "5": 0.06646,
+            "6": 0.06912,
+            "7": 0.07124,
+            "8": 0.07552,
+            "9": 0.07522,
+            "10": 0.07778,
+            "11": 0.07992,
+            "12": 0.07646,
+            "13": 0.06972,
+            "14": 0.06146,
+            "15": 0.03996
+          }
+        },
+        "tamyz": {
+          "horse_id": "tamyz",
+          "name": "TAMYZ",
+          "p_win": 0.05672,
+          "p_top3": 0.17748,
+          "p_top5": 0.3109,
+          "expected_position": 7.9881,
+          "position_distribution": {
+            "1": 0.05672,
+            "2": 0.05882,
+            "3": 0.06194,
+            "4": 0.0647,
+            "5": 0.06872,
+            "6": 0.06992,
+            "7": 0.07426,
+            "8": 0.0735,
+            "9": 0.07636,
+            "10": 0.07742,
+            "11": 0.07582,
+            "12": 0.07598,
+            "13": 0.06902,
+            "14": 0.05862,
+            "15": 0.0382
+          }
+        },
+        "mononof": {
+          "horse_id": "mononof",
+          "name": "MONONOF",
+          "p_win": 0.02436,
+          "p_top3": 0.07906,
+          "p_top5": 0.14344,
+          "expected_position": 10.7957,
+          "position_distribution": {
+            "1": 0.02436,
+            "2": 0.02508,
+            "3": 0.02962,
+            "4": 0.02996,
+            "5": 0.03442,
+            "6": 0.03756,
+            "7": 0.0438,
+            "8": 0.0464,
+            "9": 0.05306,
+            "10": 0.06124,
+            "11": 0.06946,
+            "12": 0.08094,
+            "13": 0.10536,
+            "14": 0.1388,
+            "15": 0.21994
+          }
+        },
+        "step-morning": {
+          "horse_id": "step-morning",
+          "name": "STEP MORNING",
+          "p_win": 0.07122,
+          "p_top3": 0.2204,
+          "p_top5": 0.37804,
+          "expected_position": 7.1508,
+          "position_distribution": {
+            "1": 0.07122,
+            "2": 0.07446,
+            "3": 0.07472,
+            "4": 0.0789,
+            "5": 0.07874,
+            "6": 0.0794,
+            "7": 0.07948,
+            "8": 0.08092,
+            "9": 0.07862,
+            "10": 0.0732,
+            "11": 0.06608,
+            "12": 0.05902,
+            "13": 0.04968,
+            "14": 0.03684,
+            "15": 0.01872
+          }
+        },
+        "fearless-cheetah": {
+          "horse_id": "fearless-cheetah",
+          "name": "FEARLESS CHEETAH",
+          "p_win": 0.0317,
+          "p_top3": 0.1056,
+          "p_top5": 0.19164,
+          "expected_position": 9.8345,
+          "position_distribution": {
+            "1": 0.0317,
+            "2": 0.0364,
+            "3": 0.0375,
+            "4": 0.0417,
+            "5": 0.04434,
+            "6": 0.0486,
+            "7": 0.05204,
+            "8": 0.05788,
+            "9": 0.06544,
+            "10": 0.0694,
+            "11": 0.0797,
+            "12": 0.08638,
+            "13": 0.1,
+            "14": 0.11994,
+            "15": 0.12898
+          }
+        },
+        "hasapiko": {
+          "horse_id": "hasapiko",
+          "name": "HASAPIKO",
+          "p_win": 0.04796,
+          "p_top3": 0.154,
+          "p_top5": 0.27562,
+          "expected_position": 8.4704,
+          "position_distribution": {
+            "1": 0.04796,
+            "2": 0.05132,
+            "3": 0.05472,
+            "4": 0.05776,
+            "5": 0.06386,
+            "6": 0.06538,
+            "7": 0.06704,
+            "8": 0.07268,
+            "9": 0.07372,
+            "10": 0.07786,
+            "11": 0.08008,
+            "12": 0.08126,
+            "13": 0.07906,
+            "14": 0.07308,
+            "15": 0.05422
+          }
+        },
+        "roulette": {
+          "horse_id": "roulette",
+          "name": "ROULETTE",
+          "p_win": 0.20732,
+          "p_top3": 0.53406,
+          "p_top5": 0.75314,
+          "expected_position": 3.8919,
+          "position_distribution": {
+            "1": 0.20732,
+            "2": 0.1779,
+            "3": 0.14884,
+            "4": 0.12018,
+            "5": 0.0989,
+            "6": 0.07654,
+            "7": 0.05854,
+            "8": 0.0423,
+            "9": 0.02976,
+            "10": 0.01918,
+            "11": 0.01108,
+            "12": 0.00604,
+            "13": 0.00238,
+            "14": 0.00088,
+            "15": 0.00016
+          }
+        },
+        "natorspeed-essef": {
+          "horse_id": "natorspeed-essef",
+          "name": "NATORSPEED ESSEF",
+          "p_win": 0.13926,
+          "p_top3": 0.39504,
+          "p_top5": 0.61196,
+          "expected_position": 4.9634,
+          "position_distribution": {
+            "1": 0.13926,
+            "2": 0.13222,
+            "3": 0.12356,
+            "4": 0.11516,
+            "5": 0.10176,
+            "6": 0.09192,
+            "7": 0.07778,
+            "8": 0.06576,
+            "9": 0.05132,
+            "10": 0.03856,
+            "11": 0.02724,
+            "12": 0.01798,
+            "13": 0.01126,
+            "14": 0.00508,
+            "15": 0.00114
+          }
+        },
+        "sapristi": {
+          "horse_id": "sapristi",
+          "name": "SAPRISTI",
+          "p_win": 0.05306,
+          "p_top3": 0.17322,
+          "p_top5": 0.30398,
+          "expected_position": 8.0912,
+          "position_distribution": {
+            "1": 0.05306,
+            "2": 0.0564,
+            "3": 0.06376,
+            "4": 0.0638,
+            "5": 0.06696,
+            "6": 0.06874,
+            "7": 0.07332,
+            "8": 0.07254,
+            "9": 0.07504,
+            "10": 0.07584,
+            "11": 0.07808,
+            "12": 0.07782,
+            "13": 0.07352,
+            "14": 0.06096,
+            "15": 0.04016
+          }
+        },
+        "starac": {
+          "horse_id": "starac",
+          "name": "STARAC",
+          "p_win": 0.07964,
+          "p_top3": 0.2491,
+          "p_top5": 0.41946,
+          "expected_position": 6.6994,
+          "position_distribution": {
+            "1": 0.07964,
+            "2": 0.08598,
+            "3": 0.08348,
+            "4": 0.08754,
+            "5": 0.08282,
+            "6": 0.08526,
+            "7": 0.08358,
+            "8": 0.07802,
+            "9": 0.07534,
+            "10": 0.06732,
+            "11": 0.06106,
+            "12": 0.05154,
+            "13": 0.03876,
+            "14": 0.02786,
+            "15": 0.0118
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "roulette",
+          "natorspeed-essef",
+          "starac"
+        ],
+        "23": [
+          "roulette",
+          "natorspeed-essef",
+          "starac"
+        ],
+        "37": [
+          "roulette",
+          "natorspeed-essef",
+          "starac"
+        ],
+        "51": [
+          "roulette",
+          "natorspeed-essef",
+          "starac"
+        ],
+        "73": [
+          "roulette",
+          "natorspeed-essef",
+          "starac"
+        ]
+      },
+      "reference_top": [
+        "natorspeed-essef",
+        "roulette",
+        "starac"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "roulette": 10.0,
+        "natorspeed-essef": 5.0,
+        "starac": 0.0
+      },
+      "order": [
+        "roulette",
+        "natorspeed-essef",
+        "starac"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "roulette": 14.0,
+        "natorspeed-essef": 13.0,
+        "starac": 12.0,
+        "step-morning": 11.0,
+        "cassius": 10.0,
+        "colgan-senora": 9.0,
+        "tamyz": 8.0,
+        "pretty-queen": 7.0,
+        "sapristi": 6.0,
+        "chess": 5.0,
+        "hasapiko": 4.0,
+        "ferdinand-premier": 3.0,
+        "fearless-cheetah": 2.0,
+        "mononof": 1.0,
+        "misterwinner": 0.0
+      },
+      "order": [
+        "roulette",
+        "natorspeed-essef",
+        "starac",
+        "step-morning",
+        "cassius",
+        "colgan-senora",
+        "tamyz",
+        "pretty-queen",
+        "sapristi",
+        "chess",
+        "hasapiko",
+        "ferdinand-premier",
+        "fearless-cheetah",
+        "mononof",
+        "misterwinner"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "roulette",
+        "natorspeed-essef",
+        "starac",
+        "step-morning",
+        "cassius",
+        "colgan-senora",
+        "tamyz",
+        "pretty-queen",
+        "sapristi",
+        "chess",
+        "hasapiko",
+        "ferdinand-premier",
+        "fearless-cheetah",
+        "mononof",
+        "misterwinner"
+      ],
+      "copeland": {
+        "roulette": 14.0,
+        "natorspeed-essef": 12.0,
+        "starac": 10.0,
+        "step-morning": 8.0,
+        "cassius": 6.0,
+        "colgan-senora": 4.0,
+        "tamyz": 2.0,
+        "pretty-queen": 0.0,
+        "sapristi": -2.0,
+        "chess": -4.0,
+        "hasapiko": -6.0,
+        "ferdinand-premier": -8.0,
+        "fearless-cheetah": -10.0,
+        "mononof": -12.0,
+        "misterwinner": -14.0
+      },
+      "normalized": {
+        "roulette": 1.0,
+        "natorspeed-essef": 0.9286,
+        "starac": 0.8571,
+        "step-morning": 0.7857,
+        "cassius": 0.7143,
+        "colgan-senora": 0.6429,
+        "tamyz": 0.5714,
+        "pretty-queen": 0.5,
+        "sapristi": 0.4286,
+        "chess": 0.3571,
+        "hasapiko": 0.2857,
+        "ferdinand-premier": 0.2143,
+        "fearless-cheetah": 0.1429,
+        "mononof": 0.0714,
+        "misterwinner": 0.0
+      },
+      "mean_rank": {
+        "roulette": 0.0,
+        "natorspeed-essef": 1.0,
+        "starac": 2.0,
+        "step-morning": 3.0,
+        "cassius": 4.0,
+        "colgan-senora": 5.0,
+        "tamyz": 6.0,
+        "pretty-queen": 7.0,
+        "sapristi": 8.0,
+        "chess": 9.0,
+        "hasapiko": 10.0,
+        "ferdinand-premier": 11.0,
+        "fearless-cheetah": 12.0,
+        "mononof": 13.0,
+        "misterwinner": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "cassius",
+        "name": "CASSIUS",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "chess",
+        "name": "CHESS",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "colgan-senora",
+        "name": "COLGAN SENORA",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ferdinand-premier",
+        "name": "FERDINAND PREMIER",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "misterwinner",
+        "name": "MISTERWINNER",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "pretty-queen",
+        "name": "PRETTY QUEEN",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "tamyz",
+        "name": "TAMYZ",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mononof",
+        "name": "MONONOF",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "step-morning",
+        "name": "STEP MORNING",
+        "number": 10,
+        "signals": [
+          "l'analyse interne le place 5 rangs plus haut que le marché (interne 4 vs marché 9)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "fearless-cheetah",
+        "name": "FEARLESS CHEETAH",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hasapiko",
+        "name": "HASAPIKO",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "roulette",
+        "name": "ROULETTE",
+        "number": 13,
+        "signals": [
+          "cote fondue de -56% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 3 rangs plus haut que le marché (interne 1 vs marché 4)"
+        ],
+        "severity": "moyenne"
+      },
+      {
+        "horse_id": "natorspeed-essef",
+        "name": "NATORSPEED ESSEF",
+        "number": 14,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 2 vs marché 12)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "sapristi",
+        "name": "SAPRISTI",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "starac",
+        "name": "STARAC",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "step-morning",
+      "roulette",
+      "natorspeed-essef"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "starac",
+          "tamyz",
+          "colgan-senora",
+          "chess",
+          "cassius",
+          "fearless-cheetah",
+          "roulette",
+          "sapristi",
+          "hasapiko",
+          "step-morning",
+          "pretty-queen",
+          "ferdinand-premier",
+          "mononof",
+          "natorspeed-essef",
+          "misterwinner"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "colgan-senora",
+          "hasapiko",
+          "cassius",
+          "starac",
+          "step-morning",
+          "ferdinand-premier",
+          "tamyz",
+          "fearless-cheetah",
+          "chess",
+          "roulette",
+          "natorspeed-essef",
+          "mononof",
+          "sapristi",
+          "misterwinner",
+          "pretty-queen"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 8 chances retenues",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "cassius",
+          "starac",
+          "tamyz",
+          "colgan-senora",
+          "chess",
+          "ferdinand-premier",
+          "misterwinner",
+          "pretty-queen",
+          "mononof",
+          "step-morning",
+          "fearless-cheetah",
+          "hasapiko",
+          "roulette",
+          "natorspeed-essef",
+          "sapristi"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "roulette",
+          "hasapiko",
+          "starac",
+          "tamyz",
+          "colgan-senora",
+          "chess",
+          "cassius",
+          "ferdinand-premier",
+          "fearless-cheetah",
+          "misterwinner",
+          "pretty-queen",
+          "mononof",
+          "step-morning",
+          "natorspeed-essef",
+          "sapristi"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "cassius",
+          "chess",
+          "colgan-senora",
+          "ferdinand-premier",
+          "misterwinner",
+          "pretty-queen",
+          "tamyz",
+          "mononof",
+          "step-morning",
+          "fearless-cheetah",
+          "hasapiko",
+          "roulette",
+          "natorspeed-essef",
+          "sapristi",
+          "starac"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-24T15:22:07.569173+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "cassius": 0.076851,
+      "chess": 0.031309,
+      "colgan-senora": 0.153701,
+      "ferdinand-premier": 0.024863,
+      "misterwinner": 0.035223,
+      "pretty-queen": 0.022847,
+      "tamyz": 0.107007,
+      "mononof": 0.026417,
+      "step-morning": 0.033814,
+      "fearless-cheetah": 0.040255,
+      "hasapiko": 0.187857,
+      "roulette": 0.100638,
+      "natorspeed-essef": 0.02727,
+      "sapristi": 0.031309,
+      "starac": 0.100638
+    },
+    "consensus_ranking": [
+      "colgan-senora",
+      "hasapiko",
+      "cassius",
+      "starac",
+      "step-morning",
+      "ferdinand-premier",
+      "tamyz",
+      "fearless-cheetah",
+      "chess",
+      "roulette",
+      "natorspeed-essef",
+      "mononof",
+      "sapristi",
+      "misterwinner",
+      "pretty-queen"
+    ],
+    "convergence": 0.4286,
+    "notes": [
+      "convergence Top 5 interne/externe : 43%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "roulette",
+      "natorspeed-essef"
+    ],
+    "externe_seulement": [
+      "colgan-senora",
+      "hasapiko"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 6.557,
+    "level": "bonne",
+    "components": {
+      "ecart_scores": 4.001,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 4.2857,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · CASSIUS : aptitude",
+      "n°2 · CHESS : aptitude",
+      "n°3 · COLGAN SENORA : aptitude",
+      "n°5 · FERDINAND PREMIER : aptitude",
+      "n°6 · MISTERWINNER : aptitude",
+      "n°7 · PRETTY QUEEN : aptitude",
+      "n°8 · TAMYZ : aptitude",
+      "n°9 · MONONOF : aptitude",
+      "n°10 · STEP MORNING : aptitude",
+      "n°11 · FEARLESS CHEETAH : aptitude",
+      "n°12 · HASAPIKO : aptitude",
+      "n°13 · ROULETTE : aptitude",
+      "n°14 · NATORSPEED ESSEF : aptitude",
+      "n°15 · SAPRISTI : aptitude",
+      "n°16 · STARAC : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.80 (saturé à 2.0) → 4.0/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-11-24T12:55:00+00:00",
+    "betting_close": "2026-11-24T12:45:00+00:00",
+    "race_started": true,
+    "now": "2026-11-24T15:22:12.050278+00:00",
+    "minutes_late": 157.2,
+    "minutes_to_close": -157.2,
+    "schedule": {
+      "start_ouagadougou": "2026-11-24T12:55:00+00:00",
+      "start_paris": "2026-11-24T13:55:00+01:00",
+      "close_lonab": "2026-11-24T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 13,
+      "cheval": "ROULETTE",
+      "horse_id": "roulette"
+    },
+    {
+      "rang": 2,
+      "numero": 14,
+      "cheval": "NATORSPEED ESSEF",
+      "horse_id": "natorspeed-essef"
+    },
+    {
+      "rang": 3,
+      "numero": 16,
+      "cheval": "STARAC",
+      "horse_id": "starac"
+    },
+    {
+      "rang": 4,
+      "numero": 10,
+      "cheval": "STEP MORNING",
+      "horse_id": "step-morning"
+    },
+    {
+      "rang": 5,
+      "numero": 1,
+      "cheval": "CASSIUS",
+      "horse_id": "cassius"
+    },
+    {
+      "rang": 6,
+      "numero": 3,
+      "cheval": "COLGAN SENORA",
+      "horse_id": "colgan-senora"
+    },
+    {
+      "rang": 7,
+      "numero": 8,
+      "cheval": "TAMYZ",
+      "horse_id": "tamyz"
+    },
+    {
+      "rang": 8,
+      "numero": 7,
+      "cheval": "PRETTY QUEEN",
+      "horse_id": "pretty-queen"
+    },
+    {
+      "rang": 9,
+      "numero": 15,
+      "cheval": "SAPRISTI",
+      "horse_id": "sapristi"
+    },
+    {
+      "rang": 10,
+      "numero": 2,
+      "cheval": "CHESS",
+      "horse_id": "chess"
+    },
+    {
+      "rang": 11,
+      "numero": 12,
+      "cheval": "HASAPIKO",
+      "horse_id": "hasapiko"
+    },
+    {
+      "rang": 12,
+      "numero": 5,
+      "cheval": "FERDINAND PREMIER",
+      "horse_id": "ferdinand-premier"
+    },
+    {
+      "rang": 13,
+      "numero": 11,
+      "cheval": "FEARLESS CHEETAH",
+      "horse_id": "fearless-cheetah"
+    },
+    {
+      "rang": 14,
+      "numero": 9,
+      "cheval": "MONONOF",
+      "horse_id": "mononof"
+    },
+    {
+      "rang": 15,
+      "numero": 6,
+      "cheval": "MISTERWINNER",
+      "horse_id": "misterwinner"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 13,
+      "cheval": "ROULETTE",
+      "score": 8.6479
+    },
+    {
+      "numero": 14,
+      "cheval": "NATORSPEED ESSEF",
+      "score": 7.8477
+    },
+    {
+      "numero": 16,
+      "cheval": "STARAC",
+      "score": 6.7548
+    },
+    {
+      "numero": 10,
+      "cheval": "STEP MORNING",
+      "score": 6.4921
+    },
+    {
+      "numero": 1,
+      "cheval": "CASSIUS",
+      "score": 6.2033
+    },
+    {
+      "numero": 3,
+      "cheval": "COLGAN SENORA",
+      "score": 6.1855
+    },
+    {
+      "numero": 8,
+      "cheval": "TAMYZ",
+      "score": 6.0129
+    },
+    {
+      "numero": 7,
+      "cheval": "PRETTY QUEEN",
+      "score": 5.9846
+    },
+    {
+      "numero": 15,
+      "cheval": "SAPRISTI",
+      "score": 5.9552
+    },
+    {
+      "numero": 2,
+      "cheval": "CHESS",
+      "score": 5.8545
+    },
+    {
+      "numero": 12,
+      "cheval": "HASAPIKO",
+      "score": 5.7455
+    },
+    {
+      "numero": 5,
+      "cheval": "FERDINAND PREMIER",
+      "score": 5.0675
+    },
+    {
+      "numero": 11,
+      "cheval": "FEARLESS CHEETAH",
+      "score": 4.9672
+    },
+    {
+      "numero": 9,
+      "cheval": "MONONOF",
+      "score": 4.3558
+    },
+    {
+      "numero": 6,
+      "cheval": "MISTERWINNER",
+      "score": 4.3412
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 8.96,
+      "entropie_norm": 0.8902,
+      "p_favori": 0.2003,
+      "ratio_1_2": 1.2431
+    },
+    "p_gagnant_dans_selection": 0.6756,
+    "nb_attendu_dans_top5": 2.467,
+    "p_au_moins": {
+      "1": 0.9896,
+      "2": 0.8687,
+      "3": 0.4898,
+      "4": 0.1138,
+      "5": 0.005
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-24T12:56:30+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "49 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 12,
+        "cheval": "HASAPIKO",
+        "cote": 4.5,
+        "p_gagne": 0.2003,
+        "p_top3": 0.4062,
+        "p_top5": 0.5892,
+        "rang_systeme": 11
+      },
+      {
+        "numero": 3,
+        "cheval": "COLGAN SENORA",
+        "cote": 5.5,
+        "p_gagne": 0.1611,
+        "p_top3": 0.3599,
+        "p_top5": 0.539,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 8,
+        "cheval": "TAMYZ",
+        "cote": 7.9,
+        "p_gagne": 0.1088,
+        "p_top3": 0.2844,
+        "p_top5": 0.4566,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 13,
+        "cheval": "ROULETTE",
+        "cote": 8.4,
+        "p_gagne": 0.1018,
+        "p_top3": 0.2792,
+        "p_top5": 0.4451,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 16,
+        "cheval": "STARAC",
+        "cote": 8.4,
+        "p_gagne": 0.1018,
+        "p_top3": 0.2747,
+        "p_top5": 0.437,
+        "rang_systeme": 3
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": [
+      "résultats d'arrivée présents : la course est déjà courue, les cotes « direct » sont les cotes finales (analyse a posteriori, pas une prévision)"
+    ]
+  },
+  "apres_course": true,
+  "avertissement": "⚠ ANALYSE APRÈS LE DÉPART : la course était déjà partie quand l'analyse a tourné (déclenchement en retard). Pronostic affiché à titre indicatif ; il n'est PAS compté dans les statistiques.",
+  "stored_at": "2026-11-24T15:22:12.088192+00:00"
+}
