@@ -1,0 +1,2111 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261125-deauville-la-touques-c1",
+  "date": "2026-11-25",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "DEAUVILLE-LA TOUQUES",
+    "date": "2026-11-25",
+    "start_time": "2026-11-25T12:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE SAINT-CENERI-LE GEREI",
+    "distance_m": 1400,
+    "terrain": null,
+    "prize": null,
+    "discipline": "plat",
+    "race_type": "PLAT",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_25-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-25T12:45:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "plat",
+    "label": "Plat",
+    "raison": "champ officiel lu directement : 'PLAT'",
+    "poids": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-25T15:03:11.747569+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "weeken",
+        "name": "WEEKEN",
+        "number": 1,
+        "odds_pdf": 25.0,
+        "odds_latest": 12.0,
+        "delta": -0.52,
+        "implied_shift": -0.04333333333333333,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "tissimo",
+        "name": "TISSIMO",
+        "number": 2,
+        "odds_pdf": 26.0,
+        "odds_latest": 33.0,
+        "delta": 0.2692307692307692,
+        "implied_shift": 0.00815850815850816,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "number": 3,
+        "odds_pdf": 28.0,
+        "odds_latest": 26.0,
+        "delta": -0.07142857142857142,
+        "implied_shift": -0.0027472527472527514,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ozan",
+        "name": "OZAN",
+        "number": 4,
+        "odds_pdf": 20.0,
+        "odds_latest": 38.0,
+        "delta": 0.9,
+        "implied_shift": 0.023684210526315794,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 5,
+        "odds_pdf": 19.0,
+        "odds_latest": 26.0,
+        "delta": 0.3684210526315789,
+        "implied_shift": 0.014170040485829954,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "bourgoin",
+        "name": "BOURGOIN",
+        "number": 6,
+        "odds_pdf": 8.0,
+        "odds_latest": 8.6,
+        "delta": 0.07499999999999996,
+        "implied_shift": 0.008720930232558141,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "saint-saens",
+        "name": "SAINT SAENS",
+        "number": 7,
+        "odds_pdf": 11.0,
+        "odds_latest": 8.8,
+        "delta": -0.19999999999999993,
+        "implied_shift": -0.02272727272727272,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 8,
+        "odds_pdf": 27.0,
+        "odds_latest": 14.0,
+        "delta": -0.48148148148148145,
+        "implied_shift": -0.03439153439153439,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 9,
+        "odds_pdf": 21.0,
+        "odds_latest": 6.5,
+        "delta": -0.6904761904761905,
+        "implied_shift": -0.10622710622710624,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 10,
+        "odds_pdf": 7.0,
+        "odds_latest": 5.5,
+        "delta": -0.21428571428571427,
+        "implied_shift": -0.038961038961038974,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 12,
+        "odds_pdf": 16.0,
+        "odds_latest": 16.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "spirito",
+        "name": "SPIRITO",
+        "number": 13,
+        "odds_pdf": 15.0,
+        "odds_latest": 28.0,
+        "delta": 0.8666666666666667,
+        "implied_shift": 0.030952380952380953,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 14,
+        "odds_pdf": 38.0,
+        "odds_latest": 28.0,
+        "delta": -0.2631578947368421,
+        "implied_shift": -0.009398496240601503,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "apogeo",
+        "name": "APOGEO",
+        "number": 15,
+        "odds_pdf": 17.0,
+        "odds_latest": 17.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "paintello",
+        "name": "PAINTELLO",
+        "number": 16,
+        "odds_pdf": 18.0,
+        "odds_latest": 17.0,
+        "delta": -0.05555555555555555,
+        "implied_shift": -0.0032679738562091526,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "weeken",
+      "tissimo",
+      "felix-aux-ormes",
+      "ozan",
+      "grand-scoop",
+      "bourgoin",
+      "saint-saens",
+      "awaiting-christmas",
+      "omicrone",
+      "fire-rebel",
+      "salalah",
+      "spirito",
+      "royalwood",
+      "apogeo",
+      "paintello"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "plat",
+    "weights": {
+      "historique": 0.28,
+      "forme": 0.22,
+      "aptitude": 0.2,
+      "technique": 0.15,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "weeken",
+        "name": "WEEKEN",
+        "number": 1,
+        "dimensions": {
+          "historique": 8.5019204360958,
+          "forme": 6.417910447761193,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 7.585,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 8,
+        "dimensions": {
+          "historique": 7.448503072504958,
+          "forme": 5.701492537313433,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.6798,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "tissimo",
+        "name": "TISSIMO",
+        "number": 2,
+        "dimensions": {
+          "historique": 8.071878678510442,
+          "forme": 4.268656716417911,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.3985,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "bourgoin",
+        "name": "BOURGOIN",
+        "number": 6,
+        "dimensions": {
+          "historique": 7.171864357281588,
+          "forme": 5.044776119402984,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.2359,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "saint-saens",
+        "name": "SAINT SAENS",
+        "number": 7,
+        "dimensions": {
+          "historique": 7.074847703015368,
+          "forme": 4.925373134328358,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 6.1291,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.427727444100384,
+          "forme": 4.835820895522388,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.7273,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ozan",
+        "name": "OZAN",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.836879432624113,
+          "forme": 2.5373134328358207,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.5051,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 10,
+        "dimensions": {
+          "historique": 7.732270867639386,
+          "forme": 2.328358208955224,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.3545,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 5,
+        "dimensions": {
+          "historique": 6.718567459991705,
+          "forme": 3.2686567164179103,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.2006,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.870551611771055,
+          "forme": 2.701492537313433,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 5.0362,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "number": 3,
+        "dimensions": {
+          "historique": 7.081844580297162,
+          "forme": 1.9104477611940296,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.8064,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "spirito",
+        "name": "SPIRITO",
+        "number": 13,
+        "dimensions": {
+          "historique": 5.687313526259828,
+          "forme": 3.044776119402985,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.5246,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.214846098841885,
+          "forme": 0.9850746268656716,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.4737,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "apogeo",
+        "name": "APOGEO",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.40619486573518,
+          "forme": 1.7761194029850746,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.369,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "paintello",
+        "name": "PAINTELLO",
+        "number": 16,
+        "dimensions": {
+          "historique": 6.055390974810264,
+          "forme": 1.9402985074626866,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.56,
+          "forme": 0.44
+        },
+        "competitiveness": 4.2448,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "driver": 0.5,
+              "fiabilite": 0.5
+            },
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "weeken",
+      "awaiting-christmas",
+      "tissimo",
+      "bourgoin",
+      "saint-saens",
+      "salalah",
+      "ozan",
+      "fire-rebel",
+      "grand-scoop",
+      "omicrone",
+      "felix-aux-ormes",
+      "spirito",
+      "royalwood",
+      "apogeo",
+      "paintello"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "weeken": {
+          "horse_id": "weeken",
+          "name": "WEEKEN",
+          "p_win": 0.16942,
+          "p_top3": 0.45516,
+          "p_top5": 0.6733,
+          "expected_position": 4.5148,
+          "position_distribution": {
+            "1": 0.16942,
+            "2": 0.1518,
+            "3": 0.13394,
+            "4": 0.11794,
+            "5": 0.1002,
+            "6": 0.08236,
+            "7": 0.0697,
+            "8": 0.05378,
+            "9": 0.04126,
+            "10": 0.03332,
+            "11": 0.02158,
+            "12": 0.01314,
+            "13": 0.00738,
+            "14": 0.00334,
+            "15": 0.00084
+          }
+        },
+        "tissimo": {
+          "horse_id": "tissimo",
+          "name": "TISSIMO",
+          "p_win": 0.09246,
+          "p_top3": 0.2812,
+          "p_top5": 0.4586,
+          "expected_position": 6.3637,
+          "position_distribution": {
+            "1": 0.09246,
+            "2": 0.09522,
+            "3": 0.09352,
+            "4": 0.09078,
+            "5": 0.08662,
+            "6": 0.08496,
+            "7": 0.07928,
+            "8": 0.07818,
+            "9": 0.06962,
+            "10": 0.062,
+            "11": 0.05446,
+            "12": 0.0447,
+            "13": 0.03416,
+            "14": 0.0229,
+            "15": 0.01114
+          }
+        },
+        "felix-aux-ormes": {
+          "horse_id": "felix-aux-ormes",
+          "name": "FELIX AUX ORMES",
+          "p_win": 0.04118,
+          "p_top3": 0.1326,
+          "p_top5": 0.23808,
+          "expected_position": 9.1749,
+          "position_distribution": {
+            "1": 0.04118,
+            "2": 0.04482,
+            "3": 0.0466,
+            "4": 0.05084,
+            "5": 0.05464,
+            "6": 0.0543,
+            "7": 0.059,
+            "8": 0.06048,
+            "9": 0.06868,
+            "10": 0.07162,
+            "11": 0.07804,
+            "12": 0.08554,
+            "13": 0.09056,
+            "14": 0.09696,
+            "15": 0.09674
+          }
+        },
+        "ozan": {
+          "horse_id": "ozan",
+          "name": "OZAN",
+          "p_win": 0.05914,
+          "p_top3": 0.18424,
+          "p_top5": 0.3181,
+          "expected_position": 7.9755,
+          "position_distribution": {
+            "1": 0.05914,
+            "2": 0.06254,
+            "3": 0.06256,
+            "4": 0.065,
+            "5": 0.06886,
+            "6": 0.06928,
+            "7": 0.07028,
+            "8": 0.071,
+            "9": 0.0741,
+            "10": 0.07498,
+            "11": 0.07634,
+            "12": 0.0728,
+            "13": 0.07192,
+            "14": 0.05934,
+            "15": 0.04186
+          }
+        },
+        "grand-scoop": {
+          "horse_id": "grand-scoop",
+          "name": "GRAND SCOOP",
+          "p_win": 0.05246,
+          "p_top3": 0.16022,
+          "p_top5": 0.27928,
+          "expected_position": 8.4894,
+          "position_distribution": {
+            "1": 0.05246,
+            "2": 0.053,
+            "3": 0.05476,
+            "4": 0.05916,
+            "5": 0.0599,
+            "6": 0.06272,
+            "7": 0.06856,
+            "8": 0.07008,
+            "9": 0.07176,
+            "10": 0.07316,
+            "11": 0.077,
+            "12": 0.07904,
+            "13": 0.07932,
+            "14": 0.0766,
+            "15": 0.06248
+          }
+        },
+        "bourgoin": {
+          "horse_id": "bourgoin",
+          "name": "BOURGOIN",
+          "p_win": 0.08594,
+          "p_top3": 0.25852,
+          "p_top5": 0.42526,
+          "expected_position": 6.6933,
+          "position_distribution": {
+            "1": 0.08594,
+            "2": 0.08716,
+            "3": 0.08542,
+            "4": 0.08366,
+            "5": 0.08308,
+            "6": 0.08124,
+            "7": 0.08106,
+            "8": 0.07614,
+            "9": 0.07274,
+            "10": 0.06858,
+            "11": 0.05958,
+            "12": 0.05102,
+            "13": 0.04134,
+            "14": 0.02836,
+            "15": 0.01468
+          }
+        },
+        "saint-saens": {
+          "horse_id": "saint-saens",
+          "name": "SAINT SAENS",
+          "p_win": 0.08296,
+          "p_top3": 0.24862,
+          "p_top5": 0.41298,
+          "expected_position": 6.8379,
+          "position_distribution": {
+            "1": 0.08296,
+            "2": 0.08074,
+            "3": 0.08492,
+            "4": 0.08374,
+            "5": 0.08062,
+            "6": 0.08244,
+            "7": 0.07778,
+            "8": 0.07574,
+            "9": 0.07268,
+            "10": 0.06766,
+            "11": 0.0626,
+            "12": 0.05482,
+            "13": 0.04506,
+            "14": 0.03096,
+            "15": 0.01728
+          }
+        },
+        "awaiting-christmas": {
+          "horse_id": "awaiting-christmas",
+          "name": "AWAITING CHRISTMAS",
+          "p_win": 0.1084,
+          "p_top3": 0.31134,
+          "p_top5": 0.50452,
+          "expected_position": 5.918,
+          "position_distribution": {
+            "1": 0.1084,
+            "2": 0.1024,
+            "3": 0.10054,
+            "4": 0.09844,
+            "5": 0.09474,
+            "6": 0.08862,
+            "7": 0.08084,
+            "8": 0.07346,
+            "9": 0.06608,
+            "10": 0.0561,
+            "11": 0.04658,
+            "12": 0.03606,
+            "13": 0.02544,
+            "14": 0.01564,
+            "15": 0.00666
+          }
+        },
+        "omicrone": {
+          "horse_id": "omicrone",
+          "name": "OMICRONE",
+          "p_win": 0.0488,
+          "p_top3": 0.15098,
+          "p_top5": 0.26146,
+          "expected_position": 8.7596,
+          "position_distribution": {
+            "1": 0.0488,
+            "2": 0.04962,
+            "3": 0.05256,
+            "4": 0.0526,
+            "5": 0.05788,
+            "6": 0.06064,
+            "7": 0.06322,
+            "8": 0.0674,
+            "9": 0.06974,
+            "10": 0.0754,
+            "11": 0.07782,
+            "12": 0.08124,
+            "13": 0.0837,
+            "14": 0.08282,
+            "15": 0.07656
+          }
+        },
+        "fire-rebel": {
+          "horse_id": "fire-rebel",
+          "name": "FIRE REBEL",
+          "p_win": 0.05446,
+          "p_top3": 0.17242,
+          "p_top5": 0.29604,
+          "expected_position": 8.238,
+          "position_distribution": {
+            "1": 0.05446,
+            "2": 0.05888,
+            "3": 0.05908,
+            "4": 0.06044,
+            "5": 0.06318,
+            "6": 0.06626,
+            "7": 0.07052,
+            "8": 0.07074,
+            "9": 0.07418,
+            "10": 0.07346,
+            "11": 0.07876,
+            "12": 0.0762,
+            "13": 0.07454,
+            "14": 0.06778,
+            "15": 0.05152
+          }
+        },
+        "salalah": {
+          "horse_id": "salalah",
+          "name": "SALALAH",
+          "p_win": 0.06676,
+          "p_top3": 0.20476,
+          "p_top5": 0.35118,
+          "expected_position": 7.5549,
+          "position_distribution": {
+            "1": 0.06676,
+            "2": 0.06752,
+            "3": 0.07048,
+            "4": 0.07266,
+            "5": 0.07376,
+            "6": 0.07182,
+            "7": 0.07444,
+            "8": 0.07698,
+            "9": 0.07492,
+            "10": 0.07368,
+            "11": 0.0707,
+            "12": 0.06632,
+            "13": 0.0596,
+            "14": 0.05044,
+            "15": 0.02992
+          }
+        },
+        "spirito": {
+          "horse_id": "spirito",
+          "name": "SPIRITO",
+          "p_win": 0.03676,
+          "p_top3": 0.11496,
+          "p_top5": 0.20496,
+          "expected_position": 9.6729,
+          "position_distribution": {
+            "1": 0.03676,
+            "2": 0.03848,
+            "3": 0.03972,
+            "4": 0.0448,
+            "5": 0.0452,
+            "6": 0.05178,
+            "7": 0.05314,
+            "8": 0.059,
+            "9": 0.06162,
+            "10": 0.07018,
+            "11": 0.07682,
+            "12": 0.08544,
+            "13": 0.0956,
+            "14": 0.1112,
+            "15": 0.13026
+          }
+        },
+        "royalwood": {
+          "horse_id": "royalwood",
+          "name": "ROYALWOOD",
+          "p_win": 0.03632,
+          "p_top3": 0.11274,
+          "p_top5": 0.2013,
+          "expected_position": 9.756,
+          "position_distribution": {
+            "1": 0.03632,
+            "2": 0.03706,
+            "3": 0.03936,
+            "4": 0.04172,
+            "5": 0.04684,
+            "6": 0.05082,
+            "7": 0.05186,
+            "8": 0.05864,
+            "9": 0.06218,
+            "10": 0.0679,
+            "11": 0.0735,
+            "12": 0.08582,
+            "13": 0.09694,
+            "14": 0.11348,
+            "15": 0.13756
+          }
+        },
+        "apogeo": {
+          "horse_id": "apogeo",
+          "name": "APOGEO",
+          "p_win": 0.03338,
+          "p_top3": 0.1088,
+          "p_top5": 0.19246,
+          "expected_position": 9.9232,
+          "position_distribution": {
+            "1": 0.03338,
+            "2": 0.0364,
+            "3": 0.03902,
+            "4": 0.0405,
+            "5": 0.04316,
+            "6": 0.04816,
+            "7": 0.05128,
+            "8": 0.05582,
+            "9": 0.0601,
+            "10": 0.06742,
+            "11": 0.07344,
+            "12": 0.08336,
+            "13": 0.09746,
+            "14": 0.12002,
+            "15": 0.15048
+          }
+        },
+        "paintello": {
+          "horse_id": "paintello",
+          "name": "PAINTELLO",
+          "p_win": 0.03156,
+          "p_top3": 0.10344,
+          "p_top5": 0.18248,
+          "expected_position": 10.128,
+          "position_distribution": {
+            "1": 0.03156,
+            "2": 0.03436,
+            "3": 0.03752,
+            "4": 0.03772,
+            "5": 0.04132,
+            "6": 0.0446,
+            "7": 0.04904,
+            "8": 0.05256,
+            "9": 0.06034,
+            "10": 0.06454,
+            "11": 0.07278,
+            "12": 0.0845,
+            "13": 0.09698,
+            "14": 0.12016,
+            "15": 0.17202
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "weeken",
+          "awaiting-christmas",
+          "tissimo"
+        ],
+        "23": [
+          "weeken",
+          "awaiting-christmas",
+          "tissimo"
+        ],
+        "37": [
+          "weeken",
+          "awaiting-christmas",
+          "tissimo"
+        ],
+        "51": [
+          "weeken",
+          "awaiting-christmas",
+          "tissimo"
+        ],
+        "73": [
+          "weeken",
+          "awaiting-christmas",
+          "tissimo"
+        ]
+      },
+      "reference_top": [
+        "awaiting-christmas",
+        "tissimo",
+        "weeken"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "weeken": 10.0,
+        "awaiting-christmas": 5.0,
+        "tissimo": 0.0
+      },
+      "order": [
+        "weeken",
+        "awaiting-christmas",
+        "tissimo"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "weeken": 14.0,
+        "awaiting-christmas": 13.0,
+        "tissimo": 12.0,
+        "bourgoin": 11.0,
+        "saint-saens": 10.0,
+        "salalah": 9.0,
+        "ozan": 8.0,
+        "fire-rebel": 7.0,
+        "grand-scoop": 6.0,
+        "omicrone": 5.0,
+        "felix-aux-ormes": 4.0,
+        "spirito": 3.0,
+        "royalwood": 2.0,
+        "apogeo": 1.0,
+        "paintello": 0.0
+      },
+      "order": [
+        "weeken",
+        "awaiting-christmas",
+        "tissimo",
+        "bourgoin",
+        "saint-saens",
+        "salalah",
+        "ozan",
+        "fire-rebel",
+        "grand-scoop",
+        "omicrone",
+        "felix-aux-ormes",
+        "spirito",
+        "royalwood",
+        "apogeo",
+        "paintello"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "weeken",
+        "awaiting-christmas",
+        "tissimo",
+        "bourgoin",
+        "saint-saens",
+        "salalah",
+        "ozan",
+        "fire-rebel",
+        "grand-scoop",
+        "omicrone",
+        "felix-aux-ormes",
+        "spirito",
+        "royalwood",
+        "apogeo",
+        "paintello"
+      ],
+      "copeland": {
+        "weeken": 14.0,
+        "awaiting-christmas": 12.0,
+        "tissimo": 10.0,
+        "bourgoin": 8.0,
+        "saint-saens": 6.0,
+        "salalah": 4.0,
+        "ozan": 2.0,
+        "fire-rebel": 0.0,
+        "grand-scoop": -2.0,
+        "omicrone": -4.0,
+        "felix-aux-ormes": -6.0,
+        "spirito": -8.0,
+        "royalwood": -10.0,
+        "apogeo": -12.0,
+        "paintello": -14.0
+      },
+      "normalized": {
+        "weeken": 1.0,
+        "awaiting-christmas": 0.9286,
+        "tissimo": 0.8571,
+        "bourgoin": 0.7857,
+        "saint-saens": 0.7143,
+        "salalah": 0.6429,
+        "ozan": 0.5714,
+        "fire-rebel": 0.5,
+        "grand-scoop": 0.4286,
+        "omicrone": 0.3571,
+        "felix-aux-ormes": 0.2857,
+        "spirito": 0.2143,
+        "royalwood": 0.1429,
+        "apogeo": 0.0714,
+        "paintello": 0.0
+      },
+      "mean_rank": {
+        "weeken": 0.0,
+        "awaiting-christmas": 1.0,
+        "tissimo": 2.0,
+        "bourgoin": 3.0,
+        "saint-saens": 4.0,
+        "salalah": 5.0,
+        "ozan": 6.0,
+        "fire-rebel": 7.0,
+        "grand-scoop": 8.0,
+        "omicrone": 9.0,
+        "felix-aux-ormes": 10.0,
+        "spirito": 11.0,
+        "royalwood": 12.0,
+        "apogeo": 13.0,
+        "paintello": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "weeken",
+        "name": "WEEKEN",
+        "number": 1,
+        "signals": [
+          "cote fondue de -52% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 1 vs marché 5)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "tissimo",
+        "name": "TISSIMO",
+        "number": 2,
+        "signals": [
+          "l'analyse interne le place 11 rangs plus haut que le marché (interne 3 vs marché 14)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "felix-aux-ormes",
+        "name": "FELIX AUX ORMES",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ozan",
+        "name": "OZAN",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "grand-scoop",
+        "name": "GRAND SCOOP",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "bourgoin",
+        "name": "BOURGOIN",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "saint-saens",
+        "name": "SAINT SAENS",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "awaiting-christmas",
+        "name": "AWAITING CHRISTMAS",
+        "number": 8,
+        "signals": [
+          "cote fondue de -48% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "omicrone",
+        "name": "OMICRONE",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "fire-rebel",
+        "name": "FIRE REBEL",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "salalah",
+        "name": "SALALAH",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "spirito",
+        "name": "SPIRITO",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "royalwood",
+        "name": "ROYALWOOD",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "apogeo",
+        "name": "APOGEO",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "paintello",
+        "name": "PAINTELLO",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "weeken",
+      "tissimo",
+      "awaiting-christmas"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "ozan",
+          "awaiting-christmas",
+          "saint-saens",
+          "weeken",
+          "fire-rebel",
+          "grand-scoop",
+          "tissimo",
+          "bourgoin",
+          "omicrone",
+          "salalah",
+          "paintello",
+          "spirito",
+          "felix-aux-ormes",
+          "apogeo",
+          "royalwood"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "bourgoin",
+          "fire-rebel",
+          "saint-saens",
+          "spirito",
+          "paintello",
+          "salalah",
+          "apogeo",
+          "omicrone",
+          "awaiting-christmas",
+          "ozan",
+          "grand-scoop",
+          "felix-aux-ormes",
+          "weeken",
+          "tissimo",
+          "royalwood"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 7 chances retenues",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "fire-rebel",
+          "awaiting-christmas",
+          "saint-saens",
+          "weeken",
+          "grand-scoop",
+          "tissimo",
+          "felix-aux-ormes",
+          "ozan",
+          "bourgoin",
+          "omicrone",
+          "salalah",
+          "spirito",
+          "royalwood",
+          "apogeo",
+          "paintello"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "ozan",
+          "omicrone",
+          "saint-saens",
+          "fire-rebel",
+          "awaiting-christmas",
+          "weeken",
+          "grand-scoop",
+          "tissimo",
+          "bourgoin",
+          "felix-aux-ormes",
+          "salalah",
+          "spirito",
+          "royalwood",
+          "apogeo",
+          "paintello"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "weeken",
+          "tissimo",
+          "felix-aux-ormes",
+          "ozan",
+          "grand-scoop",
+          "bourgoin",
+          "saint-saens",
+          "awaiting-christmas",
+          "omicrone",
+          "fire-rebel",
+          "salalah",
+          "spirito",
+          "royalwood",
+          "apogeo",
+          "paintello"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-25T15:03:03.846501+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "weeken": 0.075383,
+      "tissimo": 0.027412,
+      "felix-aux-ormes": 0.034792,
+      "ozan": 0.023805,
+      "grand-scoop": 0.034792,
+      "bourgoin": 0.105186,
+      "saint-saens": 0.102796,
+      "awaiting-christmas": 0.064614,
+      "omicrone": 0.139169,
+      "fire-rebel": 0.164473,
+      "salalah": 0.056538,
+      "spirito": 0.032307,
+      "royalwood": 0.032307,
+      "apogeo": 0.053212,
+      "paintello": 0.053212
+    },
+    "consensus_ranking": [
+      "bourgoin",
+      "fire-rebel",
+      "saint-saens",
+      "spirito",
+      "paintello",
+      "salalah",
+      "apogeo",
+      "omicrone",
+      "awaiting-christmas",
+      "ozan",
+      "grand-scoop",
+      "felix-aux-ormes",
+      "weeken",
+      "tissimo",
+      "royalwood"
+    ],
+    "convergence": 0.25,
+    "notes": [
+      "convergence Top 5 interne/externe : 25%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "weeken",
+      "awaiting-christmas",
+      "tissimo"
+    ],
+    "externe_seulement": [
+      "fire-rebel",
+      "spirito",
+      "paintello"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 6.358,
+    "level": "modérée",
+    "components": {
+      "ecart_scores": 4.5257,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 2.5,
+      "completude_donnees": 8.0
+    },
+    "missing_data": [
+      "n°1 · WEEKEN : aptitude",
+      "n°2 · TISSIMO : aptitude",
+      "n°3 · FELIX AUX ORMES : aptitude",
+      "n°4 · OZAN : aptitude",
+      "n°5 · GRAND SCOOP : aptitude",
+      "n°6 · BOURGOIN : aptitude",
+      "n°7 · SAINT SAENS : aptitude",
+      "n°8 · AWAITING CHRISTMAS : aptitude",
+      "n°9 · OMICRONE : aptitude",
+      "n°10 · FIRE REBEL : aptitude",
+      "n°12 · SALALAH : aptitude",
+      "n°13 · SPIRITO : aptitude",
+      "n°14 · ROYALWOOD : aptitude",
+      "n°15 · APOGEO : aptitude",
+      "n°16 · PAINTELLO : aptitude"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.91 (saturé à 2.0) → 4.5/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 25% → 2.5/10",
+      "complétude des données = 80% (15 champ(s) manquant(s)) → 8.0/10",
+      "couverture du score = 50% du poids du modèle"
+    ],
+    "caps": []
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-11-25T12:55:00+00:00",
+    "betting_close": "2026-11-25T12:45:00+00:00",
+    "race_started": true,
+    "now": "2026-11-25T15:03:11.790053+00:00",
+    "minutes_late": 138.2,
+    "minutes_to_close": -138.2,
+    "schedule": {
+      "start_ouagadougou": "2026-11-25T12:55:00+00:00",
+      "start_paris": "2026-11-25T13:55:00+01:00",
+      "close_lonab": "2026-11-25T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 1,
+      "cheval": "WEEKEN",
+      "horse_id": "weeken"
+    },
+    {
+      "rang": 2,
+      "numero": 8,
+      "cheval": "AWAITING CHRISTMAS",
+      "horse_id": "awaiting-christmas"
+    },
+    {
+      "rang": 3,
+      "numero": 2,
+      "cheval": "TISSIMO",
+      "horse_id": "tissimo"
+    },
+    {
+      "rang": 4,
+      "numero": 6,
+      "cheval": "BOURGOIN",
+      "horse_id": "bourgoin"
+    },
+    {
+      "rang": 5,
+      "numero": 7,
+      "cheval": "SAINT SAENS",
+      "horse_id": "saint-saens"
+    },
+    {
+      "rang": 6,
+      "numero": 12,
+      "cheval": "SALALAH",
+      "horse_id": "salalah"
+    },
+    {
+      "rang": 7,
+      "numero": 4,
+      "cheval": "OZAN",
+      "horse_id": "ozan"
+    },
+    {
+      "rang": 8,
+      "numero": 10,
+      "cheval": "FIRE REBEL",
+      "horse_id": "fire-rebel"
+    },
+    {
+      "rang": 9,
+      "numero": 5,
+      "cheval": "GRAND SCOOP",
+      "horse_id": "grand-scoop"
+    },
+    {
+      "rang": 10,
+      "numero": 9,
+      "cheval": "OMICRONE",
+      "horse_id": "omicrone"
+    },
+    {
+      "rang": 11,
+      "numero": 3,
+      "cheval": "FELIX AUX ORMES",
+      "horse_id": "felix-aux-ormes"
+    },
+    {
+      "rang": 12,
+      "numero": 13,
+      "cheval": "SPIRITO",
+      "horse_id": "spirito"
+    },
+    {
+      "rang": 13,
+      "numero": 14,
+      "cheval": "ROYALWOOD",
+      "horse_id": "royalwood"
+    },
+    {
+      "rang": 14,
+      "numero": 15,
+      "cheval": "APOGEO",
+      "horse_id": "apogeo"
+    },
+    {
+      "rang": 15,
+      "numero": 16,
+      "cheval": "PAINTELLO",
+      "horse_id": "paintello"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 1,
+      "cheval": "WEEKEN",
+      "score": 7.585
+    },
+    {
+      "numero": 8,
+      "cheval": "AWAITING CHRISTMAS",
+      "score": 6.6798
+    },
+    {
+      "numero": 2,
+      "cheval": "TISSIMO",
+      "score": 6.3985
+    },
+    {
+      "numero": 6,
+      "cheval": "BOURGOIN",
+      "score": 6.2359
+    },
+    {
+      "numero": 7,
+      "cheval": "SAINT SAENS",
+      "score": 6.1291
+    },
+    {
+      "numero": 12,
+      "cheval": "SALALAH",
+      "score": 5.7273
+    },
+    {
+      "numero": 4,
+      "cheval": "OZAN",
+      "score": 5.5051
+    },
+    {
+      "numero": 10,
+      "cheval": "FIRE REBEL",
+      "score": 5.3545
+    },
+    {
+      "numero": 5,
+      "cheval": "GRAND SCOOP",
+      "score": 5.2006
+    },
+    {
+      "numero": 9,
+      "cheval": "OMICRONE",
+      "score": 5.0362
+    },
+    {
+      "numero": 3,
+      "cheval": "FELIX AUX ORMES",
+      "score": 4.8064
+    },
+    {
+      "numero": 13,
+      "cheval": "SPIRITO",
+      "score": 4.5246
+    },
+    {
+      "numero": 14,
+      "cheval": "ROYALWOOD",
+      "score": 4.4737
+    },
+    {
+      "numero": 15,
+      "cheval": "APOGEO",
+      "score": 4.369
+    },
+    {
+      "numero": 16,
+      "cheval": "PAINTELLO",
+      "score": 4.2448
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 10.2856,
+      "entropie_norm": 0.924,
+      "p_favori": 0.1747,
+      "ratio_1_2": 1.1986
+    },
+    "p_gagnant_dans_selection": 0.6095,
+    "nb_attendu_dans_top5": 2.312,
+    "p_au_moins": {
+      "1": 0.9857,
+      "2": 0.8297,
+      "3": 0.4163,
+      "4": 0.0776,
+      "5": 0.0029
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-25T12:57:20+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "42 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 10,
+        "cheval": "FIRE REBEL",
+        "cote": 5.5,
+        "p_gagne": 0.1747,
+        "p_top3": 0.371,
+        "p_top5": 0.55,
+        "rang_systeme": 8
+      },
+      {
+        "numero": 9,
+        "cheval": "OMICRONE",
+        "cote": 6.5,
+        "p_gagne": 0.1457,
+        "p_top3": 0.3335,
+        "p_top5": 0.5059,
+        "rang_systeme": 10
+      },
+      {
+        "numero": 6,
+        "cheval": "BOURGOIN",
+        "cote": 8.6,
+        "p_gagne": 0.1076,
+        "p_top3": 0.2838,
+        "p_top5": 0.442,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 7,
+        "cheval": "SAINT SAENS",
+        "cote": 8.8,
+        "p_gagne": 0.1049,
+        "p_top3": 0.2738,
+        "p_top5": 0.436,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 1,
+        "cheval": "WEEKEN",
+        "cote": 12.0,
+        "p_gagne": 0.075,
+        "p_top3": 0.2291,
+        "p_top5": 0.3783,
+        "rang_systeme": 1
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "TANQUES"
+    ],
+    "unmatched_race": [],
+    "warnings": [
+      "résultats d'arrivée présents : la course est déjà courue, les cotes « direct » sont les cotes finales (analyse a posteriori, pas une prévision)"
+    ]
+  },
+  "apres_course": true,
+  "avertissement": "⚠ ANALYSE APRÈS LE DÉPART : la course était déjà partie quand l'analyse a tourné (déclenchement en retard). Pronostic affiché à titre indicatif ; il n'est PAS compté dans les statistiques.",
+  "stored_at": "2026-11-25T15:03:11.870039+00:00"
+}
