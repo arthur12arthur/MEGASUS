@@ -1,0 +1,2155 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261126-paris-vincennes-c1",
+  "date": "2026-11-26",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES",
+    "date": "2026-11-26",
+    "start_time": "2026-11-26T12:55:00+00:00",
+    "race_number": 1,
+    "name": "PRIX DE SILLE LE GUILLAUME",
+    "distance_m": 2100,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_26-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-26T12:45:00+00:00",
+    "bet_type": "Quarté"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-26T14:33:10.549886+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "oscar-van-halbeek-d.-thomain",
+        "name": "OSCAR VAN HALBEEK",
+        "number": 1,
+        "odds_pdf": 26.0,
+        "odds_latest": 25.0,
+        "delta": -0.038461538461538464,
+        "implied_shift": -0.0015384615384615372,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "harpy",
+        "name": "HARPY",
+        "number": 2,
+        "odds_pdf": 7.0,
+        "odds_latest": 12.0,
+        "delta": 0.7142857142857143,
+        "implied_shift": 0.05952380952380952,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "ruger",
+        "name": "RUGER",
+        "number": 3,
+        "odds_pdf": 33.0,
+        "odds_latest": 23.0,
+        "delta": -0.30303030303030304,
+        "implied_shift": -0.013175230566534912,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 4,
+        "odds_pdf": 21.0,
+        "odds_latest": 21.0,
+        "delta": 0.0,
+        "implied_shift": 0.0,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO",
+        "number": 5,
+        "odds_pdf": 24.0,
+        "odds_latest": 37.0,
+        "delta": 0.5416666666666666,
+        "implied_shift": 0.014639639639639636,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "diva-del-ronco-v.-ciotola",
+        "name": "DIVA DEL RONCO",
+        "number": 6,
+        "odds_pdf": 96.0,
+        "odds_latest": 204.0,
+        "delta": 1.125,
+        "implied_shift": 0.005514705882352941,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "laredo-boko",
+        "name": "LAREDO BOKO",
+        "number": 7,
+        "odds_pdf": 19.0,
+        "odds_latest": 53.0,
+        "delta": 1.7894736842105263,
+        "implied_shift": 0.033763654419066536,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 8,
+        "odds_pdf": 4.0,
+        "odds_latest": 1.9,
+        "delta": -0.525,
+        "implied_shift": -0.2763157894736842,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "diabel",
+        "name": "DIABEL",
+        "number": 9,
+        "odds_pdf": 15.0,
+        "odds_latest": 21.0,
+        "delta": 0.4,
+        "implied_shift": 0.01904761904761905,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "hall-black-mess",
+        "name": "HALL BLACK MESS",
+        "number": 10,
+        "odds_pdf": 57.0,
+        "odds_latest": 163.0,
+        "delta": 1.8596491228070176,
+        "implied_shift": 0.011408890323969433,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "ibis-petteviniere",
+        "name": "IBIS PETTEVINIERE",
+        "number": 12,
+        "odds_pdf": 42.0,
+        "odds_latest": 57.0,
+        "delta": 0.35714285714285715,
+        "implied_shift": 0.006265664160401002,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "honey-king",
+        "name": "HONEY KING",
+        "number": 13,
+        "odds_pdf": 67.0,
+        "odds_latest": 91.0,
+        "delta": 0.3582089552238806,
+        "implied_shift": 0.003936362145317368,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "number": 14,
+        "odds_pdf": 23.0,
+        "odds_latest": 10.0,
+        "delta": -0.5652173913043478,
+        "implied_shift": -0.05652173913043479,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "cool-kronos",
+        "name": "COOL KRONOS",
+        "number": 15,
+        "odds_pdf": 33.0,
+        "odds_latest": 32.0,
+        "delta": -0.030303030303030304,
+        "implied_shift": -0.0009469696969696961,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "greg-de-niro",
+        "name": "GREG DE NIRO",
+        "number": 16,
+        "odds_pdf": 62.0,
+        "odds_latest": 102.0,
+        "delta": 0.6451612903225806,
+        "implied_shift": 0.006325110689437065,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "oscar-van-halbeek-d.-thomain",
+      "harpy",
+      "ruger",
+      "jusseo",
+      "mateo-di-quattro-b.-goop",
+      "diva-del-ronco-v.-ciotola",
+      "laredo-boko",
+      "ready-star",
+      "diabel",
+      "hall-black-mess",
+      "ibis-petteviniere",
+      "honey-king",
+      "irish-nice-elge",
+      "cool-kronos",
+      "greg-de-niro"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 8,
+        "dimensions": {
+          "historique": 9.95798211780116,
+          "forme": 9.373134328358208,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 9.698,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ruger",
+        "name": "RUGER",
+        "number": 3,
+        "dimensions": {
+          "historique": 9.558768294424542,
+          "forme": 6.626865671641791,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.2557,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "greg-de-niro",
+        "name": "GREG DE NIRO",
+        "number": 16,
+        "dimensions": {
+          "historique": 7.515723270440251,
+          "forme": 6.388059701492537,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.0145,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "ibis-petteviniere",
+        "name": "IBIS PETTEVINIERE",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.27028316470437,
+          "forme": 5.880597014925373,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6526,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 4,
+        "dimensions": {
+          "historique": 9.896342169018336,
+          "forme": 2.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.42,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "number": 14,
+        "dimensions": {
+          "historique": 7.069704698986415,
+          "forme": 5.059701492537313,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.1764,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "oscar-van-halbeek-d.-thomain",
+        "name": "OSCAR VAN HALBEEK",
+        "number": 1,
+        "dimensions": {
+          "historique": 7.248440886663314,
+          "forme": 3.7313432835820897,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6853,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "harpy",
+        "name": "HARPY",
+        "number": 2,
+        "dimensions": {
+          "historique": 4.872761542838858,
+          "forme": 6.686567164179104,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6789,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "cool-kronos",
+        "name": "COOL KRONOS",
+        "number": 15,
+        "dimensions": {
+          "historique": 6.849391427982567,
+          "forme": 4.074626865671642,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6162,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "diabel",
+        "name": "DIABEL",
+        "number": 9,
+        "dimensions": {
+          "historique": 7.5246067898273505,
+          "forme": 2.343283582089552,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.2218,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.5304529227393395,
+          "forme": 1.417910447761194,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.8138,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "honey-king",
+        "name": "HONEY KING",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.261986079218605,
+          "forme": 1.5522388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.7243,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "hall-black-mess",
+        "name": "HALL BLACK MESS",
+        "number": 10,
+        "dimensions": {
+          "historique": 6.7220604046503505,
+          "forme": 1.8805970149253732,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.5703,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "diva-del-ronco-v.-ciotola",
+        "name": "DIVA DEL RONCO",
+        "number": 6,
+        "dimensions": {
+          "historique": 5.63750257259183,
+          "forme": 2.5522388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.2663,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "laredo-boko",
+        "name": "LAREDO BOKO",
+        "number": 7,
+        "dimensions": {
+          "historique": 4.944699287922344,
+          "forme": 1.9402985074626866,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.6094,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "ready-star",
+      "ruger",
+      "greg-de-niro",
+      "ibis-petteviniere",
+      "jusseo",
+      "irish-nice-elge",
+      "oscar-van-halbeek-d.-thomain",
+      "harpy",
+      "cool-kronos",
+      "diabel",
+      "mateo-di-quattro-b.-goop",
+      "honey-king",
+      "hall-black-mess",
+      "diva-del-ronco-v.-ciotola",
+      "laredo-boko"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "oscar-van-halbeek-d.-thomain": {
+          "horse_id": "oscar-van-halbeek-d.-thomain",
+          "name": "OSCAR VAN HALBEEK",
+          "p_win": 0.0426,
+          "p_top3": 0.14504,
+          "p_top5": 0.27416,
+          "expected_position": 8.2432,
+          "position_distribution": {
+            "1": 0.0426,
+            "2": 0.04836,
+            "3": 0.05408,
+            "4": 0.06202,
+            "5": 0.0671,
+            "6": 0.0724,
+            "7": 0.07778,
+            "8": 0.07852,
+            "9": 0.08482,
+            "10": 0.08512,
+            "11": 0.0834,
+            "12": 0.0787,
+            "13": 0.07226,
+            "14": 0.05732,
+            "15": 0.03552
+          }
+        },
+        "harpy": {
+          "horse_id": "harpy",
+          "name": "HARPY",
+          "p_win": 0.0427,
+          "p_top3": 0.14544,
+          "p_top5": 0.27578,
+          "expected_position": 8.2509,
+          "position_distribution": {
+            "1": 0.0427,
+            "2": 0.04648,
+            "3": 0.05626,
+            "4": 0.0633,
+            "5": 0.06704,
+            "6": 0.07156,
+            "7": 0.07472,
+            "8": 0.07964,
+            "9": 0.08206,
+            "10": 0.08638,
+            "11": 0.08388,
+            "12": 0.08124,
+            "13": 0.07208,
+            "14": 0.05832,
+            "15": 0.03434
+          }
+        },
+        "ruger": {
+          "horse_id": "ruger",
+          "name": "RUGER",
+          "p_win": 0.15176,
+          "p_top3": 0.45562,
+          "p_top5": 0.69736,
+          "expected_position": 4.332,
+          "position_distribution": {
+            "1": 0.15176,
+            "2": 0.15636,
+            "3": 0.1475,
+            "4": 0.1299,
+            "5": 0.11184,
+            "6": 0.09158,
+            "7": 0.07192,
+            "8": 0.05302,
+            "9": 0.03676,
+            "10": 0.02334,
+            "11": 0.01412,
+            "12": 0.00686,
+            "13": 0.00364,
+            "14": 0.00108,
+            "15": 0.00032
+          }
+        },
+        "jusseo": {
+          "horse_id": "jusseo",
+          "name": "JUSSEO",
+          "p_win": 0.06076,
+          "p_top3": 0.20346,
+          "p_top5": 0.3717,
+          "expected_position": 7.071,
+          "position_distribution": {
+            "1": 0.06076,
+            "2": 0.0681,
+            "3": 0.0746,
+            "4": 0.08274,
+            "5": 0.0855,
+            "6": 0.0877,
+            "7": 0.08832,
+            "8": 0.08736,
+            "9": 0.08076,
+            "10": 0.07692,
+            "11": 0.0675,
+            "12": 0.05702,
+            "13": 0.04366,
+            "14": 0.0278,
+            "15": 0.01126
+          }
+        },
+        "mateo-di-quattro-b.-goop": {
+          "horse_id": "mateo-di-quattro-b.-goop",
+          "name": "MATEO DI QUATTRO",
+          "p_win": 0.02784,
+          "p_top3": 0.09584,
+          "p_top5": 0.18408,
+          "expected_position": 9.6991,
+          "position_distribution": {
+            "1": 0.02784,
+            "2": 0.0318,
+            "3": 0.0362,
+            "4": 0.04186,
+            "5": 0.04638,
+            "6": 0.05222,
+            "7": 0.05832,
+            "8": 0.06446,
+            "9": 0.07174,
+            "10": 0.07752,
+            "11": 0.08314,
+            "12": 0.09404,
+            "13": 0.10406,
+            "14": 0.11046,
+            "15": 0.09996
+          }
+        },
+        "diva-del-ronco-v.-ciotola": {
+          "horse_id": "diva-del-ronco-v.-ciotola",
+          "name": "DIVA DEL RONCO",
+          "p_win": 0.02052,
+          "p_top3": 0.07324,
+          "p_top5": 0.1447,
+          "expected_position": 10.5711,
+          "position_distribution": {
+            "1": 0.02052,
+            "2": 0.02408,
+            "3": 0.02864,
+            "4": 0.03292,
+            "5": 0.03854,
+            "6": 0.04126,
+            "7": 0.04578,
+            "8": 0.05224,
+            "9": 0.05836,
+            "10": 0.06602,
+            "11": 0.079,
+            "12": 0.09208,
+            "13": 0.11202,
+            "14": 0.13756,
+            "15": 0.17098
+          }
+        },
+        "laredo-boko": {
+          "horse_id": "laredo-boko",
+          "name": "LAREDO BOKO",
+          "p_win": 0.01536,
+          "p_top3": 0.05436,
+          "p_top5": 0.1048,
+          "expected_position": 11.4864,
+          "position_distribution": {
+            "1": 0.01536,
+            "2": 0.01738,
+            "3": 0.02162,
+            "4": 0.02384,
+            "5": 0.0266,
+            "6": 0.03172,
+            "7": 0.03606,
+            "8": 0.0413,
+            "9": 0.04804,
+            "10": 0.0549,
+            "11": 0.06528,
+            "12": 0.08098,
+            "13": 0.10254,
+            "14": 0.15002,
+            "15": 0.28436
+          }
+        },
+        "ready-star": {
+          "horse_id": "ready-star",
+          "name": "READY STAR",
+          "p_win": 0.31134,
+          "p_top3": 0.71024,
+          "p_top5": 0.89988,
+          "expected_position": 2.8083,
+          "position_distribution": {
+            "1": 0.31134,
+            "2": 0.23348,
+            "3": 0.16542,
+            "4": 0.11518,
+            "5": 0.07446,
+            "6": 0.04692,
+            "7": 0.02652,
+            "8": 0.01438,
+            "9": 0.00722,
+            "10": 0.00328,
+            "11": 0.00108,
+            "12": 0.00056,
+            "13": 0.00014,
+            "14": 2e-05
+          }
+        },
+        "diabel": {
+          "horse_id": "diabel",
+          "name": "DIABEL",
+          "p_win": 0.03388,
+          "p_top3": 0.11818,
+          "p_top5": 0.22264,
+          "expected_position": 9.0182,
+          "position_distribution": {
+            "1": 0.03388,
+            "2": 0.03962,
+            "3": 0.04468,
+            "4": 0.04846,
+            "5": 0.056,
+            "6": 0.061,
+            "7": 0.06766,
+            "8": 0.07354,
+            "9": 0.0774,
+            "10": 0.0819,
+            "11": 0.08598,
+            "12": 0.09182,
+            "13": 0.08946,
+            "14": 0.08596,
+            "15": 0.06264
+          }
+        },
+        "hall-black-mess": {
+          "horse_id": "hall-black-mess",
+          "name": "HALL BLACK MESS",
+          "p_win": 0.02358,
+          "p_top3": 0.08392,
+          "p_top5": 0.16206,
+          "expected_position": 10.115,
+          "position_distribution": {
+            "1": 0.02358,
+            "2": 0.02726,
+            "3": 0.03308,
+            "4": 0.03622,
+            "5": 0.04192,
+            "6": 0.04726,
+            "7": 0.05318,
+            "8": 0.06052,
+            "9": 0.06384,
+            "10": 0.07306,
+            "11": 0.08454,
+            "12": 0.09442,
+            "13": 0.1087,
+            "14": 0.12436,
+            "15": 0.12806
+          }
+        },
+        "ibis-petteviniere": {
+          "horse_id": "ibis-petteviniere",
+          "name": "IBIS PETTEVINIERE",
+          "p_win": 0.06854,
+          "p_top3": 0.2291,
+          "p_top5": 0.40964,
+          "expected_position": 6.6647,
+          "position_distribution": {
+            "1": 0.06854,
+            "2": 0.0772,
+            "3": 0.08336,
+            "4": 0.08852,
+            "5": 0.09202,
+            "6": 0.09262,
+            "7": 0.09236,
+            "8": 0.08586,
+            "9": 0.08064,
+            "10": 0.0706,
+            "11": 0.0597,
+            "12": 0.04746,
+            "13": 0.03312,
+            "14": 0.02018,
+            "15": 0.00782
+          }
+        },
+        "honey-king": {
+          "horse_id": "honey-king",
+          "name": "HONEY KING",
+          "p_win": 0.02578,
+          "p_top3": 0.08948,
+          "p_top5": 0.1752,
+          "expected_position": 9.8475,
+          "position_distribution": {
+            "1": 0.02578,
+            "2": 0.02942,
+            "3": 0.03428,
+            "4": 0.04062,
+            "5": 0.0451,
+            "6": 0.05006,
+            "7": 0.05598,
+            "8": 0.06452,
+            "9": 0.07046,
+            "10": 0.07636,
+            "11": 0.08408,
+            "12": 0.09276,
+            "13": 0.10724,
+            "14": 0.11626,
+            "15": 0.10708
+          }
+        },
+        "irish-nice-elge": {
+          "horse_id": "irish-nice-elge",
+          "name": "IRISH NICE ELGE",
+          "p_win": 0.05302,
+          "p_top3": 0.18186,
+          "p_top5": 0.3382,
+          "expected_position": 7.4441,
+          "position_distribution": {
+            "1": 0.05302,
+            "2": 0.06098,
+            "3": 0.06786,
+            "4": 0.075,
+            "5": 0.08134,
+            "6": 0.08336,
+            "7": 0.08526,
+            "8": 0.08528,
+            "9": 0.08462,
+            "10": 0.0808,
+            "11": 0.07264,
+            "12": 0.06544,
+            "13": 0.05226,
+            "14": 0.03576,
+            "15": 0.01638
+          }
+        },
+        "cool-kronos": {
+          "horse_id": "cool-kronos",
+          "name": "COOL KRONOS",
+          "p_win": 0.04068,
+          "p_top3": 0.14142,
+          "p_top5": 0.2659,
+          "expected_position": 8.3676,
+          "position_distribution": {
+            "1": 0.04068,
+            "2": 0.04618,
+            "3": 0.05456,
+            "4": 0.05922,
+            "5": 0.06526,
+            "6": 0.07256,
+            "7": 0.07586,
+            "8": 0.07738,
+            "9": 0.08046,
+            "10": 0.08242,
+            "11": 0.08678,
+            "12": 0.08226,
+            "13": 0.07518,
+            "14": 0.06312,
+            "15": 0.03808
+          }
+        },
+        "greg-de-niro": {
+          "horse_id": "greg-de-niro",
+          "name": "GREG DE NIRO",
+          "p_win": 0.08164,
+          "p_top3": 0.2728,
+          "p_top5": 0.4739,
+          "expected_position": 6.081,
+          "position_distribution": {
+            "1": 0.08164,
+            "2": 0.0933,
+            "3": 0.09786,
+            "4": 0.1002,
+            "5": 0.1009,
+            "6": 0.09778,
+            "7": 0.09028,
+            "8": 0.08198,
+            "9": 0.07282,
+            "10": 0.06138,
+            "11": 0.04888,
+            "12": 0.03436,
+            "13": 0.02364,
+            "14": 0.01178,
+            "15": 0.0032
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "ready-star",
+          "ruger",
+          "greg-de-niro"
+        ],
+        "23": [
+          "ready-star",
+          "ruger",
+          "greg-de-niro"
+        ],
+        "37": [
+          "ready-star",
+          "ruger",
+          "greg-de-niro"
+        ],
+        "51": [
+          "ready-star",
+          "ruger",
+          "greg-de-niro"
+        ],
+        "73": [
+          "ready-star",
+          "ruger",
+          "greg-de-niro"
+        ]
+      },
+      "reference_top": [
+        "greg-de-niro",
+        "ready-star",
+        "ruger"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "ready-star": 10.0,
+        "ruger": 5.0,
+        "greg-de-niro": 0.0
+      },
+      "order": [
+        "ready-star",
+        "ruger",
+        "greg-de-niro"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "ready-star": 14.0,
+        "ruger": 13.0,
+        "greg-de-niro": 12.0,
+        "ibis-petteviniere": 11.0,
+        "jusseo": 10.0,
+        "irish-nice-elge": 9.0,
+        "oscar-van-halbeek-d.-thomain": 8.0,
+        "harpy": 7.0,
+        "cool-kronos": 6.0,
+        "diabel": 5.0,
+        "mateo-di-quattro-b.-goop": 4.0,
+        "honey-king": 3.0,
+        "hall-black-mess": 2.0,
+        "diva-del-ronco-v.-ciotola": 1.0,
+        "laredo-boko": 0.0
+      },
+      "order": [
+        "ready-star",
+        "ruger",
+        "greg-de-niro",
+        "ibis-petteviniere",
+        "jusseo",
+        "irish-nice-elge",
+        "oscar-van-halbeek-d.-thomain",
+        "harpy",
+        "cool-kronos",
+        "diabel",
+        "mateo-di-quattro-b.-goop",
+        "honey-king",
+        "hall-black-mess",
+        "diva-del-ronco-v.-ciotola",
+        "laredo-boko"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "ready-star",
+        "ruger",
+        "greg-de-niro",
+        "ibis-petteviniere",
+        "jusseo",
+        "irish-nice-elge",
+        "oscar-van-halbeek-d.-thomain",
+        "harpy",
+        "cool-kronos",
+        "diabel",
+        "mateo-di-quattro-b.-goop",
+        "honey-king",
+        "hall-black-mess",
+        "diva-del-ronco-v.-ciotola",
+        "laredo-boko"
+      ],
+      "copeland": {
+        "ready-star": 14.0,
+        "ruger": 12.0,
+        "greg-de-niro": 10.0,
+        "ibis-petteviniere": 8.0,
+        "jusseo": 6.0,
+        "irish-nice-elge": 4.0,
+        "oscar-van-halbeek-d.-thomain": 2.0,
+        "harpy": 0.0,
+        "cool-kronos": -2.0,
+        "diabel": -4.0,
+        "mateo-di-quattro-b.-goop": -6.0,
+        "honey-king": -8.0,
+        "hall-black-mess": -10.0,
+        "diva-del-ronco-v.-ciotola": -12.0,
+        "laredo-boko": -14.0
+      },
+      "normalized": {
+        "ready-star": 1.0,
+        "ruger": 0.9286,
+        "greg-de-niro": 0.8571,
+        "ibis-petteviniere": 0.7857,
+        "jusseo": 0.7143,
+        "irish-nice-elge": 0.6429,
+        "oscar-van-halbeek-d.-thomain": 0.5714,
+        "harpy": 0.5,
+        "cool-kronos": 0.4286,
+        "diabel": 0.3571,
+        "mateo-di-quattro-b.-goop": 0.2857,
+        "honey-king": 0.2143,
+        "hall-black-mess": 0.1429,
+        "diva-del-ronco-v.-ciotola": 0.0714,
+        "laredo-boko": 0.0
+      },
+      "mean_rank": {
+        "ready-star": 0.0,
+        "ruger": 1.0,
+        "greg-de-niro": 2.0,
+        "ibis-petteviniere": 3.0,
+        "jusseo": 4.0,
+        "irish-nice-elge": 5.0,
+        "oscar-van-halbeek-d.-thomain": 6.0,
+        "harpy": 7.0,
+        "cool-kronos": 8.0,
+        "diabel": 9.0,
+        "mateo-di-quattro-b.-goop": 10.0,
+        "honey-king": 11.0,
+        "hall-black-mess": 12.0,
+        "diva-del-ronco-v.-ciotola": 13.0,
+        "laredo-boko": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "oscar-van-halbeek-d.-thomain",
+        "name": "OSCAR VAN HALBEEK",
+        "number": 1,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "harpy",
+        "name": "HARPY",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ruger",
+        "name": "RUGER",
+        "number": 3,
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 2 vs marché 6)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jusseo",
+        "name": "JUSSEO",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mateo-di-quattro-b.-goop",
+        "name": "MATEO DI QUATTRO",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "diva-del-ronco-v.-ciotola",
+        "name": "DIVA DEL RONCO",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "laredo-boko",
+        "name": "LAREDO BOKO",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ready-star",
+        "name": "READY STAR",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "diabel",
+        "name": "DIABEL",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "hall-black-mess",
+        "name": "HALL BLACK MESS",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "ibis-petteviniere",
+        "name": "IBIS PETTEVINIERE",
+        "number": 12,
+        "signals": [
+          "l'analyse interne le place 7 rangs plus haut que le marché (interne 4 vs marché 11)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "honey-king",
+        "name": "HONEY KING",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "irish-nice-elge",
+        "name": "IRISH NICE ELGE",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "cool-kronos",
+        "name": "COOL KRONOS",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "greg-de-niro",
+        "name": "GREG DE NIRO",
+        "number": 16,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 3 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "ruger",
+      "ibis-petteviniere",
+      "greg-de-niro"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "ready-star",
+          "oscar-van-halbeek-d.-thomain",
+          "laredo-boko",
+          "cool-kronos",
+          "greg-de-niro",
+          "hall-black-mess",
+          "harpy",
+          "jusseo",
+          "irish-nice-elge",
+          "honey-king",
+          "diabel",
+          "ibis-petteviniere",
+          "mateo-di-quattro-b.-goop",
+          "ruger",
+          "diva-del-ronco-v.-ciotola"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "ready-star",
+          "harpy",
+          "diabel",
+          "laredo-boko",
+          "mateo-di-quattro-b.-goop",
+          "oscar-van-halbeek-d.-thomain",
+          "ruger",
+          "jusseo",
+          "irish-nice-elge",
+          "cool-kronos",
+          "ibis-petteviniere",
+          "hall-black-mess",
+          "greg-de-niro",
+          "honey-king"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 7 chances retenues",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "ready-star",
+          "oscar-van-halbeek-d.-thomain",
+          "laredo-boko",
+          "cool-kronos",
+          "greg-de-niro",
+          "harpy",
+          "ruger",
+          "jusseo",
+          "mateo-di-quattro-b.-goop",
+          "diva-del-ronco-v.-ciotola",
+          "diabel",
+          "hall-black-mess",
+          "ibis-petteviniere",
+          "honey-king",
+          "irish-nice-elge"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "ready-star",
+          "oscar-van-halbeek-d.-thomain",
+          "laredo-boko",
+          "cool-kronos",
+          "greg-de-niro",
+          "irish-nice-elge",
+          "jusseo",
+          "harpy",
+          "diabel",
+          "hall-black-mess",
+          "honey-king",
+          "ruger",
+          "mateo-di-quattro-b.-goop",
+          "diva-del-ronco-v.-ciotola",
+          "ibis-petteviniere"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "oscar-van-halbeek-d.-thomain",
+          "harpy",
+          "ruger",
+          "jusseo",
+          "mateo-di-quattro-b.-goop",
+          "diva-del-ronco-v.-ciotola",
+          "laredo-boko",
+          "ready-star",
+          "diabel",
+          "hall-black-mess",
+          "ibis-petteviniere",
+          "honey-king",
+          "irish-nice-elge",
+          "cool-kronos",
+          "greg-de-niro"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-26T14:33:03.779031+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "oscar-van-halbeek-d.-thomain": 0.039413,
+      "harpy": 0.082111,
+      "ruger": 0.042841,
+      "jusseo": 0.046921,
+      "mateo-di-quattro-b.-goop": 0.026631,
+      "diva-del-ronco-v.-ciotola": 0.00483,
+      "laredo-boko": 0.018591,
+      "ready-star": 0.518597,
+      "diabel": 0.046921,
+      "hall-black-mess": 0.006045,
+      "ibis-petteviniere": 0.017287,
+      "honey-king": 0.010828,
+      "irish-nice-elge": 0.098533,
+      "cool-kronos": 0.030792,
+      "greg-de-niro": 0.00966
+    },
+    "consensus_ranking": [
+      "ready-star",
+      "harpy",
+      "diabel",
+      "laredo-boko",
+      "mateo-di-quattro-b.-goop",
+      "oscar-van-halbeek-d.-thomain",
+      "ruger",
+      "jusseo",
+      "irish-nice-elge",
+      "cool-kronos",
+      "ibis-petteviniere",
+      "hall-black-mess",
+      "greg-de-niro",
+      "honey-king"
+    ],
+    "convergence": 0.1111,
+    "notes": [
+      "convergence Top 5 interne/externe : 11%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "ruger",
+      "greg-de-niro",
+      "ibis-petteviniere",
+      "jusseo"
+    ],
+    "externe_seulement": [
+      "harpy",
+      "diabel",
+      "laredo-boko",
+      "mateo-di-quattro-b.-goop"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 7.2117,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 1.1111,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · OSCAR VAN HALBEEK : aptitude",
+      "n°1 · OSCAR VAN HALBEEK : shoeing",
+      "n°2 · HARPY : aptitude",
+      "n°2 · HARPY : shoeing",
+      "n°3 · RUGER : aptitude",
+      "n°3 · RUGER : shoeing",
+      "n°4 · JUSSEO : aptitude",
+      "n°4 · JUSSEO : shoeing",
+      "n°5 · MATEO DI QUATTRO : aptitude",
+      "n°5 · MATEO DI QUATTRO : shoeing",
+      "n°6 · DIVA DEL RONCO : aptitude",
+      "n°6 · DIVA DEL RONCO : shoeing",
+      "n°7 · LAREDO BOKO : aptitude",
+      "n°7 · LAREDO BOKO : shoeing",
+      "n°8 · READY STAR : aptitude",
+      "n°8 · READY STAR : shoeing",
+      "n°9 · DIABEL : aptitude",
+      "n°9 · DIABEL : shoeing",
+      "n°10 · HALL BLACK MESS : aptitude",
+      "n°10 · HALL BLACK MESS : shoeing",
+      "n°12 · IBIS PETTEVINIERE : aptitude",
+      "n°12 · IBIS PETTEVINIERE : shoeing",
+      "n°13 · HONEY KING : aptitude",
+      "n°13 · HONEY KING : shoeing",
+      "n°14 · IRISH NICE ELGE : aptitude",
+      "n°14 · IRISH NICE ELGE : shoeing",
+      "n°15 · COOL KRONOS : aptitude",
+      "n°15 · COOL KRONOS : shoeing",
+      "n°16 · GREG DE NIRO : aptitude",
+      "n°16 · GREG DE NIRO : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 1.44 (saturé à 2.0) → 7.2/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 11% → 1.1/10",
+      "complétude des données = 67% (30 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": true,
+    "race_start": "2026-11-26T12:55:00+00:00",
+    "betting_close": "2026-11-26T12:45:00+00:00",
+    "race_started": true,
+    "now": "2026-11-26T14:33:10.596545+00:00",
+    "minutes_late": 108.18,
+    "minutes_to_close": -108.18,
+    "schedule": {
+      "start_ouagadougou": "2026-11-26T12:55:00+00:00",
+      "start_paris": "2026-11-26T13:55:00+01:00",
+      "close_lonab": "2026-11-26T12:45:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Quarté",
+      "places": 4,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 8,
+      "cheval": "READY STAR",
+      "horse_id": "ready-star"
+    },
+    {
+      "rang": 2,
+      "numero": 3,
+      "cheval": "RUGER",
+      "horse_id": "ruger"
+    },
+    {
+      "rang": 3,
+      "numero": 16,
+      "cheval": "GREG DE NIRO",
+      "horse_id": "greg-de-niro"
+    },
+    {
+      "rang": 4,
+      "numero": 12,
+      "cheval": "IBIS PETTEVINIERE",
+      "horse_id": "ibis-petteviniere"
+    },
+    {
+      "rang": 5,
+      "numero": 4,
+      "cheval": "JUSSEO",
+      "horse_id": "jusseo"
+    },
+    {
+      "rang": 6,
+      "numero": 14,
+      "cheval": "IRISH NICE ELGE",
+      "horse_id": "irish-nice-elge"
+    },
+    {
+      "rang": 7,
+      "numero": 1,
+      "cheval": "OSCAR VAN HALBEEK",
+      "horse_id": "oscar-van-halbeek-d.-thomain"
+    },
+    {
+      "rang": 8,
+      "numero": 2,
+      "cheval": "HARPY",
+      "horse_id": "harpy"
+    },
+    {
+      "rang": 9,
+      "numero": 15,
+      "cheval": "COOL KRONOS",
+      "horse_id": "cool-kronos"
+    },
+    {
+      "rang": 10,
+      "numero": 9,
+      "cheval": "DIABEL",
+      "horse_id": "diabel"
+    },
+    {
+      "rang": 11,
+      "numero": 5,
+      "cheval": "MATEO DI QUATTRO",
+      "horse_id": "mateo-di-quattro-b.-goop"
+    },
+    {
+      "rang": 12,
+      "numero": 13,
+      "cheval": "HONEY KING",
+      "horse_id": "honey-king"
+    },
+    {
+      "rang": 13,
+      "numero": 10,
+      "cheval": "HALL BLACK MESS",
+      "horse_id": "hall-black-mess"
+    },
+    {
+      "rang": 14,
+      "numero": 6,
+      "cheval": "DIVA DEL RONCO",
+      "horse_id": "diva-del-ronco-v.-ciotola"
+    },
+    {
+      "rang": 15,
+      "numero": 7,
+      "cheval": "LAREDO BOKO",
+      "horse_id": "laredo-boko"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 8,
+      "cheval": "READY STAR",
+      "score": 9.698
+    },
+    {
+      "numero": 3,
+      "cheval": "RUGER",
+      "score": 8.2557
+    },
+    {
+      "numero": 16,
+      "cheval": "GREG DE NIRO",
+      "score": 7.0145
+    },
+    {
+      "numero": 12,
+      "cheval": "IBIS PETTEVINIERE",
+      "score": 6.6526
+    },
+    {
+      "numero": 4,
+      "cheval": "JUSSEO",
+      "score": 6.42
+    },
+    {
+      "numero": 14,
+      "cheval": "IRISH NICE ELGE",
+      "score": 6.1764
+    },
+    {
+      "numero": 1,
+      "cheval": "OSCAR VAN HALBEEK",
+      "score": 5.6853
+    },
+    {
+      "numero": 2,
+      "cheval": "HARPY",
+      "score": 5.6789
+    },
+    {
+      "numero": 15,
+      "cheval": "COOL KRONOS",
+      "score": 5.6162
+    },
+    {
+      "numero": 9,
+      "cheval": "DIABEL",
+      "score": 5.2218
+    },
+    {
+      "numero": 5,
+      "cheval": "MATEO DI QUATTRO",
+      "score": 4.8138
+    },
+    {
+      "numero": 13,
+      "cheval": "HONEY KING",
+      "score": 4.7243
+    },
+    {
+      "numero": 10,
+      "cheval": "HALL BLACK MESS",
+      "score": 4.5703
+    },
+    {
+      "numero": 6,
+      "cheval": "DIVA DEL RONCO",
+      "score": 4.2663
+    },
+    {
+      "numero": 7,
+      "cheval": "LAREDO BOKO",
+      "score": 3.6094
+    }
+  ],
+  "decision": {
+    "classe": "lisible",
+    "ouverture": {
+      "n_eff": 2.8877,
+      "entropie_norm": 0.6197,
+      "p_favori": 0.5688,
+      "ratio_1_2": 6.0541
+    },
+    "p_gagnant_dans_selection": 0.8183,
+    "nb_attendu_dans_top5": 2.658,
+    "p_au_moins": {
+      "1": 0.9973,
+      "2": 0.9252,
+      "3": 0.5806,
+      "4": 0.1477,
+      "5": 0.0072
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-26T12:56:40+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "58 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "lisible",
+        "respecte": true
+      }
+    ],
+    "selection": [
+      {
+        "numero": 8,
+        "cheval": "READY STAR",
+        "cote": 1.9,
+        "p_gagne": 0.5688,
+        "p_top3": 0.7781,
+        "p_top5": 0.8993,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 14,
+        "cheval": "IRISH NICE ELGE",
+        "cote": 10.0,
+        "p_gagne": 0.0939,
+        "p_top3": 0.323,
+        "p_top5": 0.5275,
+        "rang_systeme": 6
+      },
+      {
+        "numero": 2,
+        "cheval": "HARPY",
+        "cote": 12.0,
+        "p_gagne": 0.0771,
+        "p_top3": 0.2867,
+        "p_top5": 0.4864,
+        "rang_systeme": 8
+      },
+      {
+        "numero": 4,
+        "cheval": "JUSSEO",
+        "cote": 21.0,
+        "p_gagne": 0.042,
+        "p_top3": 0.2015,
+        "p_top5": 0.3737,
+        "rang_systeme": 5
+      },
+      {
+        "numero": 9,
+        "cheval": "DIABEL",
+        "cote": 21.0,
+        "p_gagne": 0.042,
+        "p_top3": 0.2024,
+        "p_top5": 0.3709,
+        "rang_systeme": 10
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 15,
+    "unmatched_pmu": [
+      "JACK DES ASS"
+    ],
+    "unmatched_race": [],
+    "warnings": [
+      "résultats d'arrivée présents : la course est déjà courue, les cotes « direct » sont les cotes finales (analyse a posteriori, pas une prévision)"
+    ]
+  },
+  "apres_course": true,
+  "avertissement": "⚠ ANALYSE APRÈS LE DÉPART : la course était déjà partie quand l'analyse a tourné (déclenchement en retard). Pronostic affiché à titre indicatif ; il n'est PAS compté dans les statistiques.",
+  "stored_at": "2026-11-26T14:33:10.634304+00:00"
+}
