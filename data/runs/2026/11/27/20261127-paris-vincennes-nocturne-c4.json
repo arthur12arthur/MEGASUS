@@ -1,0 +1,1916 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261127-paris-vincennes-nocturne-c4",
+  "date": "2026-11-27",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS -VINCENNES NOCTURNE",
+    "date": "2026-11-27",
+    "start_time": "2026-11-27T19:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX VILLE DE FONTENAY SOUS BOIS",
+    "distance_m": 2700,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_27-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-27T19:05:00+00:00",
+    "bet_type": "4+1"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-27T17:45:10.614926+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "jongleuse-de-bry-m.-ionescu",
+        "name": "JONGLEUSE DE BRY",
+        "number": 1,
+        "odds_pdf": 96.0,
+        "odds_latest": 74.0,
+        "delta": -0.22916666666666666,
+        "implied_shift": -0.003096846846846848,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kiss-me-de-navary-f.-nivard",
+        "name": "KISS ME DE NAVARY",
+        "number": 2,
+        "odds_pdf": 33.0,
+        "odds_latest": 22.0,
+        "delta": -0.3333333333333333,
+        "implied_shift": -0.015151515151515152,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kara-d-or",
+        "name": "KARA D'OR",
+        "number": 3,
+        "odds_pdf": 27.0,
+        "odds_latest": 18.0,
+        "delta": -0.3333333333333333,
+        "implied_shift": -0.018518518518518517,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kunamatata",
+        "name": "KUNAMATATA",
+        "number": 4,
+        "odds_pdf": 7.0,
+        "odds_latest": 7.4,
+        "delta": 0.0571428571428572,
+        "implied_shift": 0.007722007722007734,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kaliakie-phedo",
+        "name": "KALIAKIE PHEDO",
+        "number": 5,
+        "odds_pdf": 5.0,
+        "odds_latest": 5.1,
+        "delta": 0.019999999999999928,
+        "implied_shift": 0.0039215686274509665,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "kelly-gede",
+        "name": "KELLY GEDE",
+        "number": 6,
+        "odds_pdf": 22.0,
+        "odds_latest": 40.0,
+        "delta": 0.8181818181818182,
+        "implied_shift": 0.020454545454545454,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "kynte-flush",
+        "name": "KYNTE FLUSH",
+        "number": 7,
+        "odds_pdf": 17.0,
+        "odds_latest": 12.0,
+        "delta": -0.29411764705882354,
+        "implied_shift": -0.024509803921568624,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kiss-me-du-livet",
+        "name": "KISS ME DU LIVET",
+        "number": 8,
+        "odds_pdf": 11.0,
+        "odds_latest": 3.6,
+        "delta": -0.6727272727272727,
+        "implied_shift": -0.18686868686868688,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "number": 9,
+        "odds_pdf": 42.0,
+        "odds_latest": 47.0,
+        "delta": 0.11904761904761904,
+        "implied_shift": 0.0025329280648429577,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "jacinthe-du-boiron-m.-abrivard",
+        "name": "JACINTHE DU BOIRON",
+        "number": 10,
+        "odds_pdf": 13.0,
+        "odds_latest": 10.0,
+        "delta": -0.23076923076923078,
+        "implied_shift": -0.023076923076923078,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kelly-jane",
+        "name": "KELLY JANE",
+        "number": 11,
+        "odds_pdf": 9.0,
+        "odds_latest": null,
+        "delta": null,
+        "implied_shift": null,
+        "direction": "inconnu",
+        "non_runner_alert": true,
+        "note": "non-partant signalé après publication du PDF"
+      },
+      {
+        "horse_id": "june-d-erable",
+        "name": "JUNE D'ERABLE",
+        "number": 12,
+        "odds_pdf": 18.0,
+        "odds_latest": 13.0,
+        "delta": -0.2777777777777778,
+        "implied_shift": -0.021367521367521375,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kalinka-du-grenat-f.-ouvrie",
+        "name": "KALINKA DU GRENAT",
+        "number": 13,
+        "odds_pdf": 24.0,
+        "odds_latest": 20.0,
+        "delta": -0.16666666666666666,
+        "implied_shift": -0.008333333333333338,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 14,
+        "odds_pdf": 14.0,
+        "odds_latest": 9.9,
+        "delta": -0.2928571428571428,
+        "implied_shift": -0.029581529581529584,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      }
+    ],
+    "late_non_runners": [
+      "kelly-jane"
+    ],
+    "warnings": [
+      "KELLY JANE (kelly-jane) : aucune cote récente disponible"
+    ]
+  },
+  "datafilter": {
+    "selected": [
+      "jongleuse-de-bry-m.-ionescu",
+      "kiss-me-de-navary-f.-nivard",
+      "kara-d-or",
+      "kunamatata",
+      "kaliakie-phedo",
+      "kelly-gede",
+      "kynte-flush",
+      "kiss-me-du-livet",
+      "jade-de-navary",
+      "jacinthe-du-boiron-m.-abrivard",
+      "june-d-erable",
+      "kalinka-du-grenat-f.-ouvrie",
+      "kiphyle-desbois"
+    ],
+    "excluded": [],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "jacinthe-du-boiron-m.-abrivard",
+        "name": "JACINTHE DU BOIRON",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.976381070534757,
+          "forme": 5.253731343283582,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 7.8774,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kaliakie-phedo",
+        "name": "KALIAKIE PHEDO",
+        "number": 5,
+        "dimensions": {
+          "historique": 7.850396994823152,
+          "forme": 5.820895522388059,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.9484,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jongleuse-de-bry-m.-ionescu",
+        "name": "JONGLEUSE DE BRY",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.866497880003335,
+          "forme": 2.6865671641791042,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6754,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiss-me-du-livet",
+        "name": "KISS ME DU LIVET",
+        "number": 8,
+        "dimensions": {
+          "historique": 5.75088281706196,
+          "forme": 7.80597014925373,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.6643,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kara-d-or",
+        "name": "KARA D'OR",
+        "number": 3,
+        "dimensions": {
+          "historique": 6.326930785263864,
+          "forme": 4.985074626865672,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.7306,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "june-d-erable",
+        "name": "JUNE D'ERABLE",
+        "number": 12,
+        "dimensions": {
+          "historique": 7.311585742721354,
+          "forme": 3.6417910447761193,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6806,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kunamatata",
+        "name": "KUNAMATATA",
+        "number": 4,
+        "dimensions": {
+          "historique": 7.828143251897348,
+          "forme": 2.328358208955224,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.3838,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kalinka-du-grenat-f.-ouvrie",
+        "name": "KALINKA DU GRENAT",
+        "number": 13,
+        "dimensions": {
+          "historique": 7.141033853699588,
+          "forme": 2.9850746268656714,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.2939,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiss-me-de-navary-f.-nivard",
+        "name": "KISS ME DE NAVARY",
+        "number": 2,
+        "dimensions": {
+          "historique": 6.376738818655358,
+          "forme": 3.3507462686567164,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.0319,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kynte-flush",
+        "name": "KYNTE FLUSH",
+        "number": 7,
+        "dimensions": {
+          "historique": 6.533791488278535,
+          "forme": 2.283582089552239,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.6448,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kelly-gede",
+        "name": "KELLY GEDE",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.603796749827251,
+          "forme": 1.1940298507462686,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1995,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 14,
+        "dimensions": {
+          "historique": 5.666666666666666,
+          "forme": 1.9552238805970148,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.0171,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "number": 9,
+        "dimensions": {
+          "historique": 6.690471705024558,
+          "forme": 0.11940298507462685,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.77,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "jacinthe-du-boiron-m.-abrivard",
+      "kaliakie-phedo",
+      "jongleuse-de-bry-m.-ionescu",
+      "kiss-me-du-livet",
+      "kara-d-or",
+      "june-d-erable",
+      "kunamatata",
+      "kalinka-du-grenat-f.-ouvrie",
+      "kiss-me-de-navary-f.-nivard",
+      "kynte-flush",
+      "kelly-gede",
+      "kiphyle-desbois",
+      "jade-de-navary"
+    ],
+    "stability": 0.6,
+    "is_stable": false,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "jongleuse-de-bry-m.-ionescu": {
+          "horse_id": "jongleuse-de-bry-m.-ionescu",
+          "name": "JONGLEUSE DE BRY",
+          "p_win": 0.11546,
+          "p_top3": 0.34306,
+          "p_top5": 0.55922,
+          "expected_position": 5.2745,
+          "position_distribution": {
+            "1": 0.11546,
+            "2": 0.11258,
+            "3": 0.11502,
+            "4": 0.11184,
+            "5": 0.10432,
+            "6": 0.09784,
+            "7": 0.08846,
+            "8": 0.07884,
+            "9": 0.06502,
+            "10": 0.0514,
+            "11": 0.03374,
+            "12": 0.01866,
+            "13": 0.00682
+          }
+        },
+        "kiss-me-de-navary-f.-nivard": {
+          "horse_id": "kiss-me-de-navary-f.-nivard",
+          "name": "KISS ME DE NAVARY",
+          "p_win": 0.05002,
+          "p_top3": 0.15904,
+          "p_top5": 0.28788,
+          "expected_position": 7.7681,
+          "position_distribution": {
+            "1": 0.05002,
+            "2": 0.05202,
+            "3": 0.057,
+            "4": 0.062,
+            "5": 0.06684,
+            "6": 0.07426,
+            "7": 0.07918,
+            "8": 0.0846,
+            "9": 0.09266,
+            "10": 0.09894,
+            "11": 0.10584,
+            "12": 0.09968,
+            "13": 0.07696
+          }
+        },
+        "kara-d-or": {
+          "horse_id": "kara-d-or",
+          "name": "KARA D'OR",
+          "p_win": 0.07008,
+          "p_top3": 0.22126,
+          "p_top5": 0.39024,
+          "expected_position": 6.698,
+          "position_distribution": {
+            "1": 0.07008,
+            "2": 0.0732,
+            "3": 0.07798,
+            "4": 0.08286,
+            "5": 0.08612,
+            "6": 0.08742,
+            "7": 0.09102,
+            "8": 0.09272,
+            "9": 0.08826,
+            "10": 0.08548,
+            "11": 0.0764,
+            "12": 0.05744,
+            "13": 0.03102
+          }
+        },
+        "kunamatata": {
+          "horse_id": "kunamatata",
+          "name": "KUNAMATATA",
+          "p_win": 0.05962,
+          "p_top3": 0.19162,
+          "p_top5": 0.33944,
+          "expected_position": 7.2006,
+          "position_distribution": {
+            "1": 0.05962,
+            "2": 0.0635,
+            "3": 0.0685,
+            "4": 0.07162,
+            "5": 0.0762,
+            "6": 0.08152,
+            "7": 0.08614,
+            "8": 0.08944,
+            "9": 0.09502,
+            "10": 0.09222,
+            "11": 0.08904,
+            "12": 0.07674,
+            "13": 0.05044
+          }
+        },
+        "kaliakie-phedo": {
+          "horse_id": "kaliakie-phedo",
+          "name": "KALIAKIE PHEDO",
+          "p_win": 0.12982,
+          "p_top3": 0.38246,
+          "p_top5": 0.60354,
+          "expected_position": 4.9407,
+          "position_distribution": {
+            "1": 0.12982,
+            "2": 0.12898,
+            "3": 0.12366,
+            "4": 0.11408,
+            "5": 0.107,
+            "6": 0.09494,
+            "7": 0.08532,
+            "8": 0.0748,
+            "9": 0.05584,
+            "10": 0.041,
+            "11": 0.02642,
+            "12": 0.0137,
+            "13": 0.00444
+          }
+        },
+        "kelly-gede": {
+          "horse_id": "kelly-gede",
+          "name": "KELLY GEDE",
+          "p_win": 0.03388,
+          "p_top3": 0.10834,
+          "p_top5": 0.1991,
+          "expected_position": 8.9342,
+          "position_distribution": {
+            "1": 0.03388,
+            "2": 0.03712,
+            "3": 0.03734,
+            "4": 0.04294,
+            "5": 0.04782,
+            "6": 0.05418,
+            "7": 0.06262,
+            "8": 0.06996,
+            "9": 0.08268,
+            "10": 0.09854,
+            "11": 0.11482,
+            "12": 0.14776,
+            "13": 0.17034
+          }
+        },
+        "kynte-flush": {
+          "horse_id": "kynte-flush",
+          "name": "KYNTE FLUSH",
+          "p_win": 0.04132,
+          "p_top3": 0.13534,
+          "p_top5": 0.24492,
+          "expected_position": 8.2871,
+          "position_distribution": {
+            "1": 0.04132,
+            "2": 0.04642,
+            "3": 0.0476,
+            "4": 0.05174,
+            "5": 0.05784,
+            "6": 0.06506,
+            "7": 0.07098,
+            "8": 0.08054,
+            "9": 0.09016,
+            "10": 0.10248,
+            "11": 0.11568,
+            "12": 0.11864,
+            "13": 0.11154
+          }
+        },
+        "kiss-me-du-livet": {
+          "horse_id": "kiss-me-du-livet",
+          "name": "KISS ME DU LIVET",
+          "p_win": 0.11436,
+          "p_top3": 0.33802,
+          "p_top5": 0.5548,
+          "expected_position": 5.3144,
+          "position_distribution": {
+            "1": 0.11436,
+            "2": 0.11166,
+            "3": 0.112,
+            "4": 0.1105,
+            "5": 0.10628,
+            "6": 0.0983,
+            "7": 0.08832,
+            "8": 0.0788,
+            "9": 0.067,
+            "10": 0.04988,
+            "11": 0.03516,
+            "12": 0.02032,
+            "13": 0.00742
+          }
+        },
+        "jade-de-navary": {
+          "horse_id": "jade-de-navary",
+          "name": "JADE DE NAVARY",
+          "p_win": 0.02522,
+          "p_top3": 0.0883,
+          "p_top5": 0.16314,
+          "expected_position": 9.5149,
+          "position_distribution": {
+            "1": 0.02522,
+            "2": 0.02958,
+            "3": 0.0335,
+            "4": 0.03436,
+            "5": 0.04048,
+            "6": 0.04658,
+            "7": 0.05424,
+            "8": 0.0613,
+            "9": 0.07154,
+            "10": 0.09044,
+            "11": 0.10908,
+            "12": 0.15534,
+            "13": 0.24834
+          }
+        },
+        "jacinthe-du-boiron-m.-abrivard": {
+          "horse_id": "jacinthe-du-boiron-m.-abrivard",
+          "name": "JACINTHE DU BOIRON",
+          "p_win": 0.20472,
+          "p_top3": 0.53546,
+          "p_top5": 0.7679,
+          "expected_position": 3.7785,
+          "position_distribution": {
+            "1": 0.20472,
+            "2": 0.17978,
+            "3": 0.15096,
+            "4": 0.12798,
+            "5": 0.10446,
+            "6": 0.08026,
+            "7": 0.05936,
+            "8": 0.04134,
+            "9": 0.02594,
+            "10": 0.01498,
+            "11": 0.0071,
+            "12": 0.00264,
+            "13": 0.00048
+          }
+        },
+        "june-d-erable": {
+          "horse_id": "june-d-erable",
+          "name": "JUNE D'ERABLE",
+          "p_win": 0.06686,
+          "p_top3": 0.21502,
+          "p_top5": 0.38002,
+          "expected_position": 6.768,
+          "position_distribution": {
+            "1": 0.06686,
+            "2": 0.07258,
+            "3": 0.07558,
+            "4": 0.08048,
+            "5": 0.08452,
+            "6": 0.08888,
+            "7": 0.09196,
+            "8": 0.09248,
+            "9": 0.09118,
+            "10": 0.08806,
+            "11": 0.07556,
+            "12": 0.05866,
+            "13": 0.0332
+          }
+        },
+        "kalinka-du-grenat-f.-ouvrie": {
+          "horse_id": "kalinka-du-grenat-f.-ouvrie",
+          "name": "KALINKA DU GRENAT",
+          "p_win": 0.05796,
+          "p_top3": 0.1823,
+          "p_top5": 0.32492,
+          "expected_position": 7.3583,
+          "position_distribution": {
+            "1": 0.05796,
+            "2": 0.0596,
+            "3": 0.06474,
+            "4": 0.06912,
+            "5": 0.0735,
+            "6": 0.0784,
+            "7": 0.08312,
+            "8": 0.0881,
+            "9": 0.09654,
+            "10": 0.096,
+            "11": 0.09458,
+            "12": 0.08176,
+            "13": 0.05658
+          }
+        },
+        "kiphyle-desbois": {
+          "horse_id": "kiphyle-desbois",
+          "name": "KIPHYLE DESBOIS",
+          "p_win": 0.03068,
+          "p_top3": 0.09978,
+          "p_top5": 0.18488,
+          "expected_position": 9.1628,
+          "position_distribution": {
+            "1": 0.03068,
+            "2": 0.03298,
+            "3": 0.03612,
+            "4": 0.04048,
+            "5": 0.04462,
+            "6": 0.05236,
+            "7": 0.05928,
+            "8": 0.06708,
+            "9": 0.07816,
+            "10": 0.09058,
+            "11": 0.11658,
+            "12": 0.14866,
+            "13": 0.20242
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "jacinthe-du-boiron-m.-abrivard",
+          "kaliakie-phedo",
+          "kiss-me-du-livet"
+        ],
+        "23": [
+          "jacinthe-du-boiron-m.-abrivard",
+          "kaliakie-phedo",
+          "jongleuse-de-bry-m.-ionescu"
+        ],
+        "37": [
+          "jacinthe-du-boiron-m.-abrivard",
+          "kaliakie-phedo",
+          "jongleuse-de-bry-m.-ionescu"
+        ],
+        "51": [
+          "jacinthe-du-boiron-m.-abrivard",
+          "kaliakie-phedo",
+          "kiss-me-du-livet"
+        ],
+        "73": [
+          "jacinthe-du-boiron-m.-abrivard",
+          "kaliakie-phedo",
+          "jongleuse-de-bry-m.-ionescu"
+        ]
+      },
+      "reference_top": [
+        "jacinthe-du-boiron-m.-abrivard",
+        "jongleuse-de-bry-m.-ionescu",
+        "kaliakie-phedo"
+      ],
+      "stable_seeds": 3,
+      "stability": 0.6,
+      "is_stable": false
+    },
+    "borda_seeds": {
+      "points": {
+        "jacinthe-du-boiron-m.-abrivard": 10.0,
+        "kaliakie-phedo": 5.0,
+        "kiss-me-du-livet": 0.0,
+        "jongleuse-de-bry-m.-ionescu": 0.0
+      },
+      "order": [
+        "jacinthe-du-boiron-m.-abrivard",
+        "kaliakie-phedo",
+        "jongleuse-de-bry-m.-ionescu",
+        "kiss-me-du-livet"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "jacinthe-du-boiron-m.-abrivard": 12.0,
+        "kaliakie-phedo": 11.0,
+        "jongleuse-de-bry-m.-ionescu": 10.0,
+        "kiss-me-du-livet": 9.0,
+        "kara-d-or": 8.0,
+        "june-d-erable": 7.0,
+        "kunamatata": 6.0,
+        "kalinka-du-grenat-f.-ouvrie": 5.0,
+        "kiss-me-de-navary-f.-nivard": 4.0,
+        "kynte-flush": 3.0,
+        "kelly-gede": 2.0,
+        "kiphyle-desbois": 1.0,
+        "jade-de-navary": 0.0
+      },
+      "order": [
+        "jacinthe-du-boiron-m.-abrivard",
+        "kaliakie-phedo",
+        "jongleuse-de-bry-m.-ionescu",
+        "kiss-me-du-livet",
+        "kara-d-or",
+        "june-d-erable",
+        "kunamatata",
+        "kalinka-du-grenat-f.-ouvrie",
+        "kiss-me-de-navary-f.-nivard",
+        "kynte-flush",
+        "kelly-gede",
+        "kiphyle-desbois",
+        "jade-de-navary"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "jacinthe-du-boiron-m.-abrivard",
+        "kaliakie-phedo",
+        "jongleuse-de-bry-m.-ionescu",
+        "kiss-me-du-livet",
+        "kara-d-or",
+        "june-d-erable",
+        "kunamatata",
+        "kalinka-du-grenat-f.-ouvrie",
+        "kiss-me-de-navary-f.-nivard",
+        "kynte-flush",
+        "kelly-gede",
+        "kiphyle-desbois",
+        "jade-de-navary"
+      ],
+      "copeland": {
+        "jacinthe-du-boiron-m.-abrivard": 12.0,
+        "kaliakie-phedo": 10.0,
+        "jongleuse-de-bry-m.-ionescu": 8.0,
+        "kiss-me-du-livet": 6.0,
+        "kara-d-or": 4.0,
+        "june-d-erable": 2.0,
+        "kunamatata": 0.0,
+        "kalinka-du-grenat-f.-ouvrie": -2.0,
+        "kiss-me-de-navary-f.-nivard": -4.0,
+        "kynte-flush": -6.0,
+        "kelly-gede": -8.0,
+        "kiphyle-desbois": -10.0,
+        "jade-de-navary": -12.0
+      },
+      "normalized": {
+        "jacinthe-du-boiron-m.-abrivard": 1.0,
+        "kaliakie-phedo": 0.9167,
+        "jongleuse-de-bry-m.-ionescu": 0.8333,
+        "kiss-me-du-livet": 0.75,
+        "kara-d-or": 0.6667,
+        "june-d-erable": 0.5833,
+        "kunamatata": 0.5,
+        "kalinka-du-grenat-f.-ouvrie": 0.4167,
+        "kiss-me-de-navary-f.-nivard": 0.3333,
+        "kynte-flush": 0.25,
+        "kelly-gede": 0.1667,
+        "kiphyle-desbois": 0.0833,
+        "jade-de-navary": 0.0
+      },
+      "mean_rank": {
+        "jacinthe-du-boiron-m.-abrivard": 0.0,
+        "kaliakie-phedo": 1.0,
+        "jongleuse-de-bry-m.-ionescu": 2.0,
+        "kiss-me-du-livet": 3.0,
+        "kara-d-or": 4.0,
+        "june-d-erable": 5.0,
+        "kunamatata": 6.0,
+        "kalinka-du-grenat-f.-ouvrie": 7.0,
+        "kiss-me-de-navary-f.-nivard": 8.0,
+        "kynte-flush": 9.0,
+        "kelly-gede": 10.0,
+        "kiphyle-desbois": 11.0,
+        "jade-de-navary": 12.0
+      },
+      "rankings_used": 3
+    },
+    "notes": [
+      "Top 3 stable sur seulement 3/5 seeds — ordre à manier avec prudence"
+    ]
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "jongleuse-de-bry-m.-ionescu",
+        "name": "JONGLEUSE DE BRY",
+        "number": 1,
+        "signals": [
+          "l'analyse interne le place 10 rangs plus haut que le marché (interne 3 vs marché 13)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiss-me-de-navary-f.-nivard",
+        "name": "KISS ME DE NAVARY",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kara-d-or",
+        "name": "KARA D'OR",
+        "number": 3,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kunamatata",
+        "name": "KUNAMATATA",
+        "number": 4,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kaliakie-phedo",
+        "name": "KALIAKIE PHEDO",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kelly-gede",
+        "name": "KELLY GEDE",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kynte-flush",
+        "name": "KYNTE FLUSH",
+        "number": 7,
+        "signals": [
+          "cote fondue de -29% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiss-me-du-livet",
+        "name": "KISS ME DU LIVET",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jade-de-navary",
+        "name": "JADE DE NAVARY",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "jacinthe-du-boiron-m.-abrivard",
+        "name": "JACINTHE DU BOIRON",
+        "number": 10,
+        "signals": [
+          "cote fondue de -23% depuis le PDF, sans justification visible dans le journal",
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 1 vs marché 5)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "forte"
+      },
+      {
+        "horse_id": "june-d-erable",
+        "name": "JUNE D'ERABLE",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kalinka-du-grenat-f.-ouvrie",
+        "name": "KALINKA DU GRENAT",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "kiphyle-desbois",
+        "name": "KIPHYLE DESBOIS",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "jongleuse-de-bry-m.-ionescu",
+      "kynte-flush",
+      "jacinthe-du-boiron-m.-abrivard"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "3 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "jongleuse-de-bry-m.-ionescu",
+          "kiss-me-de-navary-f.-nivard",
+          "kara-d-or",
+          "kunamatata",
+          "kaliakie-phedo",
+          "kelly-gede",
+          "kynte-flush",
+          "kiss-me-du-livet",
+          "jade-de-navary",
+          "jacinthe-du-boiron-m.-abrivard",
+          "june-d-erable",
+          "kalinka-du-grenat-f.-ouvrie",
+          "kiphyle-desbois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "kaliakie-phedo",
+          "kunamatata",
+          "kiss-me-du-livet",
+          "jacinthe-du-boiron-m.-abrivard",
+          "kiphyle-desbois",
+          "june-d-erable",
+          "kynte-flush",
+          "kalinka-du-grenat-f.-ouvrie",
+          "kelly-gede",
+          "kara-d-or",
+          "kiss-me-de-navary-f.-nivard",
+          "jade-de-navary"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 7 chances retenues",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "kaliakie-phedo",
+          "jongleuse-de-bry-m.-ionescu",
+          "kiss-me-de-navary-f.-nivard",
+          "kara-d-or",
+          "kunamatata",
+          "kelly-gede",
+          "kynte-flush",
+          "kiss-me-du-livet",
+          "jade-de-navary",
+          "jacinthe-du-boiron-m.-abrivard",
+          "june-d-erable",
+          "kalinka-du-grenat-f.-ouvrie",
+          "kiphyle-desbois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "kiss-me-du-livet",
+          "jacinthe-du-boiron-m.-abrivard",
+          "kunamatata",
+          "kynte-flush",
+          "kelly-gede",
+          "june-d-erable",
+          "jongleuse-de-bry-m.-ionescu",
+          "kiss-me-de-navary-f.-nivard",
+          "kara-d-or",
+          "kaliakie-phedo",
+          "jade-de-navary",
+          "kalinka-du-grenat-f.-ouvrie",
+          "kiphyle-desbois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "jongleuse-de-bry-m.-ionescu",
+          "kiss-me-de-navary-f.-nivard",
+          "kara-d-or",
+          "kunamatata",
+          "kaliakie-phedo",
+          "kelly-gede",
+          "kynte-flush",
+          "kiss-me-du-livet",
+          "jade-de-navary",
+          "jacinthe-du-boiron-m.-abrivard",
+          "june-d-erable",
+          "kalinka-du-grenat-f.-ouvrie",
+          "kiphyle-desbois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-27T17:45:03.752446+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "jongleuse-de-bry-m.-ionescu": 0.011442,
+      "kiss-me-de-navary-f.-nivard": 0.038486,
+      "kara-d-or": 0.047039,
+      "kunamatata": 0.114419,
+      "kaliakie-phedo": 0.166019,
+      "kelly-gede": 0.021167,
+      "kynte-flush": 0.070558,
+      "kiss-me-du-livet": 0.235194,
+      "jade-de-navary": 0.018015,
+      "jacinthe-du-boiron-m.-abrivard": 0.08467,
+      "june-d-erable": 0.065131,
+      "kalinka-du-grenat-f.-ouvrie": 0.042335,
+      "kiphyle-desbois": 0.085525
+    },
+    "consensus_ranking": [
+      "kaliakie-phedo",
+      "kunamatata",
+      "kiss-me-du-livet",
+      "jacinthe-du-boiron-m.-abrivard",
+      "kiphyle-desbois",
+      "june-d-erable",
+      "kynte-flush",
+      "kalinka-du-grenat-f.-ouvrie",
+      "kelly-gede",
+      "kara-d-or",
+      "kiss-me-de-navary-f.-nivard",
+      "jade-de-navary"
+    ],
+    "convergence": 0.4286,
+    "notes": [
+      "convergence Top 5 interne/externe : 43%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "jongleuse-de-bry-m.-ionescu",
+      "kara-d-or"
+    ],
+    "externe_seulement": [
+      "kunamatata",
+      "kiphyle-desbois"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 4.6451,
+      "stabilite_seeds": 6.0,
+      "convergence_externe": 4.2857,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · JONGLEUSE DE BRY : aptitude",
+      "n°1 · JONGLEUSE DE BRY : shoeing",
+      "n°2 · KISS ME DE NAVARY : aptitude",
+      "n°2 · KISS ME DE NAVARY : shoeing",
+      "n°3 · KARA D'OR : aptitude",
+      "n°3 · KARA D'OR : shoeing",
+      "n°4 · KUNAMATATA : aptitude",
+      "n°4 · KUNAMATATA : shoeing",
+      "n°5 · KALIAKIE PHEDO : aptitude",
+      "n°5 · KALIAKIE PHEDO : shoeing",
+      "n°6 · KELLY GEDE : aptitude",
+      "n°6 · KELLY GEDE : shoeing",
+      "n°7 · KYNTE FLUSH : aptitude",
+      "n°7 · KYNTE FLUSH : shoeing",
+      "n°8 · KISS ME DU LIVET : aptitude",
+      "n°8 · KISS ME DU LIVET : shoeing",
+      "n°9 · JADE DE NAVARY : aptitude",
+      "n°9 · JADE DE NAVARY : shoeing",
+      "n°10 · JACINTHE DU BOIRON : aptitude",
+      "n°10 · JACINTHE DU BOIRON : shoeing",
+      "n°12 · JUNE D'ERABLE : aptitude",
+      "n°12 · JUNE D'ERABLE : shoeing",
+      "n°13 · KALINKA DU GRENAT : aptitude",
+      "n°13 · KALINKA DU GRENAT : shoeing",
+      "n°14 · KIPHYLE DESBOIS : aptitude",
+      "n°14 · KIPHYLE DESBOIS : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.93 (saturé à 2.0) → 4.6/10",
+      "stabilité inter-seeds = 60% → 6.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "complétude des données = 67% (26 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-27T19:15:00+00:00",
+    "betting_close": "2026-11-27T19:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-27T17:45:10.635871+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 79.82,
+    "schedule": {
+      "start_ouagadougou": "2026-11-27T19:15:00+00:00",
+      "start_paris": "2026-11-27T20:15:00+01:00",
+      "close_lonab": "2026-11-27T19:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "4+1",
+      "places": 5,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 10,
+      "cheval": "JACINTHE DU BOIRON",
+      "horse_id": "jacinthe-du-boiron-m.-abrivard"
+    },
+    {
+      "rang": 2,
+      "numero": 5,
+      "cheval": "KALIAKIE PHEDO",
+      "horse_id": "kaliakie-phedo"
+    },
+    {
+      "rang": 3,
+      "numero": 1,
+      "cheval": "JONGLEUSE DE BRY",
+      "horse_id": "jongleuse-de-bry-m.-ionescu"
+    },
+    {
+      "rang": 4,
+      "numero": 8,
+      "cheval": "KISS ME DU LIVET",
+      "horse_id": "kiss-me-du-livet"
+    },
+    {
+      "rang": 5,
+      "numero": 3,
+      "cheval": "KARA D'OR",
+      "horse_id": "kara-d-or"
+    },
+    {
+      "rang": 6,
+      "numero": 12,
+      "cheval": "JUNE D'ERABLE",
+      "horse_id": "june-d-erable"
+    },
+    {
+      "rang": 7,
+      "numero": 4,
+      "cheval": "KUNAMATATA",
+      "horse_id": "kunamatata"
+    },
+    {
+      "rang": 8,
+      "numero": 13,
+      "cheval": "KALINKA DU GRENAT",
+      "horse_id": "kalinka-du-grenat-f.-ouvrie"
+    },
+    {
+      "rang": 9,
+      "numero": 2,
+      "cheval": "KISS ME DE NAVARY",
+      "horse_id": "kiss-me-de-navary-f.-nivard"
+    },
+    {
+      "rang": 10,
+      "numero": 7,
+      "cheval": "KYNTE FLUSH",
+      "horse_id": "kynte-flush"
+    },
+    {
+      "rang": 11,
+      "numero": 6,
+      "cheval": "KELLY GEDE",
+      "horse_id": "kelly-gede"
+    },
+    {
+      "rang": 12,
+      "numero": 14,
+      "cheval": "KIPHYLE DESBOIS",
+      "horse_id": "kiphyle-desbois"
+    },
+    {
+      "rang": 13,
+      "numero": 9,
+      "cheval": "JADE DE NAVARY",
+      "horse_id": "jade-de-navary"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 10,
+      "cheval": "JACINTHE DU BOIRON",
+      "score": 7.8774
+    },
+    {
+      "numero": 5,
+      "cheval": "KALIAKIE PHEDO",
+      "score": 6.9484
+    },
+    {
+      "numero": 1,
+      "cheval": "JONGLEUSE DE BRY",
+      "score": 6.6754
+    },
+    {
+      "numero": 8,
+      "cheval": "KISS ME DU LIVET",
+      "score": 6.6643
+    },
+    {
+      "numero": 3,
+      "cheval": "KARA D'OR",
+      "score": 5.7306
+    },
+    {
+      "numero": 12,
+      "cheval": "JUNE D'ERABLE",
+      "score": 5.6806
+    },
+    {
+      "numero": 4,
+      "cheval": "KUNAMATATA",
+      "score": 5.3838
+    },
+    {
+      "numero": 13,
+      "cheval": "KALINKA DU GRENAT",
+      "score": 5.2939
+    },
+    {
+      "numero": 2,
+      "cheval": "KISS ME DE NAVARY",
+      "score": 5.0319
+    },
+    {
+      "numero": 7,
+      "cheval": "KYNTE FLUSH",
+      "score": 4.6448
+    },
+    {
+      "numero": 6,
+      "cheval": "KELLY GEDE",
+      "score": 4.1995
+    },
+    {
+      "numero": 14,
+      "cheval": "KIPHYLE DESBOIS",
+      "score": 4.0171
+    },
+    {
+      "numero": 9,
+      "cheval": "JADE DE NAVARY",
+      "score": 3.77
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 7.4359,
+      "entropie_norm": 0.872,
+      "p_favori": 0.2518,
+      "ratio_1_2": 1.4589
+    },
+    "p_gagnant_dans_selection": 0.702,
+    "nb_attendu_dans_top5": 2.671,
+    "p_au_moins": {
+      "1": 0.9962,
+      "2": 0.9233,
+      "3": 0.5844,
+      "4": 0.158,
+      "5": 0.0094
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-27T17:30:00+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "58 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 8,
+        "cheval": "KISS ME DU LIVET",
+        "cote": 3.6,
+        "p_gagne": 0.2518,
+        "p_top3": 0.4874,
+        "p_top5": 0.6824,
+        "rang_systeme": 4
+      },
+      {
+        "numero": 5,
+        "cheval": "KALIAKIE PHEDO",
+        "cote": 5.1,
+        "p_gagne": 0.1726,
+        "p_top3": 0.3967,
+        "p_top5": 0.5968,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 4,
+        "cheval": "KUNAMATATA",
+        "cote": 7.4,
+        "p_gagne": 0.1153,
+        "p_top3": 0.3186,
+        "p_top5": 0.506,
+        "rang_systeme": 7
+      },
+      {
+        "numero": 14,
+        "cheval": "KIPHYLE DESBOIS",
+        "cote": 9.9,
+        "p_gagne": 0.0841,
+        "p_top3": 0.2613,
+        "p_top5": 0.4446,
+        "rang_systeme": 12
+      },
+      {
+        "numero": 10,
+        "cheval": "JACINTHE DU BOIRON",
+        "cote": 10.0,
+        "p_gagne": 0.0832,
+        "p_top3": 0.2576,
+        "p_top5": 0.4416,
+        "rang_systeme": 1
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 14,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-27T17:45:10.681320+00:00"
+}
