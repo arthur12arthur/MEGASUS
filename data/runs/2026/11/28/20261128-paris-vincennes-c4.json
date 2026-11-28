@@ -1,0 +1,2177 @@
+{
+  "kind": "daily_analysis",
+  "race_id": "20261128-paris-vincennes-c4",
+  "date": "2026-11-28",
+  "meta": {
+    "operator": "LONAB",
+    "country": "Burkina Faso",
+    "meeting": null,
+    "hippodrome": "PARIS-VINCENNES",
+    "date": "2026-11-28",
+    "start_time": "2026-11-28T14:15:00+00:00",
+    "race_number": 4,
+    "name": "PRIX D'ORAISON",
+    "distance_m": 2700,
+    "terrain": null,
+    "prize": null,
+    "discipline": "trot_attele",
+    "race_type": "ATTELE",
+    "source_url": "https://lonab.bf/sites/default/files/2026-11/JH_PMUB_DU_28-11-2026.pdf",
+    "race_country": "France",
+    "betting_close": "2026-11-28T14:05:00+00:00",
+    "bet_type": "Tiercé"
+  },
+  "discipline": {
+    "value": "trot_attele",
+    "label": "Trot attelé",
+    "raison": "champ officiel lu directement : 'ATTELE'",
+    "poids": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    }
+  },
+  "marketwatch": {
+    "as_of": "2026-11-28T13:43:28.352053+00:00",
+    "source": "panel externe / scraping",
+    "signals": [
+      {
+        "horse_id": "master-pit",
+        "name": "MASTER PIT",
+        "number": 1,
+        "odds_pdf": 13.0,
+        "odds_latest": 9.3,
+        "delta": -0.28461538461538455,
+        "implied_shift": -0.030603804797353168,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mexicain",
+        "name": "MEXICAIN",
+        "number": 2,
+        "odds_pdf": 127.0,
+        "odds_latest": 123.0,
+        "delta": -0.031496062992125984,
+        "implied_shift": -0.00025606555278151304,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "mustang-haufor",
+        "name": "MUSTANG HAUFOR",
+        "number": 3,
+        "odds_pdf": 21.0,
+        "odds_latest": 17.0,
+        "delta": -0.19047619047619047,
+        "implied_shift": -0.011204481792717089,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mec-de-mutrecy",
+        "name": "MEC DE MUTRECY",
+        "number": 4,
+        "odds_pdf": 18.0,
+        "odds_latest": 13.0,
+        "delta": -0.2777777777777778,
+        "implied_shift": -0.021367521367521375,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "money-di-malavita-d.-thomain",
+        "name": "MONEY DI MALAVITA",
+        "number": 5,
+        "odds_pdf": 23.0,
+        "odds_latest": 43.0,
+        "delta": 0.8695652173913043,
+        "implied_shift": 0.020222446916076844,
+        "direction": "derive",
+        "non_runner_alert": false,
+        "note": "cote en dérive à la hausse"
+      },
+      {
+        "horse_id": "mirabilis-vrie",
+        "name": "MIRABILIS VRIE",
+        "number": 6,
+        "odds_pdf": 27.0,
+        "odds_latest": 21.0,
+        "delta": -0.2222222222222222,
+        "implied_shift": -0.010582010582010581,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "moji-de-vandel",
+        "name": "MOJI DE VANDEL",
+        "number": 7,
+        "odds_pdf": 5.0,
+        "odds_latest": 4.3,
+        "delta": -0.14000000000000004,
+        "implied_shift": -0.03255813953488371,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "merginio",
+        "name": "MERGINIO",
+        "number": 8,
+        "odds_pdf": 25.0,
+        "odds_latest": 34.0,
+        "delta": 0.36,
+        "implied_shift": 0.010588235294117648,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "moscato-show",
+        "name": "MOSCATO SHOW",
+        "number": 9,
+        "odds_pdf": 12.0,
+        "odds_latest": 8.5,
+        "delta": -0.2916666666666667,
+        "implied_shift": -0.03431372549019608,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "martin-dol",
+        "name": "MARTIN DOL",
+        "number": 10,
+        "odds_pdf": 6.0,
+        "odds_latest": 4.8,
+        "delta": -0.20000000000000004,
+        "implied_shift": -0.041666666666666685,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "mystere-des-mares-l.-verriere",
+        "name": "MYSTERE DES MARES",
+        "number": 11,
+        "odds_pdf": 31.0,
+        "odds_latest": 29.0,
+        "delta": -0.06451612903225806,
+        "implied_shift": -0.0022246941045606233,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "maestro-de-brion-guillaume-martin-l.b.-martin",
+        "name": "MAESTRO DE BRION",
+        "number": 12,
+        "odds_pdf": 10.0,
+        "odds_latest": 9.9,
+        "delta": -0.009999999999999964,
+        "implied_shift": -0.0010101010101010027,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "medellin-ellis",
+        "name": "MEDELLIN ELLIS",
+        "number": 13,
+        "odds_pdf": 32.0,
+        "odds_latest": 37.0,
+        "delta": 0.15625,
+        "implied_shift": 0.0042229729729729715,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "murphy-du-poncelet",
+        "name": "MURPHY DU PONCELET",
+        "number": 14,
+        "odds_pdf": 38.0,
+        "odds_latest": 61.0,
+        "delta": 0.6052631578947368,
+        "implied_shift": 0.009922346850733389,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      },
+      {
+        "horse_id": "madmax-jef",
+        "name": "MADMAX JEF",
+        "number": 15,
+        "odds_pdf": 17.0,
+        "odds_latest": 13.0,
+        "delta": -0.23529411764705882,
+        "implied_shift": -0.018099547511312222,
+        "direction": "raccourci",
+        "non_runner_alert": false,
+        "note": "cote fondue sans justification visible dans le journal"
+      },
+      {
+        "horse_id": "major-meslois",
+        "name": "MAJOR MESLOIS",
+        "number": 16,
+        "odds_pdf": 57.0,
+        "odds_latest": 55.0,
+        "delta": -0.03508771929824561,
+        "implied_shift": -0.0006379585326953749,
+        "direction": "stable",
+        "non_runner_alert": false,
+        "note": ""
+      }
+    ],
+    "late_non_runners": [],
+    "warnings": []
+  },
+  "datafilter": {
+    "selected": [
+      "master-pit",
+      "mexicain",
+      "mustang-haufor",
+      "mec-de-mutrecy",
+      "mirabilis-vrie",
+      "moji-de-vandel",
+      "merginio",
+      "moscato-show",
+      "martin-dol",
+      "mystere-des-mares-l.-verriere",
+      "maestro-de-brion-guillaume-martin-l.b.-martin",
+      "medellin-ellis",
+      "murphy-du-poncelet",
+      "madmax-jef",
+      "major-meslois"
+    ],
+    "excluded": [
+      {
+        "horse_id": "money-di-malavita-d.-thomain",
+        "name": "MONEY DI MALAVITA",
+        "number": 5,
+        "reason": "score de risque 3 ≥ seuil 3",
+        "risk_points": 3
+      }
+    ],
+    "notes": []
+  },
+  "basescorer": {
+    "discipline": "trot_attele",
+    "weights": {
+      "historique": 0.25,
+      "forme": 0.2,
+      "aptitude": 0.2,
+      "technique": 0.2,
+      "fraicheur": 0.15
+    },
+    "scores": [
+      {
+        "horse_id": "moscato-show",
+        "name": "MOSCATO SHOW",
+        "number": 9,
+        "dimensions": {
+          "historique": 9.147583915345962,
+          "forme": 8.791044776119403,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.9891,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "master-pit",
+        "name": "MASTER PIT",
+        "number": 1,
+        "dimensions": {
+          "historique": 9.864500930884661,
+          "forme": 6.701492537313433,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.4587,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "martin-dol",
+        "name": "MARTIN DOL",
+        "number": 10,
+        "dimensions": {
+          "historique": 9.985182743873079,
+          "forme": 6.08955223880597,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 8.2538,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mustang-haufor",
+        "name": "MUSTANG HAUFOR",
+        "number": 3,
+        "dimensions": {
+          "historique": 5.904707435045614,
+          "forme": 7.156716417910448,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.4612,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mirabilis-vrie",
+        "name": "MIRABILIS VRIE",
+        "number": 6,
+        "dimensions": {
+          "historique": 6.713954976400207,
+          "forme": 5.656716417910449,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.2441,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "merginio",
+        "name": "MERGINIO",
+        "number": 8,
+        "dimensions": {
+          "historique": 6.559285850654204,
+          "forme": 5.3731343283582085,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 6.0321,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "maestro-de-brion-guillaume-martin-l.b.-martin",
+        "name": "MAESTRO DE BRION",
+        "number": 12,
+        "dimensions": {
+          "historique": 6.745595593437672,
+          "forme": 4.902985074626866,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.9267,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mec-de-mutrecy",
+        "name": "MEC DE MUTRECY",
+        "number": 4,
+        "dimensions": {
+          "historique": 6.523645289082475,
+          "forme": 4.522388059701493,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.6342,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mystere-des-mares-l.-verriere",
+        "name": "MYSTERE DES MARES",
+        "number": 11,
+        "dimensions": {
+          "historique": 7.371126533496434,
+          "forme": 3.343283582089552,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.581,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "mexicain",
+        "name": "MEXICAIN",
+        "number": 2,
+        "dimensions": {
+          "historique": 7.896727036631514,
+          "forme": 2.4477611940298503,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.475,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "medellin-ellis",
+        "name": "MEDELLIN ELLIS",
+        "number": 13,
+        "dimensions": {
+          "historique": 6.843822998879393,
+          "forme": 3.6417910447761193,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 5.4207,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "major-meslois",
+        "name": "MAJOR MESLOIS",
+        "number": 16,
+        "dimensions": {
+          "historique": 5.694444444444445,
+          "forme": 3.2611940298507465,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.613,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "moji-de-vandel",
+        "name": "MOJI DE VANDEL",
+        "number": 7,
+        "dimensions": {
+          "historique": 5.801043980917569,
+          "forme": 2.1044776119402986,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1581,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "murphy-du-poncelet",
+        "name": "MURPHY DU PONCELET",
+        "number": 14,
+        "dimensions": {
+          "historique": 5.974910802569195,
+          "forme": 1.8507462686567167,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 4.1419,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      },
+      {
+        "horse_id": "madmax-jef",
+        "name": "MADMAX JEF",
+        "number": 15,
+        "dimensions": {
+          "historique": 5.921362601962005,
+          "forme": 1.1343283582089552,
+          "aptitude": null,
+          "fraicheur": null,
+          "technique": null
+        },
+        "weights_used": {
+          "historique": 0.5555555555555556,
+          "forme": 0.4444444444444445
+        },
+        "competitiveness": 3.7938,
+        "undetermined": [
+          "aptitude",
+          "fraicheur",
+          "technique"
+        ],
+        "detail": {
+          "technique_detail": {
+            "split": {
+              "ferrure": 0.6,
+              "driver": 0.25,
+              "fiabilite": 0.15
+            },
+            "ferrure": null,
+            "driver": {
+              "observed": null,
+              "runs": null
+            },
+            "fiabilite": {
+              "observed": null,
+              "runs": null
+            }
+          }
+        }
+      }
+    ]
+  },
+  "consensusinterne": {
+    "ranking": [
+      "moscato-show",
+      "master-pit",
+      "martin-dol",
+      "mustang-haufor",
+      "mirabilis-vrie",
+      "merginio",
+      "maestro-de-brion-guillaume-martin-l.b.-martin",
+      "mec-de-mutrecy",
+      "mystere-des-mares-l.-verriere",
+      "mexicain",
+      "medellin-ellis",
+      "major-meslois",
+      "moji-de-vandel",
+      "murphy-du-poncelet",
+      "madmax-jef"
+    ],
+    "stability": 1.0,
+    "is_stable": true,
+    "montecarlo": {
+      "seeds": [
+        11,
+        23,
+        37,
+        51,
+        73
+      ],
+      "simulations": 10000,
+      "concentration": 0.5,
+      "probabilities": {
+        "master-pit": {
+          "horse_id": "master-pit",
+          "name": "MASTER PIT",
+          "p_win": 0.17174,
+          "p_top3": 0.4786,
+          "p_top5": 0.71874,
+          "expected_position": 4.1681,
+          "position_distribution": {
+            "1": 0.17174,
+            "2": 0.15874,
+            "3": 0.14812,
+            "4": 0.12966,
+            "5": 0.11048,
+            "6": 0.08608,
+            "7": 0.06764,
+            "8": 0.05072,
+            "9": 0.03468,
+            "10": 0.02074,
+            "11": 0.01246,
+            "12": 0.00596,
+            "13": 0.0021,
+            "14": 0.0008,
+            "15": 8e-05
+          }
+        },
+        "mexicain": {
+          "horse_id": "mexicain",
+          "name": "MEXICAIN",
+          "p_win": 0.03868,
+          "p_top3": 0.12786,
+          "p_top5": 0.24126,
+          "expected_position": 8.6797,
+          "position_distribution": {
+            "1": 0.03868,
+            "2": 0.04128,
+            "3": 0.0479,
+            "4": 0.05298,
+            "5": 0.06042,
+            "6": 0.06754,
+            "7": 0.0716,
+            "8": 0.07456,
+            "9": 0.08066,
+            "10": 0.08882,
+            "11": 0.08666,
+            "12": 0.0874,
+            "13": 0.08502,
+            "14": 0.07084,
+            "15": 0.04564
+          }
+        },
+        "mustang-haufor": {
+          "horse_id": "mustang-haufor",
+          "name": "MUSTANG HAUFOR",
+          "p_win": 0.0626,
+          "p_top3": 0.20286,
+          "p_top5": 0.36578,
+          "expected_position": 7.0735,
+          "position_distribution": {
+            "1": 0.0626,
+            "2": 0.06802,
+            "3": 0.07224,
+            "4": 0.07868,
+            "5": 0.08424,
+            "6": 0.0896,
+            "7": 0.08946,
+            "8": 0.0874,
+            "9": 0.0844,
+            "10": 0.07822,
+            "11": 0.06988,
+            "12": 0.05574,
+            "13": 0.04414,
+            "14": 0.02464,
+            "15": 0.01074
+          }
+        },
+        "mec-de-mutrecy": {
+          "horse_id": "mec-de-mutrecy",
+          "name": "MEC DE MUTRECY",
+          "p_win": 0.04082,
+          "p_top3": 0.1366,
+          "p_top5": 0.25638,
+          "expected_position": 8.474,
+          "position_distribution": {
+            "1": 0.04082,
+            "2": 0.04482,
+            "3": 0.05096,
+            "4": 0.05568,
+            "5": 0.0641,
+            "6": 0.06646,
+            "7": 0.07376,
+            "8": 0.08052,
+            "9": 0.0825,
+            "10": 0.08642,
+            "11": 0.08726,
+            "12": 0.08626,
+            "13": 0.07776,
+            "14": 0.06456,
+            "15": 0.03812
+          }
+        },
+        "mirabilis-vrie": {
+          "horse_id": "mirabilis-vrie",
+          "name": "MIRABILIS VRIE",
+          "p_win": 0.05832,
+          "p_top3": 0.1826,
+          "p_top5": 0.33304,
+          "expected_position": 7.4461,
+          "position_distribution": {
+            "1": 0.05832,
+            "2": 0.05966,
+            "3": 0.06462,
+            "4": 0.07192,
+            "5": 0.07852,
+            "6": 0.08302,
+            "7": 0.08498,
+            "8": 0.08898,
+            "9": 0.08636,
+            "10": 0.08126,
+            "11": 0.07492,
+            "12": 0.06598,
+            "13": 0.05152,
+            "14": 0.0351,
+            "15": 0.01484
+          }
+        },
+        "moji-de-vandel": {
+          "horse_id": "moji-de-vandel",
+          "name": "MOJI DE VANDEL",
+          "p_win": 0.01912,
+          "p_top3": 0.06732,
+          "p_top5": 0.1298,
+          "expected_position": 10.81,
+          "position_distribution": {
+            "1": 0.01912,
+            "2": 0.02314,
+            "3": 0.02506,
+            "4": 0.02998,
+            "5": 0.0325,
+            "6": 0.03906,
+            "7": 0.04306,
+            "8": 0.04922,
+            "9": 0.0574,
+            "10": 0.06498,
+            "11": 0.07776,
+            "12": 0.09106,
+            "13": 0.11238,
+            "14": 0.14716,
+            "15": 0.18812
+          }
+        },
+        "merginio": {
+          "horse_id": "merginio",
+          "name": "MERGINIO",
+          "p_win": 0.0513,
+          "p_top3": 0.16776,
+          "p_top5": 0.30628,
+          "expected_position": 7.7793,
+          "position_distribution": {
+            "1": 0.0513,
+            "2": 0.05474,
+            "3": 0.06172,
+            "4": 0.0657,
+            "5": 0.07282,
+            "6": 0.0797,
+            "7": 0.0832,
+            "8": 0.08308,
+            "9": 0.0852,
+            "10": 0.085,
+            "11": 0.07844,
+            "12": 0.07354,
+            "13": 0.06026,
+            "14": 0.0438,
+            "15": 0.0215
+          }
+        },
+        "moscato-show": {
+          "horse_id": "moscato-show",
+          "name": "MOSCATO SHOW",
+          "p_win": 0.21806,
+          "p_top3": 0.57074,
+          "p_top5": 0.80272,
+          "expected_position": 3.5677,
+          "position_distribution": {
+            "1": 0.21806,
+            "2": 0.192,
+            "3": 0.16068,
+            "4": 0.13288,
+            "5": 0.0991,
+            "6": 0.07102,
+            "7": 0.05252,
+            "8": 0.03404,
+            "9": 0.02024,
+            "10": 0.01036,
+            "11": 0.00572,
+            "12": 0.00234,
+            "13": 0.00082,
+            "14": 0.00022
+          }
+        },
+        "martin-dol": {
+          "horse_id": "martin-dol",
+          "name": "MARTIN DOL",
+          "p_win": 0.15464,
+          "p_top3": 0.44318,
+          "p_top5": 0.68066,
+          "expected_position": 4.428,
+          "position_distribution": {
+            "1": 0.15464,
+            "2": 0.15012,
+            "3": 0.13842,
+            "4": 0.12618,
+            "5": 0.1113,
+            "6": 0.09242,
+            "7": 0.0748,
+            "8": 0.05664,
+            "9": 0.03978,
+            "10": 0.02622,
+            "11": 0.01546,
+            "12": 0.0088,
+            "13": 0.00376,
+            "14": 0.00128,
+            "15": 0.00018
+          }
+        },
+        "mystere-des-mares-l.-verriere": {
+          "horse_id": "mystere-des-mares-l.-verriere",
+          "name": "MYSTERE DES MARES",
+          "p_win": 0.0387,
+          "p_top3": 0.13272,
+          "p_top5": 0.24656,
+          "expected_position": 8.5697,
+          "position_distribution": {
+            "1": 0.0387,
+            "2": 0.04516,
+            "3": 0.04886,
+            "4": 0.05308,
+            "5": 0.06076,
+            "6": 0.06796,
+            "7": 0.07474,
+            "8": 0.07876,
+            "9": 0.08154,
+            "10": 0.08634,
+            "11": 0.08864,
+            "12": 0.08626,
+            "13": 0.08118,
+            "14": 0.0661,
+            "15": 0.04192
+          }
+        },
+        "maestro-de-brion-guillaume-martin-l.b.-martin": {
+          "horse_id": "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "name": "MAESTRO DE BRION",
+          "p_win": 0.04852,
+          "p_top3": 0.1586,
+          "p_top5": 0.29182,
+          "expected_position": 7.9666,
+          "position_distribution": {
+            "1": 0.04852,
+            "2": 0.0506,
+            "3": 0.05948,
+            "4": 0.06364,
+            "5": 0.06958,
+            "6": 0.07438,
+            "7": 0.07996,
+            "8": 0.08444,
+            "9": 0.0877,
+            "10": 0.08638,
+            "11": 0.08206,
+            "12": 0.07408,
+            "13": 0.06368,
+            "14": 0.05062,
+            "15": 0.02488
+          }
+        },
+        "medellin-ellis": {
+          "horse_id": "medellin-ellis",
+          "name": "MEDELLIN ELLIS",
+          "p_win": 0.03722,
+          "p_top3": 0.12258,
+          "p_top5": 0.23136,
+          "expected_position": 8.8142,
+          "position_distribution": {
+            "1": 0.03722,
+            "2": 0.04152,
+            "3": 0.04384,
+            "4": 0.05016,
+            "5": 0.05862,
+            "6": 0.06376,
+            "7": 0.06986,
+            "8": 0.07626,
+            "9": 0.08032,
+            "10": 0.0854,
+            "11": 0.0922,
+            "12": 0.08928,
+            "13": 0.08796,
+            "14": 0.07288,
+            "15": 0.05072
+          }
+        },
+        "murphy-du-poncelet": {
+          "horse_id": "murphy-du-poncelet",
+          "name": "MURPHY DU PONCELET",
+          "p_win": 0.01976,
+          "p_top3": 0.0678,
+          "p_top5": 0.1268,
+          "expected_position": 10.8154,
+          "position_distribution": {
+            "1": 0.01976,
+            "2": 0.02252,
+            "3": 0.02552,
+            "4": 0.02838,
+            "5": 0.03062,
+            "6": 0.03804,
+            "7": 0.04522,
+            "8": 0.05072,
+            "9": 0.05852,
+            "10": 0.06502,
+            "11": 0.07626,
+            "12": 0.09226,
+            "13": 0.11436,
+            "14": 0.1447,
+            "15": 0.1881
+          }
+        },
+        "madmax-jef": {
+          "horse_id": "madmax-jef",
+          "name": "MADMAX JEF",
+          "p_win": 0.0162,
+          "p_top3": 0.056,
+          "p_top5": 0.10818,
+          "expected_position": 11.3141,
+          "position_distribution": {
+            "1": 0.0162,
+            "2": 0.0185,
+            "3": 0.0213,
+            "4": 0.02532,
+            "5": 0.02686,
+            "6": 0.03294,
+            "7": 0.03778,
+            "8": 0.04416,
+            "9": 0.05264,
+            "10": 0.05876,
+            "11": 0.06874,
+            "12": 0.08594,
+            "13": 0.10672,
+            "14": 0.15218,
+            "15": 0.25196
+          }
+        },
+        "major-meslois": {
+          "horse_id": "major-meslois",
+          "name": "MAJOR MESLOIS",
+          "p_win": 0.02432,
+          "p_top3": 0.08478,
+          "p_top5": 0.16062,
+          "expected_position": 10.0936,
+          "position_distribution": {
+            "1": 0.02432,
+            "2": 0.02918,
+            "3": 0.03128,
+            "4": 0.03576,
+            "5": 0.04008,
+            "6": 0.04802,
+            "7": 0.05142,
+            "8": 0.0605,
+            "9": 0.06806,
+            "10": 0.07608,
+            "11": 0.08354,
+            "12": 0.0951,
+            "13": 0.10834,
+            "14": 0.12512,
+            "15": 0.1232
+          }
+        }
+      },
+      "per_seed_top": {
+        "11": [
+          "moscato-show",
+          "master-pit",
+          "martin-dol"
+        ],
+        "23": [
+          "moscato-show",
+          "master-pit",
+          "martin-dol"
+        ],
+        "37": [
+          "moscato-show",
+          "master-pit",
+          "martin-dol"
+        ],
+        "51": [
+          "moscato-show",
+          "master-pit",
+          "martin-dol"
+        ],
+        "73": [
+          "moscato-show",
+          "master-pit",
+          "martin-dol"
+        ]
+      },
+      "reference_top": [
+        "martin-dol",
+        "master-pit",
+        "moscato-show"
+      ],
+      "stable_seeds": 5,
+      "stability": 1.0,
+      "is_stable": true
+    },
+    "borda_seeds": {
+      "points": {
+        "moscato-show": 10.0,
+        "master-pit": 5.0,
+        "martin-dol": 0.0
+      },
+      "order": [
+        "moscato-show",
+        "master-pit",
+        "martin-dol"
+      ],
+      "rankings_used": 5
+    },
+    "borda_scores": {
+      "points": {
+        "moscato-show": 14.0,
+        "master-pit": 13.0,
+        "martin-dol": 12.0,
+        "mustang-haufor": 11.0,
+        "mirabilis-vrie": 10.0,
+        "merginio": 9.0,
+        "maestro-de-brion-guillaume-martin-l.b.-martin": 8.0,
+        "mec-de-mutrecy": 7.0,
+        "mystere-des-mares-l.-verriere": 6.0,
+        "mexicain": 5.0,
+        "medellin-ellis": 4.0,
+        "major-meslois": 3.0,
+        "moji-de-vandel": 2.0,
+        "murphy-du-poncelet": 1.0,
+        "madmax-jef": 0.0
+      },
+      "order": [
+        "moscato-show",
+        "master-pit",
+        "martin-dol",
+        "mustang-haufor",
+        "mirabilis-vrie",
+        "merginio",
+        "maestro-de-brion-guillaume-martin-l.b.-martin",
+        "mec-de-mutrecy",
+        "mystere-des-mares-l.-verriere",
+        "mexicain",
+        "medellin-ellis",
+        "major-meslois",
+        "moji-de-vandel",
+        "murphy-du-poncelet",
+        "madmax-jef"
+      ],
+      "rankings_used": 1
+    },
+    "fusion": {
+      "order": [
+        "moscato-show",
+        "master-pit",
+        "martin-dol",
+        "mustang-haufor",
+        "mirabilis-vrie",
+        "merginio",
+        "maestro-de-brion-guillaume-martin-l.b.-martin",
+        "mec-de-mutrecy",
+        "mystere-des-mares-l.-verriere",
+        "mexicain",
+        "medellin-ellis",
+        "major-meslois",
+        "moji-de-vandel",
+        "murphy-du-poncelet",
+        "madmax-jef"
+      ],
+      "copeland": {
+        "moscato-show": 14.0,
+        "master-pit": 12.0,
+        "martin-dol": 10.0,
+        "mustang-haufor": 8.0,
+        "mirabilis-vrie": 6.0,
+        "merginio": 4.0,
+        "maestro-de-brion-guillaume-martin-l.b.-martin": 2.0,
+        "mec-de-mutrecy": 0.0,
+        "mystere-des-mares-l.-verriere": -2.0,
+        "mexicain": -4.0,
+        "medellin-ellis": -6.0,
+        "major-meslois": -8.0,
+        "moji-de-vandel": -10.0,
+        "murphy-du-poncelet": -12.0,
+        "madmax-jef": -14.0
+      },
+      "normalized": {
+        "moscato-show": 1.0,
+        "master-pit": 0.9286,
+        "martin-dol": 0.8571,
+        "mustang-haufor": 0.7857,
+        "mirabilis-vrie": 0.7143,
+        "merginio": 0.6429,
+        "maestro-de-brion-guillaume-martin-l.b.-martin": 0.5714,
+        "mec-de-mutrecy": 0.5,
+        "mystere-des-mares-l.-verriere": 0.4286,
+        "mexicain": 0.3571,
+        "medellin-ellis": 0.2857,
+        "major-meslois": 0.2143,
+        "moji-de-vandel": 0.1429,
+        "murphy-du-poncelet": 0.0714,
+        "madmax-jef": 0.0
+      },
+      "mean_rank": {
+        "moscato-show": 0.0,
+        "master-pit": 1.0,
+        "martin-dol": 2.0,
+        "mustang-haufor": 3.0,
+        "mirabilis-vrie": 4.0,
+        "merginio": 5.0,
+        "maestro-de-brion-guillaume-martin-l.b.-martin": 6.0,
+        "mec-de-mutrecy": 7.0,
+        "mystere-des-mares-l.-verriere": 8.0,
+        "mexicain": 9.0,
+        "medellin-ellis": 10.0,
+        "major-meslois": 11.0,
+        "moji-de-vandel": 12.0,
+        "murphy-du-poncelet": 13.0,
+        "madmax-jef": 14.0
+      },
+      "rankings_used": 3
+    },
+    "notes": []
+  },
+  "hades": {
+    "signals": [
+      {
+        "horse_id": "master-pit",
+        "name": "MASTER PIT",
+        "number": 1,
+        "signals": [
+          "cote fondue de -28% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mexicain",
+        "name": "MEXICAIN",
+        "number": 2,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mustang-haufor",
+        "name": "MUSTANG HAUFOR",
+        "number": 3,
+        "signals": [
+          "l'analyse interne le place 4 rangs plus haut que le marché (interne 4 vs marché 8)",
+          "aucune mise en avant dans le journal malgré des critères internes favorables"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mec-de-mutrecy",
+        "name": "MEC DE MUTRECY",
+        "number": 4,
+        "signals": [
+          "cote fondue de -28% depuis le PDF, sans justification visible dans le journal"
+        ],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "money-di-malavita-d.-thomain",
+        "name": "MONEY DI MALAVITA",
+        "number": 5,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mirabilis-vrie",
+        "name": "MIRABILIS VRIE",
+        "number": 6,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "moji-de-vandel",
+        "name": "MOJI DE VANDEL",
+        "number": 7,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "merginio",
+        "name": "MERGINIO",
+        "number": 8,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "moscato-show",
+        "name": "MOSCATO SHOW",
+        "number": 9,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "martin-dol",
+        "name": "MARTIN DOL",
+        "number": 10,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "mystere-des-mares-l.-verriere",
+        "name": "MYSTERE DES MARES",
+        "number": 11,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "maestro-de-brion-guillaume-martin-l.b.-martin",
+        "name": "MAESTRO DE BRION",
+        "number": 12,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "medellin-ellis",
+        "name": "MEDELLIN ELLIS",
+        "number": 13,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "murphy-du-poncelet",
+        "name": "MURPHY DU PONCELET",
+        "number": 14,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "madmax-jef",
+        "name": "MADMAX JEF",
+        "number": 15,
+        "signals": [],
+        "severity": "faible"
+      },
+      {
+        "horse_id": "major-meslois",
+        "name": "MAJOR MESLOIS",
+        "number": 16,
+        "signals": [],
+        "severity": "faible"
+      }
+    ],
+    "flagged": [
+      "master-pit",
+      "mustang-haufor",
+      "mec-de-mutrecy"
+    ],
+    "notes": [
+      "HADES est un signal annexe : il ne modifie aucun score et ne retire aucun cheval du classement.",
+      "2 signal(s) moins solide(s) écarté(s) : HADES reste limité à 3 chevaux par course."
+    ]
+  },
+  "externalconsensus": {
+    "panel_consulted": [
+      "Equidia"
+    ],
+    "additional_found": [],
+    "failed_sources": [
+      "Genybet",
+      "Canal Turf",
+      "PMU",
+      "France Galop",
+      "Paris-Turf",
+      "ZEturf",
+      "Turf BZH",
+      "RueDesJoueurs",
+      "Betclic Turf",
+      "Turfomania",
+      "Quinté du Jour"
+    ],
+    "picks": [
+      {
+        "source": "Genybet",
+        "ranking": [
+          "martin-dol",
+          "master-pit",
+          "mexicain",
+          "mustang-haufor",
+          "mec-de-mutrecy",
+          "money-di-malavita-d.-thomain",
+          "mirabilis-vrie",
+          "moji-de-vandel",
+          "merginio",
+          "moscato-show",
+          "mystere-des-mares-l.-verriere",
+          "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "medellin-ellis",
+          "murphy-du-poncelet",
+          "madmax-jef",
+          "major-meslois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Equidia",
+        "ranking": [
+          "moji-de-vandel",
+          "martin-dol",
+          "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "moscato-show",
+          "master-pit",
+          "madmax-jef",
+          "mec-de-mutrecy",
+          "money-di-malavita-d.-thomain",
+          "mustang-haufor",
+          "merginio",
+          "mirabilis-vrie",
+          "mystere-des-mares-l.-verriere",
+          "medellin-ellis",
+          "murphy-du-poncelet"
+        ],
+        "coverage": 1.0,
+        "usable": true,
+        "note": "pronostic étiqueté (« bases / belles chances ») : 8 chances retenues",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Canal Turf",
+        "ranking": [
+          "moscato-show",
+          "master-pit",
+          "mexicain",
+          "mustang-haufor",
+          "mec-de-mutrecy",
+          "money-di-malavita-d.-thomain",
+          "mirabilis-vrie",
+          "moji-de-vandel",
+          "merginio",
+          "martin-dol",
+          "mystere-des-mares-l.-verriere",
+          "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "medellin-ellis",
+          "murphy-du-poncelet",
+          "madmax-jef",
+          "major-meslois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "PMU",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "France Galop",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Paris-Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "ZEturf",
+        "ranking": [
+          "moji-de-vandel",
+          "martin-dol",
+          "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "mec-de-mutrecy",
+          "moscato-show",
+          "master-pit",
+          "mustang-haufor",
+          "madmax-jef",
+          "mexicain",
+          "money-di-malavita-d.-thomain",
+          "mirabilis-vrie",
+          "merginio",
+          "mystere-des-mares-l.-verriere",
+          "medellin-ellis",
+          "murphy-du-poncelet",
+          "major-meslois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turf BZH",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "RueDesJoueurs",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Betclic Turf",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Turfomania",
+        "ranking": [
+          "master-pit",
+          "mexicain",
+          "mustang-haufor",
+          "mec-de-mutrecy",
+          "money-di-malavita-d.-thomain",
+          "mirabilis-vrie",
+          "moji-de-vandel",
+          "merginio",
+          "moscato-show",
+          "martin-dol",
+          "mystere-des-mares-l.-verriere",
+          "maestro-de-brion-guillaume-martin-l.b.-martin",
+          "medellin-ellis",
+          "murphy-du-poncelet",
+          "madmax-jef",
+          "major-meslois"
+        ],
+        "coverage": 1.0,
+        "usable": false,
+        "note": "page lue, mais l'ordre d'apparition des partants n'est pas un pronostic : non utilisé",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      },
+      {
+        "source": "Quinté du Jour",
+        "ranking": [],
+        "coverage": 0.0,
+        "usable": false,
+        "note": "recherche refusée (HTTP 202)",
+        "fetched_at": "2026-11-28T13:43:22.908751+00:00",
+        "is_panel_member": true
+      }
+    ],
+    "p_implicite": {
+      "master-pit": 0.090798,
+      "mexicain": 0.006865,
+      "mustang-haufor": 0.049672,
+      "mec-de-mutrecy": 0.064955,
+      "money-di-malavita-d.-thomain": 0.019638,
+      "mirabilis-vrie": 0.04021,
+      "moji-de-vandel": 0.196376,
+      "merginio": 0.024836,
+      "moscato-show": 0.099343,
+      "martin-dol": 0.175921,
+      "mystere-des-mares-l.-verriere": 0.029118,
+      "maestro-de-brion-guillaume-martin-l.b.-martin": 0.085295,
+      "medellin-ellis": 0.022822,
+      "murphy-du-poncelet": 0.013843,
+      "madmax-jef": 0.064955,
+      "major-meslois": 0.015353
+    },
+    "consensus_ranking": [
+      "moji-de-vandel",
+      "martin-dol",
+      "maestro-de-brion-guillaume-martin-l.b.-martin",
+      "moscato-show",
+      "master-pit",
+      "madmax-jef",
+      "mec-de-mutrecy",
+      "money-di-malavita-d.-thomain",
+      "mustang-haufor",
+      "merginio",
+      "mirabilis-vrie",
+      "mystere-des-mares-l.-verriere",
+      "medellin-ellis",
+      "murphy-du-poncelet"
+    ],
+    "convergence": 0.4286,
+    "notes": [
+      "convergence Top 5 interne/externe : 43%",
+      "seulement 1 sources du panel consultées (minimum visé : 3)"
+    ]
+  },
+  "divergences": {
+    "interne_seulement": [
+      "mustang-haufor",
+      "mirabilis-vrie"
+    ],
+    "externe_seulement": [
+      "moji-de-vandel",
+      "maestro-de-brion-guillaume-martin-l.b.-martin"
+    ]
+  },
+  "identification": [],
+  "confiance": {
+    "index": 4.9,
+    "level": "faible",
+    "components": {
+      "ecart_scores": 2.652,
+      "stabilite_seeds": 10.0,
+      "convergence_externe": 4.2857,
+      "completude_donnees": 6.6667
+    },
+    "missing_data": [
+      "n°1 · MASTER PIT : aptitude",
+      "n°1 · MASTER PIT : shoeing",
+      "n°2 · MEXICAIN : aptitude",
+      "n°2 · MEXICAIN : shoeing",
+      "n°3 · MUSTANG HAUFOR : aptitude",
+      "n°3 · MUSTANG HAUFOR : shoeing",
+      "n°4 · MEC DE MUTRECY : aptitude",
+      "n°4 · MEC DE MUTRECY : shoeing",
+      "n°5 · MONEY DI MALAVITA : aptitude",
+      "n°5 · MONEY DI MALAVITA : shoeing",
+      "n°6 · MIRABILIS VRIE : aptitude",
+      "n°6 · MIRABILIS VRIE : shoeing",
+      "n°7 · MOJI DE VANDEL : aptitude",
+      "n°7 · MOJI DE VANDEL : shoeing",
+      "n°8 · MERGINIO : aptitude",
+      "n°8 · MERGINIO : shoeing",
+      "n°9 · MOSCATO SHOW : aptitude",
+      "n°9 · MOSCATO SHOW : shoeing",
+      "n°10 · MARTIN DOL : aptitude",
+      "n°10 · MARTIN DOL : shoeing",
+      "n°11 · MYSTERE DES MARES : aptitude",
+      "n°11 · MYSTERE DES MARES : shoeing",
+      "n°12 · MAESTRO DE BRION : aptitude",
+      "n°12 · MAESTRO DE BRION : shoeing",
+      "n°13 · MEDELLIN ELLIS : aptitude",
+      "n°13 · MEDELLIN ELLIS : shoeing",
+      "n°14 · MURPHY DU PONCELET : aptitude",
+      "n°14 · MURPHY DU PONCELET : shoeing",
+      "n°15 · MADMAX JEF : aptitude",
+      "n°15 · MADMAX JEF : shoeing",
+      "n°16 · MAJOR MESLOIS : aptitude",
+      "n°16 · MAJOR MESLOIS : shoeing"
+    ],
+    "justification": [
+      "écart de score rang 1 / rang 2 = 0.53 (saturé à 2.0) → 2.7/10",
+      "stabilité inter-seeds = 100% → 10.0/10",
+      "convergence Top 5 interne/externe = 43% → 4.3/10",
+      "complétude des données = 67% (32 champ(s) manquant(s)) → 6.7/10",
+      "couverture du score = 45% du poids du modèle"
+    ],
+    "caps": [
+      "indice plafonné à 4.9 : le score ne repose que sur 45% du modèle (dimensions non déterminées)"
+    ]
+  },
+  "delai": {
+    "is_late": false,
+    "race_start": "2026-11-28T14:15:00+00:00",
+    "betting_close": "2026-11-28T14:05:00+00:00",
+    "race_started": false,
+    "now": "2026-11-28T13:43:28.397804+00:00",
+    "minutes_late": 0.0,
+    "minutes_to_close": 21.53,
+    "schedule": {
+      "start_ouagadougou": "2026-11-28T14:15:00+00:00",
+      "start_paris": "2026-11-28T15:15:00+01:00",
+      "close_lonab": "2026-11-28T14:05:00+00:00",
+      "close_source": "programme",
+      "offset_hours": 1.0
+    }
+  },
+  "relais": {
+    "operateur_relais": "LONAB",
+    "marche": "Burkina Faso",
+    "pays_course": "France",
+    "fuseau_course": "Europe/Paris",
+    "fuseau_marche": "Africa/Ouagadougou",
+    "pari_du_jour": {
+      "name": "Tiercé",
+      "places": 3,
+      "reason": "lu dans le programme"
+    },
+    "coherence_hippodrome": []
+  },
+  "classement": [
+    {
+      "rang": 1,
+      "numero": 9,
+      "cheval": "MOSCATO SHOW",
+      "horse_id": "moscato-show"
+    },
+    {
+      "rang": 2,
+      "numero": 1,
+      "cheval": "MASTER PIT",
+      "horse_id": "master-pit"
+    },
+    {
+      "rang": 3,
+      "numero": 10,
+      "cheval": "MARTIN DOL",
+      "horse_id": "martin-dol"
+    },
+    {
+      "rang": 4,
+      "numero": 3,
+      "cheval": "MUSTANG HAUFOR",
+      "horse_id": "mustang-haufor"
+    },
+    {
+      "rang": 5,
+      "numero": 6,
+      "cheval": "MIRABILIS VRIE",
+      "horse_id": "mirabilis-vrie"
+    },
+    {
+      "rang": 6,
+      "numero": 8,
+      "cheval": "MERGINIO",
+      "horse_id": "merginio"
+    },
+    {
+      "rang": 7,
+      "numero": 12,
+      "cheval": "MAESTRO DE BRION",
+      "horse_id": "maestro-de-brion-guillaume-martin-l.b.-martin"
+    },
+    {
+      "rang": 8,
+      "numero": 4,
+      "cheval": "MEC DE MUTRECY",
+      "horse_id": "mec-de-mutrecy"
+    },
+    {
+      "rang": 9,
+      "numero": 11,
+      "cheval": "MYSTERE DES MARES",
+      "horse_id": "mystere-des-mares-l.-verriere"
+    },
+    {
+      "rang": 10,
+      "numero": 2,
+      "cheval": "MEXICAIN",
+      "horse_id": "mexicain"
+    },
+    {
+      "rang": 11,
+      "numero": 13,
+      "cheval": "MEDELLIN ELLIS",
+      "horse_id": "medellin-ellis"
+    },
+    {
+      "rang": 12,
+      "numero": 16,
+      "cheval": "MAJOR MESLOIS",
+      "horse_id": "major-meslois"
+    },
+    {
+      "rang": 13,
+      "numero": 7,
+      "cheval": "MOJI DE VANDEL",
+      "horse_id": "moji-de-vandel"
+    },
+    {
+      "rang": 14,
+      "numero": 14,
+      "cheval": "MURPHY DU PONCELET",
+      "horse_id": "murphy-du-poncelet"
+    },
+    {
+      "rang": 15,
+      "numero": 15,
+      "cheval": "MADMAX JEF",
+      "horse_id": "madmax-jef"
+    }
+  ],
+  "competitivite": [
+    {
+      "numero": 9,
+      "cheval": "MOSCATO SHOW",
+      "score": 8.9891
+    },
+    {
+      "numero": 1,
+      "cheval": "MASTER PIT",
+      "score": 8.4587
+    },
+    {
+      "numero": 10,
+      "cheval": "MARTIN DOL",
+      "score": 8.2538
+    },
+    {
+      "numero": 3,
+      "cheval": "MUSTANG HAUFOR",
+      "score": 6.4612
+    },
+    {
+      "numero": 6,
+      "cheval": "MIRABILIS VRIE",
+      "score": 6.2441
+    },
+    {
+      "numero": 8,
+      "cheval": "MERGINIO",
+      "score": 6.0321
+    },
+    {
+      "numero": 12,
+      "cheval": "MAESTRO DE BRION",
+      "score": 5.9267
+    },
+    {
+      "numero": 4,
+      "cheval": "MEC DE MUTRECY",
+      "score": 5.6342
+    },
+    {
+      "numero": 11,
+      "cheval": "MYSTERE DES MARES",
+      "score": 5.581
+    },
+    {
+      "numero": 2,
+      "cheval": "MEXICAIN",
+      "score": 5.475
+    },
+    {
+      "numero": 13,
+      "cheval": "MEDELLIN ELLIS",
+      "score": 5.4207
+    },
+    {
+      "numero": 16,
+      "cheval": "MAJOR MESLOIS",
+      "score": 4.613
+    },
+    {
+      "numero": 7,
+      "cheval": "MOJI DE VANDEL",
+      "score": 4.1581
+    },
+    {
+      "numero": 14,
+      "cheval": "MURPHY DU PONCELET",
+      "score": 4.1419
+    },
+    {
+      "numero": 15,
+      "cheval": "MADMAX JEF",
+      "score": 3.7938
+    }
+  ],
+  "decision": {
+    "classe": "ouverte",
+    "ouverture": {
+      "n_eff": 8.4723,
+      "entropie_norm": 0.8597,
+      "p_favori": 0.2097,
+      "ratio_1_2": 1.1267
+    },
+    "p_gagnant_dans_selection": 0.6704,
+    "nb_attendu_dans_top5": 2.44,
+    "p_au_moins": {
+      "1": 0.9905,
+      "2": 0.8631,
+      "3": 0.477,
+      "4": 0.1046,
+      "5": 0.0052
+    },
+    "cote_source": "cote directe PMU",
+    "cote_horodatage": "2026-11-28T13:30:39+00:00",
+    "avertissements": [],
+    "criteres": [
+      {
+        "critere": "au moins 3 bons sur 5 ≥ 70 %",
+        "valeur": "48 %",
+        "respecte": false
+      },
+      {
+        "critere": "course lisible ou intermédiaire",
+        "valeur": "ouverte",
+        "respecte": false
+      }
+    ],
+    "selection": [
+      {
+        "numero": 7,
+        "cheval": "MOJI DE VANDEL",
+        "cote": 4.3,
+        "p_gagne": 0.2097,
+        "p_top3": 0.4159,
+        "p_top5": 0.5969,
+        "rang_systeme": 13
+      },
+      {
+        "numero": 10,
+        "cheval": "MARTIN DOL",
+        "cote": 4.8,
+        "p_gagne": 0.1862,
+        "p_top3": 0.3971,
+        "p_top5": 0.5787,
+        "rang_systeme": 3
+      },
+      {
+        "numero": 9,
+        "cheval": "MOSCATO SHOW",
+        "cote": 8.5,
+        "p_gagne": 0.1002,
+        "p_top3": 0.2784,
+        "p_top5": 0.4437,
+        "rang_systeme": 1
+      },
+      {
+        "numero": 1,
+        "cheval": "MASTER PIT",
+        "cote": 9.3,
+        "p_gagne": 0.0909,
+        "p_top3": 0.2563,
+        "p_top5": 0.4177,
+        "rang_systeme": 2
+      },
+      {
+        "numero": 12,
+        "cheval": "MAESTRO DE BRION",
+        "cote": 9.9,
+        "p_gagne": 0.0849,
+        "p_top3": 0.2422,
+        "p_top5": 0.4034,
+        "rang_systeme": 7
+      }
+    ]
+  },
+  "pmu": {
+    "status": "ok",
+    "resolu_par": "programme_pmu",
+    "matched": 16,
+    "unmatched_pmu": [],
+    "unmatched_race": [],
+    "warnings": []
+  },
+  "stored_at": "2026-11-28T13:43:28.418837+00:00"
+}
