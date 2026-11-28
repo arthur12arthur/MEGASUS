@@ -1,0 +1,31 @@
+{
+  "race_id": "20261128-paris-vincennes-c4",
+  "date": "2026-11-28",
+  "course": "PRIX D'ORAISON",
+  "arrivee_top5": [
+    7,
+    10,
+    5,
+    12,
+    4
+  ],
+  "systeme_gagnant_en_tete": false,
+  "systeme_gagnant_dans_top5": false,
+  "favori_marche": 7,
+  "favori_marche_place": 1,
+  "selection": [
+    7,
+    10,
+    9,
+    1,
+    12
+  ],
+  "bons_dans_top5": 3,
+  "gagnant_dans_selection": true,
+  "classe": "ouverte",
+  "attendu_bons": 2.44,
+  "attendu_gagnant_inclus": 0.6704,
+  "attendu_au_moins_3": 0.477,
+  "au_moins_3_reel": true,
+  "criteres_respectes": false
+}
